@@ -28,7 +28,7 @@ There is no historical news source in the stack. That was a deliberate scope dec
 **What this costs.** Moves in the last ~3 days get news citations. Older moves are explained from:
 
 - **SEC filings** — an 8-K or 10-Q within 2 days of the move. This covers earnings days, which are the largest and most interesting moves anyway, at `high` confidence.
-- **Peer moves** — whether the sector moved together, which distinguishes "this company had a bad day" from "the industry had a bad day."
+- **Connected-company moves** — whether its suppliers, customers, and competitors (from the knowledge graph, `backend/app/connections.py`) moved the same day, which distinguishes "this company had a bad day" from "its whole supply chain had a bad day."
 - **Price and volume** — the move's size relative to the 30-day average.
 
 Mid-period moves with no filing nearby come back as *"cause unverified"* at `low` confidence. That's the honest outcome and the system reports it plainly rather than inventing a reason.
@@ -95,7 +95,7 @@ Two consequences worth stating plainly:
 |---|---|
 | `GET /story/{symbol}` | Full bar series, beats with `citation_ids`, and an `evidence` map |
 | `GET /story/{symbol}/citation/{id}` | One evidence row: numbers + outbound URL, for the drill-down panel |
-| `GET /universe` | The 5 companies with sectors and peers |
+| `GET /universe` | The 5 companies with sectors and their knowledge-graph connections (supplier, customer, competitor) |
 | `GET /health` | Liveness |
 
 The frontend renders `citation_ids` as clickable markers on each sentence; clicking one opens the panel with that row's numbers and a link out to the source.

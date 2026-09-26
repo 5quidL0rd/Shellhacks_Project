@@ -6,8 +6,14 @@ from dotenv import load_dotenv
 
 BACKEND_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BACKEND_DIR / ".env")
+# Fall back to the project-root .env shared with the knowledge graph; values
+# already set (including from backend/.env) win.
+load_dotenv(BACKEND_DIR.parent / ".env")
 
 CACHE_DIR = BACKEND_DIR / "data" / "cache"
+# Knowledge graph export (python -m kg.export_edges); source of each company's connections.
+GRAPH_EDGES_CSV = Path(os.getenv(
+    "GRAPH_EDGES_CSV", BACKEND_DIR.parent / "data" / "exports" / "graph_edges.csv"))
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")

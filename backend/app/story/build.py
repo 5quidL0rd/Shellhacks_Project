@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from ..cache import load, save
+from ..connections import connections
 from ..config import STORY_LOOKBACK_DAYS
 from ..sources import edgar, news, prices
 from ..universe import get as get_company
@@ -44,14 +45,24 @@ def build_story(
     symbol = company.symbol
 
     bars = prices.daily_bars(symbol, days)
+    # Peers are the companies the knowledge graph connects this one to.
+    links = {c.symbol: c for c in connections(symbol)}
     peer_bars = {}
-    for peer in company.peers:
+    for peer in links:
         try:
             peer_bars[peer] = prices.daily_bars(peer, days)
         except Exception:
             continue  # a missing peer weakens the sector signal but is survivable
 
     moves = significant_moves(bars, peer_bars)
+    for move in moves:
+        # Say how each peer is connected, so the explanation can name it:
+        # "fell the same day its supplier TSMC fell 6%".
+        move["peer_relations"] = {
+            peer: {"relationship": links[peer].label, "detail": links[peer].detail,
+                   "source": links[peer].source}
+            for peer in move["peer_moves"]
+        }
 
     warnings: list[str] = []
     try:

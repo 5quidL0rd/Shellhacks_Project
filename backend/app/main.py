@@ -4,6 +4,7 @@ endpoints in plans.md belong to the backend owner and land alongside these.
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
+from .connections import connections
 from .story.build import get_story
 from .story.schema import Story
 from .universe import COMPANIES, SYMBOLS
@@ -26,7 +27,15 @@ def health() -> dict:
 @app.get("/universe")
 def universe() -> list[dict]:
     return [
-        {"symbol": c.symbol, "name": c.name, "sector": c.sector, "peers": list(c.peers)}
+        {
+            "symbol": c.symbol, "name": c.name, "sector": c.sector,
+            "peers": [link.symbol for link in connections(c.symbol)],
+            "connections": [
+                {"symbol": link.symbol, "relationship": link.label,
+                 "detail": link.detail, "source": link.source}
+                for link in connections(c.symbol)
+            ],
+        }
         for c in COMPANIES.values()
     ]
 

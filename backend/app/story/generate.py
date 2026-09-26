@@ -30,10 +30,14 @@ Hard rules:
 - Every beat must list the evidence ids it relied on in citation_ids. An
   explanation with no citation_ids is invalid.
 - If the evidence does not explain the move, say so plainly (for example: "No
-  company-specific news accompanied this drop; peers fell a similar amount, so
-  this looks sector-wide") and cite the price and peer evidence you do have.
-- When peer_move evidence shows peers moved the same way, say the move was
-  largely sector-wide. When peers were flat, say it was company-specific.
+  company-specific news accompanied this drop; its supplier TSM fell a similar
+  amount the same day") and cite the price and peer evidence you do have.
+- peer_move evidence covers companies connected to this one: its suppliers,
+  customers, and competitors. Name the relationship when you mention one ("its
+  supplier TSM", "competitor AMD"). When connected companies moved the same
+  way, say the move was shared with them rather than company-specific. When
+  they were flat or moved the other way, say it was company-specific. Do not
+  claim one company's move caused another's; only say they moved together.
 - Evidence of kind "sector" and "fundamental" is monthly or quarterly. Use it
   only in the arc, never as the cause of a single day's move.
 - Never give buy, sell, or hold advice. Never predict future prices. Describe
@@ -112,7 +116,12 @@ def build_prompt(
                 "pct_change": move["pct_change"],
                 "close": move["close"],
                 "volume_vs_30d_avg": move["volume_ratio"],
-                "peer_moves_same_day": move["peer_moves"],
+                "connected_moves_same_day": {
+                    peer: {"pct_change": pct,
+                           "relationship": move.get("peer_relations", {})
+                                               .get(peer, {}).get("relationship", "peer")}
+                    for peer, pct in move["peer_moves"].items()
+                },
                 "move_excluding_sector_pct": move["idiosyncratic_pct"],
                 "evidence": [
                     _evidence_for_prompt(item)

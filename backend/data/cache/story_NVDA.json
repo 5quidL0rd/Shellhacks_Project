@@ -1,7 +1,7 @@
 {
   "symbol": "NVDA",
   "company_name": "NVIDIA Corporation",
-  "generated_at": "2026-09-26T09:16:03.456484+00:00",
+  "generated_at": "2026-09-26T09:31:07.643217+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1316,31 +1316,18 @@
   ],
   "beats": [
     {
-      "date": "2026-03-26",
-      "pct_change": -4.164,
-      "close": 171.24,
-      "direction": "down",
-      "headline": "NVDA drops 4.16% amid broader semiconductor selloff",
-      "explanation": "NVIDIA fell 4.16% to close at $171.24 on 1.5x average volume. The decline was largely sector-wide, as peers AMD dropped 7.49% and TSM dropped 6.22% on the same day.",
-      "confidence": "low",
-      "citation_ids": [
-        "ev_NVDA_20260326_price",
-        "ev_NVDA_20260326_peer_AMD",
-        "ev_NVDA_20260326_peer_TSM"
-      ]
-    },
-    {
       "date": "2026-04-24",
       "pct_change": 4.323,
       "close": 208.27,
       "direction": "up",
-      "headline": "NVDA gains 4.32% in sector-wide rally",
-      "explanation": "NVIDIA climbed 4.32% to $208.27 on 1.8x its 30-day average volume. The gain coincided with a broad semiconductor advance, with AMD jumping 13.91% and TSM rising 5.17%.",
+      "headline": "NVDA gains 4.32% alongside semiconductor peers",
+      "explanation": "NVIDIA rose 4.32% to $208.27 on 1.8x average volume. The move was shared across the sector, with competitor AMD jumping 13.91%, supplier TSM gaining 5.17%, and customer and competitor MSFT adding 2.13%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260424_price",
         "ev_NVDA_20260424_peer_AMD",
-        "ev_NVDA_20260424_peer_TSM"
+        "ev_NVDA_20260424_peer_TSM",
+        "ev_NVDA_20260424_peer_MSFT"
       ]
     },
     {
@@ -1348,14 +1335,15 @@
       "pct_change": 4.004,
       "close": 216.61,
       "direction": "up",
-      "headline": "NVDA gains 4.00% following Form 8-K filing",
-      "explanation": "NVIDIA rose 4.00% to close at $216.61 on 1.6x average trading volume while filing a Form 8-K. The move appeared company-specific, as AMD fell 3.79% and TSM was essentially flat at 0.63%.",
+      "headline": "NVDA adds 4.00% following 8-K filing",
+      "explanation": "NVIDIA climbed 4.00% to $216.61 on 1.6x average volume after filing a Form 8-K. The advance was company-specific, as competitor AMD dropped 3.79% while supplier TSM rose 0.63% and customer and competitor MSFT was virtually unchanged at +0.05%.",
       "confidence": "medium",
       "citation_ids": [
         "ev_NVDA_20260427_price",
         "ev_NVDA_20260427_filing_000104581026000026",
         "ev_NVDA_20260427_peer_AMD",
-        "ev_NVDA_20260427_peer_TSM"
+        "ev_NVDA_20260427_peer_TSM",
+        "ev_NVDA_20260427_peer_MSFT"
       ]
     },
     {
@@ -1363,11 +1351,12 @@
       "pct_change": -4.626,
       "close": 199.57,
       "direction": "down",
-      "headline": "NVDA declines 4.63% despite strength in peers",
-      "explanation": "NVIDIA retreated 4.63% to close at $199.57 on 1.9x average volume. The pullback was company-specific, as peer AMD climbed 5.16% and TSM rose 0.57% during the session.",
+      "headline": "NVDA drops 4.63% amid mixed peer performance",
+      "explanation": "NVIDIA fell 4.63% to close at $199.57 on 1.9x typical volume without company-specific news. Customer and competitor MSFT also slipped 3.93%, but competitor AMD gained 5.16% and supplier TSM ticked up 0.57%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260430_price",
+        "ev_NVDA_20260430_peer_MSFT",
         "ev_NVDA_20260430_peer_AMD",
         "ev_NVDA_20260430_peer_TSM"
       ]
@@ -1377,13 +1366,14 @@
       "pct_change": 5.766,
       "close": 207.83,
       "direction": "up",
-      "headline": "NVDA rises 5.77% alongside chip rally",
-      "explanation": "NVIDIA rose 5.77% to $207.83 on 1.6x average volume. The move was part of a broader sector upswing, with AMD surging 18.61% and TSM adding 6.36%.",
+      "headline": "NVDA rises 5.77% in broad chip sector rally",
+      "explanation": "NVIDIA advanced 5.77% to $207.83 on 1.6x 30-day average volume. The upward move was shared with peers, as competitor AMD surged 18.61% and supplier TSM gained 6.36%, while customer and competitor MSFT added 0.63%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260506_price",
         "ev_NVDA_20260506_peer_AMD",
-        "ev_NVDA_20260506_peer_TSM"
+        "ev_NVDA_20260506_peer_TSM",
+        "ev_NVDA_20260506_peer_MSFT"
       ]
     },
     {
@@ -1391,41 +1381,29 @@
       "pct_change": 6.261,
       "close": 224.36,
       "direction": "up",
-      "headline": "NVDA advances 6.26% outperforming peers",
-      "explanation": "NVIDIA climbed 6.26% to $224.36 on 1.8x average volume with no specific company announcements provided. While TSM rose 4.11%, AMD dropped 1.16%, indicating strong relative performance.",
+      "headline": "NVDA gains 6.26% outperforming key peers",
+      "explanation": "NVIDIA gained 6.26% to finish at $224.36 on 1.8x typical volume. Supplier TSM advanced 4.11% and customer and competitor MSFT rose 2.28%, while competitor AMD moved the opposite way, falling 1.16%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260601_price",
-        "ev_NVDA_20260601_peer_AMD",
-        "ev_NVDA_20260601_peer_TSM"
+        "ev_NVDA_20260601_peer_TSM",
+        "ev_NVDA_20260601_peer_MSFT",
+        "ev_NVDA_20260601_peer_AMD"
       ]
     },
     {
-      "date": "2026-06-03",
-      "pct_change": -3.622,
-      "close": 214.75,
-      "direction": "down",
-      "headline": "NVDA drops 3.62% as peer performance diverges",
-      "explanation": "NVIDIA fell 3.62% to $214.75 on 1.3x average volume. The drop was largely company-specific given mixed peer performance, as AMD gained 4.02% while TSM dropped 2.24%.",
+      "date": "2026-07-08",
+      "pct_change": 3.651,
+      "close": 204.12,
+      "direction": "up",
+      "headline": "NVDA rises 3.65% in company-specific move",
+      "explanation": "NVIDIA gained 3.65% to $204.12 on 1.2x average volume without reported company news. The move was company-specific, as competitor AMD was nearly flat with a 0.25% gain, supplier TSM rose 1.02%, and customer and competitor MSFT declined 1.41%.",
       "confidence": "low",
       "citation_ids": [
-        "ev_NVDA_20260603_price",
-        "ev_NVDA_20260603_peer_AMD",
-        "ev_NVDA_20260603_peer_TSM"
-      ]
-    },
-    {
-      "date": "2026-06-05",
-      "pct_change": -6.201,
-      "close": 205.1,
-      "direction": "down",
-      "headline": "NVDA drops 6.20% in broad semiconductor pullback",
-      "explanation": "NVIDIA declined 6.20% to $205.10 on 1.8x average volume. The drop was sector-wide, tracking steep drops in peers AMD (-10.86%) and TSM (-6.69%).",
-      "confidence": "low",
-      "citation_ids": [
-        "ev_NVDA_20260605_price",
-        "ev_NVDA_20260605_peer_AMD",
-        "ev_NVDA_20260605_peer_TSM"
+        "ev_NVDA_20260708_price",
+        "ev_NVDA_20260708_peer_AMD",
+        "ev_NVDA_20260708_peer_TSM",
+        "ev_NVDA_20260708_peer_MSFT"
       ]
     },
     {
@@ -1433,13 +1411,29 @@
       "pct_change": 4.034,
       "close": 210.96,
       "direction": "up",
-      "headline": "NVDA rises 4.03% to $210.96",
-      "explanation": "NVIDIA rose 4.03% to $210.96 on 1.2x average volume without company-specific news. Peers saw muted moves, with AMD rising 2.04% and TSM slipping 0.65%.",
+      "headline": "NVDA climbs 4.03% to $210.96",
+      "explanation": "NVIDIA moved up 4.03% on 1.2x average volume, closing at $210.96. Competitor AMD also moved higher by 2.04%, while customer and competitor MSFT gained 0.19% and supplier TSM dropped 0.65%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260710_price",
         "ev_NVDA_20260710_peer_AMD",
+        "ev_NVDA_20260710_peer_MSFT",
         "ev_NVDA_20260710_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "pct_change": -4.994,
+      "close": 196.51,
+      "direction": "down",
+      "headline": "NVDA falls 4.99% alongside competitor AMD",
+      "explanation": "NVIDIA fell 4.99% to $196.51 on 1.3x 30-day average volume with no company-specific news. Competitor AMD dropped a similar 5.17% and supplier TSM lost 1.07%, while customer and competitor MSFT gained 1.94%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_NVDA_20260727_price",
+        "ev_NVDA_20260727_peer_AMD",
+        "ev_NVDA_20260727_peer_TSM",
+        "ev_NVDA_20260727_peer_MSFT"
       ]
     },
     {
@@ -1447,12 +1441,13 @@
       "pct_change": 3.435,
       "close": 219.22,
       "direction": "up",
-      "headline": "NVDA gains 3.44% diverging from chip peers",
-      "explanation": "NVIDIA gained 3.44% to $219.22 on 1.3x typical volume. This was a company-specific advance against weak peer action, as AMD dropped 7.04% and TSM fell 0.76%.",
+      "headline": "NVDA gains 3.44% despite decline in peers",
+      "explanation": "NVIDIA increased 3.44% to $219.22 on 1.3x typical volume without company-specific announcements. The rally was company-specific, as competitor AMD dropped 7.04%, customer and competitor MSFT fell 1.09%, and supplier TSM decreased 0.76%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260805_price",
         "ev_NVDA_20260805_peer_AMD",
+        "ev_NVDA_20260805_peer_MSFT",
         "ev_NVDA_20260805_peer_TSM"
       ]
     },
@@ -1461,15 +1456,33 @@
       "pct_change": 8.738,
       "close": 227.98,
       "direction": "up",
-      "headline": "NVDA jumps 8.74% following 10-Q and 8-K filings",
-      "explanation": "NVIDIA surged 8.74% to $227.98 on 2.5x average trading volume following 10-Q and 8-K filings on August 26. The move was company-specific, as peer AMD fell 0.89% and TSM gained 2.30%.",
+      "headline": "NVDA surges 8.74% after quarterly filings",
+      "explanation": "NVIDIA rose 8.74% to $227.98 on 2.5x average volume following the previous day's 10-Q and 8-K filings. The move was company-specific, far outpacing supplier TSM's 2.30% gain, customer and competitor MSFT's 1.75% rise, and competitor AMD's 0.89% decline.",
       "confidence": "high",
       "citation_ids": [
         "ev_NVDA_20260827_price",
         "ev_NVDA_20260827_filing_000104581026000075",
         "ev_NVDA_20260827_filing_000104581026000073",
-        "ev_NVDA_20260827_peer_AMD",
-        "ev_NVDA_20260827_peer_TSM"
+        "ev_NVDA_20260827_peer_TSM",
+        "ev_NVDA_20260827_peer_MSFT",
+        "ev_NVDA_20260827_peer_AMD"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "pct_change": -4.575,
+      "close": 217.55,
+      "direction": "down",
+      "headline": "NVDA retreats 4.58% following post-earnings surge",
+      "explanation": "NVIDIA gave back 4.58% to close at $217.55 on 1.6x 30-day average volume after its post-earnings rally. The pullback occurred alongside declines in supplier TSM (-2.29%) and competitor AMD (-2.33%), while customer and competitor MSFT rose 1.68%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_NVDA_20260828_price",
+        "ev_NVDA_20260828_filing_000104581026000075",
+        "ev_NVDA_20260828_filing_000104581026000073",
+        "ev_NVDA_20260828_peer_TSM",
+        "ev_NVDA_20260828_peer_AMD",
+        "ev_NVDA_20260828_peer_MSFT"
       ]
     },
     {
@@ -1477,60 +1490,18 @@
       "pct_change": 3.205,
       "close": 224.41,
       "direction": "up",
-      "headline": "NVDA adds 3.21% to close at $224.41",
-      "explanation": "NVIDIA rose 3.21% to $224.41 on 1.3x average volume with no company-specific catalysts reported. The stock decoupled from peers AMD (-0.56%) and TSM (+0.36%).",
+      "headline": "NVDA climbs 3.21% while competitors fall",
+      "explanation": "NVIDIA rose 3.21% to $224.41 on 1.3x average volume. The move was company-specific, as competitor AMD dropped 0.56% and customer and competitor MSFT slipped 0.84%, while supplier TSM was nearly unchanged at +0.36%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260902_price",
         "ev_NVDA_20260902_peer_AMD",
+        "ev_NVDA_20260902_peer_MSFT",
         "ev_NVDA_20260902_peer_TSM"
       ]
     }
   ],
   "evidence": {
-    "ev_NVDA_20260326_price": {
-      "id": "ev_NVDA_20260326_price",
-      "kind": "price",
-      "title": "NVDA fell 4.16% on 2026-03-26",
-      "detail": "Closed at $171.24 from $178.68. Volume was 1.5x the 30-day average.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-03-26",
-      "numbers": {
-        "pct_change": -4.164,
-        "close": 171.24,
-        "prev_close": 178.68,
-        "volume": 186152200,
-        "volume_vs_30d_avg": 1.54,
-        "move_excluding_sector_pct": 2.69
-      }
-    },
-    "ev_NVDA_20260326_peer_AMD": {
-      "id": "ev_NVDA_20260326_peer_AMD",
-      "kind": "peer_move",
-      "title": "AMD moved -7.49% the same day",
-      "detail": "NVDA moved -4.16% while AMD moved -7.49%.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-03-26",
-      "numbers": {
-        "peer_pct_change": -7.49,
-        "subject_pct_change": -4.164
-      }
-    },
-    "ev_NVDA_20260326_peer_TSM": {
-      "id": "ev_NVDA_20260326_peer_TSM",
-      "kind": "peer_move",
-      "title": "TSM moved -6.22% the same day",
-      "detail": "NVDA moved -4.16% while TSM moved -6.22%.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-03-26",
-      "numbers": {
-        "peer_pct_change": -6.22,
-        "subject_pct_change": -4.164
-      }
-    },
     "ev_NVDA_20260424_price": {
       "id": "ev_NVDA_20260424_price",
       "kind": "price",
@@ -1545,33 +1516,49 @@
         "prev_close": 199.64,
         "volume": 214134400,
         "volume_vs_30d_avg": 1.78,
-        "move_excluding_sector_pct": 5.22
+        "move_excluding_sector_pct": 2.75
       }
     },
     "ev_NVDA_20260424_peer_AMD": {
       "id": "ev_NVDA_20260424_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved +13.91% the same day",
-      "detail": "NVDA moved +4.32% while AMD moved +13.91%.",
+      "title": "AMD (competitor) moved +13.91% the same day",
+      "detail": "NVDA moved +4.32% while AMD moved +13.91%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-04-24",
       "numbers": {
         "peer_pct_change": 13.91,
-        "subject_pct_change": 4.323
+        "subject_pct_change": 4.323,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260424_peer_MSFT": {
+      "id": "ev_NVDA_20260424_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer and competitor) moved +2.13% the same day",
+      "detail": "NVDA moved +4.32% while MSFT moved +2.13%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 2.13,
+        "subject_pct_change": 4.323,
+        "relationship": "customer and competitor"
       }
     },
     "ev_NVDA_20260424_peer_TSM": {
       "id": "ev_NVDA_20260424_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved +5.17% the same day",
-      "detail": "NVDA moved +4.32% while TSM moved +5.17%.",
+      "title": "TSM (supplier) moved +5.17% the same day",
+      "detail": "NVDA moved +4.32% while TSM moved +5.17%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-04-24",
       "numbers": {
         "peer_pct_change": 5.17,
-        "subject_pct_change": 4.323
+        "subject_pct_change": 4.323,
+        "relationship": "supplier"
       }
     },
     "ev_NVDA_20260427_price": {
@@ -1588,33 +1575,49 @@
         "prev_close": 208.27,
         "volume": 187172400,
         "volume_vs_30d_avg": 1.55,
-        "move_excluding_sector_pct": 5.59
+        "move_excluding_sector_pct": 5.04
       }
     },
     "ev_NVDA_20260427_peer_AMD": {
       "id": "ev_NVDA_20260427_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved -3.79% the same day",
-      "detail": "NVDA moved +4.00% while AMD moved -3.79%.",
+      "title": "AMD (competitor) moved -3.79% the same day",
+      "detail": "NVDA moved +4.00% while AMD moved -3.79%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-04-27",
       "numbers": {
         "peer_pct_change": -3.79,
-        "subject_pct_change": 4.004
+        "subject_pct_change": 4.004,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260427_peer_MSFT": {
+      "id": "ev_NVDA_20260427_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer and competitor) moved +0.05% the same day",
+      "detail": "NVDA moved +4.00% while MSFT moved +0.05%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "peer_pct_change": 0.05,
+        "subject_pct_change": 4.004,
+        "relationship": "customer and competitor"
       }
     },
     "ev_NVDA_20260427_peer_TSM": {
       "id": "ev_NVDA_20260427_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved +0.63% the same day",
-      "detail": "NVDA moved +4.00% while TSM moved +0.63%.",
+      "title": "TSM (supplier) moved +0.63% the same day",
+      "detail": "NVDA moved +4.00% while TSM moved +0.63%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-04-27",
       "numbers": {
         "peer_pct_change": 0.63,
-        "subject_pct_change": 4.004
+        "subject_pct_change": 4.004,
+        "relationship": "supplier"
       }
     },
     "ev_NVDA_20260427_filing_000104581026000026": {
@@ -1641,33 +1644,49 @@
         "prev_close": 209.25,
         "volume": 225239200,
         "volume_vs_30d_avg": 1.87,
-        "move_excluding_sector_pct": 7.49
+        "move_excluding_sector_pct": 5.22
       }
     },
     "ev_NVDA_20260430_peer_AMD": {
       "id": "ev_NVDA_20260430_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved +5.16% the same day",
-      "detail": "NVDA moved -4.63% while AMD moved +5.16%.",
+      "title": "AMD (competitor) moved +5.16% the same day",
+      "detail": "NVDA moved -4.63% while AMD moved +5.16%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-04-30",
       "numbers": {
         "peer_pct_change": 5.16,
-        "subject_pct_change": -4.626
+        "subject_pct_change": -4.626,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260430_peer_MSFT": {
+      "id": "ev_NVDA_20260430_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer and competitor) moved -3.93% the same day",
+      "detail": "NVDA moved -4.63% while MSFT moved -3.93%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": -3.93,
+        "subject_pct_change": -4.626,
+        "relationship": "customer and competitor"
       }
     },
     "ev_NVDA_20260430_peer_TSM": {
       "id": "ev_NVDA_20260430_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved +0.57% the same day",
-      "detail": "NVDA moved -4.63% while TSM moved +0.57%.",
+      "title": "TSM (supplier) moved +0.57% the same day",
+      "detail": "NVDA moved -4.63% while TSM moved +0.57%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-04-30",
       "numbers": {
         "peer_pct_change": 0.57,
-        "subject_pct_change": -4.626
+        "subject_pct_change": -4.626,
+        "relationship": "supplier"
       }
     },
     "ev_NVDA_20260506_price": {
@@ -1684,33 +1703,49 @@
         "prev_close": 196.5,
         "volume": 188362800,
         "volume_vs_30d_avg": 1.56,
-        "move_excluding_sector_pct": 6.72
+        "move_excluding_sector_pct": 2.77
       }
     },
     "ev_NVDA_20260506_peer_AMD": {
       "id": "ev_NVDA_20260506_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved +18.61% the same day",
-      "detail": "NVDA moved +5.77% while AMD moved +18.61%.",
+      "title": "AMD (competitor) moved +18.61% the same day",
+      "detail": "NVDA moved +5.77% while AMD moved +18.61%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-05-06",
       "numbers": {
         "peer_pct_change": 18.61,
-        "subject_pct_change": 5.766
+        "subject_pct_change": 5.766,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260506_peer_MSFT": {
+      "id": "ev_NVDA_20260506_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer and competitor) moved +0.63% the same day",
+      "detail": "NVDA moved +5.77% while MSFT moved +0.63%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-05-06",
+      "numbers": {
+        "peer_pct_change": 0.63,
+        "subject_pct_change": 5.766,
+        "relationship": "customer and competitor"
       }
     },
     "ev_NVDA_20260506_peer_TSM": {
       "id": "ev_NVDA_20260506_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved +6.36% the same day",
-      "detail": "NVDA moved +5.77% while TSM moved +6.36%.",
+      "title": "TSM (supplier) moved +6.36% the same day",
+      "detail": "NVDA moved +5.77% while TSM moved +6.36%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-05-06",
       "numbers": {
         "peer_pct_change": 6.36,
-        "subject_pct_change": 5.766
+        "subject_pct_change": 5.766,
+        "relationship": "supplier"
       }
     },
     "ev_NVDA_20260601_price": {
@@ -1727,119 +1762,108 @@
         "prev_close": 211.14,
         "volume": 212850700,
         "volume_vs_30d_avg": 1.76,
-        "move_excluding_sector_pct": 4.79
+        "move_excluding_sector_pct": 4.52
       }
     },
     "ev_NVDA_20260601_peer_AMD": {
       "id": "ev_NVDA_20260601_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved -1.16% the same day",
-      "detail": "NVDA moved +6.26% while AMD moved -1.16%.",
+      "title": "AMD (competitor) moved -1.16% the same day",
+      "detail": "NVDA moved +6.26% while AMD moved -1.16%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-06-01",
       "numbers": {
         "peer_pct_change": -1.16,
-        "subject_pct_change": 6.261
+        "subject_pct_change": 6.261,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260601_peer_MSFT": {
+      "id": "ev_NVDA_20260601_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer and competitor) moved +2.28% the same day",
+      "detail": "NVDA moved +6.26% while MSFT moved +2.28%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": 2.28,
+        "subject_pct_change": 6.261,
+        "relationship": "customer and competitor"
       }
     },
     "ev_NVDA_20260601_peer_TSM": {
       "id": "ev_NVDA_20260601_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved +4.11% the same day",
-      "detail": "NVDA moved +6.26% while TSM moved +4.11%.",
+      "title": "TSM (supplier) moved +4.11% the same day",
+      "detail": "NVDA moved +6.26% while TSM moved +4.11%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-06-01",
       "numbers": {
         "peer_pct_change": 4.11,
-        "subject_pct_change": 6.261
+        "subject_pct_change": 6.261,
+        "relationship": "supplier"
       }
     },
-    "ev_NVDA_20260603_price": {
-      "id": "ev_NVDA_20260603_price",
+    "ev_NVDA_20260708_price": {
+      "id": "ev_NVDA_20260708_price",
       "kind": "price",
-      "title": "NVDA fell 3.62% on 2026-06-03",
-      "detail": "Closed at $214.75 from $222.82. Volume was 1.3x the 30-day average.",
+      "title": "NVDA rose 3.65% on 2026-07-08",
+      "detail": "Closed at $204.12 from $196.93. Volume was 1.2x the 30-day average.",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-06-03",
+      "occurred_on": "2026-07-08",
       "numbers": {
-        "pct_change": -3.622,
-        "close": 214.75,
-        "prev_close": 222.82,
-        "volume": 160907000,
-        "volume_vs_30d_avg": 1.33,
-        "move_excluding_sector_pct": 4.51
+        "pct_change": 3.651,
+        "close": 204.12,
+        "prev_close": 196.93,
+        "volume": 147419100,
+        "volume_vs_30d_avg": 1.22,
+        "move_excluding_sector_pct": 3.7
       }
     },
-    "ev_NVDA_20260603_peer_AMD": {
-      "id": "ev_NVDA_20260603_peer_AMD",
+    "ev_NVDA_20260708_peer_AMD": {
+      "id": "ev_NVDA_20260708_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved +4.02% the same day",
-      "detail": "NVDA moved -3.62% while AMD moved +4.02%.",
+      "title": "AMD (competitor) moved +0.25% the same day",
+      "detail": "NVDA moved +3.65% while AMD moved +0.25%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-06-03",
+      "occurred_on": "2026-07-08",
       "numbers": {
-        "peer_pct_change": 4.02,
-        "subject_pct_change": -3.622
+        "peer_pct_change": 0.25,
+        "subject_pct_change": 3.651,
+        "relationship": "competitor"
       }
     },
-    "ev_NVDA_20260603_peer_TSM": {
-      "id": "ev_NVDA_20260603_peer_TSM",
+    "ev_NVDA_20260708_peer_MSFT": {
+      "id": "ev_NVDA_20260708_peer_MSFT",
       "kind": "peer_move",
-      "title": "TSM moved -2.24% the same day",
-      "detail": "NVDA moved -3.62% while TSM moved -2.24%.",
+      "title": "MSFT (customer and competitor) moved -1.41% the same day",
+      "detail": "NVDA moved +3.65% while MSFT moved -1.41%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-07-08",
+      "numbers": {
+        "peer_pct_change": -1.41,
+        "subject_pct_change": 3.651,
+        "relationship": "customer and competitor"
+      }
+    },
+    "ev_NVDA_20260708_peer_TSM": {
+      "id": "ev_NVDA_20260708_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +1.02% the same day",
+      "detail": "NVDA moved +3.65% while TSM moved +1.02%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-06-03",
+      "occurred_on": "2026-07-08",
       "numbers": {
-        "peer_pct_change": -2.24,
-        "subject_pct_change": -3.622
-      }
-    },
-    "ev_NVDA_20260605_price": {
-      "id": "ev_NVDA_20260605_price",
-      "kind": "price",
-      "title": "NVDA fell 6.20% on 2026-06-05",
-      "detail": "Closed at $205.10 from $218.66. Volume was 1.8x the 30-day average.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-06-05",
-      "numbers": {
-        "pct_change": -6.201,
-        "close": 205.1,
-        "prev_close": 218.66,
-        "volume": 219655500,
-        "volume_vs_30d_avg": 1.82,
-        "move_excluding_sector_pct": 2.57
-      }
-    },
-    "ev_NVDA_20260605_peer_AMD": {
-      "id": "ev_NVDA_20260605_peer_AMD",
-      "kind": "peer_move",
-      "title": "AMD moved -10.86% the same day",
-      "detail": "NVDA moved -6.20% while AMD moved -10.86%.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-06-05",
-      "numbers": {
-        "peer_pct_change": -10.86,
-        "subject_pct_change": -6.201
-      }
-    },
-    "ev_NVDA_20260605_peer_TSM": {
-      "id": "ev_NVDA_20260605_peer_TSM",
-      "kind": "peer_move",
-      "title": "TSM moved -6.69% the same day",
-      "detail": "NVDA moved -6.20% while TSM moved -6.69%.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-06-05",
-      "numbers": {
-        "peer_pct_change": -6.69,
-        "subject_pct_change": -6.201
+        "peer_pct_change": 1.02,
+        "subject_pct_change": 3.651,
+        "relationship": "supplier"
       }
     },
     "ev_NVDA_20260710_price": {
@@ -1856,33 +1880,108 @@
         "prev_close": 202.78,
         "volume": 148421000,
         "volume_vs_30d_avg": 1.23,
-        "move_excluding_sector_pct": 3.34
+        "move_excluding_sector_pct": 3.51
       }
     },
     "ev_NVDA_20260710_peer_AMD": {
       "id": "ev_NVDA_20260710_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved +2.04% the same day",
-      "detail": "NVDA moved +4.03% while AMD moved +2.04%.",
+      "title": "AMD (competitor) moved +2.04% the same day",
+      "detail": "NVDA moved +4.03% while AMD moved +2.04%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-07-10",
       "numbers": {
         "peer_pct_change": 2.04,
-        "subject_pct_change": 4.034
+        "subject_pct_change": 4.034,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260710_peer_MSFT": {
+      "id": "ev_NVDA_20260710_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer and competitor) moved +0.19% the same day",
+      "detail": "NVDA moved +4.03% while MSFT moved +0.19%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-07-10",
+      "numbers": {
+        "peer_pct_change": 0.19,
+        "subject_pct_change": 4.034,
+        "relationship": "customer and competitor"
       }
     },
     "ev_NVDA_20260710_peer_TSM": {
       "id": "ev_NVDA_20260710_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved -0.65% the same day",
-      "detail": "NVDA moved +4.03% while TSM moved -0.65%.",
+      "title": "TSM (supplier) moved -0.65% the same day",
+      "detail": "NVDA moved +4.03% while TSM moved -0.65%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-07-10",
       "numbers": {
         "peer_pct_change": -0.65,
-        "subject_pct_change": 4.034
+        "subject_pct_change": 4.034,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260727_price": {
+      "id": "ev_NVDA_20260727_price",
+      "kind": "price",
+      "title": "NVDA fell 4.99% on 2026-07-27",
+      "detail": "Closed at $196.51 from $206.84. Volume was 1.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-27",
+      "numbers": {
+        "pct_change": -4.994,
+        "close": 196.51,
+        "prev_close": 206.84,
+        "volume": 154353700,
+        "volume_vs_30d_avg": 1.28,
+        "move_excluding_sector_pct": 3.56
+      }
+    },
+    "ev_NVDA_20260727_peer_AMD": {
+      "id": "ev_NVDA_20260727_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved -5.17% the same day",
+      "detail": "NVDA moved -4.99% while AMD moved -5.17%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-07-27",
+      "numbers": {
+        "peer_pct_change": -5.17,
+        "subject_pct_change": -4.994,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260727_peer_MSFT": {
+      "id": "ev_NVDA_20260727_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer and competitor) moved +1.94% the same day",
+      "detail": "NVDA moved -4.99% while MSFT moved +1.94%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-07-27",
+      "numbers": {
+        "peer_pct_change": 1.94,
+        "subject_pct_change": -4.994,
+        "relationship": "customer and competitor"
+      }
+    },
+    "ev_NVDA_20260727_peer_TSM": {
+      "id": "ev_NVDA_20260727_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -1.07% the same day",
+      "detail": "NVDA moved -4.99% while TSM moved -1.07%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-27",
+      "numbers": {
+        "peer_pct_change": -1.07,
+        "subject_pct_change": -4.994,
+        "relationship": "supplier"
       }
     },
     "ev_NVDA_20260805_price": {
@@ -1899,33 +1998,49 @@
         "prev_close": 211.94,
         "volume": 158187400,
         "volume_vs_30d_avg": 1.31,
-        "move_excluding_sector_pct": 7.34
+        "move_excluding_sector_pct": 6.4
       }
     },
     "ev_NVDA_20260805_peer_AMD": {
       "id": "ev_NVDA_20260805_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved -7.04% the same day",
-      "detail": "NVDA moved +3.44% while AMD moved -7.04%.",
+      "title": "AMD (competitor) moved -7.04% the same day",
+      "detail": "NVDA moved +3.44% while AMD moved -7.04%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-08-05",
       "numbers": {
         "peer_pct_change": -7.04,
-        "subject_pct_change": 3.435
+        "subject_pct_change": 3.435,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260805_peer_MSFT": {
+      "id": "ev_NVDA_20260805_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer and competitor) moved -1.09% the same day",
+      "detail": "NVDA moved +3.44% while MSFT moved -1.09%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "peer_pct_change": -1.09,
+        "subject_pct_change": 3.435,
+        "relationship": "customer and competitor"
       }
     },
     "ev_NVDA_20260805_peer_TSM": {
       "id": "ev_NVDA_20260805_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved -0.76% the same day",
-      "detail": "NVDA moved +3.44% while TSM moved -0.76%.",
+      "title": "TSM (supplier) moved -0.76% the same day",
+      "detail": "NVDA moved +3.44% while TSM moved -0.76%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-08-05",
       "numbers": {
         "peer_pct_change": -0.76,
-        "subject_pct_change": 3.435
+        "subject_pct_change": 3.435,
+        "relationship": "supplier"
       }
     },
     "ev_NVDA_20260827_price": {
@@ -1942,33 +2057,49 @@
         "prev_close": 209.66,
         "volume": 298909800,
         "volume_vs_30d_avg": 2.48,
-        "move_excluding_sector_pct": 8.03
+        "move_excluding_sector_pct": 7.68
       }
     },
     "ev_NVDA_20260827_peer_AMD": {
       "id": "ev_NVDA_20260827_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved -0.89% the same day",
-      "detail": "NVDA moved +8.74% while AMD moved -0.89%.",
+      "title": "AMD (competitor) moved -0.89% the same day",
+      "detail": "NVDA moved +8.74% while AMD moved -0.89%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-08-27",
       "numbers": {
         "peer_pct_change": -0.89,
-        "subject_pct_change": 8.738
+        "subject_pct_change": 8.738,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260827_peer_MSFT": {
+      "id": "ev_NVDA_20260827_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer and competitor) moved +1.75% the same day",
+      "detail": "NVDA moved +8.74% while MSFT moved +1.75%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-08-27",
+      "numbers": {
+        "peer_pct_change": 1.75,
+        "subject_pct_change": 8.738,
+        "relationship": "customer and competitor"
       }
     },
     "ev_NVDA_20260827_peer_TSM": {
       "id": "ev_NVDA_20260827_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved +2.30% the same day",
-      "detail": "NVDA moved +8.74% while TSM moved +2.30%.",
+      "title": "TSM (supplier) moved +2.30% the same day",
+      "detail": "NVDA moved +8.74% while TSM moved +2.30%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-08-27",
       "numbers": {
         "peer_pct_change": 2.3,
-        "subject_pct_change": 8.738
+        "subject_pct_change": 8.738,
+        "relationship": "supplier"
       }
     },
     "ev_NVDA_20260827_filing_000104581026000075": {
@@ -1991,6 +2122,85 @@
       "occurred_on": "2026-08-26",
       "numbers": {}
     },
+    "ev_NVDA_20260828_price": {
+      "id": "ev_NVDA_20260828_price",
+      "kind": "price",
+      "title": "NVDA fell 4.58% on 2026-08-28",
+      "detail": "Closed at $217.55 from $227.98. Volume was 1.6x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-08-28",
+      "numbers": {
+        "pct_change": -4.575,
+        "close": 217.55,
+        "prev_close": 227.98,
+        "volume": 195116400,
+        "volume_vs_30d_avg": 1.62,
+        "move_excluding_sector_pct": 3.6
+      }
+    },
+    "ev_NVDA_20260828_peer_AMD": {
+      "id": "ev_NVDA_20260828_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved -2.33% the same day",
+      "detail": "NVDA moved -4.58% while AMD moved -2.33%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-08-28",
+      "numbers": {
+        "peer_pct_change": -2.33,
+        "subject_pct_change": -4.575,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260828_peer_MSFT": {
+      "id": "ev_NVDA_20260828_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer and competitor) moved +1.68% the same day",
+      "detail": "NVDA moved -4.58% while MSFT moved +1.68%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-08-28",
+      "numbers": {
+        "peer_pct_change": 1.68,
+        "subject_pct_change": -4.575,
+        "relationship": "customer and competitor"
+      }
+    },
+    "ev_NVDA_20260828_peer_TSM": {
+      "id": "ev_NVDA_20260828_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -2.29% the same day",
+      "detail": "NVDA moved -4.58% while TSM moved -2.29%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-08-28",
+      "numbers": {
+        "peer_pct_change": -2.29,
+        "subject_pct_change": -4.575,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260828_filing_000104581026000075": {
+      "id": "ev_NVDA_20260828_filing_000104581026000075",
+      "kind": "filing",
+      "title": "10-Q filed 2026-08-26",
+      "detail": "10-Q",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "occurred_on": "2026-08-26",
+      "numbers": {}
+    },
+    "ev_NVDA_20260828_filing_000104581026000073": {
+      "id": "ev_NVDA_20260828_filing_000104581026000073",
+      "kind": "filing",
+      "title": "8-K filed 2026-08-26",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm",
+      "occurred_on": "2026-08-26",
+      "numbers": {}
+    },
     "ev_NVDA_20260902_price": {
       "id": "ev_NVDA_20260902_price",
       "kind": "price",
@@ -2005,33 +2215,49 @@
         "prev_close": 217.44,
         "volume": 157104700,
         "volume_vs_30d_avg": 1.3,
-        "move_excluding_sector_pct": 3.3
+        "move_excluding_sector_pct": 3.55
       }
     },
     "ev_NVDA_20260902_peer_AMD": {
       "id": "ev_NVDA_20260902_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved -0.56% the same day",
-      "detail": "NVDA moved +3.21% while AMD moved -0.56%.",
+      "title": "AMD (competitor) moved -0.56% the same day",
+      "detail": "NVDA moved +3.21% while AMD moved -0.56%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-09-02",
       "numbers": {
         "peer_pct_change": -0.56,
-        "subject_pct_change": 3.205
+        "subject_pct_change": 3.205,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260902_peer_MSFT": {
+      "id": "ev_NVDA_20260902_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer and competitor) moved -0.84% the same day",
+      "detail": "NVDA moved +3.21% while MSFT moved -0.84%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-09-02",
+      "numbers": {
+        "peer_pct_change": -0.84,
+        "subject_pct_change": 3.205,
+        "relationship": "customer and competitor"
       }
     },
     "ev_NVDA_20260902_peer_TSM": {
       "id": "ev_NVDA_20260902_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved +0.36% the same day",
-      "detail": "NVDA moved +3.21% while TSM moved +0.36%.",
+      "title": "TSM (supplier) moved +0.36% the same day",
+      "detail": "NVDA moved +3.21% while TSM moved +0.36%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-09-02",
       "numbers": {
         "peer_pct_change": 0.36,
-        "subject_pct_change": 3.205
+        "subject_pct_change": 3.205,
+        "relationship": "supplier"
       }
     },
     "ev_NVDA_fund_revenue": {
@@ -2140,16 +2366,18 @@
       }
     }
   },
-  "arc": "Between March and September 2026, NVIDIA navigated repeated bouts of sector-wide semiconductor volatility while gradually appreciating from $171.24 to $224.41. Several of the largest daily swings, such as the drops on March 26 and June 5, directly tracked broader industry moves in peers like AMD and TSM. However, the stock increasingly decoupled from its peer group in the late summer, culminating in a significant 8.74% rally on August 27 following its second-quarter SEC filings.",
+  "arc": "Between late April and early September 2026, NVIDIA experienced substantial volatility while net advancing from just under $200 to over $224 per share. Early in the period, price moves were frequently shared with the broader semiconductor space, tracking sharp swings alongside competitor AMD and supplier TSM. By late August, the company's trajectory was defined by company-specific catalysts, highlighted by an 8.74% rally on August 27 following its 10-Q and 8-K regulatory filings, followed by a partial pullback the next day. Investors should understand that while early moves reflected industry-wide momentum, subsequent price action increasingly diverged from peers, culminating in strong idiosyncratic trading volume around earnings reports.",
   "arc_citation_ids": [
-    "ev_NVDA_20260326_price",
-    "ev_NVDA_20260326_peer_AMD",
-    "ev_NVDA_20260605_price",
-    "ev_NVDA_20260605_peer_AMD",
+    "ev_NVDA_20260424_price",
+    "ev_NVDA_20260424_peer_AMD",
+    "ev_NVDA_20260424_peer_TSM",
     "ev_NVDA_20260827_price",
     "ev_NVDA_20260827_filing_000104581026000075",
     "ev_NVDA_20260827_filing_000104581026000073",
+    "ev_NVDA_20260828_price",
     "ev_NVDA_20260902_price"
   ],
-  "warnings": []
+  "warnings": [
+    "News unavailable (FINNHUB_API_KEY is not set; add it to backend/.env); explanations will be thinner."
+  ]
 }

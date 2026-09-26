@@ -43,22 +43,30 @@ def price_evidence(symbol: str, move: dict) -> Evidence:
 
 
 def peer_evidence(symbol: str, move: dict) -> list[Evidence]:
-    """Peer moves matter because they tell the investor whether this was the
-    company or the whole sector - the difference the Connection Map is about."""
+    """Moves of connected companies (from the knowledge graph) tell the investor
+    whether this was the company alone, or something that also hit its supplier,
+    customer, or competitor - the link the Connection Map is about."""
     out = []
+    relations = move.get("peer_relations", {})
     for peer, peer_pct in move["peer_moves"].items():
+        link = relations.get(peer, {})
+        relationship = link.get("relationship", "peer")
+        detail = (
+            f"{symbol} moved {move['pct_change']:+.2f}% while {peer} moved "
+            f"{peer_pct:+.2f}%. {peer} is {symbol}'s {relationship}"
+            + (f" ({link['detail']})" if link.get("detail") else "")
+            + (f", per the knowledge graph (source: {link['source']})." if link.get("source") else ".")
+        )
         out.append(Evidence(
             id=f"ev_{symbol}_{move['date'].replace('-', '')}_peer_{peer}",
             kind=EvidenceKind.PEER_MOVE,
-            title=f"{peer} moved {peer_pct:+.2f}% the same day",
-            detail=(
-                f"{symbol} moved {move['pct_change']:+.2f}% while {peer} moved "
-                f"{peer_pct:+.2f}%."
-            ),
+            title=f"{peer} ({relationship}) moved {peer_pct:+.2f}% the same day",
+            detail=detail,
             source=prices.SOURCE_NAME,
             url=f"https://finance.yahoo.com/quote/{peer}/history",
             occurred_on=move["date"],
-            numbers={"peer_pct_change": peer_pct, "subject_pct_change": move["pct_change"]},
+            numbers={"peer_pct_change": peer_pct, "subject_pct_change": move["pct_change"],
+                     "relationship": relationship},
         ))
     return out
 

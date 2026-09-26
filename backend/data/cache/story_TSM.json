@@ -1,7 +1,7 @@
 {
   "symbol": "TSM",
   "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
-  "generated_at": "2026-09-26T09:16:41.655782+00:00",
+  "generated_at": "2026-09-26T09:31:38.316705+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,13 +1320,14 @@
       "pct_change": 6.777,
       "close": 337.95,
       "direction": "up",
-      "headline": "Shares gain 6.78% alongside semiconductor peers",
-      "explanation": "TSM shares climbed 6.78% to close at $337.95 on 1.9 times average volume. No company-specific news accompanied the rally, while peers NVDA and AMD also rose 5.59% and 3.77%, pointing to a sector-wide advance.",
+      "headline": "TSM rises 6.78% alongside semiconductor customers",
+      "explanation": "No company-specific news accompanied TSM's 6.78% gain to $337.95 on 1.9x average volume. The upward move was shared across its customer base, with customer NVDA gaining 5.59%, customer AMD rising 3.77%, and customer AAPL adding 2.90%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260331_price",
-        "ev_TSM_20260331_peer_NVDA",
-        "ev_TSM_20260331_peer_AMD"
+        "ev_TSM_20260331_peer_AAPL",
+        "ev_TSM_20260331_peer_AMD",
+        "ev_TSM_20260331_peer_NVDA"
       ]
     },
     {
@@ -1334,13 +1335,14 @@
       "pct_change": 5.96,
       "close": 365.9,
       "direction": "up",
-      "headline": "Stock advances 5.96% in sector-wide rally",
-      "explanation": "TSM increased 5.96% to $365.90 on 1.7 times its 30-day average volume. With no company-specific catalysts reported and peers NVDA and AMD gaining 2.23% and 4.64% respectively, the move was largely driven by broader sector strength.",
+      "headline": "TSM gains 5.96% in shared advance with customers",
+      "explanation": "TSM advanced 5.96% to close at $365.90 on 1.7x average volume without company-specific announcements. This advance was shared with its key customers, as AMD rose 4.64%, NVDA gained 2.23%, and AAPL increased 2.13%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260408_price",
-        "ev_TSM_20260408_peer_NVDA",
-        "ev_TSM_20260408_peer_AMD"
+        "ev_TSM_20260408_peer_AAPL",
+        "ev_TSM_20260408_peer_AMD",
+        "ev_TSM_20260408_peer_NVDA"
       ]
     },
     {
@@ -1348,31 +1350,17 @@
       "pct_change": -3.132,
       "close": 363.35,
       "direction": "down",
-      "headline": "Stock drops 3.13% following 20-F and 6-K filings",
-      "explanation": "TSM fell 3.13% to $363.35 on heavy volume of 2.7 times normal, coinciding with the submission of Form 20-F and two Form 6-K filings. The decline appeared company-specific, as peer NVDA slipped just 0.26% while AMD surged 7.80%.",
-      "confidence": "medium",
+      "headline": "TSM dips 3.13% following 20-F and 6-K filings",
+      "explanation": "TSM fell 3.13% to $363.35 on elevated volume of 2.7x average on the day it submitted annual Form 20-F and Form 6-K regulatory filings, though no filing details were provided. The move was largely company-specific, as customer AMD rose 7.80%, while customer AAPL fell 1.14% and customer NVDA slipped 0.26%.",
+      "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260416_price",
-        "ev_TSM_20260416_peer_NVDA",
+        "ev_TSM_20260416_peer_AAPL",
         "ev_TSM_20260416_peer_AMD",
+        "ev_TSM_20260416_peer_NVDA",
         "ev_TSM_20260416_filing_000104617926000201",
         "ev_TSM_20260416_filing_000104617926000199",
         "ev_TSM_20260416_filing_000162828026025362"
-      ]
-    },
-    {
-      "date": "2026-04-24",
-      "pct_change": 5.174,
-      "close": 402.46,
-      "direction": "up",
-      "headline": "Shares climb 5.17% amid Form 6-K filing and peer gains",
-      "explanation": "TSM gained 5.17% to close at $402.46 on 2.2 times average volume following a Form 6-K filing. Broader industry strength also supported the stock, with NVDA rising 4.32% and AMD jumping 13.91%.",
-      "confidence": "medium",
-      "citation_ids": [
-        "ev_TSM_20260424_price",
-        "ev_TSM_20260424_peer_NVDA",
-        "ev_TSM_20260424_peer_AMD",
-        "ev_TSM_20260424_filing_000104617926000205"
       ]
     },
     {
@@ -1380,13 +1368,14 @@
       "pct_change": 6.361,
       "close": 419.5,
       "direction": "up",
-      "headline": "Stock rises 6.36% amid broad semiconductor rally",
-      "explanation": "TSM rose 6.36% to $419.50 on 1.8 times normal volume without company-specific news. Peers NVDA and AMD gained 5.77% and 18.61% respectively, indicating the rally was largely sector-wide.",
+      "headline": "TSM climbs 6.36% as customer AMD rallies 18.6%",
+      "explanation": "TSM climbed 6.36% to $419.50 on 1.8x average volume with no company-specific news reported. The rally was shared with its key customers, including AMD which surged 18.61%, NVDA which gained 5.77%, and AAPL which rose 1.17%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260506_price",
-        "ev_TSM_20260506_peer_NVDA",
-        "ev_TSM_20260506_peer_AMD"
+        "ev_TSM_20260506_peer_AAPL",
+        "ev_TSM_20260506_peer_AMD",
+        "ev_TSM_20260506_peer_NVDA"
       ]
     },
     {
@@ -1394,45 +1383,31 @@
       "pct_change": 4.482,
       "close": 417.72,
       "direction": "up",
-      "headline": "Shares rise 4.48% following earlier 6-K filings",
-      "explanation": "TSM climbed 4.48% to $417.72 on 1.9 times average volume following two Form 6-K filings made two days prior. The advance tracked peer NVDA, which rose 4.39%, while AMD posted a modest 0.94% gain.",
-      "confidence": "medium",
+      "headline": "TSM gains 4.48% following earlier Form 6-K filings",
+      "explanation": "TSM gained 4.48% to reach $417.72 on 1.9x average volume two days after filing two Form 6-K reports on May 12. The advance was shared with customer NVDA, which rose 4.39%, and customer AMD, which rose 0.94%, while customer AAPL moved the other way with a 0.22% decline.",
+      "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260514_price",
-        "ev_TSM_20260514_peer_NVDA",
+        "ev_TSM_20260514_peer_AAPL",
         "ev_TSM_20260514_peer_AMD",
+        "ev_TSM_20260514_peer_NVDA",
         "ev_TSM_20260514_filing_000104617926000275",
         "ev_TSM_20260514_filing_000104617926000274"
       ]
     },
     {
-      "date": "2026-06-05",
-      "pct_change": -6.687,
-      "close": 415.17,
-      "direction": "down",
-      "headline": "Shares drop 6.69% in industry-wide sell-off",
-      "explanation": "TSM fell 6.69% to $415.17 on 2.0 times normal trading volume despite a Form 6-K filing the prior day. The decline reflected broader sector weakness, with NVDA dropping 6.20% and AMD sliding 10.86%.",
-      "confidence": "medium",
-      "citation_ids": [
-        "ev_TSM_20260605_price",
-        "ev_TSM_20260605_peer_NVDA",
-        "ev_TSM_20260605_peer_AMD",
-        "ev_TSM_20260605_filing_000104617926000302"
-      ]
-    },
-    {
-      "date": "2026-06-11",
-      "pct_change": 3.014,
-      "close": 421.07,
+      "date": "2026-06-01",
+      "pct_change": 4.106,
+      "close": 435.63,
       "direction": "up",
-      "headline": "Stock adds 3.01% after Form 6-K filing",
-      "explanation": "TSM rose 3.01% to $421.07 on 1.4 times average volume after filing a Form 6-K the previous day. Peer stocks also advanced, with NVDA climbing 2.22% and AMD gaining 7.97%.",
-      "confidence": "medium",
+      "headline": "TSM advances 4.11% alongside customer NVDA",
+      "explanation": "TSM gained 4.11% to close at $435.63 on 1.9x average volume with no company-specific headlines. The upward move was shared with customer NVDA (+6.26%), while other customers moved in the opposite direction, with AAPL falling 1.84% and AMD down 1.16%.",
+      "confidence": "low",
       "citation_ids": [
-        "ev_TSM_20260611_price",
-        "ev_TSM_20260611_peer_NVDA",
-        "ev_TSM_20260611_peer_AMD",
-        "ev_TSM_20260611_filing_000104617926000367"
+        "ev_TSM_20260601_price",
+        "ev_TSM_20260601_peer_AAPL",
+        "ev_TSM_20260601_peer_AMD",
+        "ev_TSM_20260601_peer_NVDA"
       ]
     },
     {
@@ -1440,13 +1415,14 @@
       "pct_change": 6.935,
       "close": 462.12,
       "direction": "up",
-      "headline": "Shares rally 6.93% alongside semiconductor peers",
-      "explanation": "TSM gained 6.93% to finish at $462.12 on elevated volume of 2.7 times average. No company-specific news was reported, though peers NVDA and AMD gained 2.95% and 4.86%, pointing to broad industry strength.",
+      "headline": "TSM rises 6.93% on heavy volume with customers",
+      "explanation": "No company-specific news accompanied TSM's 6.93% gain to $462.12 on 2.7x average volume. The upward movement was shared across customers, as AMD rose 4.86%, NVDA advanced 2.95%, and AAPL increased 0.70%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260618_price",
-        "ev_TSM_20260618_peer_NVDA",
-        "ev_TSM_20260618_peer_AMD"
+        "ev_TSM_20260618_peer_AAPL",
+        "ev_TSM_20260618_peer_AMD",
+        "ev_TSM_20260618_peer_NVDA"
       ]
     },
     {
@@ -1454,13 +1430,14 @@
       "pct_change": -6.688,
       "close": 436.39,
       "direction": "down",
-      "headline": "Stock drops 6.69% amid broad industry pullback",
-      "explanation": "TSM declined 6.69% to $436.39 on 2.1 times normal volume with no company-specific announcements. Peers NVDA and AMD dropped 4.13% and 5.76% the same day, indicating that the retreat was largely sector-wide.",
+      "headline": "TSM drops 6.69% in shared semiconductor pullback",
+      "explanation": "TSM fell 6.69% to $436.39 on 2.1x average volume with no company-specific developments. The drop was shared with its primary customers, as AMD fell 5.76%, NVDA dropped 4.13%, and AAPL shed 0.91%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260623_price",
-        "ev_TSM_20260623_peer_NVDA",
-        "ev_TSM_20260623_peer_AMD"
+        "ev_TSM_20260623_peer_AAPL",
+        "ev_TSM_20260623_peer_AMD",
+        "ev_TSM_20260623_peer_NVDA"
       ]
     },
     {
@@ -1468,13 +1445,14 @@
       "pct_change": 5.262,
       "close": 455.1,
       "direction": "up",
-      "headline": "Shares gain 5.26% tracking sector peers higher",
-      "explanation": "TSM rose 5.26% to close at $455.10 on 1.5 times average volume. No company-specific catalysts were disclosed, and peer semiconductor stocks NVDA and AMD also gained 1.27% and 3.43%, suggesting sector-wide buying.",
+      "headline": "TSM rebounds 5.26% with customers AMD and NVDA",
+      "explanation": "TSM rose 5.26% to $455.10 on 1.5x average volume without direct company news. The rebound was shared with customer AMD (+3.43%) and customer NVDA (+1.27%), whereas customer AAPL moved the other way, slipping 0.72%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260629_price",
-        "ev_TSM_20260629_peer_NVDA",
-        "ev_TSM_20260629_peer_AMD"
+        "ev_TSM_20260629_peer_AAPL",
+        "ev_TSM_20260629_peer_AMD",
+        "ev_TSM_20260629_peer_NVDA"
       ]
     },
     {
@@ -1482,13 +1460,44 @@
       "pct_change": -6.981,
       "close": 444.23,
       "direction": "down",
-      "headline": "Stock slides 6.98% in tandem with AMD decline",
-      "explanation": "TSM dropped 6.98% to $444.23 on 1.9 times normal volume without company-specific news. Semiconductor peer AMD fell a comparable 6.89% while NVDA slipped 1.25%, indicating sector-wide pressure.",
+      "headline": "TSM drops 6.98% alongside customer AMD",
+      "explanation": "TSM dropped 6.98% to $444.23 on 1.9x average volume in the absence of company-specific headlines. The decline was shared with customer AMD (-6.89%) and customer NVDA (-1.25%), while customer AAPL moved the other way with a 1.74% gain.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260701_price",
-        "ev_TSM_20260701_peer_NVDA",
-        "ev_TSM_20260701_peer_AMD"
+        "ev_TSM_20260701_peer_AAPL",
+        "ev_TSM_20260701_peer_AMD",
+        "ev_TSM_20260701_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "pct_change": 5.546,
+      "close": 424.61,
+      "direction": "up",
+      "headline": "TSM climbs 5.55% as chip customers gain",
+      "explanation": "No company-specific news accompanied TSM's 5.55% advance to $424.61 on 1.9x average volume. The move was shared across its customer base, with customer AMD climbing 8.11%, customer NVDA rising 1.97%, and customer AAPL up 0.35%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_TSM_20260721_price",
+        "ev_TSM_20260721_peer_AAPL",
+        "ev_TSM_20260721_peer_AMD",
+        "ev_TSM_20260721_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "pct_change": 7.644,
+      "close": 403.31,
+      "direction": "up",
+      "headline": "TSM rises 7.64% alongside customer AMD surge",
+      "explanation": "TSM climbed 7.64% to close at $403.31 on 1.8x average volume with no company-specific catalysts reported. The move was shared with customer AMD (+13.00%) and customer NVDA (+2.65%), while customer AAPL declined 1.41%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_TSM_20260730_price",
+        "ev_TSM_20260730_peer_AAPL",
+        "ev_TSM_20260730_peer_AMD",
+        "ev_TSM_20260730_peer_NVDA"
       ]
     }
   ],
@@ -1507,33 +1516,49 @@
         "prev_close": 316.5,
         "volume": 18488000,
         "volume_vs_30d_avg": 1.9,
-        "move_excluding_sector_pct": 2.1
+        "move_excluding_sector_pct": 2.69
       }
     },
-    "ev_TSM_20260331_peer_NVDA": {
-      "id": "ev_TSM_20260331_peer_NVDA",
+    "ev_TSM_20260331_peer_AAPL": {
+      "id": "ev_TSM_20260331_peer_AAPL",
       "kind": "peer_move",
-      "title": "NVDA moved +5.59% the same day",
-      "detail": "TSM moved +6.78% while NVDA moved +5.59%.",
+      "title": "AAPL (customer) moved +2.90% the same day",
+      "detail": "TSM moved +6.78% while AAPL moved +2.90%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-03-31",
       "numbers": {
-        "peer_pct_change": 5.59,
-        "subject_pct_change": 6.777
+        "peer_pct_change": 2.9,
+        "subject_pct_change": 6.777,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260331_peer_AMD": {
       "id": "ev_TSM_20260331_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved +3.77% the same day",
-      "detail": "TSM moved +6.78% while AMD moved +3.77%.",
+      "title": "AMD (customer) moved +3.77% the same day",
+      "detail": "TSM moved +6.78% while AMD moved +3.77%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-03-31",
       "numbers": {
         "peer_pct_change": 3.77,
-        "subject_pct_change": 6.777
+        "subject_pct_change": 6.777,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260331_peer_NVDA": {
+      "id": "ev_TSM_20260331_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +5.59% the same day",
+      "detail": "TSM moved +6.78% while NVDA moved +5.59%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-03-31",
+      "numbers": {
+        "peer_pct_change": 5.59,
+        "subject_pct_change": 6.777,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260408_price": {
@@ -1550,33 +1575,49 @@
         "prev_close": 345.32,
         "volume": 16356900,
         "volume_vs_30d_avg": 1.68,
-        "move_excluding_sector_pct": 2.52
+        "move_excluding_sector_pct": 2.96
       }
     },
-    "ev_TSM_20260408_peer_NVDA": {
-      "id": "ev_TSM_20260408_peer_NVDA",
+    "ev_TSM_20260408_peer_AAPL": {
+      "id": "ev_TSM_20260408_peer_AAPL",
       "kind": "peer_move",
-      "title": "NVDA moved +2.23% the same day",
-      "detail": "TSM moved +5.96% while NVDA moved +2.23%.",
+      "title": "AAPL (customer) moved +2.13% the same day",
+      "detail": "TSM moved +5.96% while AAPL moved +2.13%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-04-08",
       "numbers": {
-        "peer_pct_change": 2.23,
-        "subject_pct_change": 5.96
+        "peer_pct_change": 2.13,
+        "subject_pct_change": 5.96,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260408_peer_AMD": {
       "id": "ev_TSM_20260408_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved +4.64% the same day",
-      "detail": "TSM moved +5.96% while AMD moved +4.64%.",
+      "title": "AMD (customer) moved +4.64% the same day",
+      "detail": "TSM moved +5.96% while AMD moved +4.64%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-04-08",
       "numbers": {
         "peer_pct_change": 4.64,
-        "subject_pct_change": 5.96
+        "subject_pct_change": 5.96,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260408_peer_NVDA": {
+      "id": "ev_TSM_20260408_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +2.23% the same day",
+      "detail": "TSM moved +5.96% while NVDA moved +2.23%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-08",
+      "numbers": {
+        "peer_pct_change": 2.23,
+        "subject_pct_change": 5.96,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260416_price": {
@@ -1593,33 +1634,49 @@
         "prev_close": 375.1,
         "volume": 26405800,
         "volume_vs_30d_avg": 2.72,
-        "move_excluding_sector_pct": 6.9
+        "move_excluding_sector_pct": 5.27
       }
     },
-    "ev_TSM_20260416_peer_NVDA": {
-      "id": "ev_TSM_20260416_peer_NVDA",
+    "ev_TSM_20260416_peer_AAPL": {
+      "id": "ev_TSM_20260416_peer_AAPL",
       "kind": "peer_move",
-      "title": "NVDA moved -0.26% the same day",
-      "detail": "TSM moved -3.13% while NVDA moved -0.26%.",
+      "title": "AAPL (customer) moved -1.14% the same day",
+      "detail": "TSM moved -3.13% while AAPL moved -1.14%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-04-16",
       "numbers": {
-        "peer_pct_change": -0.26,
-        "subject_pct_change": -3.132
+        "peer_pct_change": -1.14,
+        "subject_pct_change": -3.132,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260416_peer_AMD": {
       "id": "ev_TSM_20260416_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved +7.80% the same day",
-      "detail": "TSM moved -3.13% while AMD moved +7.80%.",
+      "title": "AMD (customer) moved +7.80% the same day",
+      "detail": "TSM moved -3.13% while AMD moved +7.80%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-04-16",
       "numbers": {
         "peer_pct_change": 7.8,
-        "subject_pct_change": -3.132
+        "subject_pct_change": -3.132,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260416_peer_NVDA": {
+      "id": "ev_TSM_20260416_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved -0.26% the same day",
+      "detail": "TSM moved -3.13% while NVDA moved -0.26%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": -0.26,
+        "subject_pct_change": -3.132,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260416_filing_000104617926000201": {
@@ -1652,59 +1709,6 @@
       "occurred_on": "2026-04-16",
       "numbers": {}
     },
-    "ev_TSM_20260424_price": {
-      "id": "ev_TSM_20260424_price",
-      "kind": "price",
-      "title": "TSM rose 5.17% on 2026-04-24",
-      "detail": "Closed at $402.46 from $382.66. Volume was 2.2x the 30-day average.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-04-24",
-      "numbers": {
-        "pct_change": 5.174,
-        "close": 402.46,
-        "prev_close": 382.66,
-        "volume": 21603600,
-        "volume_vs_30d_avg": 2.22,
-        "move_excluding_sector_pct": 3.94
-      }
-    },
-    "ev_TSM_20260424_peer_NVDA": {
-      "id": "ev_TSM_20260424_peer_NVDA",
-      "kind": "peer_move",
-      "title": "NVDA moved +4.32% the same day",
-      "detail": "TSM moved +5.17% while NVDA moved +4.32%.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-04-24",
-      "numbers": {
-        "peer_pct_change": 4.32,
-        "subject_pct_change": 5.174
-      }
-    },
-    "ev_TSM_20260424_peer_AMD": {
-      "id": "ev_TSM_20260424_peer_AMD",
-      "kind": "peer_move",
-      "title": "AMD moved +13.91% the same day",
-      "detail": "TSM moved +5.17% while AMD moved +13.91%.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-04-24",
-      "numbers": {
-        "peer_pct_change": 13.91,
-        "subject_pct_change": 5.174
-      }
-    },
-    "ev_TSM_20260424_filing_000104617926000205": {
-      "id": "ev_TSM_20260424_filing_000104617926000205",
-      "kind": "filing",
-      "title": "6-K filed 2026-04-24",
-      "detail": "6-K",
-      "source": "SEC EDGAR",
-      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000205/tsm-monthend6kx20260424.htm",
-      "occurred_on": "2026-04-24",
-      "numbers": {}
-    },
     "ev_TSM_20260506_price": {
       "id": "ev_TSM_20260506_price",
       "kind": "price",
@@ -1719,33 +1723,49 @@
         "prev_close": 394.41,
         "volume": 17736400,
         "volume_vs_30d_avg": 1.83,
-        "move_excluding_sector_pct": 5.83
+        "move_excluding_sector_pct": 2.16
       }
     },
-    "ev_TSM_20260506_peer_NVDA": {
-      "id": "ev_TSM_20260506_peer_NVDA",
+    "ev_TSM_20260506_peer_AAPL": {
+      "id": "ev_TSM_20260506_peer_AAPL",
       "kind": "peer_move",
-      "title": "NVDA moved +5.77% the same day",
-      "detail": "TSM moved +6.36% while NVDA moved +5.77%.",
+      "title": "AAPL (customer) moved +1.17% the same day",
+      "detail": "TSM moved +6.36% while AAPL moved +1.17%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-05-06",
       "numbers": {
-        "peer_pct_change": 5.77,
-        "subject_pct_change": 6.361
+        "peer_pct_change": 1.17,
+        "subject_pct_change": 6.361,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260506_peer_AMD": {
       "id": "ev_TSM_20260506_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved +18.61% the same day",
-      "detail": "TSM moved +6.36% while AMD moved +18.61%.",
+      "title": "AMD (customer) moved +18.61% the same day",
+      "detail": "TSM moved +6.36% while AMD moved +18.61%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-05-06",
       "numbers": {
         "peer_pct_change": 18.61,
-        "subject_pct_change": 6.361
+        "subject_pct_change": 6.361,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260506_peer_NVDA": {
+      "id": "ev_TSM_20260506_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +5.77% the same day",
+      "detail": "TSM moved +6.36% while NVDA moved +5.77%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-06",
+      "numbers": {
+        "peer_pct_change": 5.77,
+        "subject_pct_change": 6.361,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260514_price": {
@@ -1762,33 +1782,49 @@
         "prev_close": 399.8,
         "volume": 18577100,
         "volume_vs_30d_avg": 1.91,
-        "move_excluding_sector_pct": 1.82
+        "move_excluding_sector_pct": 2.78
       }
     },
-    "ev_TSM_20260514_peer_NVDA": {
-      "id": "ev_TSM_20260514_peer_NVDA",
+    "ev_TSM_20260514_peer_AAPL": {
+      "id": "ev_TSM_20260514_peer_AAPL",
       "kind": "peer_move",
-      "title": "NVDA moved +4.39% the same day",
-      "detail": "TSM moved +4.48% while NVDA moved +4.39%.",
+      "title": "AAPL (customer) moved -0.22% the same day",
+      "detail": "TSM moved +4.48% while AAPL moved -0.22%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-05-14",
       "numbers": {
-        "peer_pct_change": 4.39,
-        "subject_pct_change": 4.482
+        "peer_pct_change": -0.22,
+        "subject_pct_change": 4.482,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260514_peer_AMD": {
       "id": "ev_TSM_20260514_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved +0.94% the same day",
-      "detail": "TSM moved +4.48% while AMD moved +0.94%.",
+      "title": "AMD (customer) moved +0.94% the same day",
+      "detail": "TSM moved +4.48% while AMD moved +0.94%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-05-14",
       "numbers": {
         "peer_pct_change": 0.94,
-        "subject_pct_change": 4.482
+        "subject_pct_change": 4.482,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260514_peer_NVDA": {
+      "id": "ev_TSM_20260514_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +4.39% the same day",
+      "detail": "TSM moved +4.48% while NVDA moved +4.39%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": 4.39,
+        "subject_pct_change": 4.482,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260514_filing_000104617926000275": {
@@ -1811,111 +1847,64 @@
       "occurred_on": "2026-05-12",
       "numbers": {}
     },
-    "ev_TSM_20260605_price": {
-      "id": "ev_TSM_20260605_price",
+    "ev_TSM_20260601_price": {
+      "id": "ev_TSM_20260601_price",
       "kind": "price",
-      "title": "TSM fell 6.69% on 2026-06-05",
-      "detail": "Closed at $415.17 from $444.92. Volume was 2.0x the 30-day average.",
+      "title": "TSM rose 4.11% on 2026-06-01",
+      "detail": "Closed at $435.63 from $418.45. Volume was 1.9x the 30-day average.",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-06-05",
+      "occurred_on": "2026-06-01",
       "numbers": {
-        "pct_change": -6.687,
-        "close": 415.17,
-        "prev_close": 444.92,
-        "volume": 19644200,
-        "volume_vs_30d_avg": 2.02,
-        "move_excluding_sector_pct": 1.84
+        "pct_change": 4.106,
+        "close": 435.63,
+        "prev_close": 418.45,
+        "volume": 18040400,
+        "volume_vs_30d_avg": 1.86,
+        "move_excluding_sector_pct": 3.02
       }
     },
-    "ev_TSM_20260605_peer_NVDA": {
-      "id": "ev_TSM_20260605_peer_NVDA",
+    "ev_TSM_20260601_peer_AAPL": {
+      "id": "ev_TSM_20260601_peer_AAPL",
       "kind": "peer_move",
-      "title": "NVDA moved -6.20% the same day",
-      "detail": "TSM moved -6.69% while NVDA moved -6.20%.",
+      "title": "AAPL (customer) moved -1.84% the same day",
+      "detail": "TSM moved +4.11% while AAPL moved -1.84%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-06-05",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-06-01",
       "numbers": {
-        "peer_pct_change": -6.2,
-        "subject_pct_change": -6.687
+        "peer_pct_change": -1.84,
+        "subject_pct_change": 4.106,
+        "relationship": "customer"
       }
     },
-    "ev_TSM_20260605_peer_AMD": {
-      "id": "ev_TSM_20260605_peer_AMD",
+    "ev_TSM_20260601_peer_AMD": {
+      "id": "ev_TSM_20260601_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved -10.86% the same day",
-      "detail": "TSM moved -6.69% while AMD moved -10.86%.",
+      "title": "AMD (customer) moved -1.16% the same day",
+      "detail": "TSM moved +4.11% while AMD moved -1.16%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-06-05",
+      "occurred_on": "2026-06-01",
       "numbers": {
-        "peer_pct_change": -10.86,
-        "subject_pct_change": -6.687
+        "peer_pct_change": -1.16,
+        "subject_pct_change": 4.106,
+        "relationship": "customer"
       }
     },
-    "ev_TSM_20260605_filing_000104617926000302": {
-      "id": "ev_TSM_20260605_filing_000104617926000302",
-      "kind": "filing",
-      "title": "6-K filed 2026-06-04",
-      "detail": "6-K",
-      "source": "SEC EDGAR",
-      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000302/tsm-agmx20260604x6k.htm",
-      "occurred_on": "2026-06-04",
-      "numbers": {}
-    },
-    "ev_TSM_20260611_price": {
-      "id": "ev_TSM_20260611_price",
-      "kind": "price",
-      "title": "TSM rose 3.01% on 2026-06-11",
-      "detail": "Closed at $421.07 from $408.75. Volume was 1.4x the 30-day average.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-06-11",
-      "numbers": {
-        "pct_change": 3.014,
-        "close": 421.07,
-        "prev_close": 408.75,
-        "volume": 13826500,
-        "volume_vs_30d_avg": 1.42,
-        "move_excluding_sector_pct": 2.08
-      }
-    },
-    "ev_TSM_20260611_peer_NVDA": {
-      "id": "ev_TSM_20260611_peer_NVDA",
+    "ev_TSM_20260601_peer_NVDA": {
+      "id": "ev_TSM_20260601_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved +2.22% the same day",
-      "detail": "TSM moved +3.01% while NVDA moved +2.22%.",
+      "title": "NVDA (customer) moved +6.26% the same day",
+      "detail": "TSM moved +4.11% while NVDA moved +6.26%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-06-11",
+      "occurred_on": "2026-06-01",
       "numbers": {
-        "peer_pct_change": 2.22,
-        "subject_pct_change": 3.014
+        "peer_pct_change": 6.26,
+        "subject_pct_change": 4.106,
+        "relationship": "customer"
       }
-    },
-    "ev_TSM_20260611_peer_AMD": {
-      "id": "ev_TSM_20260611_peer_AMD",
-      "kind": "peer_move",
-      "title": "AMD moved +7.97% the same day",
-      "detail": "TSM moved +3.01% while AMD moved +7.97%.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-06-11",
-      "numbers": {
-        "peer_pct_change": 7.97,
-        "subject_pct_change": 3.014
-      }
-    },
-    "ev_TSM_20260611_filing_000104617926000367": {
-      "id": "ev_TSM_20260611_filing_000104617926000367",
-      "kind": "filing",
-      "title": "6-K filed 2026-06-10",
-      "detail": "6-K",
-      "source": "SEC EDGAR",
-      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000367/tsm-revenue20260610.htm",
-      "occurred_on": "2026-06-10",
-      "numbers": {}
     },
     "ev_TSM_20260618_price": {
       "id": "ev_TSM_20260618_price",
@@ -1931,33 +1920,49 @@
         "prev_close": 432.15,
         "volume": 25817100,
         "volume_vs_30d_avg": 2.66,
-        "move_excluding_sector_pct": 3.03
+        "move_excluding_sector_pct": 4.1
       }
     },
-    "ev_TSM_20260618_peer_NVDA": {
-      "id": "ev_TSM_20260618_peer_NVDA",
+    "ev_TSM_20260618_peer_AAPL": {
+      "id": "ev_TSM_20260618_peer_AAPL",
       "kind": "peer_move",
-      "title": "NVDA moved +2.95% the same day",
-      "detail": "TSM moved +6.93% while NVDA moved +2.95%.",
+      "title": "AAPL (customer) moved +0.70% the same day",
+      "detail": "TSM moved +6.93% while AAPL moved +0.70%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-06-18",
       "numbers": {
-        "peer_pct_change": 2.95,
-        "subject_pct_change": 6.935
+        "peer_pct_change": 0.7,
+        "subject_pct_change": 6.935,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260618_peer_AMD": {
       "id": "ev_TSM_20260618_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved +4.86% the same day",
-      "detail": "TSM moved +6.93% while AMD moved +4.86%.",
+      "title": "AMD (customer) moved +4.86% the same day",
+      "detail": "TSM moved +6.93% while AMD moved +4.86%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-06-18",
       "numbers": {
         "peer_pct_change": 4.86,
-        "subject_pct_change": 6.935
+        "subject_pct_change": 6.935,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260618_peer_NVDA": {
+      "id": "ev_TSM_20260618_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +2.95% the same day",
+      "detail": "TSM moved +6.93% while NVDA moved +2.95%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 2.95,
+        "subject_pct_change": 6.935,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260623_price": {
@@ -1974,33 +1979,49 @@
         "prev_close": 467.67,
         "volume": 20364500,
         "volume_vs_30d_avg": 2.1,
-        "move_excluding_sector_pct": 1.74
+        "move_excluding_sector_pct": 3.09
       }
     },
-    "ev_TSM_20260623_peer_NVDA": {
-      "id": "ev_TSM_20260623_peer_NVDA",
+    "ev_TSM_20260623_peer_AAPL": {
+      "id": "ev_TSM_20260623_peer_AAPL",
       "kind": "peer_move",
-      "title": "NVDA moved -4.13% the same day",
-      "detail": "TSM moved -6.69% while NVDA moved -4.13%.",
+      "title": "AAPL (customer) moved -0.91% the same day",
+      "detail": "TSM moved -6.69% while AAPL moved -0.91%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-06-23",
       "numbers": {
-        "peer_pct_change": -4.13,
-        "subject_pct_change": -6.688
+        "peer_pct_change": -0.91,
+        "subject_pct_change": -6.688,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260623_peer_AMD": {
       "id": "ev_TSM_20260623_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved -5.76% the same day",
-      "detail": "TSM moved -6.69% while AMD moved -5.76%.",
+      "title": "AMD (customer) moved -5.76% the same day",
+      "detail": "TSM moved -6.69% while AMD moved -5.76%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-06-23",
       "numbers": {
         "peer_pct_change": -5.76,
-        "subject_pct_change": -6.688
+        "subject_pct_change": -6.688,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260623_peer_NVDA": {
+      "id": "ev_TSM_20260623_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved -4.13% the same day",
+      "detail": "TSM moved -6.69% while NVDA moved -4.13%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-23",
+      "numbers": {
+        "peer_pct_change": -4.13,
+        "subject_pct_change": -6.688,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260629_price": {
@@ -2017,33 +2038,49 @@
         "prev_close": 432.35,
         "volume": 14881400,
         "volume_vs_30d_avg": 1.53,
-        "move_excluding_sector_pct": 2.91
+        "move_excluding_sector_pct": 3.93
       }
     },
-    "ev_TSM_20260629_peer_NVDA": {
-      "id": "ev_TSM_20260629_peer_NVDA",
+    "ev_TSM_20260629_peer_AAPL": {
+      "id": "ev_TSM_20260629_peer_AAPL",
       "kind": "peer_move",
-      "title": "NVDA moved +1.27% the same day",
-      "detail": "TSM moved +5.26% while NVDA moved +1.27%.",
+      "title": "AAPL (customer) moved -0.72% the same day",
+      "detail": "TSM moved +5.26% while AAPL moved -0.72%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-06-29",
       "numbers": {
-        "peer_pct_change": 1.27,
-        "subject_pct_change": 5.262
+        "peer_pct_change": -0.72,
+        "subject_pct_change": 5.262,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260629_peer_AMD": {
       "id": "ev_TSM_20260629_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved +3.43% the same day",
-      "detail": "TSM moved +5.26% while AMD moved +3.43%.",
+      "title": "AMD (customer) moved +3.43% the same day",
+      "detail": "TSM moved +5.26% while AMD moved +3.43%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-06-29",
       "numbers": {
         "peer_pct_change": 3.43,
-        "subject_pct_change": 5.262
+        "subject_pct_change": 5.262,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260629_peer_NVDA": {
+      "id": "ev_TSM_20260629_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +1.27% the same day",
+      "detail": "TSM moved +5.26% while NVDA moved +1.27%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-29",
+      "numbers": {
+        "peer_pct_change": 1.27,
+        "subject_pct_change": 5.262,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260701_price": {
@@ -2060,33 +2097,167 @@
         "prev_close": 477.57,
         "volume": 18534800,
         "volume_vs_30d_avg": 1.91,
-        "move_excluding_sector_pct": 2.91
+        "move_excluding_sector_pct": 4.84
       }
     },
-    "ev_TSM_20260701_peer_NVDA": {
-      "id": "ev_TSM_20260701_peer_NVDA",
+    "ev_TSM_20260701_peer_AAPL": {
+      "id": "ev_TSM_20260701_peer_AAPL",
       "kind": "peer_move",
-      "title": "NVDA moved -1.25% the same day",
-      "detail": "TSM moved -6.98% while NVDA moved -1.25%.",
+      "title": "AAPL (customer) moved +1.74% the same day",
+      "detail": "TSM moved -6.98% while AAPL moved +1.74%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-07-01",
       "numbers": {
-        "peer_pct_change": -1.25,
-        "subject_pct_change": -6.981
+        "peer_pct_change": 1.74,
+        "subject_pct_change": -6.981,
+        "relationship": "customer"
       }
     },
     "ev_TSM_20260701_peer_AMD": {
       "id": "ev_TSM_20260701_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD moved -6.89% the same day",
-      "detail": "TSM moved -6.98% while AMD moved -6.89%.",
+      "title": "AMD (customer) moved -6.89% the same day",
+      "detail": "TSM moved -6.98% while AMD moved -6.89%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
       "occurred_on": "2026-07-01",
       "numbers": {
         "peer_pct_change": -6.89,
-        "subject_pct_change": -6.981
+        "subject_pct_change": -6.981,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260701_peer_NVDA": {
+      "id": "ev_TSM_20260701_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved -1.25% the same day",
+      "detail": "TSM moved -6.98% while NVDA moved -1.25%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-01",
+      "numbers": {
+        "peer_pct_change": -1.25,
+        "subject_pct_change": -6.981,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260721_price": {
+      "id": "ev_TSM_20260721_price",
+      "kind": "price",
+      "title": "TSM rose 5.55% on 2026-07-21",
+      "detail": "Closed at $424.61 from $402.30. Volume was 1.9x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-21",
+      "numbers": {
+        "pct_change": 5.546,
+        "close": 424.61,
+        "prev_close": 402.3,
+        "volume": 18210100,
+        "volume_vs_30d_avg": 1.87,
+        "move_excluding_sector_pct": 2.07
+      }
+    },
+    "ev_TSM_20260721_peer_AAPL": {
+      "id": "ev_TSM_20260721_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +0.35% the same day",
+      "detail": "TSM moved +5.55% while AAPL moved +0.35%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-07-21",
+      "numbers": {
+        "peer_pct_change": 0.35,
+        "subject_pct_change": 5.546,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260721_peer_AMD": {
+      "id": "ev_TSM_20260721_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (customer) moved +8.11% the same day",
+      "detail": "TSM moved +5.55% while AMD moved +8.11%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-07-21",
+      "numbers": {
+        "peer_pct_change": 8.11,
+        "subject_pct_change": 5.546,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260721_peer_NVDA": {
+      "id": "ev_TSM_20260721_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +1.97% the same day",
+      "detail": "TSM moved +5.55% while NVDA moved +1.97%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-21",
+      "numbers": {
+        "peer_pct_change": 1.97,
+        "subject_pct_change": 5.546,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260730_price": {
+      "id": "ev_TSM_20260730_price",
+      "kind": "price",
+      "title": "TSM rose 7.64% on 2026-07-30",
+      "detail": "Closed at $403.31 from $374.67. Volume was 1.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "pct_change": 7.644,
+        "close": 403.31,
+        "prev_close": 374.67,
+        "volume": 17474200,
+        "volume_vs_30d_avg": 1.8,
+        "move_excluding_sector_pct": 2.9
+      }
+    },
+    "ev_TSM_20260730_peer_AAPL": {
+      "id": "ev_TSM_20260730_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -1.41% the same day",
+      "detail": "TSM moved +7.64% while AAPL moved -1.41%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": -1.41,
+        "subject_pct_change": 7.644,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260730_peer_AMD": {
+      "id": "ev_TSM_20260730_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (customer) moved +13.00% the same day",
+      "detail": "TSM moved +7.64% while AMD moved +13.00%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 13.0,
+        "subject_pct_change": 7.644,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260730_peer_NVDA": {
+      "id": "ev_TSM_20260730_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +2.65% the same day",
+      "detail": "TSM moved +7.64% while NVDA moved +2.65%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 2.65,
+        "subject_pct_change": 7.644,
+        "relationship": "customer"
       }
     },
     "ev_TSM_sector_IPG3344S": {
@@ -2120,16 +2291,15 @@
       }
     }
   },
-  "arc": "From late March through early July 2026, TSM appreciated overall from a baseline of $316.50 to $444.23, driven primarily by strong sector-wide momentum shared with key semiconductor peers NVIDIA and AMD. While TSM filed periodic Form 6-K updates and its annual Form 20-F over the period, the stock's largest swings consistently moved in lockstep with the broader group, rising during sharp industry rallies on March 31, April 8, May 6, and June 18, while pulling back in sympathy during sector sell-offs on June 5, June 23, and July 1. Investors should note that the stock exhibited pronounced cyclical volatility and high correlation with peer sentiment throughout this period rather than decoupling on company-specific fundamentals.",
+  "arc": "From late March through July 2026, TSM experienced pronounced price volatility, advancing from $316.50 to high-water marks above $462.12 in mid-June before sharp pullbacks brought the stock to $403.31 by late July. Across the entire four-month sequence of heavy-volume moves, TSM consistently tracked the day-to-day momentum of its core semiconductor customers\u2014primarily AMD and NVDA\u2014rather than responding to idiosyncratic disclosures. Without company-specific operating commentary attached to its regulatory filings, investors should view TSM's swings as tightly coupled to broader trading patterns across its customer base.",
   "arc_citation_ids": [
     "ev_TSM_20260331_price",
-    "ev_TSM_20260416_filing_000162828026025362",
-    "ev_TSM_20260506_peer_AMD",
-    "ev_TSM_20260605_price",
-    "ev_TSM_20260605_peer_NVDA",
     "ev_TSM_20260618_price",
+    "ev_TSM_20260623_price",
     "ev_TSM_20260701_price",
-    "ev_TSM_20260701_peer_AMD"
+    "ev_TSM_20260730_price"
   ],
-  "warnings": []
+  "warnings": [
+    "News unavailable (FINNHUB_API_KEY is not set; add it to backend/.env); explanations will be thinner."
+  ]
 }

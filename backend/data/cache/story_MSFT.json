@@ -1,7 +1,7 @@
 {
   "symbol": "MSFT",
   "company_name": "Microsoft Corporation",
-  "generated_at": "2026-09-26T09:16:52.357231+00:00",
+  "generated_at": "2026-09-26T09:31:51.308143+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1316,30 +1316,17 @@
   ],
   "beats": [
     {
-      "date": "2026-04-13",
-      "pct_change": 3.64,
-      "close": 384.37,
-      "direction": "up",
-      "headline": "MSFT gains 3.6% on above-average volume",
-      "explanation": "Microsoft shares advanced 3.64% to $384.37 with trading volume at 1.64 times the 30-day average. No company-specific news accompanied the move, while peers Apple fell 0.49% and Nvidia edged up 0.36%, suggesting idiosyncratic buying rather than a sector trend.",
-      "confidence": "low",
-      "citation_ids": [
-        "ev_MSFT_20260413_price",
-        "ev_MSFT_20260413_peer_AAPL",
-        "ev_MSFT_20260413_peer_NVDA"
-      ]
-    },
-    {
       "date": "2026-04-23",
       "pct_change": -3.966,
       "close": 415.75,
       "direction": "down",
-      "headline": "MSFT slides 4.0% with peers mixed",
-      "explanation": "Microsoft fell 3.97% to close at $415.75 on volume 1.75 times its 30-day average. The pullback had no company-specific filings attached, while peer Apple rose 0.10% and Nvidia dropped 1.41%.",
+      "headline": "MSFT Drops 3.97% on Elevated Volume",
+      "explanation": "Microsoft shares fell 3.97% to $415.75 on volume 1.75 times the 30-day average. No company-specific news accompanied this drop, though supplier and competitor NVDA also fell 1.41% while competitor AAPL rose 0.10% and supplier AMD gained 0.62%.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260423_price",
         "ev_MSFT_20260423_peer_AAPL",
+        "ev_MSFT_20260423_peer_AMD",
         "ev_MSFT_20260423_peer_NVDA"
       ]
     },
@@ -1348,15 +1335,16 @@
       "pct_change": -3.93,
       "close": 407.78,
       "direction": "down",
-      "headline": "MSFT drops 3.9% following 10-Q and 8-K filings",
-      "explanation": "Shares fell 3.93% to $407.78 on heavy trading volume of 3.25 times the 30-day average following quarterly 10-Q and 8-K reports filed the prior day. Peer Nvidia also dropped 4.63% while Apple gained 0.44%.",
+      "headline": "MSFT Drops 3.93% Following 10-Q and 8-K Filings",
+      "explanation": "Microsoft slipped 3.93% to $407.78 on heavy trading volume 3.25 times its 30-day average following the filing of a 10-Q and an 8-K the prior day. The decline was shared with supplier and competitor NVDA, which fell 4.63%, while competitor AAPL ticked up 0.44% and supplier AMD rose 5.16%.",
       "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260430_price",
-        "ev_MSFT_20260430_peer_AAPL",
-        "ev_MSFT_20260430_peer_NVDA",
         "ev_MSFT_20260430_filing_000119312526191507",
-        "ev_MSFT_20260430_filing_000119312526191457"
+        "ev_MSFT_20260430_filing_000119312526191457",
+        "ev_MSFT_20260430_peer_AAPL",
+        "ev_MSFT_20260430_peer_AMD",
+        "ev_MSFT_20260430_peer_NVDA"
       ]
     },
     {
@@ -1364,28 +1352,15 @@
       "pct_change": 3.051,
       "close": 421.92,
       "direction": "up",
-      "headline": "MSFT rises 3.1% after 8-K disclosure",
-      "explanation": "Microsoft climbed 3.05% to $421.92 on volume 2.33 times normal following an 8-K filing submitted on May 14. The gain was company-specific, as Apple added only 0.68% and Nvidia declined 4.42%.",
-      "confidence": "medium",
+      "headline": "MSFT Gains 3.05% Following 8-K Filing",
+      "explanation": "Microsoft rose 3.05% to $421.92 on volume 2.33 times its 30-day average following an 8-K filing submitted on May 14. The gain was largely company-specific, as supplier AMD dropped 5.69% and supplier and competitor NVDA fell 4.42%, while competitor AAPL added 0.68%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260515_price",
+        "ev_MSFT_20260515_filing_000119312526224155",
         "ev_MSFT_20260515_peer_AAPL",
-        "ev_MSFT_20260515_peer_NVDA",
-        "ev_MSFT_20260515_filing_000119312526224155"
-      ]
-    },
-    {
-      "date": "2026-05-28",
-      "pct_change": 3.47,
-      "close": 426.99,
-      "direction": "up",
-      "headline": "MSFT climbs 3.5% in company-led advance",
-      "explanation": "Shares climbed 3.47% to $426.99 with volume reaching 2.16 times the 30-day average. The move was largely company-specific, outpacing modest gains in Apple (+0.53%) and Nvidia (+0.78%) without direct corporate news.",
-      "confidence": "low",
-      "citation_ids": [
-        "ev_MSFT_20260528_price",
-        "ev_MSFT_20260528_peer_AAPL",
-        "ev_MSFT_20260528_peer_NVDA"
+        "ev_MSFT_20260515_peer_AMD",
+        "ev_MSFT_20260515_peer_NVDA"
       ]
     },
     {
@@ -1393,12 +1368,13 @@
       "pct_change": 5.445,
       "close": 450.24,
       "direction": "up",
-      "headline": "MSFT surges 5.4% while peers decline",
-      "explanation": "Microsoft extended its rally by 5.45% to $450.24 on 3.65 times average volume. The move was entirely company-specific, diverging from Apple's 0.14% dip and Nvidia's 1.45% loss, though no filings were reported.",
+      "headline": "MSFT Advances 5.45% on High Trading Volume",
+      "explanation": "Microsoft climbed 5.45% to $450.24 on 3.65 times its 30-day average volume. No company-specific news accompanied the rally, which diverged from connected peers as competitor AAPL declined 0.14%, supplier AMD lost 0.38%, and supplier and competitor NVDA fell 1.45%.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260529_price",
         "ev_MSFT_20260529_peer_AAPL",
+        "ev_MSFT_20260529_peer_AMD",
         "ev_MSFT_20260529_peer_NVDA"
       ]
     },
@@ -1407,13 +1383,44 @@
       "pct_change": -4.171,
       "close": 441.31,
       "direction": "down",
-      "headline": "MSFT retreats 4.2% as Apple rallies",
-      "explanation": "Shares dropped 4.17% to $441.31 on 1.70 times average volume. The decline was idiosyncratic, as Apple gained 2.90% while Nvidia fell only 0.69%, with no news explaining the selloff.",
+      "headline": "MSFT Declines 4.17% in Company-Specific Drop",
+      "explanation": "Microsoft fell 4.17% to $441.31 on volume 1.70 times its 30-day average. The drop was company-specific with no news provided; competitor AAPL gained 2.90% and supplier AMD gained 2.24%, while supplier and competitor NVDA dipped 0.69%.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260602_price",
         "ev_MSFT_20260602_peer_AAPL",
+        "ev_MSFT_20260602_peer_AMD",
         "ev_MSFT_20260602_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "pct_change": -3.788,
+      "close": 378.91,
+      "direction": "down",
+      "headline": "MSFT Drops 3.79% to $378.91",
+      "explanation": "Microsoft decreased 3.79% to close at $378.91 on 1.92 times average trading volume. No company-specific news was reported; the decline was shared with competitor AAPL, which fell 1.10%, and supplier and competitor NVDA, down 1.33%, whereas supplier AMD rose 1.02%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MSFT_20260617_price",
+        "ev_MSFT_20260617_peer_AAPL",
+        "ev_MSFT_20260617_peer_AMD",
+        "ev_MSFT_20260617_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "pct_change": -3.179,
+      "close": 367.34,
+      "direction": "down",
+      "headline": "MSFT Falls 3.18% on Double Average Volume",
+      "explanation": "Microsoft shares declined 3.18% to $367.34 on volume 2.07 times the 30-day average. No company-specific news was reported, though competitor AAPL fell 0.34% and supplier and competitor NVDA dropped 0.97%, while supplier AMD gained 2.65%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MSFT_20260622_price",
+        "ev_MSFT_20260622_peer_AAPL",
+        "ev_MSFT_20260622_peer_AMD",
+        "ev_MSFT_20260622_peer_NVDA"
       ]
     },
     {
@@ -1421,12 +1428,13 @@
       "pct_change": 5.708,
       "close": 372.97,
       "direction": "up",
-      "headline": "MSFT rebounds 5.7% on massive volume",
-      "explanation": "Microsoft jumped 5.71% to $372.97 with trading volume spiking to 8.53 times the 30-day average. The gain occurred without fresh filings and was partly sector-wide, with Apple gaining 3.14% while Nvidia fell 1.64%.",
+      "headline": "MSFT Rebounds 5.71% on Massive Volume",
+      "explanation": "Microsoft jumped 5.71% to $372.97 with trading volume surging to 8.53 times its 30-day average. The rally was shared with competitor AAPL, which rose 3.14%, even as supplier AMD fell 2.06% and supplier and competitor NVDA declined 1.64% with no company filings released.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260626_price",
         "ev_MSFT_20260626_peer_AAPL",
+        "ev_MSFT_20260626_peer_AMD",
         "ev_MSFT_20260626_peer_NVDA"
       ]
     },
@@ -1435,12 +1443,13 @@
       "pct_change": 3.019,
       "close": 384.28,
       "direction": "up",
-      "headline": "MSFT adds 3.0% on above-average volume",
-      "explanation": "The stock gained 3.02% to close at $384.28 on 2.20 times normal volume. No corporate filings were posted, while peer performance was mixed as Apple rose 1.74% and Nvidia fell 1.25%.",
+      "headline": "MSFT Climbs 3.02% Outperforming Chip Peers",
+      "explanation": "Microsoft advanced 3.02% to $384.28 on 2.20 times average volume. The upward movement was accompanied by a 1.74% gain in competitor AAPL, while supplier AMD and supplier and competitor NVDA fell 6.89% and 1.25%, respectively, in the absence of company-specific filings.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260701_price",
         "ev_MSFT_20260701_peer_AAPL",
+        "ev_MSFT_20260701_peer_AMD",
         "ev_MSFT_20260701_peer_NVDA"
       ]
     },
@@ -1449,15 +1458,16 @@
       "pct_change": 15.507,
       "close": 451.1,
       "direction": "up",
-      "headline": "MSFT surges 15.5% after annual 10-K filing",
-      "explanation": "Microsoft jumped 15.51% to $451.10 on 5.05 times average volume following its fiscal year 10-K and 8-K filings on July 29. The substantial surge was company-specific, vastly outpacing Nvidia's 2.65% rise and Apple's 1.41% drop.",
+      "headline": "MSFT Surges 15.51% Following Annual Filings",
+      "explanation": "Microsoft rallied 15.51% to $451.10 on 5.05 times average volume following its 10-K and 8-K filings on July 29. The move was mirrored across hardware partners, with supplier AMD surging 13.00% and supplier and competitor NVDA rising 2.65%, while competitor AAPL dropped 1.41%.",
       "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260730_price",
-        "ev_MSFT_20260730_peer_AAPL",
-        "ev_MSFT_20260730_peer_NVDA",
         "ev_MSFT_20260730_filing_000119312526323660",
-        "ev_MSFT_20260730_filing_000119312526323632"
+        "ev_MSFT_20260730_filing_000119312526323632",
+        "ev_MSFT_20260730_peer_AAPL",
+        "ev_MSFT_20260730_peer_AMD",
+        "ev_MSFT_20260730_peer_NVDA"
       ]
     },
     {
@@ -1465,15 +1475,16 @@
       "pct_change": 3.019,
       "close": 464.72,
       "direction": "up",
-      "headline": "MSFT gains another 3.0% post-earnings",
-      "explanation": "Shares rose an additional 3.02% to $464.72 on 2.79 times average volume as positive momentum continued following the annual filing. Microsoft strongly diverged from Apple, which plummeted 7.35%, while Nvidia gained 2.93%.",
-      "confidence": "medium",
+      "headline": "MSFT Extends Gains by 3.02% After Annual Report",
+      "explanation": "Microsoft rose another 3.02% to close at $464.72 on 2.79 times its average volume in continued trading following the July 29 10-K and 8-K filings. Supplier and competitor NVDA also rose 2.93%, while competitor AAPL tumbled 7.35% and supplier AMD declined 1.90%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260731_price",
-        "ev_MSFT_20260731_peer_AAPL",
-        "ev_MSFT_20260731_peer_NVDA",
         "ev_MSFT_20260731_filing_000119312526323660",
-        "ev_MSFT_20260731_filing_000119312526323632"
+        "ev_MSFT_20260731_filing_000119312526323632",
+        "ev_MSFT_20260731_peer_AAPL",
+        "ev_MSFT_20260731_peer_AMD",
+        "ev_MSFT_20260731_peer_NVDA"
       ]
     },
     {
@@ -1481,60 +1492,18 @@
       "pct_change": 4.934,
       "close": 487.65,
       "direction": "up",
-      "headline": "MSFT rises 4.9% extending multi-day surge",
-      "explanation": "Microsoft gained 4.93% to reach $487.65 with volume at 3.06 times its 30-day average. The stock continued to outperform its peers without new disclosures, while Nvidia rose 2.93% and Apple slipped 1.78%.",
+      "headline": "MSFT Climbs 4.93% to $487.65",
+      "explanation": "Microsoft gained 4.93% to reach $487.65 on 3.06 times typical volume. No fresh news accompanied the session, but gains were shared with supplier AMD, up 1.78%, and supplier and competitor NVDA, up 2.93%, while competitor AAPL slipped 1.78%.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260803_price",
         "ev_MSFT_20260803_peer_AAPL",
+        "ev_MSFT_20260803_peer_AMD",
         "ev_MSFT_20260803_peer_NVDA"
       ]
     }
   ],
   "evidence": {
-    "ev_MSFT_20260413_price": {
-      "id": "ev_MSFT_20260413_price",
-      "kind": "price",
-      "title": "MSFT rose 3.64% on 2026-04-13",
-      "detail": "Closed at $384.37 from $370.87. Volume was 1.6x the 30-day average.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/MSFT/history",
-      "occurred_on": "2026-04-13",
-      "numbers": {
-        "pct_change": 3.64,
-        "close": 384.37,
-        "prev_close": 370.87,
-        "volume": 35745800,
-        "volume_vs_30d_avg": 1.64,
-        "move_excluding_sector_pct": 3.71
-      }
-    },
-    "ev_MSFT_20260413_peer_AAPL": {
-      "id": "ev_MSFT_20260413_peer_AAPL",
-      "kind": "peer_move",
-      "title": "AAPL moved -0.49% the same day",
-      "detail": "MSFT moved +3.64% while AAPL moved -0.49%.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AAPL/history",
-      "occurred_on": "2026-04-13",
-      "numbers": {
-        "peer_pct_change": -0.49,
-        "subject_pct_change": 3.64
-      }
-    },
-    "ev_MSFT_20260413_peer_NVDA": {
-      "id": "ev_MSFT_20260413_peer_NVDA",
-      "kind": "peer_move",
-      "title": "NVDA moved +0.36% the same day",
-      "detail": "MSFT moved +3.64% while NVDA moved +0.36%.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-04-13",
-      "numbers": {
-        "peer_pct_change": 0.36,
-        "subject_pct_change": 3.64
-      }
-    },
     "ev_MSFT_20260423_price": {
       "id": "ev_MSFT_20260423_price",
       "kind": "price",
@@ -1549,33 +1518,49 @@
         "prev_close": 432.92,
         "volume": 38308000,
         "volume_vs_30d_avg": 1.75,
-        "move_excluding_sector_pct": 3.31
+        "move_excluding_sector_pct": 3.73
       }
     },
     "ev_MSFT_20260423_peer_AAPL": {
       "id": "ev_MSFT_20260423_peer_AAPL",
       "kind": "peer_move",
-      "title": "AAPL moved +0.10% the same day",
-      "detail": "MSFT moved -3.97% while AAPL moved +0.10%.",
+      "title": "AAPL (competitor) moved +0.10% the same day",
+      "detail": "MSFT moved -3.97% while AAPL moved +0.10%. AAPL is MSFT's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-04-23",
       "numbers": {
         "peer_pct_change": 0.1,
-        "subject_pct_change": -3.966
+        "subject_pct_change": -3.966,
+        "relationship": "competitor"
+      }
+    },
+    "ev_MSFT_20260423_peer_AMD": {
+      "id": "ev_MSFT_20260423_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (supplier) moved +0.62% the same day",
+      "detail": "MSFT moved -3.97% while AMD moved +0.62%. AMD is MSFT's supplier (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-23",
+      "numbers": {
+        "peer_pct_change": 0.62,
+        "subject_pct_change": -3.966,
+        "relationship": "supplier"
       }
     },
     "ev_MSFT_20260423_peer_NVDA": {
       "id": "ev_MSFT_20260423_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved -1.41% the same day",
-      "detail": "MSFT moved -3.97% while NVDA moved -1.41%.",
+      "title": "NVDA (supplier and competitor) moved -1.41% the same day",
+      "detail": "MSFT moved -3.97% while NVDA moved -1.41%. NVDA is MSFT's supplier and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-04-23",
       "numbers": {
         "peer_pct_change": -1.41,
-        "subject_pct_change": -3.966
+        "subject_pct_change": -3.966,
+        "relationship": "supplier and competitor"
       }
     },
     "ev_MSFT_20260430_price": {
@@ -1592,33 +1577,49 @@
         "prev_close": 424.46,
         "volume": 70909400,
         "volume_vs_30d_avg": 3.25,
-        "move_excluding_sector_pct": 1.84
+        "move_excluding_sector_pct": 4.25
       }
     },
     "ev_MSFT_20260430_peer_AAPL": {
       "id": "ev_MSFT_20260430_peer_AAPL",
       "kind": "peer_move",
-      "title": "AAPL moved +0.44% the same day",
-      "detail": "MSFT moved -3.93% while AAPL moved +0.44%.",
+      "title": "AAPL (competitor) moved +0.44% the same day",
+      "detail": "MSFT moved -3.93% while AAPL moved +0.44%. AAPL is MSFT's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-04-30",
       "numbers": {
         "peer_pct_change": 0.44,
-        "subject_pct_change": -3.93
+        "subject_pct_change": -3.93,
+        "relationship": "competitor"
+      }
+    },
+    "ev_MSFT_20260430_peer_AMD": {
+      "id": "ev_MSFT_20260430_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (supplier) moved +5.16% the same day",
+      "detail": "MSFT moved -3.93% while AMD moved +5.16%. AMD is MSFT's supplier (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": 5.16,
+        "subject_pct_change": -3.93,
+        "relationship": "supplier"
       }
     },
     "ev_MSFT_20260430_peer_NVDA": {
       "id": "ev_MSFT_20260430_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved -4.63% the same day",
-      "detail": "MSFT moved -3.93% while NVDA moved -4.63%.",
+      "title": "NVDA (supplier and competitor) moved -4.63% the same day",
+      "detail": "MSFT moved -3.93% while NVDA moved -4.63%. NVDA is MSFT's supplier and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-04-30",
       "numbers": {
         "peer_pct_change": -4.63,
-        "subject_pct_change": -3.93
+        "subject_pct_change": -3.93,
+        "relationship": "supplier and competitor"
       }
     },
     "ev_MSFT_20260430_filing_000119312526191507": {
@@ -1655,33 +1656,49 @@
         "prev_close": 409.43,
         "volume": 50771200,
         "volume_vs_30d_avg": 2.33,
-        "move_excluding_sector_pct": 4.92
+        "move_excluding_sector_pct": 6.2
       }
     },
     "ev_MSFT_20260515_peer_AAPL": {
       "id": "ev_MSFT_20260515_peer_AAPL",
       "kind": "peer_move",
-      "title": "AAPL moved +0.68% the same day",
-      "detail": "MSFT moved +3.05% while AAPL moved +0.68%.",
+      "title": "AAPL (competitor) moved +0.68% the same day",
+      "detail": "MSFT moved +3.05% while AAPL moved +0.68%. AAPL is MSFT's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-05-15",
       "numbers": {
         "peer_pct_change": 0.68,
-        "subject_pct_change": 3.051
+        "subject_pct_change": 3.051,
+        "relationship": "competitor"
+      }
+    },
+    "ev_MSFT_20260515_peer_AMD": {
+      "id": "ev_MSFT_20260515_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (supplier) moved -5.69% the same day",
+      "detail": "MSFT moved +3.05% while AMD moved -5.69%. AMD is MSFT's supplier (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-15",
+      "numbers": {
+        "peer_pct_change": -5.69,
+        "subject_pct_change": 3.051,
+        "relationship": "supplier"
       }
     },
     "ev_MSFT_20260515_peer_NVDA": {
       "id": "ev_MSFT_20260515_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved -4.42% the same day",
-      "detail": "MSFT moved +3.05% while NVDA moved -4.42%.",
+      "title": "NVDA (supplier and competitor) moved -4.42% the same day",
+      "detail": "MSFT moved +3.05% while NVDA moved -4.42%. NVDA is MSFT's supplier and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-05-15",
       "numbers": {
         "peer_pct_change": -4.42,
-        "subject_pct_change": 3.051
+        "subject_pct_change": 3.051,
+        "relationship": "supplier and competitor"
       }
     },
     "ev_MSFT_20260515_filing_000119312526224155": {
@@ -1693,49 +1710,6 @@
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526224155/d125909d8k.htm",
       "occurred_on": "2026-05-14",
       "numbers": {}
-    },
-    "ev_MSFT_20260528_price": {
-      "id": "ev_MSFT_20260528_price",
-      "kind": "price",
-      "title": "MSFT rose 3.47% on 2026-05-28",
-      "detail": "Closed at $426.99 from $412.67. Volume was 2.2x the 30-day average.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/MSFT/history",
-      "occurred_on": "2026-05-28",
-      "numbers": {
-        "pct_change": 3.47,
-        "close": 426.99,
-        "prev_close": 412.67,
-        "volume": 47250500,
-        "volume_vs_30d_avg": 2.16,
-        "move_excluding_sector_pct": 2.82
-      }
-    },
-    "ev_MSFT_20260528_peer_AAPL": {
-      "id": "ev_MSFT_20260528_peer_AAPL",
-      "kind": "peer_move",
-      "title": "AAPL moved +0.53% the same day",
-      "detail": "MSFT moved +3.47% while AAPL moved +0.53%.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AAPL/history",
-      "occurred_on": "2026-05-28",
-      "numbers": {
-        "peer_pct_change": 0.53,
-        "subject_pct_change": 3.47
-      }
-    },
-    "ev_MSFT_20260528_peer_NVDA": {
-      "id": "ev_MSFT_20260528_peer_NVDA",
-      "kind": "peer_move",
-      "title": "NVDA moved +0.78% the same day",
-      "detail": "MSFT moved +3.47% while NVDA moved +0.78%.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-05-28",
-      "numbers": {
-        "peer_pct_change": 0.78,
-        "subject_pct_change": 3.47
-      }
     },
     "ev_MSFT_20260529_price": {
       "id": "ev_MSFT_20260529_price",
@@ -1751,33 +1725,49 @@
         "prev_close": 426.99,
         "volume": 79654400,
         "volume_vs_30d_avg": 3.65,
-        "move_excluding_sector_pct": 6.24
+        "move_excluding_sector_pct": 6.11
       }
     },
     "ev_MSFT_20260529_peer_AAPL": {
       "id": "ev_MSFT_20260529_peer_AAPL",
       "kind": "peer_move",
-      "title": "AAPL moved -0.14% the same day",
-      "detail": "MSFT moved +5.45% while AAPL moved -0.14%.",
+      "title": "AAPL (competitor) moved -0.14% the same day",
+      "detail": "MSFT moved +5.45% while AAPL moved -0.14%. AAPL is MSFT's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-05-29",
       "numbers": {
         "peer_pct_change": -0.14,
-        "subject_pct_change": 5.445
+        "subject_pct_change": 5.445,
+        "relationship": "competitor"
+      }
+    },
+    "ev_MSFT_20260529_peer_AMD": {
+      "id": "ev_MSFT_20260529_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (supplier) moved -0.38% the same day",
+      "detail": "MSFT moved +5.45% while AMD moved -0.38%. AMD is MSFT's supplier (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": -0.38,
+        "subject_pct_change": 5.445,
+        "relationship": "supplier"
       }
     },
     "ev_MSFT_20260529_peer_NVDA": {
       "id": "ev_MSFT_20260529_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved -1.45% the same day",
-      "detail": "MSFT moved +5.45% while NVDA moved -1.45%.",
+      "title": "NVDA (supplier and competitor) moved -1.45% the same day",
+      "detail": "MSFT moved +5.45% while NVDA moved -1.45%. NVDA is MSFT's supplier and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-05-29",
       "numbers": {
         "peer_pct_change": -1.45,
-        "subject_pct_change": 5.445
+        "subject_pct_change": 5.445,
+        "relationship": "supplier and competitor"
       }
     },
     "ev_MSFT_20260602_price": {
@@ -1794,33 +1784,167 @@
         "prev_close": 460.52,
         "volume": 37036800,
         "volume_vs_30d_avg": 1.7,
-        "move_excluding_sector_pct": 5.28
+        "move_excluding_sector_pct": 5.66
       }
     },
     "ev_MSFT_20260602_peer_AAPL": {
       "id": "ev_MSFT_20260602_peer_AAPL",
       "kind": "peer_move",
-      "title": "AAPL moved +2.90% the same day",
-      "detail": "MSFT moved -4.17% while AAPL moved +2.90%.",
+      "title": "AAPL (competitor) moved +2.90% the same day",
+      "detail": "MSFT moved -4.17% while AAPL moved +2.90%. AAPL is MSFT's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-06-02",
       "numbers": {
         "peer_pct_change": 2.9,
-        "subject_pct_change": -4.171
+        "subject_pct_change": -4.171,
+        "relationship": "competitor"
+      }
+    },
+    "ev_MSFT_20260602_peer_AMD": {
+      "id": "ev_MSFT_20260602_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (supplier) moved +2.24% the same day",
+      "detail": "MSFT moved -4.17% while AMD moved +2.24%. AMD is MSFT's supplier (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-02",
+      "numbers": {
+        "peer_pct_change": 2.24,
+        "subject_pct_change": -4.171,
+        "relationship": "supplier"
       }
     },
     "ev_MSFT_20260602_peer_NVDA": {
       "id": "ev_MSFT_20260602_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved -0.69% the same day",
-      "detail": "MSFT moved -4.17% while NVDA moved -0.69%.",
+      "title": "NVDA (supplier and competitor) moved -0.69% the same day",
+      "detail": "MSFT moved -4.17% while NVDA moved -0.69%. NVDA is MSFT's supplier and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-06-02",
       "numbers": {
         "peer_pct_change": -0.69,
-        "subject_pct_change": -4.171
+        "subject_pct_change": -4.171,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_MSFT_20260617_price": {
+      "id": "ev_MSFT_20260617_price",
+      "kind": "price",
+      "title": "MSFT fell 3.79% on 2026-06-17",
+      "detail": "Closed at $378.91 from $393.83. Volume was 1.9x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-06-17",
+      "numbers": {
+        "pct_change": -3.788,
+        "close": 378.91,
+        "prev_close": 393.83,
+        "volume": 41987800,
+        "volume_vs_30d_avg": 1.92,
+        "move_excluding_sector_pct": 3.32
+      }
+    },
+    "ev_MSFT_20260617_peer_AAPL": {
+      "id": "ev_MSFT_20260617_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved -1.10% the same day",
+      "detail": "MSFT moved -3.79% while AAPL moved -1.10%. AAPL is MSFT's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-06-17",
+      "numbers": {
+        "peer_pct_change": -1.1,
+        "subject_pct_change": -3.788,
+        "relationship": "competitor"
+      }
+    },
+    "ev_MSFT_20260617_peer_AMD": {
+      "id": "ev_MSFT_20260617_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (supplier) moved +1.02% the same day",
+      "detail": "MSFT moved -3.79% while AMD moved +1.02%. AMD is MSFT's supplier (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-17",
+      "numbers": {
+        "peer_pct_change": 1.02,
+        "subject_pct_change": -3.788,
+        "relationship": "supplier"
+      }
+    },
+    "ev_MSFT_20260617_peer_NVDA": {
+      "id": "ev_MSFT_20260617_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (supplier and competitor) moved -1.33% the same day",
+      "detail": "MSFT moved -3.79% while NVDA moved -1.33%. NVDA is MSFT's supplier and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-17",
+      "numbers": {
+        "peer_pct_change": -1.33,
+        "subject_pct_change": -3.788,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_MSFT_20260622_price": {
+      "id": "ev_MSFT_20260622_price",
+      "kind": "price",
+      "title": "MSFT fell 3.18% on 2026-06-22",
+      "detail": "Closed at $367.34 from $379.40. Volume was 2.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-06-22",
+      "numbers": {
+        "pct_change": -3.179,
+        "close": 367.34,
+        "prev_close": 379.4,
+        "volume": 45171100,
+        "volume_vs_30d_avg": 2.07,
+        "move_excluding_sector_pct": 3.63
+      }
+    },
+    "ev_MSFT_20260622_peer_AAPL": {
+      "id": "ev_MSFT_20260622_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved -0.34% the same day",
+      "detail": "MSFT moved -3.18% while AAPL moved -0.34%. AAPL is MSFT's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-06-22",
+      "numbers": {
+        "peer_pct_change": -0.34,
+        "subject_pct_change": -3.179,
+        "relationship": "competitor"
+      }
+    },
+    "ev_MSFT_20260622_peer_AMD": {
+      "id": "ev_MSFT_20260622_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (supplier) moved +2.65% the same day",
+      "detail": "MSFT moved -3.18% while AMD moved +2.65%. AMD is MSFT's supplier (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-22",
+      "numbers": {
+        "peer_pct_change": 2.65,
+        "subject_pct_change": -3.179,
+        "relationship": "supplier"
+      }
+    },
+    "ev_MSFT_20260622_peer_NVDA": {
+      "id": "ev_MSFT_20260622_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (supplier and competitor) moved -0.97% the same day",
+      "detail": "MSFT moved -3.18% while NVDA moved -0.97%. NVDA is MSFT's supplier and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-22",
+      "numbers": {
+        "peer_pct_change": -0.97,
+        "subject_pct_change": -3.179,
+        "relationship": "supplier and competitor"
       }
     },
     "ev_MSFT_20260626_price": {
@@ -1837,33 +1961,49 @@
         "prev_close": 352.83,
         "volume": 186201600,
         "volume_vs_30d_avg": 8.53,
-        "move_excluding_sector_pct": 4.96
+        "move_excluding_sector_pct": 5.9
       }
     },
     "ev_MSFT_20260626_peer_AAPL": {
       "id": "ev_MSFT_20260626_peer_AAPL",
       "kind": "peer_move",
-      "title": "AAPL moved +3.14% the same day",
-      "detail": "MSFT moved +5.71% while AAPL moved +3.14%.",
+      "title": "AAPL (competitor) moved +3.14% the same day",
+      "detail": "MSFT moved +5.71% while AAPL moved +3.14%. AAPL is MSFT's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-06-26",
       "numbers": {
         "peer_pct_change": 3.14,
-        "subject_pct_change": 5.708
+        "subject_pct_change": 5.708,
+        "relationship": "competitor"
+      }
+    },
+    "ev_MSFT_20260626_peer_AMD": {
+      "id": "ev_MSFT_20260626_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (supplier) moved -2.06% the same day",
+      "detail": "MSFT moved +5.71% while AMD moved -2.06%. AMD is MSFT's supplier (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -2.06,
+        "subject_pct_change": 5.708,
+        "relationship": "supplier"
       }
     },
     "ev_MSFT_20260626_peer_NVDA": {
       "id": "ev_MSFT_20260626_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved -1.64% the same day",
-      "detail": "MSFT moved +5.71% while NVDA moved -1.64%.",
+      "title": "NVDA (supplier and competitor) moved -1.64% the same day",
+      "detail": "MSFT moved +5.71% while NVDA moved -1.64%. NVDA is MSFT's supplier and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-06-26",
       "numbers": {
         "peer_pct_change": -1.64,
-        "subject_pct_change": 5.708
+        "subject_pct_change": 5.708,
+        "relationship": "supplier and competitor"
       }
     },
     "ev_MSFT_20260701_price": {
@@ -1880,33 +2020,49 @@
         "prev_close": 373.02,
         "volume": 48065800,
         "volume_vs_30d_avg": 2.2,
-        "move_excluding_sector_pct": 2.78
+        "move_excluding_sector_pct": 5.16
       }
     },
     "ev_MSFT_20260701_peer_AAPL": {
       "id": "ev_MSFT_20260701_peer_AAPL",
       "kind": "peer_move",
-      "title": "AAPL moved +1.74% the same day",
-      "detail": "MSFT moved +3.02% while AAPL moved +1.74%.",
+      "title": "AAPL (competitor) moved +1.74% the same day",
+      "detail": "MSFT moved +3.02% while AAPL moved +1.74%. AAPL is MSFT's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-07-01",
       "numbers": {
         "peer_pct_change": 1.74,
-        "subject_pct_change": 3.019
+        "subject_pct_change": 3.019,
+        "relationship": "competitor"
+      }
+    },
+    "ev_MSFT_20260701_peer_AMD": {
+      "id": "ev_MSFT_20260701_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (supplier) moved -6.89% the same day",
+      "detail": "MSFT moved +3.02% while AMD moved -6.89%. AMD is MSFT's supplier (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-07-01",
+      "numbers": {
+        "peer_pct_change": -6.89,
+        "subject_pct_change": 3.019,
+        "relationship": "supplier"
       }
     },
     "ev_MSFT_20260701_peer_NVDA": {
       "id": "ev_MSFT_20260701_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved -1.25% the same day",
-      "detail": "MSFT moved +3.02% while NVDA moved -1.25%.",
+      "title": "NVDA (supplier and competitor) moved -1.25% the same day",
+      "detail": "MSFT moved +3.02% while NVDA moved -1.25%. NVDA is MSFT's supplier and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-07-01",
       "numbers": {
         "peer_pct_change": -1.25,
-        "subject_pct_change": 3.019
+        "subject_pct_change": 3.019,
+        "relationship": "supplier and competitor"
       }
     },
     "ev_MSFT_20260730_price": {
@@ -1923,33 +2079,49 @@
         "prev_close": 390.54,
         "volume": 110160700,
         "volume_vs_30d_avg": 5.05,
-        "move_excluding_sector_pct": 14.89
+        "move_excluding_sector_pct": 10.76
       }
     },
     "ev_MSFT_20260730_peer_AAPL": {
       "id": "ev_MSFT_20260730_peer_AAPL",
       "kind": "peer_move",
-      "title": "AAPL moved -1.41% the same day",
-      "detail": "MSFT moved +15.51% while AAPL moved -1.41%.",
+      "title": "AAPL (competitor) moved -1.41% the same day",
+      "detail": "MSFT moved +15.51% while AAPL moved -1.41%. AAPL is MSFT's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-07-30",
       "numbers": {
         "peer_pct_change": -1.41,
-        "subject_pct_change": 15.507
+        "subject_pct_change": 15.507,
+        "relationship": "competitor"
+      }
+    },
+    "ev_MSFT_20260730_peer_AMD": {
+      "id": "ev_MSFT_20260730_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (supplier) moved +13.00% the same day",
+      "detail": "MSFT moved +15.51% while AMD moved +13.00%. AMD is MSFT's supplier (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 13.0,
+        "subject_pct_change": 15.507,
+        "relationship": "supplier"
       }
     },
     "ev_MSFT_20260730_peer_NVDA": {
       "id": "ev_MSFT_20260730_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved +2.65% the same day",
-      "detail": "MSFT moved +15.51% while NVDA moved +2.65%.",
+      "title": "NVDA (supplier and competitor) moved +2.65% the same day",
+      "detail": "MSFT moved +15.51% while NVDA moved +2.65%. NVDA is MSFT's supplier and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-07-30",
       "numbers": {
         "peer_pct_change": 2.65,
-        "subject_pct_change": 15.507
+        "subject_pct_change": 15.507,
+        "relationship": "supplier and competitor"
       }
     },
     "ev_MSFT_20260730_filing_000119312526323660": {
@@ -1986,33 +2158,49 @@
         "prev_close": 451.1,
         "volume": 60846000,
         "volume_vs_30d_avg": 2.79,
-        "move_excluding_sector_pct": 5.23
+        "move_excluding_sector_pct": 5.13
       }
     },
     "ev_MSFT_20260731_peer_AAPL": {
       "id": "ev_MSFT_20260731_peer_AAPL",
       "kind": "peer_move",
-      "title": "AAPL moved -7.35% the same day",
-      "detail": "MSFT moved +3.02% while AAPL moved -7.35%.",
+      "title": "AAPL (competitor) moved -7.35% the same day",
+      "detail": "MSFT moved +3.02% while AAPL moved -7.35%. AAPL is MSFT's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-07-31",
       "numbers": {
         "peer_pct_change": -7.35,
-        "subject_pct_change": 3.019
+        "subject_pct_change": 3.019,
+        "relationship": "competitor"
+      }
+    },
+    "ev_MSFT_20260731_peer_AMD": {
+      "id": "ev_MSFT_20260731_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (supplier) moved -1.90% the same day",
+      "detail": "MSFT moved +3.02% while AMD moved -1.90%. AMD is MSFT's supplier (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "peer_pct_change": -1.9,
+        "subject_pct_change": 3.019,
+        "relationship": "supplier"
       }
     },
     "ev_MSFT_20260731_peer_NVDA": {
       "id": "ev_MSFT_20260731_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved +2.93% the same day",
-      "detail": "MSFT moved +3.02% while NVDA moved +2.93%.",
+      "title": "NVDA (supplier and competitor) moved +2.93% the same day",
+      "detail": "MSFT moved +3.02% while NVDA moved +2.93%. NVDA is MSFT's supplier and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-07-31",
       "numbers": {
         "peer_pct_change": 2.93,
-        "subject_pct_change": 3.019
+        "subject_pct_change": 3.019,
+        "relationship": "supplier and competitor"
       }
     },
     "ev_MSFT_20260731_filing_000119312526323660": {
@@ -2049,33 +2237,49 @@
         "prev_close": 464.72,
         "volume": 66762100,
         "volume_vs_30d_avg": 3.06,
-        "move_excluding_sector_pct": 4.36
+        "move_excluding_sector_pct": 3.95
       }
     },
     "ev_MSFT_20260803_peer_AAPL": {
       "id": "ev_MSFT_20260803_peer_AAPL",
       "kind": "peer_move",
-      "title": "AAPL moved -1.78% the same day",
-      "detail": "MSFT moved +4.93% while AAPL moved -1.78%.",
+      "title": "AAPL (competitor) moved -1.78% the same day",
+      "detail": "MSFT moved +4.93% while AAPL moved -1.78%. AAPL is MSFT's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AAPL/history",
       "occurred_on": "2026-08-03",
       "numbers": {
         "peer_pct_change": -1.78,
-        "subject_pct_change": 4.934
+        "subject_pct_change": 4.934,
+        "relationship": "competitor"
+      }
+    },
+    "ev_MSFT_20260803_peer_AMD": {
+      "id": "ev_MSFT_20260803_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (supplier) moved +1.78% the same day",
+      "detail": "MSFT moved +4.93% while AMD moved +1.78%. AMD is MSFT's supplier (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-08-03",
+      "numbers": {
+        "peer_pct_change": 1.78,
+        "subject_pct_change": 4.934,
+        "relationship": "supplier"
       }
     },
     "ev_MSFT_20260803_peer_NVDA": {
       "id": "ev_MSFT_20260803_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved +2.93% the same day",
-      "detail": "MSFT moved +4.93% while NVDA moved +2.93%.",
+      "title": "NVDA (supplier and competitor) moved +2.93% the same day",
+      "detail": "MSFT moved +4.93% while NVDA moved +2.93%. NVDA is MSFT's supplier and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-08-03",
       "numbers": {
         "peer_pct_change": 2.93,
-        "subject_pct_change": 4.934
+        "subject_pct_change": 4.934,
+        "relationship": "supplier and competitor"
       }
     },
     "ev_MSFT_fund_revenue": {
@@ -2154,13 +2358,19 @@
       }
     }
   },
-  "arc": "Between April and August 2026, Microsoft exhibited substantial price volatility marked by distinct company-specific catalysts and independent price action from peers Apple and Nvidia. The stock experienced choppy performance through the spring, including a sharp drop following its late-April 10-Q filing and an unexplained drop below $360 before a high-volume rebound in late June. The decisive inflection came at the end of July, when Microsoft's annual 10-K and 8-K filings sparked an explosive rally of over 15% in a single session, followed by sustained multi-day momentum that propelled the stock to $487.65.",
+  "arc": "Between late April and early August 2026, Microsoft exhibited substantial volatility, marked by an initial retrenchment into June before staging an aggressive late-summer recovery. Following April 10-Q and 8-K filings, the stock moved lower and experienced additional pullbacks down to a close of $367.34 in late June. However, trading reversed sharply into July and August, anchored by the July 29 10-K and 8-K filings, which sparked a single-day 15.51% surge on July 30 and lifted the stock to $487.65 by August 3. Throughout this timeframe, Microsoft frequently decoupled from competitor Apple while sharing key inflection moves with hardware partners like AMD and NVIDIA.",
   "arc_citation_ids": [
     "ev_MSFT_20260430_filing_000119312526191507",
-    "ev_MSFT_20260626_price",
+    "ev_MSFT_20260430_filing_000119312526191457",
+    "ev_MSFT_20260622_price",
     "ev_MSFT_20260730_price",
     "ev_MSFT_20260730_filing_000119312526323660",
+    "ev_MSFT_20260730_filing_000119312526323632",
+    "ev_MSFT_20260730_peer_AMD",
+    "ev_MSFT_20260730_peer_NVDA",
     "ev_MSFT_20260803_price"
   ],
-  "warnings": []
+  "warnings": [
+    "News unavailable (FINNHUB_API_KEY is not set; add it to backend/.env); explanations will be thinner."
+  ]
 }

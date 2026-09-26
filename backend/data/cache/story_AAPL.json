@@ -1,7 +1,7 @@
 {
   "symbol": "AAPL",
   "company_name": "Apple Inc.",
-  "generated_at": "2026-09-26T09:15:55.001577+00:00",
+  "generated_at": "2026-09-26T09:30:55.524101+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,13 +1320,13 @@
       "pct_change": 3.239,
       "close": 280.14,
       "direction": "up",
-      "headline": "AAPL gains 3.2% following quarterly filings",
-      "explanation": "Apple shares rose 3.24% to $280.14 on 1.9 times normal volume following an 8-K filed April 30 and a 10-Q filed May 1. The advance outpaced peer MSFT (+1.63%) and diverged from NVDA (-0.56%), pointing to company-specific momentum.",
+      "headline": "AAPL gains 3.24% following quarterly filings",
+      "explanation": "Apple shares rose 3.24% to $280.14 on 1.9 times average volume following the submission of an 8-K filing on April 30 and a 10-Q quarterly report on May 1. The upward movement was largely company-specific, though its competitor Microsoft also advanced 1.63% and its supplier TSMC edged up 0.41%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260501_price",
         "ev_AAPL_20260501_peer_MSFT",
-        "ev_AAPL_20260501_peer_NVDA",
+        "ev_AAPL_20260501_peer_TSM",
         "ev_AAPL_20260501_filing_000032019326000013",
         "ev_AAPL_20260501_filing_000032019326000011"
       ]
@@ -1336,13 +1336,13 @@
       "pct_change": -3.645,
       "close": 290.55,
       "direction": "down",
-      "headline": "AAPL drops 3.6% alongside sector peers",
-      "explanation": "No company-specific news accompanied this decline as Apple fell 3.65% to $290.55 on 1.7 times average volume. Peer MSFT also declined 2.02% and NVDA slid 0.22%, indicating the pullback was broadly sector-wide.",
+      "headline": "Shares slip 3.65% alongside peer weakness",
+      "explanation": "Apple fell 3.65% to $290.55 on 1.7 times average trading volume with no company-specific news reported. Competitor Microsoft also dropped 2.02% the same day, while its supplier TSMC gained 0.26%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260609_price",
         "ev_AAPL_20260609_peer_MSFT",
-        "ev_AAPL_20260609_peer_NVDA"
+        "ev_AAPL_20260609_peer_TSM"
       ]
     },
     {
@@ -1350,13 +1350,13 @@
       "pct_change": -6.118,
       "close": 275.15,
       "direction": "down",
-      "headline": "AAPL slides 6.1% in broad tech retreat",
-      "explanation": "Apple shares dropped 6.12% to $275.15 on 2.6 times typical volume with no company-specific filings or announcements. With peers MSFT down 3.46% and NVDA down 1.64%, the move tracked broader weakness across the peer group.",
+      "headline": "AAPL drops 6.12% during broader tech decline",
+      "explanation": "Apple declined 6.12% to close at $275.15 on 2.6 times average volume without company-specific news. The drop was shared across connected companies, with competitor Microsoft dropping 3.46% and supplier TSMC shedding 1.32%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260625_price",
         "ev_AAPL_20260625_peer_MSFT",
-        "ev_AAPL_20260625_peer_NVDA"
+        "ev_AAPL_20260625_peer_TSM"
       ]
     },
     {
@@ -1364,13 +1364,13 @@
       "pct_change": 3.136,
       "close": 283.78,
       "direction": "up",
-      "headline": "AAPL rebounds 3.1% on elevated volume",
-      "explanation": "Shares rose 3.14% to $283.78 on volume 6.3 times the 30-day average without any company-specific news. Peer MSFT rallied 5.71% the same day while NVDA fell 1.64%, indicating the bounce aligned with select large-cap peer strength.",
+      "headline": "Stock rebounds 3.14% on surge in volume",
+      "explanation": "Apple gained 3.14% to $283.78 on volume reaching 6.3 times the 30-day average, though no specific corporate announcement was provided. Competitor Microsoft surged 5.71% the same day, while supplier TSMC fell 0.61%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260626_price",
         "ev_AAPL_20260626_peer_MSFT",
-        "ev_AAPL_20260626_peer_NVDA"
+        "ev_AAPL_20260626_peer_TSM"
       ]
     },
     {
@@ -1378,13 +1378,13 @@
       "pct_change": 4.841,
       "close": 308.63,
       "direction": "up",
-      "headline": "AAPL gains 4.8% outperforming peers",
-      "explanation": "Apple climbed 4.84% to close at $308.63 on 1.8 times normal volume without company-specific catalysts. The move was largely idiosyncratic, as peer MSFT gained a smaller 1.62% and NVDA declined 1.39%.",
+      "headline": "AAPL climbs 4.84% to break above $308",
+      "explanation": "Apple shares rose 4.84% to close at $308.63 on 1.8 times normal volume without company-specific disclosures. Competitor Microsoft gained 1.62% during the session, whereas its supplier TSMC moved the other way, falling 2.27%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260702_price",
         "ev_AAPL_20260702_peer_MSFT",
-        "ev_AAPL_20260702_peer_NVDA"
+        "ev_AAPL_20260702_peer_TSM"
       ]
     },
     {
@@ -1392,13 +1392,13 @@
       "pct_change": 4.014,
       "close": 327.5,
       "direction": "up",
-      "headline": "AAPL advances 4.0% amid peer strength",
-      "explanation": "Apple increased 4.01% to $327.50 on 1.5 times typical volume in the absence of corporate news. The gain was supported by wider industry movement, with peer MSFT rising 2.78% and NVDA up 0.33%.",
+      "headline": "Shares advance 4.01% as rally extends",
+      "explanation": "Apple climbed 4.01% to finish at $327.50 on 1.5 times average volume in the absence of news releases. Competitor Microsoft also rose 2.78%, while supplier TSMC remained relatively flat with a 0.22% decline.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260715_price",
         "ev_AAPL_20260715_peer_MSFT",
-        "ev_AAPL_20260715_peer_NVDA"
+        "ev_AAPL_20260715_peer_TSM"
       ]
     },
     {
@@ -1406,13 +1406,13 @@
       "pct_change": 3.532,
       "close": 333.02,
       "direction": "up",
-      "headline": "AAPL adds 3.5% while peers stay flat",
-      "explanation": "Shares gained 3.53% to $333.02 on near-normal volume of 1.1 times the 30-day average. With peer MSFT flat at +0.03% and NVDA dropping 0.92%, the move was company-specific despite no direct news evidence.",
+      "headline": "AAPL rises 3.53% to fresh high of $333.02",
+      "explanation": "Apple shares advanced 3.53% to $333.02 on near-normal volume of 1.1 times the 30-day average. The gain was company-specific, as competitor Microsoft traded nearly flat at +0.03% and supplier TSMC declined 2.93%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260724_price",
         "ev_AAPL_20260724_peer_MSFT",
-        "ev_AAPL_20260724_peer_NVDA"
+        "ev_AAPL_20260724_peer_TSM"
       ]
     },
     {
@@ -1420,13 +1420,13 @@
       "pct_change": -7.354,
       "close": 308.91,
       "direction": "down",
-      "headline": "AAPL slides 7.4% after quarterly filings",
-      "explanation": "Apple dropped 7.35% to $308.91 on 3.2 times average volume following an 8-K filed July 30 and a 10-Q filed July 31. The selloff was company-specific, sharply decoupling from peers MSFT (+3.02%) and NVDA (+2.93%).",
+      "headline": "Apple plunges 7.35% following quarterly filings",
+      "explanation": "Apple dropped 7.35% to $308.91 on 3.2 times average volume following an 8-K filed on July 30 and a 10-Q filed on July 31. The sell-off was isolated to Apple, as competitor Microsoft rose 3.02% and supplier TSMC ticked up 0.23% on the day.",
       "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260731_price",
         "ev_AAPL_20260731_peer_MSFT",
-        "ev_AAPL_20260731_peer_NVDA",
+        "ev_AAPL_20260731_peer_TSM",
         "ev_AAPL_20260731_filing_000032019326000020",
         "ev_AAPL_20260731_filing_000032019326000018"
       ]
@@ -1436,13 +1436,13 @@
       "pct_change": 3.561,
       "close": 326.57,
       "direction": "up",
-      "headline": "AAPL rises 3.6% diverging from peers",
-      "explanation": "Apple advanced 3.56% to close at $326.57 on 1.7 times normal volume without fresh company filings. The rally was distinct to Apple, as MSFT edged up just 0.16% and NVDA fell 2.37%.",
+      "headline": "AAPL gains 3.56% on elevated trading volume",
+      "explanation": "Apple rose 3.56% to close at $326.57 on 1.7 times its 30-day average volume without direct corporate news. Competitor Microsoft was flat at +0.16%, while supplier TSMC moved lower by 1.68%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260910_price",
         "ev_AAPL_20260910_peer_MSFT",
-        "ev_AAPL_20260910_peer_NVDA"
+        "ev_AAPL_20260910_peer_TSM"
       ]
     }
   ],
@@ -1461,33 +1461,35 @@
         "prev_close": 271.35,
         "volume": 79915400,
         "volume_vs_30d_avg": 1.93,
-        "move_excluding_sector_pct": 2.7
+        "move_excluding_sector_pct": 2.22
       }
     },
     "ev_AAPL_20260501_peer_MSFT": {
       "id": "ev_AAPL_20260501_peer_MSFT",
       "kind": "peer_move",
-      "title": "MSFT moved +1.63% the same day",
-      "detail": "AAPL moved +3.24% while MSFT moved +1.63%.",
+      "title": "MSFT (competitor) moved +1.63% the same day",
+      "detail": "AAPL moved +3.24% while MSFT moved +1.63%. MSFT is AAPL's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/MSFT/history",
       "occurred_on": "2026-05-01",
       "numbers": {
         "peer_pct_change": 1.63,
-        "subject_pct_change": 3.239
+        "subject_pct_change": 3.239,
+        "relationship": "competitor"
       }
     },
-    "ev_AAPL_20260501_peer_NVDA": {
-      "id": "ev_AAPL_20260501_peer_NVDA",
+    "ev_AAPL_20260501_peer_TSM": {
+      "id": "ev_AAPL_20260501_peer_TSM",
       "kind": "peer_move",
-      "title": "NVDA moved -0.56% the same day",
-      "detail": "AAPL moved +3.24% while NVDA moved -0.56%.",
+      "title": "TSM (supplier) moved +0.41% the same day",
+      "detail": "AAPL moved +3.24% while TSM moved +0.41%. TSM is AAPL's supplier (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-05-01",
       "numbers": {
-        "peer_pct_change": -0.56,
-        "subject_pct_change": 3.239
+        "peer_pct_change": 0.41,
+        "subject_pct_change": 3.239,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260501_filing_000032019326000013": {
@@ -1524,33 +1526,35 @@
         "prev_close": 301.54,
         "volume": 70108800,
         "volume_vs_30d_avg": 1.69,
-        "move_excluding_sector_pct": 2.53
+        "move_excluding_sector_pct": 2.76
       }
     },
     "ev_AAPL_20260609_peer_MSFT": {
       "id": "ev_AAPL_20260609_peer_MSFT",
       "kind": "peer_move",
-      "title": "MSFT moved -2.02% the same day",
-      "detail": "AAPL moved -3.65% while MSFT moved -2.02%.",
+      "title": "MSFT (competitor) moved -2.02% the same day",
+      "detail": "AAPL moved -3.65% while MSFT moved -2.02%. MSFT is AAPL's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/MSFT/history",
       "occurred_on": "2026-06-09",
       "numbers": {
         "peer_pct_change": -2.02,
-        "subject_pct_change": -3.645
+        "subject_pct_change": -3.645,
+        "relationship": "competitor"
       }
     },
-    "ev_AAPL_20260609_peer_NVDA": {
-      "id": "ev_AAPL_20260609_peer_NVDA",
+    "ev_AAPL_20260609_peer_TSM": {
+      "id": "ev_AAPL_20260609_peer_TSM",
       "kind": "peer_move",
-      "title": "NVDA moved -0.22% the same day",
-      "detail": "AAPL moved -3.65% while NVDA moved -0.22%.",
+      "title": "TSM (supplier) moved +0.26% the same day",
+      "detail": "AAPL moved -3.65% while TSM moved +0.26%. TSM is AAPL's supplier (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-06-09",
       "numbers": {
-        "peer_pct_change": -0.22,
-        "subject_pct_change": -3.645
+        "peer_pct_change": 0.26,
+        "subject_pct_change": -3.645,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260625_price": {
@@ -1567,33 +1571,35 @@
         "prev_close": 293.08,
         "volume": 107013700,
         "volume_vs_30d_avg": 2.58,
-        "move_excluding_sector_pct": 3.57
+        "move_excluding_sector_pct": 3.73
       }
     },
     "ev_AAPL_20260625_peer_MSFT": {
       "id": "ev_AAPL_20260625_peer_MSFT",
       "kind": "peer_move",
-      "title": "MSFT moved -3.46% the same day",
-      "detail": "AAPL moved -6.12% while MSFT moved -3.46%.",
+      "title": "MSFT (competitor) moved -3.46% the same day",
+      "detail": "AAPL moved -6.12% while MSFT moved -3.46%. MSFT is AAPL's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/MSFT/history",
       "occurred_on": "2026-06-25",
       "numbers": {
         "peer_pct_change": -3.46,
-        "subject_pct_change": -6.118
+        "subject_pct_change": -6.118,
+        "relationship": "competitor"
       }
     },
-    "ev_AAPL_20260625_peer_NVDA": {
-      "id": "ev_AAPL_20260625_peer_NVDA",
+    "ev_AAPL_20260625_peer_TSM": {
+      "id": "ev_AAPL_20260625_peer_TSM",
       "kind": "peer_move",
-      "title": "NVDA moved -1.64% the same day",
-      "detail": "AAPL moved -6.12% while NVDA moved -1.64%.",
+      "title": "TSM (supplier) moved -1.32% the same day",
+      "detail": "AAPL moved -6.12% while TSM moved -1.32%. TSM is AAPL's supplier (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-06-25",
       "numbers": {
-        "peer_pct_change": -1.64,
-        "subject_pct_change": -6.118
+        "peer_pct_change": -1.32,
+        "subject_pct_change": -6.118,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260626_price": {
@@ -1610,33 +1616,35 @@
         "prev_close": 275.15,
         "volume": 261775500,
         "volume_vs_30d_avg": 6.32,
-        "move_excluding_sector_pct": 1.1
+        "move_excluding_sector_pct": 0.59
       }
     },
     "ev_AAPL_20260626_peer_MSFT": {
       "id": "ev_AAPL_20260626_peer_MSFT",
       "kind": "peer_move",
-      "title": "MSFT moved +5.71% the same day",
-      "detail": "AAPL moved +3.14% while MSFT moved +5.71%.",
+      "title": "MSFT (competitor) moved +5.71% the same day",
+      "detail": "AAPL moved +3.14% while MSFT moved +5.71%. MSFT is AAPL's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/MSFT/history",
       "occurred_on": "2026-06-26",
       "numbers": {
         "peer_pct_change": 5.71,
-        "subject_pct_change": 3.136
+        "subject_pct_change": 3.136,
+        "relationship": "competitor"
       }
     },
-    "ev_AAPL_20260626_peer_NVDA": {
-      "id": "ev_AAPL_20260626_peer_NVDA",
+    "ev_AAPL_20260626_peer_TSM": {
+      "id": "ev_AAPL_20260626_peer_TSM",
       "kind": "peer_move",
-      "title": "NVDA moved -1.64% the same day",
-      "detail": "AAPL moved +3.14% while NVDA moved -1.64%.",
+      "title": "TSM (supplier) moved -0.61% the same day",
+      "detail": "AAPL moved +3.14% while TSM moved -0.61%. TSM is AAPL's supplier (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-06-26",
       "numbers": {
-        "peer_pct_change": -1.64,
-        "subject_pct_change": 3.136
+        "peer_pct_change": -0.61,
+        "subject_pct_change": 3.136,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260702_price": {
@@ -1653,33 +1661,35 @@
         "prev_close": 294.38,
         "volume": 75352800,
         "volume_vs_30d_avg": 1.82,
-        "move_excluding_sector_pct": 4.73
+        "move_excluding_sector_pct": 5.17
       }
     },
     "ev_AAPL_20260702_peer_MSFT": {
       "id": "ev_AAPL_20260702_peer_MSFT",
       "kind": "peer_move",
-      "title": "MSFT moved +1.62% the same day",
-      "detail": "AAPL moved +4.84% while MSFT moved +1.62%.",
+      "title": "MSFT (competitor) moved +1.62% the same day",
+      "detail": "AAPL moved +4.84% while MSFT moved +1.62%. MSFT is AAPL's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/MSFT/history",
       "occurred_on": "2026-07-02",
       "numbers": {
         "peer_pct_change": 1.62,
-        "subject_pct_change": 4.841
+        "subject_pct_change": 4.841,
+        "relationship": "competitor"
       }
     },
-    "ev_AAPL_20260702_peer_NVDA": {
-      "id": "ev_AAPL_20260702_peer_NVDA",
+    "ev_AAPL_20260702_peer_TSM": {
+      "id": "ev_AAPL_20260702_peer_TSM",
       "kind": "peer_move",
-      "title": "NVDA moved -1.39% the same day",
-      "detail": "AAPL moved +4.84% while NVDA moved -1.39%.",
+      "title": "TSM (supplier) moved -2.27% the same day",
+      "detail": "AAPL moved +4.84% while TSM moved -2.27%. TSM is AAPL's supplier (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-07-02",
       "numbers": {
-        "peer_pct_change": -1.39,
-        "subject_pct_change": 4.841
+        "peer_pct_change": -2.27,
+        "subject_pct_change": 4.841,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260715_price": {
@@ -1696,33 +1706,35 @@
         "prev_close": 314.86,
         "volume": 60957600,
         "volume_vs_30d_avg": 1.47,
-        "move_excluding_sector_pct": 2.46
+        "move_excluding_sector_pct": 2.73
       }
     },
     "ev_AAPL_20260715_peer_MSFT": {
       "id": "ev_AAPL_20260715_peer_MSFT",
       "kind": "peer_move",
-      "title": "MSFT moved +2.78% the same day",
-      "detail": "AAPL moved +4.01% while MSFT moved +2.78%.",
+      "title": "MSFT (competitor) moved +2.78% the same day",
+      "detail": "AAPL moved +4.01% while MSFT moved +2.78%. MSFT is AAPL's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/MSFT/history",
       "occurred_on": "2026-07-15",
       "numbers": {
         "peer_pct_change": 2.78,
-        "subject_pct_change": 4.014
+        "subject_pct_change": 4.014,
+        "relationship": "competitor"
       }
     },
-    "ev_AAPL_20260715_peer_NVDA": {
-      "id": "ev_AAPL_20260715_peer_NVDA",
+    "ev_AAPL_20260715_peer_TSM": {
+      "id": "ev_AAPL_20260715_peer_TSM",
       "kind": "peer_move",
-      "title": "NVDA moved +0.33% the same day",
-      "detail": "AAPL moved +4.01% while NVDA moved +0.33%.",
+      "title": "TSM (supplier) moved -0.22% the same day",
+      "detail": "AAPL moved +4.01% while TSM moved -0.22%. TSM is AAPL's supplier (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-07-15",
       "numbers": {
-        "peer_pct_change": 0.33,
-        "subject_pct_change": 4.014
+        "peer_pct_change": -0.22,
+        "subject_pct_change": 4.014,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260724_price": {
@@ -1739,33 +1751,35 @@
         "prev_close": 321.66,
         "volume": 47489400,
         "volume_vs_30d_avg": 1.15,
-        "move_excluding_sector_pct": 3.98
+        "move_excluding_sector_pct": 4.98
       }
     },
     "ev_AAPL_20260724_peer_MSFT": {
       "id": "ev_AAPL_20260724_peer_MSFT",
       "kind": "peer_move",
-      "title": "MSFT moved +0.03% the same day",
-      "detail": "AAPL moved +3.53% while MSFT moved +0.03%.",
+      "title": "MSFT (competitor) moved +0.03% the same day",
+      "detail": "AAPL moved +3.53% while MSFT moved +0.03%. MSFT is AAPL's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/MSFT/history",
       "occurred_on": "2026-07-24",
       "numbers": {
         "peer_pct_change": 0.03,
-        "subject_pct_change": 3.532
+        "subject_pct_change": 3.532,
+        "relationship": "competitor"
       }
     },
-    "ev_AAPL_20260724_peer_NVDA": {
-      "id": "ev_AAPL_20260724_peer_NVDA",
+    "ev_AAPL_20260724_peer_TSM": {
+      "id": "ev_AAPL_20260724_peer_TSM",
       "kind": "peer_move",
-      "title": "NVDA moved -0.92% the same day",
-      "detail": "AAPL moved +3.53% while NVDA moved -0.92%.",
+      "title": "TSM (supplier) moved -2.93% the same day",
+      "detail": "AAPL moved +3.53% while TSM moved -2.93%. TSM is AAPL's supplier (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-07-24",
       "numbers": {
-        "peer_pct_change": -0.92,
-        "subject_pct_change": 3.532
+        "peer_pct_change": -2.93,
+        "subject_pct_change": 3.532,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260731_price": {
@@ -1782,33 +1796,35 @@
         "prev_close": 333.43,
         "volume": 132489100,
         "volume_vs_30d_avg": 3.2,
-        "move_excluding_sector_pct": 10.33
+        "move_excluding_sector_pct": 8.98
       }
     },
     "ev_AAPL_20260731_peer_MSFT": {
       "id": "ev_AAPL_20260731_peer_MSFT",
       "kind": "peer_move",
-      "title": "MSFT moved +3.02% the same day",
-      "detail": "AAPL moved -7.35% while MSFT moved +3.02%.",
+      "title": "MSFT (competitor) moved +3.02% the same day",
+      "detail": "AAPL moved -7.35% while MSFT moved +3.02%. MSFT is AAPL's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/MSFT/history",
       "occurred_on": "2026-07-31",
       "numbers": {
         "peer_pct_change": 3.02,
-        "subject_pct_change": -7.354
+        "subject_pct_change": -7.354,
+        "relationship": "competitor"
       }
     },
-    "ev_AAPL_20260731_peer_NVDA": {
-      "id": "ev_AAPL_20260731_peer_NVDA",
+    "ev_AAPL_20260731_peer_TSM": {
+      "id": "ev_AAPL_20260731_peer_TSM",
       "kind": "peer_move",
-      "title": "NVDA moved +2.93% the same day",
-      "detail": "AAPL moved -7.35% while NVDA moved +2.93%.",
+      "title": "TSM (supplier) moved +0.23% the same day",
+      "detail": "AAPL moved -7.35% while TSM moved +0.23%. TSM is AAPL's supplier (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-07-31",
       "numbers": {
-        "peer_pct_change": 2.93,
-        "subject_pct_change": -7.354
+        "peer_pct_change": 0.23,
+        "subject_pct_change": -7.354,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260731_filing_000032019326000020": {
@@ -1845,33 +1861,35 @@
         "prev_close": 315.34,
         "volume": 70011900,
         "volume_vs_30d_avg": 1.69,
-        "move_excluding_sector_pct": 4.67
+        "move_excluding_sector_pct": 4.32
       }
     },
     "ev_AAPL_20260910_peer_MSFT": {
       "id": "ev_AAPL_20260910_peer_MSFT",
       "kind": "peer_move",
-      "title": "MSFT moved +0.16% the same day",
-      "detail": "AAPL moved +3.56% while MSFT moved +0.16%.",
+      "title": "MSFT (competitor) moved +0.16% the same day",
+      "detail": "AAPL moved +3.56% while MSFT moved +0.16%. MSFT is AAPL's competitor (PC operating systems (Windows) and gaming platforms (Xbox)), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/MSFT/history",
       "occurred_on": "2026-09-10",
       "numbers": {
         "peer_pct_change": 0.16,
-        "subject_pct_change": 3.561
+        "subject_pct_change": 3.561,
+        "relationship": "competitor"
       }
     },
-    "ev_AAPL_20260910_peer_NVDA": {
-      "id": "ev_AAPL_20260910_peer_NVDA",
+    "ev_AAPL_20260910_peer_TSM": {
+      "id": "ev_AAPL_20260910_peer_TSM",
       "kind": "peer_move",
-      "title": "NVDA moved -2.37% the same day",
-      "detail": "AAPL moved +3.56% while NVDA moved -2.37%.",
+      "title": "TSM (supplier) moved -1.68% the same day",
+      "detail": "AAPL moved +3.56% while TSM moved -1.68%. TSM is AAPL's supplier (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-09-10",
       "numbers": {
-        "peer_pct_change": -2.37,
-        "subject_pct_change": 3.561
+        "peer_pct_change": -1.68,
+        "subject_pct_change": 3.561,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_fund_revenue": {
@@ -1980,15 +1998,20 @@
       }
     }
   },
-  "arc": "Between May and September 2026, Apple traded with significant volatility, marked by pronounced idiosyncratic reactions around its quarterly reporting dates alongside periodic sector-wide swings. A filing-driven bump in early May brought shares to $280.14 before a broad tech pullback dragged the stock down to $275.15 in late June. Apple rebounded sharply through July to peak at $333.02, but late-July filings triggered a severe single-day drop of 7.35% to $308.91, entirely diverging from positive peer momentum. The stock later resumed upward momentum to $326.57 in September, highlighting that while broad tech tides dictated mid-summer swings, company-specific filing dates created Apple's sharpest divergences from peers.",
+  "arc": "Between May and September 2026, Apple experienced volatile swings framed largely by its quarterly reporting cycles alongside periods of peer-correlated tech movement. The period began on a positive note with a 3.24% rise following its early May quarterly filings, before giving way to late June turbulence where the stock fell 6.12% and quickly rebounded 3.14% in tandem with competitor Microsoft. A strong July run took the stock to a high of $333.02, but the momentum was abruptly erased when late-July quarterly filings triggered a 7.35% single-day sell-off that diverged from peers. By September, Apple recovered toward $326.57, illustrating how regulatory filing dates served as primary catalysts while interim moves frequently decoupled from supplier TSMC.",
   "arc_citation_ids": [
     "ev_AAPL_20260501_price",
-    "ev_AAPL_20260501_filing_000032019326000011",
+    "ev_AAPL_20260501_filing_000032019326000013",
     "ev_AAPL_20260625_price",
+    "ev_AAPL_20260626_price",
+    "ev_AAPL_20260626_peer_MSFT",
     "ev_AAPL_20260724_price",
     "ev_AAPL_20260731_price",
-    "ev_AAPL_20260731_filing_000032019326000018",
-    "ev_AAPL_20260910_price"
+    "ev_AAPL_20260731_filing_000032019326000020",
+    "ev_AAPL_20260910_price",
+    "ev_AAPL_20260910_peer_TSM"
   ],
-  "warnings": []
+  "warnings": [
+    "News unavailable (FINNHUB_API_KEY is not set; add it to backend/.env); explanations will be thinner."
+  ]
 }
