@@ -1,7 +1,7 @@
 {
   "symbol": "TSM",
   "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
-  "generated_at": "2026-09-26T09:41:28.359545+00:00",
+  "generated_at": "2026-09-26T12:37:46.712871+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1316,33 +1316,34 @@
   ],
   "beats": [
     {
+      "date": "2026-03-26",
+      "pct_change": -6.223,
+      "close": 326.11,
+      "direction": "down",
+      "headline": "TSM drops 6.2% alongside chip peers",
+      "explanation": "TSM fell 6.22% on 1.5 times average volume following a 6-K filing the prior day. The decline was broadly shared across connected semiconductor companies, with supplier ASML down 4.62% and customers AMD and INTC sliding 7.49% and 6.53%, respectively.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_TSM_20260326_price",
+        "ev_TSM_20260326_filing_000104617926000126",
+        "ev_TSM_20260326_peer_ASML",
+        "ev_TSM_20260326_peer_AMD",
+        "ev_TSM_20260326_peer_INTC"
+      ]
+    },
+    {
       "date": "2026-03-31",
       "pct_change": 6.777,
       "close": 337.95,
       "direction": "up",
-      "headline": "Stock rises 6.78% alongside major customers",
-      "explanation": "No company-specific news accompanied the gain to $337.95 on 1.9 times average volume. The 6.78% advance was shared across its major customers, with Apple rising 2.90%, AMD up 3.77%, and Nvidia up 5.59%.",
+      "headline": "TSM gains 6.8% in broad semiconductor rally",
+      "explanation": "TSM rose 6.78% to close at $337.95 on 1.9 times normal trading volume. No company-specific news was provided, and the move was shared across its ecosystem as supplier ASML gained 5.33% while customers INTC and NVDA climbed 7.14% and 5.59%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260331_price",
-        "ev_TSM_20260331_peer_AAPL",
-        "ev_TSM_20260331_peer_AMD",
+        "ev_TSM_20260331_peer_ASML",
+        "ev_TSM_20260331_peer_INTC",
         "ev_TSM_20260331_peer_NVDA"
-      ]
-    },
-    {
-      "date": "2026-04-08",
-      "pct_change": 5.96,
-      "close": 365.9,
-      "direction": "up",
-      "headline": "Shares gain 5.96% in customer-wide rally",
-      "explanation": "No company-specific announcements were reported as the stock rose 5.96% to close at $365.90 on 1.7 times normal volume. The upward move was shared with customers Apple (+2.13%), AMD (+4.64%), and Nvidia (+2.23%).",
-      "confidence": "low",
-      "citation_ids": [
-        "ev_TSM_20260408_price",
-        "ev_TSM_20260408_peer_AAPL",
-        "ev_TSM_20260408_peer_AMD",
-        "ev_TSM_20260408_peer_NVDA"
       ]
     },
     {
@@ -1350,32 +1351,47 @@
       "pct_change": -3.132,
       "close": 363.35,
       "direction": "down",
-      "headline": "Stock slips 3.13% following 20-F and 6-K filings",
-      "explanation": "The stock retreated 3.13% to $363.35 on elevated volume of 2.7 times average following the submission of a 20-F annual report and two Form 6-K filings. The drop was partially shared with customers Apple (-1.14%) and Nvidia (-0.26%), while customer AMD moved oppositely, gaining 7.80%.",
-      "confidence": "medium",
+      "headline": "TSM falls 3.1% following annual filing",
+      "explanation": "TSM declined 3.13% to $363.35 on heavy volume of 2.7 times the 30-day average after releasing two 6-K reports and its annual 20-F filing. The move was company-specific, as customer and competitor INTC rose 5.48% and customer AMD gained 7.80%, though supplier ASML dropped 4.79%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_TSM_20260416_price",
+        "ev_TSM_20260416_filing_000162828026025362",
         "ev_TSM_20260416_filing_000104617926000201",
         "ev_TSM_20260416_filing_000104617926000199",
-        "ev_TSM_20260416_filing_000162828026025362",
-        "ev_TSM_20260416_peer_AAPL",
+        "ev_TSM_20260416_peer_INTC",
         "ev_TSM_20260416_peer_AMD",
-        "ev_TSM_20260416_peer_NVDA"
+        "ev_TSM_20260416_peer_ASML"
       ]
     },
     {
-      "date": "2026-05-06",
-      "pct_change": 6.361,
-      "close": 419.5,
+      "date": "2026-04-22",
+      "pct_change": 5.26,
+      "close": 387.44,
       "direction": "up",
-      "headline": "Shares climb 6.36% amid customer gains",
-      "explanation": "No company-specific developments were disclosed for the 6.36% rise to $419.50 on 1.8 times typical volume. The gain was shared with customers Apple (+1.17%), Nvidia (+5.77%), and AMD (+18.61%).",
+      "headline": "TSM rises 5.3% as key customers advance",
+      "explanation": "TSM climbed 5.26% to $387.44 on 1.7 times its 30-day average volume with no company-specific filings. The advance aligned with gains among major customers, including AMD rising 6.67% and AVGO up 5.09%, while supplier ASML dipped 1.05%.",
       "confidence": "low",
       "citation_ids": [
-        "ev_TSM_20260506_price",
-        "ev_TSM_20260506_peer_AAPL",
-        "ev_TSM_20260506_peer_AMD",
-        "ev_TSM_20260506_peer_NVDA"
+        "ev_TSM_20260422_price",
+        "ev_TSM_20260422_peer_AMD",
+        "ev_TSM_20260422_peer_AVGO",
+        "ev_TSM_20260422_peer_ASML"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "pct_change": 5.174,
+      "close": 402.46,
+      "direction": "up",
+      "headline": "TSM adds 5.2% following 6-K filing",
+      "explanation": "TSM gained 5.17% to close at $402.46 on 2.2 times average volume after filing a 6-K. The upward momentum was shared across the sector, with customer QCOM surging 11.12% and customer and competitor INTC jumping 23.60%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_TSM_20260424_price",
+        "ev_TSM_20260424_filing_000104617926000205",
+        "ev_TSM_20260424_peer_QCOM",
+        "ev_TSM_20260424_peer_INTC"
       ]
     },
     {
@@ -1383,16 +1399,16 @@
       "pct_change": 4.482,
       "close": 417.72,
       "direction": "up",
-      "headline": "Stock advances 4.48% after 6-K filings",
-      "explanation": "The stock climbed 4.48% to $417.72 on 1.9 times normal volume after two Form 6-K reports were filed on May 12. Gains were shared with customer Nvidia (+4.39%) and customer AMD (+0.94%), while customer Apple dipped 0.22%.",
+      "headline": "TSM gains 4.5% after dual 6-K reports",
+      "explanation": "TSM rose 4.48% to $417.72 on 1.9 times normal volume following two 6-K filings submitted two days earlier. Performance across its network was mixed, with customer AVGO up 5.52% while customer QCOM slid 6.14% and customer and competitor INTC fell 3.62%.",
       "confidence": "medium",
       "citation_ids": [
         "ev_TSM_20260514_price",
         "ev_TSM_20260514_filing_000104617926000275",
         "ev_TSM_20260514_filing_000104617926000274",
-        "ev_TSM_20260514_peer_AAPL",
-        "ev_TSM_20260514_peer_AMD",
-        "ev_TSM_20260514_peer_NVDA"
+        "ev_TSM_20260514_peer_AVGO",
+        "ev_TSM_20260514_peer_QCOM",
+        "ev_TSM_20260514_peer_INTC"
       ]
     },
     {
@@ -1400,14 +1416,14 @@
       "pct_change": 4.106,
       "close": 435.63,
       "direction": "up",
-      "headline": "Shares rise 4.11% alongside customer Nvidia",
-      "explanation": "No company-specific news was reported as the stock rose 4.11% to $435.63 on 1.9 times average volume. The upward move was shared with customer Nvidia (+6.26%), while customers Apple (-1.84%) and AMD (-1.16%) declined.",
+      "headline": "TSM gains 4.1% despite mixed customer moves",
+      "explanation": "TSM climbed 4.11% to $435.63 on 1.9 times 30-day average volume without any company-specific news. The advance was largely company-specific, as customer NVDA advanced 6.26% but customers AAPL and QCOM dropped 1.84% and 8.78%, respectively.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260601_price",
+        "ev_TSM_20260601_peer_NVDA",
         "ev_TSM_20260601_peer_AAPL",
-        "ev_TSM_20260601_peer_AMD",
-        "ev_TSM_20260601_peer_NVDA"
+        "ev_TSM_20260601_peer_QCOM"
       ]
     },
     {
@@ -1415,29 +1431,14 @@
       "pct_change": 6.935,
       "close": 462.12,
       "direction": "up",
-      "headline": "Stock surges 6.93% on heavy volume",
-      "explanation": "No company-specific news accompanied the 6.93% rally to $462.12 on 2.7 times normal volume. The advance was shared across customers AMD (+4.86%), Nvidia (+2.95%), and Apple (+0.70%).",
+      "headline": "TSM surges 6.9% in broad semiconductor rally",
+      "explanation": "TSM rose 6.93% to $462.12 on elevated trading volume of 2.7 times its 30-day average. The gain was part of an industry-wide rise, with supplier ASML moving up 3.31% and customers INTC and QCOM advancing 10.64% and 6.17%, respectively.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260618_price",
-        "ev_TSM_20260618_peer_AAPL",
-        "ev_TSM_20260618_peer_AMD",
-        "ev_TSM_20260618_peer_NVDA"
-      ]
-    },
-    {
-      "date": "2026-06-23",
-      "pct_change": -6.688,
-      "close": 436.39,
-      "direction": "down",
-      "headline": "Shares slide 6.69% in shared customer pullback",
-      "explanation": "Without company-specific announcements, the stock fell 6.69% to $436.39 on 2.1 times average volume. The decline was shared with key customers, including AMD (-5.76%), Nvidia (-4.13%), and Apple (-0.91%).",
-      "confidence": "low",
-      "citation_ids": [
-        "ev_TSM_20260623_price",
-        "ev_TSM_20260623_peer_AAPL",
-        "ev_TSM_20260623_peer_AMD",
-        "ev_TSM_20260623_peer_NVDA"
+        "ev_TSM_20260618_peer_ASML",
+        "ev_TSM_20260618_peer_INTC",
+        "ev_TSM_20260618_peer_QCOM"
       ]
     },
     {
@@ -1445,14 +1446,14 @@
       "pct_change": 5.262,
       "close": 455.1,
       "direction": "up",
-      "headline": "Stock rebounds 5.26% with AMD and Nvidia",
-      "explanation": "No company-specific catalysts were disclosed as the stock gained 5.26% to $455.10 on 1.5 times typical volume. The rebound was shared with customers AMD (+3.43%) and Nvidia (+1.27%), whereas customer Apple declined 0.72%.",
+      "headline": "TSM advances 5.3% with supplier ASML",
+      "explanation": "TSM gained 5.26% to close at $455.10 on 1.5 times average volume with no new company disclosures. The move was shared with supplier ASML, which rose 4.93%, and customer AMD, which gained 3.43%, while customer AAPL was down 0.72%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260629_price",
-        "ev_TSM_20260629_peer_AAPL",
+        "ev_TSM_20260629_peer_ASML",
         "ev_TSM_20260629_peer_AMD",
-        "ev_TSM_20260629_peer_NVDA"
+        "ev_TSM_20260629_peer_AAPL"
       ]
     },
     {
@@ -1460,14 +1461,14 @@
       "pct_change": -6.981,
       "close": 444.23,
       "direction": "down",
-      "headline": "Shares drop 6.98% alongside AMD and Nvidia",
-      "explanation": "No company-specific news accompanied the 6.98% drop to $444.23 on 1.9 times normal volume. The retreat was shared with customers AMD (-6.89%) and Nvidia (-1.25%), while customer Apple moved opposite, gaining 1.74%.",
+      "headline": "TSM slides 7.0% alongside peers and suppliers",
+      "explanation": "TSM fell 6.98% to $444.23 on 1.9 times normal volume in the absence of fresh company announcements. The drop mirrored wide losses across its network, including supplier ASML sliding 7.36% and customers INTC and AMD dropping 9.03% and 6.89%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260701_price",
-        "ev_TSM_20260701_peer_AAPL",
-        "ev_TSM_20260701_peer_AMD",
-        "ev_TSM_20260701_peer_NVDA"
+        "ev_TSM_20260701_peer_ASML",
+        "ev_TSM_20260701_peer_INTC",
+        "ev_TSM_20260701_peer_AMD"
       ]
     },
     {
@@ -1475,14 +1476,14 @@
       "pct_change": 5.546,
       "close": 424.61,
       "direction": "up",
-      "headline": "Stock gains 5.55% as customers advance",
-      "explanation": "Without company-specific headlines, the stock rose 5.55% to $424.61 on 1.9 times average volume. The move was shared across customers AMD (+8.11%), Nvidia (+1.97%), and Apple (+0.35%).",
+      "headline": "TSM rebounds 5.5% with semiconductor peers",
+      "explanation": "TSM gained 5.55% to finish at $424.61 on 1.9 times average volume without company filings. Connected firms rallied alongside it, including customer and competitor INTC rising 8.64%, customer AMD up 8.11%, and supplier ASML climbing 3.59%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260721_price",
-        "ev_TSM_20260721_peer_AAPL",
+        "ev_TSM_20260721_peer_INTC",
         "ev_TSM_20260721_peer_AMD",
-        "ev_TSM_20260721_peer_NVDA"
+        "ev_TSM_20260721_peer_ASML"
       ]
     },
     {
@@ -1490,18 +1491,157 @@
       "pct_change": 7.644,
       "close": 403.31,
       "direction": "up",
-      "headline": "Shares jump 7.64% alongside AMD and Nvidia",
-      "explanation": "No company-specific news was reported for the 7.64% surge to $403.31 on 1.8 times normal volume. The upward movement was shared with customers AMD (+13.00%) and Nvidia (+2.65%), while customer Apple fell 1.41%.",
+      "headline": "TSM gains 7.6% alongside AMD and Intel",
+      "explanation": "TSM jumped 7.64% to $403.31 on 1.8 times 30-day average volume with no company-specific updates provided. The upward surge was shared across major supply chain partners, as supplier ASML rose 6.50% while customers AMD and INTC jumped 13.00% and 11.30%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260730_price",
-        "ev_TSM_20260730_peer_AAPL",
+        "ev_TSM_20260730_peer_ASML",
         "ev_TSM_20260730_peer_AMD",
-        "ev_TSM_20260730_peer_NVDA"
+        "ev_TSM_20260730_peer_INTC"
       ]
     }
   ],
   "evidence": {
+    "ev_TSM_20260326_price": {
+      "id": "ev_TSM_20260326_price",
+      "kind": "price",
+      "title": "TSM fell 6.22% on 2026-03-26",
+      "detail": "Closed at $326.11 from $347.75. Volume was 1.5x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-03-26",
+      "numbers": {
+        "pct_change": -6.223,
+        "close": 326.11,
+        "prev_close": 347.75,
+        "volume": 14560200,
+        "volume_vs_30d_avg": 1.5,
+        "move_excluding_sector_pct": 3.51
+      }
+    },
+    "ev_TSM_20260326_peer_AAPL": {
+      "id": "ev_TSM_20260326_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +0.11% the same day",
+      "detail": "TSM moved -6.22% while AAPL moved +0.11%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-03-26",
+      "numbers": {
+        "peer_pct_change": 0.11,
+        "subject_pct_change": -6.223,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260326_peer_AMD": {
+      "id": "ev_TSM_20260326_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (customer) moved -7.49% the same day",
+      "detail": "TSM moved -6.22% while AMD moved -7.49%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-03-26",
+      "numbers": {
+        "peer_pct_change": -7.49,
+        "subject_pct_change": -6.223,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260326_peer_ASML": {
+      "id": "ev_TSM_20260326_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved -4.62% the same day",
+      "detail": "TSM moved -6.22% while ASML moved -4.62%. ASML is TSM's supplier (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-03-26",
+      "numbers": {
+        "peer_pct_change": -4.62,
+        "subject_pct_change": -6.223,
+        "relationship": "supplier"
+      }
+    },
+    "ev_TSM_20260326_peer_AVGO": {
+      "id": "ev_TSM_20260326_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (customer) moved -2.94% the same day",
+      "detail": "TSM moved -6.22% while AVGO moved -2.94%. AVGO is TSM's customer (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-03-26",
+      "numbers": {
+        "peer_pct_change": -2.94,
+        "subject_pct_change": -6.223,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260326_peer_CRUS": {
+      "id": "ev_TSM_20260326_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (customer) moved +3.75% the same day",
+      "detail": "TSM moved -6.22% while CRUS moved +3.75%. CRUS is TSM's customer (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-03-26",
+      "numbers": {
+        "peer_pct_change": 3.75,
+        "subject_pct_change": -6.223,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260326_peer_INTC": {
+      "id": "ev_TSM_20260326_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer and competitor) moved -6.53% the same day",
+      "detail": "TSM moved -6.22% while INTC moved -6.53%. INTC is TSM's customer and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-03-26",
+      "numbers": {
+        "peer_pct_change": -6.53,
+        "subject_pct_change": -6.223,
+        "relationship": "customer and competitor"
+      }
+    },
+    "ev_TSM_20260326_peer_NVDA": {
+      "id": "ev_TSM_20260326_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved -4.16% the same day",
+      "detail": "TSM moved -6.22% while NVDA moved -4.16%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-03-26",
+      "numbers": {
+        "peer_pct_change": -4.16,
+        "subject_pct_change": -6.223,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260326_peer_QCOM": {
+      "id": "ev_TSM_20260326_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (customer) moved +0.15% the same day",
+      "detail": "TSM moved -6.22% while QCOM moved +0.15%. QCOM is TSM's customer (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-03-26",
+      "numbers": {
+        "peer_pct_change": 0.15,
+        "subject_pct_change": -6.223,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260326_filing_000104617926000126": {
+      "id": "ev_TSM_20260326_filing_000104617926000126",
+      "kind": "filing",
+      "title": "6-K filed 2026-03-25",
+      "detail": "6-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000126/tsm-monthend6kx20260325.htm",
+      "occurred_on": "2026-03-25",
+      "numbers": {}
+    },
     "ev_TSM_20260331_price": {
       "id": "ev_TSM_20260331_price",
       "kind": "price",
@@ -1516,7 +1656,7 @@
         "prev_close": 316.5,
         "volume": 18488000,
         "volume_vs_30d_avg": 1.9,
-        "move_excluding_sector_pct": 2.69
+        "move_excluding_sector_pct": 2.26
       }
     },
     "ev_TSM_20260331_peer_AAPL": {
@@ -1547,6 +1687,62 @@
         "relationship": "customer"
       }
     },
+    "ev_TSM_20260331_peer_ASML": {
+      "id": "ev_TSM_20260331_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +5.33% the same day",
+      "detail": "TSM moved +6.78% while ASML moved +5.33%. ASML is TSM's supplier (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-03-31",
+      "numbers": {
+        "peer_pct_change": 5.33,
+        "subject_pct_change": 6.777,
+        "relationship": "supplier"
+      }
+    },
+    "ev_TSM_20260331_peer_AVGO": {
+      "id": "ev_TSM_20260331_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (customer) moved +5.49% the same day",
+      "detail": "TSM moved +6.78% while AVGO moved +5.49%. AVGO is TSM's customer (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-03-31",
+      "numbers": {
+        "peer_pct_change": 5.49,
+        "subject_pct_change": 6.777,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260331_peer_CRUS": {
+      "id": "ev_TSM_20260331_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (customer) moved +4.55% the same day",
+      "detail": "TSM moved +6.78% while CRUS moved +4.55%. CRUS is TSM's customer (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-03-31",
+      "numbers": {
+        "peer_pct_change": 4.55,
+        "subject_pct_change": 6.777,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260331_peer_INTC": {
+      "id": "ev_TSM_20260331_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer and competitor) moved +7.14% the same day",
+      "detail": "TSM moved +6.78% while INTC moved +7.14%. INTC is TSM's customer and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-03-31",
+      "numbers": {
+        "peer_pct_change": 7.14,
+        "subject_pct_change": 6.777,
+        "relationship": "customer and competitor"
+      }
+    },
     "ev_TSM_20260331_peer_NVDA": {
       "id": "ev_TSM_20260331_peer_NVDA",
       "kind": "peer_move",
@@ -1561,62 +1757,17 @@
         "relationship": "customer"
       }
     },
-    "ev_TSM_20260408_price": {
-      "id": "ev_TSM_20260408_price",
-      "kind": "price",
-      "title": "TSM rose 5.96% on 2026-04-08",
-      "detail": "Closed at $365.90 from $345.32. Volume was 1.7x the 30-day average.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-04-08",
-      "numbers": {
-        "pct_change": 5.96,
-        "close": 365.9,
-        "prev_close": 345.32,
-        "volume": 16356900,
-        "volume_vs_30d_avg": 1.68,
-        "move_excluding_sector_pct": 2.96
-      }
-    },
-    "ev_TSM_20260408_peer_AAPL": {
-      "id": "ev_TSM_20260408_peer_AAPL",
+    "ev_TSM_20260331_peer_QCOM": {
+      "id": "ev_TSM_20260331_peer_QCOM",
       "kind": "peer_move",
-      "title": "AAPL (customer) moved +2.13% the same day",
-      "detail": "TSM moved +5.96% while AAPL moved +2.13%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
+      "title": "QCOM (customer) moved +1.35% the same day",
+      "detail": "TSM moved +6.78% while QCOM moved +1.35%. QCOM is TSM's customer (foundry supplier), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AAPL/history",
-      "occurred_on": "2026-04-08",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-03-31",
       "numbers": {
-        "peer_pct_change": 2.13,
-        "subject_pct_change": 5.96,
-        "relationship": "customer"
-      }
-    },
-    "ev_TSM_20260408_peer_AMD": {
-      "id": "ev_TSM_20260408_peer_AMD",
-      "kind": "peer_move",
-      "title": "AMD (customer) moved +4.64% the same day",
-      "detail": "TSM moved +5.96% while AMD moved +4.64%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-04-08",
-      "numbers": {
-        "peer_pct_change": 4.64,
-        "subject_pct_change": 5.96,
-        "relationship": "customer"
-      }
-    },
-    "ev_TSM_20260408_peer_NVDA": {
-      "id": "ev_TSM_20260408_peer_NVDA",
-      "kind": "peer_move",
-      "title": "NVDA (customer) moved +2.23% the same day",
-      "detail": "TSM moved +5.96% while NVDA moved +2.23%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-04-08",
-      "numbers": {
-        "peer_pct_change": 2.23,
-        "subject_pct_change": 5.96,
+        "peer_pct_change": 1.35,
+        "subject_pct_change": 6.777,
         "relationship": "customer"
       }
     },
@@ -1634,7 +1785,7 @@
         "prev_close": 375.1,
         "volume": 26405800,
         "volume_vs_30d_avg": 2.72,
-        "move_excluding_sector_pct": 5.27
+        "move_excluding_sector_pct": 4.77
       }
     },
     "ev_TSM_20260416_peer_AAPL": {
@@ -1665,6 +1816,62 @@
         "relationship": "customer"
       }
     },
+    "ev_TSM_20260416_peer_ASML": {
+      "id": "ev_TSM_20260416_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved -4.79% the same day",
+      "detail": "TSM moved -3.13% while ASML moved -4.79%. ASML is TSM's supplier (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": -4.79,
+        "subject_pct_change": -3.132,
+        "relationship": "supplier"
+      }
+    },
+    "ev_TSM_20260416_peer_AVGO": {
+      "id": "ev_TSM_20260416_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (customer) moved +0.44% the same day",
+      "detail": "TSM moved -3.13% while AVGO moved +0.44%. AVGO is TSM's customer (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": 0.44,
+        "subject_pct_change": -3.132,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260416_peer_CRUS": {
+      "id": "ev_TSM_20260416_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (customer) moved +4.52% the same day",
+      "detail": "TSM moved -3.13% while CRUS moved +4.52%. CRUS is TSM's customer (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": 4.52,
+        "subject_pct_change": -3.132,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260416_peer_INTC": {
+      "id": "ev_TSM_20260416_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer and competitor) moved +5.48% the same day",
+      "detail": "TSM moved -3.13% while INTC moved +5.48%. INTC is TSM's customer and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": 5.48,
+        "subject_pct_change": -3.132,
+        "relationship": "customer and competitor"
+      }
+    },
     "ev_TSM_20260416_peer_NVDA": {
       "id": "ev_TSM_20260416_peer_NVDA",
       "kind": "peer_move",
@@ -1675,6 +1882,20 @@
       "occurred_on": "2026-04-16",
       "numbers": {
         "peer_pct_change": -0.26,
+        "subject_pct_change": -3.132,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260416_peer_QCOM": {
+      "id": "ev_TSM_20260416_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (customer) moved +1.07% the same day",
+      "detail": "TSM moved -3.13% while QCOM moved +1.07%. QCOM is TSM's customer (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": 1.07,
         "subject_pct_change": -3.132,
         "relationship": "customer"
       }
@@ -1709,64 +1930,273 @@
       "occurred_on": "2026-04-16",
       "numbers": {}
     },
-    "ev_TSM_20260506_price": {
-      "id": "ev_TSM_20260506_price",
+    "ev_TSM_20260422_price": {
+      "id": "ev_TSM_20260422_price",
       "kind": "price",
-      "title": "TSM rose 6.36% on 2026-05-06",
-      "detail": "Closed at $419.50 from $394.41. Volume was 1.8x the 30-day average.",
+      "title": "TSM rose 5.26% on 2026-04-22",
+      "detail": "Closed at $387.44 from $368.08. Volume was 1.7x the 30-day average.",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-05-06",
+      "occurred_on": "2026-04-22",
       "numbers": {
-        "pct_change": 6.361,
-        "close": 419.5,
-        "prev_close": 394.41,
-        "volume": 17736400,
-        "volume_vs_30d_avg": 1.83,
-        "move_excluding_sector_pct": 2.16
+        "pct_change": 5.26,
+        "close": 387.44,
+        "prev_close": 368.08,
+        "volume": 16317200,
+        "volume_vs_30d_avg": 1.68,
+        "move_excluding_sector_pct": 3.56
       }
     },
-    "ev_TSM_20260506_peer_AAPL": {
-      "id": "ev_TSM_20260506_peer_AAPL",
+    "ev_TSM_20260422_peer_AAPL": {
+      "id": "ev_TSM_20260422_peer_AAPL",
       "kind": "peer_move",
-      "title": "AAPL (customer) moved +1.17% the same day",
-      "detail": "TSM moved +6.36% while AAPL moved +1.17%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
+      "title": "AAPL (customer) moved +2.63% the same day",
+      "detail": "TSM moved +5.26% while AAPL moved +2.63%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AAPL/history",
-      "occurred_on": "2026-05-06",
+      "occurred_on": "2026-04-22",
       "numbers": {
-        "peer_pct_change": 1.17,
-        "subject_pct_change": 6.361,
+        "peer_pct_change": 2.63,
+        "subject_pct_change": 5.26,
         "relationship": "customer"
       }
     },
-    "ev_TSM_20260506_peer_AMD": {
-      "id": "ev_TSM_20260506_peer_AMD",
+    "ev_TSM_20260422_peer_AMD": {
+      "id": "ev_TSM_20260422_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD (customer) moved +18.61% the same day",
-      "detail": "TSM moved +6.36% while AMD moved +18.61%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
+      "title": "AMD (customer) moved +6.67% the same day",
+      "detail": "TSM moved +5.26% while AMD moved +6.67%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-05-06",
+      "occurred_on": "2026-04-22",
       "numbers": {
-        "peer_pct_change": 18.61,
-        "subject_pct_change": 6.361,
+        "peer_pct_change": 6.67,
+        "subject_pct_change": 5.26,
         "relationship": "customer"
       }
     },
-    "ev_TSM_20260506_peer_NVDA": {
-      "id": "ev_TSM_20260506_peer_NVDA",
+    "ev_TSM_20260422_peer_ASML": {
+      "id": "ev_TSM_20260422_peer_ASML",
       "kind": "peer_move",
-      "title": "NVDA (customer) moved +5.77% the same day",
-      "detail": "TSM moved +6.36% while NVDA moved +5.77%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "title": "ASML (supplier) moved -1.05% the same day",
+      "detail": "TSM moved +5.26% while ASML moved -1.05%. ASML is TSM's supplier (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-05-06",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-04-22",
       "numbers": {
-        "peer_pct_change": 5.77,
-        "subject_pct_change": 6.361,
+        "peer_pct_change": -1.05,
+        "subject_pct_change": 5.26,
+        "relationship": "supplier"
+      }
+    },
+    "ev_TSM_20260422_peer_AVGO": {
+      "id": "ev_TSM_20260422_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (customer) moved +5.09% the same day",
+      "detail": "TSM moved +5.26% while AVGO moved +5.09%. AVGO is TSM's customer (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-22",
+      "numbers": {
+        "peer_pct_change": 5.09,
+        "subject_pct_change": 5.26,
         "relationship": "customer"
       }
+    },
+    "ev_TSM_20260422_peer_CRUS": {
+      "id": "ev_TSM_20260422_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (customer) moved +0.07% the same day",
+      "detail": "TSM moved +5.26% while CRUS moved +0.07%. CRUS is TSM's customer (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-04-22",
+      "numbers": {
+        "peer_pct_change": 0.07,
+        "subject_pct_change": 5.26,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260422_peer_INTC": {
+      "id": "ev_TSM_20260422_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer and competitor) moved -1.49% the same day",
+      "detail": "TSM moved +5.26% while INTC moved -1.49%. INTC is TSM's customer and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-22",
+      "numbers": {
+        "peer_pct_change": -1.49,
+        "subject_pct_change": 5.26,
+        "relationship": "customer and competitor"
+      }
+    },
+    "ev_TSM_20260422_peer_NVDA": {
+      "id": "ev_TSM_20260422_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +1.31% the same day",
+      "detail": "TSM moved +5.26% while NVDA moved +1.31%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-22",
+      "numbers": {
+        "peer_pct_change": 1.31,
+        "subject_pct_change": 5.26,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260422_peer_QCOM": {
+      "id": "ev_TSM_20260422_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (customer) moved +0.38% the same day",
+      "detail": "TSM moved +5.26% while QCOM moved +0.38%. QCOM is TSM's customer (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-22",
+      "numbers": {
+        "peer_pct_change": 0.38,
+        "subject_pct_change": 5.26,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260424_price": {
+      "id": "ev_TSM_20260424_price",
+      "kind": "price",
+      "title": "TSM rose 5.17% on 2026-04-24",
+      "detail": "Closed at $402.46 from $382.66. Volume was 2.2x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "pct_change": 5.174,
+        "close": 402.46,
+        "prev_close": 382.66,
+        "volume": 21603600,
+        "volume_vs_30d_avg": 2.22,
+        "move_excluding_sector_pct": 1.87
+      }
+    },
+    "ev_TSM_20260424_peer_AAPL": {
+      "id": "ev_TSM_20260424_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -0.87% the same day",
+      "detail": "TSM moved +5.17% while AAPL moved -0.87%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": -0.87,
+        "subject_pct_change": 5.174,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260424_peer_AMD": {
+      "id": "ev_TSM_20260424_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (customer) moved +13.91% the same day",
+      "detail": "TSM moved +5.17% while AMD moved +13.91%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 13.91,
+        "subject_pct_change": 5.174,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260424_peer_ASML": {
+      "id": "ev_TSM_20260424_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +2.81% the same day",
+      "detail": "TSM moved +5.17% while ASML moved +2.81%. ASML is TSM's supplier (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 2.81,
+        "subject_pct_change": 5.174,
+        "relationship": "supplier"
+      }
+    },
+    "ev_TSM_20260424_peer_AVGO": {
+      "id": "ev_TSM_20260424_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (customer) moved +0.67% the same day",
+      "detail": "TSM moved +5.17% while AVGO moved +0.67%. AVGO is TSM's customer (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 0.67,
+        "subject_pct_change": 5.174,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260424_peer_CRUS": {
+      "id": "ev_TSM_20260424_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (customer) moved +0.79% the same day",
+      "detail": "TSM moved +5.17% while CRUS moved +0.79%. CRUS is TSM's customer (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 0.79,
+        "subject_pct_change": 5.174,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260424_peer_INTC": {
+      "id": "ev_TSM_20260424_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer and competitor) moved +23.60% the same day",
+      "detail": "TSM moved +5.17% while INTC moved +23.60%. INTC is TSM's customer and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 23.6,
+        "subject_pct_change": 5.174,
+        "relationship": "customer and competitor"
+      }
+    },
+    "ev_TSM_20260424_peer_NVDA": {
+      "id": "ev_TSM_20260424_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +4.32% the same day",
+      "detail": "TSM moved +5.17% while NVDA moved +4.32%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 4.32,
+        "subject_pct_change": 5.174,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260424_peer_QCOM": {
+      "id": "ev_TSM_20260424_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (customer) moved +11.12% the same day",
+      "detail": "TSM moved +5.17% while QCOM moved +11.12%. QCOM is TSM's customer (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 11.12,
+        "subject_pct_change": 5.174,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260424_filing_000104617926000205": {
+      "id": "ev_TSM_20260424_filing_000104617926000205",
+      "kind": "filing",
+      "title": "6-K filed 2026-04-24",
+      "detail": "6-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000205/tsm-monthend6kx20260424.htm",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
     },
     "ev_TSM_20260514_price": {
       "id": "ev_TSM_20260514_price",
@@ -1782,7 +2212,7 @@
         "prev_close": 399.8,
         "volume": 18577100,
         "volume_vs_30d_avg": 1.91,
-        "move_excluding_sector_pct": 2.78
+        "move_excluding_sector_pct": 4.62
       }
     },
     "ev_TSM_20260514_peer_AAPL": {
@@ -1813,6 +2243,62 @@
         "relationship": "customer"
       }
     },
+    "ev_TSM_20260514_peer_ASML": {
+      "id": "ev_TSM_20260514_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +0.18% the same day",
+      "detail": "TSM moved +4.48% while ASML moved +0.18%. ASML is TSM's supplier (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": 0.18,
+        "subject_pct_change": 4.482,
+        "relationship": "supplier"
+      }
+    },
+    "ev_TSM_20260514_peer_AVGO": {
+      "id": "ev_TSM_20260514_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (customer) moved +5.52% the same day",
+      "detail": "TSM moved +4.48% while AVGO moved +5.52%. AVGO is TSM's customer (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": 5.52,
+        "subject_pct_change": 4.482,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260514_peer_CRUS": {
+      "id": "ev_TSM_20260514_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (customer) moved -2.17% the same day",
+      "detail": "TSM moved +4.48% while CRUS moved -2.17%. CRUS is TSM's customer (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": -2.17,
+        "subject_pct_change": 4.482,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260514_peer_INTC": {
+      "id": "ev_TSM_20260514_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer and competitor) moved -3.62% the same day",
+      "detail": "TSM moved +4.48% while INTC moved -3.62%. INTC is TSM's customer and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": -3.62,
+        "subject_pct_change": 4.482,
+        "relationship": "customer and competitor"
+      }
+    },
     "ev_TSM_20260514_peer_NVDA": {
       "id": "ev_TSM_20260514_peer_NVDA",
       "kind": "peer_move",
@@ -1823,6 +2309,20 @@
       "occurred_on": "2026-05-14",
       "numbers": {
         "peer_pct_change": 4.39,
+        "subject_pct_change": 4.482,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260514_peer_QCOM": {
+      "id": "ev_TSM_20260514_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (customer) moved -6.14% the same day",
+      "detail": "TSM moved +4.48% while QCOM moved -6.14%. QCOM is TSM's customer (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": -6.14,
         "subject_pct_change": 4.482,
         "relationship": "customer"
       }
@@ -1861,7 +2361,7 @@
         "prev_close": 418.45,
         "volume": 18040400,
         "volume_vs_30d_avg": 1.86,
-        "move_excluding_sector_pct": 3.02
+        "move_excluding_sector_pct": 5.05
       }
     },
     "ev_TSM_20260601_peer_AAPL": {
@@ -1892,6 +2392,62 @@
         "relationship": "customer"
       }
     },
+    "ev_TSM_20260601_peer_ASML": {
+      "id": "ev_TSM_20260601_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +0.98% the same day",
+      "detail": "TSM moved +4.11% while ASML moved +0.98%. ASML is TSM's supplier (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": 0.98,
+        "subject_pct_change": 4.106,
+        "relationship": "supplier"
+      }
+    },
+    "ev_TSM_20260601_peer_AVGO": {
+      "id": "ev_TSM_20260601_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (customer) moved +2.96% the same day",
+      "detail": "TSM moved +4.11% while AVGO moved +2.96%. AVGO is TSM's customer (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": 2.96,
+        "subject_pct_change": 4.106,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260601_peer_CRUS": {
+      "id": "ev_TSM_20260601_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (customer) moved -1.31% the same day",
+      "detail": "TSM moved +4.11% while CRUS moved -1.31%. CRUS is TSM's customer (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": -1.31,
+        "subject_pct_change": 4.106,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260601_peer_INTC": {
+      "id": "ev_TSM_20260601_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer and competitor) moved -4.67% the same day",
+      "detail": "TSM moved +4.11% while INTC moved -4.67%. INTC is TSM's customer and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": -4.67,
+        "subject_pct_change": 4.106,
+        "relationship": "customer and competitor"
+      }
+    },
     "ev_TSM_20260601_peer_NVDA": {
       "id": "ev_TSM_20260601_peer_NVDA",
       "kind": "peer_move",
@@ -1902,6 +2458,20 @@
       "occurred_on": "2026-06-01",
       "numbers": {
         "peer_pct_change": 6.26,
+        "subject_pct_change": 4.106,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260601_peer_QCOM": {
+      "id": "ev_TSM_20260601_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (customer) moved -8.78% the same day",
+      "detail": "TSM moved +4.11% while QCOM moved -8.78%. QCOM is TSM's customer (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": -8.78,
         "subject_pct_change": 4.106,
         "relationship": "customer"
       }
@@ -1920,7 +2490,7 @@
         "prev_close": 432.15,
         "volume": 25817100,
         "volume_vs_30d_avg": 2.66,
-        "move_excluding_sector_pct": 4.1
+        "move_excluding_sector_pct": 2.38
       }
     },
     "ev_TSM_20260618_peer_AAPL": {
@@ -1951,6 +2521,62 @@
         "relationship": "customer"
       }
     },
+    "ev_TSM_20260618_peer_ASML": {
+      "id": "ev_TSM_20260618_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +3.31% the same day",
+      "detail": "TSM moved +6.93% while ASML moved +3.31%. ASML is TSM's supplier (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 3.31,
+        "subject_pct_change": 6.935,
+        "relationship": "supplier"
+      }
+    },
+    "ev_TSM_20260618_peer_AVGO": {
+      "id": "ev_TSM_20260618_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (customer) moved +4.70% the same day",
+      "detail": "TSM moved +6.93% while AVGO moved +4.70%. AVGO is TSM's customer (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 4.7,
+        "subject_pct_change": 6.935,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260618_peer_CRUS": {
+      "id": "ev_TSM_20260618_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (customer) moved +3.13% the same day",
+      "detail": "TSM moved +6.93% while CRUS moved +3.13%. CRUS is TSM's customer (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 3.13,
+        "subject_pct_change": 6.935,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260618_peer_INTC": {
+      "id": "ev_TSM_20260618_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer and competitor) moved +10.64% the same day",
+      "detail": "TSM moved +6.93% while INTC moved +10.64%. INTC is TSM's customer and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 10.64,
+        "subject_pct_change": 6.935,
+        "relationship": "customer and competitor"
+      }
+    },
     "ev_TSM_20260618_peer_NVDA": {
       "id": "ev_TSM_20260618_peer_NVDA",
       "kind": "peer_move",
@@ -1965,62 +2591,17 @@
         "relationship": "customer"
       }
     },
-    "ev_TSM_20260623_price": {
-      "id": "ev_TSM_20260623_price",
-      "kind": "price",
-      "title": "TSM fell 6.69% on 2026-06-23",
-      "detail": "Closed at $436.39 from $467.67. Volume was 2.1x the 30-day average.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-06-23",
-      "numbers": {
-        "pct_change": -6.688,
-        "close": 436.39,
-        "prev_close": 467.67,
-        "volume": 20364500,
-        "volume_vs_30d_avg": 2.1,
-        "move_excluding_sector_pct": 3.09
-      }
-    },
-    "ev_TSM_20260623_peer_AAPL": {
-      "id": "ev_TSM_20260623_peer_AAPL",
+    "ev_TSM_20260618_peer_QCOM": {
+      "id": "ev_TSM_20260618_peer_QCOM",
       "kind": "peer_move",
-      "title": "AAPL (customer) moved -0.91% the same day",
-      "detail": "TSM moved -6.69% while AAPL moved -0.91%. AAPL is TSM's customer (fabrication of Apple-designed chips (A-series, M-series)), per the knowledge graph (source: manual).",
+      "title": "QCOM (customer) moved +6.17% the same day",
+      "detail": "TSM moved +6.93% while QCOM moved +6.17%. QCOM is TSM's customer (foundry supplier), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AAPL/history",
-      "occurred_on": "2026-06-23",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-18",
       "numbers": {
-        "peer_pct_change": -0.91,
-        "subject_pct_change": -6.688,
-        "relationship": "customer"
-      }
-    },
-    "ev_TSM_20260623_peer_AMD": {
-      "id": "ev_TSM_20260623_peer_AMD",
-      "kind": "peer_move",
-      "title": "AMD (customer) moved -5.76% the same day",
-      "detail": "TSM moved -6.69% while AMD moved -5.76%. AMD is TSM's customer (wafer production), per the knowledge graph (source: 10-K).",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-06-23",
-      "numbers": {
-        "peer_pct_change": -5.76,
-        "subject_pct_change": -6.688,
-        "relationship": "customer"
-      }
-    },
-    "ev_TSM_20260623_peer_NVDA": {
-      "id": "ev_TSM_20260623_peer_NVDA",
-      "kind": "peer_move",
-      "title": "NVDA (customer) moved -4.13% the same day",
-      "detail": "TSM moved -6.69% while NVDA moved -4.13%. NVDA is TSM's customer (wafer foundry), per the knowledge graph (source: 10-K).",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-06-23",
-      "numbers": {
-        "peer_pct_change": -4.13,
-        "subject_pct_change": -6.688,
+        "peer_pct_change": 6.17,
+        "subject_pct_change": 6.935,
         "relationship": "customer"
       }
     },
@@ -2038,7 +2619,7 @@
         "prev_close": 432.35,
         "volume": 14881400,
         "volume_vs_30d_avg": 1.53,
-        "move_excluding_sector_pct": 3.93
+        "move_excluding_sector_pct": 3.62
       }
     },
     "ev_TSM_20260629_peer_AAPL": {
@@ -2069,6 +2650,62 @@
         "relationship": "customer"
       }
     },
+    "ev_TSM_20260629_peer_ASML": {
+      "id": "ev_TSM_20260629_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +4.93% the same day",
+      "detail": "TSM moved +5.26% while ASML moved +4.93%. ASML is TSM's supplier (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-06-29",
+      "numbers": {
+        "peer_pct_change": 4.93,
+        "subject_pct_change": 5.262,
+        "relationship": "supplier"
+      }
+    },
+    "ev_TSM_20260629_peer_AVGO": {
+      "id": "ev_TSM_20260629_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (customer) moved +2.04% the same day",
+      "detail": "TSM moved +5.26% while AVGO moved +2.04%. AVGO is TSM's customer (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-29",
+      "numbers": {
+        "peer_pct_change": 2.04,
+        "subject_pct_change": 5.262,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260629_peer_CRUS": {
+      "id": "ev_TSM_20260629_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (customer) moved -0.10% the same day",
+      "detail": "TSM moved +5.26% while CRUS moved -0.10%. CRUS is TSM's customer (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-06-29",
+      "numbers": {
+        "peer_pct_change": -0.1,
+        "subject_pct_change": 5.262,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260629_peer_INTC": {
+      "id": "ev_TSM_20260629_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer and competitor) moved +2.65% the same day",
+      "detail": "TSM moved +5.26% while INTC moved +2.65%. INTC is TSM's customer and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-29",
+      "numbers": {
+        "peer_pct_change": 2.65,
+        "subject_pct_change": 5.262,
+        "relationship": "customer and competitor"
+      }
+    },
     "ev_TSM_20260629_peer_NVDA": {
       "id": "ev_TSM_20260629_peer_NVDA",
       "kind": "peer_move",
@@ -2079,6 +2716,20 @@
       "occurred_on": "2026-06-29",
       "numbers": {
         "peer_pct_change": 1.27,
+        "subject_pct_change": 5.262,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260629_peer_QCOM": {
+      "id": "ev_TSM_20260629_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (customer) moved -0.35% the same day",
+      "detail": "TSM moved +5.26% while QCOM moved -0.35%. QCOM is TSM's customer (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-29",
+      "numbers": {
+        "peer_pct_change": -0.35,
         "subject_pct_change": 5.262,
         "relationship": "customer"
       }
@@ -2097,7 +2748,7 @@
         "prev_close": 477.57,
         "volume": 18534800,
         "volume_vs_30d_avg": 1.91,
-        "move_excluding_sector_pct": 4.84
+        "move_excluding_sector_pct": 3.48
       }
     },
     "ev_TSM_20260701_peer_AAPL": {
@@ -2128,6 +2779,62 @@
         "relationship": "customer"
       }
     },
+    "ev_TSM_20260701_peer_ASML": {
+      "id": "ev_TSM_20260701_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved -7.36% the same day",
+      "detail": "TSM moved -6.98% while ASML moved -7.36%. ASML is TSM's supplier (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-07-01",
+      "numbers": {
+        "peer_pct_change": -7.36,
+        "subject_pct_change": -6.981,
+        "relationship": "supplier"
+      }
+    },
+    "ev_TSM_20260701_peer_AVGO": {
+      "id": "ev_TSM_20260701_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (customer) moved -2.23% the same day",
+      "detail": "TSM moved -6.98% while AVGO moved -2.23%. AVGO is TSM's customer (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-07-01",
+      "numbers": {
+        "peer_pct_change": -2.23,
+        "subject_pct_change": -6.981,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260701_peer_CRUS": {
+      "id": "ev_TSM_20260701_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (customer) moved -1.42% the same day",
+      "detail": "TSM moved -6.98% while CRUS moved -1.42%. CRUS is TSM's customer (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-07-01",
+      "numbers": {
+        "peer_pct_change": -1.42,
+        "subject_pct_change": -6.981,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260701_peer_INTC": {
+      "id": "ev_TSM_20260701_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer and competitor) moved -9.03% the same day",
+      "detail": "TSM moved -6.98% while INTC moved -9.03%. INTC is TSM's customer and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-01",
+      "numbers": {
+        "peer_pct_change": -9.03,
+        "subject_pct_change": -6.981,
+        "relationship": "customer and competitor"
+      }
+    },
     "ev_TSM_20260701_peer_NVDA": {
       "id": "ev_TSM_20260701_peer_NVDA",
       "kind": "peer_move",
@@ -2138,6 +2845,20 @@
       "occurred_on": "2026-07-01",
       "numbers": {
         "peer_pct_change": -1.25,
+        "subject_pct_change": -6.981,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260701_peer_QCOM": {
+      "id": "ev_TSM_20260701_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (customer) moved -1.55% the same day",
+      "detail": "TSM moved -6.98% while QCOM moved -1.55%. QCOM is TSM's customer (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-01",
+      "numbers": {
+        "peer_pct_change": -1.55,
         "subject_pct_change": -6.981,
         "relationship": "customer"
       }
@@ -2156,7 +2877,7 @@
         "prev_close": 402.3,
         "volume": 18210100,
         "volume_vs_30d_avg": 1.87,
-        "move_excluding_sector_pct": 2.07
+        "move_excluding_sector_pct": 1.96
       }
     },
     "ev_TSM_20260721_peer_AAPL": {
@@ -2187,6 +2908,62 @@
         "relationship": "customer"
       }
     },
+    "ev_TSM_20260721_peer_ASML": {
+      "id": "ev_TSM_20260721_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +3.59% the same day",
+      "detail": "TSM moved +5.55% while ASML moved +3.59%. ASML is TSM's supplier (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-07-21",
+      "numbers": {
+        "peer_pct_change": 3.59,
+        "subject_pct_change": 5.546,
+        "relationship": "supplier"
+      }
+    },
+    "ev_TSM_20260721_peer_AVGO": {
+      "id": "ev_TSM_20260721_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (customer) moved +2.21% the same day",
+      "detail": "TSM moved +5.55% while AVGO moved +2.21%. AVGO is TSM's customer (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-07-21",
+      "numbers": {
+        "peer_pct_change": 2.21,
+        "subject_pct_change": 5.546,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260721_peer_CRUS": {
+      "id": "ev_TSM_20260721_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (customer) moved +1.92% the same day",
+      "detail": "TSM moved +5.55% while CRUS moved +1.92%. CRUS is TSM's customer (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-07-21",
+      "numbers": {
+        "peer_pct_change": 1.92,
+        "subject_pct_change": 5.546,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260721_peer_INTC": {
+      "id": "ev_TSM_20260721_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer and competitor) moved +8.64% the same day",
+      "detail": "TSM moved +5.55% while INTC moved +8.64%. INTC is TSM's customer and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-21",
+      "numbers": {
+        "peer_pct_change": 8.64,
+        "subject_pct_change": 5.546,
+        "relationship": "customer and competitor"
+      }
+    },
     "ev_TSM_20260721_peer_NVDA": {
       "id": "ev_TSM_20260721_peer_NVDA",
       "kind": "peer_move",
@@ -2197,6 +2974,20 @@
       "occurred_on": "2026-07-21",
       "numbers": {
         "peer_pct_change": 1.97,
+        "subject_pct_change": 5.546,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260721_peer_QCOM": {
+      "id": "ev_TSM_20260721_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (customer) moved +1.87% the same day",
+      "detail": "TSM moved +5.55% while QCOM moved +1.87%. QCOM is TSM's customer (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-21",
+      "numbers": {
+        "peer_pct_change": 1.87,
         "subject_pct_change": 5.546,
         "relationship": "customer"
       }
@@ -2215,7 +3006,7 @@
         "prev_close": 374.67,
         "volume": 17474200,
         "volume_vs_30d_avg": 1.8,
-        "move_excluding_sector_pct": 2.9
+        "move_excluding_sector_pct": 3.58
       }
     },
     "ev_TSM_20260730_peer_AAPL": {
@@ -2246,6 +3037,62 @@
         "relationship": "customer"
       }
     },
+    "ev_TSM_20260730_peer_ASML": {
+      "id": "ev_TSM_20260730_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +6.50% the same day",
+      "detail": "TSM moved +7.64% while ASML moved +6.50%. ASML is TSM's supplier (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 6.5,
+        "subject_pct_change": 7.644,
+        "relationship": "supplier"
+      }
+    },
+    "ev_TSM_20260730_peer_AVGO": {
+      "id": "ev_TSM_20260730_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (customer) moved +4.73% the same day",
+      "detail": "TSM moved +7.64% while AVGO moved +4.73%. AVGO is TSM's customer (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 4.73,
+        "subject_pct_change": 7.644,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260730_peer_CRUS": {
+      "id": "ev_TSM_20260730_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (customer) moved -1.65% the same day",
+      "detail": "TSM moved +7.64% while CRUS moved -1.65%. CRUS is TSM's customer (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": -1.65,
+        "subject_pct_change": 7.644,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260730_peer_INTC": {
+      "id": "ev_TSM_20260730_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer and competitor) moved +11.30% the same day",
+      "detail": "TSM moved +7.64% while INTC moved +11.30%. INTC is TSM's customer and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 11.3,
+        "subject_pct_change": 7.644,
+        "relationship": "customer and competitor"
+      }
+    },
     "ev_TSM_20260730_peer_NVDA": {
       "id": "ev_TSM_20260730_peer_NVDA",
       "kind": "peer_move",
@@ -2256,6 +3103,20 @@
       "occurred_on": "2026-07-30",
       "numbers": {
         "peer_pct_change": 2.65,
+        "subject_pct_change": 7.644,
+        "relationship": "customer"
+      }
+    },
+    "ev_TSM_20260730_peer_QCOM": {
+      "id": "ev_TSM_20260730_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (customer) moved -2.62% the same day",
+      "detail": "TSM moved +7.64% while QCOM moved -2.62%. QCOM is TSM's customer (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": -2.62,
         "subject_pct_change": 7.644,
         "relationship": "customer"
       }
@@ -2291,15 +3152,16 @@
       }
     }
   },
-  "arc": "Between March and July 2026, Taiwan Semiconductor Manufacturing Company traded through sharp volatility, moving from $316.50 on March 31 to an intermediate peak of $462.12 on June 18 before settling around $403.31 on July 30. Throughout this stretch, the company's major single-day swings regularly mirrored the trading patterns of its top semiconductor customers, showing especially tight co-movement with AMD and Nvidia on large rallies and pullbacks. With company filings providing minimal standalone price catalysts, investors should recognize that TSM's daily valuation swings during this window were tightly linked to broader demand and trading dynamics across its primary fabless computing customer base.",
+  "arc": "Between late March and late July 2026, TSM appreciated significantly from $326.11 to over $400, propelled by frequent shared moves across the broader semiconductor ecosystem rather than isolated catalysts. While specific corporate filings\u2014such as Form 6-K releases and an annual Form 20-F\u2014punctuated sessions in late March, mid-April, and mid-May, the majority of large swings mirrored synchronous moves in major customers like AMD and INTC and equipment supplier ASML. Investors should recognize that TSM traded heavily in tandem with aggregate hardware supply chain sentiment, experiencing coordinated rallies and sharp sector-wide pullbacks.",
   "arc_citation_ids": [
-    "ev_TSM_20260331_price",
-    "ev_TSM_20260618_price",
-    "ev_TSM_20260623_price",
+    "ev_TSM_20260326_price",
+    "ev_TSM_20260326_peer_AMD",
+    "ev_TSM_20260416_filing_000162828026025362",
+    "ev_TSM_20260424_filing_000104617926000205",
     "ev_TSM_20260701_price",
+    "ev_TSM_20260701_peer_ASML",
     "ev_TSM_20260730_price",
-    "ev_TSM_20260730_peer_AMD",
-    "ev_TSM_20260730_peer_NVDA"
+    "ev_TSM_20260730_peer_INTC"
   ],
   "warnings": []
 }

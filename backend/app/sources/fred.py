@@ -53,6 +53,8 @@ ELECTRONICS_EMPLOYMENT = Series(
 # Which backdrop is relevant to which kind of company.
 SECTOR_SERIES: dict[str, tuple[Series, ...]] = {
     "Semiconductors": (SEMICONDUCTOR_PRODUCTION, SEMICONDUCTOR_PRICES),
+    # Equipment demand follows chip production, so the same backdrop applies.
+    "Semiconductor Equipment": (SEMICONDUCTOR_PRODUCTION, SEMICONDUCTOR_PRICES),
     "Technology Hardware": (ELECTRONICS_EMPLOYMENT, SEMICONDUCTOR_PRODUCTION),
     "Software": (),  # no federal series maps cleanly; better none than a bad proxy
 }

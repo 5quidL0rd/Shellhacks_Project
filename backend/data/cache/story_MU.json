@@ -1,0 +1,2007 @@
+{
+  "symbol": "MU",
+  "company_name": "Micron Technology, Inc.",
+  "generated_at": "2026-09-26T12:31:28.867310+00:00",
+  "bars": [
+    {
+      "date": "2026-03-20",
+      "open": 443.92,
+      "high": 449.1,
+      "low": 415.36,
+      "close": 422.9,
+      "volume": 64224900,
+      "pct_change": 0.0,
+      "prev_close": 443.92
+    },
+    {
+      "date": "2026-03-23",
+      "open": 426.15,
+      "high": 444.27,
+      "low": 401.52,
+      "close": 404.35,
+      "volume": 54807300,
+      "pct_change": -4.386,
+      "prev_close": 422.9
+    },
+    {
+      "date": "2026-03-24",
+      "open": 401.28,
+      "high": 404.98,
+      "low": 388.91,
+      "close": 395.53,
+      "volume": 44975100,
+      "pct_change": -2.181,
+      "prev_close": 404.35
+    },
+    {
+      "date": "2026-03-25",
+      "open": 383.0,
+      "high": 388.92,
+      "low": 371.38,
+      "close": 382.09,
+      "volume": 55328700,
+      "pct_change": -3.398,
+      "prev_close": 395.53
+    },
+    {
+      "date": "2026-03-26",
+      "open": 370.02,
+      "high": 374.25,
+      "low": 350.0,
+      "close": 355.46,
+      "volume": 54515900,
+      "pct_change": -6.97,
+      "prev_close": 382.09
+    },
+    {
+      "date": "2026-03-27",
+      "open": 359.86,
+      "high": 368.7,
+      "low": 354.06,
+      "close": 357.22,
+      "volume": 45806700,
+      "pct_change": 0.495,
+      "prev_close": 355.46
+    },
+    {
+      "date": "2026-03-30",
+      "open": 362.66,
+      "high": 362.81,
+      "low": 318.4,
+      "close": 321.8,
+      "volume": 73833200,
+      "pct_change": -9.915,
+      "prev_close": 357.22
+    },
+    {
+      "date": "2026-03-31",
+      "open": 321.67,
+      "high": 337.84,
+      "low": 311.49,
+      "close": 337.84,
+      "volume": 73551800,
+      "pct_change": 4.984,
+      "prev_close": 321.8
+    },
+    {
+      "date": "2026-04-01",
+      "open": 348.91,
+      "high": 377.89,
+      "low": 343.0,
+      "close": 367.85,
+      "volume": 74429800,
+      "pct_change": 8.883,
+      "prev_close": 337.84
+    },
+    {
+      "date": "2026-04-02",
+      "open": 341.34,
+      "high": 366.94,
+      "low": 340.2,
+      "close": 366.24,
+      "volume": 51498700,
+      "pct_change": -0.438,
+      "prev_close": 367.85
+    },
+    {
+      "date": "2026-04-06",
+      "open": 373.8,
+      "high": 385.08,
+      "low": 370.61,
+      "close": 377.76,
+      "volume": 41414900,
+      "pct_change": 3.145,
+      "prev_close": 366.24
+    },
+    {
+      "date": "2026-04-07",
+      "open": 374.13,
+      "high": 379.25,
+      "low": 364.1,
+      "close": 377.58,
+      "volume": 40224100,
+      "pct_change": -0.048,
+      "prev_close": 377.76
+    },
+    {
+      "date": "2026-04-08",
+      "open": 415.13,
+      "high": 416.0,
+      "low": 398.88,
+      "close": 406.73,
+      "volume": 49216600,
+      "pct_change": 7.72,
+      "prev_close": 377.58
+    },
+    {
+      "date": "2026-04-09",
+      "open": 407.61,
+      "high": 423.94,
+      "low": 398.44,
+      "close": 421.51,
+      "volume": 43101000,
+      "pct_change": 3.634,
+      "prev_close": 406.73
+    },
+    {
+      "date": "2026-04-10",
+      "open": 420.29,
+      "high": 423.86,
+      "low": 410.05,
+      "close": 420.59,
+      "volume": 36377600,
+      "pct_change": -0.218,
+      "prev_close": 421.51
+    },
+    {
+      "date": "2026-04-13",
+      "open": 416.47,
+      "high": 426.88,
+      "low": 408.5,
+      "close": 426.56,
+      "volume": 37015800,
+      "pct_change": 1.419,
+      "prev_close": 420.59
+    },
+    {
+      "date": "2026-04-14",
+      "open": 434.35,
+      "high": 465.78,
+      "low": 424.86,
+      "close": 465.66,
+      "volume": 52534900,
+      "pct_change": 9.166,
+      "prev_close": 426.56
+    },
+    {
+      "date": "2026-04-15",
+      "open": 457.63,
+      "high": 463.95,
+      "low": 439.32,
+      "close": 456.23,
+      "volume": 40370100,
+      "pct_change": -2.025,
+      "prev_close": 465.66
+    },
+    {
+      "date": "2026-04-16",
+      "open": 452.96,
+      "high": 462.34,
+      "low": 444.38,
+      "close": 457.23,
+      "volume": 33626400,
+      "pct_change": 0.219,
+      "prev_close": 456.23
+    },
+    {
+      "date": "2026-04-17",
+      "open": 466.85,
+      "high": 470.97,
+      "low": 452.2,
+      "close": 455.07,
+      "volume": 33405000,
+      "pct_change": -0.472,
+      "prev_close": 457.23
+    },
+    {
+      "date": "2026-04-20",
+      "open": 458.25,
+      "high": 464.56,
+      "low": 435.9,
+      "close": 448.42,
+      "volume": 32013600,
+      "pct_change": -1.461,
+      "prev_close": 455.07
+    },
+    {
+      "date": "2026-04-21",
+      "open": 451.32,
+      "high": 457.82,
+      "low": 441.3,
+      "close": 449.38,
+      "volume": 27734000,
+      "pct_change": 0.214,
+      "prev_close": 448.42
+    },
+    {
+      "date": "2026-04-22",
+      "open": 462.93,
+      "high": 491.98,
+      "low": 458.56,
+      "close": 487.48,
+      "volume": 45998100,
+      "pct_change": 8.478,
+      "prev_close": 449.38
+    },
+    {
+      "date": "2026-04-23",
+      "open": 482.28,
+      "high": 493.62,
+      "low": 471.8,
+      "close": 481.72,
+      "volume": 38178000,
+      "pct_change": -1.182,
+      "prev_close": 487.48
+    },
+    {
+      "date": "2026-04-24",
+      "open": 495.92,
+      "high": 506.99,
+      "low": 489.36,
+      "close": 496.72,
+      "volume": 35379600,
+      "pct_change": 3.114,
+      "prev_close": 481.72
+    },
+    {
+      "date": "2026-04-27",
+      "open": 510.56,
+      "high": 531.36,
+      "low": 510.02,
+      "close": 524.56,
+      "volume": 41298800,
+      "pct_change": 5.605,
+      "prev_close": 496.72
+    },
+    {
+      "date": "2026-04-28",
+      "open": 503.54,
+      "high": 518.83,
+      "low": 488.23,
+      "close": 504.29,
+      "volume": 44816600,
+      "pct_change": -3.864,
+      "prev_close": 524.56
+    },
+    {
+      "date": "2026-04-29",
+      "open": 526.0,
+      "high": 531.02,
+      "low": 508.8,
+      "close": 518.46,
+      "volume": 36248500,
+      "pct_change": 2.81,
+      "prev_close": 504.29
+    },
+    {
+      "date": "2026-04-30",
+      "open": 529.74,
+      "high": 535.5,
+      "low": 502.58,
+      "close": 517.16,
+      "volume": 36554400,
+      "pct_change": -0.251,
+      "prev_close": 518.46
+    },
+    {
+      "date": "2026-05-01",
+      "open": 511.78,
+      "high": 545.91,
+      "low": 510.21,
+      "close": 542.21,
+      "volume": 40215300,
+      "pct_change": 4.844,
+      "prev_close": 517.16
+    },
+    {
+      "date": "2026-05-04",
+      "open": 560.6,
+      "high": 592.8,
+      "low": 557.76,
+      "close": 576.45,
+      "volume": 46043700,
+      "pct_change": 6.315,
+      "prev_close": 542.21
+    },
+    {
+      "date": "2026-05-05",
+      "open": 609.78,
+      "high": 651.74,
+      "low": 605.47,
+      "close": 640.2,
+      "volume": 64268500,
+      "pct_change": 11.059,
+      "prev_close": 576.45
+    },
+    {
+      "date": "2026-05-06",
+      "open": 660.37,
+      "high": 667.67,
+      "low": 627.58,
+      "close": 666.59,
+      "volume": 55725800,
+      "pct_change": 4.122,
+      "prev_close": 640.2
+    },
+    {
+      "date": "2026-05-07",
+      "open": 649.83,
+      "high": 683.09,
+      "low": 635.42,
+      "close": 646.63,
+      "volume": 47527500,
+      "pct_change": -2.994,
+      "prev_close": 666.59
+    },
+    {
+      "date": "2026-05-08",
+      "open": 676.45,
+      "high": 747.21,
+      "low": 676.21,
+      "close": 746.81,
+      "volume": 65130900,
+      "pct_change": 15.493,
+      "prev_close": 646.63
+    },
+    {
+      "date": "2026-05-11",
+      "open": 792.98,
+      "high": 818.67,
+      "low": 768.0,
+      "close": 795.33,
+      "volume": 70972900,
+      "pct_change": 6.497,
+      "prev_close": 746.81
+    },
+    {
+      "date": "2026-05-12",
+      "open": 774.7,
+      "high": 782.76,
+      "low": 706.6,
+      "close": 766.58,
+      "volume": 73743000,
+      "pct_change": -3.615,
+      "prev_close": 795.33
+    },
+    {
+      "date": "2026-05-13",
+      "open": 813.16,
+      "high": 814.95,
+      "low": 779.47,
+      "close": 803.63,
+      "volume": 54875100,
+      "pct_change": 4.833,
+      "prev_close": 766.58
+    },
+    {
+      "date": "2026-05-14",
+      "open": 787.62,
+      "high": 812.0,
+      "low": 775.63,
+      "close": 776.01,
+      "volume": 42142700,
+      "pct_change": -3.437,
+      "prev_close": 803.63
+    },
+    {
+      "date": "2026-05-15",
+      "open": 732.57,
+      "high": 749.59,
+      "low": 719.0,
+      "close": 724.66,
+      "volume": 48519000,
+      "pct_change": -6.617,
+      "prev_close": 776.01
+    },
+    {
+      "date": "2026-05-18",
+      "open": 750.46,
+      "high": 757.0,
+      "low": 663.25,
+      "close": 681.54,
+      "volume": 60042500,
+      "pct_change": -5.95,
+      "prev_close": 724.66
+    },
+    {
+      "date": "2026-05-19",
+      "open": 665.58,
+      "high": 725.95,
+      "low": 652.21,
+      "close": 698.74,
+      "volume": 61792100,
+      "pct_change": 2.524,
+      "prev_close": 681.54
+    },
+    {
+      "date": "2026-05-20",
+      "open": 734.96,
+      "high": 735.68,
+      "low": 700.66,
+      "close": 731.99,
+      "volume": 48827400,
+      "pct_change": 4.759,
+      "prev_close": 698.74
+    },
+    {
+      "date": "2026-05-21",
+      "open": 736.36,
+      "high": 764.9,
+      "low": 732.2,
+      "close": 762.1,
+      "volume": 42461500,
+      "pct_change": 4.113,
+      "prev_close": 731.99
+    },
+    {
+      "date": "2026-05-22",
+      "open": 756.82,
+      "high": 780.2,
+      "low": 747.2,
+      "close": 751.0,
+      "volume": 36002900,
+      "pct_change": -1.457,
+      "prev_close": 762.1
+    },
+    {
+      "date": "2026-05-26",
+      "open": 820.5,
+      "high": 916.8,
+      "low": 820.3,
+      "close": 895.88,
+      "volume": 76560800,
+      "pct_change": 19.292,
+      "prev_close": 751.0
+    },
+    {
+      "date": "2026-05-27",
+      "open": 955.66,
+      "high": 956.16,
+      "low": 888.15,
+      "close": 928.41,
+      "volume": 72295700,
+      "pct_change": 3.631,
+      "prev_close": 895.88
+    },
+    {
+      "date": "2026-05-28",
+      "open": 929.83,
+      "high": 949.49,
+      "low": 904.78,
+      "close": 923.52,
+      "volume": 49694300,
+      "pct_change": -0.527,
+      "prev_close": 928.41
+    },
+    {
+      "date": "2026-05-29",
+      "open": 957.0,
+      "high": 981.0,
+      "low": 940.51,
+      "close": 971.0,
+      "volume": 60498600,
+      "pct_change": 5.141,
+      "prev_close": 923.52
+    },
+    {
+      "date": "2026-06-01",
+      "open": 1009.72,
+      "high": 1046.97,
+      "low": 1009.5,
+      "close": 1035.5,
+      "volume": 46552100,
+      "pct_change": 6.643,
+      "prev_close": 971.0
+    },
+    {
+      "date": "2026-06-02",
+      "open": 1050.0,
+      "high": 1076.5601,
+      "low": 1017.2,
+      "close": 1064.1,
+      "volume": 47555400,
+      "pct_change": 2.762,
+      "prev_close": 1035.5
+    },
+    {
+      "date": "2026-06-03",
+      "open": 1079.01,
+      "high": 1089.29,
+      "low": 1038.5,
+      "close": 1079.5699,
+      "volume": 40324200,
+      "pct_change": 1.454,
+      "prev_close": 1064.1
+    },
+    {
+      "date": "2026-06-04",
+      "open": 1007.1,
+      "high": 1036.37,
+      "low": 971.68,
+      "close": 996.0,
+      "volume": 54917200,
+      "pct_change": -7.741,
+      "prev_close": 1079.5699
+    },
+    {
+      "date": "2026-06-05",
+      "open": 944.4,
+      "high": 961.89,
+      "low": 864.01,
+      "close": 864.01,
+      "volume": 77250500,
+      "pct_change": -13.252,
+      "prev_close": 996.0
+    },
+    {
+      "date": "2026-06-08",
+      "open": 938.27,
+      "high": 962.95,
+      "low": 916.5,
+      "close": 949.28,
+      "volume": 54097800,
+      "pct_change": 9.869,
+      "prev_close": 864.01
+    },
+    {
+      "date": "2026-06-09",
+      "open": 988.18,
+      "high": 989.15,
+      "low": 854.35,
+      "close": 935.89,
+      "volume": 73448600,
+      "pct_change": -1.411,
+      "prev_close": 949.28
+    },
+    {
+      "date": "2026-06-10",
+      "open": 905.13,
+      "high": 957.48,
+      "low": 883.25,
+      "close": 891.88,
+      "volume": 55712600,
+      "pct_change": -4.702,
+      "prev_close": 935.89
+    },
+    {
+      "date": "2026-06-11",
+      "open": 904.37,
+      "high": 996.77,
+      "low": 895.5,
+      "close": 995.87,
+      "volume": 59418900,
+      "pct_change": 11.66,
+      "prev_close": 891.88
+    },
+    {
+      "date": "2026-06-12",
+      "open": 971.81,
+      "high": 1012.62,
+      "low": 960.19,
+      "close": 981.61,
+      "volume": 40785200,
+      "pct_change": -1.432,
+      "prev_close": 995.87
+    },
+    {
+      "date": "2026-06-15",
+      "open": 1055.89,
+      "high": 1097.47,
+      "low": 1051.5,
+      "close": 1087.99,
+      "volume": 44994600,
+      "pct_change": 10.837,
+      "prev_close": 981.61
+    },
+    {
+      "date": "2026-06-16",
+      "open": 1099.7,
+      "high": 1110.4,
+      "low": 1020.0,
+      "close": 1020.76,
+      "volume": 45499800,
+      "pct_change": -6.179,
+      "prev_close": 1087.99
+    },
+    {
+      "date": "2026-06-17",
+      "open": 1061.3,
+      "high": 1093.67,
+      "low": 1014.14,
+      "close": 1043.1899,
+      "volume": 46149200,
+      "pct_change": 2.197,
+      "prev_close": 1020.76
+    },
+    {
+      "date": "2026-06-18",
+      "open": 1108.0699,
+      "high": 1149.4301,
+      "low": 1092.79,
+      "close": 1133.99,
+      "volume": 64642500,
+      "pct_change": 8.704,
+      "prev_close": 1043.1899
+    },
+    {
+      "date": "2026-06-22",
+      "open": 1196.22,
+      "high": 1213.5601,
+      "low": 1168.5699,
+      "close": 1211.38,
+      "volume": 53140800,
+      "pct_change": 6.825,
+      "prev_close": 1133.99
+    },
+    {
+      "date": "2026-06-23",
+      "open": 1080.0,
+      "high": 1125.0,
+      "low": 1038.5,
+      "close": 1051.77,
+      "volume": 60243300,
+      "pct_change": -13.176,
+      "prev_close": 1211.38
+    },
+    {
+      "date": "2026-06-24",
+      "open": 1082.22,
+      "high": 1083.3199,
+      "low": 991.1,
+      "close": 1048.51,
+      "volume": 68935700,
+      "pct_change": -0.31,
+      "prev_close": 1051.77
+    },
+    {
+      "date": "2026-06-25",
+      "open": 1233.0,
+      "high": 1255.0,
+      "low": 1136.3101,
+      "close": 1213.5601,
+      "volume": 82143900,
+      "pct_change": 15.741,
+      "prev_close": 1048.51
+    },
+    {
+      "date": "2026-06-26",
+      "open": 1139.08,
+      "high": 1198.71,
+      "low": 1121.36,
+      "close": 1132.33,
+      "volume": 86405300,
+      "pct_change": -6.694,
+      "prev_close": 1213.5601
+    },
+    {
+      "date": "2026-06-29",
+      "open": 1128.7,
+      "high": 1148.79,
+      "low": 1023.65,
+      "close": 1145.28,
+      "volume": 60694100,
+      "pct_change": 1.144,
+      "prev_close": 1132.33
+    },
+    {
+      "date": "2026-06-30",
+      "open": 1144.73,
+      "high": 1168.6801,
+      "low": 1124.66,
+      "close": 1154.29,
+      "volume": 42152600,
+      "pct_change": 0.787,
+      "prev_close": 1145.28
+    },
+    {
+      "date": "2026-07-01",
+      "open": 1082.01,
+      "high": 1097.0,
+      "low": 1032.2,
+      "close": 1032.28,
+      "volume": 51328100,
+      "pct_change": -10.57,
+      "prev_close": 1154.29
+    },
+    {
+      "date": "2026-07-02",
+      "open": 1041.5,
+      "high": 1064.64,
+      "low": 950.28,
+      "close": 975.56,
+      "volume": 61316900,
+      "pct_change": -5.495,
+      "prev_close": 1032.28
+    },
+    {
+      "date": "2026-07-06",
+      "open": 1007.0,
+      "high": 1019.0,
+      "low": 980.85,
+      "close": 984.75,
+      "volume": 37115800,
+      "pct_change": 0.942,
+      "prev_close": 975.56
+    },
+    {
+      "date": "2026-07-07",
+      "open": 923.01,
+      "high": 942.02,
+      "low": 891.66,
+      "close": 938.38,
+      "volume": 52367500,
+      "pct_change": -4.709,
+      "prev_close": 984.75
+    },
+    {
+      "date": "2026-07-08",
+      "open": 902.64,
+      "high": 959.0,
+      "low": 900.41,
+      "close": 948.8,
+      "volume": 42979000,
+      "pct_change": 1.11,
+      "prev_close": 938.38
+    },
+    {
+      "date": "2026-07-09",
+      "open": 1016.51,
+      "high": 1035.5,
+      "low": 987.13,
+      "close": 991.64,
+      "volume": 41110700,
+      "pct_change": 4.515,
+      "prev_close": 948.8
+    },
+    {
+      "date": "2026-07-10",
+      "open": 964.98,
+      "high": 998.0,
+      "low": 954.13,
+      "close": 979.3,
+      "volume": 31768100,
+      "pct_change": -1.244,
+      "prev_close": 991.64
+    },
+    {
+      "date": "2026-07-13",
+      "open": 929.0,
+      "high": 943.5,
+      "low": 902.6,
+      "close": 937.0,
+      "volume": 35536200,
+      "pct_change": -4.319,
+      "prev_close": 979.3
+    },
+    {
+      "date": "2026-07-14",
+      "open": 988.38,
+      "high": 994.8,
+      "low": 950.07,
+      "close": 983.12,
+      "volume": 30835200,
+      "pct_change": 4.922,
+      "prev_close": 937.0
+    },
+    {
+      "date": "2026-07-15",
+      "open": 975.81,
+      "high": 978.4,
+      "low": 873.63,
+      "close": 904.28,
+      "volume": 54779200,
+      "pct_change": -8.019,
+      "prev_close": 983.12
+    },
+    {
+      "date": "2026-07-16",
+      "open": 866.77,
+      "high": 887.71,
+      "low": 840.51,
+      "close": 853.2,
+      "volume": 46718000,
+      "pct_change": -5.649,
+      "prev_close": 904.28
+    },
+    {
+      "date": "2026-07-17",
+      "open": 822.53,
+      "high": 903.96,
+      "low": 804.0,
+      "close": 848.95,
+      "volume": 63346300,
+      "pct_change": -0.498,
+      "prev_close": 853.2
+    },
+    {
+      "date": "2026-07-20",
+      "open": 885.57,
+      "high": 901.0,
+      "low": 858.9,
+      "close": 865.46,
+      "volume": 37705200,
+      "pct_change": 1.945,
+      "prev_close": 848.95
+    },
+    {
+      "date": "2026-07-21",
+      "open": 925.35,
+      "high": 982.88,
+      "low": 916.57,
+      "close": 970.82,
+      "volume": 49369000,
+      "pct_change": 12.174,
+      "prev_close": 865.46
+    },
+    {
+      "date": "2026-07-22",
+      "open": 938.25,
+      "high": 982.62,
+      "low": 936.06,
+      "close": 959.48,
+      "volume": 31588600,
+      "pct_change": -1.168,
+      "prev_close": 970.82
+    },
+    {
+      "date": "2026-07-23",
+      "open": 975.13,
+      "high": 1011.77,
+      "low": 964.4,
+      "close": 990.21,
+      "volume": 40196300,
+      "pct_change": 3.203,
+      "prev_close": 959.48
+    },
+    {
+      "date": "2026-07-24",
+      "open": 959.03,
+      "high": 967.14,
+      "low": 904.0,
+      "close": 920.95,
+      "volume": 40803100,
+      "pct_change": -6.994,
+      "prev_close": 990.21
+    },
+    {
+      "date": "2026-07-27",
+      "open": 932.45,
+      "high": 935.0,
+      "low": 854.79,
+      "close": 900.2,
+      "volume": 47591200,
+      "pct_change": -2.253,
+      "prev_close": 920.95
+    },
+    {
+      "date": "2026-07-28",
+      "open": 839.61,
+      "high": 848.36,
+      "low": 789.09,
+      "close": 820.53,
+      "volume": 61039300,
+      "pct_change": -8.85,
+      "prev_close": 900.2
+    },
+    {
+      "date": "2026-07-29",
+      "open": 833.0,
+      "high": 841.8,
+      "low": 737.88,
+      "close": 739.0,
+      "volume": 69846000,
+      "pct_change": -9.936,
+      "prev_close": 820.53
+    },
+    {
+      "date": "2026-07-30",
+      "open": 793.14,
+      "high": 882.5,
+      "low": 789.0,
+      "close": 874.66,
+      "volume": 63075300,
+      "pct_change": 18.357,
+      "prev_close": 739.0
+    },
+    {
+      "date": "2026-07-31",
+      "open": 919.65,
+      "high": 930.88,
+      "low": 818.0,
+      "close": 823.03,
+      "volume": 54538600,
+      "pct_change": -5.903,
+      "prev_close": 874.66
+    },
+    {
+      "date": "2026-08-03",
+      "open": 786.36,
+      "high": 836.62,
+      "low": 770.1,
+      "close": 829.5,
+      "volume": 42607100,
+      "pct_change": 0.786,
+      "prev_close": 823.03
+    },
+    {
+      "date": "2026-08-04",
+      "open": 866.82,
+      "high": 902.43,
+      "low": 858.5,
+      "close": 892.67,
+      "volume": 37478600,
+      "pct_change": 7.615,
+      "prev_close": 829.5
+    },
+    {
+      "date": "2026-08-05",
+      "open": 885.3,
+      "high": 928.98,
+      "low": 881.2,
+      "close": 893.19,
+      "volume": 34720300,
+      "pct_change": 0.058,
+      "prev_close": 892.67
+    },
+    {
+      "date": "2026-08-06",
+      "open": 843.11,
+      "high": 913.33,
+      "low": 827.0,
+      "close": 881.47,
+      "volume": 35784100,
+      "pct_change": -1.312,
+      "prev_close": 893.19
+    },
+    {
+      "date": "2026-08-07",
+      "open": 903.6,
+      "high": 904.8,
+      "low": 847.02,
+      "close": 877.57,
+      "volume": 34568500,
+      "pct_change": -0.442,
+      "prev_close": 881.47
+    },
+    {
+      "date": "2026-08-10",
+      "open": 863.67,
+      "high": 894.99,
+      "low": 854.4,
+      "close": 861.0,
+      "volume": 27818600,
+      "pct_change": -1.888,
+      "prev_close": 877.57
+    },
+    {
+      "date": "2026-08-11",
+      "open": 871.8,
+      "high": 879.0,
+      "low": 844.62,
+      "close": 868.52,
+      "volume": 29438300,
+      "pct_change": 0.873,
+      "prev_close": 861.0
+    },
+    {
+      "date": "2026-08-12",
+      "open": 912.94,
+      "high": 935.8,
+      "low": 899.54,
+      "close": 911.29,
+      "volume": 36804900,
+      "pct_change": 4.924,
+      "prev_close": 868.52
+    },
+    {
+      "date": "2026-08-13",
+      "open": 912.89,
+      "high": 978.0,
+      "low": 906.5,
+      "close": 949.83,
+      "volume": 36704700,
+      "pct_change": 4.229,
+      "prev_close": 911.29
+    },
+    {
+      "date": "2026-08-14",
+      "open": 979.32,
+      "high": 984.0,
+      "low": 956.2,
+      "close": 971.66,
+      "volume": 27881100,
+      "pct_change": 2.298,
+      "prev_close": 949.83
+    },
+    {
+      "date": "2026-08-17",
+      "open": 999.55,
+      "high": 1036.13,
+      "low": 995.26,
+      "close": 1011.75,
+      "volume": 33430500,
+      "pct_change": 4.126,
+      "prev_close": 971.66
+    },
+    {
+      "date": "2026-08-18",
+      "open": 957.1,
+      "high": 978.67,
+      "low": 926.64,
+      "close": 940.76,
+      "volume": 37306000,
+      "pct_change": -7.017,
+      "prev_close": 1011.75
+    },
+    {
+      "date": "2026-08-19",
+      "open": 959.36,
+      "high": 960.0,
+      "low": 915.18,
+      "close": 937.11,
+      "volume": 26901900,
+      "pct_change": -0.388,
+      "prev_close": 940.76
+    },
+    {
+      "date": "2026-08-20",
+      "open": 935.01,
+      "high": 977.28,
+      "low": 929.07,
+      "close": 974.33,
+      "volume": 25212200,
+      "pct_change": 3.972,
+      "prev_close": 937.11
+    },
+    {
+      "date": "2026-08-21",
+      "open": 989.68,
+      "high": 989.96,
+      "low": 958.26,
+      "close": 966.78,
+      "volume": 21823400,
+      "pct_change": -0.775,
+      "prev_close": 974.33
+    },
+    {
+      "date": "2026-08-24",
+      "open": 934.78,
+      "high": 936.45,
+      "low": 887.61,
+      "close": 910.43,
+      "volume": 30012600,
+      "pct_change": -5.829,
+      "prev_close": 966.78
+    },
+    {
+      "date": "2026-08-25",
+      "open": 928.98,
+      "high": 946.67,
+      "low": 916.3,
+      "close": 932.97,
+      "volume": 19163200,
+      "pct_change": 2.476,
+      "prev_close": 910.43
+    },
+    {
+      "date": "2026-08-26",
+      "open": 925.74,
+      "high": 945.75,
+      "low": 924.6,
+      "close": 938.4,
+      "volume": 18721700,
+      "pct_change": 0.582,
+      "prev_close": 932.97
+    },
+    {
+      "date": "2026-08-27",
+      "open": 967.01,
+      "high": 968.71,
+      "low": 906.89,
+      "close": 935.39,
+      "volume": 28838500,
+      "pct_change": -0.321,
+      "prev_close": 938.4
+    },
+    {
+      "date": "2026-08-28",
+      "open": 919.29,
+      "high": 946.8,
+      "low": 909.09,
+      "close": 932.86,
+      "volume": 22890100,
+      "pct_change": -0.27,
+      "prev_close": 935.39
+    },
+    {
+      "date": "2026-08-31",
+      "open": 931.39,
+      "high": 959.97,
+      "low": 930.79,
+      "close": 958.73,
+      "volume": 22569500,
+      "pct_change": 2.773,
+      "prev_close": 932.86
+    },
+    {
+      "date": "2026-09-01",
+      "open": 941.13,
+      "high": 969.44,
+      "low": 922.39,
+      "close": 933.44,
+      "volume": 27762200,
+      "pct_change": -2.638,
+      "prev_close": 958.73
+    },
+    {
+      "date": "2026-09-02",
+      "open": 930.83,
+      "high": 958.0,
+      "low": 927.16,
+      "close": 956.08,
+      "volume": 21440500,
+      "pct_change": 2.425,
+      "prev_close": 933.44
+    },
+    {
+      "date": "2026-09-03",
+      "open": 956.91,
+      "high": 959.76,
+      "low": 918.88,
+      "close": 958.16,
+      "volume": 24175900,
+      "pct_change": 0.218,
+      "prev_close": 956.08
+    },
+    {
+      "date": "2026-09-04",
+      "open": 971.34,
+      "high": 1017.77,
+      "low": 969.0,
+      "close": 1016.59,
+      "volume": 35249500,
+      "pct_change": 6.098,
+      "prev_close": 958.16
+    },
+    {
+      "date": "2026-09-08",
+      "open": 1036.4,
+      "high": 1041.0699,
+      "low": 997.62,
+      "close": 1000.26,
+      "volume": 26604900,
+      "pct_change": -1.606,
+      "prev_close": 1016.59
+    },
+    {
+      "date": "2026-09-09",
+      "open": 998.81,
+      "high": 1042.4,
+      "low": 992.29,
+      "close": 1027.77,
+      "volume": 23812000,
+      "pct_change": 2.75,
+      "prev_close": 1000.26
+    },
+    {
+      "date": "2026-09-10",
+      "open": 997.0,
+      "high": 999.0,
+      "low": 973.5,
+      "close": 977.41,
+      "volume": 26230400,
+      "pct_change": -4.9,
+      "prev_close": 1027.77
+    },
+    {
+      "date": "2026-09-11",
+      "open": 993.2,
+      "high": 993.99,
+      "low": 967.38,
+      "close": 975.26,
+      "volume": 21740300,
+      "pct_change": -0.22,
+      "prev_close": 977.41
+    },
+    {
+      "date": "2026-09-14",
+      "open": 906.03,
+      "high": 932.21,
+      "low": 902.6,
+      "close": 924.03,
+      "volume": 27141900,
+      "pct_change": -5.253,
+      "prev_close": 975.26
+    },
+    {
+      "date": "2026-09-15",
+      "open": 937.5,
+      "high": 944.94,
+      "low": 920.13,
+      "close": 927.6,
+      "volume": 20434700,
+      "pct_change": 0.386,
+      "prev_close": 924.03
+    },
+    {
+      "date": "2026-09-16",
+      "open": 934.23,
+      "high": 941.2,
+      "low": 917.64,
+      "close": 926.55,
+      "volume": 20213000,
+      "pct_change": -0.113,
+      "prev_close": 927.6
+    },
+    {
+      "date": "2026-09-17",
+      "open": 954.57,
+      "high": 986.2,
+      "low": 953.5,
+      "close": 977.5,
+      "volume": 22091600,
+      "pct_change": 5.499,
+      "prev_close": 926.55
+    },
+    {
+      "date": "2026-09-18",
+      "open": 984.72,
+      "high": 1016.44,
+      "low": 977.83,
+      "close": 1015.8,
+      "volume": 35803500,
+      "pct_change": 3.918,
+      "prev_close": 977.5
+    },
+    {
+      "date": "2026-09-21",
+      "open": 1044.99,
+      "high": 1064.49,
+      "low": 1030.6801,
+      "close": 1043.96,
+      "volume": 28174400,
+      "pct_change": 2.772,
+      "prev_close": 1015.8
+    },
+    {
+      "date": "2026-09-22",
+      "open": 1032.85,
+      "high": 1097.25,
+      "low": 1030.02,
+      "close": 1096.16,
+      "volume": 29189700,
+      "pct_change": 5.0,
+      "prev_close": 1043.96
+    },
+    {
+      "date": "2026-09-23",
+      "open": 1100.0699,
+      "high": 1105.5,
+      "low": 1064.25,
+      "close": 1071.88,
+      "volume": 21572800,
+      "pct_change": -2.215,
+      "prev_close": 1096.16
+    },
+    {
+      "date": "2026-09-24",
+      "open": 1049.75,
+      "high": 1081.04,
+      "low": 1044.0,
+      "close": 1080.53,
+      "volume": 22069900,
+      "pct_change": 0.807,
+      "prev_close": 1071.88
+    },
+    {
+      "date": "2026-09-25",
+      "open": 1095.83,
+      "high": 1108.72,
+      "low": 1073.0,
+      "close": 1082.28,
+      "volume": 20870400,
+      "pct_change": 0.162,
+      "prev_close": 1080.53
+    }
+  ],
+  "beats": [
+    {
+      "date": "2026-03-30",
+      "pct_change": -9.915,
+      "close": 321.8,
+      "direction": "down",
+      "headline": "MU drops 9.9% on heavy trading volume",
+      "explanation": "Micron fell 9.91% to close at $321.80 on volume 2.88 times its 30-day average. No company-specific news accompanied the drop, and customer NVIDIA declined a milder 1.40% the same day, indicating an isolated selloff.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MU_20260330_price",
+        "ev_MU_20260330_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-04-01",
+      "pct_change": 8.883,
+      "close": 367.85,
+      "direction": "up",
+      "headline": "MU rallies 8.9% following Form 8-K filing",
+      "explanation": "Micron gained 8.88% to close at $367.85 on trading volume 2.90 times normal following the filing of a Form 8-K. The advance was company-specific, as customer NVIDIA gained only 0.77% on the day.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_MU_20260401_price",
+        "ev_MU_20260401_peer_NVDA",
+        "ev_MU_20260401_filing_000110465926038249"
+      ]
+    },
+    {
+      "date": "2026-05-05",
+      "pct_change": 11.059,
+      "close": 640.2,
+      "direction": "up",
+      "headline": "MU surges 11.1% despite customer NVIDIA dip",
+      "explanation": "Micron jumped 11.06% to $640.20 with trading activity reaching 2.51 times the 30-day average. No company-specific news was provided to explain the gain, which decoupled from customer NVIDIA as it fell 1.00%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MU_20260505_price",
+        "ev_MU_20260505_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "pct_change": 15.493,
+      "close": 746.81,
+      "direction": "up",
+      "headline": "MU advances 15.5% on elevated volume",
+      "explanation": "Micron rose 15.49% to $746.81 on 2.54 times average volume, extending its recent surge. No company-specific news was provided for the move, though customer NVIDIA also traded higher by 1.75%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MU_20260508_price",
+        "ev_MU_20260508_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "pct_change": 19.292,
+      "close": 895.88,
+      "direction": "up",
+      "headline": "MU gains 19.3% in sharp upward breakout",
+      "explanation": "Micron advanced 19.29% to close at $895.88 on volume 2.99 times its 30-day average. The rally was distinct to Micron, as customer NVIDIA slipped 0.22%, but no company-specific news was cited.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MU_20260526_price",
+        "ev_MU_20260526_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "pct_change": -7.741,
+      "close": 996.0,
+      "direction": "down",
+      "headline": "MU slides 7.7% while customer NVIDIA gains",
+      "explanation": "Micron dropped 7.74% to $996.00 on volume 2.14 times average after trading above $1079. No company-specific news explained the pullback, which was company-specific as customer NVIDIA rose 1.82%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MU_20260604_price",
+        "ev_MU_20260604_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-05",
+      "pct_change": -13.252,
+      "close": 864.01,
+      "direction": "down",
+      "headline": "MU falls 13.3% in shared downturn with NVIDIA",
+      "explanation": "Micron declined 13.25% to $864.01 on heavy volume 3.01 times its normal level. No company-specific catalyst was provided, and the loss was shared with customer NVIDIA, which dropped 6.20% the same day.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MU_20260605_price",
+        "ev_MU_20260605_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "pct_change": 11.66,
+      "close": 995.87,
+      "direction": "up",
+      "headline": "MU rebounds 11.7% following recent 8-K filing",
+      "explanation": "Micron climbed 11.66% to $995.87 on 2.32 times average volume, two days after submitting a Form 8-K filing on June 9. Customer NVIDIA also moved higher, rising 2.22% on the session.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_MU_20260611_price",
+        "ev_MU_20260611_peer_NVDA",
+        "ev_MU_20260611_filing_000110465926071845"
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "pct_change": -13.176,
+      "close": 1051.77,
+      "direction": "down",
+      "headline": "MU sheds 13.2% as customer NVIDIA retreats",
+      "explanation": "Micron sank 13.18% to $1051.77 on volume 2.35 times its 30-day average. The downward move was shared with customer NVIDIA, which shed 4.13%, with no company-specific news provided in the evidence.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MU_20260623_price",
+        "ev_MU_20260623_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "pct_change": 15.741,
+      "close": 1213.5601,
+      "direction": "up",
+      "headline": "MU jumps 15.7% after 10-Q and 8-K filings",
+      "explanation": "Micron rallied 15.74% to close at $1213.56 on 3.20 times average volume. The jump was supported by a Form 10-Q filed the same day alongside an 8-K filed on June 24, while customer NVIDIA fell 1.64%.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_MU_20260625_price",
+        "ev_MU_20260625_peer_NVDA",
+        "ev_MU_20260625_filing_000072312526000015",
+        "ev_MU_20260625_filing_000072312526000013"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "pct_change": -8.85,
+      "close": 820.53,
+      "direction": "down",
+      "headline": "MU tumbles 8.9% on 2.4x average volume",
+      "explanation": "Micron decreased 8.85% to $820.53 with trading volume reaching 2.38 times normal levels. There was no company-specific news to account for the drop, which occurred while customer NVIDIA gained 0.25%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MU_20260728_price",
+        "ev_MU_20260728_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "pct_change": 18.357,
+      "close": 874.66,
+      "direction": "up",
+      "headline": "MU surges 18.4% alongside customer NVIDIA",
+      "explanation": "Micron climbed 18.36% to finish at $874.66 on volume 2.46 times its 30-day average. No company-specific news was reported, though customer NVIDIA also traded up, gaining 2.65% the same day.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MU_20260730_price",
+        "ev_MU_20260730_peer_NVDA"
+      ]
+    }
+  ],
+  "evidence": {
+    "ev_MU_20260330_price": {
+      "id": "ev_MU_20260330_price",
+      "kind": "price",
+      "title": "MU fell 9.91% on 2026-03-30",
+      "detail": "Closed at $321.80 from $357.22. Volume was 2.9x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-03-30",
+      "numbers": {
+        "pct_change": -9.915,
+        "close": 321.8,
+        "prev_close": 357.22,
+        "volume": 73833200,
+        "volume_vs_30d_avg": 2.88,
+        "move_excluding_sector_pct": 8.51
+      }
+    },
+    "ev_MU_20260330_peer_NVDA": {
+      "id": "ev_MU_20260330_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved -1.40% the same day",
+      "detail": "MU moved -9.91% while NVDA moved -1.40%. NVDA is MU's customer (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-03-30",
+      "numbers": {
+        "peer_pct_change": -1.4,
+        "subject_pct_change": -9.915,
+        "relationship": "customer"
+      }
+    },
+    "ev_MU_20260401_price": {
+      "id": "ev_MU_20260401_price",
+      "kind": "price",
+      "title": "MU rose 8.88% on 2026-04-01",
+      "detail": "Closed at $367.85 from $337.84. Volume was 2.9x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-04-01",
+      "numbers": {
+        "pct_change": 8.883,
+        "close": 367.85,
+        "prev_close": 337.84,
+        "volume": 74429800,
+        "volume_vs_30d_avg": 2.9,
+        "move_excluding_sector_pct": 8.11
+      }
+    },
+    "ev_MU_20260401_peer_NVDA": {
+      "id": "ev_MU_20260401_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +0.77% the same day",
+      "detail": "MU moved +8.88% while NVDA moved +0.77%. NVDA is MU's customer (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-01",
+      "numbers": {
+        "peer_pct_change": 0.77,
+        "subject_pct_change": 8.883,
+        "relationship": "customer"
+      }
+    },
+    "ev_MU_20260401_filing_000110465926038249": {
+      "id": "ev_MU_20260401_filing_000110465926038249",
+      "kind": "filing",
+      "title": "8-K filed 2026-04-01",
+      "detail": "FORM 8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926038249/tm2610810d1_8k.htm",
+      "occurred_on": "2026-04-01",
+      "numbers": {}
+    },
+    "ev_MU_20260505_price": {
+      "id": "ev_MU_20260505_price",
+      "kind": "price",
+      "title": "MU rose 11.06% on 2026-05-05",
+      "detail": "Closed at $640.20 from $576.45. Volume was 2.5x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "pct_change": 11.059,
+        "close": 640.2,
+        "prev_close": 576.45,
+        "volume": 64268500,
+        "volume_vs_30d_avg": 2.51,
+        "move_excluding_sector_pct": 12.06
+      }
+    },
+    "ev_MU_20260505_peer_NVDA": {
+      "id": "ev_MU_20260505_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved -1.00% the same day",
+      "detail": "MU moved +11.06% while NVDA moved -1.00%. NVDA is MU's customer (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": -1.0,
+        "subject_pct_change": 11.059,
+        "relationship": "customer"
+      }
+    },
+    "ev_MU_20260508_price": {
+      "id": "ev_MU_20260508_price",
+      "kind": "price",
+      "title": "MU rose 15.49% on 2026-05-08",
+      "detail": "Closed at $746.81 from $646.63. Volume was 2.5x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "pct_change": 15.493,
+        "close": 746.81,
+        "prev_close": 646.63,
+        "volume": 65130900,
+        "volume_vs_30d_avg": 2.54,
+        "move_excluding_sector_pct": 13.74
+      }
+    },
+    "ev_MU_20260508_peer_NVDA": {
+      "id": "ev_MU_20260508_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +1.75% the same day",
+      "detail": "MU moved +15.49% while NVDA moved +1.75%. NVDA is MU's customer (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": 1.75,
+        "subject_pct_change": 15.493,
+        "relationship": "customer"
+      }
+    },
+    "ev_MU_20260526_price": {
+      "id": "ev_MU_20260526_price",
+      "kind": "price",
+      "title": "MU rose 19.29% on 2026-05-26",
+      "detail": "Closed at $895.88 from $751.00. Volume was 3.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-05-26",
+      "numbers": {
+        "pct_change": 19.292,
+        "close": 895.88,
+        "prev_close": 751.0,
+        "volume": 76560800,
+        "volume_vs_30d_avg": 2.99,
+        "move_excluding_sector_pct": 19.51
+      }
+    },
+    "ev_MU_20260526_peer_NVDA": {
+      "id": "ev_MU_20260526_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved -0.22% the same day",
+      "detail": "MU moved +19.29% while NVDA moved -0.22%. NVDA is MU's customer (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-26",
+      "numbers": {
+        "peer_pct_change": -0.22,
+        "subject_pct_change": 19.292,
+        "relationship": "customer"
+      }
+    },
+    "ev_MU_20260604_price": {
+      "id": "ev_MU_20260604_price",
+      "kind": "price",
+      "title": "MU fell 7.74% on 2026-06-04",
+      "detail": "Closed at $996.00 from $1079.57. Volume was 2.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-06-04",
+      "numbers": {
+        "pct_change": -7.741,
+        "close": 996.0,
+        "prev_close": 1079.5699,
+        "volume": 54917200,
+        "volume_vs_30d_avg": 2.14,
+        "move_excluding_sector_pct": 9.56
+      }
+    },
+    "ev_MU_20260604_peer_NVDA": {
+      "id": "ev_MU_20260604_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +1.82% the same day",
+      "detail": "MU moved -7.74% while NVDA moved +1.82%. NVDA is MU's customer (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-04",
+      "numbers": {
+        "peer_pct_change": 1.82,
+        "subject_pct_change": -7.741,
+        "relationship": "customer"
+      }
+    },
+    "ev_MU_20260605_price": {
+      "id": "ev_MU_20260605_price",
+      "kind": "price",
+      "title": "MU fell 13.25% on 2026-06-05",
+      "detail": "Closed at $864.01 from $996.00. Volume was 3.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-06-05",
+      "numbers": {
+        "pct_change": -13.252,
+        "close": 864.01,
+        "prev_close": 996.0,
+        "volume": 77250500,
+        "volume_vs_30d_avg": 3.01,
+        "move_excluding_sector_pct": 7.05
+      }
+    },
+    "ev_MU_20260605_peer_NVDA": {
+      "id": "ev_MU_20260605_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved -6.20% the same day",
+      "detail": "MU moved -13.25% while NVDA moved -6.20%. NVDA is MU's customer (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-05",
+      "numbers": {
+        "peer_pct_change": -6.2,
+        "subject_pct_change": -13.252,
+        "relationship": "customer"
+      }
+    },
+    "ev_MU_20260611_price": {
+      "id": "ev_MU_20260611_price",
+      "kind": "price",
+      "title": "MU rose 11.66% on 2026-06-11",
+      "detail": "Closed at $995.87 from $891.88. Volume was 2.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "pct_change": 11.66,
+        "close": 995.87,
+        "prev_close": 891.88,
+        "volume": 59418900,
+        "volume_vs_30d_avg": 2.32,
+        "move_excluding_sector_pct": 9.44
+      }
+    },
+    "ev_MU_20260611_peer_NVDA": {
+      "id": "ev_MU_20260611_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +2.22% the same day",
+      "detail": "MU moved +11.66% while NVDA moved +2.22%. NVDA is MU's customer (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "peer_pct_change": 2.22,
+        "subject_pct_change": 11.66,
+        "relationship": "customer"
+      }
+    },
+    "ev_MU_20260611_filing_000110465926071845": {
+      "id": "ev_MU_20260611_filing_000110465926071845",
+      "kind": "filing",
+      "title": "8-K filed 2026-06-09",
+      "detail": "FORM 8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926071845/tm2617112d1_8k.htm",
+      "occurred_on": "2026-06-09",
+      "numbers": {}
+    },
+    "ev_MU_20260623_price": {
+      "id": "ev_MU_20260623_price",
+      "kind": "price",
+      "title": "MU fell 13.18% on 2026-06-23",
+      "detail": "Closed at $1051.77 from $1211.38. Volume was 2.4x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-06-23",
+      "numbers": {
+        "pct_change": -13.176,
+        "close": 1051.77,
+        "prev_close": 1211.38,
+        "volume": 60243300,
+        "volume_vs_30d_avg": 2.35,
+        "move_excluding_sector_pct": 9.05
+      }
+    },
+    "ev_MU_20260623_peer_NVDA": {
+      "id": "ev_MU_20260623_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved -4.13% the same day",
+      "detail": "MU moved -13.18% while NVDA moved -4.13%. NVDA is MU's customer (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-23",
+      "numbers": {
+        "peer_pct_change": -4.13,
+        "subject_pct_change": -13.176,
+        "relationship": "customer"
+      }
+    },
+    "ev_MU_20260625_price": {
+      "id": "ev_MU_20260625_price",
+      "kind": "price",
+      "title": "MU rose 15.74% on 2026-06-25",
+      "detail": "Closed at $1213.56 from $1048.51. Volume was 3.2x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "pct_change": 15.741,
+        "close": 1213.5601,
+        "prev_close": 1048.51,
+        "volume": 82143900,
+        "volume_vs_30d_avg": 3.2,
+        "move_excluding_sector_pct": 17.38
+      }
+    },
+    "ev_MU_20260625_peer_NVDA": {
+      "id": "ev_MU_20260625_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved -1.64% the same day",
+      "detail": "MU moved +15.74% while NVDA moved -1.64%. NVDA is MU's customer (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": -1.64,
+        "subject_pct_change": 15.741,
+        "relationship": "customer"
+      }
+    },
+    "ev_MU_20260625_filing_000072312526000015": {
+      "id": "ev_MU_20260625_filing_000072312526000015",
+      "kind": "filing",
+      "title": "10-Q filed 2026-06-25",
+      "detail": "10-Q",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_MU_20260625_filing_000072312526000013": {
+      "id": "ev_MU_20260625_filing_000072312526000013",
+      "kind": "filing",
+      "title": "8-K filed 2026-06-24",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/mu-20260624.htm",
+      "occurred_on": "2026-06-24",
+      "numbers": {}
+    },
+    "ev_MU_20260728_price": {
+      "id": "ev_MU_20260728_price",
+      "kind": "price",
+      "title": "MU fell 8.85% on 2026-07-28",
+      "detail": "Closed at $820.53 from $900.20. Volume was 2.4x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-07-28",
+      "numbers": {
+        "pct_change": -8.85,
+        "close": 820.53,
+        "prev_close": 900.2,
+        "volume": 61039300,
+        "volume_vs_30d_avg": 2.38,
+        "move_excluding_sector_pct": 9.1
+      }
+    },
+    "ev_MU_20260728_peer_NVDA": {
+      "id": "ev_MU_20260728_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +0.25% the same day",
+      "detail": "MU moved -8.85% while NVDA moved +0.25%. NVDA is MU's customer (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-28",
+      "numbers": {
+        "peer_pct_change": 0.25,
+        "subject_pct_change": -8.85,
+        "relationship": "customer"
+      }
+    },
+    "ev_MU_20260730_price": {
+      "id": "ev_MU_20260730_price",
+      "kind": "price",
+      "title": "MU rose 18.36% on 2026-07-30",
+      "detail": "Closed at $874.66 from $739.00. Volume was 2.5x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "pct_change": 18.357,
+        "close": 874.66,
+        "prev_close": 739.0,
+        "volume": 63075300,
+        "volume_vs_30d_avg": 2.46,
+        "move_excluding_sector_pct": 15.71
+      }
+    },
+    "ev_MU_20260730_peer_NVDA": {
+      "id": "ev_MU_20260730_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (customer) moved +2.65% the same day",
+      "detail": "MU moved +18.36% while NVDA moved +2.65%. NVDA is MU's customer (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 2.65,
+        "subject_pct_change": 18.357,
+        "relationship": "customer"
+      }
+    },
+    "ev_MU_fund_revenue": {
+      "id": "ev_MU_fund_revenue",
+      "kind": "fundamental",
+      "title": "Revenue: 41,456,000,000 (2026-05-28)",
+      "detail": "Reported on form 10-Q, +414.8% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "value": 41456000000,
+        "period_end": "2026-05-28",
+        "xbrl_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "yoy_pct_change": 414.79
+      }
+    },
+    "ev_MU_fund_net_income": {
+      "id": "ev_MU_fund_net_income",
+      "kind": "fundamental",
+      "title": "Net Income: 28,243,000,000 (2026-05-28)",
+      "detail": "Reported on form 10-Q, +1684.1% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "value": 28243000000,
+        "period_end": "2026-05-28",
+        "xbrl_tag": "NetIncomeLoss",
+        "yoy_pct_change": 1684.14
+      }
+    },
+    "ev_MU_fund_gross_profit": {
+      "id": "ev_MU_fund_gross_profit",
+      "kind": "fundamental",
+      "title": "Gross Profit: 35,056,000,000 (2026-05-28)",
+      "detail": "Reported on form 10-Q, +1083.1% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "value": 35056000000,
+        "period_end": "2026-05-28",
+        "xbrl_tag": "GrossProfit",
+        "yoy_pct_change": 1083.13
+      }
+    },
+    "ev_MU_fund_operating_income": {
+      "id": "ev_MU_fund_operating_income",
+      "kind": "fundamental",
+      "title": "Operating Income: 33,318,000,000 (2026-05-28)",
+      "detail": "Reported on form 10-Q, +1779.2% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "value": 33318000000,
+        "period_end": "2026-05-28",
+        "xbrl_tag": "OperatingIncomeLoss",
+        "yoy_pct_change": 1779.19
+      }
+    },
+    "ev_MU_fund_rnd_expense": {
+      "id": "ev_MU_fund_rnd_expense",
+      "kind": "fundamental",
+      "title": "Rnd Expense: 1,316,000,000 (2026-05-28)",
+      "detail": "Reported on form 10-Q, +46.5% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "value": 1316000000,
+        "period_end": "2026-05-28",
+        "xbrl_tag": "ResearchAndDevelopmentExpense",
+        "yoy_pct_change": 46.55
+      }
+    },
+    "ev_MU_sector_IPG3344S": {
+      "id": "ev_MU_sector_IPG3344S",
+      "kind": "sector",
+      "title": "US semiconductor and electronic component production: 190.1 index, 2017=100, +12.3% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/IPG3344S",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 190.0987,
+        "units": "index, 2017=100",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": 12.35
+      }
+    },
+    "ev_MU_sector_PCU334413334413": {
+      "id": "ev_MU_sector_PCU334413334413",
+      "kind": "sector",
+      "title": "US semiconductor producer price index: 28.5 index, -3.1% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/PCU334413334413",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 28.472,
+        "units": "index",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": -3.13
+      }
+    }
+  },
+  "arc": "Between late March and late July 2026, Micron experienced dramatic volatility, rising from $321.80 to a peak of $1213.56 before retreating to $874.66. While regulatory disclosures\u2014notably an early April 8-K and late June 10-Q and 8-K filings\u2014marked key upside inflections, the majority of the double-digit swings occurred without company-specific news. Micron frequently decoupled from its customer NVIDIA, experiencing significantly amplified swings during shared moves and sharp independent runs that highlight elevated idiosyncratic price action.",
+  "arc_citation_ids": [
+    "ev_MU_20260330_price",
+    "ev_MU_20260401_filing_000110465926038249",
+    "ev_MU_20260625_price",
+    "ev_MU_20260625_filing_000072312526000015",
+    "ev_MU_20260730_price"
+  ],
+  "warnings": []
+}

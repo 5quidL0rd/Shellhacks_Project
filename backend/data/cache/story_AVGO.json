@@ -1,0 +1,2697 @@
+{
+  "symbol": "AVGO",
+  "company_name": "Broadcom Inc.",
+  "generated_at": "2026-09-26T12:31:41.354621+00:00",
+  "bars": [
+    {
+      "date": "2026-03-20",
+      "open": 320.12,
+      "high": 321.51,
+      "low": 309.92,
+      "close": 310.51,
+      "volume": 43325900,
+      "pct_change": 0.0,
+      "prev_close": 320.12
+    },
+    {
+      "date": "2026-03-23",
+      "open": 318.0,
+      "high": 326.48,
+      "low": 314.93,
+      "close": 322.51,
+      "volume": 27369200,
+      "pct_change": 3.865,
+      "prev_close": 310.51
+    },
+    {
+      "date": "2026-03-24",
+      "open": 320.0,
+      "high": 324.4,
+      "low": 314.84,
+      "close": 318.29,
+      "volume": 19799000,
+      "pct_change": -1.308,
+      "prev_close": 322.51
+    },
+    {
+      "date": "2026-03-25",
+      "open": 322.59,
+      "high": 324.3,
+      "low": 316.72,
+      "close": 318.81,
+      "volume": 19900000,
+      "pct_change": 0.163,
+      "prev_close": 318.29
+    },
+    {
+      "date": "2026-03-26",
+      "open": 314.02,
+      "high": 316.92,
+      "low": 309.17,
+      "close": 309.42,
+      "volume": 20343700,
+      "pct_change": -2.945,
+      "prev_close": 318.81
+    },
+    {
+      "date": "2026-03-27",
+      "open": 307.06,
+      "high": 307.5,
+      "low": 298.87,
+      "close": 300.68,
+      "volume": 23593900,
+      "pct_change": -2.825,
+      "prev_close": 309.42
+    },
+    {
+      "date": "2026-03-30",
+      "open": 300.87,
+      "high": 304.77,
+      "low": 289.96,
+      "close": 293.41,
+      "volume": 28054500,
+      "pct_change": -2.418,
+      "prev_close": 300.68
+    },
+    {
+      "date": "2026-03-31",
+      "open": 299.39,
+      "high": 310.31,
+      "low": 296.34,
+      "close": 309.51,
+      "volume": 29289500,
+      "pct_change": 5.487,
+      "prev_close": 293.41
+    },
+    {
+      "date": "2026-04-01",
+      "open": 313.37,
+      "high": 315.79,
+      "low": 310.48,
+      "close": 313.49,
+      "volume": 19171000,
+      "pct_change": 1.286,
+      "prev_close": 309.51
+    },
+    {
+      "date": "2026-04-02",
+      "open": 304.49,
+      "high": 314.69,
+      "low": 301.75,
+      "close": 314.55,
+      "volume": 14021100,
+      "pct_change": 0.338,
+      "prev_close": 313.49
+    },
+    {
+      "date": "2026-04-06",
+      "open": 315.06,
+      "high": 316.4,
+      "low": 310.28,
+      "close": 314.43,
+      "volume": 12111300,
+      "pct_change": -0.038,
+      "prev_close": 314.55
+    },
+    {
+      "date": "2026-04-07",
+      "open": 326.73,
+      "high": 334.15,
+      "low": 321.8,
+      "close": 333.97,
+      "volume": 33310900,
+      "pct_change": 6.214,
+      "prev_close": 314.43
+    },
+    {
+      "date": "2026-04-08",
+      "open": 351.75,
+      "high": 354.14,
+      "low": 342.53,
+      "close": 350.63,
+      "volume": 31573100,
+      "pct_change": 4.988,
+      "prev_close": 333.97
+    },
+    {
+      "date": "2026-04-09",
+      "open": 352.3,
+      "high": 358.7,
+      "low": 351.5,
+      "close": 354.91,
+      "volume": 20514900,
+      "pct_change": 1.221,
+      "prev_close": 350.63
+    },
+    {
+      "date": "2026-04-10",
+      "open": 360.94,
+      "high": 376.55,
+      "low": 360.82,
+      "close": 371.55,
+      "volume": 29958100,
+      "pct_change": 4.689,
+      "prev_close": 354.91
+    },
+    {
+      "date": "2026-04-13",
+      "open": 369.66,
+      "high": 380.86,
+      "low": 369.48,
+      "close": 379.75,
+      "volume": 24115800,
+      "pct_change": 2.207,
+      "prev_close": 371.55
+    },
+    {
+      "date": "2026-04-14",
+      "open": 377.9,
+      "high": 382.28,
+      "low": 376.32,
+      "close": 380.78,
+      "volume": 24423000,
+      "pct_change": 0.271,
+      "prev_close": 379.75
+    },
+    {
+      "date": "2026-04-15",
+      "open": 389.88,
+      "high": 397.08,
+      "low": 385.57,
+      "close": 396.72,
+      "volume": 29559300,
+      "pct_change": 4.186,
+      "prev_close": 380.78
+    },
+    {
+      "date": "2026-04-16",
+      "open": 395.0,
+      "high": 399.68,
+      "low": 392.35,
+      "close": 398.47,
+      "volume": 18872900,
+      "pct_change": 0.441,
+      "prev_close": 396.72
+    },
+    {
+      "date": "2026-04-17",
+      "open": 400.9,
+      "high": 406.73,
+      "low": 399.81,
+      "close": 406.54,
+      "volume": 20581700,
+      "pct_change": 2.025,
+      "prev_close": 398.47
+    },
+    {
+      "date": "2026-04-20",
+      "open": 405.7,
+      "high": 406.42,
+      "low": 395.9,
+      "close": 399.63,
+      "volume": 16922000,
+      "pct_change": -1.7,
+      "prev_close": 406.54
+    },
+    {
+      "date": "2026-04-21",
+      "open": 399.41,
+      "high": 403.6,
+      "low": 394.57,
+      "close": 402.17,
+      "volume": 16275500,
+      "pct_change": 0.636,
+      "prev_close": 399.63
+    },
+    {
+      "date": "2026-04-22",
+      "open": 406.98,
+      "high": 423.2,
+      "low": 404.86,
+      "close": 422.65,
+      "volume": 23702500,
+      "pct_change": 5.092,
+      "prev_close": 402.17
+    },
+    {
+      "date": "2026-04-23",
+      "open": 422.39,
+      "high": 429.31,
+      "low": 417.8,
+      "close": 419.94,
+      "volume": 19501600,
+      "pct_change": -0.641,
+      "prev_close": 422.65
+    },
+    {
+      "date": "2026-04-24",
+      "open": 424.98,
+      "high": 425.0,
+      "low": 408.86,
+      "close": 422.76,
+      "volume": 22491100,
+      "pct_change": 0.672,
+      "prev_close": 419.94
+    },
+    {
+      "date": "2026-04-27",
+      "open": 420.48,
+      "high": 422.75,
+      "low": 414.63,
+      "close": 418.2,
+      "volume": 17451600,
+      "pct_change": -1.079,
+      "prev_close": 422.76
+    },
+    {
+      "date": "2026-04-28",
+      "open": 400.31,
+      "high": 405.81,
+      "low": 394.65,
+      "close": 399.83,
+      "volume": 25519200,
+      "pct_change": -4.393,
+      "prev_close": 418.2
+    },
+    {
+      "date": "2026-04-29",
+      "open": 403.5,
+      "high": 405.64,
+      "low": 396.78,
+      "close": 405.45,
+      "volume": 15962500,
+      "pct_change": 1.406,
+      "prev_close": 399.83
+    },
+    {
+      "date": "2026-04-30",
+      "open": 415.52,
+      "high": 418.38,
+      "low": 404.23,
+      "close": 417.43,
+      "volume": 21821600,
+      "pct_change": 2.955,
+      "prev_close": 405.45
+    },
+    {
+      "date": "2026-05-01",
+      "open": 415.09,
+      "high": 423.17,
+      "low": 413.28,
+      "close": 421.28,
+      "volume": 11882600,
+      "pct_change": 0.922,
+      "prev_close": 417.43
+    },
+    {
+      "date": "2026-05-04",
+      "open": 418.22,
+      "high": 423.83,
+      "low": 409.53,
+      "close": 416.5,
+      "volume": 15140400,
+      "pct_change": -1.135,
+      "prev_close": 421.28
+    },
+    {
+      "date": "2026-05-05",
+      "open": 421.66,
+      "high": 433.39,
+      "low": 419.35,
+      "close": 427.36,
+      "volume": 21175200,
+      "pct_change": 2.607,
+      "prev_close": 416.5
+    },
+    {
+      "date": "2026-05-06",
+      "open": 435.56,
+      "high": 437.68,
+      "low": 417.78,
+      "close": 425.44,
+      "volume": 20707000,
+      "pct_change": -0.449,
+      "prev_close": 427.36
+    },
+    {
+      "date": "2026-05-07",
+      "open": 421.82,
+      "high": 426.49,
+      "low": 406.3,
+      "close": 412.56,
+      "volume": 22791700,
+      "pct_change": -3.027,
+      "prev_close": 425.44
+    },
+    {
+      "date": "2026-05-08",
+      "open": 419.8,
+      "high": 435.0,
+      "low": 414.0,
+      "close": 430.0,
+      "volume": 22561400,
+      "pct_change": 4.227,
+      "prev_close": 412.56
+    },
+    {
+      "date": "2026-05-11",
+      "open": 427.62,
+      "high": 433.65,
+      "low": 425.05,
+      "close": 428.43,
+      "volume": 16825500,
+      "pct_change": -0.365,
+      "prev_close": 430.0
+    },
+    {
+      "date": "2026-05-12",
+      "open": 423.43,
+      "high": 429.34,
+      "low": 408.41,
+      "close": 419.3,
+      "volume": 19004300,
+      "pct_change": -2.131,
+      "prev_close": 428.43
+    },
+    {
+      "date": "2026-05-13",
+      "open": 415.81,
+      "high": 418.63,
+      "low": 404.8,
+      "close": 416.79,
+      "volume": 16981200,
+      "pct_change": -0.599,
+      "prev_close": 419.3
+    },
+    {
+      "date": "2026-05-14",
+      "open": 416.73,
+      "high": 442.36,
+      "low": 415.59,
+      "close": 439.79,
+      "volume": 19733800,
+      "pct_change": 5.518,
+      "prev_close": 416.79
+    },
+    {
+      "date": "2026-05-15",
+      "open": 432.81,
+      "high": 432.81,
+      "low": 419.8,
+      "close": 425.19,
+      "volume": 18957100,
+      "pct_change": -3.32,
+      "prev_close": 439.79
+    },
+    {
+      "date": "2026-05-18",
+      "open": 421.41,
+      "high": 422.01,
+      "low": 414.37,
+      "close": 420.71,
+      "volume": 17863300,
+      "pct_change": -1.054,
+      "prev_close": 425.19
+    },
+    {
+      "date": "2026-05-19",
+      "open": 409.82,
+      "high": 417.95,
+      "low": 405.86,
+      "close": 411.07,
+      "volume": 20652100,
+      "pct_change": -2.291,
+      "prev_close": 420.71
+    },
+    {
+      "date": "2026-05-20",
+      "open": 412.81,
+      "high": 424.17,
+      "low": 411.42,
+      "close": 417.76,
+      "volume": 16312600,
+      "pct_change": 1.627,
+      "prev_close": 411.07
+    },
+    {
+      "date": "2026-05-21",
+      "open": 413.55,
+      "high": 422.25,
+      "low": 410.5,
+      "close": 414.57,
+      "volume": 16865300,
+      "pct_change": -0.764,
+      "prev_close": 417.76
+    },
+    {
+      "date": "2026-05-22",
+      "open": 417.49,
+      "high": 419.99,
+      "low": 410.21,
+      "close": 414.14,
+      "volume": 14086400,
+      "pct_change": -0.104,
+      "prev_close": 414.57
+    },
+    {
+      "date": "2026-05-26",
+      "open": 418.5,
+      "high": 435.31,
+      "low": 417.0,
+      "close": 422.01,
+      "volume": 22562900,
+      "pct_change": 1.9,
+      "prev_close": 414.14
+    },
+    {
+      "date": "2026-05-27",
+      "open": 425.07,
+      "high": 432.8,
+      "low": 416.49,
+      "close": 421.86,
+      "volume": 17601000,
+      "pct_change": -0.036,
+      "prev_close": 422.01
+    },
+    {
+      "date": "2026-05-28",
+      "open": 421.14,
+      "high": 429.68,
+      "low": 414.01,
+      "close": 426.58,
+      "volume": 17855600,
+      "pct_change": 1.119,
+      "prev_close": 421.86
+    },
+    {
+      "date": "2026-05-29",
+      "open": 432.95,
+      "high": 448.9,
+      "low": 431.47,
+      "close": 446.77,
+      "volume": 41798400,
+      "pct_change": 4.733,
+      "prev_close": 426.58
+    },
+    {
+      "date": "2026-06-01",
+      "open": 450.09,
+      "high": 466.05,
+      "low": 442.22,
+      "close": 459.97,
+      "volume": 30586000,
+      "pct_change": 2.955,
+      "prev_close": 446.77
+    },
+    {
+      "date": "2026-06-02",
+      "open": 488.79,
+      "high": 488.82,
+      "low": 470.46,
+      "close": 481.57,
+      "volume": 38306700,
+      "pct_change": 4.696,
+      "prev_close": 459.97
+    },
+    {
+      "date": "2026-06-03",
+      "open": 494.78,
+      "high": 495.0,
+      "low": 472.64,
+      "close": 479.23,
+      "volume": 50126400,
+      "pct_change": -0.486,
+      "prev_close": 481.57
+    },
+    {
+      "date": "2026-06-04",
+      "open": 408.99,
+      "high": 426.48,
+      "low": 403.01,
+      "close": 418.91,
+      "volume": 80979400,
+      "pct_change": -12.587,
+      "prev_close": 479.23
+    },
+    {
+      "date": "2026-06-05",
+      "open": 407.61,
+      "high": 410.5,
+      "low": 385.59,
+      "close": 385.73,
+      "volume": 51146100,
+      "pct_change": -7.921,
+      "prev_close": 418.91
+    },
+    {
+      "date": "2026-06-08",
+      "open": 402.62,
+      "high": 402.84,
+      "low": 391.35,
+      "close": 396.6,
+      "volume": 37099000,
+      "pct_change": 2.818,
+      "prev_close": 385.73
+    },
+    {
+      "date": "2026-06-09",
+      "open": 401.61,
+      "high": 407.87,
+      "low": 370.33,
+      "close": 392.16,
+      "volume": 37026900,
+      "pct_change": -1.12,
+      "prev_close": 396.6
+    },
+    {
+      "date": "2026-06-10",
+      "open": 381.5,
+      "high": 385.81,
+      "low": 371.17,
+      "close": 372.1,
+      "volume": 38193500,
+      "pct_change": -5.115,
+      "prev_close": 392.16
+    },
+    {
+      "date": "2026-06-11",
+      "open": 372.82,
+      "high": 389.5,
+      "low": 370.55,
+      "close": 385.57,
+      "volume": 35187600,
+      "pct_change": 3.62,
+      "prev_close": 372.1
+    },
+    {
+      "date": "2026-06-12",
+      "open": 383.72,
+      "high": 384.98,
+      "low": 377.0,
+      "close": 382.07,
+      "volume": 27600900,
+      "pct_change": -0.908,
+      "prev_close": 385.57
+    },
+    {
+      "date": "2026-06-15",
+      "open": 395.51,
+      "high": 396.2,
+      "low": 388.6,
+      "close": 393.94,
+      "volume": 32394200,
+      "pct_change": 3.107,
+      "prev_close": 382.07
+    },
+    {
+      "date": "2026-06-16",
+      "open": 390.21,
+      "high": 391.79,
+      "low": 376.46,
+      "close": 376.71,
+      "volume": 31573700,
+      "pct_change": -4.374,
+      "prev_close": 393.94
+    },
+    {
+      "date": "2026-06-17",
+      "open": 388.71,
+      "high": 400.65,
+      "low": 382.65,
+      "close": 392.9,
+      "volume": 40005500,
+      "pct_change": 4.298,
+      "prev_close": 376.71
+    },
+    {
+      "date": "2026-06-18",
+      "open": 409.58,
+      "high": 412.7,
+      "low": 405.38,
+      "close": 411.35,
+      "volume": 45076100,
+      "pct_change": 4.696,
+      "prev_close": 392.9
+    },
+    {
+      "date": "2026-06-22",
+      "open": 413.66,
+      "high": 414.64,
+      "low": 391.91,
+      "close": 392.13,
+      "volume": 26403700,
+      "pct_change": -4.672,
+      "prev_close": 411.35
+    },
+    {
+      "date": "2026-06-23",
+      "open": 377.87,
+      "high": 391.02,
+      "low": 376.66,
+      "close": 380.15,
+      "volume": 33122200,
+      "pct_change": -3.055,
+      "prev_close": 392.13
+    },
+    {
+      "date": "2026-06-24",
+      "open": 386.62,
+      "high": 388.74,
+      "low": 376.96,
+      "close": 382.07,
+      "volume": 29938700,
+      "pct_change": 0.505,
+      "prev_close": 380.15
+    },
+    {
+      "date": "2026-06-25",
+      "open": 386.58,
+      "high": 388.8,
+      "low": 372.7,
+      "close": 378.91,
+      "volume": 23353700,
+      "pct_change": -0.827,
+      "prev_close": 382.07
+    },
+    {
+      "date": "2026-06-26",
+      "open": 370.45,
+      "high": 373.69,
+      "low": 363.83,
+      "close": 365.02,
+      "volume": 34839300,
+      "pct_change": -3.666,
+      "prev_close": 378.91
+    },
+    {
+      "date": "2026-06-29",
+      "open": 373.62,
+      "high": 376.21,
+      "low": 360.46,
+      "close": 372.45,
+      "volume": 24285200,
+      "pct_change": 2.036,
+      "prev_close": 365.02
+    },
+    {
+      "date": "2026-06-30",
+      "open": 374.79,
+      "high": 379.62,
+      "low": 370.64,
+      "close": 377.75,
+      "volume": 28517400,
+      "pct_change": 1.423,
+      "prev_close": 372.45
+    },
+    {
+      "date": "2026-07-01",
+      "open": 371.87,
+      "high": 373.75,
+      "low": 368.03,
+      "close": 369.34,
+      "volume": 23712600,
+      "pct_change": -2.226,
+      "prev_close": 377.75
+    },
+    {
+      "date": "2026-07-02",
+      "open": 365.73,
+      "high": 374.0,
+      "low": 356.43,
+      "close": 360.45,
+      "volume": 26749500,
+      "pct_change": -2.407,
+      "prev_close": 369.34
+    },
+    {
+      "date": "2026-07-06",
+      "open": 373.61,
+      "high": 383.16,
+      "low": 371.18,
+      "close": 373.9,
+      "volume": 24544000,
+      "pct_change": 3.731,
+      "prev_close": 360.45
+    },
+    {
+      "date": "2026-07-07",
+      "open": 366.56,
+      "high": 372.96,
+      "low": 362.01,
+      "close": 370.78,
+      "volume": 24116700,
+      "pct_change": -0.834,
+      "prev_close": 373.9
+    },
+    {
+      "date": "2026-07-08",
+      "open": 377.52,
+      "high": 395.09,
+      "low": 376.89,
+      "close": 388.69,
+      "volume": 31624100,
+      "pct_change": 4.83,
+      "prev_close": 370.78
+    },
+    {
+      "date": "2026-07-09",
+      "open": 402.19,
+      "high": 407.52,
+      "low": 387.93,
+      "close": 401.11,
+      "volume": 28074000,
+      "pct_change": 3.195,
+      "prev_close": 388.69
+    },
+    {
+      "date": "2026-07-10",
+      "open": 398.5,
+      "high": 402.44,
+      "low": 395.7,
+      "close": 399.97,
+      "volume": 14595900,
+      "pct_change": -0.284,
+      "prev_close": 401.11
+    },
+    {
+      "date": "2026-07-13",
+      "open": 393.48,
+      "high": 395.75,
+      "low": 383.42,
+      "close": 384.05,
+      "volume": 21294500,
+      "pct_change": -3.98,
+      "prev_close": 399.97
+    },
+    {
+      "date": "2026-07-14",
+      "open": 395.72,
+      "high": 397.33,
+      "low": 384.64,
+      "close": 389.11,
+      "volume": 20118700,
+      "pct_change": 1.318,
+      "prev_close": 384.05
+    },
+    {
+      "date": "2026-07-15",
+      "open": 396.09,
+      "high": 399.0,
+      "low": 386.74,
+      "close": 394.28,
+      "volume": 16324100,
+      "pct_change": 1.329,
+      "prev_close": 389.11
+    },
+    {
+      "date": "2026-07-16",
+      "open": 384.54,
+      "high": 386.74,
+      "low": 371.9,
+      "close": 374.45,
+      "volume": 23407200,
+      "pct_change": -5.029,
+      "prev_close": 394.28
+    },
+    {
+      "date": "2026-07-17",
+      "open": 366.05,
+      "high": 377.35,
+      "low": 357.8,
+      "close": 370.83,
+      "volume": 23272200,
+      "pct_change": -0.967,
+      "prev_close": 374.45
+    },
+    {
+      "date": "2026-07-20",
+      "open": 378.76,
+      "high": 383.59,
+      "low": 375.96,
+      "close": 378.16,
+      "volume": 14420500,
+      "pct_change": 1.977,
+      "prev_close": 370.83
+    },
+    {
+      "date": "2026-07-21",
+      "open": 390.21,
+      "high": 390.58,
+      "low": 379.22,
+      "close": 386.5,
+      "volume": 17291100,
+      "pct_change": 2.205,
+      "prev_close": 378.16
+    },
+    {
+      "date": "2026-07-22",
+      "open": 380.2,
+      "high": 398.59,
+      "low": 380.0,
+      "close": 396.81,
+      "volume": 16966200,
+      "pct_change": 2.668,
+      "prev_close": 386.5
+    },
+    {
+      "date": "2026-07-23",
+      "open": 392.19,
+      "high": 397.61,
+      "low": 386.82,
+      "close": 392.47,
+      "volume": 16348700,
+      "pct_change": -1.094,
+      "prev_close": 396.81
+    },
+    {
+      "date": "2026-07-24",
+      "open": 387.68,
+      "high": 389.27,
+      "low": 378.75,
+      "close": 381.92,
+      "volume": 15149400,
+      "pct_change": -2.688,
+      "prev_close": 392.47
+    },
+    {
+      "date": "2026-07-27",
+      "open": 389.82,
+      "high": 389.9,
+      "low": 373.5,
+      "close": 383.22,
+      "volume": 18502100,
+      "pct_change": 0.34,
+      "prev_close": 381.92
+    },
+    {
+      "date": "2026-07-28",
+      "open": 374.36,
+      "high": 385.8,
+      "low": 371.52,
+      "close": 380.91,
+      "volume": 20328400,
+      "pct_change": -0.603,
+      "prev_close": 383.22
+    },
+    {
+      "date": "2026-07-29",
+      "open": 380.64,
+      "high": 386.12,
+      "low": 369.51,
+      "close": 370.32,
+      "volume": 21374400,
+      "pct_change": -2.78,
+      "prev_close": 380.91
+    },
+    {
+      "date": "2026-07-30",
+      "open": 380.35,
+      "high": 388.68,
+      "low": 377.54,
+      "close": 387.84,
+      "volume": 23639800,
+      "pct_change": 4.731,
+      "prev_close": 370.32
+    },
+    {
+      "date": "2026-07-31",
+      "open": 394.83,
+      "high": 399.92,
+      "low": 379.71,
+      "close": 389.28,
+      "volume": 20391000,
+      "pct_change": 0.371,
+      "prev_close": 387.84
+    },
+    {
+      "date": "2026-08-03",
+      "open": 384.41,
+      "high": 392.61,
+      "low": 374.61,
+      "close": 392.23,
+      "volume": 17315100,
+      "pct_change": 0.758,
+      "prev_close": 389.28
+    },
+    {
+      "date": "2026-08-04",
+      "open": 402.97,
+      "high": 422.07,
+      "low": 400.68,
+      "close": 418.16,
+      "volume": 29564200,
+      "pct_change": 6.611,
+      "prev_close": 392.23
+    },
+    {
+      "date": "2026-08-05",
+      "open": 421.7,
+      "high": 427.0,
+      "low": 416.89,
+      "close": 418.28,
+      "volume": 16880400,
+      "pct_change": 0.029,
+      "prev_close": 418.16
+    },
+    {
+      "date": "2026-08-06",
+      "open": 420.55,
+      "high": 428.03,
+      "low": 410.76,
+      "close": 420.57,
+      "volume": 13907500,
+      "pct_change": 0.547,
+      "prev_close": 418.28
+    },
+    {
+      "date": "2026-08-07",
+      "open": 428.4,
+      "high": 430.84,
+      "low": 421.61,
+      "close": 427.76,
+      "volume": 14698300,
+      "pct_change": 1.71,
+      "prev_close": 420.57
+    },
+    {
+      "date": "2026-08-10",
+      "open": 426.99,
+      "high": 432.73,
+      "low": 420.16,
+      "close": 422.4,
+      "volume": 13854100,
+      "pct_change": -1.253,
+      "prev_close": 427.76
+    },
+    {
+      "date": "2026-08-11",
+      "open": 426.07,
+      "high": 426.76,
+      "low": 413.23,
+      "close": 416.08,
+      "volume": 12882700,
+      "pct_change": -1.496,
+      "prev_close": 422.4
+    },
+    {
+      "date": "2026-08-12",
+      "open": 426.26,
+      "high": 426.5,
+      "low": 414.61,
+      "close": 416.05,
+      "volume": 15859200,
+      "pct_change": -0.007,
+      "prev_close": 416.08
+    },
+    {
+      "date": "2026-08-13",
+      "open": 415.81,
+      "high": 424.92,
+      "low": 411.41,
+      "close": 417.82,
+      "volume": 13180500,
+      "pct_change": 0.425,
+      "prev_close": 416.05
+    },
+    {
+      "date": "2026-08-14",
+      "open": 411.96,
+      "high": 412.5,
+      "low": 388.5,
+      "close": 392.99,
+      "volume": 29513600,
+      "pct_change": -5.943,
+      "prev_close": 417.82
+    },
+    {
+      "date": "2026-08-17",
+      "open": 397.26,
+      "high": 399.36,
+      "low": 391.31,
+      "close": 392.43,
+      "volume": 20042600,
+      "pct_change": -0.142,
+      "prev_close": 392.99
+    },
+    {
+      "date": "2026-08-18",
+      "open": 384.32,
+      "high": 385.78,
+      "low": 377.01,
+      "close": 380.0,
+      "volume": 22878200,
+      "pct_change": -3.167,
+      "prev_close": 392.43
+    },
+    {
+      "date": "2026-08-19",
+      "open": 372.4,
+      "high": 373.91,
+      "low": 357.61,
+      "close": 362.48,
+      "volume": 35091400,
+      "pct_change": -4.611,
+      "prev_close": 380.0
+    },
+    {
+      "date": "2026-08-20",
+      "open": 364.39,
+      "high": 367.12,
+      "low": 362.25,
+      "close": 364.03,
+      "volume": 19729800,
+      "pct_change": 0.428,
+      "prev_close": 362.48
+    },
+    {
+      "date": "2026-08-21",
+      "open": 370.69,
+      "high": 375.13,
+      "low": 365.05,
+      "close": 368.45,
+      "volume": 19037100,
+      "pct_change": 1.214,
+      "prev_close": 364.03
+    },
+    {
+      "date": "2026-08-24",
+      "open": 364.97,
+      "high": 366.17,
+      "low": 358.71,
+      "close": 358.76,
+      "volume": 18717200,
+      "pct_change": -2.63,
+      "prev_close": 368.45
+    },
+    {
+      "date": "2026-08-25",
+      "open": 361.1,
+      "high": 362.99,
+      "low": 355.31,
+      "close": 356.74,
+      "volume": 18014900,
+      "pct_change": -0.563,
+      "prev_close": 358.76
+    },
+    {
+      "date": "2026-08-26",
+      "open": 357.12,
+      "high": 359.47,
+      "low": 350.06,
+      "close": 355.59,
+      "volume": 19196300,
+      "pct_change": -0.322,
+      "prev_close": 356.74
+    },
+    {
+      "date": "2026-08-27",
+      "open": 361.79,
+      "high": 371.72,
+      "low": 360.61,
+      "close": 371.54,
+      "volume": 21330000,
+      "pct_change": 4.486,
+      "prev_close": 355.59
+    },
+    {
+      "date": "2026-08-28",
+      "open": 373.6,
+      "high": 376.59,
+      "low": 365.35,
+      "close": 368.79,
+      "volume": 16596100,
+      "pct_change": -0.74,
+      "prev_close": 371.54
+    },
+    {
+      "date": "2026-08-31",
+      "open": 369.52,
+      "high": 372.75,
+      "low": 366.3,
+      "close": 370.34,
+      "volume": 21948000,
+      "pct_change": 0.42,
+      "prev_close": 368.79
+    },
+    {
+      "date": "2026-09-01",
+      "open": 364.25,
+      "high": 371.4,
+      "low": 362.0,
+      "close": 369.68,
+      "volume": 19288900,
+      "pct_change": -0.178,
+      "prev_close": 370.34
+    },
+    {
+      "date": "2026-09-02",
+      "open": 369.68,
+      "high": 371.09,
+      "low": 364.65,
+      "close": 367.24,
+      "volume": 38874600,
+      "pct_change": -0.66,
+      "prev_close": 369.68
+    },
+    {
+      "date": "2026-09-03",
+      "open": 351.74,
+      "high": 359.4,
+      "low": 342.33,
+      "close": 357.16,
+      "volume": 60242600,
+      "pct_change": -2.745,
+      "prev_close": 367.24
+    },
+    {
+      "date": "2026-09-04",
+      "open": 359.7,
+      "high": 360.16,
+      "low": 353.7,
+      "close": 357.9,
+      "volume": 32863300,
+      "pct_change": 0.207,
+      "prev_close": 357.16
+    },
+    {
+      "date": "2026-09-08",
+      "open": 363.68,
+      "high": 372.7,
+      "low": 362.74,
+      "close": 368.56,
+      "volume": 30464900,
+      "pct_change": 2.978,
+      "prev_close": 357.9
+    },
+    {
+      "date": "2026-09-09",
+      "open": 366.23,
+      "high": 368.01,
+      "low": 359.25,
+      "close": 364.38,
+      "volume": 25918200,
+      "pct_change": -1.134,
+      "prev_close": 368.56
+    },
+    {
+      "date": "2026-09-10",
+      "open": 360.03,
+      "high": 365.27,
+      "low": 357.75,
+      "close": 360.83,
+      "volume": 23994300,
+      "pct_change": -0.974,
+      "prev_close": 364.38
+    },
+    {
+      "date": "2026-09-11",
+      "open": 364.85,
+      "high": 366.78,
+      "low": 361.64,
+      "close": 361.99,
+      "volume": 21166900,
+      "pct_change": 0.321,
+      "prev_close": 360.83
+    },
+    {
+      "date": "2026-09-14",
+      "open": 349.63,
+      "high": 350.25,
+      "low": 343.91,
+      "close": 344.72,
+      "volume": 32662800,
+      "pct_change": -4.771,
+      "prev_close": 361.99
+    },
+    {
+      "date": "2026-09-15",
+      "open": 346.04,
+      "high": 347.26,
+      "low": 337.9,
+      "close": 339.27,
+      "volume": 24783900,
+      "pct_change": -1.581,
+      "prev_close": 344.72
+    },
+    {
+      "date": "2026-09-16",
+      "open": 342.37,
+      "high": 344.15,
+      "low": 335.81,
+      "close": 339.51,
+      "volume": 23152500,
+      "pct_change": 0.071,
+      "prev_close": 339.27
+    },
+    {
+      "date": "2026-09-17",
+      "open": 346.62,
+      "high": 350.94,
+      "low": 345.31,
+      "close": 347.3,
+      "volume": 24389600,
+      "pct_change": 2.294,
+      "prev_close": 339.51
+    },
+    {
+      "date": "2026-09-18",
+      "open": 352.08,
+      "high": 363.28,
+      "low": 351.33,
+      "close": 357.61,
+      "volume": 44032800,
+      "pct_change": 2.969,
+      "prev_close": 347.3
+    },
+    {
+      "date": "2026-09-21",
+      "open": 358.66,
+      "high": 363.97,
+      "low": 353.5,
+      "close": 362.66,
+      "volume": 26498600,
+      "pct_change": 1.412,
+      "prev_close": 357.61
+    },
+    {
+      "date": "2026-09-22",
+      "open": 363.23,
+      "high": 366.55,
+      "low": 359.29,
+      "close": 364.54,
+      "volume": 20570800,
+      "pct_change": 0.518,
+      "prev_close": 362.66
+    },
+    {
+      "date": "2026-09-23",
+      "open": 362.2,
+      "high": 362.9,
+      "low": 354.01,
+      "close": 354.99,
+      "volume": 23387700,
+      "pct_change": -2.62,
+      "prev_close": 364.54
+    },
+    {
+      "date": "2026-09-24",
+      "open": 349.21,
+      "high": 351.44,
+      "low": 346.89,
+      "close": 350.36,
+      "volume": 20930400,
+      "pct_change": -1.304,
+      "prev_close": 354.99
+    },
+    {
+      "date": "2026-09-25",
+      "open": 352.62,
+      "high": 354.43,
+      "low": 349.43,
+      "close": 352.81,
+      "volume": 16220900,
+      "pct_change": 0.699,
+      "prev_close": 350.36
+    }
+  ],
+  "beats": [
+    {
+      "date": "2026-04-07",
+      "pct_change": 6.214,
+      "close": 333.97,
+      "direction": "up",
+      "headline": "Broadcom gains 6.2% following Form 8-K filing",
+      "explanation": "Broadcom shares climbed 6.21% to close at $333.97 on 1.3 times average volume following an 8-K filing on April 6. The advance was company-specific, significantly outpacing peers such as competitor AMD (+0.61%) and supplier TSM (+1.04%), though competitor INTC also rose 4.20%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_AVGO_20260407_price",
+        "ev_AVGO_20260407_filing_000119312526144028",
+        "ev_AVGO_20260407_peer_AMD",
+        "ev_AVGO_20260407_peer_INTC",
+        "ev_AVGO_20260407_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "pct_change": 4.186,
+      "close": 396.72,
+      "direction": "up",
+      "headline": "Broadcom rises 4.2% outpacing semiconductor peers",
+      "explanation": "Broadcom gained 4.19% to finish at $396.72 without company-specific news. The advance outpaced competitors AMD (+1.20%), NVDA (+1.20%), and INTC (+1.77%), while supplier TSM declined 1.26%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AVGO_20260415_price",
+        "ev_AVGO_20260415_peer_AMD",
+        "ev_AVGO_20260415_peer_INTC",
+        "ev_AVGO_20260415_peer_NVDA",
+        "ev_AVGO_20260415_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "pct_change": 5.518,
+      "close": 439.79,
+      "direction": "up",
+      "headline": "Broadcom climbs 5.5% alongside NVDA and TSM",
+      "explanation": "Broadcom moved up 5.52% to $439.79 despite light trading volume at 0.8 times its 30-day average. The gain was shared with supplier TSM (+4.48%) and competitor NVDA (+4.39%), while competitors QCOM and INTC fell 6.14% and 3.62%, respectively.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AVGO_20260514_price",
+        "ev_AVGO_20260514_peer_NVDA",
+        "ev_AVGO_20260514_peer_TSM",
+        "ev_AVGO_20260514_peer_INTC",
+        "ev_AVGO_20260514_peer_QCOM"
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "pct_change": 4.733,
+      "close": 446.77,
+      "direction": "up",
+      "headline": "Broadcom advances 4.7% as broader peers weaken",
+      "explanation": "Broadcom rose 4.73% to $446.77 on 1.6 times average volume without any company filings. The move was largely company-specific, as competitor AMD dropped 0.38%, competitor NVDA fell 1.45%, and supplier TSM fell 1.51%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AVGO_20260529_price",
+        "ev_AVGO_20260529_peer_AMD",
+        "ev_AVGO_20260529_peer_NVDA",
+        "ev_AVGO_20260529_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "pct_change": 4.696,
+      "close": 481.57,
+      "direction": "up",
+      "headline": "Broadcom adds 4.7% reaching fresh peak near $482",
+      "explanation": "Broadcom climbed 4.70% to close at $481.57 with 1.5 times typical volume in the absence of specific corporate disclosures. Peer performance was mixed, with competitor QCOM up 5.17% and supplier TSM up 2.54%, while competitor NVDA slipped 0.69%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AVGO_20260602_price",
+        "ev_AVGO_20260602_peer_QCOM",
+        "ev_AVGO_20260602_peer_TSM",
+        "ev_AVGO_20260602_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "pct_change": -12.587,
+      "close": 418.91,
+      "direction": "down",
+      "headline": "Broadcom plunges 12.6% on 8-K and heavy volume",
+      "explanation": "Broadcom tumbled 12.59% to $418.91 on heavy volume reaching 3.1 times its 30-day average following an 8-K filing on June 3. The sharp decline was company-specific, diverging from supplier TSM (+1.89%) and competitor NVDA (+1.82%), while competitor AMD dropped 3.56%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_AVGO_20260604_price",
+        "ev_AVGO_20260604_filing_000173016826000051",
+        "ev_AVGO_20260604_peer_TSM",
+        "ev_AVGO_20260604_peer_NVDA",
+        "ev_AVGO_20260604_peer_AMD"
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "pct_change": 4.298,
+      "close": 392.9,
+      "direction": "up",
+      "headline": "Broadcom rebounds 4.3% with mixed peer action",
+      "explanation": "Broadcom shares gained 4.30% to $392.90 on 1.6 times typical volume without company-specific news. Strength was shared with competitor INTC (+3.46%) and supplier TSM (+1.48%), though competitors NVDA (-1.33%) and QCOM (-0.51%) traded lower.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AVGO_20260617_price",
+        "ev_AVGO_20260617_peer_INTC",
+        "ev_AVGO_20260617_peer_TSM",
+        "ev_AVGO_20260617_peer_NVDA",
+        "ev_AVGO_20260617_peer_QCOM"
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "pct_change": -4.672,
+      "close": 392.13,
+      "direction": "down",
+      "headline": "Broadcom drops 4.7% diverging from gaining peers",
+      "explanation": "Broadcom shed 4.67% to $392.13 on average trading volume without corporate announcements. The retreat was company-specific, occurring even as competitor INTC rose 5.19%, competitor AMD jumped 2.65%, and supplier TSM gained 1.20%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AVGO_20260622_price",
+        "ev_AVGO_20260622_peer_INTC",
+        "ev_AVGO_20260622_peer_AMD",
+        "ev_AVGO_20260622_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "pct_change": -3.055,
+      "close": 380.15,
+      "direction": "down",
+      "headline": "Broadcom slips 3.1% amid broad peer selloff",
+      "explanation": "Broadcom declined 3.06% to $380.15 on 1.3 times normal volume. The drop was shared broadly across the industry, as supplier TSM fell 6.69% and competitors QCOM, INTC, and AMD declined 8.01%, 6.14%, and 5.76%, respectively.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AVGO_20260623_price",
+        "ev_AVGO_20260623_peer_TSM",
+        "ev_AVGO_20260623_peer_QCOM",
+        "ev_AVGO_20260623_peer_INTC",
+        "ev_AVGO_20260623_peer_AMD"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "pct_change": 4.83,
+      "close": 388.69,
+      "direction": "up",
+      "headline": "Broadcom climbs 4.8% following Form 8-K filing",
+      "explanation": "Broadcom rose 4.83% to $388.69 on 1.2 times average volume after an 8-K filing dated July 6. The upward move was accompanied by competitor NVDA rising 3.65% and competitor QCOM advancing 1.96%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_AVGO_20260708_price",
+        "ev_AVGO_20260708_filing_000119312526295589",
+        "ev_AVGO_20260708_peer_NVDA",
+        "ev_AVGO_20260708_peer_QCOM"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "pct_change": -5.943,
+      "close": 392.99,
+      "direction": "down",
+      "headline": "Broadcom retreats 5.9% as AMD surges",
+      "explanation": "Broadcom shares fell 5.94% to $392.99 on slightly elevated volume without company-specific disclosures. The decline was idiosyncratic, as competitor AMD rallied 6.50% and competitor QCOM edged up 0.61%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AVGO_20260814_price",
+        "ev_AVGO_20260814_peer_AMD",
+        "ev_AVGO_20260814_peer_QCOM"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "pct_change": -4.611,
+      "close": 362.48,
+      "direction": "down",
+      "headline": "Broadcom falls 4.6% amid peer weakness",
+      "explanation": "Broadcom dropped 4.61% to finish at $362.48 on 1.4 times normal volume. The downward pressure was shared with competitors INTC (-4.02%) and AMD (-3.71%), while supplier TSM also dipped 0.32%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AVGO_20260819_price",
+        "ev_AVGO_20260819_peer_INTC",
+        "ev_AVGO_20260819_peer_AMD",
+        "ev_AVGO_20260819_peer_TSM"
+      ]
+    }
+  ],
+  "evidence": {
+    "ev_AVGO_20260407_price": {
+      "id": "ev_AVGO_20260407_price",
+      "kind": "price",
+      "title": "AVGO rose 6.21% on 2026-04-07",
+      "detail": "Closed at $333.97 from $314.43. Volume was 1.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-07",
+      "numbers": {
+        "pct_change": 6.214,
+        "close": 333.97,
+        "prev_close": 314.43,
+        "volume": 33310900,
+        "volume_vs_30d_avg": 1.3,
+        "move_excluding_sector_pct": 5.26
+      }
+    },
+    "ev_AVGO_20260407_peer_AMD": {
+      "id": "ev_AVGO_20260407_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +0.61% the same day",
+      "detail": "AVGO moved +6.21% while AMD moved +0.61%. AMD is AVGO's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-07",
+      "numbers": {
+        "peer_pct_change": 0.61,
+        "subject_pct_change": 6.214,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260407_peer_INTC": {
+      "id": "ev_AVGO_20260407_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +4.20% the same day",
+      "detail": "AVGO moved +6.21% while INTC moved +4.20%. INTC is AVGO's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-07",
+      "numbers": {
+        "peer_pct_change": 4.2,
+        "subject_pct_change": 6.214,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260407_peer_NVDA": {
+      "id": "ev_AVGO_20260407_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +0.26% the same day",
+      "detail": "AVGO moved +6.21% while NVDA moved +0.26%. NVDA is AVGO's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-07",
+      "numbers": {
+        "peer_pct_change": 0.26,
+        "subject_pct_change": 6.214,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260407_peer_QCOM": {
+      "id": "ev_AVGO_20260407_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -1.32% the same day",
+      "detail": "AVGO moved +6.21% while QCOM moved -1.32%. QCOM is AVGO's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-07",
+      "numbers": {
+        "peer_pct_change": -1.32,
+        "subject_pct_change": 6.214,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260407_peer_TSM": {
+      "id": "ev_AVGO_20260407_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +1.04% the same day",
+      "detail": "AVGO moved +6.21% while TSM moved +1.04%. TSM is AVGO's supplier (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-07",
+      "numbers": {
+        "peer_pct_change": 1.04,
+        "subject_pct_change": 6.214,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AVGO_20260407_filing_000119312526144028": {
+      "id": "ev_AVGO_20260407_filing_000119312526144028",
+      "kind": "filing",
+      "title": "8-K filed 2026-04-06",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526144028/d87999d8k.htm",
+      "occurred_on": "2026-04-06",
+      "numbers": {}
+    },
+    "ev_AVGO_20260415_price": {
+      "id": "ev_AVGO_20260415_price",
+      "kind": "price",
+      "title": "AVGO rose 4.19% on 2026-04-15",
+      "detail": "Closed at $396.72 from $380.78. Volume was 1.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-15",
+      "numbers": {
+        "pct_change": 4.186,
+        "close": 396.72,
+        "prev_close": 380.78,
+        "volume": 29559300,
+        "volume_vs_30d_avg": 1.15,
+        "move_excluding_sector_pct": 3.57
+      }
+    },
+    "ev_AVGO_20260415_peer_AMD": {
+      "id": "ev_AVGO_20260415_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +1.20% the same day",
+      "detail": "AVGO moved +4.19% while AMD moved +1.20%. AMD is AVGO's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-15",
+      "numbers": {
+        "peer_pct_change": 1.2,
+        "subject_pct_change": 4.186,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260415_peer_INTC": {
+      "id": "ev_AVGO_20260415_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +1.77% the same day",
+      "detail": "AVGO moved +4.19% while INTC moved +1.77%. INTC is AVGO's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-15",
+      "numbers": {
+        "peer_pct_change": 1.77,
+        "subject_pct_change": 4.186,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260415_peer_NVDA": {
+      "id": "ev_AVGO_20260415_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +1.20% the same day",
+      "detail": "AVGO moved +4.19% while NVDA moved +1.20%. NVDA is AVGO's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-15",
+      "numbers": {
+        "peer_pct_change": 1.2,
+        "subject_pct_change": 4.186,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260415_peer_QCOM": {
+      "id": "ev_AVGO_20260415_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +0.16% the same day",
+      "detail": "AVGO moved +4.19% while QCOM moved +0.16%. QCOM is AVGO's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-15",
+      "numbers": {
+        "peer_pct_change": 0.16,
+        "subject_pct_change": 4.186,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260415_peer_TSM": {
+      "id": "ev_AVGO_20260415_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -1.26% the same day",
+      "detail": "AVGO moved +4.19% while TSM moved -1.26%. TSM is AVGO's supplier (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-15",
+      "numbers": {
+        "peer_pct_change": -1.26,
+        "subject_pct_change": 4.186,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AVGO_20260514_price": {
+      "id": "ev_AVGO_20260514_price",
+      "kind": "price",
+      "title": "AVGO rose 5.52% on 2026-05-14",
+      "detail": "Closed at $439.79 from $416.79. Volume was 0.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "pct_change": 5.518,
+        "close": 439.79,
+        "prev_close": 416.79,
+        "volume": 19733800,
+        "volume_vs_30d_avg": 0.77,
+        "move_excluding_sector_pct": 5.51
+      }
+    },
+    "ev_AVGO_20260514_peer_AMD": {
+      "id": "ev_AVGO_20260514_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +0.94% the same day",
+      "detail": "AVGO moved +5.52% while AMD moved +0.94%. AMD is AVGO's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": 0.94,
+        "subject_pct_change": 5.518,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260514_peer_INTC": {
+      "id": "ev_AVGO_20260514_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -3.62% the same day",
+      "detail": "AVGO moved +5.52% while INTC moved -3.62%. INTC is AVGO's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": -3.62,
+        "subject_pct_change": 5.518,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260514_peer_NVDA": {
+      "id": "ev_AVGO_20260514_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +4.39% the same day",
+      "detail": "AVGO moved +5.52% while NVDA moved +4.39%. NVDA is AVGO's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": 4.39,
+        "subject_pct_change": 5.518,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260514_peer_QCOM": {
+      "id": "ev_AVGO_20260514_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -6.14% the same day",
+      "detail": "AVGO moved +5.52% while QCOM moved -6.14%. QCOM is AVGO's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": -6.14,
+        "subject_pct_change": 5.518,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260514_peer_TSM": {
+      "id": "ev_AVGO_20260514_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +4.48% the same day",
+      "detail": "AVGO moved +5.52% while TSM moved +4.48%. TSM is AVGO's supplier (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": 4.48,
+        "subject_pct_change": 5.518,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AVGO_20260529_price": {
+      "id": "ev_AVGO_20260529_price",
+      "kind": "price",
+      "title": "AVGO rose 4.73% on 2026-05-29",
+      "detail": "Closed at $446.77 from $426.58. Volume was 1.6x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "pct_change": 4.733,
+        "close": 446.77,
+        "prev_close": 426.58,
+        "volume": 41798400,
+        "volume_vs_30d_avg": 1.63,
+        "move_excluding_sector_pct": 5.79
+      }
+    },
+    "ev_AVGO_20260529_peer_AMD": {
+      "id": "ev_AVGO_20260529_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved -0.38% the same day",
+      "detail": "AVGO moved +4.73% while AMD moved -0.38%. AMD is AVGO's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": -0.38,
+        "subject_pct_change": 4.733,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260529_peer_INTC": {
+      "id": "ev_AVGO_20260529_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -5.14% the same day",
+      "detail": "AVGO moved +4.73% while INTC moved -5.14%. INTC is AVGO's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": -5.14,
+        "subject_pct_change": 4.733,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260529_peer_NVDA": {
+      "id": "ev_AVGO_20260529_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -1.45% the same day",
+      "detail": "AVGO moved +4.73% while NVDA moved -1.45%. NVDA is AVGO's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": -1.45,
+        "subject_pct_change": 4.733,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260529_peer_QCOM": {
+      "id": "ev_AVGO_20260529_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +3.18% the same day",
+      "detail": "AVGO moved +4.73% while QCOM moved +3.18%. QCOM is AVGO's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": 3.18,
+        "subject_pct_change": 4.733,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260529_peer_TSM": {
+      "id": "ev_AVGO_20260529_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -1.51% the same day",
+      "detail": "AVGO moved +4.73% while TSM moved -1.51%. TSM is AVGO's supplier (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": -1.51,
+        "subject_pct_change": 4.733,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AVGO_20260602_price": {
+      "id": "ev_AVGO_20260602_price",
+      "kind": "price",
+      "title": "AVGO rose 4.70% on 2026-06-02",
+      "detail": "Closed at $481.57 from $459.97. Volume was 1.5x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-02",
+      "numbers": {
+        "pct_change": 4.696,
+        "close": 481.57,
+        "prev_close": 459.97,
+        "volume": 38306700,
+        "volume_vs_30d_avg": 1.49,
+        "move_excluding_sector_pct": 3.1
+      }
+    },
+    "ev_AVGO_20260602_peer_AMD": {
+      "id": "ev_AVGO_20260602_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +2.24% the same day",
+      "detail": "AVGO moved +4.70% while AMD moved +2.24%. AMD is AVGO's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-02",
+      "numbers": {
+        "peer_pct_change": 2.24,
+        "subject_pct_change": 4.696,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260602_peer_INTC": {
+      "id": "ev_AVGO_20260602_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -1.28% the same day",
+      "detail": "AVGO moved +4.70% while INTC moved -1.28%. INTC is AVGO's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-02",
+      "numbers": {
+        "peer_pct_change": -1.28,
+        "subject_pct_change": 4.696,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260602_peer_NVDA": {
+      "id": "ev_AVGO_20260602_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -0.69% the same day",
+      "detail": "AVGO moved +4.70% while NVDA moved -0.69%. NVDA is AVGO's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-02",
+      "numbers": {
+        "peer_pct_change": -0.69,
+        "subject_pct_change": 4.696,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260602_peer_QCOM": {
+      "id": "ev_AVGO_20260602_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +5.17% the same day",
+      "detail": "AVGO moved +4.70% while QCOM moved +5.17%. QCOM is AVGO's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-02",
+      "numbers": {
+        "peer_pct_change": 5.17,
+        "subject_pct_change": 4.696,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260602_peer_TSM": {
+      "id": "ev_AVGO_20260602_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +2.54% the same day",
+      "detail": "AVGO moved +4.70% while TSM moved +2.54%. TSM is AVGO's supplier (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-02",
+      "numbers": {
+        "peer_pct_change": 2.54,
+        "subject_pct_change": 4.696,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AVGO_20260604_price": {
+      "id": "ev_AVGO_20260604_price",
+      "kind": "price",
+      "title": "AVGO fell 12.59% on 2026-06-04",
+      "detail": "Closed at $418.91 from $479.23. Volume was 3.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-04",
+      "numbers": {
+        "pct_change": -12.587,
+        "close": 418.91,
+        "prev_close": 479.23,
+        "volume": 80979400,
+        "volume_vs_30d_avg": 3.15,
+        "move_excluding_sector_pct": 11.86
+      }
+    },
+    "ev_AVGO_20260604_peer_AMD": {
+      "id": "ev_AVGO_20260604_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved -3.56% the same day",
+      "detail": "AVGO moved -12.59% while AMD moved -3.56%. AMD is AVGO's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-04",
+      "numbers": {
+        "peer_pct_change": -3.56,
+        "subject_pct_change": -12.587,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260604_peer_INTC": {
+      "id": "ev_AVGO_20260604_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -0.82% the same day",
+      "detail": "AVGO moved -12.59% while INTC moved -0.82%. INTC is AVGO's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-04",
+      "numbers": {
+        "peer_pct_change": -0.82,
+        "subject_pct_change": -12.587,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260604_peer_NVDA": {
+      "id": "ev_AVGO_20260604_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +1.82% the same day",
+      "detail": "AVGO moved -12.59% while NVDA moved +1.82%. NVDA is AVGO's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-04",
+      "numbers": {
+        "peer_pct_change": 1.82,
+        "subject_pct_change": -12.587,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260604_peer_QCOM": {
+      "id": "ev_AVGO_20260604_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -2.98% the same day",
+      "detail": "AVGO moved -12.59% while QCOM moved -2.98%. QCOM is AVGO's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-04",
+      "numbers": {
+        "peer_pct_change": -2.98,
+        "subject_pct_change": -12.587,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260604_peer_TSM": {
+      "id": "ev_AVGO_20260604_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +1.89% the same day",
+      "detail": "AVGO moved -12.59% while TSM moved +1.89%. TSM is AVGO's supplier (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-04",
+      "numbers": {
+        "peer_pct_change": 1.89,
+        "subject_pct_change": -12.587,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AVGO_20260604_filing_000173016826000051": {
+      "id": "ev_AVGO_20260604_filing_000173016826000051",
+      "kind": "filing",
+      "title": "8-K filed 2026-06-03",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-20260603.htm",
+      "occurred_on": "2026-06-03",
+      "numbers": {}
+    },
+    "ev_AVGO_20260617_price": {
+      "id": "ev_AVGO_20260617_price",
+      "kind": "price",
+      "title": "AVGO rose 4.30% on 2026-06-17",
+      "detail": "Closed at $392.90 from $376.71. Volume was 1.6x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-17",
+      "numbers": {
+        "pct_change": 4.298,
+        "close": 392.9,
+        "prev_close": 376.71,
+        "volume": 40005500,
+        "volume_vs_30d_avg": 1.56,
+        "move_excluding_sector_pct": 3.47
+      }
+    },
+    "ev_AVGO_20260617_peer_AMD": {
+      "id": "ev_AVGO_20260617_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +1.02% the same day",
+      "detail": "AVGO moved +4.30% while AMD moved +1.02%. AMD is AVGO's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-17",
+      "numbers": {
+        "peer_pct_change": 1.02,
+        "subject_pct_change": 4.298,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260617_peer_INTC": {
+      "id": "ev_AVGO_20260617_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +3.46% the same day",
+      "detail": "AVGO moved +4.30% while INTC moved +3.46%. INTC is AVGO's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-17",
+      "numbers": {
+        "peer_pct_change": 3.46,
+        "subject_pct_change": 4.298,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260617_peer_NVDA": {
+      "id": "ev_AVGO_20260617_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -1.33% the same day",
+      "detail": "AVGO moved +4.30% while NVDA moved -1.33%. NVDA is AVGO's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-17",
+      "numbers": {
+        "peer_pct_change": -1.33,
+        "subject_pct_change": 4.298,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260617_peer_QCOM": {
+      "id": "ev_AVGO_20260617_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -0.51% the same day",
+      "detail": "AVGO moved +4.30% while QCOM moved -0.51%. QCOM is AVGO's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-17",
+      "numbers": {
+        "peer_pct_change": -0.51,
+        "subject_pct_change": 4.298,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260617_peer_TSM": {
+      "id": "ev_AVGO_20260617_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +1.48% the same day",
+      "detail": "AVGO moved +4.30% while TSM moved +1.48%. TSM is AVGO's supplier (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-17",
+      "numbers": {
+        "peer_pct_change": 1.48,
+        "subject_pct_change": 4.298,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AVGO_20260622_price": {
+      "id": "ev_AVGO_20260622_price",
+      "kind": "price",
+      "title": "AVGO fell 4.67% on 2026-06-22",
+      "detail": "Closed at $392.13 from $411.35. Volume was 1.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-22",
+      "numbers": {
+        "pct_change": -4.672,
+        "close": 392.13,
+        "prev_close": 411.35,
+        "volume": 26403700,
+        "volume_vs_30d_avg": 1.03,
+        "move_excluding_sector_pct": 5.91
+      }
+    },
+    "ev_AVGO_20260622_peer_AMD": {
+      "id": "ev_AVGO_20260622_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +2.65% the same day",
+      "detail": "AVGO moved -4.67% while AMD moved +2.65%. AMD is AVGO's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-22",
+      "numbers": {
+        "peer_pct_change": 2.65,
+        "subject_pct_change": -4.672,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260622_peer_INTC": {
+      "id": "ev_AVGO_20260622_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +5.19% the same day",
+      "detail": "AVGO moved -4.67% while INTC moved +5.19%. INTC is AVGO's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-22",
+      "numbers": {
+        "peer_pct_change": 5.19,
+        "subject_pct_change": -4.672,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260622_peer_NVDA": {
+      "id": "ev_AVGO_20260622_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -0.97% the same day",
+      "detail": "AVGO moved -4.67% while NVDA moved -0.97%. NVDA is AVGO's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-22",
+      "numbers": {
+        "peer_pct_change": -0.97,
+        "subject_pct_change": -4.672,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260622_peer_QCOM": {
+      "id": "ev_AVGO_20260622_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -1.86% the same day",
+      "detail": "AVGO moved -4.67% while QCOM moved -1.86%. QCOM is AVGO's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-22",
+      "numbers": {
+        "peer_pct_change": -1.86,
+        "subject_pct_change": -4.672,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260622_peer_TSM": {
+      "id": "ev_AVGO_20260622_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +1.20% the same day",
+      "detail": "AVGO moved -4.67% while TSM moved +1.20%. TSM is AVGO's supplier (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-22",
+      "numbers": {
+        "peer_pct_change": 1.2,
+        "subject_pct_change": -4.672,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AVGO_20260623_price": {
+      "id": "ev_AVGO_20260623_price",
+      "kind": "price",
+      "title": "AVGO fell 3.06% on 2026-06-23",
+      "detail": "Closed at $380.15 from $392.13. Volume was 1.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-23",
+      "numbers": {
+        "pct_change": -3.055,
+        "close": 380.15,
+        "prev_close": 392.13,
+        "volume": 33122200,
+        "volume_vs_30d_avg": 1.29,
+        "move_excluding_sector_pct": 3.09
+      }
+    },
+    "ev_AVGO_20260623_peer_AMD": {
+      "id": "ev_AVGO_20260623_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved -5.76% the same day",
+      "detail": "AVGO moved -3.06% while AMD moved -5.76%. AMD is AVGO's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-23",
+      "numbers": {
+        "peer_pct_change": -5.76,
+        "subject_pct_change": -3.055,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260623_peer_INTC": {
+      "id": "ev_AVGO_20260623_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -6.14% the same day",
+      "detail": "AVGO moved -3.06% while INTC moved -6.14%. INTC is AVGO's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-23",
+      "numbers": {
+        "peer_pct_change": -6.14,
+        "subject_pct_change": -3.055,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260623_peer_NVDA": {
+      "id": "ev_AVGO_20260623_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -4.13% the same day",
+      "detail": "AVGO moved -3.06% while NVDA moved -4.13%. NVDA is AVGO's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-23",
+      "numbers": {
+        "peer_pct_change": -4.13,
+        "subject_pct_change": -3.055,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260623_peer_QCOM": {
+      "id": "ev_AVGO_20260623_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -8.01% the same day",
+      "detail": "AVGO moved -3.06% while QCOM moved -8.01%. QCOM is AVGO's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-23",
+      "numbers": {
+        "peer_pct_change": -8.01,
+        "subject_pct_change": -3.055,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260623_peer_TSM": {
+      "id": "ev_AVGO_20260623_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -6.69% the same day",
+      "detail": "AVGO moved -3.06% while TSM moved -6.69%. TSM is AVGO's supplier (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-23",
+      "numbers": {
+        "peer_pct_change": -6.69,
+        "subject_pct_change": -3.055,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AVGO_20260708_price": {
+      "id": "ev_AVGO_20260708_price",
+      "kind": "price",
+      "title": "AVGO rose 4.83% on 2026-07-08",
+      "detail": "Closed at $388.69 from $370.78. Volume was 1.2x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-07-08",
+      "numbers": {
+        "pct_change": 4.83,
+        "close": 388.69,
+        "prev_close": 370.78,
+        "volume": 31624100,
+        "volume_vs_30d_avg": 1.23,
+        "move_excluding_sector_pct": 3.48
+      }
+    },
+    "ev_AVGO_20260708_peer_AMD": {
+      "id": "ev_AVGO_20260708_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +0.25% the same day",
+      "detail": "AVGO moved +4.83% while AMD moved +0.25%. AMD is AVGO's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-07-08",
+      "numbers": {
+        "peer_pct_change": 0.25,
+        "subject_pct_change": 4.83,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260708_peer_INTC": {
+      "id": "ev_AVGO_20260708_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -0.14% the same day",
+      "detail": "AVGO moved +4.83% while INTC moved -0.14%. INTC is AVGO's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-08",
+      "numbers": {
+        "peer_pct_change": -0.14,
+        "subject_pct_change": 4.83,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260708_peer_NVDA": {
+      "id": "ev_AVGO_20260708_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +3.65% the same day",
+      "detail": "AVGO moved +4.83% while NVDA moved +3.65%. NVDA is AVGO's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-08",
+      "numbers": {
+        "peer_pct_change": 3.65,
+        "subject_pct_change": 4.83,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260708_peer_QCOM": {
+      "id": "ev_AVGO_20260708_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +1.96% the same day",
+      "detail": "AVGO moved +4.83% while QCOM moved +1.96%. QCOM is AVGO's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-08",
+      "numbers": {
+        "peer_pct_change": 1.96,
+        "subject_pct_change": 4.83,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260708_peer_TSM": {
+      "id": "ev_AVGO_20260708_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +1.02% the same day",
+      "detail": "AVGO moved +4.83% while TSM moved +1.02%. TSM is AVGO's supplier (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-08",
+      "numbers": {
+        "peer_pct_change": 1.02,
+        "subject_pct_change": 4.83,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AVGO_20260708_filing_000119312526295589": {
+      "id": "ev_AVGO_20260708_filing_000119312526295589",
+      "kind": "filing",
+      "title": "8-K filed 2026-07-06",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm",
+      "occurred_on": "2026-07-06",
+      "numbers": {}
+    },
+    "ev_AVGO_20260814_price": {
+      "id": "ev_AVGO_20260814_price",
+      "kind": "price",
+      "title": "AVGO fell 5.94% on 2026-08-14",
+      "detail": "Closed at $392.99 from $417.82. Volume was 1.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-08-14",
+      "numbers": {
+        "pct_change": -5.943,
+        "close": 392.99,
+        "prev_close": 417.82,
+        "volume": 29513600,
+        "volume_vs_30d_avg": 1.15,
+        "move_excluding_sector_pct": 6.76
+      }
+    },
+    "ev_AVGO_20260814_peer_AMD": {
+      "id": "ev_AVGO_20260814_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +6.50% the same day",
+      "detail": "AVGO moved -5.94% while AMD moved +6.50%. AMD is AVGO's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-08-14",
+      "numbers": {
+        "peer_pct_change": 6.5,
+        "subject_pct_change": -5.943,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260814_peer_INTC": {
+      "id": "ev_AVGO_20260814_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -1.97% the same day",
+      "detail": "AVGO moved -5.94% while INTC moved -1.97%. INTC is AVGO's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-08-14",
+      "numbers": {
+        "peer_pct_change": -1.97,
+        "subject_pct_change": -5.943,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260814_peer_NVDA": {
+      "id": "ev_AVGO_20260814_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -0.06% the same day",
+      "detail": "AVGO moved -5.94% while NVDA moved -0.06%. NVDA is AVGO's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-08-14",
+      "numbers": {
+        "peer_pct_change": -0.06,
+        "subject_pct_change": -5.943,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260814_peer_QCOM": {
+      "id": "ev_AVGO_20260814_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +0.61% the same day",
+      "detail": "AVGO moved -5.94% while QCOM moved +0.61%. QCOM is AVGO's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-08-14",
+      "numbers": {
+        "peer_pct_change": 0.61,
+        "subject_pct_change": -5.943,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260814_peer_TSM": {
+      "id": "ev_AVGO_20260814_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -0.96% the same day",
+      "detail": "AVGO moved -5.94% while TSM moved -0.96%. TSM is AVGO's supplier (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-08-14",
+      "numbers": {
+        "peer_pct_change": -0.96,
+        "subject_pct_change": -5.943,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AVGO_20260819_price": {
+      "id": "ev_AVGO_20260819_price",
+      "kind": "price",
+      "title": "AVGO fell 4.61% on 2026-08-19",
+      "detail": "Closed at $362.48 from $380.00. Volume was 1.4x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-08-19",
+      "numbers": {
+        "pct_change": -4.611,
+        "close": 362.48,
+        "prev_close": 380.0,
+        "volume": 35091400,
+        "volume_vs_30d_avg": 1.36,
+        "move_excluding_sector_pct": 3.02
+      }
+    },
+    "ev_AVGO_20260819_peer_AMD": {
+      "id": "ev_AVGO_20260819_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved -3.71% the same day",
+      "detail": "AVGO moved -4.61% while AMD moved -3.71%. AMD is AVGO's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-08-19",
+      "numbers": {
+        "peer_pct_change": -3.71,
+        "subject_pct_change": -4.611,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260819_peer_INTC": {
+      "id": "ev_AVGO_20260819_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -4.02% the same day",
+      "detail": "AVGO moved -4.61% while INTC moved -4.02%. INTC is AVGO's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-08-19",
+      "numbers": {
+        "peer_pct_change": -4.02,
+        "subject_pct_change": -4.611,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260819_peer_NVDA": {
+      "id": "ev_AVGO_20260819_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -0.99% the same day",
+      "detail": "AVGO moved -4.61% while NVDA moved -0.99%. NVDA is AVGO's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-08-19",
+      "numbers": {
+        "peer_pct_change": -0.99,
+        "subject_pct_change": -4.611,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260819_peer_QCOM": {
+      "id": "ev_AVGO_20260819_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +1.07% the same day",
+      "detail": "AVGO moved -4.61% while QCOM moved +1.07%. QCOM is AVGO's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-08-19",
+      "numbers": {
+        "peer_pct_change": 1.07,
+        "subject_pct_change": -4.611,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AVGO_20260819_peer_TSM": {
+      "id": "ev_AVGO_20260819_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -0.32% the same day",
+      "detail": "AVGO moved -4.61% while TSM moved -0.32%. TSM is AVGO's supplier (front-end wafer manufacturing), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-08-19",
+      "numbers": {
+        "peer_pct_change": -0.32,
+        "subject_pct_change": -4.611,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AVGO_fund_revenue": {
+      "id": "ev_AVGO_fund_revenue",
+      "kind": "fundamental",
+      "title": "Revenue: 29,591,000,000 (2026-08-02)",
+      "detail": "Reported on form 10-Q, +97.2% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/",
+      "occurred_on": "2026-09-10",
+      "numbers": {
+        "value": 29591000000,
+        "period_end": "2026-08-02",
+        "xbrl_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "yoy_pct_change": 97.22
+      }
+    },
+    "ev_AVGO_fund_net_income": {
+      "id": "ev_AVGO_fund_net_income",
+      "kind": "fundamental",
+      "title": "Net Income: 715,000,000 (2019-08-04)",
+      "detail": "Reported on form 10-Q, -40.2% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016819000118/",
+      "occurred_on": "2019-09-13",
+      "numbers": {
+        "value": 715000000,
+        "period_end": "2019-08-04",
+        "xbrl_tag": "NetIncomeLoss",
+        "yoy_pct_change": -40.22
+      }
+    },
+    "ev_AVGO_fund_gross_profit": {
+      "id": "ev_AVGO_fund_gross_profit",
+      "kind": "fundamental",
+      "title": "Gross Profit: 20,456,000,000 (2026-08-02)",
+      "detail": "Reported on form 10-Q, +100.6% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/",
+      "occurred_on": "2026-09-10",
+      "numbers": {
+        "value": 20456000000,
+        "period_end": "2026-08-02",
+        "xbrl_tag": "GrossProfit",
+        "yoy_pct_change": 100.61
+      }
+    },
+    "ev_AVGO_fund_operating_income": {
+      "id": "ev_AVGO_fund_operating_income",
+      "kind": "fundamental",
+      "title": "Operating Income: 15,955,000,000 (2026-08-02)",
+      "detail": "Reported on form 10-Q, +173.7% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/",
+      "occurred_on": "2026-09-10",
+      "numbers": {
+        "value": 15955000000,
+        "period_end": "2026-08-02",
+        "xbrl_tag": "OperatingIncomeLoss",
+        "yoy_pct_change": 173.72
+      }
+    },
+    "ev_AVGO_fund_rnd_expense": {
+      "id": "ev_AVGO_fund_rnd_expense",
+      "kind": "fundamental",
+      "title": "Rnd Expense: 2,895,000,000 (2026-08-02)",
+      "detail": "Reported on form 10-Q, +7.5% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/",
+      "occurred_on": "2026-09-10",
+      "numbers": {
+        "value": 2895000000,
+        "period_end": "2026-08-02",
+        "xbrl_tag": "ResearchAndDevelopmentExpense",
+        "yoy_pct_change": 7.5
+      }
+    },
+    "ev_AVGO_sector_IPG3344S": {
+      "id": "ev_AVGO_sector_IPG3344S",
+      "kind": "sector",
+      "title": "US semiconductor and electronic component production: 190.1 index, 2017=100, +12.3% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/IPG3344S",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 190.0987,
+        "units": "index, 2017=100",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": 12.35
+      }
+    },
+    "ev_AVGO_sector_PCU334413334413": {
+      "id": "ev_AVGO_sector_PCU334413334413",
+      "kind": "sector",
+      "title": "US semiconductor producer price index: 28.5 index, -3.1% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/PCU334413334413",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 28.472,
+        "units": "index",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": -3.13
+      }
+    }
+  },
+  "arc": "Broadcom experienced an aggressive spring expansion followed by elevated volatility and consolidation over the spring and summer of 2026. After surging from $314.43 in early April to a high of $481.57 by early June, the stock suffered a sharp 12.59% company-specific single-day drop on June 4 following an 8-K filing. Across the subsequent months, Broadcom's price swings oscillated between company-specific divergence\u2014such as its steep retreats on June 22 and August 14 despite gains in peers like INTC and AMD\u2014and shared industry-wide drawdowns on June 23 and August 19, leaving the stock consolidating in the mid-to-high $300s.",
+  "arc_citation_ids": [
+    "ev_AVGO_20260407_price",
+    "ev_AVGO_20260602_price",
+    "ev_AVGO_20260604_price",
+    "ev_AVGO_20260604_filing_000173016826000051",
+    "ev_AVGO_20260622_price",
+    "ev_AVGO_20260623_price",
+    "ev_AVGO_20260814_price",
+    "ev_AVGO_20260819_price"
+  ],
+  "warnings": []
+}

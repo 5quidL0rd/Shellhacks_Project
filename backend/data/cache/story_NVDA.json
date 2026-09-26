@@ -1,7 +1,7 @@
 {
   "symbol": "NVDA",
   "company_name": "NVIDIA Corporation",
-  "generated_at": "2026-09-26T09:40:44.247262+00:00",
+  "generated_at": "2026-09-26T12:37:14.808060+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,14 +1320,15 @@
       "pct_change": 4.323,
       "close": 208.27,
       "direction": "up",
-      "headline": "NVDA gains 4.3% alongside broad chip rally",
-      "explanation": "No company-specific news accompanied the move as NVIDIA shares rose 4.32% to $208.27 on 1.8 times average volume. The gain was shared with peers across the sector, including competitor AMD, which surged 13.91%, and supplier TSM, which gained 5.17%. Customer and competitor MSFT also rose 2.13% the same day.",
+      "headline": "NVDA gains 4.32% in broad semiconductor rally",
+      "explanation": "No company-specific news accompanied the gain to $208.27 on 1.78x average volume. The move was shared across the sector, with competitors INTC surging 23.60%, AMD rising 13.91%, and QCOM climbing 11.12%, while supplier TSM advanced 5.17%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260424_price",
         "ev_NVDA_20260424_peer_AMD",
-        "ev_NVDA_20260424_peer_TSM",
-        "ev_NVDA_20260424_peer_MSFT"
+        "ev_NVDA_20260424_peer_INTC",
+        "ev_NVDA_20260424_peer_QCOM",
+        "ev_NVDA_20260424_peer_TSM"
       ]
     },
     {
@@ -1335,15 +1336,15 @@
       "pct_change": 4.004,
       "close": 216.61,
       "direction": "up",
-      "headline": "Stock climbs 4.0% following Form 8-K filing",
-      "explanation": "NVIDIA advanced 4.00% to close at $216.61 on 1.6 times average volume following the submission of a Form 8-K filing. The gain was company-specific, as competitor AMD dropped 3.79% while supplier TSM rose 0.63% and customer and competitor MSFT remained flat at +0.05%.",
+      "headline": "NVDA climbs 4.00% following Form 8-K filing",
+      "explanation": "NVIDIA rose 4.00% to close at $216.61 on 1.55x average volume following an 8-K filing. The advance was company-specific, as competitors AMD fell 3.79% and AVGO slipped 1.08%, though supplier MU gained 5.61%.",
       "confidence": "medium",
       "citation_ids": [
         "ev_NVDA_20260427_price",
         "ev_NVDA_20260427_filing_000104581026000026",
         "ev_NVDA_20260427_peer_AMD",
-        "ev_NVDA_20260427_peer_TSM",
-        "ev_NVDA_20260427_peer_MSFT"
+        "ev_NVDA_20260427_peer_AVGO",
+        "ev_NVDA_20260427_peer_MU"
       ]
     },
     {
@@ -1351,29 +1352,29 @@
       "pct_change": -4.626,
       "close": 199.57,
       "direction": "down",
-      "headline": "Shares drop 4.6% to $199.57 amid mixed peers",
-      "explanation": "No company-specific news was reported as NVIDIA fell 4.63% to close at $199.57 on 1.9 times average volume. The pullback was shared with customer and competitor MSFT, which dropped 3.93%, even as competitor AMD gained 5.16% and supplier TSM added 0.57%.",
+      "headline": "NVDA drops 4.63% while competitors rally",
+      "explanation": "No company news was provided for the decline to $199.57 on 1.87x typical volume. The selloff was company-specific and diverged from competitors QCOM and GOOGL, which surged 15.12% and 9.96% respectively, though customer and competitor MSFT also declined 3.93%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260430_price",
-        "ev_NVDA_20260430_peer_MSFT",
-        "ev_NVDA_20260430_peer_AMD",
-        "ev_NVDA_20260430_peer_TSM"
+        "ev_NVDA_20260430_peer_QCOM",
+        "ev_NVDA_20260430_peer_GOOGL",
+        "ev_NVDA_20260430_peer_MSFT"
       ]
     },
     {
-      "date": "2026-05-06",
-      "pct_change": 5.766,
-      "close": 207.83,
+      "date": "2026-05-14",
+      "pct_change": 4.388,
+      "close": 235.74,
       "direction": "up",
-      "headline": "NVDA advances 5.8% in shared semiconductor move",
-      "explanation": "NVIDIA rose 5.77% to close at $207.83 on 1.6 times average volume without company-specific news. The advance was shared broadly with supplier TSM, which gained 6.36%, and competitor AMD, which surged 18.61%.",
+      "headline": "NVDA rises 4.39% alongside supplier TSM",
+      "explanation": "No company-specific announcements were reported as the stock rose 4.39% to $235.74 on 1.50x average volume. The upward move was shared with supplier TSM and competitor AVGO, which advanced 4.48% and 5.52% respectively, even as competitor QCOM dropped 6.14%.",
       "confidence": "low",
       "citation_ids": [
-        "ev_NVDA_20260506_price",
-        "ev_NVDA_20260506_peer_AMD",
-        "ev_NVDA_20260506_peer_TSM",
-        "ev_NVDA_20260506_peer_MSFT"
+        "ev_NVDA_20260514_price",
+        "ev_NVDA_20260514_peer_TSM",
+        "ev_NVDA_20260514_peer_AVGO",
+        "ev_NVDA_20260514_peer_QCOM"
       ]
     },
     {
@@ -1381,14 +1382,31 @@
       "pct_change": 6.261,
       "close": 224.36,
       "direction": "up",
-      "headline": "Shares climb 6.3% on heavy trading volume",
-      "explanation": "NVIDIA shares increased 6.26% to $224.36 on 1.8 times average volume with no company-specific news reported. Supplier TSM and customer and competitor MSFT also advanced 4.11% and 2.28% respectively, while competitor AMD declined 1.16%.",
+      "headline": "NVDA advances 6.26% with supplier strength",
+      "explanation": "Shares jumped 6.26% to $224.36 with volume reaching 1.76x the 30-day average without company filings or news. Key suppliers MU and TSM also moved higher, up 6.64% and 4.11% respectively, while competitors QCOM and INTC dropped 8.78% and 4.67%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260601_price",
+        "ev_NVDA_20260601_peer_MU",
         "ev_NVDA_20260601_peer_TSM",
-        "ev_NVDA_20260601_peer_MSFT",
-        "ev_NVDA_20260601_peer_AMD"
+        "ev_NVDA_20260601_peer_QCOM",
+        "ev_NVDA_20260601_peer_INTC"
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "pct_change": -3.622,
+      "close": 214.75,
+      "direction": "down",
+      "headline": "NVDA falls 3.62% as hardware peers gain",
+      "explanation": "No company developments accompanied the pullback to $214.75 on 1.33x average volume. The drop was company-specific relative to competitors INTC and AMD, which rose 4.43% and 4.02%, though supplier TSM and customer MSFT fell 2.24% and 3.17%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_NVDA_20260603_price",
+        "ev_NVDA_20260603_peer_INTC",
+        "ev_NVDA_20260603_peer_AMD",
+        "ev_NVDA_20260603_peer_TSM",
+        "ev_NVDA_20260603_peer_MSFT"
       ]
     },
     {
@@ -1396,14 +1414,15 @@
       "pct_change": 3.651,
       "close": 204.12,
       "direction": "up",
-      "headline": "Stock rises 3.7% in company-specific move",
-      "explanation": "NVIDIA climbed 3.65% to close at $204.12 on 1.2 times average volume without company announcements. The rise was company-specific, as customer and competitor MSFT fell 1.41% while competitor AMD and supplier TSM were muted, moving +0.25% and +1.02% respectively.",
+      "headline": "NVDA gains 3.65% to $204.12",
+      "explanation": "No company-specific news explained the 3.65% increase on 1.22x typical volume. Competitor AVGO also advanced 4.83% and supplier MU added 1.11%, whereas competitors GOOGL and MSFT declined 1.39% and 1.41%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260708_price",
-        "ev_NVDA_20260708_peer_MSFT",
-        "ev_NVDA_20260708_peer_AMD",
-        "ev_NVDA_20260708_peer_TSM"
+        "ev_NVDA_20260708_peer_AVGO",
+        "ev_NVDA_20260708_peer_MU",
+        "ev_NVDA_20260708_peer_GOOGL",
+        "ev_NVDA_20260708_peer_MSFT"
       ]
     },
     {
@@ -1411,14 +1430,14 @@
       "pct_change": 4.034,
       "close": 210.96,
       "direction": "up",
-      "headline": "NVDA gains 4.0% to reach $210.96",
-      "explanation": "NVIDIA rose 4.03% to $210.96 from $202.78 on 1.2 times average volume with no company-specific catalysts. Competitor AMD also moved higher by 2.04%, while supplier TSM fell 0.65% and customer and competitor MSFT rose a modest 0.19%.",
+      "headline": "NVDA moves up 4.03% to $210.96",
+      "explanation": "NVIDIA gained 4.03% with no company-specific catalysts identified. The upward move was largely company-specific, as competitor AMD was up 2.04% but competitor INTC fell 2.40% and supplier MU dropped 1.24%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260710_price",
         "ev_NVDA_20260710_peer_AMD",
-        "ev_NVDA_20260710_peer_TSM",
-        "ev_NVDA_20260710_peer_MSFT"
+        "ev_NVDA_20260710_peer_INTC",
+        "ev_NVDA_20260710_peer_MU"
       ]
     },
     {
@@ -1426,14 +1445,14 @@
       "pct_change": -4.994,
       "close": 196.51,
       "direction": "down",
-      "headline": "Shares slide 5.0% alongside competitor AMD",
-      "explanation": "NVIDIA dropped 4.99% to $196.51 on 1.3 times average volume with no company-specific announcements. The decline was shared with competitor AMD, which fell 5.17%, and supplier TSM, which lost 1.07%, while customer and competitor MSFT gained 1.94%.",
+      "headline": "NVDA slides 4.99% alongside peer AMD",
+      "explanation": "Shares declined 4.99% to $196.51 on 1.28x average volume with no company-specific updates. The move was shared with competitor AMD, which dropped 5.17%, and supplier MU, which dropped 2.25%, even as competitor GOOGL rose 2.13%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260727_price",
         "ev_NVDA_20260727_peer_AMD",
-        "ev_NVDA_20260727_peer_TSM",
-        "ev_NVDA_20260727_peer_MSFT"
+        "ev_NVDA_20260727_peer_MU",
+        "ev_NVDA_20260727_peer_GOOGL"
       ]
     },
     {
@@ -1441,14 +1460,14 @@
       "pct_change": 3.435,
       "close": 219.22,
       "direction": "up",
-      "headline": "Stock adds 3.4% as competitors retreat",
-      "explanation": "NVIDIA rose 3.44% to $219.22 on 1.3 times normal volume in the absence of company-specific news. The advance was company-specific, diverging sharply from competitor AMD, which fell 7.04%, customer and competitor MSFT, which lost 1.09%, and supplier TSM, which slipped 0.76%.",
+      "headline": "NVDA advances 3.44% despite competitor losses",
+      "explanation": "No company announcements were reported as the stock rose 3.44% to $219.22 on 1.31x average volume. The gain was company-specific, bucking sharp losses from competitors AMD, GOOGL, and QCOM, which fell 7.04%, 4.03%, and 3.16% respectively.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260805_price",
         "ev_NVDA_20260805_peer_AMD",
-        "ev_NVDA_20260805_peer_MSFT",
-        "ev_NVDA_20260805_peer_TSM"
+        "ev_NVDA_20260805_peer_GOOGL",
+        "ev_NVDA_20260805_peer_QCOM"
       ]
     },
     {
@@ -1456,15 +1475,15 @@
       "pct_change": 8.738,
       "close": 227.98,
       "direction": "up",
-      "headline": "NVDA surges 8.7% after 10-Q and 8-K filings",
-      "explanation": "NVIDIA rallied 8.74% to $227.98 on 2.5 times average volume following quarterly 10-Q and 8-K filings on August 26. Supplier TSM also gained 2.30% and customer and competitor MSFT added 1.75%, whereas competitor AMD moved in the opposite direction, slipping 0.89%.",
+      "headline": "NVDA jumps 8.74% following 10-Q and 8-K filings",
+      "explanation": "NVIDIA surged 8.74% to $227.98 on heavy volume of 2.48x its 30-day average following the filing of its Form 10-Q and Form 8-K the prior day. Competitors AVGO and INTC also rose 4.49% and 4.36%, while competitor AMD slipped 0.89%.",
       "confidence": "high",
       "citation_ids": [
         "ev_NVDA_20260827_price",
         "ev_NVDA_20260827_filing_000104581026000075",
         "ev_NVDA_20260827_filing_000104581026000073",
-        "ev_NVDA_20260827_peer_TSM",
-        "ev_NVDA_20260827_peer_MSFT",
+        "ev_NVDA_20260827_peer_AVGO",
+        "ev_NVDA_20260827_peer_INTC",
         "ev_NVDA_20260827_peer_AMD"
       ]
     },
@@ -1473,31 +1492,16 @@
       "pct_change": -4.575,
       "close": 217.55,
       "direction": "down",
-      "headline": "Stock sheds 4.6% in post-earnings pullback",
-      "explanation": "Following the prior day's post-filing rally, NVIDIA fell 4.58% to $217.55 on 1.6 times average volume. The pullback was shared with supplier TSM, which fell 2.29%, and competitor AMD, which dropped 2.33%, while customer and competitor MSFT rose 1.68%.",
+      "headline": "NVDA pulls back 4.58% following post-filing rally",
+      "explanation": "After the previous session's surge following its Form 10-Q and 8-K filings, NVIDIA fell 4.58% to $217.55 on 1.62x average volume. The pullback was shared with hardware peers, as competitor INTC declined 2.85% and suppliers TSM and MU fell 2.29% and 0.27%.",
       "confidence": "medium",
       "citation_ids": [
         "ev_NVDA_20260828_price",
         "ev_NVDA_20260828_filing_000104581026000075",
         "ev_NVDA_20260828_filing_000104581026000073",
+        "ev_NVDA_20260828_peer_INTC",
         "ev_NVDA_20260828_peer_TSM",
-        "ev_NVDA_20260828_peer_AMD",
-        "ev_NVDA_20260828_peer_MSFT"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "pct_change": 3.205,
-      "close": 224.41,
-      "direction": "up",
-      "headline": "NVDA rebounds 3.2% while peers weaken",
-      "explanation": "NVIDIA gained 3.21% to close at $224.41 on 1.3 times average volume with no company-specific announcements. The rebound was largely company-specific, as competitor AMD dropped 0.56%, customer and competitor MSFT slipped 0.84%, and supplier TSM edged up only 0.36%.",
-      "confidence": "low",
-      "citation_ids": [
-        "ev_NVDA_20260902_price",
-        "ev_NVDA_20260902_peer_AMD",
-        "ev_NVDA_20260902_peer_MSFT",
-        "ev_NVDA_20260902_peer_TSM"
+        "ev_NVDA_20260828_peer_MU"
       ]
     }
   ],
@@ -1516,7 +1520,7 @@
         "prev_close": 199.64,
         "volume": 214134400,
         "volume_vs_30d_avg": 1.78,
-        "move_excluding_sector_pct": 2.75
+        "move_excluding_sector_pct": 2.88
       }
     },
     "ev_NVDA_20260424_peer_AMD": {
@@ -1533,6 +1537,62 @@
         "relationship": "competitor"
       }
     },
+    "ev_NVDA_20260424_peer_AMZN": {
+      "id": "ev_NVDA_20260424_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved +3.49% the same day",
+      "detail": "NVDA moved +4.32% while AMZN moved +3.49%. AMZN is NVDA's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 3.49,
+        "subject_pct_change": 4.323,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260424_peer_AVGO": {
+      "id": "ev_NVDA_20260424_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +0.67% the same day",
+      "detail": "NVDA moved +4.32% while AVGO moved +0.67%. AVGO is NVDA's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 0.67,
+        "subject_pct_change": 4.323,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260424_peer_GOOGL": {
+      "id": "ev_NVDA_20260424_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +1.63% the same day",
+      "detail": "NVDA moved +4.32% while GOOGL moved +1.63%. GOOGL is NVDA's competitor (cloud services and AI computing hardware and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 1.63,
+        "subject_pct_change": 4.323,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260424_peer_INTC": {
+      "id": "ev_NVDA_20260424_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +23.60% the same day",
+      "detail": "NVDA moved +4.32% while INTC moved +23.60%. INTC is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 23.6,
+        "subject_pct_change": 4.323,
+        "relationship": "competitor"
+      }
+    },
     "ev_NVDA_20260424_peer_MSFT": {
       "id": "ev_NVDA_20260424_peer_MSFT",
       "kind": "peer_move",
@@ -1545,6 +1605,34 @@
         "peer_pct_change": 2.13,
         "subject_pct_change": 4.323,
         "relationship": "customer and competitor"
+      }
+    },
+    "ev_NVDA_20260424_peer_MU": {
+      "id": "ev_NVDA_20260424_peer_MU",
+      "kind": "peer_move",
+      "title": "MU (supplier) moved +3.11% the same day",
+      "detail": "NVDA moved +4.32% while MU moved +3.11%. MU is NVDA's supplier (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 3.11,
+        "subject_pct_change": 4.323,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260424_peer_QCOM": {
+      "id": "ev_NVDA_20260424_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +11.12% the same day",
+      "detail": "NVDA moved +4.32% while QCOM moved +11.12%. QCOM is NVDA's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 11.12,
+        "subject_pct_change": 4.323,
+        "relationship": "competitor"
       }
     },
     "ev_NVDA_20260424_peer_TSM": {
@@ -1575,7 +1663,7 @@
         "prev_close": 208.27,
         "volume": 187172400,
         "volume_vs_30d_avg": 1.55,
-        "move_excluding_sector_pct": 5.04
+        "move_excluding_sector_pct": 3.34
       }
     },
     "ev_NVDA_20260427_peer_AMD": {
@@ -1592,6 +1680,62 @@
         "relationship": "competitor"
       }
     },
+    "ev_NVDA_20260427_peer_AMZN": {
+      "id": "ev_NVDA_20260427_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved -1.09% the same day",
+      "detail": "NVDA moved +4.00% while AMZN moved -1.09%. AMZN is NVDA's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "peer_pct_change": -1.09,
+        "subject_pct_change": 4.004,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260427_peer_AVGO": {
+      "id": "ev_NVDA_20260427_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -1.08% the same day",
+      "detail": "NVDA moved +4.00% while AVGO moved -1.08%. AVGO is NVDA's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "peer_pct_change": -1.08,
+        "subject_pct_change": 4.004,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260427_peer_GOOGL": {
+      "id": "ev_NVDA_20260427_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +1.73% the same day",
+      "detail": "NVDA moved +4.00% while GOOGL moved +1.73%. GOOGL is NVDA's competitor (cloud services and AI computing hardware and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "peer_pct_change": 1.73,
+        "subject_pct_change": 4.004,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260427_peer_INTC": {
+      "id": "ev_NVDA_20260427_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +2.97% the same day",
+      "detail": "NVDA moved +4.00% while INTC moved +2.97%. INTC is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "peer_pct_change": 2.97,
+        "subject_pct_change": 4.004,
+        "relationship": "competitor"
+      }
+    },
     "ev_NVDA_20260427_peer_MSFT": {
       "id": "ev_NVDA_20260427_peer_MSFT",
       "kind": "peer_move",
@@ -1604,6 +1748,34 @@
         "peer_pct_change": 0.05,
         "subject_pct_change": 4.004,
         "relationship": "customer and competitor"
+      }
+    },
+    "ev_NVDA_20260427_peer_MU": {
+      "id": "ev_NVDA_20260427_peer_MU",
+      "kind": "peer_move",
+      "title": "MU (supplier) moved +5.61% the same day",
+      "detail": "NVDA moved +4.00% while MU moved +5.61%. MU is NVDA's supplier (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "peer_pct_change": 5.61,
+        "subject_pct_change": 4.004,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260427_peer_QCOM": {
+      "id": "ev_NVDA_20260427_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +0.95% the same day",
+      "detail": "NVDA moved +4.00% while QCOM moved +0.95%. QCOM is NVDA's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "peer_pct_change": 0.95,
+        "subject_pct_change": 4.004,
+        "relationship": "competitor"
       }
     },
     "ev_NVDA_20260427_peer_TSM": {
@@ -1644,7 +1816,7 @@
         "prev_close": 209.25,
         "volume": 225239200,
         "volume_vs_30d_avg": 1.87,
-        "move_excluding_sector_pct": 5.22
+        "move_excluding_sector_pct": 7.97
       }
     },
     "ev_NVDA_20260430_peer_AMD": {
@@ -1657,6 +1829,62 @@
       "occurred_on": "2026-04-30",
       "numbers": {
         "peer_pct_change": 5.16,
+        "subject_pct_change": -4.626,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260430_peer_AMZN": {
+      "id": "ev_NVDA_20260430_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved +0.77% the same day",
+      "detail": "NVDA moved -4.63% while AMZN moved +0.77%. AMZN is NVDA's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": 0.77,
+        "subject_pct_change": -4.626,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260430_peer_AVGO": {
+      "id": "ev_NVDA_20260430_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +2.96% the same day",
+      "detail": "NVDA moved -4.63% while AVGO moved +2.96%. AVGO is NVDA's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": 2.96,
+        "subject_pct_change": -4.626,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260430_peer_GOOGL": {
+      "id": "ev_NVDA_20260430_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +9.96% the same day",
+      "detail": "NVDA moved -4.63% while GOOGL moved +9.96%. GOOGL is NVDA's competitor (cloud services and AI computing hardware and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": 9.96,
+        "subject_pct_change": -4.626,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260430_peer_INTC": {
+      "id": "ev_NVDA_20260430_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -0.28% the same day",
+      "detail": "NVDA moved -4.63% while INTC moved -0.28%. INTC is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": -0.28,
         "subject_pct_change": -4.626,
         "relationship": "competitor"
       }
@@ -1675,6 +1903,34 @@
         "relationship": "customer and competitor"
       }
     },
+    "ev_NVDA_20260430_peer_MU": {
+      "id": "ev_NVDA_20260430_peer_MU",
+      "kind": "peer_move",
+      "title": "MU (supplier) moved -0.25% the same day",
+      "detail": "NVDA moved -4.63% while MU moved -0.25%. MU is NVDA's supplier (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": -0.25,
+        "subject_pct_change": -4.626,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260430_peer_QCOM": {
+      "id": "ev_NVDA_20260430_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +15.12% the same day",
+      "detail": "NVDA moved -4.63% while QCOM moved +15.12%. QCOM is NVDA's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": 15.12,
+        "subject_pct_change": -4.626,
+        "relationship": "competitor"
+      }
+    },
     "ev_NVDA_20260430_peer_TSM": {
       "id": "ev_NVDA_20260430_peer_TSM",
       "kind": "peer_move",
@@ -1689,62 +1945,146 @@
         "relationship": "supplier"
       }
     },
-    "ev_NVDA_20260506_price": {
-      "id": "ev_NVDA_20260506_price",
+    "ev_NVDA_20260514_price": {
+      "id": "ev_NVDA_20260514_price",
       "kind": "price",
-      "title": "NVDA rose 5.77% on 2026-05-06",
-      "detail": "Closed at $207.83 from $196.50. Volume was 1.6x the 30-day average.",
+      "title": "NVDA rose 4.39% on 2026-05-14",
+      "detail": "Closed at $235.74 from $225.83. Volume was 1.5x the 30-day average.",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-05-06",
+      "occurred_on": "2026-05-14",
       "numbers": {
-        "pct_change": 5.766,
-        "close": 207.83,
-        "prev_close": 196.5,
-        "volume": 188362800,
-        "volume_vs_30d_avg": 1.56,
-        "move_excluding_sector_pct": 2.77
+        "pct_change": 4.388,
+        "close": 235.74,
+        "prev_close": 225.83,
+        "volume": 180782900,
+        "volume_vs_30d_avg": 1.5,
+        "move_excluding_sector_pct": 4.69
       }
     },
-    "ev_NVDA_20260506_peer_AMD": {
-      "id": "ev_NVDA_20260506_peer_AMD",
+    "ev_NVDA_20260514_peer_AMD": {
+      "id": "ev_NVDA_20260514_peer_AMD",
       "kind": "peer_move",
-      "title": "AMD (competitor) moved +18.61% the same day",
-      "detail": "NVDA moved +5.77% while AMD moved +18.61%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "title": "AMD (competitor) moved +0.94% the same day",
+      "detail": "NVDA moved +4.39% while AMD moved +0.94%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-05-06",
+      "occurred_on": "2026-05-14",
       "numbers": {
-        "peer_pct_change": 18.61,
-        "subject_pct_change": 5.766,
+        "peer_pct_change": 0.94,
+        "subject_pct_change": 4.388,
         "relationship": "competitor"
       }
     },
-    "ev_NVDA_20260506_peer_MSFT": {
-      "id": "ev_NVDA_20260506_peer_MSFT",
+    "ev_NVDA_20260514_peer_AMZN": {
+      "id": "ev_NVDA_20260514_peer_AMZN",
       "kind": "peer_move",
-      "title": "MSFT (customer and competitor) moved +0.63% the same day",
-      "detail": "NVDA moved +5.77% while MSFT moved +0.63%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "title": "AMZN (competitor) moved -1.08% the same day",
+      "detail": "NVDA moved +4.39% while AMZN moved -1.08%. AMZN is NVDA's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": -1.08,
+        "subject_pct_change": 4.388,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260514_peer_AVGO": {
+      "id": "ev_NVDA_20260514_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +5.52% the same day",
+      "detail": "NVDA moved +4.39% while AVGO moved +5.52%. AVGO is NVDA's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": 5.52,
+        "subject_pct_change": 4.388,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260514_peer_GOOGL": {
+      "id": "ev_NVDA_20260514_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved -0.39% the same day",
+      "detail": "NVDA moved +4.39% while GOOGL moved -0.39%. GOOGL is NVDA's competitor (cloud services and AI computing hardware and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": -0.39,
+        "subject_pct_change": 4.388,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260514_peer_INTC": {
+      "id": "ev_NVDA_20260514_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -3.62% the same day",
+      "detail": "NVDA moved +4.39% while INTC moved -3.62%. INTC is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": -3.62,
+        "subject_pct_change": 4.388,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260514_peer_MSFT": {
+      "id": "ev_NVDA_20260514_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer and competitor) moved +1.04% the same day",
+      "detail": "NVDA moved +4.39% while MSFT moved +1.04%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/MSFT/history",
-      "occurred_on": "2026-05-06",
+      "occurred_on": "2026-05-14",
       "numbers": {
-        "peer_pct_change": 0.63,
-        "subject_pct_change": 5.766,
+        "peer_pct_change": 1.04,
+        "subject_pct_change": 4.388,
         "relationship": "customer and competitor"
       }
     },
-    "ev_NVDA_20260506_peer_TSM": {
-      "id": "ev_NVDA_20260506_peer_TSM",
+    "ev_NVDA_20260514_peer_MU": {
+      "id": "ev_NVDA_20260514_peer_MU",
       "kind": "peer_move",
-      "title": "TSM (supplier) moved +6.36% the same day",
-      "detail": "NVDA moved +5.77% while TSM moved +6.36%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
+      "title": "MU (supplier) moved -3.44% the same day",
+      "detail": "NVDA moved +4.39% while MU moved -3.44%. MU is NVDA's supplier (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": -3.44,
+        "subject_pct_change": 4.388,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260514_peer_QCOM": {
+      "id": "ev_NVDA_20260514_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -6.14% the same day",
+      "detail": "NVDA moved +4.39% while QCOM moved -6.14%. QCOM is NVDA's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": -6.14,
+        "subject_pct_change": 4.388,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260514_peer_TSM": {
+      "id": "ev_NVDA_20260514_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +4.48% the same day",
+      "detail": "NVDA moved +4.39% while TSM moved +4.48%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-05-06",
+      "occurred_on": "2026-05-14",
       "numbers": {
-        "peer_pct_change": 6.36,
-        "subject_pct_change": 5.766,
+        "peer_pct_change": 4.48,
+        "subject_pct_change": 4.388,
         "relationship": "supplier"
       }
     },
@@ -1762,7 +2102,7 @@
         "prev_close": 211.14,
         "volume": 212850700,
         "volume_vs_30d_avg": 1.76,
-        "move_excluding_sector_pct": 4.52
+        "move_excluding_sector_pct": 6.61
       }
     },
     "ev_NVDA_20260601_peer_AMD": {
@@ -1775,6 +2115,62 @@
       "occurred_on": "2026-06-01",
       "numbers": {
         "peer_pct_change": -1.16,
+        "subject_pct_change": 6.261,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260601_peer_AMZN": {
+      "id": "ev_NVDA_20260601_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved -3.47% the same day",
+      "detail": "NVDA moved +6.26% while AMZN moved -3.47%. AMZN is NVDA's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": -3.47,
+        "subject_pct_change": 6.261,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260601_peer_AVGO": {
+      "id": "ev_NVDA_20260601_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +2.96% the same day",
+      "detail": "NVDA moved +6.26% while AVGO moved +2.96%. AVGO is NVDA's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": 2.96,
+        "subject_pct_change": 6.261,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260601_peer_GOOGL": {
+      "id": "ev_NVDA_20260601_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved -1.04% the same day",
+      "detail": "NVDA moved +6.26% while GOOGL moved -1.04%. GOOGL is NVDA's competitor (cloud services and AI computing hardware and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": -1.04,
+        "subject_pct_change": 6.261,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260601_peer_INTC": {
+      "id": "ev_NVDA_20260601_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -4.67% the same day",
+      "detail": "NVDA moved +6.26% while INTC moved -4.67%. INTC is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": -4.67,
         "subject_pct_change": 6.261,
         "relationship": "competitor"
       }
@@ -1793,6 +2189,34 @@
         "relationship": "customer and competitor"
       }
     },
+    "ev_NVDA_20260601_peer_MU": {
+      "id": "ev_NVDA_20260601_peer_MU",
+      "kind": "peer_move",
+      "title": "MU (supplier) moved +6.64% the same day",
+      "detail": "NVDA moved +6.26% while MU moved +6.64%. MU is NVDA's supplier (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": 6.64,
+        "subject_pct_change": 6.261,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260601_peer_QCOM": {
+      "id": "ev_NVDA_20260601_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -8.78% the same day",
+      "detail": "NVDA moved +6.26% while QCOM moved -8.78%. QCOM is NVDA's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": -8.78,
+        "subject_pct_change": 6.261,
+        "relationship": "competitor"
+      }
+    },
     "ev_NVDA_20260601_peer_TSM": {
       "id": "ev_NVDA_20260601_peer_TSM",
       "kind": "peer_move",
@@ -1804,6 +2228,149 @@
       "numbers": {
         "peer_pct_change": 4.11,
         "subject_pct_change": 6.261,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260603_price": {
+      "id": "ev_NVDA_20260603_price",
+      "kind": "price",
+      "title": "NVDA fell 3.62% on 2026-06-03",
+      "detail": "Closed at $214.75 from $222.82. Volume was 1.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-03",
+      "numbers": {
+        "pct_change": -3.622,
+        "close": 214.75,
+        "prev_close": 222.82,
+        "volume": 160907000,
+        "volume_vs_30d_avg": 1.33,
+        "move_excluding_sector_pct": 4.12
+      }
+    },
+    "ev_NVDA_20260603_peer_AMD": {
+      "id": "ev_NVDA_20260603_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +4.02% the same day",
+      "detail": "NVDA moved -3.62% while AMD moved +4.02%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-03",
+      "numbers": {
+        "peer_pct_change": 4.02,
+        "subject_pct_change": -3.622,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260603_peer_AMZN": {
+      "id": "ev_NVDA_20260603_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved -2.53% the same day",
+      "detail": "NVDA moved -3.62% while AMZN moved -2.53%. AMZN is NVDA's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-06-03",
+      "numbers": {
+        "peer_pct_change": -2.53,
+        "subject_pct_change": -3.622,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260603_peer_AVGO": {
+      "id": "ev_NVDA_20260603_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -0.49% the same day",
+      "detail": "NVDA moved -3.62% while AVGO moved -0.49%. AVGO is NVDA's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-03",
+      "numbers": {
+        "peer_pct_change": -0.49,
+        "subject_pct_change": -3.622,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260603_peer_GOOGL": {
+      "id": "ev_NVDA_20260603_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved -0.79% the same day",
+      "detail": "NVDA moved -3.62% while GOOGL moved -0.79%. GOOGL is NVDA's competitor (cloud services and AI computing hardware and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-06-03",
+      "numbers": {
+        "peer_pct_change": -0.79,
+        "subject_pct_change": -3.622,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260603_peer_INTC": {
+      "id": "ev_NVDA_20260603_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +4.43% the same day",
+      "detail": "NVDA moved -3.62% while INTC moved +4.43%. INTC is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-03",
+      "numbers": {
+        "peer_pct_change": 4.43,
+        "subject_pct_change": -3.622,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260603_peer_MSFT": {
+      "id": "ev_NVDA_20260603_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer and competitor) moved -3.17% the same day",
+      "detail": "NVDA moved -3.62% while MSFT moved -3.17%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-06-03",
+      "numbers": {
+        "peer_pct_change": -3.17,
+        "subject_pct_change": -3.622,
+        "relationship": "customer and competitor"
+      }
+    },
+    "ev_NVDA_20260603_peer_MU": {
+      "id": "ev_NVDA_20260603_peer_MU",
+      "kind": "peer_move",
+      "title": "MU (supplier) moved +1.45% the same day",
+      "detail": "NVDA moved -3.62% while MU moved +1.45%. MU is NVDA's supplier (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-06-03",
+      "numbers": {
+        "peer_pct_change": 1.45,
+        "subject_pct_change": -3.622,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260603_peer_QCOM": {
+      "id": "ev_NVDA_20260603_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +3.81% the same day",
+      "detail": "NVDA moved -3.62% while QCOM moved +3.81%. QCOM is NVDA's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-03",
+      "numbers": {
+        "peer_pct_change": 3.81,
+        "subject_pct_change": -3.622,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260603_peer_TSM": {
+      "id": "ev_NVDA_20260603_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -2.24% the same day",
+      "detail": "NVDA moved -3.62% while TSM moved -2.24%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-03",
+      "numbers": {
+        "peer_pct_change": -2.24,
+        "subject_pct_change": -3.622,
         "relationship": "supplier"
       }
     },
@@ -1821,7 +2388,7 @@
         "prev_close": 196.93,
         "volume": 147419100,
         "volume_vs_30d_avg": 1.22,
-        "move_excluding_sector_pct": 3.7
+        "move_excluding_sector_pct": 3.07
       }
     },
     "ev_NVDA_20260708_peer_AMD": {
@@ -1838,6 +2405,62 @@
         "relationship": "competitor"
       }
     },
+    "ev_NVDA_20260708_peer_AMZN": {
+      "id": "ev_NVDA_20260708_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved -0.96% the same day",
+      "detail": "NVDA moved +3.65% while AMZN moved -0.96%. AMZN is NVDA's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-07-08",
+      "numbers": {
+        "peer_pct_change": -0.96,
+        "subject_pct_change": 3.651,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260708_peer_AVGO": {
+      "id": "ev_NVDA_20260708_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +4.83% the same day",
+      "detail": "NVDA moved +3.65% while AVGO moved +4.83%. AVGO is NVDA's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-07-08",
+      "numbers": {
+        "peer_pct_change": 4.83,
+        "subject_pct_change": 3.651,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260708_peer_GOOGL": {
+      "id": "ev_NVDA_20260708_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved -1.39% the same day",
+      "detail": "NVDA moved +3.65% while GOOGL moved -1.39%. GOOGL is NVDA's competitor (cloud services and AI computing hardware and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-07-08",
+      "numbers": {
+        "peer_pct_change": -1.39,
+        "subject_pct_change": 3.651,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260708_peer_INTC": {
+      "id": "ev_NVDA_20260708_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -0.14% the same day",
+      "detail": "NVDA moved +3.65% while INTC moved -0.14%. INTC is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-08",
+      "numbers": {
+        "peer_pct_change": -0.14,
+        "subject_pct_change": 3.651,
+        "relationship": "competitor"
+      }
+    },
     "ev_NVDA_20260708_peer_MSFT": {
       "id": "ev_NVDA_20260708_peer_MSFT",
       "kind": "peer_move",
@@ -1850,6 +2473,34 @@
         "peer_pct_change": -1.41,
         "subject_pct_change": 3.651,
         "relationship": "customer and competitor"
+      }
+    },
+    "ev_NVDA_20260708_peer_MU": {
+      "id": "ev_NVDA_20260708_peer_MU",
+      "kind": "peer_move",
+      "title": "MU (supplier) moved +1.11% the same day",
+      "detail": "NVDA moved +3.65% while MU moved +1.11%. MU is NVDA's supplier (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-07-08",
+      "numbers": {
+        "peer_pct_change": 1.11,
+        "subject_pct_change": 3.651,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260708_peer_QCOM": {
+      "id": "ev_NVDA_20260708_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +1.96% the same day",
+      "detail": "NVDA moved +3.65% while QCOM moved +1.96%. QCOM is NVDA's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-08",
+      "numbers": {
+        "peer_pct_change": 1.96,
+        "subject_pct_change": 3.651,
+        "relationship": "competitor"
       }
     },
     "ev_NVDA_20260708_peer_TSM": {
@@ -1880,7 +2531,7 @@
         "prev_close": 202.78,
         "volume": 148421000,
         "volume_vs_30d_avg": 1.23,
-        "move_excluding_sector_pct": 3.51
+        "move_excluding_sector_pct": 4.54
       }
     },
     "ev_NVDA_20260710_peer_AMD": {
@@ -1897,6 +2548,62 @@
         "relationship": "competitor"
       }
     },
+    "ev_NVDA_20260710_peer_AMZN": {
+      "id": "ev_NVDA_20260710_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved -0.69% the same day",
+      "detail": "NVDA moved +4.03% while AMZN moved -0.69%. AMZN is NVDA's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-07-10",
+      "numbers": {
+        "peer_pct_change": -0.69,
+        "subject_pct_change": 4.034,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260710_peer_AVGO": {
+      "id": "ev_NVDA_20260710_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -0.28% the same day",
+      "detail": "NVDA moved +4.03% while AVGO moved -0.28%. AVGO is NVDA's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-07-10",
+      "numbers": {
+        "peer_pct_change": -0.28,
+        "subject_pct_change": 4.034,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260710_peer_GOOGL": {
+      "id": "ev_NVDA_20260710_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved -0.48% the same day",
+      "detail": "NVDA moved +4.03% while GOOGL moved -0.48%. GOOGL is NVDA's competitor (cloud services and AI computing hardware and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-07-10",
+      "numbers": {
+        "peer_pct_change": -0.48,
+        "subject_pct_change": 4.034,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260710_peer_INTC": {
+      "id": "ev_NVDA_20260710_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -2.40% the same day",
+      "detail": "NVDA moved +4.03% while INTC moved -2.40%. INTC is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-10",
+      "numbers": {
+        "peer_pct_change": -2.4,
+        "subject_pct_change": 4.034,
+        "relationship": "competitor"
+      }
+    },
     "ev_NVDA_20260710_peer_MSFT": {
       "id": "ev_NVDA_20260710_peer_MSFT",
       "kind": "peer_move",
@@ -1909,6 +2616,34 @@
         "peer_pct_change": 0.19,
         "subject_pct_change": 4.034,
         "relationship": "customer and competitor"
+      }
+    },
+    "ev_NVDA_20260710_peer_MU": {
+      "id": "ev_NVDA_20260710_peer_MU",
+      "kind": "peer_move",
+      "title": "MU (supplier) moved -1.24% the same day",
+      "detail": "NVDA moved +4.03% while MU moved -1.24%. MU is NVDA's supplier (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-07-10",
+      "numbers": {
+        "peer_pct_change": -1.24,
+        "subject_pct_change": 4.034,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260710_peer_QCOM": {
+      "id": "ev_NVDA_20260710_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -1.02% the same day",
+      "detail": "NVDA moved +4.03% while QCOM moved -1.02%. QCOM is NVDA's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-10",
+      "numbers": {
+        "peer_pct_change": -1.02,
+        "subject_pct_change": 4.034,
+        "relationship": "competitor"
       }
     },
     "ev_NVDA_20260710_peer_TSM": {
@@ -1939,7 +2674,7 @@
         "prev_close": 206.84,
         "volume": 154353700,
         "volume_vs_30d_avg": 1.28,
-        "move_excluding_sector_pct": 3.56
+        "move_excluding_sector_pct": 4.63
       }
     },
     "ev_NVDA_20260727_peer_AMD": {
@@ -1956,6 +2691,62 @@
         "relationship": "competitor"
       }
     },
+    "ev_NVDA_20260727_peer_AMZN": {
+      "id": "ev_NVDA_20260727_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved -0.31% the same day",
+      "detail": "NVDA moved -4.99% while AMZN moved -0.31%. AMZN is NVDA's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-07-27",
+      "numbers": {
+        "peer_pct_change": -0.31,
+        "subject_pct_change": -4.994,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260727_peer_AVGO": {
+      "id": "ev_NVDA_20260727_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +0.34% the same day",
+      "detail": "NVDA moved -4.99% while AVGO moved +0.34%. AVGO is NVDA's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-07-27",
+      "numbers": {
+        "peer_pct_change": 0.34,
+        "subject_pct_change": -4.994,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260727_peer_GOOGL": {
+      "id": "ev_NVDA_20260727_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +2.13% the same day",
+      "detail": "NVDA moved -4.99% while GOOGL moved +2.13%. GOOGL is NVDA's competitor (cloud services and AI computing hardware and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-07-27",
+      "numbers": {
+        "peer_pct_change": 2.13,
+        "subject_pct_change": -4.994,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260727_peer_INTC": {
+      "id": "ev_NVDA_20260727_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -0.70% the same day",
+      "detail": "NVDA moved -4.99% while INTC moved -0.70%. INTC is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-27",
+      "numbers": {
+        "peer_pct_change": -0.7,
+        "subject_pct_change": -4.994,
+        "relationship": "competitor"
+      }
+    },
     "ev_NVDA_20260727_peer_MSFT": {
       "id": "ev_NVDA_20260727_peer_MSFT",
       "kind": "peer_move",
@@ -1968,6 +2759,34 @@
         "peer_pct_change": 1.94,
         "subject_pct_change": -4.994,
         "relationship": "customer and competitor"
+      }
+    },
+    "ev_NVDA_20260727_peer_MU": {
+      "id": "ev_NVDA_20260727_peer_MU",
+      "kind": "peer_move",
+      "title": "MU (supplier) moved -2.25% the same day",
+      "detail": "NVDA moved -4.99% while MU moved -2.25%. MU is NVDA's supplier (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-07-27",
+      "numbers": {
+        "peer_pct_change": -2.25,
+        "subject_pct_change": -4.994,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260727_peer_QCOM": {
+      "id": "ev_NVDA_20260727_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +1.84% the same day",
+      "detail": "NVDA moved -4.99% while QCOM moved +1.84%. QCOM is NVDA's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-27",
+      "numbers": {
+        "peer_pct_change": 1.84,
+        "subject_pct_change": -4.994,
+        "relationship": "competitor"
       }
     },
     "ev_NVDA_20260727_peer_TSM": {
@@ -1998,7 +2817,7 @@
         "prev_close": 211.94,
         "volume": 158187400,
         "volume_vs_30d_avg": 1.31,
-        "move_excluding_sector_pct": 6.4
+        "move_excluding_sector_pct": 5.38
       }
     },
     "ev_NVDA_20260805_peer_AMD": {
@@ -2015,6 +2834,62 @@
         "relationship": "competitor"
       }
     },
+    "ev_NVDA_20260805_peer_AMZN": {
+      "id": "ev_NVDA_20260805_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved -1.72% the same day",
+      "detail": "NVDA moved +3.44% while AMZN moved -1.72%. AMZN is NVDA's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "peer_pct_change": -1.72,
+        "subject_pct_change": 3.435,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260805_peer_AVGO": {
+      "id": "ev_NVDA_20260805_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +0.03% the same day",
+      "detail": "NVDA moved +3.44% while AVGO moved +0.03%. AVGO is NVDA's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "peer_pct_change": 0.03,
+        "subject_pct_change": 3.435,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260805_peer_GOOGL": {
+      "id": "ev_NVDA_20260805_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved -4.03% the same day",
+      "detail": "NVDA moved +3.44% while GOOGL moved -4.03%. GOOGL is NVDA's competitor (cloud services and AI computing hardware and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "peer_pct_change": -4.03,
+        "subject_pct_change": 3.435,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260805_peer_INTC": {
+      "id": "ev_NVDA_20260805_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +0.20% the same day",
+      "detail": "NVDA moved +3.44% while INTC moved +0.20%. INTC is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "peer_pct_change": 0.2,
+        "subject_pct_change": 3.435,
+        "relationship": "competitor"
+      }
+    },
     "ev_NVDA_20260805_peer_MSFT": {
       "id": "ev_NVDA_20260805_peer_MSFT",
       "kind": "peer_move",
@@ -2027,6 +2902,34 @@
         "peer_pct_change": -1.09,
         "subject_pct_change": 3.435,
         "relationship": "customer and competitor"
+      }
+    },
+    "ev_NVDA_20260805_peer_MU": {
+      "id": "ev_NVDA_20260805_peer_MU",
+      "kind": "peer_move",
+      "title": "MU (supplier) moved +0.06% the same day",
+      "detail": "NVDA moved +3.44% while MU moved +0.06%. MU is NVDA's supplier (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "peer_pct_change": 0.06,
+        "subject_pct_change": 3.435,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260805_peer_QCOM": {
+      "id": "ev_NVDA_20260805_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -3.16% the same day",
+      "detail": "NVDA moved +3.44% while QCOM moved -3.16%. QCOM is NVDA's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "peer_pct_change": -3.16,
+        "subject_pct_change": 3.435,
+        "relationship": "competitor"
       }
     },
     "ev_NVDA_20260805_peer_TSM": {
@@ -2057,7 +2960,7 @@
         "prev_close": 209.66,
         "volume": 298909800,
         "volume_vs_30d_avg": 2.48,
-        "move_excluding_sector_pct": 7.68
+        "move_excluding_sector_pct": 7.58
       }
     },
     "ev_NVDA_20260827_peer_AMD": {
@@ -2074,6 +2977,62 @@
         "relationship": "competitor"
       }
     },
+    "ev_NVDA_20260827_peer_AMZN": {
+      "id": "ev_NVDA_20260827_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved -1.54% the same day",
+      "detail": "NVDA moved +8.74% while AMZN moved -1.54%. AMZN is NVDA's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-08-27",
+      "numbers": {
+        "peer_pct_change": -1.54,
+        "subject_pct_change": 8.738,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260827_peer_AVGO": {
+      "id": "ev_NVDA_20260827_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +4.49% the same day",
+      "detail": "NVDA moved +8.74% while AVGO moved +4.49%. AVGO is NVDA's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-08-27",
+      "numbers": {
+        "peer_pct_change": 4.49,
+        "subject_pct_change": 8.738,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260827_peer_GOOGL": {
+      "id": "ev_NVDA_20260827_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved -0.40% the same day",
+      "detail": "NVDA moved +8.74% while GOOGL moved -0.40%. GOOGL is NVDA's competitor (cloud services and AI computing hardware and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-08-27",
+      "numbers": {
+        "peer_pct_change": -0.4,
+        "subject_pct_change": 8.738,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260827_peer_INTC": {
+      "id": "ev_NVDA_20260827_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +4.36% the same day",
+      "detail": "NVDA moved +8.74% while INTC moved +4.36%. INTC is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-08-27",
+      "numbers": {
+        "peer_pct_change": 4.36,
+        "subject_pct_change": 8.738,
+        "relationship": "competitor"
+      }
+    },
     "ev_NVDA_20260827_peer_MSFT": {
       "id": "ev_NVDA_20260827_peer_MSFT",
       "kind": "peer_move",
@@ -2086,6 +3045,34 @@
         "peer_pct_change": 1.75,
         "subject_pct_change": 8.738,
         "relationship": "customer and competitor"
+      }
+    },
+    "ev_NVDA_20260827_peer_MU": {
+      "id": "ev_NVDA_20260827_peer_MU",
+      "kind": "peer_move",
+      "title": "MU (supplier) moved -0.32% the same day",
+      "detail": "NVDA moved +8.74% while MU moved -0.32%. MU is NVDA's supplier (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-08-27",
+      "numbers": {
+        "peer_pct_change": -0.32,
+        "subject_pct_change": 8.738,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260827_peer_QCOM": {
+      "id": "ev_NVDA_20260827_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +0.65% the same day",
+      "detail": "NVDA moved +8.74% while QCOM moved +0.65%. QCOM is NVDA's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-08-27",
+      "numbers": {
+        "peer_pct_change": 0.65,
+        "subject_pct_change": 8.738,
+        "relationship": "competitor"
       }
     },
     "ev_NVDA_20260827_peer_TSM": {
@@ -2136,7 +3123,7 @@
         "prev_close": 227.98,
         "volume": 195116400,
         "volume_vs_30d_avg": 1.62,
-        "move_excluding_sector_pct": 3.6
+        "move_excluding_sector_pct": 4.42
       }
     },
     "ev_NVDA_20260828_peer_AMD": {
@@ -2153,6 +3140,62 @@
         "relationship": "competitor"
       }
     },
+    "ev_NVDA_20260828_peer_AMZN": {
+      "id": "ev_NVDA_20260828_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved +3.97% the same day",
+      "detail": "NVDA moved -4.58% while AMZN moved +3.97%. AMZN is NVDA's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-08-28",
+      "numbers": {
+        "peer_pct_change": 3.97,
+        "subject_pct_change": -4.575,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260828_peer_AVGO": {
+      "id": "ev_NVDA_20260828_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -0.74% the same day",
+      "detail": "NVDA moved -4.58% while AVGO moved -0.74%. AVGO is NVDA's competitor (SoC products and networking products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-08-28",
+      "numbers": {
+        "peer_pct_change": -0.74,
+        "subject_pct_change": -4.575,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260828_peer_GOOGL": {
+      "id": "ev_NVDA_20260828_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +1.74% the same day",
+      "detail": "NVDA moved -4.58% while GOOGL moved +1.74%. GOOGL is NVDA's competitor (cloud services and AI computing hardware and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-08-28",
+      "numbers": {
+        "peer_pct_change": 1.74,
+        "subject_pct_change": -4.575,
+        "relationship": "competitor"
+      }
+    },
+    "ev_NVDA_20260828_peer_INTC": {
+      "id": "ev_NVDA_20260828_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -2.85% the same day",
+      "detail": "NVDA moved -4.58% while INTC moved -2.85%. INTC is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-08-28",
+      "numbers": {
+        "peer_pct_change": -2.85,
+        "subject_pct_change": -4.575,
+        "relationship": "competitor"
+      }
+    },
     "ev_NVDA_20260828_peer_MSFT": {
       "id": "ev_NVDA_20260828_peer_MSFT",
       "kind": "peer_move",
@@ -2165,6 +3208,34 @@
         "peer_pct_change": 1.68,
         "subject_pct_change": -4.575,
         "relationship": "customer and competitor"
+      }
+    },
+    "ev_NVDA_20260828_peer_MU": {
+      "id": "ev_NVDA_20260828_peer_MU",
+      "kind": "peer_move",
+      "title": "MU (supplier) moved -0.27% the same day",
+      "detail": "NVDA moved -4.58% while MU moved -0.27%. MU is NVDA's supplier (memory), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MU/history",
+      "occurred_on": "2026-08-28",
+      "numbers": {
+        "peer_pct_change": -0.27,
+        "subject_pct_change": -4.575,
+        "relationship": "supplier"
+      }
+    },
+    "ev_NVDA_20260828_peer_QCOM": {
+      "id": "ev_NVDA_20260828_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -0.36% the same day",
+      "detail": "NVDA moved -4.58% while QCOM moved -0.36%. QCOM is NVDA's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-08-28",
+      "numbers": {
+        "peer_pct_change": -0.36,
+        "subject_pct_change": -4.575,
+        "relationship": "competitor"
       }
     },
     "ev_NVDA_20260828_peer_TSM": {
@@ -2200,65 +3271,6 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm",
       "occurred_on": "2026-08-26",
       "numbers": {}
-    },
-    "ev_NVDA_20260902_price": {
-      "id": "ev_NVDA_20260902_price",
-      "kind": "price",
-      "title": "NVDA rose 3.21% on 2026-09-02",
-      "detail": "Closed at $224.41 from $217.44. Volume was 1.3x the 30-day average.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-09-02",
-      "numbers": {
-        "pct_change": 3.205,
-        "close": 224.41,
-        "prev_close": 217.44,
-        "volume": 157104700,
-        "volume_vs_30d_avg": 1.3,
-        "move_excluding_sector_pct": 3.55
-      }
-    },
-    "ev_NVDA_20260902_peer_AMD": {
-      "id": "ev_NVDA_20260902_peer_AMD",
-      "kind": "peer_move",
-      "title": "AMD (competitor) moved -0.56% the same day",
-      "detail": "NVDA moved +3.21% while AMD moved -0.56%. AMD is NVDA's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-09-02",
-      "numbers": {
-        "peer_pct_change": -0.56,
-        "subject_pct_change": 3.205,
-        "relationship": "competitor"
-      }
-    },
-    "ev_NVDA_20260902_peer_MSFT": {
-      "id": "ev_NVDA_20260902_peer_MSFT",
-      "kind": "peer_move",
-      "title": "MSFT (customer and competitor) moved -0.84% the same day",
-      "detail": "NVDA moved +3.21% while MSFT moved -0.84%. MSFT is NVDA's customer and competitor (data center GPUs for Azure AI infrastructure), per the knowledge graph (source: manual).",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/MSFT/history",
-      "occurred_on": "2026-09-02",
-      "numbers": {
-        "peer_pct_change": -0.84,
-        "subject_pct_change": 3.205,
-        "relationship": "customer and competitor"
-      }
-    },
-    "ev_NVDA_20260902_peer_TSM": {
-      "id": "ev_NVDA_20260902_peer_TSM",
-      "kind": "peer_move",
-      "title": "TSM (supplier) moved +0.36% the same day",
-      "detail": "NVDA moved +3.21% while TSM moved +0.36%. TSM is NVDA's supplier (wafer foundry), per the knowledge graph (source: 10-K).",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-09-02",
-      "numbers": {
-        "peer_pct_change": 0.36,
-        "subject_pct_change": 3.205,
-        "relationship": "supplier"
-      }
     },
     "ev_NVDA_fund_revenue": {
       "id": "ev_NVDA_fund_revenue",
@@ -2366,19 +3378,13 @@
       }
     }
   },
-  "arc": "Between late April and early September 2026, NVIDIA rose from $199.64 to $224.41, alternating between synchronized industry-wide moves and company-specific divergence. In April and May, price action frequently moved in tandem with competitor AMD and supplier TSM during broad semiconductor rallies. The dominant fundamental event arrived on August 26 with NVIDIA's 10-Q and 8-K filings, which sparked an 8.74% surge to $227.98 on 2.5 times average volume before a partial 4.58% pullback the following day. By September, the stock demonstrated distinct company-specific strength, climbing 3.21% even as key peer AMD and customer MSFT drifted lower.",
+  "arc": "Between April and August 2026, NVIDIA experienced substantial volatility while net advancing from $199.64 to $217.55. Most moves occurred without company-specific news and frequently tracked broader semiconductor trends alongside suppliers like TSM and MU and competitors such as AMD. The clearest company-specific driver arrived in late August, when NVIDIA filed its Form 10-Q and Form 8-K on August 26, propelling an 8.74% rally on August 27 that gave back 4.58% the following day.",
   "arc_citation_ids": [
     "ev_NVDA_20260424_price",
-    "ev_NVDA_20260424_peer_AMD",
-    "ev_NVDA_20260424_peer_TSM",
-    "ev_NVDA_20260506_price",
-    "ev_NVDA_20260827_price",
     "ev_NVDA_20260827_filing_000104581026000075",
     "ev_NVDA_20260827_filing_000104581026000073",
-    "ev_NVDA_20260828_price",
-    "ev_NVDA_20260902_price",
-    "ev_NVDA_20260902_peer_AMD",
-    "ev_NVDA_20260902_peer_MSFT"
+    "ev_NVDA_20260827_price",
+    "ev_NVDA_20260828_price"
   ],
   "warnings": []
 }

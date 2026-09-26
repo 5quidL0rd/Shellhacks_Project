@@ -1,7 +1,7 @@
 {
   "symbol": "AMD",
   "company_name": "Advanced Micro Devices, Inc.",
-  "generated_at": "2026-09-26T09:41:10.789318+00:00",
+  "generated_at": "2026-09-26T12:37:34.533934+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,14 +1320,14 @@
       "pct_change": 7.255,
       "close": 220.27,
       "direction": "up",
-      "headline": "AMD rises 7.25% on above-average volume",
-      "explanation": "AMD shares climbed 7.25% to $220.27 on volume 2.4 times its 30-day average. No company-specific news was provided to explain the gain. Competitor NVDA gained 1.99% and supplier TSM added 1.31%, while customer MSFT slipped 0.46%.",
+      "headline": "Shares rise 7.25% alongside competitor Intel",
+      "explanation": "AMD climbed 7.25% to close at $220.27 on trading volume 2.4 times its 30-day average. No company-specific news accompanied the gain; the advance was shared with competitor INTC, which rose 7.08%, while supplier TSM rose 1.31%. Customer MSFT moved slightly lower, declining 0.46%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AMD_20260325_price",
-        "ev_AMD_20260325_peer_MSFT",
-        "ev_AMD_20260325_peer_NVDA",
-        "ev_AMD_20260325_peer_TSM"
+        "ev_AMD_20260325_peer_INTC",
+        "ev_AMD_20260325_peer_TSM",
+        "ev_AMD_20260325_peer_MSFT"
       ]
     },
     {
@@ -1335,14 +1335,29 @@
       "pct_change": 7.803,
       "close": 278.26,
       "direction": "up",
-      "headline": "AMD gains 7.80% in company-specific advance",
-      "explanation": "AMD rose 7.80% to close at $278.26 on 3.1 times its average daily volume. No news accompanied the move, which was company-specific. Competitor NVDA edged down 0.26% and supplier TSM dropped 3.13%, though customer MSFT rose 2.20%.",
+      "headline": "Shares gain 7.80% as competitor Intel advances",
+      "explanation": "AMD rose 7.80% to $278.26 on 3.1 times its 30-day average volume. No company filings or corporate announcements were provided for the day, and the move was shared with competitor INTC, which added 5.48%. In contrast, supplier TSM fell 3.13% and competitor NVDA slipped 0.26%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AMD_20260416_price",
-        "ev_AMD_20260416_peer_MSFT",
-        "ev_AMD_20260416_peer_NVDA",
-        "ev_AMD_20260416_peer_TSM"
+        "ev_AMD_20260416_peer_INTC",
+        "ev_AMD_20260416_peer_TSM",
+        "ev_AMD_20260416_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-04-22",
+      "pct_change": 6.668,
+      "close": 303.46,
+      "direction": "up",
+      "headline": "Shares advance 6.67% with peer Broadcom and supplier TSMC",
+      "explanation": "AMD gained 6.67% to finish at $303.46 on 2.4 times normal volume. The increase lacked company-specific reports and was shared across the supply chain, as competitor AVGO gained 5.09% and supplier TSM advanced 5.26%. Competitor INTC diverged from the group, falling 1.49%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMD_20260422_price",
+        "ev_AMD_20260422_peer_AVGO",
+        "ev_AMD_20260422_peer_TSM",
+        "ev_AMD_20260422_peer_INTC"
       ]
     },
     {
@@ -1350,13 +1365,13 @@
       "pct_change": 13.913,
       "close": 347.81,
       "direction": "up",
-      "headline": "AMD jumps 13.91% alongside peer strength",
-      "explanation": "AMD jumped 13.91% to $347.81 on 4.0 times its 30-day average volume. No company-specific reports were released, but the rally was shared with connected peers. Competitor NVDA rose 4.32%, supplier TSM advanced 5.17%, and customer MSFT gained 2.13%.",
+      "headline": "Shares surge 13.91% in broad semiconductor rally",
+      "explanation": "AMD gained 13.91% to $347.81 on volume 4.0 times its 30-day average. The upward move was shared across industry peers, with competitor INTC rallying 23.60%, competitor QCOM up 11.12%, and supplier TSM climbing 5.17%. No company-specific disclosures were issued to account for the jump.",
       "confidence": "low",
       "citation_ids": [
         "ev_AMD_20260424_price",
-        "ev_AMD_20260424_peer_MSFT",
-        "ev_AMD_20260424_peer_NVDA",
+        "ev_AMD_20260424_peer_INTC",
+        "ev_AMD_20260424_peer_QCOM",
         "ev_AMD_20260424_peer_TSM"
       ]
     },
@@ -1365,45 +1380,15 @@
       "pct_change": -3.789,
       "close": 334.63,
       "direction": "down",
-      "headline": "AMD declines 3.79% as peers gain",
-      "explanation": "AMD dropped 3.79% to $334.63 on 2.5 times average volume following its previous session's surge. The decline was company-specific with no news provided to explain it. Competitor NVDA gained 4.00%, supplier TSM rose 0.63%, and customer MSFT ticked up 0.05%.",
+      "headline": "Shares drop 3.79% in company-specific pullback",
+      "explanation": "AMD fell 3.79% to $334.63 on 2.5 times average volume. The decline was largely company-specific, as competitor INTC rose 2.97%, competitor NVDA climbed 4.00%, and supplier TSM gained 0.63%. Only competitor AVGO moved in the same direction, falling 1.08%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AMD_20260427_price",
-        "ev_AMD_20260427_peer_MSFT",
+        "ev_AMD_20260427_peer_INTC",
         "ev_AMD_20260427_peer_NVDA",
-        "ev_AMD_20260427_peer_TSM"
-      ]
-    },
-    {
-      "date": "2026-04-30",
-      "pct_change": 5.156,
-      "close": 354.49,
-      "direction": "up",
-      "headline": "AMD adds 5.16% as customer and competitor fall",
-      "explanation": "AMD gained 5.16% to finish at $354.49 on 2.0 times typical volume. The gain was company-specific, with no company news provided. Competitor NVDA dropped 4.63% and customer MSFT fell 3.93%, while supplier TSM rose 0.57%.",
-      "confidence": "low",
-      "citation_ids": [
-        "ev_AMD_20260430_price",
-        "ev_AMD_20260430_peer_MSFT",
-        "ev_AMD_20260430_peer_NVDA",
-        "ev_AMD_20260430_peer_TSM"
-      ]
-    },
-    {
-      "date": "2026-05-05",
-      "pct_change": 4.017,
-      "close": 355.26,
-      "direction": "up",
-      "headline": "AMD rises 4.02% following 8-K filing",
-      "explanation": "AMD climbed 4.02% to $355.26 on 3.1 times its normal volume on the day it submitted a Form 8-K filing. The advance was company-specific as connected peers moved lower. Customer MSFT slipped 0.54%, competitor NVDA declined 1.00%, and supplier TSM dropped 1.79%.",
-      "confidence": "high",
-      "citation_ids": [
-        "ev_AMD_20260505_price",
-        "ev_AMD_20260505_peer_MSFT",
-        "ev_AMD_20260505_peer_NVDA",
-        "ev_AMD_20260505_peer_TSM",
-        "ev_AMD_20260505_filing_000000248826000072"
+        "ev_AMD_20260427_peer_TSM",
+        "ev_AMD_20260427_peer_AVGO"
       ]
     },
     {
@@ -1411,16 +1396,17 @@
       "pct_change": 18.615,
       "close": 421.39,
       "direction": "up",
-      "headline": "AMD surges 18.61% after 10-Q filing",
-      "explanation": "AMD surged 18.61% to $421.39 on 4.3 times average volume following its quarterly 10-Q filing and prior-day 8-K. The broad semiconductor move was shared with industry partners, as competitor NVDA rose 5.77% and supplier TSM climbed 6.36%. Customer MSFT also added 0.63%.",
+      "headline": "Shares jump 18.61% following Form 10-Q filing",
+      "explanation": "AMD jumped 18.61% to $421.39 on 4.3 times average volume following the submission of an 8-K on May 5 and a Form 10-Q on May 6. The move was accompanied by broad industry strength, as supplier TSM rose 6.36% and competitor NVDA climbed 5.77%. Competitor INTC also gained 4.49%, while competitor AVGO slipped 0.45%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260506_price",
-        "ev_AMD_20260506_peer_MSFT",
-        "ev_AMD_20260506_peer_NVDA",
-        "ev_AMD_20260506_peer_TSM",
+        "ev_AMD_20260506_filing_000000248826000072",
         "ev_AMD_20260506_filing_000000248826000076",
-        "ev_AMD_20260506_filing_000000248826000072"
+        "ev_AMD_20260506_peer_TSM",
+        "ev_AMD_20260506_peer_NVDA",
+        "ev_AMD_20260506_peer_INTC",
+        "ev_AMD_20260506_peer_AVGO"
       ]
     },
     {
@@ -1428,15 +1414,16 @@
       "pct_change": 11.441,
       "close": 455.19,
       "direction": "up",
-      "headline": "AMD climbs 11.44% in post-earnings momentum",
-      "explanation": "AMD increased 11.44% to $455.19 on 2.8 times average volume in continued trading following its May 6 Form 10-Q filing. The move was company-specific, as competitor NVDA rose a modest 1.75%, supplier TSM dipped 0.60%, and customer MSFT fell 1.34%.",
+      "headline": "Shares climb 11.44% as chip competitors surge",
+      "explanation": "AMD rose 11.44% to $455.19 on 2.8 times average volume two days after filing its Form 10-Q. The advance was shared with several competitors, including INTC, which advanced 13.96%, and QCOM, which gained 8.17%. Meanwhile, supplier TSM fell 0.60% and customer MSFT dipped 1.34%.",
       "confidence": "medium",
       "citation_ids": [
         "ev_AMD_20260508_price",
-        "ev_AMD_20260508_peer_MSFT",
-        "ev_AMD_20260508_peer_NVDA",
+        "ev_AMD_20260508_filing_000000248826000076",
+        "ev_AMD_20260508_peer_INTC",
+        "ev_AMD_20260508_peer_QCOM",
         "ev_AMD_20260508_peer_TSM",
-        "ev_AMD_20260508_filing_000000248826000076"
+        "ev_AMD_20260508_peer_MSFT"
       ]
     },
     {
@@ -1444,14 +1431,15 @@
       "pct_change": 7.782,
       "close": 503.89,
       "direction": "up",
-      "headline": "AMD tops $500 with a 7.78% advance",
-      "explanation": "AMD rose 7.78% to close at $503.89 on 1.9 times normal volume. No company news accompanied the move, which was mostly company-specific. Supplier TSM gained 1.93%, but customer MSFT fell 0.61% and competitor NVDA dropped 0.22%.",
+      "headline": "Shares gain 7.78% crossing $500",
+      "explanation": "AMD rose 7.78% to close at $503.89 on volume 1.9 times normal. No company news accompanied the increase, which was shared with competitor QCOM, up 4.48%, and competitor INTC, up 3.07%. Competitor NVDA and customer MSFT diverged, slipping 0.22% and 0.61%, respectively.",
       "confidence": "low",
       "citation_ids": [
         "ev_AMD_20260526_price",
-        "ev_AMD_20260526_peer_MSFT",
+        "ev_AMD_20260526_peer_QCOM",
+        "ev_AMD_20260526_peer_INTC",
         "ev_AMD_20260526_peer_NVDA",
-        "ev_AMD_20260526_peer_TSM"
+        "ev_AMD_20260526_peer_MSFT"
       ]
     },
     {
@@ -1459,14 +1447,31 @@
       "pct_change": -8.148,
       "close": 454.62,
       "direction": "down",
-      "headline": "AMD drops 8.15% in company-specific pullback",
-      "explanation": "AMD declined 8.15% to $454.62 on 1.8 times its 30-day average volume. No company news was reported to explain the drop. While supplier TSM declined 1.70%, the retreat was largely company-specific as competitor NVDA edged up 0.25% and customer MSFT rose 1.09%.",
+      "headline": "Shares drop 8.15% alongside peer competitors",
+      "explanation": "AMD dropped 8.15% to $454.62 on volume 1.8 times the 30-day average. No corporate news was reported, and the drop was shared with competitors INTC, which fell 5.86%, and QCOM, which dropped 4.21%. Supplier TSM also fell 1.70%, while customer MSFT rose 1.09%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AMD_20260728_price",
-        "ev_AMD_20260728_peer_MSFT",
-        "ev_AMD_20260728_peer_NVDA",
-        "ev_AMD_20260728_peer_TSM"
+        "ev_AMD_20260728_peer_INTC",
+        "ev_AMD_20260728_peer_QCOM",
+        "ev_AMD_20260728_peer_TSM",
+        "ev_AMD_20260728_peer_MSFT"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "pct_change": 12.997,
+      "close": 485.39,
+      "direction": "up",
+      "headline": "Shares rebound 13.00% as Microsoft and Intel jump",
+      "explanation": "AMD gained 13.00% to $485.39 on 1.8 times normal volume. The rebound was shared with customer MSFT, which jumped 15.51%, and competitor INTC, which rose 11.30%. Supplier TSM also gained 7.64%, while competitor QCOM moved in the opposite direction, declining 2.62%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMD_20260730_price",
+        "ev_AMD_20260730_peer_MSFT",
+        "ev_AMD_20260730_peer_INTC",
+        "ev_AMD_20260730_peer_TSM",
+        "ev_AMD_20260730_peer_QCOM"
       ]
     },
     {
@@ -1474,16 +1479,17 @@
       "pct_change": -7.044,
       "close": 482.05,
       "direction": "down",
-      "headline": "AMD declines 7.04% after filing 10-Q and 8-K",
-      "explanation": "AMD shares dropped 7.04% to $482.05 on 2.4 times typical volume on the day it filed a quarterly Form 10-Q, following an 8-K filing on August 4. The decline was company-specific, as competitor NVDA climbed 3.44%, supplier TSM dipped 0.76%, and customer MSFT declined 1.09%.",
+      "headline": "Shares retreat 7.04% after Form 10-Q filing",
+      "explanation": "AMD fell 7.04% to $482.05 on 2.4 times normal volume following an 8-K on August 4 and a Form 10-Q filing on August 5. The decline was largely company-specific, as competitor INTC rose 0.20% and competitor NVDA climbed 3.44%. Competitor QCOM dropped 3.16% and customer MSFT fell 1.09%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260805_price",
-        "ev_AMD_20260805_peer_MSFT",
-        "ev_AMD_20260805_peer_NVDA",
-        "ev_AMD_20260805_peer_TSM",
+        "ev_AMD_20260805_filing_000000248826000121",
         "ev_AMD_20260805_filing_000000248826000123",
-        "ev_AMD_20260805_filing_000000248826000121"
+        "ev_AMD_20260805_peer_INTC",
+        "ev_AMD_20260805_peer_NVDA",
+        "ev_AMD_20260805_peer_QCOM",
+        "ev_AMD_20260805_peer_MSFT"
       ]
     },
     {
@@ -1491,17 +1497,17 @@
       "pct_change": 9.95,
       "close": 615.52,
       "direction": "up",
-      "headline": "AMD jumps 9.95% to top $1 trillion valuation",
-      "explanation": "AMD advanced 9.95% to $615.52 on 2.2 times normal volume as reports showed it crossed $1 trillion in market cap and expanded deployments of its Instinct MI325X GPUs for AI workloads. The gain was shared across the sector, with competitor NVDA rising 2.30%, supplier TSM advancing 2.41%, and customer MSFT up 1.59%.",
+      "headline": "Shares gain 9.95% reaching $1 trillion valuation",
+      "explanation": "AMD climbed 9.95% to close at $615.52 on 2.2 times normal volume as reports highlighted its market cap crossing $1 trillion and expanded deployments of Instinct MI325X GPUs. The advance coincided with a broader semiconductor rally where competitor INTC gained 12.14% and competitor QCOM rose 9.29%. Supplier TSM also advanced 2.41%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260921_price",
-        "ev_AMD_20260921_peer_MSFT",
-        "ev_AMD_20260921_peer_NVDA",
-        "ev_AMD_20260921_peer_TSM",
         "ev_AMD_20260921_news1",
         "ev_AMD_20260921_news2",
-        "ev_AMD_20260921_news7"
+        "ev_AMD_20260921_news7",
+        "ev_AMD_20260921_peer_INTC",
+        "ev_AMD_20260921_peer_QCOM",
+        "ev_AMD_20260921_peer_TSM"
       ]
     }
   ],
@@ -1520,7 +1526,35 @@
         "prev_close": 205.37,
         "volume": 48518300,
         "volume_vs_30d_avg": 2.36,
-        "move_excluding_sector_pct": 6.31
+        "move_excluding_sector_pct": 5.36
+      }
+    },
+    "ev_AMD_20260325_peer_AVGO": {
+      "id": "ev_AMD_20260325_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +0.16% the same day",
+      "detail": "AMD moved +7.25% while AVGO moved +0.16%. AVGO is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-03-25",
+      "numbers": {
+        "peer_pct_change": 0.16,
+        "subject_pct_change": 7.255,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260325_peer_INTC": {
+      "id": "ev_AMD_20260325_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +7.08% the same day",
+      "detail": "AMD moved +7.25% while INTC moved +7.08%. INTC is AMD's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-03-25",
+      "numbers": {
+        "peer_pct_change": 7.08,
+        "subject_pct_change": 7.255,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260325_peer_MSFT": {
@@ -1547,6 +1581,20 @@
       "occurred_on": "2026-03-25",
       "numbers": {
         "peer_pct_change": 1.99,
+        "subject_pct_change": 7.255,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260325_peer_QCOM": {
+      "id": "ev_AMD_20260325_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +1.31% the same day",
+      "detail": "AMD moved +7.25% while QCOM moved +1.31%. QCOM is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-03-25",
+      "numbers": {
+        "peer_pct_change": 1.31,
         "subject_pct_change": 7.255,
         "relationship": "competitor"
       }
@@ -1579,7 +1627,35 @@
         "prev_close": 258.12,
         "volume": 64850800,
         "volume_vs_30d_avg": 3.15,
-        "move_excluding_sector_pct": 8.2
+        "move_excluding_sector_pct": 6.84
+      }
+    },
+    "ev_AMD_20260416_peer_AVGO": {
+      "id": "ev_AMD_20260416_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +0.44% the same day",
+      "detail": "AMD moved +7.80% while AVGO moved +0.44%. AVGO is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": 0.44,
+        "subject_pct_change": 7.803,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260416_peer_INTC": {
+      "id": "ev_AMD_20260416_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +5.48% the same day",
+      "detail": "AMD moved +7.80% while INTC moved +5.48%. INTC is AMD's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": 5.48,
+        "subject_pct_change": 7.803,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260416_peer_MSFT": {
@@ -1610,6 +1686,20 @@
         "relationship": "competitor"
       }
     },
+    "ev_AMD_20260416_peer_QCOM": {
+      "id": "ev_AMD_20260416_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +1.07% the same day",
+      "detail": "AMD moved +7.80% while QCOM moved +1.07%. QCOM is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": 1.07,
+        "subject_pct_change": 7.803,
+        "relationship": "competitor"
+      }
+    },
     "ev_AMD_20260416_peer_TSM": {
       "id": "ev_AMD_20260416_peer_TSM",
       "kind": "peer_move",
@@ -1621,6 +1711,107 @@
       "numbers": {
         "peer_pct_change": -3.13,
         "subject_pct_change": 7.803,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AMD_20260422_price": {
+      "id": "ev_AMD_20260422_price",
+      "kind": "price",
+      "title": "AMD rose 6.67% on 2026-04-22",
+      "detail": "Closed at $303.46 from $284.49. Volume was 2.4x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-22",
+      "numbers": {
+        "pct_change": 6.668,
+        "close": 303.46,
+        "prev_close": 284.49,
+        "volume": 49054200,
+        "volume_vs_30d_avg": 2.39,
+        "move_excluding_sector_pct": 4.57
+      }
+    },
+    "ev_AMD_20260422_peer_AVGO": {
+      "id": "ev_AMD_20260422_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +5.09% the same day",
+      "detail": "AMD moved +6.67% while AVGO moved +5.09%. AVGO is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-22",
+      "numbers": {
+        "peer_pct_change": 5.09,
+        "subject_pct_change": 6.668,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260422_peer_INTC": {
+      "id": "ev_AMD_20260422_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -1.49% the same day",
+      "detail": "AMD moved +6.67% while INTC moved -1.49%. INTC is AMD's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-22",
+      "numbers": {
+        "peer_pct_change": -1.49,
+        "subject_pct_change": 6.668,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260422_peer_MSFT": {
+      "id": "ev_AMD_20260422_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved +2.06% the same day",
+      "detail": "AMD moved +6.67% while MSFT moved +2.06%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-22",
+      "numbers": {
+        "peer_pct_change": 2.06,
+        "subject_pct_change": 6.668,
+        "relationship": "customer"
+      }
+    },
+    "ev_AMD_20260422_peer_NVDA": {
+      "id": "ev_AMD_20260422_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +1.31% the same day",
+      "detail": "AMD moved +6.67% while NVDA moved +1.31%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-22",
+      "numbers": {
+        "peer_pct_change": 1.31,
+        "subject_pct_change": 6.668,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260422_peer_QCOM": {
+      "id": "ev_AMD_20260422_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +0.38% the same day",
+      "detail": "AMD moved +6.67% while QCOM moved +0.38%. QCOM is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-22",
+      "numbers": {
+        "peer_pct_change": 0.38,
+        "subject_pct_change": 6.668,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260422_peer_TSM": {
+      "id": "ev_AMD_20260422_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +5.26% the same day",
+      "detail": "AMD moved +6.67% while TSM moved +5.26%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-22",
+      "numbers": {
+        "peer_pct_change": 5.26,
+        "subject_pct_change": 6.668,
         "relationship": "supplier"
       }
     },
@@ -1638,7 +1829,35 @@
         "prev_close": 305.33,
         "volume": 81616700,
         "volume_vs_30d_avg": 3.97,
-        "move_excluding_sector_pct": 10.04
+        "move_excluding_sector_pct": 6.08
+      }
+    },
+    "ev_AMD_20260424_peer_AVGO": {
+      "id": "ev_AMD_20260424_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +0.67% the same day",
+      "detail": "AMD moved +13.91% while AVGO moved +0.67%. AVGO is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 0.67,
+        "subject_pct_change": 13.913,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260424_peer_INTC": {
+      "id": "ev_AMD_20260424_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +23.60% the same day",
+      "detail": "AMD moved +13.91% while INTC moved +23.60%. INTC is AMD's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 23.6,
+        "subject_pct_change": 13.913,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260424_peer_MSFT": {
@@ -1665,6 +1884,20 @@
       "occurred_on": "2026-04-24",
       "numbers": {
         "peer_pct_change": 4.32,
+        "subject_pct_change": 13.913,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260424_peer_QCOM": {
+      "id": "ev_AMD_20260424_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +11.12% the same day",
+      "detail": "AMD moved +13.91% while QCOM moved +11.12%. QCOM is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 11.12,
         "subject_pct_change": 13.913,
         "relationship": "competitor"
       }
@@ -1697,7 +1930,35 @@
         "prev_close": 347.81,
         "volume": 50585300,
         "volume_vs_30d_avg": 2.46,
-        "move_excluding_sector_pct": 5.35
+        "move_excluding_sector_pct": 5.04
+      }
+    },
+    "ev_AMD_20260427_peer_AVGO": {
+      "id": "ev_AMD_20260427_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -1.08% the same day",
+      "detail": "AMD moved -3.79% while AVGO moved -1.08%. AVGO is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "peer_pct_change": -1.08,
+        "subject_pct_change": -3.789,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260427_peer_INTC": {
+      "id": "ev_AMD_20260427_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +2.97% the same day",
+      "detail": "AMD moved -3.79% while INTC moved +2.97%. INTC is AMD's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "peer_pct_change": 2.97,
+        "subject_pct_change": -3.789,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260427_peer_MSFT": {
@@ -1728,6 +1989,20 @@
         "relationship": "competitor"
       }
     },
+    "ev_AMD_20260427_peer_QCOM": {
+      "id": "ev_AMD_20260427_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +0.95% the same day",
+      "detail": "AMD moved -3.79% while QCOM moved +0.95%. QCOM is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "peer_pct_change": 0.95,
+        "subject_pct_change": -3.789,
+        "relationship": "competitor"
+      }
+    },
     "ev_AMD_20260427_peer_TSM": {
       "id": "ev_AMD_20260427_peer_TSM",
       "kind": "peer_move",
@@ -1741,134 +2016,6 @@
         "subject_pct_change": -3.789,
         "relationship": "supplier"
       }
-    },
-    "ev_AMD_20260430_price": {
-      "id": "ev_AMD_20260430_price",
-      "kind": "price",
-      "title": "AMD rose 5.16% on 2026-04-30",
-      "detail": "Closed at $354.49 from $337.11. Volume was 2.0x the 30-day average.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-04-30",
-      "numbers": {
-        "pct_change": 5.156,
-        "close": 354.49,
-        "prev_close": 337.11,
-        "volume": 42115300,
-        "volume_vs_30d_avg": 2.05,
-        "move_excluding_sector_pct": 7.82
-      }
-    },
-    "ev_AMD_20260430_peer_MSFT": {
-      "id": "ev_AMD_20260430_peer_MSFT",
-      "kind": "peer_move",
-      "title": "MSFT (customer) moved -3.93% the same day",
-      "detail": "AMD moved +5.16% while MSFT moved -3.93%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/MSFT/history",
-      "occurred_on": "2026-04-30",
-      "numbers": {
-        "peer_pct_change": -3.93,
-        "subject_pct_change": 5.156,
-        "relationship": "customer"
-      }
-    },
-    "ev_AMD_20260430_peer_NVDA": {
-      "id": "ev_AMD_20260430_peer_NVDA",
-      "kind": "peer_move",
-      "title": "NVDA (competitor) moved -4.63% the same day",
-      "detail": "AMD moved +5.16% while NVDA moved -4.63%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-04-30",
-      "numbers": {
-        "peer_pct_change": -4.63,
-        "subject_pct_change": 5.156,
-        "relationship": "competitor"
-      }
-    },
-    "ev_AMD_20260430_peer_TSM": {
-      "id": "ev_AMD_20260430_peer_TSM",
-      "kind": "peer_move",
-      "title": "TSM (supplier) moved +0.57% the same day",
-      "detail": "AMD moved +5.16% while TSM moved +0.57%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-04-30",
-      "numbers": {
-        "peer_pct_change": 0.57,
-        "subject_pct_change": 5.156,
-        "relationship": "supplier"
-      }
-    },
-    "ev_AMD_20260505_price": {
-      "id": "ev_AMD_20260505_price",
-      "kind": "price",
-      "title": "AMD rose 4.02% on 2026-05-05",
-      "detail": "Closed at $355.26 from $341.54. Volume was 3.1x the 30-day average.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-05-05",
-      "numbers": {
-        "pct_change": 4.017,
-        "close": 355.26,
-        "prev_close": 341.54,
-        "volume": 64235100,
-        "volume_vs_30d_avg": 3.12,
-        "move_excluding_sector_pct": 5.13
-      }
-    },
-    "ev_AMD_20260505_peer_MSFT": {
-      "id": "ev_AMD_20260505_peer_MSFT",
-      "kind": "peer_move",
-      "title": "MSFT (customer) moved -0.54% the same day",
-      "detail": "AMD moved +4.02% while MSFT moved -0.54%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/MSFT/history",
-      "occurred_on": "2026-05-05",
-      "numbers": {
-        "peer_pct_change": -0.54,
-        "subject_pct_change": 4.017,
-        "relationship": "customer"
-      }
-    },
-    "ev_AMD_20260505_peer_NVDA": {
-      "id": "ev_AMD_20260505_peer_NVDA",
-      "kind": "peer_move",
-      "title": "NVDA (competitor) moved -1.00% the same day",
-      "detail": "AMD moved +4.02% while NVDA moved -1.00%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-05-05",
-      "numbers": {
-        "peer_pct_change": -1.0,
-        "subject_pct_change": 4.017,
-        "relationship": "competitor"
-      }
-    },
-    "ev_AMD_20260505_peer_TSM": {
-      "id": "ev_AMD_20260505_peer_TSM",
-      "kind": "peer_move",
-      "title": "TSM (supplier) moved -1.79% the same day",
-      "detail": "AMD moved +4.02% while TSM moved -1.79%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-05-05",
-      "numbers": {
-        "peer_pct_change": -1.79,
-        "subject_pct_change": 4.017,
-        "relationship": "supplier"
-      }
-    },
-    "ev_AMD_20260505_filing_000000248826000072": {
-      "id": "ev_AMD_20260505_filing_000000248826000072",
-      "kind": "filing",
-      "title": "8-K filed 2026-05-05",
-      "detail": "8-K",
-      "source": "SEC EDGAR",
-      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000072/amd-20260505.htm",
-      "occurred_on": "2026-05-05",
-      "numbers": {}
     },
     "ev_AMD_20260506_price": {
       "id": "ev_AMD_20260506_price",
@@ -1884,7 +2031,35 @@
         "prev_close": 355.26,
         "volume": 87732200,
         "volume_vs_30d_avg": 4.27,
-        "move_excluding_sector_pct": 14.36
+        "move_excluding_sector_pct": 15.28
+      }
+    },
+    "ev_AMD_20260506_peer_AVGO": {
+      "id": "ev_AMD_20260506_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -0.45% the same day",
+      "detail": "AMD moved +18.61% while AVGO moved -0.45%. AVGO is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-06",
+      "numbers": {
+        "peer_pct_change": -0.45,
+        "subject_pct_change": 18.615,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260506_peer_INTC": {
+      "id": "ev_AMD_20260506_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +4.49% the same day",
+      "detail": "AMD moved +18.61% while INTC moved +4.49%. INTC is AMD's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-06",
+      "numbers": {
+        "peer_pct_change": 4.49,
+        "subject_pct_change": 18.615,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260506_peer_MSFT": {
@@ -1911,6 +2086,20 @@
       "occurred_on": "2026-05-06",
       "numbers": {
         "peer_pct_change": 5.77,
+        "subject_pct_change": 18.615,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260506_peer_QCOM": {
+      "id": "ev_AMD_20260506_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +3.23% the same day",
+      "detail": "AMD moved +18.61% while QCOM moved +3.23%. QCOM is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-06",
+      "numbers": {
+        "peer_pct_change": 3.23,
         "subject_pct_change": 18.615,
         "relationship": "competitor"
       }
@@ -1963,7 +2152,35 @@
         "prev_close": 408.46,
         "volume": 58134900,
         "volume_vs_30d_avg": 2.83,
-        "move_excluding_sector_pct": 11.5
+        "move_excluding_sector_pct": 7.08
+      }
+    },
+    "ev_AMD_20260508_peer_AVGO": {
+      "id": "ev_AMD_20260508_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +4.23% the same day",
+      "detail": "AMD moved +11.44% while AVGO moved +4.23%. AVGO is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": 4.23,
+        "subject_pct_change": 11.441,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260508_peer_INTC": {
+      "id": "ev_AMD_20260508_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +13.96% the same day",
+      "detail": "AMD moved +11.44% while INTC moved +13.96%. INTC is AMD's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": 13.96,
+        "subject_pct_change": 11.441,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260508_peer_MSFT": {
@@ -1990,6 +2207,20 @@
       "occurred_on": "2026-05-08",
       "numbers": {
         "peer_pct_change": 1.75,
+        "subject_pct_change": 11.441,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260508_peer_QCOM": {
+      "id": "ev_AMD_20260508_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +8.17% the same day",
+      "detail": "AMD moved +11.44% while QCOM moved +8.17%. QCOM is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": 8.17,
         "subject_pct_change": 11.441,
         "relationship": "competitor"
       }
@@ -2032,7 +2263,35 @@
         "prev_close": 467.51,
         "volume": 38473800,
         "volume_vs_30d_avg": 1.87,
-        "move_excluding_sector_pct": 7.41
+        "move_excluding_sector_pct": 6.02
+      }
+    },
+    "ev_AMD_20260526_peer_AVGO": {
+      "id": "ev_AMD_20260526_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +1.90% the same day",
+      "detail": "AMD moved +7.78% while AVGO moved +1.90%. AVGO is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-26",
+      "numbers": {
+        "peer_pct_change": 1.9,
+        "subject_pct_change": 7.782,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260526_peer_INTC": {
+      "id": "ev_AMD_20260526_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +3.07% the same day",
+      "detail": "AMD moved +7.78% while INTC moved +3.07%. INTC is AMD's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-26",
+      "numbers": {
+        "peer_pct_change": 3.07,
+        "subject_pct_change": 7.782,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260526_peer_MSFT": {
@@ -2059,6 +2318,20 @@
       "occurred_on": "2026-05-26",
       "numbers": {
         "peer_pct_change": -0.22,
+        "subject_pct_change": 7.782,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260526_peer_QCOM": {
+      "id": "ev_AMD_20260526_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +4.48% the same day",
+      "detail": "AMD moved +7.78% while QCOM moved +4.48%. QCOM is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-26",
+      "numbers": {
+        "peer_pct_change": 4.48,
         "subject_pct_change": 7.782,
         "relationship": "competitor"
       }
@@ -2091,7 +2364,35 @@
         "prev_close": 494.95,
         "volume": 36315500,
         "volume_vs_30d_avg": 1.77,
-        "move_excluding_sector_pct": 8.03
+        "move_excluding_sector_pct": 6.31
+      }
+    },
+    "ev_AMD_20260728_peer_AVGO": {
+      "id": "ev_AMD_20260728_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -0.60% the same day",
+      "detail": "AMD moved -8.15% while AVGO moved -0.60%. AVGO is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-07-28",
+      "numbers": {
+        "peer_pct_change": -0.6,
+        "subject_pct_change": -8.148,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260728_peer_INTC": {
+      "id": "ev_AMD_20260728_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -5.86% the same day",
+      "detail": "AMD moved -8.15% while INTC moved -5.86%. INTC is AMD's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-28",
+      "numbers": {
+        "peer_pct_change": -5.86,
+        "subject_pct_change": -8.148,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260728_peer_MSFT": {
@@ -2122,6 +2423,20 @@
         "relationship": "competitor"
       }
     },
+    "ev_AMD_20260728_peer_QCOM": {
+      "id": "ev_AMD_20260728_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -4.21% the same day",
+      "detail": "AMD moved -8.15% while QCOM moved -4.21%. QCOM is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-28",
+      "numbers": {
+        "peer_pct_change": -4.21,
+        "subject_pct_change": -8.148,
+        "relationship": "competitor"
+      }
+    },
     "ev_AMD_20260728_peer_TSM": {
       "id": "ev_AMD_20260728_peer_TSM",
       "kind": "peer_move",
@@ -2133,6 +2448,107 @@
       "numbers": {
         "peer_pct_change": -1.7,
         "subject_pct_change": -8.148,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AMD_20260730_price": {
+      "id": "ev_AMD_20260730_price",
+      "kind": "price",
+      "title": "AMD rose 13.00% on 2026-07-30",
+      "detail": "Closed at $485.39 from $429.56. Volume was 1.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "pct_change": 12.997,
+        "close": 485.39,
+        "prev_close": 429.56,
+        "volume": 36936600,
+        "volume_vs_30d_avg": 1.8,
+        "move_excluding_sector_pct": 6.46
+      }
+    },
+    "ev_AMD_20260730_peer_AVGO": {
+      "id": "ev_AMD_20260730_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +4.73% the same day",
+      "detail": "AMD moved +13.00% while AVGO moved +4.73%. AVGO is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 4.73,
+        "subject_pct_change": 12.997,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260730_peer_INTC": {
+      "id": "ev_AMD_20260730_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +11.30% the same day",
+      "detail": "AMD moved +13.00% while INTC moved +11.30%. INTC is AMD's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 11.3,
+        "subject_pct_change": 12.997,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260730_peer_MSFT": {
+      "id": "ev_AMD_20260730_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved +15.51% the same day",
+      "detail": "AMD moved +13.00% while MSFT moved +15.51%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 15.51,
+        "subject_pct_change": 12.997,
+        "relationship": "customer"
+      }
+    },
+    "ev_AMD_20260730_peer_NVDA": {
+      "id": "ev_AMD_20260730_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +2.65% the same day",
+      "detail": "AMD moved +13.00% while NVDA moved +2.65%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 2.65,
+        "subject_pct_change": 12.997,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260730_peer_QCOM": {
+      "id": "ev_AMD_20260730_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -2.62% the same day",
+      "detail": "AMD moved +13.00% while QCOM moved -2.62%. QCOM is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": -2.62,
+        "subject_pct_change": 12.997,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260730_peer_TSM": {
+      "id": "ev_AMD_20260730_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +7.64% the same day",
+      "detail": "AMD moved +13.00% while TSM moved +7.64%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 7.64,
+        "subject_pct_change": 12.997,
         "relationship": "supplier"
       }
     },
@@ -2150,7 +2566,35 @@
         "prev_close": 518.58,
         "volume": 49615800,
         "volume_vs_30d_avg": 2.41,
-        "move_excluding_sector_pct": 7.57
+        "move_excluding_sector_pct": 6.82
+      }
+    },
+    "ev_AMD_20260805_peer_AVGO": {
+      "id": "ev_AMD_20260805_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +0.03% the same day",
+      "detail": "AMD moved -7.04% while AVGO moved +0.03%. AVGO is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "peer_pct_change": 0.03,
+        "subject_pct_change": -7.044,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260805_peer_INTC": {
+      "id": "ev_AMD_20260805_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +0.20% the same day",
+      "detail": "AMD moved -7.04% while INTC moved +0.20%. INTC is AMD's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "peer_pct_change": 0.2,
+        "subject_pct_change": -7.044,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260805_peer_MSFT": {
@@ -2177,6 +2621,20 @@
       "occurred_on": "2026-08-05",
       "numbers": {
         "peer_pct_change": 3.44,
+        "subject_pct_change": -7.044,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260805_peer_QCOM": {
+      "id": "ev_AMD_20260805_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -3.16% the same day",
+      "detail": "AMD moved -7.04% while QCOM moved -3.16%. QCOM is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "peer_pct_change": -3.16,
         "subject_pct_change": -7.044,
         "relationship": "competitor"
       }
@@ -2229,7 +2687,35 @@
         "prev_close": 559.82,
         "volume": 44494300,
         "volume_vs_30d_avg": 2.16,
-        "move_excluding_sector_pct": 7.85
+        "move_excluding_sector_pct": 5.09
+      }
+    },
+    "ev_AMD_20260921_peer_AVGO": {
+      "id": "ev_AMD_20260921_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +1.41% the same day",
+      "detail": "AMD moved +9.95% while AVGO moved +1.41%. AVGO is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 1.41,
+        "subject_pct_change": 9.95,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260921_peer_INTC": {
+      "id": "ev_AMD_20260921_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +12.14% the same day",
+      "detail": "AMD moved +9.95% while INTC moved +12.14%. INTC is AMD's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 12.14,
+        "subject_pct_change": 9.95,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260921_peer_MSFT": {
@@ -2256,6 +2742,20 @@
       "occurred_on": "2026-09-21",
       "numbers": {
         "peer_pct_change": 2.3,
+        "subject_pct_change": 9.95,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260921_peer_QCOM": {
+      "id": "ev_AMD_20260921_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +9.29% the same day",
+      "detail": "AMD moved +9.95% while QCOM moved +9.29%. QCOM is AMD's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 9.29,
         "subject_pct_change": 9.95,
         "relationship": "competitor"
       }
@@ -2460,18 +2960,19 @@
       }
     }
   },
-  "arc": "AMD experienced substantial appreciation between March and September 2026, climbing from $205.37 to $615.52. The stock's dramatic trajectory was shaped by major company milestones, starting with an 18.61% single-day surge in May following its quarterly 10-Q filing. Although the stock encountered sharp company-specific pullbacks in late July and after its August 10-Q filing, momentum returned strongly by late September when AMD crossed the $1 trillion market capitalization milestone on expanded Instinct MI325X GPU adoption. Investors should note that while several significant moves were company-specific, AMD's largest upward days frequently aligned with shared rallies alongside supplier TSM and competitor NVDA.",
+  "arc": "Between late March and late September 2026, AMD staged an aggressive expansion, advancing from $205.37 to $615.52. The trajectory was punctuated by large single-day upward moves, including an 18.61% leap in May following Form 10-Q and 8-K filings, and culminations in September where AI infrastructure demand and Instinct MI325X deployments helped propel the company to a $1 trillion market cap. While AMD faced intermittent pullbacks, including a 7.04% decline after an August quarterly filing and an 8.15% drop in late July, many of its largest gains occurred alongside sharp parallel moves in key competitors like Intel and Qualcomm as well as supplier TSMC, indicating that broader semiconductor waves reinforced company-specific product milestones.",
   "arc_citation_ids": [
     "ev_AMD_20260325_price",
     "ev_AMD_20260506_price",
     "ev_AMD_20260506_filing_000000248826000076",
+    "ev_AMD_20260728_price",
     "ev_AMD_20260805_price",
     "ev_AMD_20260805_filing_000000248826000123",
     "ev_AMD_20260921_price",
     "ev_AMD_20260921_news1",
     "ev_AMD_20260921_news2",
-    "ev_AMD_20260921_peer_NVDA",
-    "ev_AMD_20260921_peer_TSM"
+    "ev_AMD_20260921_news7",
+    "ev_AMD_20260921_peer_INTC"
   ],
   "warnings": []
 }

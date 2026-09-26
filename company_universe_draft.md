@@ -19,7 +19,9 @@ The first 8 new companies (INTC, MU, AVGO, QCOM, ASML, CRUS, AMZN, GOOGL) have b
 
 Snowflake's graph tables have been refreshed to match (194 edges, 74 companies, 13 supported). A second hand-check fix came from that step: Intel's filing says its Mobileye subsidiary is headquartered in Israel, which had been recorded as Intel's headquarters; that row is removed, and the export now always gives one row per company.
 
-Not yet done for the pilot companies: Story Mode stories.
+Story Mode stories are built for all 13 companies (153 moves, 752 citations, none broken). The original 5 were rebuilt so their peers come from the 13-company graph.
+
+One quality note for the full rollout: Alphabet and Amazon are linked in the graph only as chip competitors (NVIDIA and Intel name them for designing their own chips), so their Story Mode peers are chip companies and explanations read like "Alphabet drops 4.99% as Intel rallies." Adding more cloud and internet companies (META, ORCL), or always including same-sector companies as peers, would give them better comparisons.
 
 ## How the list was chosen
 

@@ -1,7 +1,7 @@
 {
   "symbol": "AAPL",
   "company_name": "Apple Inc.",
-  "generated_at": "2026-09-26T09:40:26.730041+00:00",
+  "generated_at": "2026-09-26T12:37:00.792285+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,15 +1320,15 @@
       "pct_change": 3.239,
       "close": 280.14,
       "direction": "up",
-      "headline": "AAPL rises 3.24% following 8-K and 10-Q filings",
-      "explanation": "Shares of Apple climbed 3.24% to close at $280.14 on 1.9 times average volume following an 8-K filing on April 30 and a 10-Q filing on May 1. The gain outpaced connected companies, as competitor MSFT rose 1.63% and supplier TSM gained 0.41%.",
+      "headline": "Shares Rise 3.24% Following 8-K and 10-Q Filings",
+      "explanation": "Apple gained 3.24% to close at $280.14 on 1.9x average volume following an 8-K filed on April 30 and a 10-Q filed on May 1. The upward move was partly shared with competitor INTC, which advanced 5.44%, while supplier QCOM moved in the opposite direction, declining 1.43%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260501_price",
-        "ev_AAPL_20260501_peer_MSFT",
-        "ev_AAPL_20260501_peer_TSM",
+        "ev_AAPL_20260501_filing_000032019326000011",
         "ev_AAPL_20260501_filing_000032019326000013",
-        "ev_AAPL_20260501_filing_000032019326000011"
+        "ev_AAPL_20260501_peer_INTC",
+        "ev_AAPL_20260501_peer_QCOM"
       ]
     },
     {
@@ -1336,13 +1336,14 @@
       "pct_change": -3.645,
       "close": 290.55,
       "direction": "down",
-      "headline": "AAPL falls 3.65% alongside competitor MSFT",
-      "explanation": "Apple dropped 3.65% to $290.55 on 1.7 times average trading volume with no company-specific news in the record. The downward move was partially shared with competitor MSFT, which fell 2.02%, while supplier TSM was flat to slightly positive at +0.26%.",
+      "headline": "Shares Drop 3.65% Amid Broad Tech Pullback",
+      "explanation": "No company-specific news accompanied Apple's 3.65% drop from $301.54 to $290.55. The decline was shared with peer companies, including supplier QCOM, which fell 5.67%, and competitors INTC and MSFT, which lost 2.13% and 2.02%, respectively.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260609_price",
-        "ev_AAPL_20260609_peer_MSFT",
-        "ev_AAPL_20260609_peer_TSM"
+        "ev_AAPL_20260609_peer_QCOM",
+        "ev_AAPL_20260609_peer_INTC",
+        "ev_AAPL_20260609_peer_MSFT"
       ]
     },
     {
@@ -1350,13 +1351,14 @@
       "pct_change": -6.118,
       "close": 275.15,
       "direction": "down",
-      "headline": "AAPL drops 6.12% in shared selloff with peers",
-      "explanation": "Apple dropped 6.12% to close at $275.15 on elevated trading volume of 2.6 times its 30-day average without company-specific news. Connected companies also declined the same day, with competitor MSFT falling 3.46% and supplier TSM down 1.32%.",
+      "headline": "Stock Drops 6.12% Without Company-Specific News",
+      "explanation": "No company-specific news accompanied Apple's 6.12% drop to $275.15 on 2.6x its typical volume. The decline was shared with competitor MSFT, which declined 3.46%, and supplier CRUS, which fell 2.34%, though supplier QCOM moved the other way with a 3.79% gain.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260625_price",
         "ev_AAPL_20260625_peer_MSFT",
-        "ev_AAPL_20260625_peer_TSM"
+        "ev_AAPL_20260625_peer_CRUS",
+        "ev_AAPL_20260625_peer_QCOM"
       ]
     },
     {
@@ -1364,13 +1366,14 @@
       "pct_change": 3.136,
       "close": 283.78,
       "direction": "up",
-      "headline": "AAPL rebounds 3.14% alongside competitor MSFT",
-      "explanation": "Apple gained 3.14% to finish at $283.78 on heavy trading volume reaching 6.3 times normal levels. The move was shared with competitor MSFT, which climbed 5.71%, while supplier TSM diverged slightly with a 0.61% decline.",
+      "headline": "Shares Rebound 3.14% on Heavy Trading Volume",
+      "explanation": "Apple rebounded 3.14% to $283.78 on volume reaching 6.3x its 30-day average without any company-specific news. The gain was shared with competitor MSFT, which climbed 5.71%, while suppliers QCOM and CRUS fell 7.57% and 4.86%, respectively.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260626_price",
         "ev_AAPL_20260626_peer_MSFT",
-        "ev_AAPL_20260626_peer_TSM"
+        "ev_AAPL_20260626_peer_QCOM",
+        "ev_AAPL_20260626_peer_CRUS"
       ]
     },
     {
@@ -1378,12 +1381,13 @@
       "pct_change": 4.841,
       "close": 308.63,
       "direction": "up",
-      "headline": "AAPL advances 4.84% as supplier TSM declines",
-      "explanation": "Apple shares rose 4.84% to $308.63 on 1.8 times average volume with no company-specific news provided. The move was largely company-specific, significantly outpacing competitor MSFT's 1.62% rise while supplier TSM fell 2.27%.",
+      "headline": "Apple Gains 4.84% Diverging from Suppliers",
+      "explanation": "Apple rose 4.84% to finish at $308.63 with no company-specific news released. The move was company-specific, as competitor MSFT rose only 1.62% while suppliers QCOM and TSM dropped 3.12% and 2.27%, respectively.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260702_price",
         "ev_AAPL_20260702_peer_MSFT",
+        "ev_AAPL_20260702_peer_QCOM",
         "ev_AAPL_20260702_peer_TSM"
       ]
     },
@@ -1392,13 +1396,14 @@
       "pct_change": 4.014,
       "close": 327.5,
       "direction": "up",
-      "headline": "AAPL climbs 4.01% to $327.50 without news",
-      "explanation": "Apple rose 4.01% to close at $327.50 with trading volume at 1.5 times the 30-day average. The gain occurred alongside competitor MSFT, which advanced 2.78%, while supplier TSM slipped 0.22%.",
+      "headline": "Stock Advances 4.01% Alongside Tech Peers",
+      "explanation": "Apple climbed 4.01% from $314.86 to $327.50 without company-specific news. The advance was shared with customer GOOGL, which rose 3.17%, and competitor MSFT, which added 2.78%, while competitor INTC dropped 4.43%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260715_price",
+        "ev_AAPL_20260715_peer_GOOGL",
         "ev_AAPL_20260715_peer_MSFT",
-        "ev_AAPL_20260715_peer_TSM"
+        "ev_AAPL_20260715_peer_INTC"
       ]
     },
     {
@@ -1406,13 +1411,14 @@
       "pct_change": 3.532,
       "close": 333.02,
       "direction": "up",
-      "headline": "AAPL rises 3.53% in company-specific move",
-      "explanation": "Apple stock gained 3.53% to end at $333.02 on 1.1 times its 30-day average volume with no new company reports. The gain was company-specific, as competitor MSFT remained essentially flat at +0.03% and supplier TSM dropped 2.93%.",
+      "headline": "Shares Gain 3.53% as Chip Peers Diverge",
+      "explanation": "No company-specific news was reported as Apple rose 3.53% to close at $333.02. The gain was company-specific relative to semiconductor peers, as suppliers TSM and QCOM retreated 2.93% and 2.42%, and competitor INTC slumped 7.89%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260724_price",
-        "ev_AAPL_20260724_peer_MSFT",
-        "ev_AAPL_20260724_peer_TSM"
+        "ev_AAPL_20260724_peer_TSM",
+        "ev_AAPL_20260724_peer_QCOM",
+        "ev_AAPL_20260724_peer_INTC"
       ]
     },
     {
@@ -1420,15 +1426,15 @@
       "pct_change": -7.354,
       "close": 308.91,
       "direction": "down",
-      "headline": "AAPL falls 7.35% following 8-K and 10-Q filings",
-      "explanation": "Shares fell 7.35% to $308.91 on 3.2 times average volume following an 8-K filing on July 30 and a 10-Q filing on July 31. This was an isolated drop, as connected companies moved in the opposite direction, with competitor MSFT rising 3.02% and supplier TSM edging up 0.23%.",
+      "headline": "Stock Drops 7.35% Following 8-K and 10-Q Filings",
+      "explanation": "Apple plunged 7.35% to $308.91 on 3.2x normal volume following its July 30 8-K and July 31 10-Q filings. The drop was company-specific, occurring while customer GOOGL gained 6.73% and competitor MSFT climbed 3.02%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260731_price",
-        "ev_AAPL_20260731_peer_MSFT",
-        "ev_AAPL_20260731_peer_TSM",
+        "ev_AAPL_20260731_filing_000032019326000018",
         "ev_AAPL_20260731_filing_000032019326000020",
-        "ev_AAPL_20260731_filing_000032019326000018"
+        "ev_AAPL_20260731_peer_GOOGL",
+        "ev_AAPL_20260731_peer_MSFT"
       ]
     },
     {
@@ -1436,12 +1442,13 @@
       "pct_change": 3.561,
       "close": 326.57,
       "direction": "up",
-      "headline": "AAPL gains 3.56% while peers remain muted",
-      "explanation": "Apple climbed 3.56% to $326.57 on 1.7 times normal volume in the absence of company-specific headlines. The advance was company-specific rather than shared, as competitor MSFT inched up just 0.16% and supplier TSM declined 1.68%.",
+      "headline": "Apple Climbs 3.56% as Supplier CRUS Surges",
+      "explanation": "Apple rose 3.56% to $326.57 without company-specific announcements. The rally was shared with supplier CRUS, which jumped 5.20%, even as competitor INTC declined 5.57% and supplier TSM dropped 1.68%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260910_price",
-        "ev_AAPL_20260910_peer_MSFT",
+        "ev_AAPL_20260910_peer_CRUS",
+        "ev_AAPL_20260910_peer_INTC",
         "ev_AAPL_20260910_peer_TSM"
       ]
     }
@@ -1461,7 +1468,49 @@
         "prev_close": 271.35,
         "volume": 79915400,
         "volume_vs_30d_avg": 1.93,
-        "move_excluding_sector_pct": 2.22
+        "move_excluding_sector_pct": 2.07
+      }
+    },
+    "ev_AAPL_20260501_peer_CRUS": {
+      "id": "ev_AAPL_20260501_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (supplier) moved +0.71% the same day",
+      "detail": "AAPL moved +3.24% while CRUS moved +0.71%. CRUS is AAPL's supplier (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-05-01",
+      "numbers": {
+        "peer_pct_change": 0.71,
+        "subject_pct_change": 3.239,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AAPL_20260501_peer_GOOGL": {
+      "id": "ev_AAPL_20260501_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (customer) moved +0.23% the same day",
+      "detail": "AAPL moved +3.24% while GOOGL moved +0.23%. GOOGL is AAPL's customer (search services licensing arrangements), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-05-01",
+      "numbers": {
+        "peer_pct_change": 0.23,
+        "subject_pct_change": 3.239,
+        "relationship": "customer"
+      }
+    },
+    "ev_AAPL_20260501_peer_INTC": {
+      "id": "ev_AAPL_20260501_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +5.44% the same day",
+      "detail": "AAPL moved +3.24% while INTC moved +5.44%. INTC is AAPL's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-01",
+      "numbers": {
+        "peer_pct_change": 5.44,
+        "subject_pct_change": 3.239,
+        "relationship": "competitor"
       }
     },
     "ev_AAPL_20260501_peer_MSFT": {
@@ -1476,6 +1525,20 @@
         "peer_pct_change": 1.63,
         "subject_pct_change": 3.239,
         "relationship": "competitor"
+      }
+    },
+    "ev_AAPL_20260501_peer_QCOM": {
+      "id": "ev_AAPL_20260501_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (supplier) moved -1.43% the same day",
+      "detail": "AAPL moved +3.24% while QCOM moved -1.43%. QCOM is AAPL's supplier (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-01",
+      "numbers": {
+        "peer_pct_change": -1.43,
+        "subject_pct_change": 3.239,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260501_peer_TSM": {
@@ -1526,7 +1589,49 @@
         "prev_close": 301.54,
         "volume": 70108800,
         "volume_vs_30d_avg": 1.69,
-        "move_excluding_sector_pct": 2.76
+        "move_excluding_sector_pct": 1.93
+      }
+    },
+    "ev_AAPL_20260609_peer_CRUS": {
+      "id": "ev_AAPL_20260609_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (supplier) moved -0.96% the same day",
+      "detail": "AAPL moved -3.65% while CRUS moved -0.96%. CRUS is AAPL's supplier (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-06-09",
+      "numbers": {
+        "peer_pct_change": -0.96,
+        "subject_pct_change": -3.645,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AAPL_20260609_peer_GOOGL": {
+      "id": "ev_AAPL_20260609_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (customer) moved +0.26% the same day",
+      "detail": "AAPL moved -3.65% while GOOGL moved +0.26%. GOOGL is AAPL's customer (search services licensing arrangements), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-06-09",
+      "numbers": {
+        "peer_pct_change": 0.26,
+        "subject_pct_change": -3.645,
+        "relationship": "customer"
+      }
+    },
+    "ev_AAPL_20260609_peer_INTC": {
+      "id": "ev_AAPL_20260609_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -2.13% the same day",
+      "detail": "AAPL moved -3.65% while INTC moved -2.13%. INTC is AAPL's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-09",
+      "numbers": {
+        "peer_pct_change": -2.13,
+        "subject_pct_change": -3.645,
+        "relationship": "competitor"
       }
     },
     "ev_AAPL_20260609_peer_MSFT": {
@@ -1541,6 +1646,20 @@
         "peer_pct_change": -2.02,
         "subject_pct_change": -3.645,
         "relationship": "competitor"
+      }
+    },
+    "ev_AAPL_20260609_peer_QCOM": {
+      "id": "ev_AAPL_20260609_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (supplier) moved -5.67% the same day",
+      "detail": "AAPL moved -3.65% while QCOM moved -5.67%. QCOM is AAPL's supplier (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-09",
+      "numbers": {
+        "peer_pct_change": -5.67,
+        "subject_pct_change": -3.645,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260609_peer_TSM": {
@@ -1571,7 +1690,49 @@
         "prev_close": 293.08,
         "volume": 107013700,
         "volume_vs_30d_avg": 2.58,
-        "move_excluding_sector_pct": 3.73
+        "move_excluding_sector_pct": 5.64
+      }
+    },
+    "ev_AAPL_20260625_peer_CRUS": {
+      "id": "ev_AAPL_20260625_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (supplier) moved -2.34% the same day",
+      "detail": "AAPL moved -6.12% while CRUS moved -2.34%. CRUS is AAPL's supplier (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": -2.34,
+        "subject_pct_change": -6.118,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AAPL_20260625_peer_GOOGL": {
+      "id": "ev_AAPL_20260625_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (customer) moved -0.46% the same day",
+      "detail": "AAPL moved -6.12% while GOOGL moved -0.46%. GOOGL is AAPL's customer (search services licensing arrangements), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": -0.46,
+        "subject_pct_change": -6.118,
+        "relationship": "customer"
+      }
+    },
+    "ev_AAPL_20260625_peer_INTC": {
+      "id": "ev_AAPL_20260625_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +0.93% the same day",
+      "detail": "AAPL moved -6.12% while INTC moved +0.93%. INTC is AAPL's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": 0.93,
+        "subject_pct_change": -6.118,
+        "relationship": "competitor"
       }
     },
     "ev_AAPL_20260625_peer_MSFT": {
@@ -1586,6 +1747,20 @@
         "peer_pct_change": -3.46,
         "subject_pct_change": -6.118,
         "relationship": "competitor"
+      }
+    },
+    "ev_AAPL_20260625_peer_QCOM": {
+      "id": "ev_AAPL_20260625_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (supplier) moved +3.79% the same day",
+      "detail": "AAPL moved -6.12% while QCOM moved +3.79%. QCOM is AAPL's supplier (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": 3.79,
+        "subject_pct_change": -6.118,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260625_peer_TSM": {
@@ -1616,7 +1791,49 @@
         "prev_close": 275.15,
         "volume": 261775500,
         "volume_vs_30d_avg": 6.32,
-        "move_excluding_sector_pct": 0.59
+        "move_excluding_sector_pct": 5.23
+      }
+    },
+    "ev_AAPL_20260626_peer_CRUS": {
+      "id": "ev_AAPL_20260626_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (supplier) moved -4.86% the same day",
+      "detail": "AAPL moved +3.14% while CRUS moved -4.86%. CRUS is AAPL's supplier (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -4.86,
+        "subject_pct_change": 3.136,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AAPL_20260626_peer_GOOGL": {
+      "id": "ev_AAPL_20260626_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (customer) moved -1.84% the same day",
+      "detail": "AAPL moved +3.14% while GOOGL moved -1.84%. GOOGL is AAPL's customer (search services licensing arrangements), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -1.84,
+        "subject_pct_change": 3.136,
+        "relationship": "customer"
+      }
+    },
+    "ev_AAPL_20260626_peer_INTC": {
+      "id": "ev_AAPL_20260626_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -3.42% the same day",
+      "detail": "AAPL moved +3.14% while INTC moved -3.42%. INTC is AAPL's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -3.42,
+        "subject_pct_change": 3.136,
+        "relationship": "competitor"
       }
     },
     "ev_AAPL_20260626_peer_MSFT": {
@@ -1631,6 +1848,20 @@
         "peer_pct_change": 5.71,
         "subject_pct_change": 3.136,
         "relationship": "competitor"
+      }
+    },
+    "ev_AAPL_20260626_peer_QCOM": {
+      "id": "ev_AAPL_20260626_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (supplier) moved -7.57% the same day",
+      "detail": "AAPL moved +3.14% while QCOM moved -7.57%. QCOM is AAPL's supplier (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -7.57,
+        "subject_pct_change": 3.136,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260626_peer_TSM": {
@@ -1661,7 +1892,49 @@
         "prev_close": 294.38,
         "volume": 75352800,
         "volume_vs_30d_avg": 1.82,
-        "move_excluding_sector_pct": 5.17
+        "move_excluding_sector_pct": 6.42
+      }
+    },
+    "ev_AAPL_20260702_peer_CRUS": {
+      "id": "ev_AAPL_20260702_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (supplier) moved -0.12% the same day",
+      "detail": "AAPL moved +4.84% while CRUS moved -0.12%. CRUS is AAPL's supplier (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-07-02",
+      "numbers": {
+        "peer_pct_change": -0.12,
+        "subject_pct_change": 4.841,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AAPL_20260702_peer_GOOGL": {
+      "id": "ev_AAPL_20260702_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (customer) moved -0.36% the same day",
+      "detail": "AAPL moved +4.84% while GOOGL moved -0.36%. GOOGL is AAPL's customer (search services licensing arrangements), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-07-02",
+      "numbers": {
+        "peer_pct_change": -0.36,
+        "subject_pct_change": 4.841,
+        "relationship": "customer"
+      }
+    },
+    "ev_AAPL_20260702_peer_INTC": {
+      "id": "ev_AAPL_20260702_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -5.25% the same day",
+      "detail": "AAPL moved +4.84% while INTC moved -5.25%. INTC is AAPL's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-02",
+      "numbers": {
+        "peer_pct_change": -5.25,
+        "subject_pct_change": 4.841,
+        "relationship": "competitor"
       }
     },
     "ev_AAPL_20260702_peer_MSFT": {
@@ -1676,6 +1949,20 @@
         "peer_pct_change": 1.62,
         "subject_pct_change": 4.841,
         "relationship": "competitor"
+      }
+    },
+    "ev_AAPL_20260702_peer_QCOM": {
+      "id": "ev_AAPL_20260702_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (supplier) moved -3.12% the same day",
+      "detail": "AAPL moved +4.84% while QCOM moved -3.12%. QCOM is AAPL's supplier (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-02",
+      "numbers": {
+        "peer_pct_change": -3.12,
+        "subject_pct_change": 4.841,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260702_peer_TSM": {
@@ -1706,7 +1993,49 @@
         "prev_close": 314.86,
         "volume": 60957600,
         "volume_vs_30d_avg": 1.47,
-        "move_excluding_sector_pct": 2.73
+        "move_excluding_sector_pct": 3.6
+      }
+    },
+    "ev_AAPL_20260715_peer_CRUS": {
+      "id": "ev_AAPL_20260715_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (supplier) moved +1.25% the same day",
+      "detail": "AAPL moved +4.01% while CRUS moved +1.25%. CRUS is AAPL's supplier (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-07-15",
+      "numbers": {
+        "peer_pct_change": 1.25,
+        "subject_pct_change": 4.014,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AAPL_20260715_peer_GOOGL": {
+      "id": "ev_AAPL_20260715_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (customer) moved +3.17% the same day",
+      "detail": "AAPL moved +4.01% while GOOGL moved +3.17%. GOOGL is AAPL's customer (search services licensing arrangements), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-07-15",
+      "numbers": {
+        "peer_pct_change": 3.17,
+        "subject_pct_change": 4.014,
+        "relationship": "customer"
+      }
+    },
+    "ev_AAPL_20260715_peer_INTC": {
+      "id": "ev_AAPL_20260715_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -4.43% the same day",
+      "detail": "AAPL moved +4.01% while INTC moved -4.43%. INTC is AAPL's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-15",
+      "numbers": {
+        "peer_pct_change": -4.43,
+        "subject_pct_change": 4.014,
+        "relationship": "competitor"
       }
     },
     "ev_AAPL_20260715_peer_MSFT": {
@@ -1721,6 +2050,20 @@
         "peer_pct_change": 2.78,
         "subject_pct_change": 4.014,
         "relationship": "competitor"
+      }
+    },
+    "ev_AAPL_20260715_peer_QCOM": {
+      "id": "ev_AAPL_20260715_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (supplier) moved -0.07% the same day",
+      "detail": "AAPL moved +4.01% while QCOM moved -0.07%. QCOM is AAPL's supplier (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-15",
+      "numbers": {
+        "peer_pct_change": -0.07,
+        "subject_pct_change": 4.014,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260715_peer_TSM": {
@@ -1751,7 +2094,49 @@
         "prev_close": 321.66,
         "volume": 47489400,
         "volume_vs_30d_avg": 1.15,
-        "move_excluding_sector_pct": 4.98
+        "move_excluding_sector_pct": 5.62
+      }
+    },
+    "ev_AAPL_20260724_peer_CRUS": {
+      "id": "ev_AAPL_20260724_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (supplier) moved +0.06% the same day",
+      "detail": "AAPL moved +3.53% while CRUS moved +0.06%. CRUS is AAPL's supplier (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": 0.06,
+        "subject_pct_change": 3.532,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AAPL_20260724_peer_GOOGL": {
+      "id": "ev_AAPL_20260724_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (customer) moved +0.65% the same day",
+      "detail": "AAPL moved +3.53% while GOOGL moved +0.65%. GOOGL is AAPL's customer (search services licensing arrangements), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": 0.65,
+        "subject_pct_change": 3.532,
+        "relationship": "customer"
+      }
+    },
+    "ev_AAPL_20260724_peer_INTC": {
+      "id": "ev_AAPL_20260724_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -7.89% the same day",
+      "detail": "AAPL moved +3.53% while INTC moved -7.89%. INTC is AAPL's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": -7.89,
+        "subject_pct_change": 3.532,
+        "relationship": "competitor"
       }
     },
     "ev_AAPL_20260724_peer_MSFT": {
@@ -1766,6 +2151,20 @@
         "peer_pct_change": 0.03,
         "subject_pct_change": 3.532,
         "relationship": "competitor"
+      }
+    },
+    "ev_AAPL_20260724_peer_QCOM": {
+      "id": "ev_AAPL_20260724_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (supplier) moved -2.42% the same day",
+      "detail": "AAPL moved +3.53% while QCOM moved -2.42%. QCOM is AAPL's supplier (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": -2.42,
+        "subject_pct_change": 3.532,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260724_peer_TSM": {
@@ -1796,7 +2195,49 @@
         "prev_close": 333.43,
         "volume": 132489100,
         "volume_vs_30d_avg": 3.2,
-        "move_excluding_sector_pct": 8.98
+        "move_excluding_sector_pct": 8.09
+      }
+    },
+    "ev_AAPL_20260731_peer_CRUS": {
+      "id": "ev_AAPL_20260731_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (supplier) moved -1.90% the same day",
+      "detail": "AAPL moved -7.35% while CRUS moved -1.90%. CRUS is AAPL's supplier (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "peer_pct_change": -1.9,
+        "subject_pct_change": -7.354,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AAPL_20260731_peer_GOOGL": {
+      "id": "ev_AAPL_20260731_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (customer) moved +6.73% the same day",
+      "detail": "AAPL moved -7.35% while GOOGL moved +6.73%. GOOGL is AAPL's customer (search services licensing arrangements), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "peer_pct_change": 6.73,
+        "subject_pct_change": -7.354,
+        "relationship": "customer"
+      }
+    },
+    "ev_AAPL_20260731_peer_INTC": {
+      "id": "ev_AAPL_20260731_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -1.02% the same day",
+      "detail": "AAPL moved -7.35% while INTC moved -1.02%. INTC is AAPL's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "peer_pct_change": -1.02,
+        "subject_pct_change": -7.354,
+        "relationship": "competitor"
       }
     },
     "ev_AAPL_20260731_peer_MSFT": {
@@ -1811,6 +2252,20 @@
         "peer_pct_change": 3.02,
         "subject_pct_change": -7.354,
         "relationship": "competitor"
+      }
+    },
+    "ev_AAPL_20260731_peer_QCOM": {
+      "id": "ev_AAPL_20260731_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (supplier) moved -2.63% the same day",
+      "detail": "AAPL moved -7.35% while QCOM moved -2.63%. QCOM is AAPL's supplier (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "peer_pct_change": -2.63,
+        "subject_pct_change": -7.354,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260731_peer_TSM": {
@@ -1861,7 +2316,49 @@
         "prev_close": 315.34,
         "volume": 70011900,
         "volume_vs_30d_avg": 1.69,
-        "move_excluding_sector_pct": 4.32
+        "move_excluding_sector_pct": 3.73
+      }
+    },
+    "ev_AAPL_20260910_peer_CRUS": {
+      "id": "ev_AAPL_20260910_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (supplier) moved +5.20% the same day",
+      "detail": "AAPL moved +3.56% while CRUS moved +5.20%. CRUS is AAPL's supplier (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-09-10",
+      "numbers": {
+        "peer_pct_change": 5.2,
+        "subject_pct_change": 3.561,
+        "relationship": "supplier"
+      }
+    },
+    "ev_AAPL_20260910_peer_GOOGL": {
+      "id": "ev_AAPL_20260910_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (customer) moved +0.59% the same day",
+      "detail": "AAPL moved +3.56% while GOOGL moved +0.59%. GOOGL is AAPL's customer (search services licensing arrangements), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-09-10",
+      "numbers": {
+        "peer_pct_change": 0.59,
+        "subject_pct_change": 3.561,
+        "relationship": "customer"
+      }
+    },
+    "ev_AAPL_20260910_peer_INTC": {
+      "id": "ev_AAPL_20260910_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -5.57% the same day",
+      "detail": "AAPL moved +3.56% while INTC moved -5.57%. INTC is AAPL's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-09-10",
+      "numbers": {
+        "peer_pct_change": -5.57,
+        "subject_pct_change": 3.561,
+        "relationship": "competitor"
       }
     },
     "ev_AAPL_20260910_peer_MSFT": {
@@ -1876,6 +2373,20 @@
         "peer_pct_change": 0.16,
         "subject_pct_change": 3.561,
         "relationship": "competitor"
+      }
+    },
+    "ev_AAPL_20260910_peer_QCOM": {
+      "id": "ev_AAPL_20260910_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (supplier) moved +0.27% the same day",
+      "detail": "AAPL moved +3.56% while QCOM moved +0.27%. QCOM is AAPL's supplier (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-09-10",
+      "numbers": {
+        "peer_pct_change": 0.27,
+        "subject_pct_change": 3.561,
+        "relationship": "supplier"
       }
     },
     "ev_AAPL_20260910_peer_TSM": {
@@ -1998,14 +2509,15 @@
       }
     }
   },
-  "arc": "Between May and September 2026, Apple experienced volatile swings around its quarterly disclosures alongside several large price moves disconnected from its supplier and competitor. The stock rallied after its early-May filings to reach a peak close of $333.02 in late July, punctuated by periods of shared market volatility in late June. However, Apple suffered a steep 7.35% single-day decline following its late-July filings even as competitor MSFT rose 3.02%, before recovering back above $326 in September. Across the period, Apple's largest single-day moves frequently diverged from supplier TSM and competitor MSFT, demonstrating that idiosyncratic company filings and firm-specific factors were the primary drivers of volatility.",
+  "arc": "Between May and September 2026, Apple traded between a low of $275.15 and a high of $333.02, marked by high volatility around official regulatory disclosure periods. The two most pronounced company-specific catalysts were its quarterly reporting periods: an 8-K and 10-Q filing cycle around May 1 that lifted shares 3.24% to $280.14, and another filing cycle around July 31 that triggered a sharp 7.35% pullback to $308.91 on heavy volume. Outside of these filing windows, Apple demonstrated frequent divergence from its semiconductor supply chain partners such as TSM and QCOM, often rallying on days when chip suppliers declined, while intermittently moving in tandem with large platform peers like Microsoft and Alphabet.",
   "arc_citation_ids": [
     "ev_AAPL_20260501_price",
+    "ev_AAPL_20260501_filing_000032019326000011",
     "ev_AAPL_20260501_filing_000032019326000013",
     "ev_AAPL_20260625_price",
     "ev_AAPL_20260724_price",
     "ev_AAPL_20260731_price",
-    "ev_AAPL_20260731_peer_MSFT",
+    "ev_AAPL_20260731_filing_000032019326000018",
     "ev_AAPL_20260731_filing_000032019326000020",
     "ev_AAPL_20260910_price"
   ],

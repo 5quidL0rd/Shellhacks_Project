@@ -61,7 +61,7 @@ Interactive graph of the user's holdings and their connections. When news hits a
 
 Opens when the user taps any stock. Shows a price chart with markers on major moves, each labeled with a short, cited explanation of the cause.
 
-Each explanation is written by an LLM from evidence gathered first: the price move itself, how connected companies (suppliers, customers, competitors from the graph) moved the same day, SEC filings near the date, news, quarterly results, and industry data. The LLM may cite only that evidence. When nothing explains a move, it says "cause unverified" instead of guessing. Free news sources cover only the last few days, so older moves are explained mainly from filings and connected-company moves.
+Each explanation is written by an LLM from evidence gathered first: the price move itself, how connected companies (suppliers, customers, competitors from the graph) moved the same day, SEC filings near the date, news, quarterly results, and industry data. The LLM may cite only that evidence. When nothing explains a move, it says "cause unverified" instead of guessing. Finnhub's free tier returns about 250 articles per request, so a single request for six months only covers the last few days for heavily covered companies; older moves are currently explained mainly from filings and connected-company moves. Requesting news for each move's own dates (planned) removes this gap.
 
 ### 5. Research a New Investment
 
@@ -160,7 +160,7 @@ RETURN rival.ticker, rival.name
 | Filings near a price move (8-K, 10-Q) | Story Mode evidence | SEC EDGAR |
 | Historical prices | Story Mode, move detection | Yahoo Finance via yfinance |
 | Quarterly results (revenue, profit, R&D) | Story Mode context; shape comparison | SEC EDGAR XBRL |
-| Company news | Feed, Story Mode, alerts | Finnhub company news (free tier: last few days only) |
+| Company news | Feed, Story Mode, alerts | Finnhub company news (free tier: ~250 newest articles per request) |
 | Industry trends | Story Mode context | FRED (St. Louis Fed) |
 | Relationship extraction, explanations | Knowledge graph, Story Mode | Google Gemini |
 

@@ -1,0 +1,2665 @@
+{
+  "symbol": "CRUS",
+  "company_name": "Cirrus Logic, Inc.",
+  "generated_at": "2026-09-26T12:32:40.545000+00:00",
+  "bars": [
+    {
+      "date": "2026-03-20",
+      "open": 136.74,
+      "high": 137.85,
+      "low": 134.74,
+      "close": 136.07,
+      "volume": 1179700,
+      "pct_change": 0.0,
+      "prev_close": 136.74
+    },
+    {
+      "date": "2026-03-23",
+      "open": 138.27,
+      "high": 138.7,
+      "low": 135.94,
+      "close": 136.88,
+      "volume": 436500,
+      "pct_change": 0.595,
+      "prev_close": 136.07
+    },
+    {
+      "date": "2026-03-24",
+      "open": 135.69,
+      "high": 143.69,
+      "low": 135.69,
+      "close": 142.91,
+      "volume": 566100,
+      "pct_change": 4.405,
+      "prev_close": 136.88
+    },
+    {
+      "date": "2026-03-25",
+      "open": 143.5,
+      "high": 145.0,
+      "low": 141.76,
+      "close": 143.31,
+      "volume": 348200,
+      "pct_change": 0.28,
+      "prev_close": 142.91
+    },
+    {
+      "date": "2026-03-26",
+      "open": 141.94,
+      "high": 154.9,
+      "low": 140.2,
+      "close": 148.69,
+      "volume": 1739400,
+      "pct_change": 3.754,
+      "prev_close": 143.31
+    },
+    {
+      "date": "2026-03-27",
+      "open": 145.87,
+      "high": 146.51,
+      "low": 141.61,
+      "close": 143.39,
+      "volume": 645900,
+      "pct_change": -3.564,
+      "prev_close": 148.69
+    },
+    {
+      "date": "2026-03-30",
+      "open": 144.92,
+      "high": 145.05,
+      "low": 136.96,
+      "close": 138.33,
+      "volume": 526800,
+      "pct_change": -3.529,
+      "prev_close": 143.39
+    },
+    {
+      "date": "2026-03-31",
+      "open": 140.35,
+      "high": 145.14,
+      "low": 140.2,
+      "close": 144.62,
+      "volume": 503000,
+      "pct_change": 4.547,
+      "prev_close": 138.33
+    },
+    {
+      "date": "2026-04-01",
+      "open": 144.46,
+      "high": 149.29,
+      "low": 144.33,
+      "close": 147.13,
+      "volume": 693600,
+      "pct_change": 1.736,
+      "prev_close": 144.62
+    },
+    {
+      "date": "2026-04-02",
+      "open": 144.0,
+      "high": 147.63,
+      "low": 143.24,
+      "close": 147.13,
+      "volume": 491100,
+      "pct_change": 0.0,
+      "prev_close": 147.13
+    },
+    {
+      "date": "2026-04-06",
+      "open": 148.58,
+      "high": 150.88,
+      "low": 146.59,
+      "close": 148.78,
+      "volume": 563900,
+      "pct_change": 1.121,
+      "prev_close": 147.13
+    },
+    {
+      "date": "2026-04-07",
+      "open": 148.24,
+      "high": 149.85,
+      "low": 145.5,
+      "close": 147.35,
+      "volume": 684400,
+      "pct_change": -0.961,
+      "prev_close": 148.78
+    },
+    {
+      "date": "2026-04-08",
+      "open": 150.08,
+      "high": 155.95,
+      "low": 148.0,
+      "close": 154.82,
+      "volume": 978400,
+      "pct_change": 5.07,
+      "prev_close": 147.35
+    },
+    {
+      "date": "2026-04-09",
+      "open": 154.68,
+      "high": 160.66,
+      "low": 154.04,
+      "close": 159.71,
+      "volume": 729000,
+      "pct_change": 3.159,
+      "prev_close": 154.82
+    },
+    {
+      "date": "2026-04-10",
+      "open": 160.57,
+      "high": 162.51,
+      "low": 158.08,
+      "close": 160.0,
+      "volume": 646200,
+      "pct_change": 0.182,
+      "prev_close": 159.71
+    },
+    {
+      "date": "2026-04-13",
+      "open": 159.78,
+      "high": 161.36,
+      "low": 157.25,
+      "close": 161.1,
+      "volume": 542000,
+      "pct_change": 0.687,
+      "prev_close": 160.0
+    },
+    {
+      "date": "2026-04-14",
+      "open": 161.46,
+      "high": 161.65,
+      "low": 158.71,
+      "close": 160.75,
+      "volume": 499800,
+      "pct_change": -0.217,
+      "prev_close": 161.1
+    },
+    {
+      "date": "2026-04-15",
+      "open": 159.89,
+      "high": 161.0,
+      "low": 155.59,
+      "close": 157.71,
+      "volume": 556600,
+      "pct_change": -1.891,
+      "prev_close": 160.75
+    },
+    {
+      "date": "2026-04-16",
+      "open": 159.05,
+      "high": 165.28,
+      "low": 159.0,
+      "close": 164.84,
+      "volume": 1001500,
+      "pct_change": 4.521,
+      "prev_close": 157.71
+    },
+    {
+      "date": "2026-04-17",
+      "open": 167.49,
+      "high": 168.92,
+      "low": 163.85,
+      "close": 167.8,
+      "volume": 701500,
+      "pct_change": 1.796,
+      "prev_close": 164.84
+    },
+    {
+      "date": "2026-04-20",
+      "open": 167.81,
+      "high": 170.04,
+      "low": 167.07,
+      "close": 168.38,
+      "volume": 571700,
+      "pct_change": 0.346,
+      "prev_close": 167.8
+    },
+    {
+      "date": "2026-04-21",
+      "open": 169.16,
+      "high": 171.03,
+      "low": 167.75,
+      "close": 169.77,
+      "volume": 810800,
+      "pct_change": 0.826,
+      "prev_close": 168.38
+    },
+    {
+      "date": "2026-04-22",
+      "open": 171.59,
+      "high": 173.0,
+      "low": 167.85,
+      "close": 169.89,
+      "volume": 603800,
+      "pct_change": 0.071,
+      "prev_close": 169.77
+    },
+    {
+      "date": "2026-04-23",
+      "open": 171.58,
+      "high": 173.84,
+      "low": 170.5,
+      "close": 172.81,
+      "volume": 513100,
+      "pct_change": 1.719,
+      "prev_close": 169.89
+    },
+    {
+      "date": "2026-04-24",
+      "open": 175.0,
+      "high": 175.78,
+      "low": 171.56,
+      "close": 174.17,
+      "volume": 476200,
+      "pct_change": 0.787,
+      "prev_close": 172.81
+    },
+    {
+      "date": "2026-04-27",
+      "open": 174.73,
+      "high": 174.84,
+      "low": 169.91,
+      "close": 170.79,
+      "volume": 521300,
+      "pct_change": -1.941,
+      "prev_close": 174.17
+    },
+    {
+      "date": "2026-04-28",
+      "open": 169.0,
+      "high": 169.75,
+      "low": 161.7,
+      "close": 162.51,
+      "volume": 722800,
+      "pct_change": -4.848,
+      "prev_close": 170.79
+    },
+    {
+      "date": "2026-04-29",
+      "open": 164.97,
+      "high": 165.03,
+      "low": 156.25,
+      "close": 157.29,
+      "volume": 884500,
+      "pct_change": -3.212,
+      "prev_close": 162.51
+    },
+    {
+      "date": "2026-04-30",
+      "open": 159.5,
+      "high": 163.19,
+      "low": 157.26,
+      "close": 163.08,
+      "volume": 908500,
+      "pct_change": 3.681,
+      "prev_close": 157.29
+    },
+    {
+      "date": "2026-05-01",
+      "open": 162.05,
+      "high": 164.35,
+      "low": 159.54,
+      "close": 164.24,
+      "volume": 588600,
+      "pct_change": 0.711,
+      "prev_close": 163.08
+    },
+    {
+      "date": "2026-05-04",
+      "open": 163.99,
+      "high": 166.01,
+      "low": 162.0,
+      "close": 164.17,
+      "volume": 545300,
+      "pct_change": -0.043,
+      "prev_close": 164.24
+    },
+    {
+      "date": "2026-05-05",
+      "open": 165.05,
+      "high": 171.31,
+      "low": 165.0,
+      "close": 171.22,
+      "volume": 730700,
+      "pct_change": 4.294,
+      "prev_close": 164.17
+    },
+    {
+      "date": "2026-05-06",
+      "open": 171.53,
+      "high": 172.66,
+      "low": 167.01,
+      "close": 167.69,
+      "volume": 1084600,
+      "pct_change": -2.062,
+      "prev_close": 171.22
+    },
+    {
+      "date": "2026-05-07",
+      "open": 175.47,
+      "high": 179.0,
+      "low": 169.73,
+      "close": 171.68,
+      "volume": 1179100,
+      "pct_change": 2.379,
+      "prev_close": 167.69
+    },
+    {
+      "date": "2026-05-08",
+      "open": 175.27,
+      "high": 175.4,
+      "low": 166.5,
+      "close": 171.67,
+      "volume": 790500,
+      "pct_change": -0.006,
+      "prev_close": 171.68
+    },
+    {
+      "date": "2026-05-11",
+      "open": 173.14,
+      "high": 176.32,
+      "low": 169.29,
+      "close": 174.23,
+      "volume": 612900,
+      "pct_change": 1.491,
+      "prev_close": 171.67
+    },
+    {
+      "date": "2026-05-12",
+      "open": 172.3,
+      "high": 172.3,
+      "low": 162.87,
+      "close": 166.47,
+      "volume": 505300,
+      "pct_change": -4.454,
+      "prev_close": 174.23
+    },
+    {
+      "date": "2026-05-13",
+      "open": 170.2,
+      "high": 170.44,
+      "low": 164.44,
+      "close": 166.45,
+      "volume": 597200,
+      "pct_change": -0.012,
+      "prev_close": 166.47
+    },
+    {
+      "date": "2026-05-14",
+      "open": 166.7,
+      "high": 167.2,
+      "low": 161.07,
+      "close": 162.84,
+      "volume": 514700,
+      "pct_change": -2.169,
+      "prev_close": 166.45
+    },
+    {
+      "date": "2026-05-15",
+      "open": 159.89,
+      "high": 161.32,
+      "low": 158.0,
+      "close": 159.71,
+      "volume": 387800,
+      "pct_change": -1.922,
+      "prev_close": 162.84
+    },
+    {
+      "date": "2026-05-18",
+      "open": 161.11,
+      "high": 163.37,
+      "low": 158.75,
+      "close": 160.28,
+      "volume": 734600,
+      "pct_change": 0.357,
+      "prev_close": 159.71
+    },
+    {
+      "date": "2026-05-19",
+      "open": 157.37,
+      "high": 161.81,
+      "low": 156.67,
+      "close": 161.14,
+      "volume": 639100,
+      "pct_change": 0.537,
+      "prev_close": 160.28
+    },
+    {
+      "date": "2026-05-20",
+      "open": 161.27,
+      "high": 166.15,
+      "low": 158.09,
+      "close": 166.01,
+      "volume": 873300,
+      "pct_change": 3.022,
+      "prev_close": 161.14
+    },
+    {
+      "date": "2026-05-21",
+      "open": 164.4,
+      "high": 168.66,
+      "low": 164.39,
+      "close": 166.62,
+      "volume": 464700,
+      "pct_change": 0.367,
+      "prev_close": 166.01
+    },
+    {
+      "date": "2026-05-22",
+      "open": 166.65,
+      "high": 172.36,
+      "low": 166.65,
+      "close": 171.17,
+      "volume": 408900,
+      "pct_change": 2.731,
+      "prev_close": 166.62
+    },
+    {
+      "date": "2026-05-26",
+      "open": 173.73,
+      "high": 178.57,
+      "low": 171.4,
+      "close": 178.3,
+      "volume": 493700,
+      "pct_change": 4.165,
+      "prev_close": 171.17
+    },
+    {
+      "date": "2026-05-27",
+      "open": 180.17,
+      "high": 180.42,
+      "low": 172.14,
+      "close": 173.59,
+      "volume": 396500,
+      "pct_change": -2.642,
+      "prev_close": 178.3
+    },
+    {
+      "date": "2026-05-28",
+      "open": 173.64,
+      "high": 175.25,
+      "low": 169.33,
+      "close": 174.33,
+      "volume": 366100,
+      "pct_change": 0.426,
+      "prev_close": 173.59
+    },
+    {
+      "date": "2026-05-29",
+      "open": 175.7,
+      "high": 177.12,
+      "low": 168.49,
+      "close": 169.95,
+      "volume": 715700,
+      "pct_change": -2.512,
+      "prev_close": 174.33
+    },
+    {
+      "date": "2026-06-01",
+      "open": 167.73,
+      "high": 172.0,
+      "low": 167.41,
+      "close": 167.73,
+      "volume": 575200,
+      "pct_change": -1.306,
+      "prev_close": 169.95
+    },
+    {
+      "date": "2026-06-02",
+      "open": 170.12,
+      "high": 170.7,
+      "low": 164.74,
+      "close": 170.62,
+      "volume": 947700,
+      "pct_change": 1.723,
+      "prev_close": 167.73
+    },
+    {
+      "date": "2026-06-03",
+      "open": 170.83,
+      "high": 180.18,
+      "low": 170.81,
+      "close": 178.9,
+      "volume": 461900,
+      "pct_change": 4.853,
+      "prev_close": 170.62
+    },
+    {
+      "date": "2026-06-04",
+      "open": 175.65,
+      "high": 178.2,
+      "low": 172.74,
+      "close": 175.63,
+      "volume": 370700,
+      "pct_change": -1.828,
+      "prev_close": 178.9
+    },
+    {
+      "date": "2026-06-05",
+      "open": 171.75,
+      "high": 172.04,
+      "low": 163.8,
+      "close": 164.4,
+      "volume": 401600,
+      "pct_change": -6.394,
+      "prev_close": 175.63
+    },
+    {
+      "date": "2026-06-08",
+      "open": 168.39,
+      "high": 169.68,
+      "low": 164.74,
+      "close": 165.66,
+      "volume": 602700,
+      "pct_change": 0.766,
+      "prev_close": 164.4
+    },
+    {
+      "date": "2026-06-09",
+      "open": 168.29,
+      "high": 169.17,
+      "low": 156.29,
+      "close": 164.07,
+      "volume": 681900,
+      "pct_change": -0.96,
+      "prev_close": 165.66
+    },
+    {
+      "date": "2026-06-10",
+      "open": 162.48,
+      "high": 165.69,
+      "low": 156.77,
+      "close": 157.87,
+      "volume": 562900,
+      "pct_change": -3.779,
+      "prev_close": 164.07
+    },
+    {
+      "date": "2026-06-11",
+      "open": 161.45,
+      "high": 163.28,
+      "low": 157.27,
+      "close": 162.93,
+      "volume": 461600,
+      "pct_change": 3.205,
+      "prev_close": 157.87
+    },
+    {
+      "date": "2026-06-12",
+      "open": 162.78,
+      "high": 166.72,
+      "low": 160.68,
+      "close": 164.09,
+      "volume": 420400,
+      "pct_change": 0.712,
+      "prev_close": 162.93
+    },
+    {
+      "date": "2026-06-15",
+      "open": 169.55,
+      "high": 171.11,
+      "low": 165.13,
+      "close": 165.94,
+      "volume": 414800,
+      "pct_change": 1.127,
+      "prev_close": 164.09
+    },
+    {
+      "date": "2026-06-16",
+      "open": 165.51,
+      "high": 169.02,
+      "low": 160.38,
+      "close": 160.76,
+      "volume": 431900,
+      "pct_change": -3.122,
+      "prev_close": 165.94
+    },
+    {
+      "date": "2026-06-17",
+      "open": 162.66,
+      "high": 164.56,
+      "low": 159.48,
+      "close": 160.27,
+      "volume": 387000,
+      "pct_change": -0.305,
+      "prev_close": 160.76
+    },
+    {
+      "date": "2026-06-18",
+      "open": 165.1,
+      "high": 166.28,
+      "low": 163.18,
+      "close": 165.29,
+      "volume": 950200,
+      "pct_change": 3.132,
+      "prev_close": 160.27
+    },
+    {
+      "date": "2026-06-22",
+      "open": 167.29,
+      "high": 168.87,
+      "low": 165.16,
+      "close": 165.41,
+      "volume": 521100,
+      "pct_change": 0.073,
+      "prev_close": 165.29
+    },
+    {
+      "date": "2026-06-23",
+      "open": 158.15,
+      "high": 161.81,
+      "low": 155.0,
+      "close": 157.78,
+      "volume": 633500,
+      "pct_change": -4.613,
+      "prev_close": 165.41
+    },
+    {
+      "date": "2026-06-24",
+      "open": 158.44,
+      "high": 158.59,
+      "low": 155.32,
+      "close": 157.67,
+      "volume": 449200,
+      "pct_change": -0.07,
+      "prev_close": 157.78
+    },
+    {
+      "date": "2026-06-25",
+      "open": 160.78,
+      "high": 163.76,
+      "low": 152.52,
+      "close": 153.98,
+      "volume": 634400,
+      "pct_change": -2.34,
+      "prev_close": 157.67
+    },
+    {
+      "date": "2026-06-26",
+      "open": 150.7,
+      "high": 151.13,
+      "low": 145.46,
+      "close": 146.5,
+      "volume": 1006200,
+      "pct_change": -4.858,
+      "prev_close": 153.98
+    },
+    {
+      "date": "2026-06-29",
+      "open": 145.67,
+      "high": 148.17,
+      "low": 142.4,
+      "close": 146.35,
+      "volume": 816200,
+      "pct_change": -0.102,
+      "prev_close": 146.5
+    },
+    {
+      "date": "2026-06-30",
+      "open": 146.43,
+      "high": 148.98,
+      "low": 145.8,
+      "close": 148.53,
+      "volume": 566000,
+      "pct_change": 1.49,
+      "prev_close": 146.35
+    },
+    {
+      "date": "2026-07-01",
+      "open": 147.02,
+      "high": 147.66,
+      "low": 144.62,
+      "close": 146.42,
+      "volume": 672900,
+      "pct_change": -1.421,
+      "prev_close": 148.53
+    },
+    {
+      "date": "2026-07-02",
+      "open": 146.52,
+      "high": 149.28,
+      "low": 142.05,
+      "close": 146.24,
+      "volume": 729600,
+      "pct_change": -0.123,
+      "prev_close": 146.42
+    },
+    {
+      "date": "2026-07-06",
+      "open": 147.8,
+      "high": 150.93,
+      "low": 147.12,
+      "close": 148.83,
+      "volume": 470400,
+      "pct_change": 1.771,
+      "prev_close": 146.24
+    },
+    {
+      "date": "2026-07-07",
+      "open": 143.88,
+      "high": 148.32,
+      "low": 143.69,
+      "close": 146.57,
+      "volume": 475600,
+      "pct_change": -1.519,
+      "prev_close": 148.83
+    },
+    {
+      "date": "2026-07-08",
+      "open": 147.09,
+      "high": 149.06,
+      "low": 146.35,
+      "close": 146.79,
+      "volume": 878800,
+      "pct_change": 0.15,
+      "prev_close": 146.57
+    },
+    {
+      "date": "2026-07-09",
+      "open": 150.0,
+      "high": 152.67,
+      "low": 149.9,
+      "close": 149.92,
+      "volume": 620200,
+      "pct_change": 2.132,
+      "prev_close": 146.79
+    },
+    {
+      "date": "2026-07-10",
+      "open": 149.03,
+      "high": 152.21,
+      "low": 148.0,
+      "close": 150.36,
+      "volume": 483800,
+      "pct_change": 0.293,
+      "prev_close": 149.92
+    },
+    {
+      "date": "2026-07-13",
+      "open": 148.41,
+      "high": 148.91,
+      "low": 145.01,
+      "close": 146.51,
+      "volume": 454800,
+      "pct_change": -2.561,
+      "prev_close": 150.36
+    },
+    {
+      "date": "2026-07-14",
+      "open": 149.81,
+      "high": 150.82,
+      "low": 136.01,
+      "close": 137.36,
+      "volume": 972700,
+      "pct_change": -6.245,
+      "prev_close": 146.51
+    },
+    {
+      "date": "2026-07-15",
+      "open": 139.25,
+      "high": 141.0,
+      "low": 137.01,
+      "close": 139.07,
+      "volume": 601700,
+      "pct_change": 1.245,
+      "prev_close": 137.36
+    },
+    {
+      "date": "2026-07-16",
+      "open": 136.33,
+      "high": 137.23,
+      "low": 134.77,
+      "close": 136.97,
+      "volume": 666900,
+      "pct_change": -1.51,
+      "prev_close": 139.07
+    },
+    {
+      "date": "2026-07-17",
+      "open": 134.02,
+      "high": 138.59,
+      "low": 134.02,
+      "close": 137.98,
+      "volume": 688200,
+      "pct_change": 0.737,
+      "prev_close": 136.97
+    },
+    {
+      "date": "2026-07-20",
+      "open": 138.57,
+      "high": 139.79,
+      "low": 136.64,
+      "close": 136.79,
+      "volume": 603800,
+      "pct_change": -0.862,
+      "prev_close": 137.98
+    },
+    {
+      "date": "2026-07-21",
+      "open": 139.11,
+      "high": 140.75,
+      "low": 137.56,
+      "close": 139.42,
+      "volume": 465000,
+      "pct_change": 1.923,
+      "prev_close": 136.79
+    },
+    {
+      "date": "2026-07-22",
+      "open": 138.81,
+      "high": 140.67,
+      "low": 138.25,
+      "close": 139.49,
+      "volume": 404800,
+      "pct_change": 0.05,
+      "prev_close": 139.42
+    },
+    {
+      "date": "2026-07-23",
+      "open": 137.09,
+      "high": 137.09,
+      "low": 131.63,
+      "close": 133.53,
+      "volume": 1005400,
+      "pct_change": -4.273,
+      "prev_close": 139.49
+    },
+    {
+      "date": "2026-07-24",
+      "open": 133.53,
+      "high": 136.71,
+      "low": 132.89,
+      "close": 133.61,
+      "volume": 543600,
+      "pct_change": 0.06,
+      "prev_close": 133.53
+    },
+    {
+      "date": "2026-07-27",
+      "open": 134.33,
+      "high": 136.33,
+      "low": 132.86,
+      "close": 136.12,
+      "volume": 513600,
+      "pct_change": 1.879,
+      "prev_close": 133.61
+    },
+    {
+      "date": "2026-07-28",
+      "open": 134.69,
+      "high": 136.83,
+      "low": 133.1,
+      "close": 136.16,
+      "volume": 760600,
+      "pct_change": 0.029,
+      "prev_close": 136.12
+    },
+    {
+      "date": "2026-07-29",
+      "open": 134.32,
+      "high": 136.39,
+      "low": 131.75,
+      "close": 134.07,
+      "volume": 893500,
+      "pct_change": -1.535,
+      "prev_close": 136.16
+    },
+    {
+      "date": "2026-07-30",
+      "open": 134.39,
+      "high": 137.04,
+      "low": 131.07,
+      "close": 131.86,
+      "volume": 703200,
+      "pct_change": -1.648,
+      "prev_close": 134.07
+    },
+    {
+      "date": "2026-07-31",
+      "open": 132.21,
+      "high": 133.84,
+      "low": 128.84,
+      "close": 129.35,
+      "volume": 886700,
+      "pct_change": -1.904,
+      "prev_close": 131.86
+    },
+    {
+      "date": "2026-08-03",
+      "open": 127.99,
+      "high": 129.07,
+      "low": 125.44,
+      "close": 127.33,
+      "volume": 800000,
+      "pct_change": -1.562,
+      "prev_close": 129.35
+    },
+    {
+      "date": "2026-08-04",
+      "open": 129.08,
+      "high": 133.76,
+      "low": 127.05,
+      "close": 133.59,
+      "volume": 549400,
+      "pct_change": 4.916,
+      "prev_close": 127.33
+    },
+    {
+      "date": "2026-08-05",
+      "open": 132.09,
+      "high": 134.38,
+      "low": 128.78,
+      "close": 129.42,
+      "volume": 995400,
+      "pct_change": -3.121,
+      "prev_close": 133.59
+    },
+    {
+      "date": "2026-08-06",
+      "open": 122.15,
+      "high": 129.65,
+      "low": 119.85,
+      "close": 123.51,
+      "volume": 1720600,
+      "pct_change": -4.567,
+      "prev_close": 129.42
+    },
+    {
+      "date": "2026-08-07",
+      "open": 125.79,
+      "high": 126.57,
+      "low": 122.67,
+      "close": 124.92,
+      "volume": 902100,
+      "pct_change": 1.142,
+      "prev_close": 123.51
+    },
+    {
+      "date": "2026-08-10",
+      "open": 124.96,
+      "high": 125.9,
+      "low": 121.69,
+      "close": 121.84,
+      "volume": 998900,
+      "pct_change": -2.466,
+      "prev_close": 124.92
+    },
+    {
+      "date": "2026-08-11",
+      "open": 123.58,
+      "high": 125.77,
+      "low": 120.82,
+      "close": 121.99,
+      "volume": 719500,
+      "pct_change": 0.123,
+      "prev_close": 121.84
+    },
+    {
+      "date": "2026-08-12",
+      "open": 124.8,
+      "high": 125.99,
+      "low": 121.22,
+      "close": 121.89,
+      "volume": 873000,
+      "pct_change": -0.082,
+      "prev_close": 121.99
+    },
+    {
+      "date": "2026-08-13",
+      "open": 121.98,
+      "high": 123.35,
+      "low": 120.76,
+      "close": 121.22,
+      "volume": 797800,
+      "pct_change": -0.55,
+      "prev_close": 121.89
+    },
+    {
+      "date": "2026-08-14",
+      "open": 123.0,
+      "high": 123.0,
+      "low": 119.97,
+      "close": 121.09,
+      "volume": 535600,
+      "pct_change": -0.107,
+      "prev_close": 121.22
+    },
+    {
+      "date": "2026-08-17",
+      "open": 120.97,
+      "high": 121.96,
+      "low": 119.61,
+      "close": 119.87,
+      "volume": 734500,
+      "pct_change": -1.008,
+      "prev_close": 121.09
+    },
+    {
+      "date": "2026-08-18",
+      "open": 118.71,
+      "high": 119.89,
+      "low": 116.0,
+      "close": 116.88,
+      "volume": 816900,
+      "pct_change": -2.494,
+      "prev_close": 119.87
+    },
+    {
+      "date": "2026-08-19",
+      "open": 118.16,
+      "high": 119.44,
+      "low": 116.28,
+      "close": 118.07,
+      "volume": 1014900,
+      "pct_change": 1.018,
+      "prev_close": 116.88
+    },
+    {
+      "date": "2026-08-20",
+      "open": 117.89,
+      "high": 119.95,
+      "low": 116.44,
+      "close": 116.9,
+      "volume": 697600,
+      "pct_change": -0.991,
+      "prev_close": 118.07
+    },
+    {
+      "date": "2026-08-21",
+      "open": 117.18,
+      "high": 117.26,
+      "low": 114.67,
+      "close": 115.33,
+      "volume": 613400,
+      "pct_change": -1.343,
+      "prev_close": 116.9
+    },
+    {
+      "date": "2026-08-24",
+      "open": 114.51,
+      "high": 114.71,
+      "low": 111.46,
+      "close": 111.64,
+      "volume": 715500,
+      "pct_change": -3.2,
+      "prev_close": 115.33
+    },
+    {
+      "date": "2026-08-25",
+      "open": 112.84,
+      "high": 113.01,
+      "low": 110.58,
+      "close": 111.43,
+      "volume": 590200,
+      "pct_change": -0.188,
+      "prev_close": 111.64
+    },
+    {
+      "date": "2026-08-26",
+      "open": 111.66,
+      "high": 112.46,
+      "low": 109.92,
+      "close": 110.34,
+      "volume": 675900,
+      "pct_change": -0.978,
+      "prev_close": 111.43
+    },
+    {
+      "date": "2026-08-27",
+      "open": 111.56,
+      "high": 111.93,
+      "low": 108.81,
+      "close": 110.88,
+      "volume": 603800,
+      "pct_change": 0.489,
+      "prev_close": 110.34
+    },
+    {
+      "date": "2026-08-28",
+      "open": 110.85,
+      "high": 110.85,
+      "low": 108.12,
+      "close": 108.48,
+      "volume": 611400,
+      "pct_change": -2.165,
+      "prev_close": 110.88
+    },
+    {
+      "date": "2026-08-31",
+      "open": 108.92,
+      "high": 109.75,
+      "low": 108.08,
+      "close": 109.51,
+      "volume": 1189100,
+      "pct_change": 0.949,
+      "prev_close": 108.48
+    },
+    {
+      "date": "2026-09-01",
+      "open": 107.9,
+      "high": 109.37,
+      "low": 106.26,
+      "close": 109.07,
+      "volume": 1453700,
+      "pct_change": -0.402,
+      "prev_close": 109.51
+    },
+    {
+      "date": "2026-09-02",
+      "open": 109.3,
+      "high": 114.53,
+      "low": 109.3,
+      "close": 113.06,
+      "volume": 1271800,
+      "pct_change": 3.658,
+      "prev_close": 109.07
+    },
+    {
+      "date": "2026-09-03",
+      "open": 112.31,
+      "high": 114.29,
+      "low": 111.66,
+      "close": 113.13,
+      "volume": 889100,
+      "pct_change": 0.062,
+      "prev_close": 113.06
+    },
+    {
+      "date": "2026-09-04",
+      "open": 113.13,
+      "high": 114.09,
+      "low": 111.27,
+      "close": 113.21,
+      "volume": 1084200,
+      "pct_change": 0.071,
+      "prev_close": 113.13
+    },
+    {
+      "date": "2026-09-08",
+      "open": 114.14,
+      "high": 114.55,
+      "low": 110.41,
+      "close": 110.76,
+      "volume": 1153700,
+      "pct_change": -2.164,
+      "prev_close": 113.21
+    },
+    {
+      "date": "2026-09-09",
+      "open": 110.0,
+      "high": 111.17,
+      "low": 108.21,
+      "close": 110.72,
+      "volume": 920500,
+      "pct_change": -0.036,
+      "prev_close": 110.76
+    },
+    {
+      "date": "2026-09-10",
+      "open": 109.6,
+      "high": 116.57,
+      "low": 108.77,
+      "close": 116.48,
+      "volume": 1095400,
+      "pct_change": 5.202,
+      "prev_close": 110.72
+    },
+    {
+      "date": "2026-09-11",
+      "open": 117.0,
+      "high": 120.46,
+      "low": 116.83,
+      "close": 118.79,
+      "volume": 1097300,
+      "pct_change": 1.983,
+      "prev_close": 116.48
+    },
+    {
+      "date": "2026-09-14",
+      "open": 115.97,
+      "high": 118.82,
+      "low": 114.71,
+      "close": 116.34,
+      "volume": 851600,
+      "pct_change": -2.062,
+      "prev_close": 118.79
+    },
+    {
+      "date": "2026-09-15",
+      "open": 117.88,
+      "high": 124.75,
+      "low": 117.55,
+      "close": 122.21,
+      "volume": 1421000,
+      "pct_change": 5.046,
+      "prev_close": 116.34
+    },
+    {
+      "date": "2026-09-16",
+      "open": 123.09,
+      "high": 123.61,
+      "low": 115.92,
+      "close": 118.0,
+      "volume": 874600,
+      "pct_change": -3.445,
+      "prev_close": 122.21
+    },
+    {
+      "date": "2026-09-17",
+      "open": 120.07,
+      "high": 121.52,
+      "low": 117.93,
+      "close": 120.37,
+      "volume": 744500,
+      "pct_change": 2.008,
+      "prev_close": 118.0
+    },
+    {
+      "date": "2026-09-18",
+      "open": 120.84,
+      "high": 121.29,
+      "low": 118.23,
+      "close": 118.82,
+      "volume": 2040300,
+      "pct_change": -1.288,
+      "prev_close": 120.37
+    },
+    {
+      "date": "2026-09-21",
+      "open": 119.0,
+      "high": 120.56,
+      "low": 117.79,
+      "close": 119.98,
+      "volume": 624500,
+      "pct_change": 0.976,
+      "prev_close": 118.82
+    },
+    {
+      "date": "2026-09-22",
+      "open": 119.79,
+      "high": 120.76,
+      "low": 119.02,
+      "close": 120.38,
+      "volume": 605200,
+      "pct_change": 0.333,
+      "prev_close": 119.98
+    },
+    {
+      "date": "2026-09-23",
+      "open": 120.14,
+      "high": 120.86,
+      "low": 118.97,
+      "close": 120.45,
+      "volume": 479300,
+      "pct_change": 0.058,
+      "prev_close": 120.38
+    },
+    {
+      "date": "2026-09-24",
+      "open": 119.54,
+      "high": 119.59,
+      "low": 117.67,
+      "close": 118.8,
+      "volume": 454500,
+      "pct_change": -1.37,
+      "prev_close": 120.45
+    },
+    {
+      "date": "2026-09-25",
+      "open": 119.03,
+      "high": 120.67,
+      "low": 118.53,
+      "close": 119.92,
+      "volume": 383200,
+      "pct_change": 0.943,
+      "prev_close": 118.8
+    }
+  ],
+  "beats": [
+    {
+      "date": "2026-03-26",
+      "pct_change": 3.754,
+      "close": 148.69,
+      "direction": "up",
+      "headline": "Cirrus Logic gains 3.8% on heavy volume",
+      "explanation": "Cirrus Logic shares climbed 3.75% to close at $148.69 on twice its 30-day average volume. No company-specific news accompanied the rally, though the advance was company-specific as customer Apple added just 0.11% and competitor Qualcomm gained 0.15%, while supplier TSMC dropped 6.22%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_CRUS_20260326_price",
+        "ev_CRUS_20260326_peer_AAPL",
+        "ev_CRUS_20260326_peer_QCOM",
+        "ev_CRUS_20260326_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "pct_change": 4.521,
+      "close": 164.84,
+      "direction": "up",
+      "headline": "Shares jump 4.5% on new chip line and PT boost",
+      "explanation": "The stock climbed 4.52% to $164.84 after Cirrus Logic launched a new family of industrial imaging integrated circuits for scanning systems. Analyst Tore Svanberg at Stifel also raised his price target on the stock from $163 to $175 while keeping a Buy rating. The move diverged from connected peers, as customer Apple fell 1.14% and supplier TSMC declined 3.13%.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_CRUS_20260416_price",
+        "ev_CRUS_20260416_news0",
+        "ev_CRUS_20260416_news4",
+        "ev_CRUS_20260416_peer_AAPL",
+        "ev_CRUS_20260416_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "pct_change": -4.848,
+      "close": 162.51,
+      "direction": "down",
+      "headline": "Stock drops 4.8% amid semiconductor demand worries",
+      "explanation": "Cirrus Logic fell 4.85% to $162.51 as broader semiconductor equities pulled back following reports that OpenAI missed internal sales and user targets. The retreat was shared with supplier TSMC, which dropped 3.12%, though customer Apple gained 1.16%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_CRUS_20260428_price",
+        "ev_CRUS_20260428_news0",
+        "ev_CRUS_20260428_peer_TSM",
+        "ev_CRUS_20260428_peer_AAPL"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "pct_change": -3.212,
+      "close": 157.29,
+      "direction": "down",
+      "headline": "Shares slip another 3.2% without fresh catalysts",
+      "explanation": "The stock retreated 3.21% to $157.29 on average volume, extending the previous session's decline. No new company-specific announcements were reported, and the move was company-specific as competitor Qualcomm rallied 4.00% and supplier TSMC rose 0.38%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_CRUS_20260429_price",
+        "ev_CRUS_20260429_peer_QCOM",
+        "ev_CRUS_20260429_peer_TSM",
+        "ev_CRUS_20260429_peer_AAPL"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "pct_change": -4.858,
+      "close": 146.5,
+      "direction": "down",
+      "headline": "Stock drops 4.9% alongside competitor weakness",
+      "explanation": "Cirrus Logic shares fell 4.86% to $146.50 without direct corporate news. Weakness was shared with semiconductor competitor Qualcomm, which dropped 7.57%, even as key customer Apple rose 3.14%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_CRUS_20260626_price",
+        "ev_CRUS_20260626_peer_QCOM",
+        "ev_CRUS_20260626_peer_AAPL"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "pct_change": -6.245,
+      "close": 137.36,
+      "direction": "down",
+      "headline": "Stock declines 6.2% as KeyBanc lowers price target",
+      "explanation": "Shares fell 6.25% to $137.36 after KeyBanc analyst John Vinh trimmed his price target from $200 to $190 while maintaining an Overweight rating. Cirrus Logic also confirmed its fiscal Q1 2027 earnings release date for August 5. Competitor Qualcomm similarly slipped 3.20%, while customer Apple dipped 0.77%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_CRUS_20260714_price",
+        "ev_CRUS_20260714_news1",
+        "ev_CRUS_20260714_news0",
+        "ev_CRUS_20260714_peer_QCOM",
+        "ev_CRUS_20260714_peer_AAPL"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "pct_change": -4.273,
+      "close": 133.53,
+      "direction": "down",
+      "headline": "Stock falls 4.3% in broad peer selloff",
+      "explanation": "Cirrus Logic dropped 4.27% to close at $133.53 despite announcing an R&D grant from Scottish Enterprise for smart energy technology. The decline was shared across connected companies, as competitor Qualcomm fell 2.57%, supplier TSMC fell 1.34%, and customer Apple shed 1.30%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_CRUS_20260723_price",
+        "ev_CRUS_20260723_news0",
+        "ev_CRUS_20260723_peer_QCOM",
+        "ev_CRUS_20260723_peer_TSM",
+        "ev_CRUS_20260723_peer_AAPL"
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "pct_change": -4.567,
+      "close": 123.51,
+      "direction": "down",
+      "headline": "Shares slide 4.6% as analyst targets drop after Q1",
+      "explanation": "Cirrus Logic tumbled 4.57% to $123.51 on double typical trading volume following its Q1 2027 earnings release. Although revenue of $460 million and EPS of $1.84 set records, results highlighted pricing pressure and PC delays, prompting KeyBanc, Stifel, and Barclays to cut price targets to $170, $160, and $130, respectively. The drop was company-specific, as peers rallied, including competitor Qualcomm up 1.82% and customer Apple up 0.45%.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_CRUS_20260806_price",
+        "ev_CRUS_20260806_news1",
+        "ev_CRUS_20260806_news3",
+        "ev_CRUS_20260806_news4",
+        "ev_CRUS_20260806_news5",
+        "ev_CRUS_20260806_news7",
+        "ev_CRUS_20260806_peer_AAPL",
+        "ev_CRUS_20260806_peer_QCOM"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "pct_change": 3.658,
+      "close": 113.06,
+      "direction": "up",
+      "headline": "Stock rebounds 3.7% off cycle lows",
+      "explanation": "Shares rose 3.66% to $113.06 on 1.45 times average volume, bouncing after an extended summer drawdown. No positive operational headlines emerged, but competitor Qualcomm also gained 2.01%, while customer Apple was virtually unchanged at down 0.05%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_CRUS_20260902_price",
+        "ev_CRUS_20260902_peer_QCOM",
+        "ev_CRUS_20260902_peer_AAPL",
+        "ev_CRUS_20260902_news0"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "pct_change": 5.202,
+      "close": 116.48,
+      "direction": "up",
+      "headline": "Cirrus Logic rises 5.2% alongside Apple rally",
+      "explanation": "The stock gained 5.20% to reach $116.48 on above-average trading volume. The surge coincided with strength from top customer Apple, which advanced 3.56% on the same day, while competitor Qualcomm added 0.27%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_CRUS_20260910_price",
+        "ev_CRUS_20260910_peer_AAPL",
+        "ev_CRUS_20260910_peer_QCOM"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "pct_change": 5.046,
+      "close": 122.21,
+      "direction": "up",
+      "headline": "Stock gains 5.0% alongside peer Qualcomm",
+      "explanation": "Cirrus Logic shares surged 5.05% to $122.21 on 1.6 times regular volume as commentary highlighted valuation support and an active share buyback following a 27% three-month drawdown. The rise was shared with competitor Qualcomm, which gained 4.25%, even as customer Apple slipped 0.52%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_CRUS_20260915_price",
+        "ev_CRUS_20260915_news1",
+        "ev_CRUS_20260915_peer_QCOM",
+        "ev_CRUS_20260915_peer_AAPL"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "pct_change": -3.445,
+      "close": 118.0,
+      "direction": "down",
+      "headline": "Cirrus Logic pulls back 3.4% following sharp rally",
+      "explanation": "Shares gave back 3.44% to settle at $118.00 after the previous day's sharp 5% climb. Macro pressures including rising 10-year Treasury yields weighed on broader equities, and peer competitor Qualcomm also declined 1.58%, while customer Apple rose 0.32%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_CRUS_20260916_price",
+        "ev_CRUS_20260916_news0",
+        "ev_CRUS_20260916_peer_QCOM",
+        "ev_CRUS_20260916_peer_AAPL"
+      ]
+    }
+  ],
+  "evidence": {
+    "ev_CRUS_20260326_price": {
+      "id": "ev_CRUS_20260326_price",
+      "kind": "price",
+      "title": "CRUS rose 3.75% on 2026-03-26",
+      "detail": "Closed at $148.69 from $143.31. Volume was 2.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-03-26",
+      "numbers": {
+        "pct_change": 3.754,
+        "close": 148.69,
+        "prev_close": 143.31,
+        "volume": 1739400,
+        "volume_vs_30d_avg": 1.99,
+        "move_excluding_sector_pct": 5.74
+      }
+    },
+    "ev_CRUS_20260326_peer_AAPL": {
+      "id": "ev_CRUS_20260326_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +0.11% the same day",
+      "detail": "CRUS moved +3.75% while AAPL moved +0.11%. AAPL is CRUS's customer (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-03-26",
+      "numbers": {
+        "peer_pct_change": 0.11,
+        "subject_pct_change": 3.754,
+        "relationship": "customer"
+      }
+    },
+    "ev_CRUS_20260326_peer_QCOM": {
+      "id": "ev_CRUS_20260326_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +0.15% the same day",
+      "detail": "CRUS moved +3.75% while QCOM moved +0.15%. QCOM is CRUS's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-03-26",
+      "numbers": {
+        "peer_pct_change": 0.15,
+        "subject_pct_change": 3.754,
+        "relationship": "competitor"
+      }
+    },
+    "ev_CRUS_20260326_peer_TSM": {
+      "id": "ev_CRUS_20260326_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -6.22% the same day",
+      "detail": "CRUS moved +3.75% while TSM moved -6.22%. TSM is CRUS's supplier (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-03-26",
+      "numbers": {
+        "peer_pct_change": -6.22,
+        "subject_pct_change": 3.754,
+        "relationship": "supplier"
+      }
+    },
+    "ev_CRUS_20260416_price": {
+      "id": "ev_CRUS_20260416_price",
+      "kind": "price",
+      "title": "CRUS rose 4.52% on 2026-04-16",
+      "detail": "Closed at $164.84 from $157.71. Volume was 1.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "pct_change": 4.521,
+        "close": 164.84,
+        "prev_close": 157.71,
+        "volume": 1001500,
+        "volume_vs_30d_avg": 1.14,
+        "move_excluding_sector_pct": 5.59
+      }
+    },
+    "ev_CRUS_20260416_peer_AAPL": {
+      "id": "ev_CRUS_20260416_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -1.14% the same day",
+      "detail": "CRUS moved +4.52% while AAPL moved -1.14%. AAPL is CRUS's customer (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": -1.14,
+        "subject_pct_change": 4.521,
+        "relationship": "customer"
+      }
+    },
+    "ev_CRUS_20260416_peer_QCOM": {
+      "id": "ev_CRUS_20260416_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +1.07% the same day",
+      "detail": "CRUS moved +4.52% while QCOM moved +1.07%. QCOM is CRUS's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": 1.07,
+        "subject_pct_change": 4.521,
+        "relationship": "competitor"
+      }
+    },
+    "ev_CRUS_20260416_peer_TSM": {
+      "id": "ev_CRUS_20260416_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -3.13% the same day",
+      "detail": "CRUS moved +4.52% while TSM moved -3.13%. TSM is CRUS's supplier (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": -3.13,
+        "subject_pct_change": 4.521,
+        "relationship": "supplier"
+      }
+    },
+    "ev_CRUS_20260416_news0": {
+      "id": "ev_CRUS_20260416_news0",
+      "kind": "news",
+      "title": "Cirrus Logic Introduces New Industrial Imaging Products for High-Precision Scan Applications",
+      "detail": "Reported by Yahoo. AUSTIN, Texas, April 16, 2026--Cirrus Logic (NASDAQ: CRUS) today announced the launch of a new family of industrial imaging integrated circuits (ICs) designed for high-precision scanning systems. This expands Cirrus Logic\u2019s industrial portfolio and delivers a high-performance, highly integrated analog front-end solution for multi-function printers, scanners, and advanced industrial imaging platforms.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1a7f27f4179208b6927631ecbd6b7341ad4acac3dd3ce299bfb9934a12663bb6",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_CRUS_20260416_news1": {
+      "id": "ev_CRUS_20260416_news1",
+      "kind": "news",
+      "title": "Here's How Much You Would Have Made Owning Cirrus Logic Stock In The Last 20 Years",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ce5189e5e15d2948976bd83e5cbe1c1111b7de43d3dd5c7803e8ad2d944bbd86",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_CRUS_20260416_news2": {
+      "id": "ev_CRUS_20260416_news2",
+      "kind": "news",
+      "title": "Cirrus Logic Inc (NASDAQ:CRUS) Passes the \"Caviar Cruise\" Screen for Quality Investing",
+      "detail": "Reported by ChartMill. Cirrus Logic exemplifies quality investing with a 34.5% ROIC, zero debt, and strong cash flow, making it a durable semiconductor stock for long-term portfolios.",
+      "source": "ChartMill (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ba1de898b2fe986fc901a19719f4c9771e116523a482dce253ea8121f1eaa00c",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_CRUS_20260416_news3": {
+      "id": "ev_CRUS_20260416_news3",
+      "kind": "news",
+      "title": "Cirrus Logic Launches New Line Of Industrial Imaging Integrated Circuits For High-Precision Scanning Systems",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=391f1336d65c2a8c780ff8f6386fa92ec6cc57a2985d34c37e5aeef520b5e654",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_CRUS_20260416_news4": {
+      "id": "ev_CRUS_20260416_news4",
+      "kind": "news",
+      "title": "Stifel Maintains Buy on Cirrus Logic, Raises Price Target to $175",
+      "detail": "Reported by Benzinga. Stifel  analyst Tore Svanberg   maintains Cirrus Logic (NASDAQ:CRUS) with a Buy and raises the price target from $163 to $175.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f338ca46a1a8b2a7014941c272e65bda0fafb9cb95fd1d2273a6ff73866b33a2",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_CRUS_20260416_news5": {
+      "id": "ev_CRUS_20260416_news5",
+      "kind": "news",
+      "title": "Cirrus Logic to Report Fourth Quarter and Full Fiscal Year 2026 Results",
+      "detail": "Reported by Yahoo. AUSTIN, Texas, April 15, 2026--Cirrus Logic, Inc. (NASDAQ: CRUS) will post its fourth quarter and full fiscal year 2026 financial results and business outlook on the Investor Relations area of its website on Wednesday, May 6, at approximately 4 p.m. ET.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c972eab9a14d403e236eef71563b381ce9818f09478e218185065334b4e9ac42",
+      "occurred_on": "2026-04-15",
+      "numbers": {}
+    },
+    "ev_CRUS_20260416_news6": {
+      "id": "ev_CRUS_20260416_news6",
+      "kind": "news",
+      "title": "Cirrus Logic's Strong Cash Pile: Fuel for Growth Ahead?",
+      "detail": "Reported by Yahoo. CRUS' $1.08B cash and investments reserve and debt-free balance sheet power buybacks, innovation and expansion into PCs and AI-driven markets.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=23c1b40f793d419de866a91d121c906bb86e4732b7abbd565edc5c380faa404d",
+      "occurred_on": "2026-04-15",
+      "numbers": {}
+    },
+    "ev_CRUS_20260416_news7": {
+      "id": "ev_CRUS_20260416_news7",
+      "kind": "news",
+      "title": "If You Invested $1000 In Cirrus Logic Stock 20 Years Ago, You Would Have This Much Today",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3487b31a058c81af05a906089c14c5c2aa6a1cab4509bc6b84e56148a1a5cb9f",
+      "occurred_on": "2026-04-15",
+      "numbers": {}
+    },
+    "ev_CRUS_20260428_price": {
+      "id": "ev_CRUS_20260428_price",
+      "kind": "price",
+      "title": "CRUS fell 4.85% on 2026-04-28",
+      "detail": "Closed at $162.51 from $170.79. Volume was 0.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-04-28",
+      "numbers": {
+        "pct_change": -4.848,
+        "close": 162.51,
+        "prev_close": 170.79,
+        "volume": 722800,
+        "volume_vs_30d_avg": 0.83,
+        "move_excluding_sector_pct": 4.14
+      }
+    },
+    "ev_CRUS_20260428_peer_AAPL": {
+      "id": "ev_CRUS_20260428_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +1.16% the same day",
+      "detail": "CRUS moved -4.85% while AAPL moved +1.16%. AAPL is CRUS's customer (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-04-28",
+      "numbers": {
+        "peer_pct_change": 1.16,
+        "subject_pct_change": -4.848,
+        "relationship": "customer"
+      }
+    },
+    "ev_CRUS_20260428_peer_QCOM": {
+      "id": "ev_CRUS_20260428_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -0.17% the same day",
+      "detail": "CRUS moved -4.85% while QCOM moved -0.17%. QCOM is CRUS's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-28",
+      "numbers": {
+        "peer_pct_change": -0.17,
+        "subject_pct_change": -4.848,
+        "relationship": "competitor"
+      }
+    },
+    "ev_CRUS_20260428_peer_TSM": {
+      "id": "ev_CRUS_20260428_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -3.12% the same day",
+      "detail": "CRUS moved -4.85% while TSM moved -3.12%. TSM is CRUS's supplier (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-28",
+      "numbers": {
+        "peer_pct_change": -3.12,
+        "subject_pct_change": -4.848,
+        "relationship": "supplier"
+      }
+    },
+    "ev_CRUS_20260428_news0": {
+      "id": "ev_CRUS_20260428_news0",
+      "kind": "news",
+      "title": "Shares of semiconductor companies are trading lower following reports that OpenAI has missed some internal targets for sales and usership, which may erode confidence in future demand. Also, ongoing Middle East tensions are weighing on broader sentiment.",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b46005d33049352e8d7dea2cf04126f4d946d5f0c7e0fad8db4edf0f71544459",
+      "occurred_on": "2026-04-28",
+      "numbers": {}
+    },
+    "ev_CRUS_20260428_news1": {
+      "id": "ev_CRUS_20260428_news1",
+      "kind": "news",
+      "title": "Is Cirrus Logic's Product Mix Boosting Its Performance?",
+      "detail": "Reported by Yahoo. CRUS gains from a stronger product mix as boosted amplifiers, smart codecs and PC design wins support growth across smartphones, laptops and AI PCs.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f7caa372f1fdc13798a81a8437a4de55e133ab66bb5419bc802922898c8af605",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_CRUS_20260428_news2": {
+      "id": "ev_CRUS_20260428_news2",
+      "kind": "news",
+      "title": "Cirrus Logic (CRUS) Is Up 3.80% in One Week: What You Should Know",
+      "detail": "Reported by Yahoo. Does Cirrus Logic (CRUS) have what it takes to be a top stock pick for momentum investors? Let's find out.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5a4f7e715bc994bf3c0fe878ce3ff89dbc9797fa32576420359da2a9adcf1591",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_CRUS_20260428_news3": {
+      "id": "ev_CRUS_20260428_news3",
+      "kind": "news",
+      "title": "Cirrus Logic, Inc. (CRUS) Hits Fresh High: Is There Still Room to Run?",
+      "detail": "Reported by Yahoo. Cirrus Logic (CRUS) is at a 52-week high, but can investors hope for more gains in the future? We take a look at the company's fundamentals for clues.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=89808735c1b66b085a7e4c355071b68f4e5a36c0ffb4cf741478a3bc7f693c36",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_CRUS_20260429_price": {
+      "id": "ev_CRUS_20260429_price",
+      "kind": "price",
+      "title": "CRUS fell 3.21% on 2026-04-29",
+      "detail": "Closed at $157.29 from $162.51. Volume was 1.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "pct_change": -3.212,
+        "close": 157.29,
+        "prev_close": 162.51,
+        "volume": 884500,
+        "volume_vs_30d_avg": 1.01,
+        "move_excluding_sector_pct": 4.61
+      }
+    },
+    "ev_CRUS_20260429_peer_AAPL": {
+      "id": "ev_CRUS_20260429_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -0.20% the same day",
+      "detail": "CRUS moved -3.21% while AAPL moved -0.20%. AAPL is CRUS's customer (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "peer_pct_change": -0.2,
+        "subject_pct_change": -3.212,
+        "relationship": "customer"
+      }
+    },
+    "ev_CRUS_20260429_peer_QCOM": {
+      "id": "ev_CRUS_20260429_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +4.00% the same day",
+      "detail": "CRUS moved -3.21% while QCOM moved +4.00%. QCOM is CRUS's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "peer_pct_change": 4.0,
+        "subject_pct_change": -3.212,
+        "relationship": "competitor"
+      }
+    },
+    "ev_CRUS_20260429_peer_TSM": {
+      "id": "ev_CRUS_20260429_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +0.38% the same day",
+      "detail": "CRUS moved -3.21% while TSM moved +0.38%. TSM is CRUS's supplier (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "peer_pct_change": 0.38,
+        "subject_pct_change": -3.212,
+        "relationship": "supplier"
+      }
+    },
+    "ev_CRUS_20260429_news0": {
+      "id": "ev_CRUS_20260429_news0",
+      "kind": "news",
+      "title": "Shares of semiconductor companies are trading lower following reports that OpenAI has missed some internal targets for sales and usership, which may erode confidence in future demand. Also, ongoing Middle East tensions are weighing on broader sentiment.",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b46005d33049352e8d7dea2cf04126f4d946d5f0c7e0fad8db4edf0f71544459",
+      "occurred_on": "2026-04-28",
+      "numbers": {}
+    },
+    "ev_CRUS_20260626_price": {
+      "id": "ev_CRUS_20260626_price",
+      "kind": "price",
+      "title": "CRUS fell 4.86% on 2026-06-26",
+      "detail": "Closed at $146.50 from $153.98. Volume was 1.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "pct_change": -4.858,
+        "close": 146.5,
+        "prev_close": 153.98,
+        "volume": 1006200,
+        "volume_vs_30d_avg": 1.15,
+        "move_excluding_sector_pct": 3.18
+      }
+    },
+    "ev_CRUS_20260626_peer_AAPL": {
+      "id": "ev_CRUS_20260626_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +3.14% the same day",
+      "detail": "CRUS moved -4.86% while AAPL moved +3.14%. AAPL is CRUS's customer (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": 3.14,
+        "subject_pct_change": -4.858,
+        "relationship": "customer"
+      }
+    },
+    "ev_CRUS_20260626_peer_QCOM": {
+      "id": "ev_CRUS_20260626_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -7.57% the same day",
+      "detail": "CRUS moved -4.86% while QCOM moved -7.57%. QCOM is CRUS's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -7.57,
+        "subject_pct_change": -4.858,
+        "relationship": "competitor"
+      }
+    },
+    "ev_CRUS_20260626_peer_TSM": {
+      "id": "ev_CRUS_20260626_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -0.61% the same day",
+      "detail": "CRUS moved -4.86% while TSM moved -0.61%. TSM is CRUS's supplier (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -0.61,
+        "subject_pct_change": -4.858,
+        "relationship": "supplier"
+      }
+    },
+    "ev_CRUS_20260714_price": {
+      "id": "ev_CRUS_20260714_price",
+      "kind": "price",
+      "title": "CRUS fell 6.25% on 2026-07-14",
+      "detail": "Closed at $137.36 from $146.51. Volume was 1.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-07-14",
+      "numbers": {
+        "pct_change": -6.245,
+        "close": 137.36,
+        "prev_close": 146.51,
+        "volume": 972700,
+        "volume_vs_30d_avg": 1.11,
+        "move_excluding_sector_pct": 4.83
+      }
+    },
+    "ev_CRUS_20260714_peer_AAPL": {
+      "id": "ev_CRUS_20260714_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -0.77% the same day",
+      "detail": "CRUS moved -6.25% while AAPL moved -0.77%. AAPL is CRUS's customer (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-07-14",
+      "numbers": {
+        "peer_pct_change": -0.77,
+        "subject_pct_change": -6.245,
+        "relationship": "customer"
+      }
+    },
+    "ev_CRUS_20260714_peer_QCOM": {
+      "id": "ev_CRUS_20260714_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -3.20% the same day",
+      "detail": "CRUS moved -6.25% while QCOM moved -3.20%. QCOM is CRUS's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-14",
+      "numbers": {
+        "peer_pct_change": -3.2,
+        "subject_pct_change": -6.245,
+        "relationship": "competitor"
+      }
+    },
+    "ev_CRUS_20260714_peer_TSM": {
+      "id": "ev_CRUS_20260714_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -0.28% the same day",
+      "detail": "CRUS moved -6.25% while TSM moved -0.28%. TSM is CRUS's supplier (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-14",
+      "numbers": {
+        "peer_pct_change": -0.28,
+        "subject_pct_change": -6.245,
+        "relationship": "supplier"
+      }
+    },
+    "ev_CRUS_20260714_news0": {
+      "id": "ev_CRUS_20260714_news0",
+      "kind": "news",
+      "title": "Cirrus Logic to Report First Quarter Fiscal Year 2027 Results",
+      "detail": "Reported by Yahoo. AUSTIN, Texas, July 14, 2026--Cirrus Logic, Inc. (NASDAQ: CRUS) will post its first quarter fiscal year 2027 financial results and business outlook on the Investor Relations area of its website on Wednesday, August 5, at approximately 4 p.m. ET.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=723634723c6c5c0270fc8862ab37890aa6ddaabb5d9058476311723cff611e83",
+      "occurred_on": "2026-07-14",
+      "numbers": {}
+    },
+    "ev_CRUS_20260714_news1": {
+      "id": "ev_CRUS_20260714_news1",
+      "kind": "news",
+      "title": "Keybanc Maintains Overweight on Cirrus Logic, Lowers Price Target to $190",
+      "detail": "Reported by Benzinga. Keybanc  analyst John Vinh   maintains Cirrus Logic (NASDAQ:CRUS) with a Overweight and lowers the price target from $200 to $190.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=400d73586a596380983e65fb5e5354eead329e0ebdb156e3e710206bf8f0b2eb",
+      "occurred_on": "2026-07-14",
+      "numbers": {}
+    },
+    "ev_CRUS_20260723_price": {
+      "id": "ev_CRUS_20260723_price",
+      "kind": "price",
+      "title": "CRUS fell 4.27% on 2026-07-23",
+      "detail": "Closed at $133.53 from $139.49. Volume was 1.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-07-23",
+      "numbers": {
+        "pct_change": -4.273,
+        "close": 133.53,
+        "prev_close": 139.49,
+        "volume": 1005400,
+        "volume_vs_30d_avg": 1.15,
+        "move_excluding_sector_pct": 2.54
+      }
+    },
+    "ev_CRUS_20260723_peer_AAPL": {
+      "id": "ev_CRUS_20260723_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -1.30% the same day",
+      "detail": "CRUS moved -4.27% while AAPL moved -1.30%. AAPL is CRUS's customer (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-07-23",
+      "numbers": {
+        "peer_pct_change": -1.3,
+        "subject_pct_change": -4.273,
+        "relationship": "customer"
+      }
+    },
+    "ev_CRUS_20260723_peer_QCOM": {
+      "id": "ev_CRUS_20260723_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -2.57% the same day",
+      "detail": "CRUS moved -4.27% while QCOM moved -2.57%. QCOM is CRUS's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-23",
+      "numbers": {
+        "peer_pct_change": -2.57,
+        "subject_pct_change": -4.273,
+        "relationship": "competitor"
+      }
+    },
+    "ev_CRUS_20260723_peer_TSM": {
+      "id": "ev_CRUS_20260723_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -1.34% the same day",
+      "detail": "CRUS moved -4.27% while TSM moved -1.34%. TSM is CRUS's supplier (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-23",
+      "numbers": {
+        "peer_pct_change": -1.34,
+        "subject_pct_change": -4.273,
+        "relationship": "supplier"
+      }
+    },
+    "ev_CRUS_20260723_news0": {
+      "id": "ev_CRUS_20260723_news0",
+      "kind": "news",
+      "title": "Cirrus Logic Receives Scottish Enterprise Grant to Advance Smart Energy Innovation",
+      "detail": "Reported by Yahoo. EDINBURGH, Scotland, July 23, 2026--Cirrus Logic (Nasdaq: CRUS), a leader in high-performance, low-power audio and mixed-signal semiconductor solutions, today announced it has received a research and development grant from Scottish Enterprise to support the development of next-generation smart energy technology and expand advanced engineering activities in Scotland.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=996142383e782cbfb976cce03ee1cbf838a3d3c9fce8fee945e8e32089840982",
+      "occurred_on": "2026-07-23",
+      "numbers": {}
+    },
+    "ev_CRUS_20260806_price": {
+      "id": "ev_CRUS_20260806_price",
+      "kind": "price",
+      "title": "CRUS fell 4.57% on 2026-08-06",
+      "detail": "Closed at $123.51 from $129.42. Volume was 2.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-08-06",
+      "numbers": {
+        "pct_change": -4.567,
+        "close": 123.51,
+        "prev_close": 129.42,
+        "volume": 1720600,
+        "volume_vs_30d_avg": 1.97,
+        "move_excluding_sector_pct": 5.66
+      }
+    },
+    "ev_CRUS_20260806_peer_AAPL": {
+      "id": "ev_CRUS_20260806_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +0.45% the same day",
+      "detail": "CRUS moved -4.57% while AAPL moved +0.45%. AAPL is CRUS's customer (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-08-06",
+      "numbers": {
+        "peer_pct_change": 0.45,
+        "subject_pct_change": -4.567,
+        "relationship": "customer"
+      }
+    },
+    "ev_CRUS_20260806_peer_QCOM": {
+      "id": "ev_CRUS_20260806_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +1.82% the same day",
+      "detail": "CRUS moved -4.57% while QCOM moved +1.82%. QCOM is CRUS's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-08-06",
+      "numbers": {
+        "peer_pct_change": 1.82,
+        "subject_pct_change": -4.567,
+        "relationship": "competitor"
+      }
+    },
+    "ev_CRUS_20260806_peer_TSM": {
+      "id": "ev_CRUS_20260806_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +1.01% the same day",
+      "detail": "CRUS moved -4.57% while TSM moved +1.01%. TSM is CRUS's supplier (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-08-06",
+      "numbers": {
+        "peer_pct_change": 1.01,
+        "subject_pct_change": -4.567,
+        "relationship": "supplier"
+      }
+    },
+    "ev_CRUS_20260806_filing_000077240626000037": {
+      "id": "ev_CRUS_20260806_filing_000077240626000037",
+      "kind": "filing",
+      "title": "10-Q filed 2026-08-05",
+      "detail": "10-Q",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/772406/000077240626000037/crus-20260627.htm",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_CRUS_20260806_filing_000077240626000036": {
+      "id": "ev_CRUS_20260806_filing_000077240626000036",
+      "kind": "filing",
+      "title": "8-K filed 2026-08-05",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/772406/000077240626000036/crus-20260805.htm",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_CRUS_20260806_news0": {
+      "id": "ev_CRUS_20260806_news0",
+      "kind": "news",
+      "title": "Macom, SiTime Jump As Chip Stocks Stage Comeback",
+      "detail": "Reported by Yahoo. Chip stocks rallied on Thursday, helped by positive earnings reports from Macom Technology Solutions and SiTime.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6f19105182d4ffe169f0c1f2db89d4aac90dfaa3d2ed5942f4b80b4537344054",
+      "occurred_on": "2026-08-06",
+      "numbers": {}
+    },
+    "ev_CRUS_20260806_news1": {
+      "id": "ev_CRUS_20260806_news1",
+      "kind": "news",
+      "title": "CRUS Q1 Earnings Beat on Smartphone Demand, Revenues Match Estimates",
+      "detail": "Reported by Yahoo. Cirrus Logic posts record fiscal first-quarter earnings as premium smartphone demand offsets pricing pressure and PC delays.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=37bc64d12fe745d09a77875bfdef4b0502a24e6594dbb8c1b4c74b807028fbeb",
+      "occurred_on": "2026-08-06",
+      "numbers": {}
+    },
+    "ev_CRUS_20260806_news2": {
+      "id": "ev_CRUS_20260806_news2",
+      "kind": "news",
+      "title": "Cirrus Logic, Inc. Q1 2027 Earnings Call Summary",
+      "detail": "Reported by Yahoo. Moby summary of Cirrus Logic, Inc.'s Q1 2027 earnings call",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=37aa336717e7c17bff85a862dd112b322afe21f58b9a7e9aee07a6ce53964798",
+      "occurred_on": "2026-08-06",
+      "numbers": {}
+    },
+    "ev_CRUS_20260806_news3": {
+      "id": "ev_CRUS_20260806_news3",
+      "kind": "news",
+      "title": "Keybanc Maintains Overweight on Cirrus Logic, Lowers Price Target to $170",
+      "detail": "Reported by Benzinga. Keybanc  analyst John Vinh   maintains Cirrus Logic (NASDAQ:CRUS) with a Overweight and lowers the price target from $190 to $170.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b84e987597fe9bd5a6ab0adc24baefd342b021a7d72f211df3aa1dcd5d456ac4",
+      "occurred_on": "2026-08-06",
+      "numbers": {}
+    },
+    "ev_CRUS_20260806_news4": {
+      "id": "ev_CRUS_20260806_news4",
+      "kind": "news",
+      "title": "Stifel Maintains Buy on Cirrus Logic, Lowers Price Target to $160",
+      "detail": "Reported by Benzinga. Stifel  analyst Tore Svanberg   maintains Cirrus Logic (NASDAQ:CRUS) with a Buy and lowers the price target from $197 to $160.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fcd844f3ede939d6fd99dfc56fef8d64ec84ee29bef790f70156afa8c1299d35",
+      "occurred_on": "2026-08-06",
+      "numbers": {}
+    },
+    "ev_CRUS_20260806_news5": {
+      "id": "ev_CRUS_20260806_news5",
+      "kind": "news",
+      "title": "Barclays Maintains Equal-Weight on Cirrus Logic, Lowers Price Target to $130",
+      "detail": "Reported by Benzinga. Barclays  analyst Tom O&#39;Malley   maintains Cirrus Logic (NASDAQ:CRUS) with a Equal-Weight and lowers the price target from $140 to $130.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=df0c9d3ddffa9bbe21c6f6e08224a7f8ef6c7c667f87393094b84c7f8f284f32",
+      "occurred_on": "2026-08-06",
+      "numbers": {}
+    },
+    "ev_CRUS_20260806_news6": {
+      "id": "ev_CRUS_20260806_news6",
+      "kind": "news",
+      "title": "Top 3 Tech Stocks That Could Lead To Your Biggest Gains This Quarter",
+      "detail": "Reported by Benzinga. The information tech sector has oversold stocks with an RSI below 30, a momentum indicator that can predict short term performance.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bb83083dcbe04cd5823d2c4452299b9cfe0294fdafbe96edfd54c7f478eac6df",
+      "occurred_on": "2026-08-06",
+      "numbers": {}
+    },
+    "ev_CRUS_20260806_news7": {
+      "id": "ev_CRUS_20260806_news7",
+      "kind": "news",
+      "title": "Cirrus Logic Inc (CRUS) (Q1 2027) Earnings Call Highlights: Record Revenue and EPS Signal ...",
+      "detail": "Reported by Yahoo. Cirrus Logic Inc (CRUS) posts record Q1 revenue of $460 million and EPS of $1.84, driven by strong smartphone demand and a robust HPMS pipeline.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e6405689d9822227607ef3e9bee5ca541de43bde14773c4be1a37cbbc87797ad",
+      "occurred_on": "2026-08-06",
+      "numbers": {}
+    },
+    "ev_CRUS_20260902_price": {
+      "id": "ev_CRUS_20260902_price",
+      "kind": "price",
+      "title": "CRUS rose 3.66% on 2026-09-02",
+      "detail": "Closed at $113.06 from $109.07. Volume was 1.4x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-09-02",
+      "numbers": {
+        "pct_change": 3.658,
+        "close": 113.06,
+        "prev_close": 109.07,
+        "volume": 1271800,
+        "volume_vs_30d_avg": 1.45,
+        "move_excluding_sector_pct": 2.88
+      }
+    },
+    "ev_CRUS_20260902_peer_AAPL": {
+      "id": "ev_CRUS_20260902_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -0.05% the same day",
+      "detail": "CRUS moved +3.66% while AAPL moved -0.05%. AAPL is CRUS's customer (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-09-02",
+      "numbers": {
+        "peer_pct_change": -0.05,
+        "subject_pct_change": 3.658,
+        "relationship": "customer"
+      }
+    },
+    "ev_CRUS_20260902_peer_QCOM": {
+      "id": "ev_CRUS_20260902_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +2.01% the same day",
+      "detail": "CRUS moved +3.66% while QCOM moved +2.01%. QCOM is CRUS's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-09-02",
+      "numbers": {
+        "peer_pct_change": 2.01,
+        "subject_pct_change": 3.658,
+        "relationship": "competitor"
+      }
+    },
+    "ev_CRUS_20260902_peer_TSM": {
+      "id": "ev_CRUS_20260902_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +0.36% the same day",
+      "detail": "CRUS moved +3.66% while TSM moved +0.36%. TSM is CRUS's supplier (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-09-02",
+      "numbers": {
+        "peer_pct_change": 0.36,
+        "subject_pct_change": 3.658,
+        "relationship": "supplier"
+      }
+    },
+    "ev_CRUS_20260902_news0": {
+      "id": "ev_CRUS_20260902_news0",
+      "kind": "news",
+      "title": "Cirrus Logic: Near Cycle Lows As Headwinds Mount -- Watching For The Inflection",
+      "detail": "Reported by SeekingAlpha. Cirrus Logic, Inc. faces PC/smartphone headwinds but pivots to smart metering & data center power. Click for this CRUS update.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=25c49243586c61aeefd5d5c9c639d9407db0c511148ae93aae03275f7cc64270",
+      "occurred_on": "2026-09-02",
+      "numbers": {}
+    },
+    "ev_CRUS_20260902_news1": {
+      "id": "ev_CRUS_20260902_news1",
+      "kind": "news",
+      "title": "Cirrus Logic EVP Sells 1,166 Shares for $137,460",
+      "detail": "Reported by Yahoo. Insider reduced direct holdings by 8% under a Rule 10b5-1 trading plan adopted in February, maintaining 14,073 shares worth ~$1.6 million.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=176bca46278c3cc8fb46e0afae172382e110bed0dc865687a22b3d393b07cb16",
+      "occurred_on": "2026-09-01",
+      "numbers": {}
+    },
+    "ev_CRUS_20260910_price": {
+      "id": "ev_CRUS_20260910_price",
+      "kind": "price",
+      "title": "CRUS rose 5.20% on 2026-09-10",
+      "detail": "Closed at $116.48 from $110.72. Volume was 1.2x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-09-10",
+      "numbers": {
+        "pct_change": 5.202,
+        "close": 116.48,
+        "prev_close": 110.72,
+        "volume": 1095400,
+        "volume_vs_30d_avg": 1.25,
+        "move_excluding_sector_pct": 4.49
+      }
+    },
+    "ev_CRUS_20260910_peer_AAPL": {
+      "id": "ev_CRUS_20260910_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +3.56% the same day",
+      "detail": "CRUS moved +5.20% while AAPL moved +3.56%. AAPL is CRUS's customer (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-09-10",
+      "numbers": {
+        "peer_pct_change": 3.56,
+        "subject_pct_change": 5.202,
+        "relationship": "customer"
+      }
+    },
+    "ev_CRUS_20260910_peer_QCOM": {
+      "id": "ev_CRUS_20260910_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +0.27% the same day",
+      "detail": "CRUS moved +5.20% while QCOM moved +0.27%. QCOM is CRUS's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-09-10",
+      "numbers": {
+        "peer_pct_change": 0.27,
+        "subject_pct_change": 5.202,
+        "relationship": "competitor"
+      }
+    },
+    "ev_CRUS_20260910_peer_TSM": {
+      "id": "ev_CRUS_20260910_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -1.68% the same day",
+      "detail": "CRUS moved +5.20% while TSM moved -1.68%. TSM is CRUS's supplier (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-09-10",
+      "numbers": {
+        "peer_pct_change": -1.68,
+        "subject_pct_change": 5.202,
+        "relationship": "supplier"
+      }
+    },
+    "ev_CRUS_20260910_news0": {
+      "id": "ev_CRUS_20260910_news0",
+      "kind": "news",
+      "title": "Cirrus Logic (NASDAQ:CRUS): A Growth-at-a-Reasonable-Price Stock for GARP Investors",
+      "detail": "Reported by ChartMill. Discover why Cirrus Logic (CRUS) matches Peter Lynch's growth-at-a-reasonable-price screen: strong profitability, zero debt, and a PEG of 0.76.",
+      "source": "ChartMill (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=18c0f70f348c0360c36a118a2044c66ffc1965fddb3e5a7968c8b309db42237d",
+      "occurred_on": "2026-09-09",
+      "numbers": {}
+    },
+    "ev_CRUS_20260915_price": {
+      "id": "ev_CRUS_20260915_price",
+      "kind": "price",
+      "title": "CRUS rose 5.05% on 2026-09-15",
+      "detail": "Closed at $122.21 from $116.34. Volume was 1.6x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-09-15",
+      "numbers": {
+        "pct_change": 5.046,
+        "close": 122.21,
+        "prev_close": 116.34,
+        "volume": 1421000,
+        "volume_vs_30d_avg": 1.62,
+        "move_excluding_sector_pct": 4.14
+      }
+    },
+    "ev_CRUS_20260915_peer_AAPL": {
+      "id": "ev_CRUS_20260915_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -0.52% the same day",
+      "detail": "CRUS moved +5.05% while AAPL moved -0.52%. AAPL is CRUS's customer (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-09-15",
+      "numbers": {
+        "peer_pct_change": -0.52,
+        "subject_pct_change": 5.046,
+        "relationship": "customer"
+      }
+    },
+    "ev_CRUS_20260915_peer_QCOM": {
+      "id": "ev_CRUS_20260915_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +4.25% the same day",
+      "detail": "CRUS moved +5.05% while QCOM moved +4.25%. QCOM is CRUS's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-09-15",
+      "numbers": {
+        "peer_pct_change": 4.25,
+        "subject_pct_change": 5.046,
+        "relationship": "competitor"
+      }
+    },
+    "ev_CRUS_20260915_peer_TSM": {
+      "id": "ev_CRUS_20260915_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -1.02% the same day",
+      "detail": "CRUS moved +5.05% while TSM moved -1.02%. TSM is CRUS's supplier (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-09-15",
+      "numbers": {
+        "peer_pct_change": -1.02,
+        "subject_pct_change": 5.046,
+        "relationship": "supplier"
+      }
+    },
+    "ev_CRUS_20260915_news0": {
+      "id": "ev_CRUS_20260915_news0",
+      "kind": "news",
+      "title": "10-Year Yield Tops 5%, Oil Storms Past $105: Stock Market Today",
+      "detail": "Reported by Benzinga. The 10-year Treasury yield broke 5% for the first time since 2007 as WTI surged past $105 on Saudi pipeline outages, pressuring stocks ahead of the Fed.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d1cab808ccf45cf13f1263e44cacc1adc587155103fca3659b6bbe4aa4db95f1",
+      "occurred_on": "2026-09-15",
+      "numbers": {}
+    },
+    "ev_CRUS_20260915_news1": {
+      "id": "ev_CRUS_20260915_news1",
+      "kind": "news",
+      "title": "Should You Buy Cirrus Logic Stock Because Its Buyback Got Cheaper?",
+      "detail": "Reported by Yahoo. Cirrus Logic (CRUS) stock has fallen about 27% in three months and trades roughly a third below its 52-week high. Investors are weighing a PC year that just got pushed out against a share count that keeps shrinking anyway. The buyback behind that is sturdier than the tape suggests: third in line for the cash, and still comfortably funded.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f5c52df628660c70e11df0b0273017eb583c03423d0de9bd062e078d4a2e2917",
+      "occurred_on": "2026-09-15",
+      "numbers": {}
+    },
+    "ev_CRUS_20260916_price": {
+      "id": "ev_CRUS_20260916_price",
+      "kind": "price",
+      "title": "CRUS fell 3.44% on 2026-09-16",
+      "detail": "Closed at $118.00 from $122.21. Volume was 1.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-09-16",
+      "numbers": {
+        "pct_change": -3.445,
+        "close": 118.0,
+        "prev_close": 122.21,
+        "volume": 874600,
+        "volume_vs_30d_avg": 1.0,
+        "move_excluding_sector_pct": 3.35
+      }
+    },
+    "ev_CRUS_20260916_peer_AAPL": {
+      "id": "ev_CRUS_20260916_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +0.32% the same day",
+      "detail": "CRUS moved -3.44% while AAPL moved +0.32%. AAPL is CRUS's customer (end customer), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-09-16",
+      "numbers": {
+        "peer_pct_change": 0.32,
+        "subject_pct_change": -3.445,
+        "relationship": "customer"
+      }
+    },
+    "ev_CRUS_20260916_peer_QCOM": {
+      "id": "ev_CRUS_20260916_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -1.58% the same day",
+      "detail": "CRUS moved -3.44% while QCOM moved -1.58%. QCOM is CRUS's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-09-16",
+      "numbers": {
+        "peer_pct_change": -1.58,
+        "subject_pct_change": -3.445,
+        "relationship": "competitor"
+      }
+    },
+    "ev_CRUS_20260916_peer_TSM": {
+      "id": "ev_CRUS_20260916_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +0.96% the same day",
+      "detail": "CRUS moved -3.44% while TSM moved +0.96%. TSM is CRUS's supplier (wafer fabrication), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-09-16",
+      "numbers": {
+        "peer_pct_change": 0.96,
+        "subject_pct_change": -3.445,
+        "relationship": "supplier"
+      }
+    },
+    "ev_CRUS_20260916_news0": {
+      "id": "ev_CRUS_20260916_news0",
+      "kind": "news",
+      "title": "10-Year Yield Tops 5%, Oil Storms Past $105: Stock Market Today",
+      "detail": "Reported by Benzinga. The 10-year Treasury yield broke 5% for the first time since 2007 as WTI surged past $105 on Saudi pipeline outages, pressuring stocks ahead of the Fed.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d1cab808ccf45cf13f1263e44cacc1adc587155103fca3659b6bbe4aa4db95f1",
+      "occurred_on": "2026-09-15",
+      "numbers": {}
+    },
+    "ev_CRUS_20260916_news1": {
+      "id": "ev_CRUS_20260916_news1",
+      "kind": "news",
+      "title": "Should You Buy Cirrus Logic Stock Because Its Buyback Got Cheaper?",
+      "detail": "Reported by Yahoo. Cirrus Logic (CRUS) stock has fallen about 27% in three months and trades roughly a third below its 52-week high. Investors are weighing a PC year that just got pushed out against a share count that keeps shrinking anyway. The buyback behind that is sturdier than the tape suggests: third in line for the cash, and still comfortably funded.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f5c52df628660c70e11df0b0273017eb583c03423d0de9bd062e078d4a2e2917",
+      "occurred_on": "2026-09-15",
+      "numbers": {}
+    },
+    "ev_CRUS_fund_revenue": {
+      "id": "ev_CRUS_fund_revenue",
+      "kind": "fundamental",
+      "title": "Revenue: 459,723,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, -17.3% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/772406/000077240626000037/",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "value": 459723000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "yoy_pct_change": -17.28
+      }
+    },
+    "ev_CRUS_fund_net_income": {
+      "id": "ev_CRUS_fund_net_income",
+      "kind": "fundamental",
+      "title": "Net Income: 76,851,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, -33.8% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/772406/000077240626000037/",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "value": 76851000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "NetIncomeLoss",
+        "yoy_pct_change": -33.75
+      }
+    },
+    "ev_CRUS_fund_gross_profit": {
+      "id": "ev_CRUS_fund_gross_profit",
+      "kind": "fundamental",
+      "title": "Gross Profit: 241,855,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, -18.8% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/772406/000077240626000037/",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "value": 241855000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "GrossProfit",
+        "yoy_pct_change": -18.78
+      }
+    },
+    "ev_CRUS_fund_operating_income": {
+      "id": "ev_CRUS_fund_operating_income",
+      "kind": "fundamental",
+      "title": "Operating Income: 84,436,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, -42.1% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/772406/000077240626000037/",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "value": 84436000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "OperatingIncomeLoss",
+        "yoy_pct_change": -42.08
+      }
+    },
+    "ev_CRUS_fund_rnd_expense": {
+      "id": "ev_CRUS_fund_rnd_expense",
+      "kind": "fundamental",
+      "title": "Rnd Expense: 115,013,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, +1.8% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/772406/000077240626000037/",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "value": 115013000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "ResearchAndDevelopmentExpense",
+        "yoy_pct_change": 1.8
+      }
+    },
+    "ev_CRUS_sector_IPG3344S": {
+      "id": "ev_CRUS_sector_IPG3344S",
+      "kind": "sector",
+      "title": "US semiconductor and electronic component production: 190.1 index, 2017=100, +12.3% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/IPG3344S",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 190.0987,
+        "units": "index, 2017=100",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": 12.35
+      }
+    },
+    "ev_CRUS_sector_PCU334413334413": {
+      "id": "ev_CRUS_sector_PCU334413334413",
+      "kind": "sector",
+      "title": "US semiconductor producer price index: 28.5 index, -3.1% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/PCU334413334413",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 28.472,
+        "units": "index",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": -3.13
+      }
+    }
+  },
+  "arc": "Cirrus Logic experienced a pronounced boom-and-bust cycle between March and September 2026. The stock initially peaked above $164 in mid-April supported by product expansions in industrial imaging and target increases from Wall Street analysts. However, sentiment deteriorated sharply over the summer as broader semiconductor demand anxieties were compounded by Cirrus Logic's Q1 fiscal 2027 update. Despite reporting record top-line revenue of $460 million, disclosures of PC market pushouts and component pricing pressure prompted widespread analyst target cuts and sent shares tumbling toward $109 by early September. A partial recovery took hold in mid-September as value screens and ongoing share buybacks drew dip-buyers back into the stock.",
+  "arc_citation_ids": [
+    "ev_CRUS_20260416_price",
+    "ev_CRUS_20260416_news0",
+    "ev_CRUS_20260416_news4",
+    "ev_CRUS_20260428_news0",
+    "ev_CRUS_20260806_price",
+    "ev_CRUS_20260806_news1",
+    "ev_CRUS_20260806_news3",
+    "ev_CRUS_20260806_news4",
+    "ev_CRUS_20260806_news5",
+    "ev_CRUS_20260806_news7",
+    "ev_CRUS_20260902_price",
+    "ev_CRUS_20260915_news1"
+  ],
+  "warnings": []
+}

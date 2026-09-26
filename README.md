@@ -13,7 +13,7 @@ Current scope: **13 companies** (listed in [data/companies.json](data/companies.
 | Area (plans.md) | Status | Notes |
 |---|---|---|
 | **Knowledge graph** for the Connection Map | Done for 13 companies | Built from SEC filings, loaded in Neo4j AuraDB and mirrored in Snowflake |
-| **Story Mode** (why each price move happened) | Done for the original 5 | 57 explained moves with verified citations; the 8 pilot companies have no stories yet |
+| **Story Mode** (why each price move happened) | Done for all 13 companies | 153 explained moves, 752 citations, none broken; served by the API |
 | **Snowflake** (sponsor track) | Connected and loaded | Graph, stories, prices, and news are in Snowflake |
 | **Backend API** (FastAPI) | Partly done | Story, universe, and graph endpoints work; feed and research are not started |
 | **Frontend** | Not started | |
@@ -142,7 +142,7 @@ Never commit `.env`, the private key, or any token.
 
 ### High priority (affects the demo)
 1. **Lock the company list (Step 1).** Pick the 30–50 companies and build the sample demo portfolio. Everything else scales from this list.
-2. **Improve Story Mode explanations.** Most moves are low confidence because Finnhub's free tier only covers the last few days of news. Options, per `data_sources.md`: bring back GDELT (free but slow, fine for a one-time precompute), or a paid news tier. This is the biggest risk to the demo's "understand a recent drop" moment.
+2. **Improve Story Mode explanations.** 108 of 153 moves are low confidence because they have no news behind them. Finnhub's free tier caps each request at ~250 articles, and Story Mode makes one 180-day request, which for heavily covered companies only reaches back a few days. Requesting news for each move's own dates fixes this (tested: a past week of NVDA news returns ~250 articles from that week). The change is in `news_for_move()` in `backend/app/story/build.py`, then rebuild all stories. This is the biggest risk to the demo's "understand a recent drop" moment.
 3. **Start the frontend.** App shell, portfolio entry, Connection Map (react-force-graph or Cytoscape.js), and Story Mode chart (TradingView Lightweight Charts), built against fake data first and then the real endpoints.
 4. **Build the What Changed feed.** Rank news by relevance: owned company, then connected company, then same sector. The `NEWS` and `GRAPH_EDGES` tables already hold what the ranking needs.
 

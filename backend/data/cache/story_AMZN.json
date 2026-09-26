@@ -1,0 +1,2142 @@
+{
+  "symbol": "AMZN",
+  "company_name": "Amazon.com, Inc.",
+  "generated_at": "2026-09-26T12:33:06.874186+00:00",
+  "bars": [
+    {
+      "date": "2026-03-20",
+      "open": 207.4,
+      "high": 207.54,
+      "low": 204.32,
+      "close": 205.37,
+      "volume": 63694600,
+      "pct_change": 0.0,
+      "prev_close": 207.4
+    },
+    {
+      "date": "2026-03-23",
+      "open": 209.79,
+      "high": 212.8,
+      "low": 209.51,
+      "close": 210.14,
+      "volume": 44277400,
+      "pct_change": 2.323,
+      "prev_close": 205.37
+    },
+    {
+      "date": "2026-03-24",
+      "open": 207.95,
+      "high": 209.35,
+      "low": 206.64,
+      "close": 207.24,
+      "volume": 35351400,
+      "pct_change": -1.38,
+      "prev_close": 210.14
+    },
+    {
+      "date": "2026-03-25",
+      "open": 211.56,
+      "high": 213.07,
+      "low": 209.9,
+      "close": 211.71,
+      "volume": 36388800,
+      "pct_change": 2.157,
+      "prev_close": 207.24
+    },
+    {
+      "date": "2026-03-26",
+      "open": 210.61,
+      "high": 212.89,
+      "low": 207.12,
+      "close": 207.54,
+      "volume": 46746000,
+      "pct_change": -1.97,
+      "prev_close": 211.71
+    },
+    {
+      "date": "2026-03-27",
+      "open": 206.46,
+      "high": 206.6,
+      "low": 199.14,
+      "close": 199.34,
+      "volume": 56009800,
+      "pct_change": -3.951,
+      "prev_close": 207.54
+    },
+    {
+      "date": "2026-03-30",
+      "open": 201.48,
+      "high": 203.8,
+      "low": 199.98,
+      "close": 200.95,
+      "volume": 46373800,
+      "pct_change": 0.808,
+      "prev_close": 199.34
+    },
+    {
+      "date": "2026-03-31",
+      "open": 204.85,
+      "high": 210.28,
+      "low": 204.14,
+      "close": 208.27,
+      "volume": 58470100,
+      "pct_change": 3.643,
+      "prev_close": 200.95
+    },
+    {
+      "date": "2026-04-01",
+      "open": 210.44,
+      "high": 213.58,
+      "low": 208.19,
+      "close": 210.57,
+      "volume": 45955400,
+      "pct_change": 1.104,
+      "prev_close": 208.27
+    },
+    {
+      "date": "2026-04-02",
+      "open": 206.54,
+      "high": 212.21,
+      "low": 204.9,
+      "close": 209.77,
+      "volume": 31453000,
+      "pct_change": -0.38,
+      "prev_close": 210.57
+    },
+    {
+      "date": "2026-04-06",
+      "open": 209.8,
+      "high": 212.95,
+      "low": 209.59,
+      "close": 212.79,
+      "volume": 25385500,
+      "pct_change": 1.44,
+      "prev_close": 209.77
+    },
+    {
+      "date": "2026-04-07",
+      "open": 211.24,
+      "high": 213.97,
+      "low": 209.08,
+      "close": 213.77,
+      "volume": 28154600,
+      "pct_change": 0.461,
+      "prev_close": 212.79
+    },
+    {
+      "date": "2026-04-08",
+      "open": 223.79,
+      "high": 226.1,
+      "low": 219.62,
+      "close": 221.25,
+      "volume": 51092700,
+      "pct_change": 3.499,
+      "prev_close": 213.77
+    },
+    {
+      "date": "2026-04-09",
+      "open": 225.23,
+      "high": 233.8,
+      "low": 223.27,
+      "close": 233.65,
+      "volume": 65964200,
+      "pct_change": 5.605,
+      "prev_close": 221.25
+    },
+    {
+      "date": "2026-04-10",
+      "open": 235.3,
+      "high": 240.43,
+      "low": 235.21,
+      "close": 238.38,
+      "volume": 56912800,
+      "pct_change": 2.024,
+      "prev_close": 233.65
+    },
+    {
+      "date": "2026-04-13",
+      "open": 237.45,
+      "high": 240.0,
+      "low": 235.75,
+      "close": 239.89,
+      "volume": 42166200,
+      "pct_change": 0.633,
+      "prev_close": 238.38
+    },
+    {
+      "date": "2026-04-14",
+      "open": 241.78,
+      "high": 252.18,
+      "low": 241.78,
+      "close": 249.02,
+      "volume": 72685000,
+      "pct_change": 3.806,
+      "prev_close": 239.89
+    },
+    {
+      "date": "2026-04-15",
+      "open": 249.25,
+      "high": 250.44,
+      "low": 247.2,
+      "close": 248.5,
+      "volume": 43045200,
+      "pct_change": -0.209,
+      "prev_close": 249.02
+    },
+    {
+      "date": "2026-04-16",
+      "open": 248.51,
+      "high": 250.0,
+      "low": 244.2,
+      "close": 249.7,
+      "volume": 41895700,
+      "pct_change": 0.483,
+      "prev_close": 248.5
+    },
+    {
+      "date": "2026-04-17",
+      "open": 254.99,
+      "high": 256.18,
+      "low": 250.11,
+      "close": 250.56,
+      "volume": 52029300,
+      "pct_change": 0.344,
+      "prev_close": 249.7
+    },
+    {
+      "date": "2026-04-20",
+      "open": 249.19,
+      "high": 250.18,
+      "low": 245.37,
+      "close": 248.28,
+      "volume": 39463100,
+      "pct_change": -0.91,
+      "prev_close": 250.56
+    },
+    {
+      "date": "2026-04-21",
+      "open": 255.09,
+      "high": 255.09,
+      "low": 249.1,
+      "close": 249.91,
+      "volume": 42922400,
+      "pct_change": 0.657,
+      "prev_close": 248.28
+    },
+    {
+      "date": "2026-04-22",
+      "open": 252.44,
+      "high": 255.94,
+      "low": 250.33,
+      "close": 255.36,
+      "volume": 36065100,
+      "pct_change": 2.181,
+      "prev_close": 249.91
+    },
+    {
+      "date": "2026-04-23",
+      "open": 255.39,
+      "high": 258.79,
+      "low": 253.07,
+      "close": 255.08,
+      "volume": 39091400,
+      "pct_change": -0.11,
+      "prev_close": 255.36
+    },
+    {
+      "date": "2026-04-24",
+      "open": 259.98,
+      "high": 264.5,
+      "low": 257.69,
+      "close": 263.99,
+      "volume": 53777400,
+      "pct_change": 3.493,
+      "prev_close": 255.08
+    },
+    {
+      "date": "2026-04-27",
+      "open": 263.46,
+      "high": 264.15,
+      "low": 260.34,
+      "close": 261.12,
+      "volume": 44906800,
+      "pct_change": -1.087,
+      "prev_close": 263.99
+    },
+    {
+      "date": "2026-04-28",
+      "open": 258.39,
+      "high": 261.03,
+      "low": 256.63,
+      "close": 259.7,
+      "volume": 42204400,
+      "pct_change": -0.544,
+      "prev_close": 261.12
+    },
+    {
+      "date": "2026-04-29",
+      "open": 257.99,
+      "high": 265.91,
+      "low": 257.7,
+      "close": 263.04,
+      "volume": 72367900,
+      "pct_change": 1.286,
+      "prev_close": 259.7
+    },
+    {
+      "date": "2026-04-30",
+      "open": 273.17,
+      "high": 273.88,
+      "low": 256.16,
+      "close": 265.06,
+      "volume": 100974900,
+      "pct_change": 0.768,
+      "prev_close": 263.04
+    },
+    {
+      "date": "2026-05-01",
+      "open": 265.58,
+      "high": 273.32,
+      "low": 262.74,
+      "close": 268.26,
+      "volume": 50825200,
+      "pct_change": 1.207,
+      "prev_close": 265.06
+    },
+    {
+      "date": "2026-05-04",
+      "open": 268.8,
+      "high": 276.1,
+      "low": 268.8,
+      "close": 272.05,
+      "volume": 49083700,
+      "pct_change": 1.413,
+      "prev_close": 268.26
+    },
+    {
+      "date": "2026-05-05",
+      "open": 276.08,
+      "high": 278.56,
+      "low": 272.38,
+      "close": 273.55,
+      "volume": 41908500,
+      "pct_change": 0.551,
+      "prev_close": 272.05
+    },
+    {
+      "date": "2026-05-06",
+      "open": 272.89,
+      "high": 277.8,
+      "low": 272.21,
+      "close": 274.99,
+      "volume": 44552000,
+      "pct_change": 0.526,
+      "prev_close": 273.55
+    },
+    {
+      "date": "2026-05-07",
+      "open": 275.02,
+      "high": 276.63,
+      "low": 270.49,
+      "close": 271.17,
+      "volume": 35892900,
+      "pct_change": -1.389,
+      "prev_close": 274.99
+    },
+    {
+      "date": "2026-05-08",
+      "open": 271.63,
+      "high": 274.0,
+      "low": 269.95,
+      "close": 272.68,
+      "volume": 34732700,
+      "pct_change": 0.557,
+      "prev_close": 271.17
+    },
+    {
+      "date": "2026-05-11",
+      "open": 269.84,
+      "high": 273.63,
+      "low": 268.48,
+      "close": 268.99,
+      "volume": 38176700,
+      "pct_change": -1.353,
+      "prev_close": 272.68
+    },
+    {
+      "date": "2026-05-12",
+      "open": 266.71,
+      "high": 267.65,
+      "low": 262.63,
+      "close": 265.82,
+      "volume": 36776200,
+      "pct_change": -1.178,
+      "prev_close": 268.99
+    },
+    {
+      "date": "2026-05-13",
+      "open": 264.43,
+      "high": 270.72,
+      "low": 263.2,
+      "close": 270.13,
+      "volume": 39670900,
+      "pct_change": 1.621,
+      "prev_close": 265.82
+    },
+    {
+      "date": "2026-05-14",
+      "open": 269.15,
+      "high": 270.78,
+      "low": 266.63,
+      "close": 267.22,
+      "volume": 31338400,
+      "pct_change": -1.077,
+      "prev_close": 270.13
+    },
+    {
+      "date": "2026-05-15",
+      "open": 262.5,
+      "high": 264.36,
+      "low": 260.89,
+      "close": 264.14,
+      "volume": 40770300,
+      "pct_change": -1.153,
+      "prev_close": 267.22
+    },
+    {
+      "date": "2026-05-18",
+      "open": 263.87,
+      "high": 268.85,
+      "low": 262.53,
+      "close": 264.86,
+      "volume": 33690800,
+      "pct_change": 0.273,
+      "prev_close": 264.14
+    },
+    {
+      "date": "2026-05-19",
+      "open": 262.04,
+      "high": 262.25,
+      "low": 255.19,
+      "close": 259.34,
+      "volume": 40340700,
+      "pct_change": -2.084,
+      "prev_close": 264.86
+    },
+    {
+      "date": "2026-05-20",
+      "open": 260.05,
+      "high": 265.58,
+      "low": 259.53,
+      "close": 265.01,
+      "volume": 34933200,
+      "pct_change": 2.186,
+      "prev_close": 259.34
+    },
+    {
+      "date": "2026-05-21",
+      "open": 263.5,
+      "high": 269.49,
+      "low": 261.37,
+      "close": 268.46,
+      "volume": 36591700,
+      "pct_change": 1.302,
+      "prev_close": 265.01
+    },
+    {
+      "date": "2026-05-22",
+      "open": 268.66,
+      "high": 269.79,
+      "low": 266.24,
+      "close": 266.32,
+      "volume": 27535500,
+      "pct_change": -0.797,
+      "prev_close": 268.46
+    },
+    {
+      "date": "2026-05-26",
+      "open": 267.94,
+      "high": 269.3,
+      "low": 262.07,
+      "close": 265.29,
+      "volume": 38028100,
+      "pct_change": -0.387,
+      "prev_close": 266.32
+    },
+    {
+      "date": "2026-05-27",
+      "open": 266.15,
+      "high": 272.41,
+      "low": 265.7,
+      "close": 271.85,
+      "volume": 40061900,
+      "pct_change": 2.473,
+      "prev_close": 265.29
+    },
+    {
+      "date": "2026-05-28",
+      "open": 272.27,
+      "high": 274.5,
+      "low": 267.44,
+      "close": 274.0,
+      "volume": 40630400,
+      "pct_change": 0.791,
+      "prev_close": 271.85
+    },
+    {
+      "date": "2026-05-29",
+      "open": 271.29,
+      "high": 274.75,
+      "low": 269.64,
+      "close": 270.64,
+      "volume": 54749600,
+      "pct_change": -1.226,
+      "prev_close": 274.0
+    },
+    {
+      "date": "2026-06-01",
+      "open": 266.29,
+      "high": 266.63,
+      "low": 260.7,
+      "close": 261.26,
+      "volume": 53604400,
+      "pct_change": -3.466,
+      "prev_close": 270.64
+    },
+    {
+      "date": "2026-06-02",
+      "open": 257.16,
+      "high": 261.2,
+      "low": 254.37,
+      "close": 256.52,
+      "volume": 41811000,
+      "pct_change": -1.814,
+      "prev_close": 261.26
+    },
+    {
+      "date": "2026-06-03",
+      "open": 254.7,
+      "high": 257.09,
+      "low": 247.71,
+      "close": 250.02,
+      "volume": 51394200,
+      "pct_change": -2.534,
+      "prev_close": 256.52
+    },
+    {
+      "date": "2026-06-04",
+      "open": 253.12,
+      "high": 255.83,
+      "low": 251.75,
+      "close": 253.79,
+      "volume": 35609800,
+      "pct_change": 1.508,
+      "prev_close": 250.02
+    },
+    {
+      "date": "2026-06-05",
+      "open": 254.26,
+      "high": 256.38,
+      "low": 245.78,
+      "close": 246.03,
+      "volume": 55607800,
+      "pct_change": -3.058,
+      "prev_close": 253.79
+    },
+    {
+      "date": "2026-06-08",
+      "open": 246.68,
+      "high": 249.42,
+      "low": 243.36,
+      "close": 245.22,
+      "volume": 33899500,
+      "pct_change": -0.329,
+      "prev_close": 246.03
+    },
+    {
+      "date": "2026-06-09",
+      "open": 247.73,
+      "high": 250.43,
+      "low": 240.4,
+      "close": 244.19,
+      "volume": 44425400,
+      "pct_change": -0.42,
+      "prev_close": 245.22
+    },
+    {
+      "date": "2026-06-10",
+      "open": 243.61,
+      "high": 244.07,
+      "low": 237.45,
+      "close": 238.0,
+      "volume": 38590200,
+      "pct_change": -2.535,
+      "prev_close": 244.19
+    },
+    {
+      "date": "2026-06-11",
+      "open": 237.93,
+      "high": 242.14,
+      "low": 235.18,
+      "close": 241.51,
+      "volume": 41335400,
+      "pct_change": 1.475,
+      "prev_close": 238.0
+    },
+    {
+      "date": "2026-06-12",
+      "open": 243.21,
+      "high": 243.36,
+      "low": 233.59,
+      "close": 238.55,
+      "volume": 51186600,
+      "pct_change": -1.226,
+      "prev_close": 241.51
+    },
+    {
+      "date": "2026-06-15",
+      "open": 245.02,
+      "high": 247.81,
+      "low": 244.73,
+      "close": 246.02,
+      "volume": 41711600,
+      "pct_change": 3.131,
+      "prev_close": 238.55
+    },
+    {
+      "date": "2026-06-16",
+      "open": 248.0,
+      "high": 249.51,
+      "low": 245.45,
+      "close": 246.0,
+      "volume": 35187400,
+      "pct_change": -0.008,
+      "prev_close": 246.02
+    },
+    {
+      "date": "2026-06-17",
+      "open": 244.9,
+      "high": 245.91,
+      "low": 236.0,
+      "close": 237.5,
+      "volume": 44780800,
+      "pct_change": -3.455,
+      "prev_close": 246.0
+    },
+    {
+      "date": "2026-06-18",
+      "open": 240.12,
+      "high": 245.73,
+      "low": 236.02,
+      "close": 244.39,
+      "volume": 75624400,
+      "pct_change": 2.901,
+      "prev_close": 237.5
+    },
+    {
+      "date": "2026-06-22",
+      "open": 240.08,
+      "high": 242.0,
+      "low": 232.24,
+      "close": 232.79,
+      "volume": 68388500,
+      "pct_change": -4.747,
+      "prev_close": 244.39
+    },
+    {
+      "date": "2026-06-23",
+      "open": 232.55,
+      "high": 236.87,
+      "low": 232.0,
+      "close": 234.11,
+      "volume": 60492600,
+      "pct_change": 0.567,
+      "prev_close": 232.79
+    },
+    {
+      "date": "2026-06-24",
+      "open": 233.85,
+      "high": 242.42,
+      "low": 232.95,
+      "close": 234.27,
+      "volume": 70282600,
+      "pct_change": 0.068,
+      "prev_close": 234.11
+    },
+    {
+      "date": "2026-06-25",
+      "open": 232.02,
+      "high": 232.32,
+      "low": 225.55,
+      "close": 227.01,
+      "volume": 77674100,
+      "pct_change": -3.099,
+      "prev_close": 234.27
+    },
+    {
+      "date": "2026-06-26",
+      "open": 227.21,
+      "high": 233.9,
+      "low": 226.13,
+      "close": 232.69,
+      "volume": 248372100,
+      "pct_change": 2.502,
+      "prev_close": 227.01
+    },
+    {
+      "date": "2026-06-29",
+      "open": 234.22,
+      "high": 249.71,
+      "low": 233.8,
+      "close": 240.14,
+      "volume": 77619200,
+      "pct_change": 3.202,
+      "prev_close": 232.69
+    },
+    {
+      "date": "2026-06-30",
+      "open": 237.35,
+      "high": 241.54,
+      "low": 237.17,
+      "close": 238.34,
+      "volume": 66228300,
+      "pct_change": -0.75,
+      "prev_close": 240.14
+    },
+    {
+      "date": "2026-07-01",
+      "open": 239.75,
+      "high": 244.9,
+      "low": 234.9,
+      "close": 241.7,
+      "volume": 53829900,
+      "pct_change": 1.41,
+      "prev_close": 238.34
+    },
+    {
+      "date": "2026-07-02",
+      "open": 241.61,
+      "high": 246.72,
+      "low": 241.08,
+      "close": 242.67,
+      "volume": 48246400,
+      "pct_change": 0.401,
+      "prev_close": 241.7
+    },
+    {
+      "date": "2026-07-06",
+      "open": 243.8,
+      "high": 246.04,
+      "low": 240.88,
+      "close": 244.16,
+      "volume": 40044000,
+      "pct_change": 0.614,
+      "prev_close": 242.67
+    },
+    {
+      "date": "2026-07-07",
+      "open": 246.98,
+      "high": 248.93,
+      "low": 242.7,
+      "close": 245.98,
+      "volume": 40579600,
+      "pct_change": 0.745,
+      "prev_close": 244.16
+    },
+    {
+      "date": "2026-07-08",
+      "open": 244.27,
+      "high": 244.8,
+      "low": 240.52,
+      "close": 243.62,
+      "volume": 29653000,
+      "pct_change": -0.959,
+      "prev_close": 245.98
+    },
+    {
+      "date": "2026-07-09",
+      "open": 239.82,
+      "high": 247.5,
+      "low": 238.25,
+      "close": 247.04,
+      "volume": 38091700,
+      "pct_change": 1.404,
+      "prev_close": 243.62
+    },
+    {
+      "date": "2026-07-10",
+      "open": 249.55,
+      "high": 251.03,
+      "low": 244.41,
+      "close": 245.34,
+      "volume": 31654000,
+      "pct_change": -0.688,
+      "prev_close": 247.04
+    },
+    {
+      "date": "2026-07-13",
+      "open": 244.68,
+      "high": 249.65,
+      "low": 244.18,
+      "close": 247.31,
+      "volume": 34636100,
+      "pct_change": 0.803,
+      "prev_close": 245.34
+    },
+    {
+      "date": "2026-07-14",
+      "open": 245.55,
+      "high": 248.56,
+      "low": 243.8,
+      "close": 247.49,
+      "volume": 30108100,
+      "pct_change": 0.073,
+      "prev_close": 247.31
+    },
+    {
+      "date": "2026-07-15",
+      "open": 249.75,
+      "high": 256.48,
+      "low": 249.75,
+      "close": 254.96,
+      "volume": 45240600,
+      "pct_change": 3.018,
+      "prev_close": 247.49
+    },
+    {
+      "date": "2026-07-16",
+      "open": 255.12,
+      "high": 258.08,
+      "low": 248.0,
+      "close": 249.89,
+      "volume": 45343700,
+      "pct_change": -1.989,
+      "prev_close": 254.96
+    },
+    {
+      "date": "2026-07-17",
+      "open": 244.46,
+      "high": 250.24,
+      "low": 243.59,
+      "close": 247.23,
+      "volume": 43572400,
+      "pct_change": -1.064,
+      "prev_close": 249.89
+    },
+    {
+      "date": "2026-07-20",
+      "open": 248.76,
+      "high": 252.89,
+      "low": 248.0,
+      "close": 249.99,
+      "volume": 32406500,
+      "pct_change": 1.116,
+      "prev_close": 247.23
+    },
+    {
+      "date": "2026-07-21",
+      "open": 249.11,
+      "high": 249.34,
+      "low": 246.42,
+      "close": 247.55,
+      "volume": 27732100,
+      "pct_change": -0.976,
+      "prev_close": 249.99
+    },
+    {
+      "date": "2026-07-22",
+      "open": 248.27,
+      "high": 248.45,
+      "low": 242.45,
+      "close": 244.85,
+      "volume": 34112700,
+      "pct_change": -1.091,
+      "prev_close": 247.55
+    },
+    {
+      "date": "2026-07-23",
+      "open": 236.26,
+      "high": 238.35,
+      "low": 232.05,
+      "close": 233.66,
+      "volume": 47465300,
+      "pct_change": -4.57,
+      "prev_close": 244.85
+    },
+    {
+      "date": "2026-07-24",
+      "open": 234.38,
+      "high": 234.95,
+      "low": 231.34,
+      "close": 232.11,
+      "volume": 35017400,
+      "pct_change": -0.663,
+      "prev_close": 233.66
+    },
+    {
+      "date": "2026-07-27",
+      "open": 235.67,
+      "high": 235.89,
+      "low": 230.99,
+      "close": 231.39,
+      "volume": 34999500,
+      "pct_change": -0.31,
+      "prev_close": 232.11
+    },
+    {
+      "date": "2026-07-28",
+      "open": 232.85,
+      "high": 233.11,
+      "low": 228.1,
+      "close": 230.86,
+      "volume": 44521600,
+      "pct_change": -0.229,
+      "prev_close": 231.39
+    },
+    {
+      "date": "2026-07-29",
+      "open": 229.32,
+      "high": 232.82,
+      "low": 226.16,
+      "close": 226.65,
+      "volume": 44957500,
+      "pct_change": -1.824,
+      "prev_close": 230.86
+    },
+    {
+      "date": "2026-07-30",
+      "open": 233.35,
+      "high": 239.82,
+      "low": 231.06,
+      "close": 235.5,
+      "volume": 101839800,
+      "pct_change": 3.905,
+      "prev_close": 226.65
+    },
+    {
+      "date": "2026-07-31",
+      "open": 265.0,
+      "high": 273.23,
+      "low": 262.01,
+      "close": 271.58,
+      "volume": 129054800,
+      "pct_change": 15.321,
+      "prev_close": 235.5
+    },
+    {
+      "date": "2026-08-03",
+      "open": 278.29,
+      "high": 287.2,
+      "low": 278.0,
+      "close": 284.02,
+      "volume": 90830200,
+      "pct_change": 4.581,
+      "prev_close": 271.58
+    },
+    {
+      "date": "2026-08-04",
+      "open": 276.06,
+      "high": 281.07,
+      "low": 275.82,
+      "close": 277.42,
+      "volume": 69748100,
+      "pct_change": -2.324,
+      "prev_close": 284.02
+    },
+    {
+      "date": "2026-08-05",
+      "open": 281.59,
+      "high": 282.79,
+      "low": 270.73,
+      "close": 272.65,
+      "volume": 45119800,
+      "pct_change": -1.719,
+      "prev_close": 277.42
+    },
+    {
+      "date": "2026-08-06",
+      "open": 272.77,
+      "high": 275.48,
+      "low": 271.06,
+      "close": 272.26,
+      "volume": 30672900,
+      "pct_change": -0.143,
+      "prev_close": 272.65
+    },
+    {
+      "date": "2026-08-07",
+      "open": 272.87,
+      "high": 278.31,
+      "low": 272.75,
+      "close": 274.48,
+      "volume": 33861400,
+      "pct_change": 0.815,
+      "prev_close": 272.26
+    },
+    {
+      "date": "2026-08-10",
+      "open": 274.01,
+      "high": 280.14,
+      "low": 273.6,
+      "close": 278.09,
+      "volume": 35731900,
+      "pct_change": 1.315,
+      "prev_close": 274.48
+    },
+    {
+      "date": "2026-08-11",
+      "open": 278.69,
+      "high": 278.84,
+      "low": 271.36,
+      "close": 272.27,
+      "volume": 31895700,
+      "pct_change": -2.093,
+      "prev_close": 278.09
+    },
+    {
+      "date": "2026-08-12",
+      "open": 273.18,
+      "high": 273.46,
+      "low": 267.1,
+      "close": 267.28,
+      "volume": 29941100,
+      "pct_change": -1.833,
+      "prev_close": 272.27
+    },
+    {
+      "date": "2026-08-13",
+      "open": 267.24,
+      "high": 269.58,
+      "low": 264.71,
+      "close": 265.13,
+      "volume": 32170200,
+      "pct_change": -0.804,
+      "prev_close": 267.28
+    },
+    {
+      "date": "2026-08-14",
+      "open": 264.88,
+      "high": 265.81,
+      "low": 262.42,
+      "close": 262.65,
+      "volume": 27251700,
+      "pct_change": -0.935,
+      "prev_close": 265.13
+    },
+    {
+      "date": "2026-08-17",
+      "open": 265.44,
+      "high": 265.75,
+      "low": 258.34,
+      "close": 261.31,
+      "volume": 43896500,
+      "pct_change": -0.51,
+      "prev_close": 262.65
+    },
+    {
+      "date": "2026-08-18",
+      "open": 260.63,
+      "high": 262.18,
+      "low": 257.73,
+      "close": 259.45,
+      "volume": 33171300,
+      "pct_change": -0.712,
+      "prev_close": 261.31
+    },
+    {
+      "date": "2026-08-19",
+      "open": 260.85,
+      "high": 266.4,
+      "low": 258.58,
+      "close": 265.84,
+      "volume": 35762400,
+      "pct_change": 2.463,
+      "prev_close": 259.45
+    },
+    {
+      "date": "2026-08-20",
+      "open": 263.16,
+      "high": 263.84,
+      "low": 259.52,
+      "close": 260.11,
+      "volume": 28374100,
+      "pct_change": -2.155,
+      "prev_close": 265.84
+    },
+    {
+      "date": "2026-08-21",
+      "open": 260.74,
+      "high": 261.09,
+      "low": 257.04,
+      "close": 258.63,
+      "volume": 35723000,
+      "pct_change": -0.569,
+      "prev_close": 260.11
+    },
+    {
+      "date": "2026-08-24",
+      "open": 259.6,
+      "high": 263.32,
+      "low": 259.05,
+      "close": 262.07,
+      "volume": 28070500,
+      "pct_change": 1.33,
+      "prev_close": 258.63
+    },
+    {
+      "date": "2026-08-25",
+      "open": 262.51,
+      "high": 263.89,
+      "low": 259.83,
+      "close": 261.06,
+      "volume": 25550200,
+      "pct_change": -0.385,
+      "prev_close": 262.07
+    },
+    {
+      "date": "2026-08-26",
+      "open": 261.28,
+      "high": 262.05,
+      "low": 258.24,
+      "close": 260.28,
+      "volume": 21528400,
+      "pct_change": -0.299,
+      "prev_close": 261.06
+    },
+    {
+      "date": "2026-08-27",
+      "open": 259.23,
+      "high": 259.66,
+      "low": 255.02,
+      "close": 256.26,
+      "volume": 35927800,
+      "pct_change": -1.544,
+      "prev_close": 260.28
+    },
+    {
+      "date": "2026-08-28",
+      "open": 258.32,
+      "high": 267.56,
+      "low": 257.78,
+      "close": 266.43,
+      "volume": 49547400,
+      "pct_change": 3.969,
+      "prev_close": 256.26
+    },
+    {
+      "date": "2026-08-31",
+      "open": 263.83,
+      "high": 264.36,
+      "low": 257.12,
+      "close": 259.77,
+      "volume": 46089400,
+      "pct_change": -2.5,
+      "prev_close": 266.43
+    },
+    {
+      "date": "2026-09-01",
+      "open": 254.83,
+      "high": 255.82,
+      "low": 251.93,
+      "close": 254.92,
+      "volume": 31700100,
+      "pct_change": -1.867,
+      "prev_close": 259.77
+    },
+    {
+      "date": "2026-09-02",
+      "open": 254.26,
+      "high": 256.24,
+      "low": 253.4,
+      "close": 254.98,
+      "volume": 24013300,
+      "pct_change": 0.024,
+      "prev_close": 254.92
+    },
+    {
+      "date": "2026-09-03",
+      "open": 256.2,
+      "high": 259.5,
+      "low": 256.0,
+      "close": 258.9,
+      "volume": 26891500,
+      "pct_change": 1.537,
+      "prev_close": 254.98
+    },
+    {
+      "date": "2026-09-04",
+      "open": 259.07,
+      "high": 261.12,
+      "low": 255.29,
+      "close": 258.51,
+      "volume": 30749900,
+      "pct_change": -0.151,
+      "prev_close": 258.9
+    },
+    {
+      "date": "2026-09-08",
+      "open": 256.68,
+      "high": 257.99,
+      "low": 254.75,
+      "close": 256.97,
+      "volume": 29398000,
+      "pct_change": -0.596,
+      "prev_close": 258.51
+    },
+    {
+      "date": "2026-09-09",
+      "open": 253.12,
+      "high": 254.69,
+      "low": 250.65,
+      "close": 252.4,
+      "volume": 33055500,
+      "pct_change": -1.778,
+      "prev_close": 256.97
+    },
+    {
+      "date": "2026-09-10",
+      "open": 250.11,
+      "high": 253.15,
+      "low": 249.58,
+      "close": 251.89,
+      "volume": 25484800,
+      "pct_change": -0.202,
+      "prev_close": 252.4
+    },
+    {
+      "date": "2026-09-11",
+      "open": 254.09,
+      "high": 257.59,
+      "low": 253.14,
+      "close": 256.78,
+      "volume": 26724100,
+      "pct_change": 1.941,
+      "prev_close": 251.89
+    },
+    {
+      "date": "2026-09-14",
+      "open": 253.15,
+      "high": 255.95,
+      "low": 250.74,
+      "close": 253.54,
+      "volume": 34352800,
+      "pct_change": -1.262,
+      "prev_close": 256.78
+    },
+    {
+      "date": "2026-09-15",
+      "open": 252.24,
+      "high": 253.27,
+      "low": 247.22,
+      "close": 248.42,
+      "volume": 36275400,
+      "pct_change": -2.019,
+      "prev_close": 253.54
+    },
+    {
+      "date": "2026-09-16",
+      "open": 248.1,
+      "high": 249.26,
+      "low": 244.3,
+      "close": 245.96,
+      "volume": 33488500,
+      "pct_change": -0.99,
+      "prev_close": 248.42
+    },
+    {
+      "date": "2026-09-17",
+      "open": 251.07,
+      "high": 252.73,
+      "low": 249.24,
+      "close": 251.19,
+      "volume": 30438800,
+      "pct_change": 2.126,
+      "prev_close": 245.96
+    },
+    {
+      "date": "2026-09-18",
+      "open": 252.92,
+      "high": 255.43,
+      "low": 251.88,
+      "close": 253.71,
+      "volume": 52274700,
+      "pct_change": 1.003,
+      "prev_close": 251.19
+    },
+    {
+      "date": "2026-09-21",
+      "open": 256.4,
+      "high": 259.49,
+      "low": 253.6,
+      "close": 258.45,
+      "volume": 42979400,
+      "pct_change": 1.868,
+      "prev_close": 253.71
+    },
+    {
+      "date": "2026-09-22",
+      "open": 255.11,
+      "high": 259.0,
+      "low": 253.78,
+      "close": 254.98,
+      "volume": 41982600,
+      "pct_change": -1.343,
+      "prev_close": 258.45
+    },
+    {
+      "date": "2026-09-23",
+      "open": 253.0,
+      "high": 253.99,
+      "low": 247.76,
+      "close": 249.27,
+      "volume": 44209200,
+      "pct_change": -2.239,
+      "prev_close": 254.98
+    },
+    {
+      "date": "2026-09-24",
+      "open": 246.02,
+      "high": 250.43,
+      "low": 245.6,
+      "close": 249.38,
+      "volume": 33040100,
+      "pct_change": 0.044,
+      "prev_close": 249.27
+    },
+    {
+      "date": "2026-09-25",
+      "open": 248.56,
+      "high": 250.88,
+      "low": 247.18,
+      "close": 249.67,
+      "volume": 34216300,
+      "pct_change": 0.116,
+      "prev_close": 249.38
+    }
+  ],
+  "beats": [
+    {
+      "date": "2026-04-14",
+      "pct_change": 3.806,
+      "close": 249.02,
+      "direction": "up",
+      "headline": "AMZN Rises 3.8% Alongside 8-K Filing",
+      "explanation": "Amazon gained 3.81% to close at $249.02 on 2.1x average volume on the day it filed a Form 8-K. The upward move was shared with competitor NVDA, which rose 3.80%, while competitor INTC fell 2.10%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_AMZN_20260414_price",
+        "ev_AMZN_20260414_peer_INTC",
+        "ev_AMZN_20260414_peer_NVDA",
+        "ev_AMZN_20260414_filing_000110465926042880"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "pct_change": 3.493,
+      "close": 263.99,
+      "direction": "up",
+      "headline": "AMZN Advances 3.5% as Competitors Rally",
+      "explanation": "Amazon rose 3.49% to $263.99 on 1.6x average volume without company-specific news. The advance was shared with competitors INTC and NVDA, which jumped 23.60% and 4.32%, respectively.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMZN_20260424_price",
+        "ev_AMZN_20260424_peer_INTC",
+        "ev_AMZN_20260424_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "pct_change": -3.466,
+      "close": 261.26,
+      "direction": "down",
+      "headline": "AMZN Falls 3.5% to $261.26",
+      "explanation": "Amazon fell 3.47% to close at $261.26 on 1.6x average volume with no company-specific news reported. The decline was shared with competitor INTC, which fell 4.67%, while competitor NVDA rose 6.26%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMZN_20260601_price",
+        "ev_AMZN_20260601_peer_INTC",
+        "ev_AMZN_20260601_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-05",
+      "pct_change": -3.058,
+      "close": 246.03,
+      "direction": "down",
+      "headline": "AMZN Drops 3.1% in Peer Semiconductor Pullback",
+      "explanation": "Amazon fell 3.06% to $246.03 on 1.6x average volume without any company-specific announcements. The retreat was shared with competitors INTC and NVDA, which dropped 11.28% and 6.20%, respectively.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMZN_20260605_price",
+        "ev_AMZN_20260605_peer_INTC",
+        "ev_AMZN_20260605_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "pct_change": -3.455,
+      "close": 237.5,
+      "direction": "down",
+      "headline": "AMZN Declines 3.5% to $237.50",
+      "explanation": "Amazon dropped 3.46% to $237.50 on 1.3x average volume in the absence of company news. Competitor NVDA also moved lower by 1.33%, whereas competitor INTC gained 3.46%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMZN_20260617_price",
+        "ev_AMZN_20260617_peer_INTC",
+        "ev_AMZN_20260617_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "pct_change": -4.747,
+      "close": 232.79,
+      "direction": "down",
+      "headline": "AMZN Drops 4.7% on Elevated Volume",
+      "explanation": "Shares fell 4.75% to $232.79 on 2.0x average volume with no news released. Competitor NVDA also dipped 0.97%, while competitor INTC moved opposite, climbing 5.19%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMZN_20260622_price",
+        "ev_AMZN_20260622_peer_INTC",
+        "ev_AMZN_20260622_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "pct_change": -3.099,
+      "close": 227.01,
+      "direction": "down",
+      "headline": "AMZN Slips 3.1% to $227.01",
+      "explanation": "Amazon fell 3.10% to $227.01 on 2.3x average volume with no company-specific evidence provided. Competitor NVDA also dropped 1.64%, while competitor INTC rose 0.93%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMZN_20260625_price",
+        "ev_AMZN_20260625_peer_INTC",
+        "ev_AMZN_20260625_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "pct_change": 3.018,
+      "close": 254.96,
+      "direction": "up",
+      "headline": "AMZN Rebounds 3.0% to $254.96",
+      "explanation": "Amazon gained 3.02% to $254.96 on 1.3x average volume without new filings or news. The advance was company-specific, as competitor NVDA rose only 0.33% and competitor INTC fell 4.43%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMZN_20260715_price",
+        "ev_AMZN_20260715_peer_INTC",
+        "ev_AMZN_20260715_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "pct_change": 3.905,
+      "close": 235.5,
+      "direction": "up",
+      "headline": "AMZN Rises 3.9% Ahead of Quarterly Report",
+      "explanation": "Amazon gained 3.90% to $235.50 on 3.0x average volume as it filed a Form 8-K. The rise was shared with competitors INTC and NVDA, which rose 11.30% and 2.65%, respectively.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_AMZN_20260730_price",
+        "ev_AMZN_20260730_peer_INTC",
+        "ev_AMZN_20260730_peer_NVDA",
+        "ev_AMZN_20260730_filing_000101872426000024"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "pct_change": 15.321,
+      "close": 271.58,
+      "direction": "up",
+      "headline": "AMZN Surges 15.3% Following 10-Q and 8-K",
+      "explanation": "Amazon surged 15.32% to $271.58 on 3.8x average volume following the submission of its Form 10-Q and Form 8-K filings. The gain was company-specific, as competitor NVDA rose 2.93% while competitor INTC fell 1.02%.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_AMZN_20260731_price",
+        "ev_AMZN_20260731_peer_INTC",
+        "ev_AMZN_20260731_peer_NVDA",
+        "ev_AMZN_20260731_filing_000101872426000026",
+        "ev_AMZN_20260731_filing_000101872426000024"
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "pct_change": 4.581,
+      "close": 284.02,
+      "direction": "up",
+      "headline": "AMZN Extends Surge by 4.6% to $284.02",
+      "explanation": "Amazon climbed 4.58% to $284.02 on 2.7x average volume in a continuation of post-filing momentum without new catalysts. Competitors also advanced, with NVDA up 2.93% and INTC up 0.89%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMZN_20260803_price",
+        "ev_AMZN_20260803_peer_INTC",
+        "ev_AMZN_20260803_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "pct_change": 3.969,
+      "close": 266.43,
+      "direction": "up",
+      "headline": "AMZN Climbs 4.0% Against Competitor Drops",
+      "explanation": "Amazon gained 3.97% to $266.43 on 1.4x average volume with no company-specific news. The advance was company-specific, contrasting with drops in competitors NVDA (-4.58%) and INTC (-2.85%).",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMZN_20260828_price",
+        "ev_AMZN_20260828_peer_INTC",
+        "ev_AMZN_20260828_peer_NVDA"
+      ]
+    }
+  ],
+  "evidence": {
+    "ev_AMZN_20260414_price": {
+      "id": "ev_AMZN_20260414_price",
+      "kind": "price",
+      "title": "AMZN rose 3.81% on 2026-04-14",
+      "detail": "Closed at $249.02 from $239.89. Volume was 2.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-04-14",
+      "numbers": {
+        "pct_change": 3.806,
+        "close": 249.02,
+        "prev_close": 239.89,
+        "volume": 72685000,
+        "volume_vs_30d_avg": 2.13,
+        "move_excluding_sector_pct": 2.96
+      }
+    },
+    "ev_AMZN_20260414_peer_INTC": {
+      "id": "ev_AMZN_20260414_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -2.10% the same day",
+      "detail": "AMZN moved +3.81% while INTC moved -2.10%. INTC is AMZN's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-14",
+      "numbers": {
+        "peer_pct_change": -2.1,
+        "subject_pct_change": 3.806,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260414_peer_NVDA": {
+      "id": "ev_AMZN_20260414_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +3.80% the same day",
+      "detail": "AMZN moved +3.81% while NVDA moved +3.80%. NVDA is AMZN's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-14",
+      "numbers": {
+        "peer_pct_change": 3.8,
+        "subject_pct_change": 3.806,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260414_filing_000110465926042880": {
+      "id": "ev_AMZN_20260414_filing_000110465926042880",
+      "kind": "filing",
+      "title": "8-K filed 2026-04-14",
+      "detail": "FORM 8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926042880/tm2611746d1_8k.htm",
+      "occurred_on": "2026-04-14",
+      "numbers": {}
+    },
+    "ev_AMZN_20260424_price": {
+      "id": "ev_AMZN_20260424_price",
+      "kind": "price",
+      "title": "AMZN rose 3.49% on 2026-04-24",
+      "detail": "Closed at $263.99 from $255.08. Volume was 1.6x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "pct_change": 3.493,
+        "close": 263.99,
+        "prev_close": 255.08,
+        "volume": 53777400,
+        "volume_vs_30d_avg": 1.58,
+        "move_excluding_sector_pct": 10.47
+      }
+    },
+    "ev_AMZN_20260424_peer_INTC": {
+      "id": "ev_AMZN_20260424_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +23.60% the same day",
+      "detail": "AMZN moved +3.49% while INTC moved +23.60%. INTC is AMZN's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 23.6,
+        "subject_pct_change": 3.493,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260424_peer_NVDA": {
+      "id": "ev_AMZN_20260424_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +4.32% the same day",
+      "detail": "AMZN moved +3.49% while NVDA moved +4.32%. NVDA is AMZN's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 4.32,
+        "subject_pct_change": 3.493,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260601_price": {
+      "id": "ev_AMZN_20260601_price",
+      "kind": "price",
+      "title": "AMZN fell 3.47% on 2026-06-01",
+      "detail": "Closed at $261.26 from $270.64. Volume was 1.6x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "pct_change": -3.466,
+        "close": 261.26,
+        "prev_close": 270.64,
+        "volume": 53604400,
+        "volume_vs_30d_avg": 1.57,
+        "move_excluding_sector_pct": 4.26
+      }
+    },
+    "ev_AMZN_20260601_peer_INTC": {
+      "id": "ev_AMZN_20260601_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -4.67% the same day",
+      "detail": "AMZN moved -3.47% while INTC moved -4.67%. INTC is AMZN's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": -4.67,
+        "subject_pct_change": -3.466,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260601_peer_NVDA": {
+      "id": "ev_AMZN_20260601_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +6.26% the same day",
+      "detail": "AMZN moved -3.47% while NVDA moved +6.26%. NVDA is AMZN's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": 6.26,
+        "subject_pct_change": -3.466,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260605_price": {
+      "id": "ev_AMZN_20260605_price",
+      "kind": "price",
+      "title": "AMZN fell 3.06% on 2026-06-05",
+      "detail": "Closed at $246.03 from $253.79. Volume was 1.6x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-06-05",
+      "numbers": {
+        "pct_change": -3.058,
+        "close": 246.03,
+        "prev_close": 253.79,
+        "volume": 55607800,
+        "volume_vs_30d_avg": 1.63,
+        "move_excluding_sector_pct": 5.68
+      }
+    },
+    "ev_AMZN_20260605_peer_INTC": {
+      "id": "ev_AMZN_20260605_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -11.28% the same day",
+      "detail": "AMZN moved -3.06% while INTC moved -11.28%. INTC is AMZN's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-05",
+      "numbers": {
+        "peer_pct_change": -11.28,
+        "subject_pct_change": -3.058,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260605_peer_NVDA": {
+      "id": "ev_AMZN_20260605_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -6.20% the same day",
+      "detail": "AMZN moved -3.06% while NVDA moved -6.20%. NVDA is AMZN's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-05",
+      "numbers": {
+        "peer_pct_change": -6.2,
+        "subject_pct_change": -3.058,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260617_price": {
+      "id": "ev_AMZN_20260617_price",
+      "kind": "price",
+      "title": "AMZN fell 3.46% on 2026-06-17",
+      "detail": "Closed at $237.50 from $246.00. Volume was 1.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-06-17",
+      "numbers": {
+        "pct_change": -3.455,
+        "close": 237.5,
+        "prev_close": 246.0,
+        "volume": 44780800,
+        "volume_vs_30d_avg": 1.31,
+        "move_excluding_sector_pct": 4.52
+      }
+    },
+    "ev_AMZN_20260617_peer_INTC": {
+      "id": "ev_AMZN_20260617_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +3.46% the same day",
+      "detail": "AMZN moved -3.46% while INTC moved +3.46%. INTC is AMZN's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-17",
+      "numbers": {
+        "peer_pct_change": 3.46,
+        "subject_pct_change": -3.455,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260617_peer_NVDA": {
+      "id": "ev_AMZN_20260617_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -1.33% the same day",
+      "detail": "AMZN moved -3.46% while NVDA moved -1.33%. NVDA is AMZN's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-17",
+      "numbers": {
+        "peer_pct_change": -1.33,
+        "subject_pct_change": -3.455,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260622_price": {
+      "id": "ev_AMZN_20260622_price",
+      "kind": "price",
+      "title": "AMZN fell 4.75% on 2026-06-22",
+      "detail": "Closed at $232.79 from $244.39. Volume was 2.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-06-22",
+      "numbers": {
+        "pct_change": -4.747,
+        "close": 232.79,
+        "prev_close": 244.39,
+        "volume": 68388500,
+        "volume_vs_30d_avg": 2.01,
+        "move_excluding_sector_pct": 6.86
+      }
+    },
+    "ev_AMZN_20260622_peer_INTC": {
+      "id": "ev_AMZN_20260622_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +5.19% the same day",
+      "detail": "AMZN moved -4.75% while INTC moved +5.19%. INTC is AMZN's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-22",
+      "numbers": {
+        "peer_pct_change": 5.19,
+        "subject_pct_change": -4.747,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260622_peer_NVDA": {
+      "id": "ev_AMZN_20260622_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -0.97% the same day",
+      "detail": "AMZN moved -4.75% while NVDA moved -0.97%. NVDA is AMZN's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-22",
+      "numbers": {
+        "peer_pct_change": -0.97,
+        "subject_pct_change": -4.747,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260625_price": {
+      "id": "ev_AMZN_20260625_price",
+      "kind": "price",
+      "title": "AMZN fell 3.10% on 2026-06-25",
+      "detail": "Closed at $227.01 from $234.27. Volume was 2.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "pct_change": -3.099,
+        "close": 227.01,
+        "prev_close": 234.27,
+        "volume": 77674100,
+        "volume_vs_30d_avg": 2.28,
+        "move_excluding_sector_pct": 2.74
+      }
+    },
+    "ev_AMZN_20260625_peer_INTC": {
+      "id": "ev_AMZN_20260625_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +0.93% the same day",
+      "detail": "AMZN moved -3.10% while INTC moved +0.93%. INTC is AMZN's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": 0.93,
+        "subject_pct_change": -3.099,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260625_peer_NVDA": {
+      "id": "ev_AMZN_20260625_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -1.64% the same day",
+      "detail": "AMZN moved -3.10% while NVDA moved -1.64%. NVDA is AMZN's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": -1.64,
+        "subject_pct_change": -3.099,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260715_price": {
+      "id": "ev_AMZN_20260715_price",
+      "kind": "price",
+      "title": "AMZN rose 3.02% on 2026-07-15",
+      "detail": "Closed at $254.96 from $247.49. Volume was 1.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-07-15",
+      "numbers": {
+        "pct_change": 3.018,
+        "close": 254.96,
+        "prev_close": 247.49,
+        "volume": 45240600,
+        "volume_vs_30d_avg": 1.33,
+        "move_excluding_sector_pct": 5.07
+      }
+    },
+    "ev_AMZN_20260715_peer_INTC": {
+      "id": "ev_AMZN_20260715_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -4.43% the same day",
+      "detail": "AMZN moved +3.02% while INTC moved -4.43%. INTC is AMZN's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-15",
+      "numbers": {
+        "peer_pct_change": -4.43,
+        "subject_pct_change": 3.018,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260715_peer_NVDA": {
+      "id": "ev_AMZN_20260715_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +0.33% the same day",
+      "detail": "AMZN moved +3.02% while NVDA moved +0.33%. NVDA is AMZN's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-15",
+      "numbers": {
+        "peer_pct_change": 0.33,
+        "subject_pct_change": 3.018,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260730_price": {
+      "id": "ev_AMZN_20260730_price",
+      "kind": "price",
+      "title": "AMZN rose 3.90% on 2026-07-30",
+      "detail": "Closed at $235.50 from $226.65. Volume was 3.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "pct_change": 3.905,
+        "close": 235.5,
+        "prev_close": 226.65,
+        "volume": 101839800,
+        "volume_vs_30d_avg": 2.99,
+        "move_excluding_sector_pct": 3.07
+      }
+    },
+    "ev_AMZN_20260730_peer_INTC": {
+      "id": "ev_AMZN_20260730_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +11.30% the same day",
+      "detail": "AMZN moved +3.90% while INTC moved +11.30%. INTC is AMZN's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 11.3,
+        "subject_pct_change": 3.905,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260730_peer_NVDA": {
+      "id": "ev_AMZN_20260730_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +2.65% the same day",
+      "detail": "AMZN moved +3.90% while NVDA moved +2.65%. NVDA is AMZN's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 2.65,
+        "subject_pct_change": 3.905,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260730_filing_000101872426000024": {
+      "id": "ev_AMZN_20260730_filing_000101872426000024",
+      "kind": "filing",
+      "title": "8-K filed 2026-07-30",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260730.htm",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMZN_20260731_price": {
+      "id": "ev_AMZN_20260731_price",
+      "kind": "price",
+      "title": "AMZN rose 15.32% on 2026-07-31",
+      "detail": "Closed at $271.58 from $235.50. Volume was 3.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "pct_change": 15.321,
+        "close": 271.58,
+        "prev_close": 235.5,
+        "volume": 129054800,
+        "volume_vs_30d_avg": 3.79,
+        "move_excluding_sector_pct": 14.37
+      }
+    },
+    "ev_AMZN_20260731_peer_INTC": {
+      "id": "ev_AMZN_20260731_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -1.02% the same day",
+      "detail": "AMZN moved +15.32% while INTC moved -1.02%. INTC is AMZN's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "peer_pct_change": -1.02,
+        "subject_pct_change": 15.321,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260731_peer_NVDA": {
+      "id": "ev_AMZN_20260731_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +2.93% the same day",
+      "detail": "AMZN moved +15.32% while NVDA moved +2.93%. NVDA is AMZN's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "peer_pct_change": 2.93,
+        "subject_pct_change": 15.321,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260731_filing_000101872426000026": {
+      "id": "ev_AMZN_20260731_filing_000101872426000026",
+      "kind": "filing",
+      "title": "10-Q filed 2026-07-31",
+      "detail": "10-Q",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AMZN_20260731_filing_000101872426000024": {
+      "id": "ev_AMZN_20260731_filing_000101872426000024",
+      "kind": "filing",
+      "title": "8-K filed 2026-07-30",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260730.htm",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMZN_20260803_price": {
+      "id": "ev_AMZN_20260803_price",
+      "kind": "price",
+      "title": "AMZN rose 4.58% on 2026-08-03",
+      "detail": "Closed at $284.02 from $271.58. Volume was 2.7x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-08-03",
+      "numbers": {
+        "pct_change": 4.581,
+        "close": 284.02,
+        "prev_close": 271.58,
+        "volume": 90830200,
+        "volume_vs_30d_avg": 2.67,
+        "move_excluding_sector_pct": 2.67
+      }
+    },
+    "ev_AMZN_20260803_peer_INTC": {
+      "id": "ev_AMZN_20260803_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +0.89% the same day",
+      "detail": "AMZN moved +4.58% while INTC moved +0.89%. INTC is AMZN's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-08-03",
+      "numbers": {
+        "peer_pct_change": 0.89,
+        "subject_pct_change": 4.581,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260803_peer_NVDA": {
+      "id": "ev_AMZN_20260803_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +2.93% the same day",
+      "detail": "AMZN moved +4.58% while NVDA moved +2.93%. NVDA is AMZN's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-08-03",
+      "numbers": {
+        "peer_pct_change": 2.93,
+        "subject_pct_change": 4.581,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260828_price": {
+      "id": "ev_AMZN_20260828_price",
+      "kind": "price",
+      "title": "AMZN rose 3.97% on 2026-08-28",
+      "detail": "Closed at $266.43 from $256.26. Volume was 1.4x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-08-28",
+      "numbers": {
+        "pct_change": 3.969,
+        "close": 266.43,
+        "prev_close": 256.26,
+        "volume": 49547400,
+        "volume_vs_30d_avg": 1.45,
+        "move_excluding_sector_pct": 7.68
+      }
+    },
+    "ev_AMZN_20260828_peer_INTC": {
+      "id": "ev_AMZN_20260828_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -2.85% the same day",
+      "detail": "AMZN moved +3.97% while INTC moved -2.85%. INTC is AMZN's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-08-28",
+      "numbers": {
+        "peer_pct_change": -2.85,
+        "subject_pct_change": 3.969,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_20260828_peer_NVDA": {
+      "id": "ev_AMZN_20260828_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -4.58% the same day",
+      "detail": "AMZN moved +3.97% while NVDA moved -4.58%. NVDA is AMZN's competitor (cloud services, AI computing and Arm-based CPUs), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-08-28",
+      "numbers": {
+        "peer_pct_change": -4.58,
+        "subject_pct_change": 3.969,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMZN_fund_revenue": {
+      "id": "ev_AMZN_fund_revenue",
+      "kind": "fundamental",
+      "title": "Revenue: 200,606,000,000 (2026-06-30)",
+      "detail": "Reported on form 10-Q, +28.9% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "value": 200606000000,
+        "period_end": "2026-06-30",
+        "xbrl_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "yoy_pct_change": 28.87
+      }
+    },
+    "ev_AMZN_fund_net_income": {
+      "id": "ev_AMZN_fund_net_income",
+      "kind": "fundamental",
+      "title": "Net Income: 62,647,000,000 (2026-06-30)",
+      "detail": "Reported on form 10-Q, +265.8% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "value": 62647000000,
+        "period_end": "2026-06-30",
+        "xbrl_tag": "NetIncomeLoss",
+        "yoy_pct_change": 265.78
+      }
+    },
+    "ev_AMZN_fund_gross_profit": {
+      "id": "ev_AMZN_fund_gross_profit",
+      "kind": "fundamental",
+      "title": "Gross Profit: 1,273,000,000 (2009-09-30)",
+      "detail": "Reported on form 10-Q.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312509212134/",
+      "occurred_on": "2009-10-23",
+      "numbers": {
+        "value": 1273000000,
+        "period_end": "2009-09-30",
+        "xbrl_tag": "GrossProfit"
+      }
+    },
+    "ev_AMZN_fund_operating_income": {
+      "id": "ev_AMZN_fund_operating_income",
+      "kind": "fundamental",
+      "title": "Operating Income: 27,461,000,000 (2026-06-30)",
+      "detail": "Reported on form 10-Q, +49.2% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "value": 27461000000,
+        "period_end": "2026-06-30",
+        "xbrl_tag": "OperatingIncomeLoss",
+        "yoy_pct_change": 49.2
+      }
+    }
+  },
+  "arc": "Between April and August 2026, Amazon moved through a notable drawdown before staging a sharp quarterly filing-driven recovery. After climbing to $263.99 in late April, AMZN experienced multiple sharp retreats throughout June with no company-specific news, bottoming at $227.01 alongside mixed behavior across competitors INTC and NVDA. The decisive turning point arrived at the end of July, when Amazon filed a Form 8-K and Form 10-Q, driving a single-day 15.32% surge on 3.8x average volume and propelling the stock to a period high of $284.02 in early August.",
+  "arc_citation_ids": [
+    "ev_AMZN_20260424_price",
+    "ev_AMZN_20260625_price",
+    "ev_AMZN_20260731_price",
+    "ev_AMZN_20260731_filing_000101872426000026",
+    "ev_AMZN_20260731_filing_000101872426000024",
+    "ev_AMZN_20260803_price"
+  ],
+  "warnings": []
+}

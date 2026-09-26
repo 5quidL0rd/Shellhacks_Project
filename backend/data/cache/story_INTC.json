@@ -1,0 +1,3645 @@
+{
+  "symbol": "INTC",
+  "company_name": "Intel Corporation",
+  "generated_at": "2026-09-26T12:31:09.918373+00:00",
+  "bars": [
+    {
+      "date": "2026-03-20",
+      "open": 46.95,
+      "high": 47.55,
+      "low": 43.64,
+      "close": 43.87,
+      "volume": 162814200,
+      "pct_change": 0.0,
+      "prev_close": 46.95
+    },
+    {
+      "date": "2026-03-23",
+      "open": 44.5,
+      "high": 45.46,
+      "low": 43.74,
+      "close": 44.01,
+      "volume": 80772200,
+      "pct_change": 0.319,
+      "prev_close": 43.87
+    },
+    {
+      "date": "2026-03-24",
+      "open": 43.54,
+      "high": 44.31,
+      "low": 43.2,
+      "close": 44.06,
+      "volume": 65323500,
+      "pct_change": 0.114,
+      "prev_close": 44.01
+    },
+    {
+      "date": "2026-03-25",
+      "open": 45.85,
+      "high": 47.85,
+      "low": 45.45,
+      "close": 47.18,
+      "volume": 97467900,
+      "pct_change": 7.081,
+      "prev_close": 44.06
+    },
+    {
+      "date": "2026-03-26",
+      "open": 46.3,
+      "high": 46.6,
+      "low": 43.92,
+      "close": 44.1,
+      "volume": 82841400,
+      "pct_change": -6.528,
+      "prev_close": 47.18
+    },
+    {
+      "date": "2026-03-27",
+      "open": 43.62,
+      "high": 44.13,
+      "low": 42.86,
+      "close": 43.13,
+      "volume": 70002200,
+      "pct_change": -2.2,
+      "prev_close": 44.1
+    },
+    {
+      "date": "2026-03-30",
+      "open": 43.72,
+      "high": 43.99,
+      "low": 40.63,
+      "close": 41.19,
+      "volume": 84596000,
+      "pct_change": -4.498,
+      "prev_close": 43.13
+    },
+    {
+      "date": "2026-03-31",
+      "open": 41.95,
+      "high": 44.23,
+      "low": 41.6,
+      "close": 44.13,
+      "volume": 95294900,
+      "pct_change": 7.138,
+      "prev_close": 41.19
+    },
+    {
+      "date": "2026-04-01",
+      "open": 45.0,
+      "high": 48.77,
+      "low": 44.98,
+      "close": 48.03,
+      "volume": 129598500,
+      "pct_change": 8.838,
+      "prev_close": 44.13
+    },
+    {
+      "date": "2026-04-02",
+      "open": 46.06,
+      "high": 50.49,
+      "low": 46.04,
+      "close": 50.38,
+      "volume": 117134200,
+      "pct_change": 4.893,
+      "prev_close": 48.03
+    },
+    {
+      "date": "2026-04-06",
+      "open": 50.88,
+      "high": 52.39,
+      "low": 49.87,
+      "close": 50.78,
+      "volume": 79978800,
+      "pct_change": 0.794,
+      "prev_close": 50.38
+    },
+    {
+      "date": "2026-04-07",
+      "open": 51.91,
+      "high": 53.27,
+      "low": 51.22,
+      "close": 52.91,
+      "volume": 129543800,
+      "pct_change": 4.195,
+      "prev_close": 50.78
+    },
+    {
+      "date": "2026-04-08",
+      "open": 55.37,
+      "high": 59.17,
+      "low": 54.8,
+      "close": 58.95,
+      "volume": 184599900,
+      "pct_change": 11.416,
+      "prev_close": 52.91
+    },
+    {
+      "date": "2026-04-09",
+      "open": 58.4,
+      "high": 62.08,
+      "low": 58.39,
+      "close": 61.72,
+      "volume": 155609900,
+      "pct_change": 4.699,
+      "prev_close": 58.95
+    },
+    {
+      "date": "2026-04-10",
+      "open": 61.52,
+      "high": 63.39,
+      "low": 60.75,
+      "close": 62.38,
+      "volume": 98624400,
+      "pct_change": 1.069,
+      "prev_close": 61.72
+    },
+    {
+      "date": "2026-04-13",
+      "open": 62.18,
+      "high": 65.65,
+      "low": 62.18,
+      "close": 65.18,
+      "volume": 112111000,
+      "pct_change": 4.489,
+      "prev_close": 62.38
+    },
+    {
+      "date": "2026-04-14",
+      "open": 65.16,
+      "high": 65.18,
+      "low": 62.09,
+      "close": 63.81,
+      "volume": 112796100,
+      "pct_change": -2.102,
+      "prev_close": 65.18
+    },
+    {
+      "date": "2026-04-15",
+      "open": 63.77,
+      "high": 65.84,
+      "low": 62.88,
+      "close": 64.94,
+      "volume": 92051500,
+      "pct_change": 1.771,
+      "prev_close": 63.81
+    },
+    {
+      "date": "2026-04-16",
+      "open": 64.93,
+      "high": 68.61,
+      "low": 64.27,
+      "close": 68.5,
+      "volume": 108328300,
+      "pct_change": 5.482,
+      "prev_close": 64.94
+    },
+    {
+      "date": "2026-04-17",
+      "open": 68.85,
+      "high": 70.33,
+      "low": 67.74,
+      "close": 68.5,
+      "volume": 118831500,
+      "pct_change": 0.0,
+      "prev_close": 68.5
+    },
+    {
+      "date": "2026-04-20",
+      "open": 68.45,
+      "high": 69.21,
+      "low": 64.47,
+      "close": 65.7,
+      "volume": 96851100,
+      "pct_change": -4.088,
+      "prev_close": 68.5
+    },
+    {
+      "date": "2026-04-21",
+      "open": 67.14,
+      "high": 67.67,
+      "low": 65.64,
+      "close": 66.26,
+      "volume": 91402300,
+      "pct_change": 0.852,
+      "prev_close": 65.7
+    },
+    {
+      "date": "2026-04-22",
+      "open": 67.94,
+      "high": 68.77,
+      "low": 64.98,
+      "close": 65.27,
+      "volume": 90267300,
+      "pct_change": -1.494,
+      "prev_close": 66.26
+    },
+    {
+      "date": "2026-04-23",
+      "open": 66.1,
+      "high": 68.28,
+      "low": 65.42,
+      "close": 66.78,
+      "volume": 155141800,
+      "pct_change": 2.313,
+      "prev_close": 65.27
+    },
+    {
+      "date": "2026-04-24",
+      "open": 82.2,
+      "high": 85.22,
+      "low": 79.62,
+      "close": 82.54,
+      "volume": 281405200,
+      "pct_change": 23.6,
+      "prev_close": 66.78
+    },
+    {
+      "date": "2026-04-27",
+      "open": 83.67,
+      "high": 87.1,
+      "low": 82.61,
+      "close": 84.99,
+      "volume": 178820200,
+      "pct_change": 2.968,
+      "prev_close": 82.54
+    },
+    {
+      "date": "2026-04-28",
+      "open": 81.28,
+      "high": 84.59,
+      "low": 80.8,
+      "close": 84.52,
+      "volume": 147773500,
+      "pct_change": -0.553,
+      "prev_close": 84.99
+    },
+    {
+      "date": "2026-04-29",
+      "open": 86.14,
+      "high": 94.95,
+      "low": 85.87,
+      "close": 94.75,
+      "volume": 235070900,
+      "pct_change": 12.104,
+      "prev_close": 84.52
+    },
+    {
+      "date": "2026-04-30",
+      "open": 95.6,
+      "high": 95.69,
+      "low": 91.5,
+      "close": 94.48,
+      "volume": 160597300,
+      "pct_change": -0.285,
+      "prev_close": 94.75
+    },
+    {
+      "date": "2026-05-01",
+      "open": 93.2,
+      "high": 100.45,
+      "low": 92.61,
+      "close": 99.62,
+      "volume": 158502800,
+      "pct_change": 5.44,
+      "prev_close": 94.48
+    },
+    {
+      "date": "2026-05-04",
+      "open": 99.18,
+      "high": 99.82,
+      "low": 95.6,
+      "close": 95.78,
+      "volume": 119294000,
+      "pct_change": -3.855,
+      "prev_close": 99.62
+    },
+    {
+      "date": "2026-05-05",
+      "open": 100.51,
+      "high": 110.48,
+      "low": 100.08,
+      "close": 108.15,
+      "volume": 198482000,
+      "pct_change": 12.915,
+      "prev_close": 95.78
+    },
+    {
+      "date": "2026-05-06",
+      "open": 110.98,
+      "high": 113.5,
+      "low": 106.58,
+      "close": 113.01,
+      "volume": 157320100,
+      "pct_change": 4.494,
+      "prev_close": 108.15
+    },
+    {
+      "date": "2026-05-07",
+      "open": 111.02,
+      "high": 114.51,
+      "low": 109.15,
+      "close": 109.62,
+      "volume": 122699900,
+      "pct_change": -3.0,
+      "prev_close": 113.01
+    },
+    {
+      "date": "2026-05-08",
+      "open": 111.81,
+      "high": 130.57,
+      "low": 111.8,
+      "close": 124.92,
+      "volume": 227681300,
+      "pct_change": 13.957,
+      "prev_close": 109.62
+    },
+    {
+      "date": "2026-05-11",
+      "open": 130.88,
+      "high": 132.75,
+      "low": 123.92,
+      "close": 129.44,
+      "volume": 179486500,
+      "pct_change": 3.618,
+      "prev_close": 124.92
+    },
+    {
+      "date": "2026-05-12",
+      "open": 124.36,
+      "high": 127.79,
+      "low": 115.0,
+      "close": 120.61,
+      "volume": 172516500,
+      "pct_change": -6.822,
+      "prev_close": 129.44
+    },
+    {
+      "date": "2026-05-13",
+      "open": 124.1,
+      "high": 125.0,
+      "low": 116.41,
+      "close": 120.29,
+      "volume": 115364400,
+      "pct_change": -0.265,
+      "prev_close": 120.61
+    },
+    {
+      "date": "2026-05-14",
+      "open": 114.66,
+      "high": 118.57,
+      "low": 113.17,
+      "close": 115.93,
+      "volume": 118279800,
+      "pct_change": -3.625,
+      "prev_close": 120.29
+    },
+    {
+      "date": "2026-05-15",
+      "open": 109.79,
+      "high": 110.57,
+      "low": 105.02,
+      "close": 108.77,
+      "volume": 135206000,
+      "pct_change": -6.176,
+      "prev_close": 115.93
+    },
+    {
+      "date": "2026-05-18",
+      "open": 113.47,
+      "high": 115.54,
+      "low": 103.85,
+      "close": 108.17,
+      "volume": 145764000,
+      "pct_change": -0.552,
+      "prev_close": 108.77
+    },
+    {
+      "date": "2026-05-19",
+      "open": 106.98,
+      "high": 113.07,
+      "low": 102.4,
+      "close": 110.8,
+      "volume": 150234900,
+      "pct_change": 2.431,
+      "prev_close": 108.17
+    },
+    {
+      "date": "2026-05-20",
+      "open": 116.22,
+      "high": 121.94,
+      "low": 114.8,
+      "close": 118.96,
+      "volume": 165086900,
+      "pct_change": 7.365,
+      "prev_close": 110.8
+    },
+    {
+      "date": "2026-05-21",
+      "open": 116.58,
+      "high": 119.41,
+      "low": 113.17,
+      "close": 118.5,
+      "volume": 102452500,
+      "pct_change": -0.387,
+      "prev_close": 118.96
+    },
+    {
+      "date": "2026-05-22",
+      "open": 120.34,
+      "high": 122.78,
+      "low": 118.09,
+      "close": 119.84,
+      "volume": 82663000,
+      "pct_change": 1.131,
+      "prev_close": 118.5
+    },
+    {
+      "date": "2026-05-26",
+      "open": 122.1,
+      "high": 125.62,
+      "low": 117.35,
+      "close": 123.52,
+      "volume": 108167300,
+      "pct_change": 3.071,
+      "prev_close": 119.84
+    },
+    {
+      "date": "2026-05-27",
+      "open": 124.39,
+      "high": 125.27,
+      "low": 117.0,
+      "close": 121.77,
+      "volume": 93323300,
+      "pct_change": -1.417,
+      "prev_close": 123.52
+    },
+    {
+      "date": "2026-05-28",
+      "open": 121.45,
+      "high": 123.08,
+      "low": 116.31,
+      "close": 120.89,
+      "volume": 97321000,
+      "pct_change": -0.723,
+      "prev_close": 121.77
+    },
+    {
+      "date": "2026-05-29",
+      "open": 123.85,
+      "high": 126.64,
+      "low": 113.54,
+      "close": 114.68,
+      "volume": 191676100,
+      "pct_change": -5.137,
+      "prev_close": 120.89
+    },
+    {
+      "date": "2026-06-01",
+      "open": 109.43,
+      "high": 113.3,
+      "low": 106.33,
+      "close": 109.33,
+      "volume": 134900400,
+      "pct_change": -4.665,
+      "prev_close": 114.68
+    },
+    {
+      "date": "2026-06-02",
+      "open": 107.45,
+      "high": 109.0,
+      "low": 104.17,
+      "close": 107.93,
+      "volume": 106336200,
+      "pct_change": -1.281,
+      "prev_close": 109.33
+    },
+    {
+      "date": "2026-06-03",
+      "open": 116.42,
+      "high": 118.29,
+      "low": 110.86,
+      "close": 112.71,
+      "volume": 118928800,
+      "pct_change": 4.429,
+      "prev_close": 107.93
+    },
+    {
+      "date": "2026-06-04",
+      "open": 108.4,
+      "high": 113.14,
+      "low": 107.48,
+      "close": 111.78,
+      "volume": 77325800,
+      "pct_change": -0.825,
+      "prev_close": 112.71
+    },
+    {
+      "date": "2026-06-05",
+      "open": 106.48,
+      "high": 106.48,
+      "low": 98.33,
+      "close": 99.17,
+      "volume": 145209400,
+      "pct_change": -11.281,
+      "prev_close": 111.78
+    },
+    {
+      "date": "2026-06-08",
+      "open": 111.0,
+      "high": 112.54,
+      "low": 106.66,
+      "close": 110.27,
+      "volume": 136973900,
+      "pct_change": 11.193,
+      "prev_close": 99.17
+    },
+    {
+      "date": "2026-06-09",
+      "open": 112.99,
+      "high": 114.0,
+      "low": 99.46,
+      "close": 107.92,
+      "volume": 149623100,
+      "pct_change": -2.131,
+      "prev_close": 110.27
+    },
+    {
+      "date": "2026-06-10",
+      "open": 106.03,
+      "high": 111.5,
+      "low": 104.92,
+      "close": 107.04,
+      "volume": 122653500,
+      "pct_change": -0.815,
+      "prev_close": 107.92
+    },
+    {
+      "date": "2026-06-11",
+      "open": 113.52,
+      "high": 119.44,
+      "low": 110.51,
+      "close": 116.96,
+      "volume": 188430300,
+      "pct_change": 9.268,
+      "prev_close": 107.04
+    },
+    {
+      "date": "2026-06-12",
+      "open": 117.42,
+      "high": 127.6,
+      "low": 115.33,
+      "close": 124.57,
+      "volume": 151169400,
+      "pct_change": 6.506,
+      "prev_close": 116.96
+    },
+    {
+      "date": "2026-06-15",
+      "open": 129.49,
+      "high": 132.61,
+      "low": 126.66,
+      "close": 127.86,
+      "volume": 134507500,
+      "pct_change": 2.641,
+      "prev_close": 124.57
+    },
+    {
+      "date": "2026-06-16",
+      "open": 125.11,
+      "high": 128.7,
+      "low": 116.0,
+      "close": 117.05,
+      "volume": 132962600,
+      "pct_change": -8.455,
+      "prev_close": 127.86
+    },
+    {
+      "date": "2026-06-17",
+      "open": 121.85,
+      "high": 125.2,
+      "low": 118.06,
+      "close": 121.1,
+      "volume": 115324900,
+      "pct_change": 3.46,
+      "prev_close": 117.05
+    },
+    {
+      "date": "2026-06-18",
+      "open": 131.81,
+      "high": 135.48,
+      "low": 127.9,
+      "close": 133.99,
+      "volume": 233906600,
+      "pct_change": 10.644,
+      "prev_close": 121.1
+    },
+    {
+      "date": "2026-06-22",
+      "open": 139.12,
+      "high": 141.45,
+      "low": 136.21,
+      "close": 140.94,
+      "volume": 127190600,
+      "pct_change": 5.187,
+      "prev_close": 133.99
+    },
+    {
+      "date": "2026-06-23",
+      "open": 129.73,
+      "high": 137.98,
+      "low": 128.3,
+      "close": 132.28,
+      "volume": 132976700,
+      "pct_change": -6.144,
+      "prev_close": 140.94
+    },
+    {
+      "date": "2026-06-24",
+      "open": 133.05,
+      "high": 136.08,
+      "low": 127.95,
+      "close": 131.65,
+      "volume": 104591700,
+      "pct_change": -0.476,
+      "prev_close": 132.28
+    },
+    {
+      "date": "2026-06-25",
+      "open": 139.73,
+      "high": 140.72,
+      "low": 125.41,
+      "close": 132.87,
+      "volume": 122588800,
+      "pct_change": 0.927,
+      "prev_close": 131.65
+    },
+    {
+      "date": "2026-06-26",
+      "open": 128.71,
+      "high": 131.23,
+      "low": 125.5,
+      "close": 128.32,
+      "volume": 99475400,
+      "pct_change": -3.424,
+      "prev_close": 132.87
+    },
+    {
+      "date": "2026-06-29",
+      "open": 127.0,
+      "high": 132.05,
+      "low": 118.5,
+      "close": 131.72,
+      "volume": 106805300,
+      "pct_change": 2.65,
+      "prev_close": 128.32
+    },
+    {
+      "date": "2026-06-30",
+      "open": 131.99,
+      "high": 142.35,
+      "low": 131.52,
+      "close": 139.63,
+      "volume": 116996700,
+      "pct_change": 6.005,
+      "prev_close": 131.72
+    },
+    {
+      "date": "2026-07-01",
+      "open": 135.0,
+      "high": 135.74,
+      "low": 126.68,
+      "close": 127.02,
+      "volume": 113107200,
+      "pct_change": -9.031,
+      "prev_close": 139.63
+    },
+    {
+      "date": "2026-07-02",
+      "open": 128.92,
+      "high": 130.74,
+      "low": 117.63,
+      "close": 120.35,
+      "volume": 124577600,
+      "pct_change": -5.251,
+      "prev_close": 127.02
+    },
+    {
+      "date": "2026-07-06",
+      "open": 122.57,
+      "high": 127.3,
+      "low": 121.52,
+      "close": 122.2,
+      "volume": 86950200,
+      "pct_change": 1.537,
+      "prev_close": 120.35
+    },
+    {
+      "date": "2026-07-07",
+      "open": 116.3,
+      "high": 116.47,
+      "low": 108.3,
+      "close": 110.39,
+      "volume": 140405900,
+      "pct_change": -9.664,
+      "prev_close": 122.2
+    },
+    {
+      "date": "2026-07-08",
+      "open": 108.3,
+      "high": 110.49,
+      "low": 104.41,
+      "close": 110.24,
+      "volume": 105488100,
+      "pct_change": -0.136,
+      "prev_close": 110.39
+    },
+    {
+      "date": "2026-07-09",
+      "open": 114.87,
+      "high": 116.77,
+      "low": 111.51,
+      "close": 112.54,
+      "volume": 99352500,
+      "pct_change": 2.086,
+      "prev_close": 110.24
+    },
+    {
+      "date": "2026-07-10",
+      "open": 109.58,
+      "high": 110.85,
+      "low": 107.45,
+      "close": 109.84,
+      "volume": 70846600,
+      "pct_change": -2.399,
+      "prev_close": 112.54
+    },
+    {
+      "date": "2026-07-13",
+      "open": 105.98,
+      "high": 106.17,
+      "low": 101.79,
+      "close": 103.12,
+      "volume": 100988800,
+      "pct_change": -6.118,
+      "prev_close": 109.84
+    },
+    {
+      "date": "2026-07-14",
+      "open": 107.98,
+      "high": 109.19,
+      "low": 103.59,
+      "close": 107.76,
+      "volume": 91129000,
+      "pct_change": 4.5,
+      "prev_close": 103.12
+    },
+    {
+      "date": "2026-07-15",
+      "open": 109.3,
+      "high": 109.61,
+      "low": 99.2,
+      "close": 102.99,
+      "volume": 120625500,
+      "pct_change": -4.427,
+      "prev_close": 107.76
+    },
+    {
+      "date": "2026-07-16",
+      "open": 101.14,
+      "high": 101.88,
+      "low": 95.48,
+      "close": 96.98,
+      "volume": 107742900,
+      "pct_change": -5.836,
+      "prev_close": 102.99
+    },
+    {
+      "date": "2026-07-17",
+      "open": 92.14,
+      "high": 98.05,
+      "low": 89.59,
+      "close": 95.04,
+      "volume": 126779300,
+      "pct_change": -2.0,
+      "prev_close": 96.98
+    },
+    {
+      "date": "2026-07-20",
+      "open": 97.58,
+      "high": 100.98,
+      "low": 96.92,
+      "close": 97.06,
+      "volume": 89741400,
+      "pct_change": 2.125,
+      "prev_close": 95.04
+    },
+    {
+      "date": "2026-07-21",
+      "open": 103.19,
+      "high": 106.34,
+      "low": 101.22,
+      "close": 105.45,
+      "volume": 105429400,
+      "pct_change": 8.644,
+      "prev_close": 97.06
+    },
+    {
+      "date": "2026-07-22",
+      "open": 101.55,
+      "high": 106.85,
+      "low": 101.48,
+      "close": 102.62,
+      "volume": 78431000,
+      "pct_change": -2.684,
+      "prev_close": 105.45
+    },
+    {
+      "date": "2026-07-23",
+      "open": 101.14,
+      "high": 104.18,
+      "low": 99.24,
+      "close": 100.23,
+      "volume": 140806900,
+      "pct_change": -2.329,
+      "prev_close": 102.62
+    },
+    {
+      "date": "2026-07-24",
+      "open": 100.36,
+      "high": 101.74,
+      "low": 91.58,
+      "close": 92.32,
+      "volume": 181132900,
+      "pct_change": -7.892,
+      "prev_close": 100.23
+    },
+    {
+      "date": "2026-07-27",
+      "open": 92.46,
+      "high": 94.98,
+      "low": 86.94,
+      "close": 91.67,
+      "volume": 133247300,
+      "pct_change": -0.704,
+      "prev_close": 92.32
+    },
+    {
+      "date": "2026-07-28",
+      "open": 86.62,
+      "high": 88.28,
+      "low": 83.1,
+      "close": 86.3,
+      "volume": 154346700,
+      "pct_change": -5.858,
+      "prev_close": 91.67
+    },
+    {
+      "date": "2026-07-29",
+      "open": 86.57,
+      "high": 88.47,
+      "low": 81.79,
+      "close": 81.88,
+      "volume": 152394600,
+      "pct_change": -5.122,
+      "prev_close": 86.3
+    },
+    {
+      "date": "2026-07-30",
+      "open": 86.51,
+      "high": 94.1,
+      "low": 85.97,
+      "close": 91.13,
+      "volume": 140322600,
+      "pct_change": 11.297,
+      "prev_close": 81.88
+    },
+    {
+      "date": "2026-07-31",
+      "open": 96.72,
+      "high": 97.9,
+      "low": 90.13,
+      "close": 90.2,
+      "volume": 109039500,
+      "pct_change": -1.021,
+      "prev_close": 91.13
+    },
+    {
+      "date": "2026-08-03",
+      "open": 88.4,
+      "high": 91.68,
+      "low": 85.62,
+      "close": 91.0,
+      "volume": 96633600,
+      "pct_change": 0.887,
+      "prev_close": 90.2
+    },
+    {
+      "date": "2026-08-04",
+      "open": 95.24,
+      "high": 101.39,
+      "low": 94.32,
+      "close": 100.86,
+      "volume": 124355100,
+      "pct_change": 10.835,
+      "prev_close": 91.0
+    },
+    {
+      "date": "2026-08-05",
+      "open": 99.3,
+      "high": 102.83,
+      "low": 97.9,
+      "close": 101.06,
+      "volume": 85388400,
+      "pct_change": 0.198,
+      "prev_close": 100.86
+    },
+    {
+      "date": "2026-08-06",
+      "open": 98.22,
+      "high": 103.38,
+      "low": 95.6,
+      "close": 99.81,
+      "volume": 78088100,
+      "pct_change": -1.237,
+      "prev_close": 101.06
+    },
+    {
+      "date": "2026-08-07",
+      "open": 102.33,
+      "high": 103.66,
+      "low": 98.03,
+      "close": 101.65,
+      "volume": 76760600,
+      "pct_change": 1.844,
+      "prev_close": 99.81
+    },
+    {
+      "date": "2026-08-10",
+      "open": 98.26,
+      "high": 100.03,
+      "low": 96.3,
+      "close": 97.52,
+      "volume": 101153400,
+      "pct_change": -4.063,
+      "prev_close": 101.65
+    },
+    {
+      "date": "2026-08-11",
+      "open": 96.78,
+      "high": 98.35,
+      "low": 95.35,
+      "close": 97.71,
+      "volume": 164063600,
+      "pct_change": 0.195,
+      "prev_close": 97.52
+    },
+    {
+      "date": "2026-08-12",
+      "open": 101.33,
+      "high": 103.16,
+      "low": 100.12,
+      "close": 100.95,
+      "volume": 162446700,
+      "pct_change": 3.316,
+      "prev_close": 97.71
+    },
+    {
+      "date": "2026-08-13",
+      "open": 101.51,
+      "high": 107.57,
+      "low": 100.33,
+      "close": 104.56,
+      "volume": 116837600,
+      "pct_change": 3.576,
+      "prev_close": 100.95
+    },
+    {
+      "date": "2026-08-14",
+      "open": 104.48,
+      "high": 106.87,
+      "low": 102.05,
+      "close": 102.5,
+      "volume": 95387500,
+      "pct_change": -1.97,
+      "prev_close": 104.56
+    },
+    {
+      "date": "2026-08-17",
+      "open": 103.55,
+      "high": 105.97,
+      "low": 101.8,
+      "close": 103.49,
+      "volume": 88616800,
+      "pct_change": 0.966,
+      "prev_close": 102.5
+    },
+    {
+      "date": "2026-08-18",
+      "open": 99.22,
+      "high": 99.31,
+      "low": 95.25,
+      "close": 96.69,
+      "volume": 121969500,
+      "pct_change": -6.571,
+      "prev_close": 103.49
+    },
+    {
+      "date": "2026-08-19",
+      "open": 97.41,
+      "high": 98.2,
+      "low": 91.28,
+      "close": 92.8,
+      "volume": 110268600,
+      "pct_change": -4.023,
+      "prev_close": 96.69
+    },
+    {
+      "date": "2026-08-20",
+      "open": 91.87,
+      "high": 92.68,
+      "low": 89.85,
+      "close": 92.13,
+      "volume": 85654700,
+      "pct_change": -0.722,
+      "prev_close": 92.8
+    },
+    {
+      "date": "2026-08-21",
+      "open": 92.71,
+      "high": 92.77,
+      "low": 89.75,
+      "close": 90.07,
+      "volume": 91670100,
+      "pct_change": -2.236,
+      "prev_close": 92.13
+    },
+    {
+      "date": "2026-08-24",
+      "open": 88.86,
+      "high": 88.91,
+      "low": 85.14,
+      "close": 87.26,
+      "volume": 96903400,
+      "pct_change": -3.12,
+      "prev_close": 90.07
+    },
+    {
+      "date": "2026-08-25",
+      "open": 90.06,
+      "high": 90.18,
+      "low": 87.29,
+      "close": 87.48,
+      "volume": 81853800,
+      "pct_change": 0.252,
+      "prev_close": 87.26
+    },
+    {
+      "date": "2026-08-26",
+      "open": 86.81,
+      "high": 88.28,
+      "low": 85.63,
+      "close": 88.24,
+      "volume": 75752800,
+      "pct_change": 0.869,
+      "prev_close": 87.48
+    },
+    {
+      "date": "2026-08-27",
+      "open": 89.91,
+      "high": 92.95,
+      "low": 88.46,
+      "close": 92.09,
+      "volume": 100556800,
+      "pct_change": 4.363,
+      "prev_close": 88.24
+    },
+    {
+      "date": "2026-08-28",
+      "open": 90.27,
+      "high": 93.7,
+      "low": 89.05,
+      "close": 89.47,
+      "volume": 86172600,
+      "pct_change": -2.845,
+      "prev_close": 92.09
+    },
+    {
+      "date": "2026-08-31",
+      "open": 90.0,
+      "high": 91.85,
+      "low": 88.97,
+      "close": 89.51,
+      "volume": 65188200,
+      "pct_change": 0.045,
+      "prev_close": 89.47
+    },
+    {
+      "date": "2026-09-01",
+      "open": 86.84,
+      "high": 89.41,
+      "low": 85.72,
+      "close": 88.97,
+      "volume": 73962100,
+      "pct_change": -0.603,
+      "prev_close": 89.51
+    },
+    {
+      "date": "2026-09-02",
+      "open": 88.85,
+      "high": 90.43,
+      "low": 87.5,
+      "close": 90.05,
+      "volume": 61554500,
+      "pct_change": 1.214,
+      "prev_close": 88.97
+    },
+    {
+      "date": "2026-09-03",
+      "open": 89.35,
+      "high": 92.37,
+      "low": 87.73,
+      "close": 91.67,
+      "volume": 79927800,
+      "pct_change": 1.799,
+      "prev_close": 90.05
+    },
+    {
+      "date": "2026-09-04",
+      "open": 92.45,
+      "high": 95.94,
+      "low": 91.87,
+      "close": 95.8,
+      "volume": 97654300,
+      "pct_change": 4.505,
+      "prev_close": 91.67
+    },
+    {
+      "date": "2026-09-08",
+      "open": 100.8,
+      "high": 106.09,
+      "low": 100.35,
+      "close": 104.47,
+      "volume": 140269300,
+      "pct_change": 9.05,
+      "prev_close": 95.8
+    },
+    {
+      "date": "2026-09-09",
+      "open": 102.7,
+      "high": 106.69,
+      "low": 102.7,
+      "close": 106.24,
+      "volume": 96891400,
+      "pct_change": 1.694,
+      "prev_close": 104.47
+    },
+    {
+      "date": "2026-09-10",
+      "open": 102.45,
+      "high": 103.23,
+      "low": 99.34,
+      "close": 100.32,
+      "volume": 96887100,
+      "pct_change": -5.572,
+      "prev_close": 106.24
+    },
+    {
+      "date": "2026-09-11",
+      "open": 102.47,
+      "high": 104.9,
+      "low": 101.07,
+      "close": 102.94,
+      "volume": 86990400,
+      "pct_change": 2.612,
+      "prev_close": 100.32
+    },
+    {
+      "date": "2026-09-14",
+      "open": 95.82,
+      "high": 98.86,
+      "low": 94.52,
+      "close": 97.19,
+      "volume": 96459700,
+      "pct_change": -5.586,
+      "prev_close": 102.94
+    },
+    {
+      "date": "2026-09-15",
+      "open": 98.83,
+      "high": 100.48,
+      "low": 96.52,
+      "close": 97.14,
+      "volume": 84999300,
+      "pct_change": -0.051,
+      "prev_close": 97.19
+    },
+    {
+      "date": "2026-09-16",
+      "open": 101.37,
+      "high": 104.42,
+      "low": 99.29,
+      "close": 101.05,
+      "volume": 119923600,
+      "pct_change": 4.025,
+      "prev_close": 97.14
+    },
+    {
+      "date": "2026-09-17",
+      "open": 104.7,
+      "high": 111.37,
+      "low": 104.7,
+      "close": 108.8,
+      "volume": 149726000,
+      "pct_change": 7.669,
+      "prev_close": 101.05
+    },
+    {
+      "date": "2026-09-18",
+      "open": 109.8,
+      "high": 110.49,
+      "low": 106.4,
+      "close": 108.6,
+      "volume": 174996700,
+      "pct_change": -0.184,
+      "prev_close": 108.8
+    },
+    {
+      "date": "2026-09-21",
+      "open": 116.53,
+      "high": 124.73,
+      "low": 114.93,
+      "close": 121.78,
+      "volume": 191638400,
+      "pct_change": 12.136,
+      "prev_close": 108.6
+    },
+    {
+      "date": "2026-09-22",
+      "open": 120.15,
+      "high": 124.09,
+      "low": 120.08,
+      "close": 123.86,
+      "volume": 108379400,
+      "pct_change": 1.708,
+      "prev_close": 121.78
+    },
+    {
+      "date": "2026-09-23",
+      "open": 123.87,
+      "high": 124.25,
+      "low": 119.44,
+      "close": 122.6,
+      "volume": 85621100,
+      "pct_change": -1.017,
+      "prev_close": 123.86
+    },
+    {
+      "date": "2026-09-24",
+      "open": 120.61,
+      "high": 127.44,
+      "low": 119.55,
+      "close": 127.39,
+      "volume": 119296700,
+      "pct_change": 3.907,
+      "prev_close": 122.6
+    },
+    {
+      "date": "2026-09-25",
+      "open": 126.83,
+      "high": 126.93,
+      "low": 122.84,
+      "close": 123.0,
+      "volume": 97481700,
+      "pct_change": -3.446,
+      "prev_close": 127.39
+    }
+  ],
+  "beats": [
+    {
+      "date": "2026-04-08",
+      "pct_change": 11.416,
+      "close": 58.95,
+      "direction": "up",
+      "headline": "Intel climbs 11.4% amid broader chip rally",
+      "explanation": "Intel rose 11.42% to close at $58.95 on 1.8x average volume following an 8-K filing. The gain was shared with industry peers and suppliers, including equipment supplier ASML (+8.77%) and competitor AMD (+4.64%).",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_INTC_20260408_price",
+        "ev_INTC_20260408_filing_000005086326000072",
+        "ev_INTC_20260408_peer_ASML",
+        "ev_INTC_20260408_peer_AMD"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "pct_change": 23.6,
+      "close": 82.54,
+      "direction": "up",
+      "headline": "Intel surges 23.6% following Q1 10-Q filing",
+      "explanation": "Intel surged 23.60% to $82.54 with trading volume at 2.8x its 30-day average following the filing of its Form 10-Q and Form 8-K. Competitors also posted substantial moves, with AMD advancing 13.91% and QCOM gaining 11.12%.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_INTC_20260424_price",
+        "ev_INTC_20260424_filing_000005086326000079",
+        "ev_INTC_20260424_filing_000005086326000083",
+        "ev_INTC_20260424_peer_AMD",
+        "ev_INTC_20260424_peer_QCOM"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "pct_change": 12.104,
+      "close": 94.75,
+      "direction": "up",
+      "headline": "Intel gains 12.1% on company-specific strength",
+      "explanation": "Intel jumped 12.10% to $94.75 on 2.3x normal volume without company-specific news in the record. The advance was largely company-specific, as competitor AMD rose a more moderate 4.30% while peers NVDA (-1.84%) and MSFT (-1.12%) declined.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_INTC_20260429_price",
+        "ev_INTC_20260429_peer_AMD",
+        "ev_INTC_20260429_peer_NVDA",
+        "ev_INTC_20260429_peer_MSFT"
+      ]
+    },
+    {
+      "date": "2026-05-05",
+      "pct_change": 12.915,
+      "close": 108.15,
+      "direction": "up",
+      "headline": "Intel advances 12.9% across mixed peer group",
+      "explanation": "Intel shares rose 12.91% to cross $100 and reach $108.15 on 1.9x average volume with no specific filings or announcements. Peer performance was mixed: competitor QCOM rose 10.79% and supplier ASML gained 4.09%, while supplier and competitor TSM dropped 1.79%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_INTC_20260505_price",
+        "ev_INTC_20260505_peer_QCOM",
+        "ev_INTC_20260505_peer_ASML",
+        "ev_INTC_20260505_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "pct_change": 13.957,
+      "close": 124.92,
+      "direction": "up",
+      "headline": "Intel rises 14.0% alongside competitor AMD",
+      "explanation": "Intel climbed 13.96% to finish at $124.92 on 2.2x normal volume with no company news provided. The rally was shared with competitor AMD (+11.44%) and competitor QCOM (+8.17%), while supplier and competitor TSM slid 0.60%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_INTC_20260508_price",
+        "ev_INTC_20260508_peer_AMD",
+        "ev_INTC_20260508_peer_QCOM",
+        "ev_INTC_20260508_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "pct_change": -5.137,
+      "close": 114.68,
+      "direction": "down",
+      "headline": "Intel pulls back 5.1% in company-specific drop",
+      "explanation": "Intel dropped 5.14% to $114.68 on 1.9x average volume with no company-specific news reported. The move was company-specific, as competitor MSFT rose 5.45% and competitor AVGO advanced 4.73%, while competitor AMD fell just 0.38%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_INTC_20260529_price",
+        "ev_INTC_20260529_peer_MSFT",
+        "ev_INTC_20260529_peer_AVGO",
+        "ev_INTC_20260529_peer_AMD"
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "pct_change": 11.193,
+      "close": 110.27,
+      "direction": "up",
+      "headline": "Intel rebounds 11.2% alongside ASML and AMD",
+      "explanation": "Intel jumped 11.19% to $110.27 with volume at 1.3x average despite no company-specific catalysts. Supplier ASML (+6.54%) and competitor AMD (+5.13%) also advanced, whereas competitors AAPL (-1.89%) and GOOGL (-1.42%) declined.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_INTC_20260608_price",
+        "ev_INTC_20260608_peer_ASML",
+        "ev_INTC_20260608_peer_AMD",
+        "ev_INTC_20260608_peer_AAPL",
+        "ev_INTC_20260608_peer_GOOGL"
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "pct_change": 9.268,
+      "close": 116.96,
+      "direction": "up",
+      "headline": "Intel rises 9.3% in broader semiconductor push",
+      "explanation": "Intel shares climbed 9.27% to close at $116.96 on 1.9x typical trading volume without fresh company disclosures. The advance was shared across the sector, including supplier ASML (+9.53%), competitor AMD (+7.97%), and competitor QCOM (+6.15%).",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_INTC_20260611_price",
+        "ev_INTC_20260611_peer_ASML",
+        "ev_INTC_20260611_peer_AMD",
+        "ev_INTC_20260611_peer_QCOM"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "pct_change": 10.644,
+      "close": 133.99,
+      "direction": "up",
+      "headline": "Intel rallies 10.6% on broad industry strength",
+      "explanation": "Intel gained 10.64% to hit $133.99 on 2.3x normal volume with no company-specific updates. Strength was shared across the supply chain, as supplier and competitor TSM added 6.93%, competitor QCOM rose 6.17%, and competitor AMD climbed 4.86%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_INTC_20260618_price",
+        "ev_INTC_20260618_peer_TSM",
+        "ev_INTC_20260618_peer_QCOM",
+        "ev_INTC_20260618_peer_AMD"
+      ]
+    },
+    {
+      "date": "2026-07-07",
+      "pct_change": -9.664,
+      "close": 110.39,
+      "direction": "down",
+      "headline": "Intel slides 9.7% alongside AMD and TSM",
+      "explanation": "Intel dropped 9.66% to $110.39 on 1.4x 30-day average volume in the absence of corporate news. The sell-off was shared with competitor AMD (-6.51%), supplier ASML (-4.26%), and supplier and competitor TSM (-4.25%).",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_INTC_20260707_price",
+        "ev_INTC_20260707_peer_AMD",
+        "ev_INTC_20260707_peer_ASML",
+        "ev_INTC_20260707_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "pct_change": -7.892,
+      "close": 92.32,
+      "direction": "down",
+      "headline": "Intel falls 7.9% after Q2 10-Q filing",
+      "explanation": "Intel shares decreased 7.89% to $92.32 on 1.8x typical volume following Form 8-K and 10-Q filings. The drop exceeded declines among peers, though competitor AMD fell 3.29% and supplier and competitor TSM dipped 2.93%.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_INTC_20260724_price",
+        "ev_INTC_20260724_filing_000005086326000157",
+        "ev_INTC_20260724_filing_000005086326000155",
+        "ev_INTC_20260724_peer_AMD",
+        "ev_INTC_20260724_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "pct_change": 12.136,
+      "close": 121.78,
+      "direction": "up",
+      "headline": "Intel jumps 12.1% on AI CPU demand rally",
+      "explanation": "Intel gained 12.14% to $121.78 on 1.9x normal volume as enthusiasm around Meta's Muse AI agent fueled expectations for CPU demand. The rally lifted peer chipmakers as well, with competitor AMD jumping 9.95% to cross a $1 trillion market cap and competitor QCOM rising 9.29%.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_INTC_20260921_price",
+        "ev_INTC_20260921_news4",
+        "ev_INTC_20260921_peer_AMD",
+        "ev_INTC_20260921_peer_QCOM"
+      ]
+    }
+  ],
+  "evidence": {
+    "ev_INTC_20260408_price": {
+      "id": "ev_INTC_20260408_price",
+      "kind": "price",
+      "title": "INTC rose 11.42% on 2026-04-08",
+      "detail": "Closed at $58.95 from $52.91. Volume was 1.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-08",
+      "numbers": {
+        "pct_change": 11.416,
+        "close": 58.95,
+        "prev_close": 52.91,
+        "volume": 184599900,
+        "volume_vs_30d_avg": 1.81,
+        "move_excluding_sector_pct": 7.47
+      }
+    },
+    "ev_INTC_20260408_peer_AAPL": {
+      "id": "ev_INTC_20260408_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved +2.13% the same day",
+      "detail": "INTC moved +11.42% while AAPL moved +2.13%. AAPL is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-04-08",
+      "numbers": {
+        "peer_pct_change": 2.13,
+        "subject_pct_change": 11.416,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260408_peer_AMD": {
+      "id": "ev_INTC_20260408_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +4.64% the same day",
+      "detail": "INTC moved +11.42% while AMD moved +4.64%. AMD is INTC's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-08",
+      "numbers": {
+        "peer_pct_change": 4.64,
+        "subject_pct_change": 11.416,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260408_peer_AMZN": {
+      "id": "ev_INTC_20260408_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved +3.50% the same day",
+      "detail": "INTC moved +11.42% while AMZN moved +3.50%. AMZN is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-04-08",
+      "numbers": {
+        "peer_pct_change": 3.5,
+        "subject_pct_change": 11.416,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260408_peer_ASML": {
+      "id": "ev_INTC_20260408_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +8.77% the same day",
+      "detail": "INTC moved +11.42% while ASML moved +8.77%. ASML is INTC's supplier (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-04-08",
+      "numbers": {
+        "peer_pct_change": 8.77,
+        "subject_pct_change": 11.416,
+        "relationship": "supplier"
+      }
+    },
+    "ev_INTC_20260408_peer_AVGO": {
+      "id": "ev_INTC_20260408_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +4.99% the same day",
+      "detail": "INTC moved +11.42% while AVGO moved +4.99%. AVGO is INTC's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-08",
+      "numbers": {
+        "peer_pct_change": 4.99,
+        "subject_pct_change": 11.416,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260408_peer_GOOGL": {
+      "id": "ev_INTC_20260408_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +3.88% the same day",
+      "detail": "INTC moved +11.42% while GOOGL moved +3.88%. GOOGL is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-04-08",
+      "numbers": {
+        "peer_pct_change": 3.88,
+        "subject_pct_change": 11.416,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260408_peer_MSFT": {
+      "id": "ev_INTC_20260408_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (competitor) moved +0.55% the same day",
+      "detail": "INTC moved +11.42% while MSFT moved +0.55%. MSFT is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-08",
+      "numbers": {
+        "peer_pct_change": 0.55,
+        "subject_pct_change": 11.416,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260408_peer_NVDA": {
+      "id": "ev_INTC_20260408_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +2.23% the same day",
+      "detail": "INTC moved +11.42% while NVDA moved +2.23%. NVDA is INTC's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-08",
+      "numbers": {
+        "peer_pct_change": 2.23,
+        "subject_pct_change": 11.416,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260408_peer_QCOM": {
+      "id": "ev_INTC_20260408_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +2.77% the same day",
+      "detail": "INTC moved +11.42% while QCOM moved +2.77%. QCOM is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-08",
+      "numbers": {
+        "peer_pct_change": 2.77,
+        "subject_pct_change": 11.416,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260408_peer_TSM": {
+      "id": "ev_INTC_20260408_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier and competitor) moved +5.96% the same day",
+      "detail": "INTC moved +11.42% while TSM moved +5.96%. TSM is INTC's supplier and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-08",
+      "numbers": {
+        "peer_pct_change": 5.96,
+        "subject_pct_change": 11.416,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_INTC_20260408_filing_000005086326000072": {
+      "id": "ev_INTC_20260408_filing_000005086326000072",
+      "kind": "filing",
+      "title": "8-K filed 2026-04-08",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000072/intc-20260408.htm",
+      "occurred_on": "2026-04-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260424_price": {
+      "id": "ev_INTC_20260424_price",
+      "kind": "price",
+      "title": "INTC rose 23.60% on 2026-04-24",
+      "detail": "Closed at $82.54 from $66.78. Volume was 2.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "pct_change": 23.6,
+        "close": 82.54,
+        "prev_close": 66.78,
+        "volume": 281405200,
+        "volume_vs_30d_avg": 2.76,
+        "move_excluding_sector_pct": 19.16
+      }
+    },
+    "ev_INTC_20260424_peer_AAPL": {
+      "id": "ev_INTC_20260424_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved -0.87% the same day",
+      "detail": "INTC moved +23.60% while AAPL moved -0.87%. AAPL is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": -0.87,
+        "subject_pct_change": 23.6,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260424_peer_AMD": {
+      "id": "ev_INTC_20260424_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +13.91% the same day",
+      "detail": "INTC moved +23.60% while AMD moved +13.91%. AMD is INTC's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 13.91,
+        "subject_pct_change": 23.6,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260424_peer_AMZN": {
+      "id": "ev_INTC_20260424_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved +3.49% the same day",
+      "detail": "INTC moved +23.60% while AMZN moved +3.49%. AMZN is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 3.49,
+        "subject_pct_change": 23.6,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260424_peer_ASML": {
+      "id": "ev_INTC_20260424_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +2.81% the same day",
+      "detail": "INTC moved +23.60% while ASML moved +2.81%. ASML is INTC's supplier (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 2.81,
+        "subject_pct_change": 23.6,
+        "relationship": "supplier"
+      }
+    },
+    "ev_INTC_20260424_peer_AVGO": {
+      "id": "ev_INTC_20260424_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +0.67% the same day",
+      "detail": "INTC moved +23.60% while AVGO moved +0.67%. AVGO is INTC's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 0.67,
+        "subject_pct_change": 23.6,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260424_peer_GOOGL": {
+      "id": "ev_INTC_20260424_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +1.63% the same day",
+      "detail": "INTC moved +23.60% while GOOGL moved +1.63%. GOOGL is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 1.63,
+        "subject_pct_change": 23.6,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260424_peer_MSFT": {
+      "id": "ev_INTC_20260424_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (competitor) moved +2.13% the same day",
+      "detail": "INTC moved +23.60% while MSFT moved +2.13%. MSFT is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 2.13,
+        "subject_pct_change": 23.6,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260424_peer_NVDA": {
+      "id": "ev_INTC_20260424_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +4.32% the same day",
+      "detail": "INTC moved +23.60% while NVDA moved +4.32%. NVDA is INTC's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 4.32,
+        "subject_pct_change": 23.6,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260424_peer_QCOM": {
+      "id": "ev_INTC_20260424_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +11.12% the same day",
+      "detail": "INTC moved +23.60% while QCOM moved +11.12%. QCOM is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 11.12,
+        "subject_pct_change": 23.6,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260424_peer_TSM": {
+      "id": "ev_INTC_20260424_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier and competitor) moved +5.17% the same day",
+      "detail": "INTC moved +23.60% while TSM moved +5.17%. TSM is INTC's supplier and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 5.17,
+        "subject_pct_change": 23.6,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_INTC_20260424_filing_000005086326000083": {
+      "id": "ev_INTC_20260424_filing_000005086326000083",
+      "kind": "filing",
+      "title": "8-K filed 2026-04-24",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000083/intc-20260424.htm",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260424_filing_000005086326000079": {
+      "id": "ev_INTC_20260424_filing_000005086326000079",
+      "kind": "filing",
+      "title": "10-Q filed 2026-04-24",
+      "detail": "10-Q",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000079/intc-20260328.htm",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260424_filing_000005086326000077": {
+      "id": "ev_INTC_20260424_filing_000005086326000077",
+      "kind": "filing",
+      "title": "8-K filed 2026-04-23",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000077/intc-20260423.htm",
+      "occurred_on": "2026-04-23",
+      "numbers": {}
+    },
+    "ev_INTC_20260429_price": {
+      "id": "ev_INTC_20260429_price",
+      "kind": "price",
+      "title": "INTC rose 12.10% on 2026-04-29",
+      "detail": "Closed at $94.75 from $84.52. Volume was 2.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "pct_change": 12.104,
+        "close": 94.75,
+        "prev_close": 84.52,
+        "volume": 235070900,
+        "volume_vs_30d_avg": 2.3,
+        "move_excluding_sector_pct": 11.21
+      }
+    },
+    "ev_INTC_20260429_peer_AAPL": {
+      "id": "ev_INTC_20260429_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved -0.20% the same day",
+      "detail": "INTC moved +12.10% while AAPL moved -0.20%. AAPL is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "peer_pct_change": -0.2,
+        "subject_pct_change": 12.104,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260429_peer_AMD": {
+      "id": "ev_INTC_20260429_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +4.30% the same day",
+      "detail": "INTC moved +12.10% while AMD moved +4.30%. AMD is INTC's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "peer_pct_change": 4.3,
+        "subject_pct_change": 12.104,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260429_peer_AMZN": {
+      "id": "ev_INTC_20260429_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved +1.29% the same day",
+      "detail": "INTC moved +12.10% while AMZN moved +1.29%. AMZN is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "peer_pct_change": 1.29,
+        "subject_pct_change": 12.104,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260429_peer_ASML": {
+      "id": "ev_INTC_20260429_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +0.69% the same day",
+      "detail": "INTC moved +12.10% while ASML moved +0.69%. ASML is INTC's supplier (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "peer_pct_change": 0.69,
+        "subject_pct_change": 12.104,
+        "relationship": "supplier"
+      }
+    },
+    "ev_INTC_20260429_peer_AVGO": {
+      "id": "ev_INTC_20260429_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +1.41% the same day",
+      "detail": "INTC moved +12.10% while AVGO moved +1.41%. AVGO is INTC's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "peer_pct_change": 1.41,
+        "subject_pct_change": 12.104,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260429_peer_GOOGL": {
+      "id": "ev_INTC_20260429_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +0.05% the same day",
+      "detail": "INTC moved +12.10% while GOOGL moved +0.05%. GOOGL is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "peer_pct_change": 0.05,
+        "subject_pct_change": 12.104,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260429_peer_MSFT": {
+      "id": "ev_INTC_20260429_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (competitor) moved -1.12% the same day",
+      "detail": "INTC moved +12.10% while MSFT moved -1.12%. MSFT is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "peer_pct_change": -1.12,
+        "subject_pct_change": 12.104,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260429_peer_NVDA": {
+      "id": "ev_INTC_20260429_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -1.84% the same day",
+      "detail": "INTC moved +12.10% while NVDA moved -1.84%. NVDA is INTC's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "peer_pct_change": -1.84,
+        "subject_pct_change": 12.104,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260429_peer_QCOM": {
+      "id": "ev_INTC_20260429_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +4.00% the same day",
+      "detail": "INTC moved +12.10% while QCOM moved +4.00%. QCOM is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "peer_pct_change": 4.0,
+        "subject_pct_change": 12.104,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260429_peer_TSM": {
+      "id": "ev_INTC_20260429_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier and competitor) moved +0.38% the same day",
+      "detail": "INTC moved +12.10% while TSM moved +0.38%. TSM is INTC's supplier and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "peer_pct_change": 0.38,
+        "subject_pct_change": 12.104,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_INTC_20260505_price": {
+      "id": "ev_INTC_20260505_price",
+      "kind": "price",
+      "title": "INTC rose 12.91% on 2026-05-05",
+      "detail": "Closed at $108.15 from $95.78. Volume was 1.9x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "pct_change": 12.915,
+        "close": 108.15,
+        "prev_close": 95.78,
+        "volume": 198482000,
+        "volume_vs_30d_avg": 1.94,
+        "move_excluding_sector_pct": 10.64
+      }
+    },
+    "ev_INTC_20260505_peer_AAPL": {
+      "id": "ev_INTC_20260505_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved +2.65% the same day",
+      "detail": "INTC moved +12.91% while AAPL moved +2.65%. AAPL is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": 2.65,
+        "subject_pct_change": 12.915,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260505_peer_AMD": {
+      "id": "ev_INTC_20260505_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +4.02% the same day",
+      "detail": "INTC moved +12.91% while AMD moved +4.02%. AMD is INTC's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": 4.02,
+        "subject_pct_change": 12.915,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260505_peer_AMZN": {
+      "id": "ev_INTC_20260505_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved +0.55% the same day",
+      "detail": "INTC moved +12.91% while AMZN moved +0.55%. AMZN is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": 0.55,
+        "subject_pct_change": 12.915,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260505_peer_ASML": {
+      "id": "ev_INTC_20260505_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +4.09% the same day",
+      "detail": "INTC moved +12.91% while ASML moved +4.09%. ASML is INTC's supplier (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": 4.09,
+        "subject_pct_change": 12.915,
+        "relationship": "supplier"
+      }
+    },
+    "ev_INTC_20260505_peer_AVGO": {
+      "id": "ev_INTC_20260505_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +2.61% the same day",
+      "detail": "INTC moved +12.91% while AVGO moved +2.61%. AVGO is INTC's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": 2.61,
+        "subject_pct_change": 12.915,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260505_peer_GOOGL": {
+      "id": "ev_INTC_20260505_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +1.35% the same day",
+      "detail": "INTC moved +12.91% while GOOGL moved +1.35%. GOOGL is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": 1.35,
+        "subject_pct_change": 12.915,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260505_peer_MSFT": {
+      "id": "ev_INTC_20260505_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (competitor) moved -0.54% the same day",
+      "detail": "INTC moved +12.91% while MSFT moved -0.54%. MSFT is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": -0.54,
+        "subject_pct_change": 12.915,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260505_peer_NVDA": {
+      "id": "ev_INTC_20260505_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -1.00% the same day",
+      "detail": "INTC moved +12.91% while NVDA moved -1.00%. NVDA is INTC's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": -1.0,
+        "subject_pct_change": 12.915,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260505_peer_QCOM": {
+      "id": "ev_INTC_20260505_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +10.79% the same day",
+      "detail": "INTC moved +12.91% while QCOM moved +10.79%. QCOM is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": 10.79,
+        "subject_pct_change": 12.915,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260505_peer_TSM": {
+      "id": "ev_INTC_20260505_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier and competitor) moved -1.79% the same day",
+      "detail": "INTC moved +12.91% while TSM moved -1.79%. TSM is INTC's supplier and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": -1.79,
+        "subject_pct_change": 12.915,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_INTC_20260508_price": {
+      "id": "ev_INTC_20260508_price",
+      "kind": "price",
+      "title": "INTC rose 13.96% on 2026-05-08",
+      "detail": "Closed at $124.92 from $109.62. Volume was 2.2x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "pct_change": 13.957,
+        "close": 124.92,
+        "prev_close": 109.62,
+        "volume": 227681300,
+        "volume_vs_30d_avg": 2.23,
+        "move_excluding_sector_pct": 10.76
+      }
+    },
+    "ev_INTC_20260508_peer_AAPL": {
+      "id": "ev_INTC_20260508_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved +2.05% the same day",
+      "detail": "INTC moved +13.96% while AAPL moved +2.05%. AAPL is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": 2.05,
+        "subject_pct_change": 13.957,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260508_peer_AMD": {
+      "id": "ev_INTC_20260508_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +11.44% the same day",
+      "detail": "INTC moved +13.96% while AMD moved +11.44%. AMD is INTC's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": 11.44,
+        "subject_pct_change": 13.957,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260508_peer_AMZN": {
+      "id": "ev_INTC_20260508_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved +0.56% the same day",
+      "detail": "INTC moved +13.96% while AMZN moved +0.56%. AMZN is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": 0.56,
+        "subject_pct_change": 13.957,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260508_peer_ASML": {
+      "id": "ev_INTC_20260508_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +4.97% the same day",
+      "detail": "INTC moved +13.96% while ASML moved +4.97%. ASML is INTC's supplier (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": 4.97,
+        "subject_pct_change": 13.957,
+        "relationship": "supplier"
+      }
+    },
+    "ev_INTC_20260508_peer_AVGO": {
+      "id": "ev_INTC_20260508_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +4.23% the same day",
+      "detail": "INTC moved +13.96% while AVGO moved +4.23%. AVGO is INTC's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": 4.23,
+        "subject_pct_change": 13.957,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260508_peer_GOOGL": {
+      "id": "ev_INTC_20260508_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +0.71% the same day",
+      "detail": "INTC moved +13.96% while GOOGL moved +0.71%. GOOGL is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": 0.71,
+        "subject_pct_change": 13.957,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260508_peer_MSFT": {
+      "id": "ev_INTC_20260508_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (competitor) moved -1.34% the same day",
+      "detail": "INTC moved +13.96% while MSFT moved -1.34%. MSFT is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": -1.34,
+        "subject_pct_change": 13.957,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260508_peer_NVDA": {
+      "id": "ev_INTC_20260508_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +1.75% the same day",
+      "detail": "INTC moved +13.96% while NVDA moved +1.75%. NVDA is INTC's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": 1.75,
+        "subject_pct_change": 13.957,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260508_peer_QCOM": {
+      "id": "ev_INTC_20260508_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +8.17% the same day",
+      "detail": "INTC moved +13.96% while QCOM moved +8.17%. QCOM is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": 8.17,
+        "subject_pct_change": 13.957,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260508_peer_TSM": {
+      "id": "ev_INTC_20260508_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier and competitor) moved -0.60% the same day",
+      "detail": "INTC moved +13.96% while TSM moved -0.60%. TSM is INTC's supplier and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": -0.6,
+        "subject_pct_change": 13.957,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_INTC_20260529_price": {
+      "id": "ev_INTC_20260529_price",
+      "kind": "price",
+      "title": "INTC fell 5.14% on 2026-05-29",
+      "detail": "Closed at $114.68 from $120.89. Volume was 1.9x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "pct_change": -5.137,
+        "close": 114.68,
+        "prev_close": 120.89,
+        "volume": 191676100,
+        "volume_vs_30d_avg": 1.88,
+        "move_excluding_sector_pct": 5.79
+      }
+    },
+    "ev_INTC_20260529_peer_AAPL": {
+      "id": "ev_INTC_20260529_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved -0.14% the same day",
+      "detail": "INTC moved -5.14% while AAPL moved -0.14%. AAPL is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": -0.14,
+        "subject_pct_change": -5.137,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260529_peer_AMD": {
+      "id": "ev_INTC_20260529_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved -0.38% the same day",
+      "detail": "INTC moved -5.14% while AMD moved -0.38%. AMD is INTC's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": -0.38,
+        "subject_pct_change": -5.137,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260529_peer_AMZN": {
+      "id": "ev_INTC_20260529_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved -1.23% the same day",
+      "detail": "INTC moved -5.14% while AMZN moved -1.23%. AMZN is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": -1.23,
+        "subject_pct_change": -5.137,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260529_peer_ASML": {
+      "id": "ev_INTC_20260529_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +0.43% the same day",
+      "detail": "INTC moved -5.14% while ASML moved +0.43%. ASML is INTC's supplier (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": 0.43,
+        "subject_pct_change": -5.137,
+        "relationship": "supplier"
+      }
+    },
+    "ev_INTC_20260529_peer_AVGO": {
+      "id": "ev_INTC_20260529_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +4.73% the same day",
+      "detail": "INTC moved -5.14% while AVGO moved +4.73%. AVGO is INTC's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": 4.73,
+        "subject_pct_change": -5.137,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260529_peer_GOOGL": {
+      "id": "ev_INTC_20260529_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved -2.51% the same day",
+      "detail": "INTC moved -5.14% while GOOGL moved -2.51%. GOOGL is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": -2.51,
+        "subject_pct_change": -5.137,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260529_peer_MSFT": {
+      "id": "ev_INTC_20260529_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (competitor) moved +5.45% the same day",
+      "detail": "INTC moved -5.14% while MSFT moved +5.45%. MSFT is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": 5.45,
+        "subject_pct_change": -5.137,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260529_peer_NVDA": {
+      "id": "ev_INTC_20260529_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -1.45% the same day",
+      "detail": "INTC moved -5.14% while NVDA moved -1.45%. NVDA is INTC's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": -1.45,
+        "subject_pct_change": -5.137,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260529_peer_QCOM": {
+      "id": "ev_INTC_20260529_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +3.18% the same day",
+      "detail": "INTC moved -5.14% while QCOM moved +3.18%. QCOM is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": 3.18,
+        "subject_pct_change": -5.137,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260529_peer_TSM": {
+      "id": "ev_INTC_20260529_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier and competitor) moved -1.51% the same day",
+      "detail": "INTC moved -5.14% while TSM moved -1.51%. TSM is INTC's supplier and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": -1.51,
+        "subject_pct_change": -5.137,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_INTC_20260608_price": {
+      "id": "ev_INTC_20260608_price",
+      "kind": "price",
+      "title": "INTC rose 11.19% on 2026-06-08",
+      "detail": "Closed at $110.27 from $99.17. Volume was 1.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-08",
+      "numbers": {
+        "pct_change": 11.193,
+        "close": 110.27,
+        "prev_close": 99.17,
+        "volume": 136973900,
+        "volume_vs_30d_avg": 1.34,
+        "move_excluding_sector_pct": 9.69
+      }
+    },
+    "ev_INTC_20260608_peer_AAPL": {
+      "id": "ev_INTC_20260608_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved -1.89% the same day",
+      "detail": "INTC moved +11.19% while AAPL moved -1.89%. AAPL is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-06-08",
+      "numbers": {
+        "peer_pct_change": -1.89,
+        "subject_pct_change": 11.193,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260608_peer_AMD": {
+      "id": "ev_INTC_20260608_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +5.13% the same day",
+      "detail": "INTC moved +11.19% while AMD moved +5.13%. AMD is INTC's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-08",
+      "numbers": {
+        "peer_pct_change": 5.13,
+        "subject_pct_change": 11.193,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260608_peer_AMZN": {
+      "id": "ev_INTC_20260608_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved -0.33% the same day",
+      "detail": "INTC moved +11.19% while AMZN moved -0.33%. AMZN is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-06-08",
+      "numbers": {
+        "peer_pct_change": -0.33,
+        "subject_pct_change": 11.193,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260608_peer_ASML": {
+      "id": "ev_INTC_20260608_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +6.54% the same day",
+      "detail": "INTC moved +11.19% while ASML moved +6.54%. ASML is INTC's supplier (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-06-08",
+      "numbers": {
+        "peer_pct_change": 6.54,
+        "subject_pct_change": 11.193,
+        "relationship": "supplier"
+      }
+    },
+    "ev_INTC_20260608_peer_AVGO": {
+      "id": "ev_INTC_20260608_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +2.82% the same day",
+      "detail": "INTC moved +11.19% while AVGO moved +2.82%. AVGO is INTC's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-08",
+      "numbers": {
+        "peer_pct_change": 2.82,
+        "subject_pct_change": 11.193,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260608_peer_GOOGL": {
+      "id": "ev_INTC_20260608_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved -1.42% the same day",
+      "detail": "INTC moved +11.19% while GOOGL moved -1.42%. GOOGL is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-06-08",
+      "numbers": {
+        "peer_pct_change": -1.42,
+        "subject_pct_change": 11.193,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260608_peer_MSFT": {
+      "id": "ev_INTC_20260608_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (competitor) moved -1.18% the same day",
+      "detail": "INTC moved +11.19% while MSFT moved -1.18%. MSFT is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-06-08",
+      "numbers": {
+        "peer_pct_change": -1.18,
+        "subject_pct_change": 11.193,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260608_peer_NVDA": {
+      "id": "ev_INTC_20260608_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +1.73% the same day",
+      "detail": "INTC moved +11.19% while NVDA moved +1.73%. NVDA is INTC's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-08",
+      "numbers": {
+        "peer_pct_change": 1.73,
+        "subject_pct_change": 11.193,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260608_peer_QCOM": {
+      "id": "ev_INTC_20260608_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +0.85% the same day",
+      "detail": "INTC moved +11.19% while QCOM moved +0.85%. QCOM is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-08",
+      "numbers": {
+        "peer_pct_change": 0.85,
+        "subject_pct_change": 11.193,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260608_peer_TSM": {
+      "id": "ev_INTC_20260608_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier and competitor) moved +2.80% the same day",
+      "detail": "INTC moved +11.19% while TSM moved +2.80%. TSM is INTC's supplier and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-08",
+      "numbers": {
+        "peer_pct_change": 2.8,
+        "subject_pct_change": 11.193,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_INTC_20260611_price": {
+      "id": "ev_INTC_20260611_price",
+      "kind": "price",
+      "title": "INTC rose 9.27% on 2026-06-11",
+      "detail": "Closed at $116.96 from $107.04. Volume was 1.9x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "pct_change": 9.268,
+        "close": 116.96,
+        "prev_close": 107.04,
+        "volume": 188430300,
+        "volume_vs_30d_avg": 1.85,
+        "move_excluding_sector_pct": 5.87
+      }
+    },
+    "ev_INTC_20260611_peer_AAPL": {
+      "id": "ev_INTC_20260611_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved +1.39% the same day",
+      "detail": "INTC moved +9.27% while AAPL moved +1.39%. AAPL is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "peer_pct_change": 1.39,
+        "subject_pct_change": 9.268,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260611_peer_AMD": {
+      "id": "ev_INTC_20260611_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +7.97% the same day",
+      "detail": "INTC moved +9.27% while AMD moved +7.97%. AMD is INTC's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "peer_pct_change": 7.97,
+        "subject_pct_change": 9.268,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260611_peer_AMZN": {
+      "id": "ev_INTC_20260611_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved +1.48% the same day",
+      "detail": "INTC moved +9.27% while AMZN moved +1.48%. AMZN is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "peer_pct_change": 1.48,
+        "subject_pct_change": 9.268,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260611_peer_ASML": {
+      "id": "ev_INTC_20260611_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +9.53% the same day",
+      "detail": "INTC moved +9.27% while ASML moved +9.53%. ASML is INTC's supplier (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "peer_pct_change": 9.53,
+        "subject_pct_change": 9.268,
+        "relationship": "supplier"
+      }
+    },
+    "ev_INTC_20260611_peer_AVGO": {
+      "id": "ev_INTC_20260611_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +3.62% the same day",
+      "detail": "INTC moved +9.27% while AVGO moved +3.62%. AVGO is INTC's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "peer_pct_change": 3.62,
+        "subject_pct_change": 9.268,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260611_peer_GOOGL": {
+      "id": "ev_INTC_20260611_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +0.39% the same day",
+      "detail": "INTC moved +9.27% while GOOGL moved +0.39%. GOOGL is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "peer_pct_change": 0.39,
+        "subject_pct_change": 9.268,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260611_peer_MSFT": {
+      "id": "ev_INTC_20260611_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (competitor) moved -1.77% the same day",
+      "detail": "INTC moved +9.27% while MSFT moved -1.77%. MSFT is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "peer_pct_change": -1.77,
+        "subject_pct_change": 9.268,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260611_peer_NVDA": {
+      "id": "ev_INTC_20260611_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +2.22% the same day",
+      "detail": "INTC moved +9.27% while NVDA moved +2.22%. NVDA is INTC's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "peer_pct_change": 2.22,
+        "subject_pct_change": 9.268,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260611_peer_QCOM": {
+      "id": "ev_INTC_20260611_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +6.15% the same day",
+      "detail": "INTC moved +9.27% while QCOM moved +6.15%. QCOM is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "peer_pct_change": 6.15,
+        "subject_pct_change": 9.268,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260611_peer_TSM": {
+      "id": "ev_INTC_20260611_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier and competitor) moved +3.01% the same day",
+      "detail": "INTC moved +9.27% while TSM moved +3.01%. TSM is INTC's supplier and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "peer_pct_change": 3.01,
+        "subject_pct_change": 9.268,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_INTC_20260618_price": {
+      "id": "ev_INTC_20260618_price",
+      "kind": "price",
+      "title": "INTC rose 10.64% on 2026-06-18",
+      "detail": "Closed at $133.99 from $121.10. Volume was 2.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "pct_change": 10.644,
+        "close": 133.99,
+        "prev_close": 121.1,
+        "volume": 233906600,
+        "volume_vs_30d_avg": 2.29,
+        "move_excluding_sector_pct": 7.26
+      }
+    },
+    "ev_INTC_20260618_peer_AAPL": {
+      "id": "ev_INTC_20260618_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved +0.70% the same day",
+      "detail": "INTC moved +10.64% while AAPL moved +0.70%. AAPL is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 0.7,
+        "subject_pct_change": 10.644,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260618_peer_AMD": {
+      "id": "ev_INTC_20260618_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +4.86% the same day",
+      "detail": "INTC moved +10.64% while AMD moved +4.86%. AMD is INTC's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 4.86,
+        "subject_pct_change": 10.644,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260618_peer_AMZN": {
+      "id": "ev_INTC_20260618_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved +2.90% the same day",
+      "detail": "INTC moved +10.64% while AMZN moved +2.90%. AMZN is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 2.9,
+        "subject_pct_change": 10.644,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260618_peer_ASML": {
+      "id": "ev_INTC_20260618_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +3.31% the same day",
+      "detail": "INTC moved +10.64% while ASML moved +3.31%. ASML is INTC's supplier (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 3.31,
+        "subject_pct_change": 10.644,
+        "relationship": "supplier"
+      }
+    },
+    "ev_INTC_20260618_peer_AVGO": {
+      "id": "ev_INTC_20260618_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +4.70% the same day",
+      "detail": "INTC moved +10.64% while AVGO moved +4.70%. AVGO is INTC's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 4.7,
+        "subject_pct_change": 10.644,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260618_peer_GOOGL": {
+      "id": "ev_INTC_20260618_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +1.17% the same day",
+      "detail": "INTC moved +10.64% while GOOGL moved +1.17%. GOOGL is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 1.17,
+        "subject_pct_change": 10.644,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260618_peer_MSFT": {
+      "id": "ev_INTC_20260618_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (competitor) moved +0.13% the same day",
+      "detail": "INTC moved +10.64% while MSFT moved +0.13%. MSFT is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 0.13,
+        "subject_pct_change": 10.644,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260618_peer_NVDA": {
+      "id": "ev_INTC_20260618_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +2.95% the same day",
+      "detail": "INTC moved +10.64% while NVDA moved +2.95%. NVDA is INTC's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 2.95,
+        "subject_pct_change": 10.644,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260618_peer_QCOM": {
+      "id": "ev_INTC_20260618_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +6.17% the same day",
+      "detail": "INTC moved +10.64% while QCOM moved +6.17%. QCOM is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 6.17,
+        "subject_pct_change": 10.644,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260618_peer_TSM": {
+      "id": "ev_INTC_20260618_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier and competitor) moved +6.93% the same day",
+      "detail": "INTC moved +10.64% while TSM moved +6.93%. TSM is INTC's supplier and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 6.93,
+        "subject_pct_change": 10.644,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_INTC_20260707_price": {
+      "id": "ev_INTC_20260707_price",
+      "kind": "price",
+      "title": "INTC fell 9.66% on 2026-07-07",
+      "detail": "Closed at $110.39 from $122.20. Volume was 1.4x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-07",
+      "numbers": {
+        "pct_change": -9.664,
+        "close": 110.39,
+        "prev_close": 122.2,
+        "volume": 140405900,
+        "volume_vs_30d_avg": 1.38,
+        "move_excluding_sector_pct": 8.04
+      }
+    },
+    "ev_INTC_20260707_peer_AAPL": {
+      "id": "ev_INTC_20260707_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved -0.64% the same day",
+      "detail": "INTC moved -9.66% while AAPL moved -0.64%. AAPL is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-07-07",
+      "numbers": {
+        "peer_pct_change": -0.64,
+        "subject_pct_change": -9.664,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260707_peer_AMD": {
+      "id": "ev_INTC_20260707_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved -6.51% the same day",
+      "detail": "INTC moved -9.66% while AMD moved -6.51%. AMD is INTC's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-07-07",
+      "numbers": {
+        "peer_pct_change": -6.51,
+        "subject_pct_change": -9.664,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260707_peer_AMZN": {
+      "id": "ev_INTC_20260707_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved +0.74% the same day",
+      "detail": "INTC moved -9.66% while AMZN moved +0.74%. AMZN is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-07-07",
+      "numbers": {
+        "peer_pct_change": 0.74,
+        "subject_pct_change": -9.664,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260707_peer_ASML": {
+      "id": "ev_INTC_20260707_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved -4.26% the same day",
+      "detail": "INTC moved -9.66% while ASML moved -4.26%. ASML is INTC's supplier (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-07-07",
+      "numbers": {
+        "peer_pct_change": -4.26,
+        "subject_pct_change": -9.664,
+        "relationship": "supplier"
+      }
+    },
+    "ev_INTC_20260707_peer_AVGO": {
+      "id": "ev_INTC_20260707_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -0.83% the same day",
+      "detail": "INTC moved -9.66% while AVGO moved -0.83%. AVGO is INTC's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-07-07",
+      "numbers": {
+        "peer_pct_change": -0.83,
+        "subject_pct_change": -9.664,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260707_peer_GOOGL": {
+      "id": "ev_INTC_20260707_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +0.16% the same day",
+      "detail": "INTC moved -9.66% while GOOGL moved +0.16%. GOOGL is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-07-07",
+      "numbers": {
+        "peer_pct_change": 0.16,
+        "subject_pct_change": -9.664,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260707_peer_MSFT": {
+      "id": "ev_INTC_20260707_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (competitor) moved +0.54% the same day",
+      "detail": "INTC moved -9.66% while MSFT moved +0.54%. MSFT is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-07-07",
+      "numbers": {
+        "peer_pct_change": 0.54,
+        "subject_pct_change": -9.664,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260707_peer_NVDA": {
+      "id": "ev_INTC_20260707_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +0.71% the same day",
+      "detail": "INTC moved -9.66% while NVDA moved +0.71%. NVDA is INTC's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-07",
+      "numbers": {
+        "peer_pct_change": 0.71,
+        "subject_pct_change": -9.664,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260707_peer_QCOM": {
+      "id": "ev_INTC_20260707_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -1.88% the same day",
+      "detail": "INTC moved -9.66% while QCOM moved -1.88%. QCOM is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-07",
+      "numbers": {
+        "peer_pct_change": -1.88,
+        "subject_pct_change": -9.664,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260707_peer_TSM": {
+      "id": "ev_INTC_20260707_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier and competitor) moved -4.25% the same day",
+      "detail": "INTC moved -9.66% while TSM moved -4.25%. TSM is INTC's supplier and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-07",
+      "numbers": {
+        "peer_pct_change": -4.25,
+        "subject_pct_change": -9.664,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_INTC_20260724_price": {
+      "id": "ev_INTC_20260724_price",
+      "kind": "price",
+      "title": "INTC fell 7.89% on 2026-07-24",
+      "detail": "Closed at $92.32 from $100.23. Volume was 1.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "pct_change": -7.892,
+        "close": 92.32,
+        "prev_close": 100.23,
+        "volume": 181132900,
+        "volume_vs_30d_avg": 1.77,
+        "move_excluding_sector_pct": 6.77
+      }
+    },
+    "ev_INTC_20260724_peer_AAPL": {
+      "id": "ev_INTC_20260724_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved +3.53% the same day",
+      "detail": "INTC moved -7.89% while AAPL moved +3.53%. AAPL is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": 3.53,
+        "subject_pct_change": -7.892,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260724_peer_AMD": {
+      "id": "ev_INTC_20260724_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved -3.29% the same day",
+      "detail": "INTC moved -7.89% while AMD moved -3.29%. AMD is INTC's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": -3.29,
+        "subject_pct_change": -7.892,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260724_peer_AMZN": {
+      "id": "ev_INTC_20260724_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved -0.66% the same day",
+      "detail": "INTC moved -7.89% while AMZN moved -0.66%. AMZN is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": -0.66,
+        "subject_pct_change": -7.892,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260724_peer_ASML": {
+      "id": "ev_INTC_20260724_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved -2.55% the same day",
+      "detail": "INTC moved -7.89% while ASML moved -2.55%. ASML is INTC's supplier (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": -2.55,
+        "subject_pct_change": -7.892,
+        "relationship": "supplier"
+      }
+    },
+    "ev_INTC_20260724_peer_AVGO": {
+      "id": "ev_INTC_20260724_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -2.69% the same day",
+      "detail": "INTC moved -7.89% while AVGO moved -2.69%. AVGO is INTC's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": -2.69,
+        "subject_pct_change": -7.892,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260724_peer_GOOGL": {
+      "id": "ev_INTC_20260724_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +0.65% the same day",
+      "detail": "INTC moved -7.89% while GOOGL moved +0.65%. GOOGL is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": 0.65,
+        "subject_pct_change": -7.892,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260724_peer_MSFT": {
+      "id": "ev_INTC_20260724_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (competitor) moved +0.03% the same day",
+      "detail": "INTC moved -7.89% while MSFT moved +0.03%. MSFT is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": 0.03,
+        "subject_pct_change": -7.892,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260724_peer_NVDA": {
+      "id": "ev_INTC_20260724_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -0.92% the same day",
+      "detail": "INTC moved -7.89% while NVDA moved -0.92%. NVDA is INTC's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": -0.92,
+        "subject_pct_change": -7.892,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260724_peer_QCOM": {
+      "id": "ev_INTC_20260724_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved -2.42% the same day",
+      "detail": "INTC moved -7.89% while QCOM moved -2.42%. QCOM is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": -2.42,
+        "subject_pct_change": -7.892,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260724_peer_TSM": {
+      "id": "ev_INTC_20260724_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier and competitor) moved -2.93% the same day",
+      "detail": "INTC moved -7.89% while TSM moved -2.93%. TSM is INTC's supplier and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "peer_pct_change": -2.93,
+        "subject_pct_change": -7.892,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_INTC_20260724_filing_000005086326000157": {
+      "id": "ev_INTC_20260724_filing_000005086326000157",
+      "kind": "filing",
+      "title": "10-Q filed 2026-07-24",
+      "detail": "10-Q",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/intc-20260627.htm",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260724_filing_000005086326000155": {
+      "id": "ev_INTC_20260724_filing_000005086326000155",
+      "kind": "filing",
+      "title": "8-K filed 2026-07-23",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/intc-20260723.htm",
+      "occurred_on": "2026-07-23",
+      "numbers": {}
+    },
+    "ev_INTC_20260921_price": {
+      "id": "ev_INTC_20260921_price",
+      "kind": "price",
+      "title": "INTC rose 12.14% on 2026-09-21",
+      "detail": "Closed at $121.78 from $108.60. Volume was 1.9x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "pct_change": 12.136,
+        "close": 121.78,
+        "prev_close": 108.6,
+        "volume": 191638400,
+        "volume_vs_30d_avg": 1.88,
+        "move_excluding_sector_pct": 8.83
+      }
+    },
+    "ev_INTC_20260921_peer_AAPL": {
+      "id": "ev_INTC_20260921_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (competitor) moved +0.85% the same day",
+      "detail": "INTC moved +12.14% while AAPL moved +0.85%. AAPL is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 0.85,
+        "subject_pct_change": 12.136,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260921_peer_AMD": {
+      "id": "ev_INTC_20260921_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +9.95% the same day",
+      "detail": "INTC moved +12.14% while AMD moved +9.95%. AMD is INTC's competitor (x86 processors, GPUs, accelerators, and data center products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 9.95,
+        "subject_pct_change": 12.136,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260921_peer_AMZN": {
+      "id": "ev_INTC_20260921_peer_AMZN",
+      "kind": "peer_move",
+      "title": "AMZN (competitor) moved +1.87% the same day",
+      "detail": "INTC moved +12.14% while AMZN moved +1.87%. AMZN is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 1.87,
+        "subject_pct_change": 12.136,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260921_peer_ASML": {
+      "id": "ev_INTC_20260921_peer_ASML",
+      "kind": "peer_move",
+      "title": "ASML (supplier) moved +1.87% the same day",
+      "detail": "INTC moved +12.14% while ASML moved +1.87%. ASML is INTC's supplier (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 1.87,
+        "subject_pct_change": 12.136,
+        "relationship": "supplier"
+      }
+    },
+    "ev_INTC_20260921_peer_AVGO": {
+      "id": "ev_INTC_20260921_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +1.41% the same day",
+      "detail": "INTC moved +12.14% while AVGO moved +1.41%. AVGO is INTC's competitor (custom ASICs development), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 1.41,
+        "subject_pct_change": 12.136,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260921_peer_GOOGL": {
+      "id": "ev_INTC_20260921_peer_GOOGL",
+      "kind": "peer_move",
+      "title": "GOOGL (competitor) moved +1.55% the same day",
+      "detail": "INTC moved +12.14% while GOOGL moved +1.55%. GOOGL is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 1.55,
+        "subject_pct_change": 12.136,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260921_peer_MSFT": {
+      "id": "ev_INTC_20260921_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (competitor) moved +1.59% the same day",
+      "detail": "INTC moved +12.14% while MSFT moved +1.59%. MSFT is INTC's competitor (custom silicon for data center and AI workloads), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 1.59,
+        "subject_pct_change": 12.136,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260921_peer_NVDA": {
+      "id": "ev_INTC_20260921_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +2.30% the same day",
+      "detail": "INTC moved +12.14% while NVDA moved +2.30%. NVDA is INTC's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 2.3,
+        "subject_pct_change": 12.136,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260921_peer_QCOM": {
+      "id": "ev_INTC_20260921_peer_QCOM",
+      "kind": "peer_move",
+      "title": "QCOM (competitor) moved +9.29% the same day",
+      "detail": "INTC moved +12.14% while QCOM moved +9.29%. QCOM is INTC's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 9.29,
+        "subject_pct_change": 12.136,
+        "relationship": "competitor"
+      }
+    },
+    "ev_INTC_20260921_peer_TSM": {
+      "id": "ev_INTC_20260921_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier and competitor) moved +2.41% the same day",
+      "detail": "INTC moved +12.14% while TSM moved +2.41%. TSM is INTC's supplier and competitor (foundry manufacturing capacity and tiles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 2.41,
+        "subject_pct_change": 12.136,
+        "relationship": "supplier and competitor"
+      }
+    },
+    "ev_INTC_20260921_news0": {
+      "id": "ev_INTC_20260921_news0",
+      "kind": "news",
+      "title": "Trump, Xi Meet on S&P 500's Best Day Since Early August: Will Markets Stay Bullish?",
+      "detail": "Reported by Yahoo. Trump and Xi meet in Washington as the S&P 500 posts its best day since Aug. 4, driven by a rally in AI stocks.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6965103b0fad8640ba1f5676336f1fb3908796c357668417d195d3cb9c56d230",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_INTC_20260921_news1": {
+      "id": "ev_INTC_20260921_news1",
+      "kind": "news",
+      "title": "Meta Platforms, Greenland Mines, Intel, AMD and GameStop: Why These 5 Stocks Are on Investors' Radars Today",
+      "detail": "Reported by Benzinga. META, GRML, INTC, AMD, GME were among the stocks seen trending on Monday, Sept. 21, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=068174cd1183086242d43eb1b0bfd24db39a1190dd2aee03e5b55be721c6af87",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_INTC_20260921_news2": {
+      "id": "ev_INTC_20260921_news2",
+      "kind": "news",
+      "title": "Dow Jones Futures: Falling Oil Prices, Yields Spark Market Rally; AMD, Intel, Micron, Nvidia, Sandisk Are Key Movers",
+      "detail": "Reported by Yahoo. Dow Jones Futures: Falling oil prices and yields sparked a stock market rally. AMD, Intel, Micron, Nvidia and Sandisk are key movers.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2a965795bdbd096ed40eab32fa4f9c1b24ff1d694581a8ad0ef479a1e6ec4985",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_INTC_20260921_news3": {
+      "id": "ev_INTC_20260921_news3",
+      "kind": "news",
+      "title": "Update: Communication Services, Tech Heavyweights Push US Equity Indexes Higher as Crude Oil Slides With Treasury Yields",
+      "detail": "Reported by Yahoo. (Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8c9d7afe8453a5109358537a6d992fe1cc1160596d21bd8c4ceeec4c4616f090",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_INTC_20260921_news4": {
+      "id": "ev_INTC_20260921_news4",
+      "kind": "news",
+      "title": "Meta\u2019s Muse AI Agent Triggers Intel, Chip Stock Rally. AMD Hits $1T Market Cap.",
+      "detail": "Reported by Yahoo. Intel,  Advanced Micro Devices  and  Arm Holdings  soared Monday as investors got excited about the potential growth of central-processing units.  The trigger looks to be the popularity of  Meta Platforms\u2019  Muse artificial-intelligence agent.  The rally pushed AMD to close with a market valuation above $1 trillion, making it the 14th U.S. company to reach that mark.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5b4e970cb47f994900a34f398272a08e66a4fad243837548ff09fcc191d531f4",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_INTC_20260921_news5": {
+      "id": "ev_INTC_20260921_news5",
+      "kind": "news",
+      "title": "Update: Nasdaq Composite Rallies to Record as AI Trade Lifts Chipmakers",
+      "detail": "Reported by Yahoo. (Updates with market moves at the end of the day, and other changes, if any.) The Nasdaq Composit",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5b2444036bd7402a5e9562b33e49739d5298a8459744db05f669ae85c9e2e2c9",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_INTC_20260921_news6": {
+      "id": "ev_INTC_20260921_news6",
+      "kind": "news",
+      "title": "NVIDIA Or Micron: Which Gets Paid More Safely For The AI Shortage?",
+      "detail": "Reported by Yahoo. If you own NVIDIA (NVDA) or Micron Technology (MU), you own the same idea: AI data centers want more chips and memory than the industry can supply. The two split from there. NVIDIA is putting its own balance sheet behind some of its biggest buyers. Micron's buyers are posting cash deposits to secure its memory, so the money flows in opposite directions.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ef3bfcf8c1c19773033f33386d60055f91601912d3a8bd7d6b25e6f17fac7f7a",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_INTC_20260921_news7": {
+      "id": "ev_INTC_20260921_news7",
+      "kind": "news",
+      "title": "US Equity Markets Higher as Tech, Communication Stocks Rise Amid Drop in Government Bond Yields, Crude Oil Prices",
+      "detail": "Reported by Yahoo. US equity indexes were higher Monday as communication services and technology stocks rose after long",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=852a39d871c2877d482ceaeffd0ee727fd3562fbd3a591e2ba5e2e8db553a3b9",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_INTC_fund_revenue": {
+      "id": "ev_INTC_fund_revenue",
+      "kind": "fundamental",
+      "title": "Revenue: 16,128,000,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, +27.3% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "value": 16128000000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "yoy_pct_change": 27.32
+      }
+    },
+    "ev_INTC_fund_net_income": {
+      "id": "ev_INTC_fund_net_income",
+      "kind": "fundamental",
+      "title": "Net Income: -11,033,000,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, -1243.8% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "value": -11033000000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "NetIncomeLoss",
+        "yoy_pct_change": -1243.85
+      }
+    },
+    "ev_INTC_fund_gross_profit": {
+      "id": "ev_INTC_fund_gross_profit",
+      "kind": "fundamental",
+      "title": "Gross Profit: 6,509,000,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, +39.3% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "value": 6509000000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "GrossProfit",
+        "yoy_pct_change": 39.32
+      }
+    },
+    "ev_INTC_fund_operating_income": {
+      "id": "ev_INTC_fund_operating_income",
+      "kind": "fundamental",
+      "title": "Operating Income: 1,796,000,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, +696.7% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "value": 1796000000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "OperatingIncomeLoss",
+        "yoy_pct_change": 696.68
+      }
+    },
+    "ev_INTC_fund_rnd_expense": {
+      "id": "ev_INTC_fund_rnd_expense",
+      "kind": "fundamental",
+      "title": "Rnd Expense: 3,368,000,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, -7.5% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/",
+      "occurred_on": "2026-07-24",
+      "numbers": {
+        "value": 3368000000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "ResearchAndDevelopmentExpense",
+        "yoy_pct_change": -7.47
+      }
+    },
+    "ev_INTC_sector_IPG3344S": {
+      "id": "ev_INTC_sector_IPG3344S",
+      "kind": "sector",
+      "title": "US semiconductor and electronic component production: 190.1 index, 2017=100, +12.3% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/IPG3344S",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 190.0987,
+        "units": "index, 2017=100",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": 12.35
+      }
+    },
+    "ev_INTC_sector_PCU334413334413": {
+      "id": "ev_INTC_sector_PCU334413334413",
+      "kind": "sector",
+      "title": "US semiconductor producer price index: 28.5 index, -3.1% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/PCU334413334413",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 28.472,
+        "units": "index",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": -3.13
+      }
+    }
+  },
+  "arc": "Between April and September 2026, Intel experienced sharp volatility driven by earnings reports and broader semiconductor sentiment, more than doubling from $52.91 to peaks above $133 before settling at $121.78. Strong upward momentum in late April was anchored by quarterly reporting, followed by a series of high-volume rallies in May and June that closely tracked movements in peers like AMD, ASML, and Qualcomm. A July contraction tied to second-quarter filings temporarily reversed these gains, but positive sentiment resurfaced in September as industry-wide demand drivers, including Meta's Muse AI agent, revitalized CPU interest across the chip sector.",
+  "arc_citation_ids": [
+    "ev_INTC_20260408_price",
+    "ev_INTC_20260424_price",
+    "ev_INTC_20260424_filing_000005086326000079",
+    "ev_INTC_20260618_price",
+    "ev_INTC_20260724_price",
+    "ev_INTC_20260724_filing_000005086326000157",
+    "ev_INTC_20260921_price",
+    "ev_INTC_20260921_news4"
+  ],
+  "warnings": []
+}

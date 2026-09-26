@@ -1,0 +1,3106 @@
+{
+  "symbol": "QCOM",
+  "company_name": "QUALCOMM Incorporated",
+  "generated_at": "2026-09-26T12:32:00.328160+00:00",
+  "bars": [
+    {
+      "date": "2026-03-20",
+      "open": 131.31,
+      "high": 132.75,
+      "low": 129.78,
+      "close": 129.9,
+      "volume": 78568000,
+      "pct_change": 0.0,
+      "prev_close": 131.31
+    },
+    {
+      "date": "2026-03-23",
+      "open": 133.15,
+      "high": 133.97,
+      "low": 127.41,
+      "close": 128.35,
+      "volume": 11431600,
+      "pct_change": -1.193,
+      "prev_close": 129.9
+    },
+    {
+      "date": "2026-03-24",
+      "open": 128.34,
+      "high": 129.18,
+      "low": 127.31,
+      "close": 128.67,
+      "volume": 8409200,
+      "pct_change": 0.249,
+      "prev_close": 128.35
+    },
+    {
+      "date": "2026-03-25",
+      "open": 130.16,
+      "high": 131.93,
+      "low": 129.95,
+      "close": 130.35,
+      "volume": 6669400,
+      "pct_change": 1.306,
+      "prev_close": 128.67
+    },
+    {
+      "date": "2026-03-26",
+      "open": 128.79,
+      "high": 132.34,
+      "low": 128.31,
+      "close": 130.54,
+      "volume": 11912500,
+      "pct_change": 0.146,
+      "prev_close": 130.35
+    },
+    {
+      "date": "2026-03-27",
+      "open": 129.89,
+      "high": 130.04,
+      "low": 126.68,
+      "close": 127.11,
+      "volume": 8964900,
+      "pct_change": -2.628,
+      "prev_close": 130.54
+    },
+    {
+      "date": "2026-03-30",
+      "open": 127.45,
+      "high": 128.6,
+      "low": 126.34,
+      "close": 127.07,
+      "volume": 11555900,
+      "pct_change": -0.031,
+      "prev_close": 127.11
+    },
+    {
+      "date": "2026-03-31",
+      "open": 128.4,
+      "high": 129.29,
+      "low": 125.78,
+      "close": 128.78,
+      "volume": 12219800,
+      "pct_change": 1.346,
+      "prev_close": 127.07
+    },
+    {
+      "date": "2026-04-01",
+      "open": 128.0,
+      "high": 130.23,
+      "low": 126.98,
+      "close": 127.28,
+      "volume": 10210700,
+      "pct_change": -1.165,
+      "prev_close": 128.78
+    },
+    {
+      "date": "2026-04-02",
+      "open": 125.23,
+      "high": 127.0,
+      "low": 124.01,
+      "close": 126.8,
+      "volume": 8575300,
+      "pct_change": -0.377,
+      "prev_close": 127.28
+    },
+    {
+      "date": "2026-04-06",
+      "open": 126.56,
+      "high": 127.43,
+      "low": 123.71,
+      "close": 125.73,
+      "volume": 8038600,
+      "pct_change": -0.844,
+      "prev_close": 126.8
+    },
+    {
+      "date": "2026-04-07",
+      "open": 125.07,
+      "high": 125.41,
+      "low": 121.99,
+      "close": 124.07,
+      "volume": 8840400,
+      "pct_change": -1.32,
+      "prev_close": 125.73
+    },
+    {
+      "date": "2026-04-08",
+      "open": 128.65,
+      "high": 128.89,
+      "low": 125.62,
+      "close": 127.51,
+      "volume": 12535800,
+      "pct_change": 2.773,
+      "prev_close": 124.07
+    },
+    {
+      "date": "2026-04-09",
+      "open": 127.26,
+      "high": 128.59,
+      "low": 126.8,
+      "close": 127.75,
+      "volume": 9352700,
+      "pct_change": 0.188,
+      "prev_close": 127.51
+    },
+    {
+      "date": "2026-04-10",
+      "open": 128.8,
+      "high": 130.61,
+      "low": 127.85,
+      "close": 128.06,
+      "volume": 8427400,
+      "pct_change": 0.243,
+      "prev_close": 127.75
+    },
+    {
+      "date": "2026-04-13",
+      "open": 128.0,
+      "high": 131.31,
+      "low": 126.46,
+      "close": 131.24,
+      "volume": 8615000,
+      "pct_change": 2.483,
+      "prev_close": 128.06
+    },
+    {
+      "date": "2026-04-14",
+      "open": 132.2,
+      "high": 132.94,
+      "low": 131.05,
+      "close": 132.84,
+      "volume": 7608300,
+      "pct_change": 1.219,
+      "prev_close": 131.24
+    },
+    {
+      "date": "2026-04-15",
+      "open": 133.44,
+      "high": 134.34,
+      "low": 132.28,
+      "close": 133.05,
+      "volume": 9691500,
+      "pct_change": 0.158,
+      "prev_close": 132.84
+    },
+    {
+      "date": "2026-04-16",
+      "open": 131.79,
+      "high": 135.7,
+      "low": 131.79,
+      "close": 134.47,
+      "volume": 8163700,
+      "pct_change": 1.067,
+      "prev_close": 133.05
+    },
+    {
+      "date": "2026-04-17",
+      "open": 136.69,
+      "high": 136.97,
+      "low": 134.41,
+      "close": 136.2,
+      "volume": 9667600,
+      "pct_change": 1.287,
+      "prev_close": 134.47
+    },
+    {
+      "date": "2026-04-20",
+      "open": 136.41,
+      "high": 138.5,
+      "low": 136.08,
+      "close": 137.52,
+      "volume": 7953800,
+      "pct_change": 0.969,
+      "prev_close": 136.2
+    },
+    {
+      "date": "2026-04-21",
+      "open": 138.12,
+      "high": 138.26,
+      "low": 135.05,
+      "close": 135.56,
+      "volume": 11874600,
+      "pct_change": -1.425,
+      "prev_close": 137.52
+    },
+    {
+      "date": "2026-04-22",
+      "open": 136.64,
+      "high": 137.49,
+      "low": 135.55,
+      "close": 136.07,
+      "volume": 9432700,
+      "pct_change": 0.376,
+      "prev_close": 135.56
+    },
+    {
+      "date": "2026-04-23",
+      "open": 136.0,
+      "high": 136.99,
+      "low": 132.05,
+      "close": 133.95,
+      "volume": 10164900,
+      "pct_change": -1.558,
+      "prev_close": 136.07
+    },
+    {
+      "date": "2026-04-24",
+      "open": 145.61,
+      "high": 151.54,
+      "low": 143.58,
+      "close": 148.85,
+      "volume": 29449600,
+      "pct_change": 11.124,
+      "prev_close": 133.95
+    },
+    {
+      "date": "2026-04-27",
+      "open": 156.31,
+      "high": 161.0,
+      "low": 147.05,
+      "close": 150.26,
+      "volume": 41744000,
+      "pct_change": 0.947,
+      "prev_close": 148.85
+    },
+    {
+      "date": "2026-04-28",
+      "open": 145.08,
+      "high": 151.5,
+      "low": 144.0,
+      "close": 150.0,
+      "volume": 22921300,
+      "pct_change": -0.173,
+      "prev_close": 150.26
+    },
+    {
+      "date": "2026-04-29",
+      "open": 151.45,
+      "high": 157.29,
+      "low": 151.0,
+      "close": 156.0,
+      "volume": 37571200,
+      "pct_change": 4.0,
+      "prev_close": 150.0
+    },
+    {
+      "date": "2026-04-30",
+      "open": 172.05,
+      "high": 186.89,
+      "low": 163.56,
+      "close": 179.58,
+      "volume": 61132700,
+      "pct_change": 15.115,
+      "prev_close": 156.0
+    },
+    {
+      "date": "2026-05-01",
+      "open": 179.13,
+      "high": 179.99,
+      "low": 171.15,
+      "close": 177.01,
+      "volume": 21111500,
+      "pct_change": -1.431,
+      "prev_close": 179.58
+    },
+    {
+      "date": "2026-05-04",
+      "open": 177.22,
+      "high": 180.49,
+      "low": 166.83,
+      "close": 168.38,
+      "volume": 23117400,
+      "pct_change": -4.875,
+      "prev_close": 177.01
+    },
+    {
+      "date": "2026-05-05",
+      "open": 167.65,
+      "high": 187.22,
+      "low": 164.79,
+      "close": 186.55,
+      "volume": 34274900,
+      "pct_change": 10.791,
+      "prev_close": 168.38
+    },
+    {
+      "date": "2026-05-06",
+      "open": 195.18,
+      "high": 197.5,
+      "low": 188.22,
+      "close": 192.57,
+      "volume": 30145000,
+      "pct_change": 3.227,
+      "prev_close": 186.55
+    },
+    {
+      "date": "2026-05-07",
+      "open": 190.67,
+      "high": 223.66,
+      "low": 187.64,
+      "close": 202.55,
+      "volume": 51092200,
+      "pct_change": 5.183,
+      "prev_close": 192.57
+    },
+    {
+      "date": "2026-05-08",
+      "open": 213.0,
+      "high": 228.05,
+      "low": 208.63,
+      "close": 219.09,
+      "volume": 37850000,
+      "pct_change": 8.166,
+      "prev_close": 202.55
+    },
+    {
+      "date": "2026-05-11",
+      "open": 232.01,
+      "high": 247.9,
+      "low": 231.2,
+      "close": 237.53,
+      "volume": 45474000,
+      "pct_change": 8.417,
+      "prev_close": 219.09
+    },
+    {
+      "date": "2026-05-12",
+      "open": 229.84,
+      "high": 230.0,
+      "low": 202.0,
+      "close": 210.31,
+      "volume": 38590100,
+      "pct_change": -11.46,
+      "prev_close": 237.53
+    },
+    {
+      "date": "2026-05-13",
+      "open": 216.63,
+      "high": 219.49,
+      "low": 207.15,
+      "close": 213.17,
+      "volume": 26226300,
+      "pct_change": 1.36,
+      "prev_close": 210.31
+    },
+    {
+      "date": "2026-05-14",
+      "open": 208.51,
+      "high": 209.53,
+      "low": 199.66,
+      "close": 200.08,
+      "volume": 24883900,
+      "pct_change": -6.141,
+      "prev_close": 213.17
+    },
+    {
+      "date": "2026-05-15",
+      "open": 201.65,
+      "high": 207.4,
+      "low": 199.16,
+      "close": 201.49,
+      "volume": 25876800,
+      "pct_change": 0.705,
+      "prev_close": 200.08
+    },
+    {
+      "date": "2026-05-18",
+      "open": 206.77,
+      "high": 210.8,
+      "low": 193.58,
+      "close": 203.64,
+      "volume": 21082500,
+      "pct_change": 1.067,
+      "prev_close": 201.49
+    },
+    {
+      "date": "2026-05-19",
+      "open": 196.86,
+      "high": 201.5,
+      "low": 191.02,
+      "close": 195.61,
+      "volume": 19605200,
+      "pct_change": -3.943,
+      "prev_close": 203.64
+    },
+    {
+      "date": "2026-05-20",
+      "open": 197.0,
+      "high": 203.59,
+      "low": 194.0,
+      "close": 202.51,
+      "volume": 19037500,
+      "pct_change": 3.527,
+      "prev_close": 195.61
+    },
+    {
+      "date": "2026-05-21",
+      "open": 202.78,
+      "high": 214.01,
+      "low": 197.6,
+      "close": 213.41,
+      "volume": 28163700,
+      "pct_change": 5.382,
+      "prev_close": 202.51
+    },
+    {
+      "date": "2026-05-22",
+      "open": 214.43,
+      "high": 243.0,
+      "low": 214.17,
+      "close": 238.16,
+      "volume": 30375700,
+      "pct_change": 11.597,
+      "prev_close": 213.41
+    },
+    {
+      "date": "2026-05-26",
+      "open": 240.72,
+      "high": 258.0,
+      "low": 235.8,
+      "close": 248.82,
+      "volume": 30646400,
+      "pct_change": 4.476,
+      "prev_close": 238.16
+    },
+    {
+      "date": "2026-05-27",
+      "open": 245.43,
+      "high": 248.27,
+      "low": 224.18,
+      "close": 233.4,
+      "volume": 25694700,
+      "pct_change": -6.197,
+      "prev_close": 248.82
+    },
+    {
+      "date": "2026-05-28",
+      "open": 236.0,
+      "high": 249.46,
+      "low": 231.52,
+      "close": 243.29,
+      "volume": 21118400,
+      "pct_change": 4.237,
+      "prev_close": 233.4
+    },
+    {
+      "date": "2026-05-29",
+      "open": 250.19,
+      "high": 259.92,
+      "low": 247.51,
+      "close": 251.02,
+      "volume": 28781800,
+      "pct_change": 3.177,
+      "prev_close": 243.29
+    },
+    {
+      "date": "2026-06-01",
+      "open": 233.33,
+      "high": 238.02,
+      "low": 226.81,
+      "close": 228.99,
+      "volume": 21185200,
+      "pct_change": -8.776,
+      "prev_close": 251.02
+    },
+    {
+      "date": "2026-06-02",
+      "open": 232.0,
+      "high": 245.19,
+      "low": 226.05,
+      "close": 240.84,
+      "volume": 18508500,
+      "pct_change": 5.175,
+      "prev_close": 228.99
+    },
+    {
+      "date": "2026-06-03",
+      "open": 235.02,
+      "high": 255.09,
+      "low": 233.02,
+      "close": 250.01,
+      "volume": 19467000,
+      "pct_change": 3.808,
+      "prev_close": 240.84
+    },
+    {
+      "date": "2026-06-04",
+      "open": 239.45,
+      "high": 246.7,
+      "low": 235.32,
+      "close": 242.57,
+      "volume": 14185600,
+      "pct_change": -2.976,
+      "prev_close": 250.01
+    },
+    {
+      "date": "2026-06-05",
+      "open": 237.65,
+      "high": 238.44,
+      "low": 215.0,
+      "close": 215.94,
+      "volume": 24189200,
+      "pct_change": -10.978,
+      "prev_close": 242.57
+    },
+    {
+      "date": "2026-06-08",
+      "open": 221.03,
+      "high": 221.93,
+      "low": 214.63,
+      "close": 217.77,
+      "volume": 17180600,
+      "pct_change": 0.847,
+      "prev_close": 215.94
+    },
+    {
+      "date": "2026-06-09",
+      "open": 216.46,
+      "high": 219.64,
+      "low": 192.67,
+      "close": 205.42,
+      "volume": 29906300,
+      "pct_change": -5.671,
+      "prev_close": 217.77
+    },
+    {
+      "date": "2026-06-10",
+      "open": 199.46,
+      "high": 204.9,
+      "low": 190.1,
+      "close": 191.2,
+      "volume": 18426600,
+      "pct_change": -6.922,
+      "prev_close": 205.42
+    },
+    {
+      "date": "2026-06-11",
+      "open": 190.92,
+      "high": 203.84,
+      "low": 190.75,
+      "close": 202.96,
+      "volume": 18933100,
+      "pct_change": 6.151,
+      "prev_close": 191.2
+    },
+    {
+      "date": "2026-06-12",
+      "open": 201.85,
+      "high": 215.01,
+      "low": 200.1,
+      "close": 211.72,
+      "volume": 14123700,
+      "pct_change": 4.316,
+      "prev_close": 202.96
+    },
+    {
+      "date": "2026-06-15",
+      "open": 219.77,
+      "high": 226.46,
+      "low": 216.28,
+      "close": 220.81,
+      "volume": 13993800,
+      "pct_change": 4.293,
+      "prev_close": 211.72
+    },
+    {
+      "date": "2026-06-16",
+      "open": 225.83,
+      "high": 231.19,
+      "low": 213.8,
+      "close": 214.07,
+      "volume": 19629600,
+      "pct_change": -3.052,
+      "prev_close": 220.81
+    },
+    {
+      "date": "2026-06-17",
+      "open": 219.04,
+      "high": 221.32,
+      "low": 212.68,
+      "close": 212.97,
+      "volume": 11955800,
+      "pct_change": -0.514,
+      "prev_close": 214.07
+    },
+    {
+      "date": "2026-06-18",
+      "open": 220.71,
+      "high": 229.42,
+      "low": 214.73,
+      "close": 226.11,
+      "volume": 47081500,
+      "pct_change": 6.17,
+      "prev_close": 212.97
+    },
+    {
+      "date": "2026-06-22",
+      "open": 222.93,
+      "high": 233.44,
+      "low": 215.5,
+      "close": 221.9,
+      "volume": 18203400,
+      "pct_change": -1.862,
+      "prev_close": 226.11
+    },
+    {
+      "date": "2026-06-23",
+      "open": 207.34,
+      "high": 209.18,
+      "low": 198.44,
+      "close": 204.13,
+      "volume": 23781900,
+      "pct_change": -8.008,
+      "prev_close": 221.9
+    },
+    {
+      "date": "2026-06-24",
+      "open": 202.57,
+      "high": 202.97,
+      "low": 191.02,
+      "close": 197.41,
+      "volume": 25519600,
+      "pct_change": -3.292,
+      "prev_close": 204.13
+    },
+    {
+      "date": "2026-06-25",
+      "open": 219.43,
+      "high": 219.43,
+      "low": 199.82,
+      "close": 204.9,
+      "volume": 34793200,
+      "pct_change": 3.794,
+      "prev_close": 197.41
+    },
+    {
+      "date": "2026-06-26",
+      "open": 201.7,
+      "high": 208.86,
+      "low": 186.18,
+      "close": 189.39,
+      "volume": 37128900,
+      "pct_change": -7.57,
+      "prev_close": 204.9
+    },
+    {
+      "date": "2026-06-29",
+      "open": 193.03,
+      "high": 194.59,
+      "low": 183.58,
+      "close": 188.72,
+      "volume": 21599500,
+      "pct_change": -0.354,
+      "prev_close": 189.39
+    },
+    {
+      "date": "2026-06-30",
+      "open": 188.99,
+      "high": 193.5,
+      "low": 183.5,
+      "close": 184.79,
+      "volume": 22056100,
+      "pct_change": -2.082,
+      "prev_close": 188.72
+    },
+    {
+      "date": "2026-07-01",
+      "open": 183.59,
+      "high": 190.99,
+      "low": 181.6,
+      "close": 181.92,
+      "volume": 23313200,
+      "pct_change": -1.553,
+      "prev_close": 184.79
+    },
+    {
+      "date": "2026-07-02",
+      "open": 182.17,
+      "high": 185.8,
+      "low": 172.12,
+      "close": 176.25,
+      "volume": 18661200,
+      "pct_change": -3.117,
+      "prev_close": 181.92
+    },
+    {
+      "date": "2026-07-06",
+      "open": 178.13,
+      "high": 188.67,
+      "low": 177.1,
+      "close": 186.48,
+      "volume": 15510500,
+      "pct_change": 5.804,
+      "prev_close": 176.25
+    },
+    {
+      "date": "2026-07-07",
+      "open": 179.0,
+      "high": 185.88,
+      "low": 179.0,
+      "close": 182.97,
+      "volume": 16253600,
+      "pct_change": -1.882,
+      "prev_close": 186.48
+    },
+    {
+      "date": "2026-07-08",
+      "open": 180.52,
+      "high": 187.12,
+      "low": 180.51,
+      "close": 186.56,
+      "volume": 10306800,
+      "pct_change": 1.962,
+      "prev_close": 182.97
+    },
+    {
+      "date": "2026-07-09",
+      "open": 192.47,
+      "high": 196.09,
+      "low": 187.44,
+      "close": 191.11,
+      "volume": 12895200,
+      "pct_change": 2.439,
+      "prev_close": 186.56
+    },
+    {
+      "date": "2026-07-10",
+      "open": 187.51,
+      "high": 190.19,
+      "low": 185.72,
+      "close": 189.16,
+      "volume": 7064000,
+      "pct_change": -1.02,
+      "prev_close": 191.11
+    },
+    {
+      "date": "2026-07-13",
+      "open": 185.06,
+      "high": 188.16,
+      "low": 181.81,
+      "close": 183.98,
+      "volume": 13007300,
+      "pct_change": -2.738,
+      "prev_close": 189.16
+    },
+    {
+      "date": "2026-07-14",
+      "open": 189.33,
+      "high": 189.99,
+      "low": 177.45,
+      "close": 178.1,
+      "volume": 13090400,
+      "pct_change": -3.196,
+      "prev_close": 183.98
+    },
+    {
+      "date": "2026-07-15",
+      "open": 180.0,
+      "high": 180.71,
+      "low": 174.76,
+      "close": 177.98,
+      "volume": 9440900,
+      "pct_change": -0.067,
+      "prev_close": 178.1
+    },
+    {
+      "date": "2026-07-16",
+      "open": 173.08,
+      "high": 173.96,
+      "low": 168.99,
+      "close": 170.61,
+      "volume": 15951600,
+      "pct_change": -4.141,
+      "prev_close": 177.98
+    },
+    {
+      "date": "2026-07-17",
+      "open": 166.64,
+      "high": 172.39,
+      "low": 164.77,
+      "close": 171.78,
+      "volume": 16291100,
+      "pct_change": 0.686,
+      "prev_close": 170.61
+    },
+    {
+      "date": "2026-07-20",
+      "open": 175.55,
+      "high": 176.25,
+      "low": 169.9,
+      "close": 170.32,
+      "volume": 9649600,
+      "pct_change": -0.85,
+      "prev_close": 171.78
+    },
+    {
+      "date": "2026-07-21",
+      "open": 175.49,
+      "high": 175.49,
+      "low": 170.14,
+      "close": 173.5,
+      "volume": 13243200,
+      "pct_change": 1.867,
+      "prev_close": 170.32
+    },
+    {
+      "date": "2026-07-22",
+      "open": 170.71,
+      "high": 178.65,
+      "low": 170.6,
+      "close": 175.63,
+      "volume": 7777600,
+      "pct_change": 1.228,
+      "prev_close": 173.5
+    },
+    {
+      "date": "2026-07-23",
+      "open": 171.18,
+      "high": 173.95,
+      "low": 168.31,
+      "close": 171.11,
+      "volume": 10827500,
+      "pct_change": -2.574,
+      "prev_close": 175.63
+    },
+    {
+      "date": "2026-07-24",
+      "open": 169.69,
+      "high": 171.1,
+      "low": 165.77,
+      "close": 166.97,
+      "volume": 9998000,
+      "pct_change": -2.419,
+      "prev_close": 171.11
+    },
+    {
+      "date": "2026-07-27",
+      "open": 169.77,
+      "high": 171.19,
+      "low": 165.29,
+      "close": 170.04,
+      "volume": 12487100,
+      "pct_change": 1.839,
+      "prev_close": 166.97
+    },
+    {
+      "date": "2026-07-28",
+      "open": 164.9,
+      "high": 167.92,
+      "low": 162.16,
+      "close": 162.88,
+      "volume": 16147500,
+      "pct_change": -4.211,
+      "prev_close": 170.04
+    },
+    {
+      "date": "2026-07-29",
+      "open": 162.58,
+      "high": 164.56,
+      "low": 155.0,
+      "close": 155.68,
+      "volume": 19240700,
+      "pct_change": -4.42,
+      "prev_close": 162.88
+    },
+    {
+      "date": "2026-07-30",
+      "open": 146.55,
+      "high": 154.16,
+      "low": 146.0,
+      "close": 151.6,
+      "volume": 24336800,
+      "pct_change": -2.621,
+      "prev_close": 155.68
+    },
+    {
+      "date": "2026-07-31",
+      "open": 152.96,
+      "high": 153.73,
+      "low": 146.15,
+      "close": 147.61,
+      "volume": 13811200,
+      "pct_change": -2.632,
+      "prev_close": 151.6
+    },
+    {
+      "date": "2026-08-03",
+      "open": 146.2,
+      "high": 151.68,
+      "low": 142.89,
+      "close": 151.57,
+      "volume": 13700700,
+      "pct_change": 2.683,
+      "prev_close": 147.61
+    },
+    {
+      "date": "2026-08-04",
+      "open": 156.98,
+      "high": 163.48,
+      "low": 155.31,
+      "close": 162.67,
+      "volume": 16351500,
+      "pct_change": 7.323,
+      "prev_close": 151.57
+    },
+    {
+      "date": "2026-08-05",
+      "open": 161.3,
+      "high": 162.8,
+      "low": 157.1,
+      "close": 157.53,
+      "volume": 9725700,
+      "pct_change": -3.16,
+      "prev_close": 162.67
+    },
+    {
+      "date": "2026-08-06",
+      "open": 155.42,
+      "high": 162.6,
+      "low": 155.22,
+      "close": 160.39,
+      "volume": 7232800,
+      "pct_change": 1.816,
+      "prev_close": 157.53
+    },
+    {
+      "date": "2026-08-07",
+      "open": 163.07,
+      "high": 167.99,
+      "low": 162.3,
+      "close": 167.86,
+      "volume": 9723300,
+      "pct_change": 4.657,
+      "prev_close": 160.39
+    },
+    {
+      "date": "2026-08-10",
+      "open": 168.16,
+      "high": 168.87,
+      "low": 162.08,
+      "close": 162.17,
+      "volume": 9260000,
+      "pct_change": -3.39,
+      "prev_close": 167.86
+    },
+    {
+      "date": "2026-08-11",
+      "open": 163.75,
+      "high": 164.61,
+      "low": 161.43,
+      "close": 162.68,
+      "volume": 6326700,
+      "pct_change": 0.314,
+      "prev_close": 162.17
+    },
+    {
+      "date": "2026-08-12",
+      "open": 166.89,
+      "high": 166.94,
+      "low": 161.07,
+      "close": 163.07,
+      "volume": 7731700,
+      "pct_change": 0.24,
+      "prev_close": 162.68
+    },
+    {
+      "date": "2026-08-13",
+      "open": 163.34,
+      "high": 166.77,
+      "low": 162.51,
+      "close": 164.79,
+      "volume": 7716600,
+      "pct_change": 1.055,
+      "prev_close": 163.07
+    },
+    {
+      "date": "2026-08-14",
+      "open": 165.63,
+      "high": 166.97,
+      "low": 163.18,
+      "close": 165.79,
+      "volume": 5807700,
+      "pct_change": 0.607,
+      "prev_close": 164.79
+    },
+    {
+      "date": "2026-08-17",
+      "open": 166.25,
+      "high": 166.34,
+      "low": 161.45,
+      "close": 162.18,
+      "volume": 8967700,
+      "pct_change": -2.177,
+      "prev_close": 165.79
+    },
+    {
+      "date": "2026-08-18",
+      "open": 157.89,
+      "high": 161.81,
+      "low": 156.73,
+      "close": 160.19,
+      "volume": 11069500,
+      "pct_change": -1.227,
+      "prev_close": 162.18
+    },
+    {
+      "date": "2026-08-19",
+      "open": 163.03,
+      "high": 166.5,
+      "low": 160.19,
+      "close": 161.91,
+      "volume": 8099500,
+      "pct_change": 1.074,
+      "prev_close": 160.19
+    },
+    {
+      "date": "2026-08-20",
+      "open": 163.15,
+      "high": 165.11,
+      "low": 159.41,
+      "close": 160.74,
+      "volume": 8509900,
+      "pct_change": -0.723,
+      "prev_close": 161.91
+    },
+    {
+      "date": "2026-08-21",
+      "open": 162.92,
+      "high": 163.33,
+      "low": 159.17,
+      "close": 160.75,
+      "volume": 8517400,
+      "pct_change": 0.006,
+      "prev_close": 160.74
+    },
+    {
+      "date": "2026-08-24",
+      "open": 159.4,
+      "high": 160.24,
+      "low": 156.23,
+      "close": 158.53,
+      "volume": 10514800,
+      "pct_change": -1.381,
+      "prev_close": 160.75
+    },
+    {
+      "date": "2026-08-25",
+      "open": 160.34,
+      "high": 161.79,
+      "low": 159.08,
+      "close": 160.56,
+      "volume": 11420600,
+      "pct_change": 1.281,
+      "prev_close": 158.53
+    },
+    {
+      "date": "2026-08-26",
+      "open": 160.1,
+      "high": 163.87,
+      "low": 159.89,
+      "close": 163.72,
+      "volume": 10480300,
+      "pct_change": 1.968,
+      "prev_close": 160.56
+    },
+    {
+      "date": "2026-08-27",
+      "open": 165.16,
+      "high": 166.95,
+      "low": 161.92,
+      "close": 164.78,
+      "volume": 15065100,
+      "pct_change": 0.647,
+      "prev_close": 163.72
+    },
+    {
+      "date": "2026-08-28",
+      "open": 164.59,
+      "high": 165.49,
+      "low": 161.9,
+      "close": 164.19,
+      "volume": 7752100,
+      "pct_change": -0.358,
+      "prev_close": 164.78
+    },
+    {
+      "date": "2026-08-31",
+      "open": 164.79,
+      "high": 171.38,
+      "low": 164.19,
+      "close": 170.48,
+      "volume": 12734600,
+      "pct_change": 3.831,
+      "prev_close": 164.19
+    },
+    {
+      "date": "2026-09-01",
+      "open": 165.47,
+      "high": 167.29,
+      "low": 162.21,
+      "close": 166.61,
+      "volume": 8900900,
+      "pct_change": -2.27,
+      "prev_close": 170.48
+    },
+    {
+      "date": "2026-09-02",
+      "open": 166.04,
+      "high": 170.6,
+      "low": 165.08,
+      "close": 169.96,
+      "volume": 7525300,
+      "pct_change": 2.011,
+      "prev_close": 166.61
+    },
+    {
+      "date": "2026-09-03",
+      "open": 168.5,
+      "high": 170.03,
+      "low": 164.88,
+      "close": 168.57,
+      "volume": 6992000,
+      "pct_change": -0.818,
+      "prev_close": 169.96
+    },
+    {
+      "date": "2026-09-04",
+      "open": 169.98,
+      "high": 170.63,
+      "low": 167.04,
+      "close": 168.74,
+      "volume": 8531400,
+      "pct_change": 0.101,
+      "prev_close": 168.57
+    },
+    {
+      "date": "2026-09-08",
+      "open": 180.4,
+      "high": 183.49,
+      "low": 172.04,
+      "close": 174.09,
+      "volume": 26129200,
+      "pct_change": 3.171,
+      "prev_close": 168.74
+    },
+    {
+      "date": "2026-09-09",
+      "open": 174.72,
+      "high": 180.86,
+      "low": 173.32,
+      "close": 176.4,
+      "volume": 14802000,
+      "pct_change": 1.327,
+      "prev_close": 174.09
+    },
+    {
+      "date": "2026-09-10",
+      "open": 172.13,
+      "high": 182.4,
+      "low": 171.0,
+      "close": 176.88,
+      "volume": 15597700,
+      "pct_change": 0.272,
+      "prev_close": 176.4
+    },
+    {
+      "date": "2026-09-11",
+      "open": 178.25,
+      "high": 185.46,
+      "low": 175.74,
+      "close": 181.97,
+      "volume": 11546600,
+      "pct_change": 2.878,
+      "prev_close": 176.88
+    },
+    {
+      "date": "2026-09-14",
+      "open": 170.78,
+      "high": 181.71,
+      "low": 170.51,
+      "close": 180.15,
+      "volume": 13784800,
+      "pct_change": -1.0,
+      "prev_close": 181.97
+    },
+    {
+      "date": "2026-09-15",
+      "open": 180.54,
+      "high": 190.06,
+      "low": 180.54,
+      "close": 187.8,
+      "volume": 13852600,
+      "pct_change": 4.246,
+      "prev_close": 180.15
+    },
+    {
+      "date": "2026-09-16",
+      "open": 189.17,
+      "high": 191.28,
+      "low": 183.37,
+      "close": 184.84,
+      "volume": 9718600,
+      "pct_change": -1.576,
+      "prev_close": 187.8
+    },
+    {
+      "date": "2026-09-17",
+      "open": 190.35,
+      "high": 191.91,
+      "low": 187.76,
+      "close": 188.71,
+      "volume": 12318000,
+      "pct_change": 2.094,
+      "prev_close": 184.84
+    },
+    {
+      "date": "2026-09-18",
+      "open": 191.34,
+      "high": 192.12,
+      "low": 175.97,
+      "close": 177.72,
+      "volume": 54480300,
+      "pct_change": -5.824,
+      "prev_close": 188.71
+    },
+    {
+      "date": "2026-09-21",
+      "open": 180.61,
+      "high": 195.31,
+      "low": 179.23,
+      "close": 194.23,
+      "volume": 18444600,
+      "pct_change": 9.29,
+      "prev_close": 177.72
+    },
+    {
+      "date": "2026-09-22",
+      "open": 192.0,
+      "high": 199.15,
+      "low": 191.66,
+      "close": 198.27,
+      "volume": 11533800,
+      "pct_change": 2.08,
+      "prev_close": 194.23
+    },
+    {
+      "date": "2026-09-23",
+      "open": 199.61,
+      "high": 199.61,
+      "low": 193.22,
+      "close": 197.24,
+      "volume": 9739300,
+      "pct_change": -0.519,
+      "prev_close": 198.27
+    },
+    {
+      "date": "2026-09-24",
+      "open": 196.58,
+      "high": 196.77,
+      "low": 191.75,
+      "close": 194.26,
+      "volume": 9089000,
+      "pct_change": -1.511,
+      "prev_close": 197.24
+    },
+    {
+      "date": "2026-09-25",
+      "open": 195.03,
+      "high": 205.85,
+      "low": 194.53,
+      "close": 201.97,
+      "volume": 17805500,
+      "pct_change": 3.969,
+      "prev_close": 194.26
+    }
+  ],
+  "beats": [
+    {
+      "date": "2026-04-30",
+      "pct_change": 15.115,
+      "close": 179.58,
+      "direction": "up",
+      "headline": "QCOM surges 15.1% after Q2 10-Q and 8-K filings",
+      "explanation": "Qualcomm shares jumped 15.12% to $179.58 on trading volume 4.7 times its 30-day average following the release of its quarterly 10-Q and 8-K filings the prior evening. The gain was largely company-specific, far outpacing supplier TSM (+0.57%) and customer AAPL (+0.44%), while competitors traded mixed.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_QCOM_20260430_price",
+        "ev_QCOM_20260430_filing_000080432826000060",
+        "ev_QCOM_20260430_filing_000080432826000061",
+        "ev_QCOM_20260430_peer_AAPL",
+        "ev_QCOM_20260430_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-05-05",
+      "pct_change": 10.791,
+      "close": 186.55,
+      "direction": "up",
+      "headline": "QCOM advances 10.8% alongside competitor rally",
+      "explanation": "Qualcomm rose 10.79% to close at $186.55 on 2.6 times average volume without company-specific news. The advance was shared with several competitors, notably INTC, which rallied 12.91%, and AMD, which gained 4.02%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_QCOM_20260505_price",
+        "ev_QCOM_20260505_peer_INTC",
+        "ev_QCOM_20260505_peer_AMD"
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "pct_change": 5.183,
+      "close": 202.55,
+      "direction": "up",
+      "headline": "QCOM gains 5.2% in company-specific advance",
+      "explanation": "Qualcomm climbed 5.18% to $202.55 on 3.9 times average volume despite the absence of company-specific headlines. The move was company-specific, as competitors AMD (-3.07%), AVGO (-3.03%), and INTC (-3.00%) all declined.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_QCOM_20260507_price",
+        "ev_QCOM_20260507_peer_AMD",
+        "ev_QCOM_20260507_peer_AVGO",
+        "ev_QCOM_20260507_peer_INTC"
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "pct_change": 8.417,
+      "close": 237.53,
+      "direction": "up",
+      "headline": "QCOM climbs 8.4% to $237.53 on heavy volume",
+      "explanation": "Qualcomm advanced 8.42% to close at $237.53 on volume 3.5 times the 30-day average. No company-specific filings or news accompanied the move, though competitor INTC gained 3.62% while customer AAPL edged down 0.22%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_QCOM_20260511_price",
+        "ev_QCOM_20260511_peer_AAPL",
+        "ev_QCOM_20260511_peer_INTC"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "pct_change": -11.46,
+      "close": 210.31,
+      "direction": "down",
+      "headline": "QCOM drops 11.5% as peer semiconductors retreat",
+      "explanation": "Qualcomm fell 11.46% to $210.31 on volume 3.0 times its 30-day average. The pullback was shared across several competitors, including INTC (-6.82%), CRUS (-4.45%), and AMD (-2.29%), in the absence of Qualcomm-specific news.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_QCOM_20260512_price",
+        "ev_QCOM_20260512_peer_INTC",
+        "ev_QCOM_20260512_peer_CRUS",
+        "ev_QCOM_20260512_peer_AMD"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "pct_change": -6.141,
+      "close": 200.08,
+      "direction": "down",
+      "headline": "QCOM drops 6.1% against broader semiconductor gains",
+      "explanation": "Qualcomm shares fell 6.14% to $200.08 on volume 1.9 times normal without company-specific news. The drop was company-specific, as supplier TSM rose 4.48% and competitors AVGO and NVDA advanced 5.52% and 4.39%, respectively.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_QCOM_20260514_price",
+        "ev_QCOM_20260514_peer_TSM",
+        "ev_QCOM_20260514_peer_AVGO",
+        "ev_QCOM_20260514_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-05-21",
+      "pct_change": 5.382,
+      "close": 213.41,
+      "direction": "up",
+      "headline": "QCOM rises 5.4% to $213.41 on elevated volume",
+      "explanation": "Qualcomm gained 5.38% to finish at $213.41 on 2.2 times average volume without company news. Competitors were largely muted or lower, including INTC (-0.39%) and NVDA (-1.77%), while customer AAPL moved up 0.91%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_QCOM_20260521_price",
+        "ev_QCOM_20260521_peer_AAPL",
+        "ev_QCOM_20260521_peer_NVDA",
+        "ev_QCOM_20260521_peer_INTC"
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "pct_change": 11.597,
+      "close": 238.16,
+      "direction": "up",
+      "headline": "QCOM jumps 11.6% to $238.16 as volume expands",
+      "explanation": "Qualcomm rose 11.60% to $238.16 with trading volume 2.3 times normal. While no direct news was reported, competitor AMD also gained 3.99% and competitor CRUS rose 2.73%, while supplier TSM slipped 0.65%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_QCOM_20260522_price",
+        "ev_QCOM_20260522_peer_AMD",
+        "ev_QCOM_20260522_peer_CRUS",
+        "ev_QCOM_20260522_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "pct_change": -8.776,
+      "close": 228.99,
+      "direction": "down",
+      "headline": "QCOM falls 8.8% to $228.99 on 1.6x volume",
+      "explanation": "Qualcomm declined 8.78% to $228.99 without company-specific disclosures. The retreat was shared with competitor INTC (-4.67%) and customer AAPL (-1.84%), even as supplier TSM rose 4.11% and competitor NVDA climbed 6.26%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_QCOM_20260601_price",
+        "ev_QCOM_20260601_peer_INTC",
+        "ev_QCOM_20260601_peer_AAPL",
+        "ev_QCOM_20260601_peer_TSM",
+        "ev_QCOM_20260601_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "pct_change": 3.794,
+      "close": 204.9,
+      "direction": "up",
+      "headline": "QCOM gains 3.8% following Form 8-K filing",
+      "explanation": "Qualcomm rose 3.79% to $204.90 on 2.7 times normal volume after filing a Form 8-K the prior day. The gain occurred as competitor AMD added 2.47%, while customer AAPL dropped 6.12%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_QCOM_20260625_price",
+        "ev_QCOM_20260625_filing_000110465926077071",
+        "ev_QCOM_20260625_peer_AAPL",
+        "ev_QCOM_20260625_peer_AMD"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "pct_change": -7.57,
+      "close": 189.39,
+      "direction": "down",
+      "headline": "QCOM slides 7.6% alongside broader peer weakness",
+      "explanation": "Qualcomm lost 7.57% to close at $189.39 on 2.9 times average volume. The decline was shared across competitors CRUS (-4.86%), AVGO (-3.67%), and INTC (-3.42%), even as customer AAPL gained 3.14%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_QCOM_20260626_price",
+        "ev_QCOM_20260626_peer_CRUS",
+        "ev_QCOM_20260626_peer_AVGO",
+        "ev_QCOM_20260626_peer_INTC",
+        "ev_QCOM_20260626_peer_AAPL"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "pct_change": -5.824,
+      "close": 177.72,
+      "direction": "down",
+      "headline": "QCOM slides 5.8% on Apple iPhone share loss reports",
+      "explanation": "Qualcomm fell 5.82% to $177.72 on 4.2 times average volume following reports that its component share in customer Apple's recent iPhone launch would fall materially below its previous 20% estimate. The selloff was company-specific, as supplier TSM rose 1.02% and competitors AMD and AVGO climbed 2.70% and 2.97%, respectively.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_QCOM_20260918_price",
+        "ev_QCOM_20260918_news1",
+        "ev_QCOM_20260918_news3",
+        "ev_QCOM_20260918_peer_TSM",
+        "ev_QCOM_20260918_peer_AMD",
+        "ev_QCOM_20260918_peer_AVGO"
+      ]
+    }
+  ],
+  "evidence": {
+    "ev_QCOM_20260430_price": {
+      "id": "ev_QCOM_20260430_price",
+      "kind": "price",
+      "title": "QCOM rose 15.12% on 2026-04-30",
+      "detail": "Closed at $179.58 from $156.00. Volume was 4.7x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "pct_change": 15.115,
+        "close": 179.58,
+        "prev_close": 156.0,
+        "volume": 61132700,
+        "volume_vs_30d_avg": 4.71,
+        "move_excluding_sector_pct": 13.99
+      }
+    },
+    "ev_QCOM_20260430_peer_AAPL": {
+      "id": "ev_QCOM_20260430_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +0.44% the same day",
+      "detail": "QCOM moved +15.12% while AAPL moved +0.44%. AAPL is QCOM's customer (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": 0.44,
+        "subject_pct_change": 15.115,
+        "relationship": "customer"
+      }
+    },
+    "ev_QCOM_20260430_peer_AMD": {
+      "id": "ev_QCOM_20260430_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +5.16% the same day",
+      "detail": "QCOM moved +15.12% while AMD moved +5.16%. AMD is QCOM's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": 5.16,
+        "subject_pct_change": 15.115,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260430_peer_AVGO": {
+      "id": "ev_QCOM_20260430_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +2.96% the same day",
+      "detail": "QCOM moved +15.12% while AVGO moved +2.96%. AVGO is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": 2.96,
+        "subject_pct_change": 15.115,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260430_peer_CRUS": {
+      "id": "ev_QCOM_20260430_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (competitor) moved +3.68% the same day",
+      "detail": "QCOM moved +15.12% while CRUS moved +3.68%. CRUS is QCOM's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": 3.68,
+        "subject_pct_change": 15.115,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260430_peer_INTC": {
+      "id": "ev_QCOM_20260430_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -0.28% the same day",
+      "detail": "QCOM moved +15.12% while INTC moved -0.28%. INTC is QCOM's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": -0.28,
+        "subject_pct_change": 15.115,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260430_peer_NVDA": {
+      "id": "ev_QCOM_20260430_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -4.63% the same day",
+      "detail": "QCOM moved +15.12% while NVDA moved -4.63%. NVDA is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": -4.63,
+        "subject_pct_change": 15.115,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260430_peer_TSM": {
+      "id": "ev_QCOM_20260430_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +0.57% the same day",
+      "detail": "QCOM moved +15.12% while TSM moved +0.57%. TSM is QCOM's supplier (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": 0.57,
+        "subject_pct_change": 15.115,
+        "relationship": "supplier"
+      }
+    },
+    "ev_QCOM_20260430_filing_000080432826000061": {
+      "id": "ev_QCOM_20260430_filing_000080432826000061",
+      "kind": "filing",
+      "title": "10-Q filed 2026-04-29",
+      "detail": "10-Q",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000061/qcom-20260329.htm",
+      "occurred_on": "2026-04-29",
+      "numbers": {}
+    },
+    "ev_QCOM_20260430_filing_000080432826000060": {
+      "id": "ev_QCOM_20260430_filing_000080432826000060",
+      "kind": "filing",
+      "title": "8-K filed 2026-04-29",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000060/qcom-20260429.htm",
+      "occurred_on": "2026-04-29",
+      "numbers": {}
+    },
+    "ev_QCOM_20260505_price": {
+      "id": "ev_QCOM_20260505_price",
+      "kind": "price",
+      "title": "QCOM rose 10.79% on 2026-05-05",
+      "detail": "Closed at $186.55 from $168.38. Volume was 2.6x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "pct_change": 10.791,
+        "close": 186.55,
+        "prev_close": 168.38,
+        "volume": 34274900,
+        "volume_vs_30d_avg": 2.64,
+        "move_excluding_sector_pct": 7.41
+      }
+    },
+    "ev_QCOM_20260505_peer_AAPL": {
+      "id": "ev_QCOM_20260505_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +2.65% the same day",
+      "detail": "QCOM moved +10.79% while AAPL moved +2.65%. AAPL is QCOM's customer (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": 2.65,
+        "subject_pct_change": 10.791,
+        "relationship": "customer"
+      }
+    },
+    "ev_QCOM_20260505_peer_AMD": {
+      "id": "ev_QCOM_20260505_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +4.02% the same day",
+      "detail": "QCOM moved +10.79% while AMD moved +4.02%. AMD is QCOM's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": 4.02,
+        "subject_pct_change": 10.791,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260505_peer_AVGO": {
+      "id": "ev_QCOM_20260505_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +2.61% the same day",
+      "detail": "QCOM moved +10.79% while AVGO moved +2.61%. AVGO is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": 2.61,
+        "subject_pct_change": 10.791,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260505_peer_CRUS": {
+      "id": "ev_QCOM_20260505_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (competitor) moved +4.29% the same day",
+      "detail": "QCOM moved +10.79% while CRUS moved +4.29%. CRUS is QCOM's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": 4.29,
+        "subject_pct_change": 10.791,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260505_peer_INTC": {
+      "id": "ev_QCOM_20260505_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +12.91% the same day",
+      "detail": "QCOM moved +10.79% while INTC moved +12.91%. INTC is QCOM's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": 12.91,
+        "subject_pct_change": 10.791,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260505_peer_NVDA": {
+      "id": "ev_QCOM_20260505_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -1.00% the same day",
+      "detail": "QCOM moved +10.79% while NVDA moved -1.00%. NVDA is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": -1.0,
+        "subject_pct_change": 10.791,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260505_peer_TSM": {
+      "id": "ev_QCOM_20260505_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -1.79% the same day",
+      "detail": "QCOM moved +10.79% while TSM moved -1.79%. TSM is QCOM's supplier (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": -1.79,
+        "subject_pct_change": 10.791,
+        "relationship": "supplier"
+      }
+    },
+    "ev_QCOM_20260507_price": {
+      "id": "ev_QCOM_20260507_price",
+      "kind": "price",
+      "title": "QCOM rose 5.18% on 2026-05-07",
+      "detail": "Closed at $202.55 from $192.57. Volume was 3.9x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-07",
+      "numbers": {
+        "pct_change": 5.183,
+        "close": 202.55,
+        "prev_close": 192.57,
+        "volume": 51092200,
+        "volume_vs_30d_avg": 3.93,
+        "move_excluding_sector_pct": 6.08
+      }
+    },
+    "ev_QCOM_20260507_peer_AAPL": {
+      "id": "ev_QCOM_20260507_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -0.02% the same day",
+      "detail": "QCOM moved +5.18% while AAPL moved -0.02%. AAPL is QCOM's customer (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-05-07",
+      "numbers": {
+        "peer_pct_change": -0.02,
+        "subject_pct_change": 5.183,
+        "relationship": "customer"
+      }
+    },
+    "ev_QCOM_20260507_peer_AMD": {
+      "id": "ev_QCOM_20260507_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved -3.07% the same day",
+      "detail": "QCOM moved +5.18% while AMD moved -3.07%. AMD is QCOM's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-07",
+      "numbers": {
+        "peer_pct_change": -3.07,
+        "subject_pct_change": 5.183,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260507_peer_AVGO": {
+      "id": "ev_QCOM_20260507_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -3.03% the same day",
+      "detail": "QCOM moved +5.18% while AVGO moved -3.03%. AVGO is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-07",
+      "numbers": {
+        "peer_pct_change": -3.03,
+        "subject_pct_change": 5.183,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260507_peer_CRUS": {
+      "id": "ev_QCOM_20260507_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (competitor) moved +2.38% the same day",
+      "detail": "QCOM moved +5.18% while CRUS moved +2.38%. CRUS is QCOM's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-05-07",
+      "numbers": {
+        "peer_pct_change": 2.38,
+        "subject_pct_change": 5.183,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260507_peer_INTC": {
+      "id": "ev_QCOM_20260507_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -3.00% the same day",
+      "detail": "QCOM moved +5.18% while INTC moved -3.00%. INTC is QCOM's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-07",
+      "numbers": {
+        "peer_pct_change": -3.0,
+        "subject_pct_change": 5.183,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260507_peer_NVDA": {
+      "id": "ev_QCOM_20260507_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +1.77% the same day",
+      "detail": "QCOM moved +5.18% while NVDA moved +1.77%. NVDA is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-07",
+      "numbers": {
+        "peer_pct_change": 1.77,
+        "subject_pct_change": 5.183,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260507_peer_TSM": {
+      "id": "ev_QCOM_20260507_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -1.27% the same day",
+      "detail": "QCOM moved +5.18% while TSM moved -1.27%. TSM is QCOM's supplier (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-07",
+      "numbers": {
+        "peer_pct_change": -1.27,
+        "subject_pct_change": 5.183,
+        "relationship": "supplier"
+      }
+    },
+    "ev_QCOM_20260511_price": {
+      "id": "ev_QCOM_20260511_price",
+      "kind": "price",
+      "title": "QCOM rose 8.42% on 2026-05-11",
+      "detail": "Closed at $237.53 from $219.09. Volume was 3.5x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-11",
+      "numbers": {
+        "pct_change": 8.417,
+        "close": 237.53,
+        "prev_close": 219.09,
+        "volume": 45474000,
+        "volume_vs_30d_avg": 3.5,
+        "move_excluding_sector_pct": 7.62
+      }
+    },
+    "ev_QCOM_20260511_peer_AAPL": {
+      "id": "ev_QCOM_20260511_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -0.22% the same day",
+      "detail": "QCOM moved +8.42% while AAPL moved -0.22%. AAPL is QCOM's customer (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-05-11",
+      "numbers": {
+        "peer_pct_change": -0.22,
+        "subject_pct_change": 8.417,
+        "relationship": "customer"
+      }
+    },
+    "ev_QCOM_20260511_peer_AMD": {
+      "id": "ev_QCOM_20260511_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +0.79% the same day",
+      "detail": "QCOM moved +8.42% while AMD moved +0.79%. AMD is QCOM's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-11",
+      "numbers": {
+        "peer_pct_change": 0.79,
+        "subject_pct_change": 8.417,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260511_peer_AVGO": {
+      "id": "ev_QCOM_20260511_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -0.36% the same day",
+      "detail": "QCOM moved +8.42% while AVGO moved -0.36%. AVGO is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-11",
+      "numbers": {
+        "peer_pct_change": -0.36,
+        "subject_pct_change": 8.417,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260511_peer_CRUS": {
+      "id": "ev_QCOM_20260511_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (competitor) moved +1.49% the same day",
+      "detail": "QCOM moved +8.42% while CRUS moved +1.49%. CRUS is QCOM's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-05-11",
+      "numbers": {
+        "peer_pct_change": 1.49,
+        "subject_pct_change": 8.417,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260511_peer_INTC": {
+      "id": "ev_QCOM_20260511_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +3.62% the same day",
+      "detail": "QCOM moved +8.42% while INTC moved +3.62%. INTC is QCOM's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-11",
+      "numbers": {
+        "peer_pct_change": 3.62,
+        "subject_pct_change": 8.417,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260511_peer_NVDA": {
+      "id": "ev_QCOM_20260511_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +1.97% the same day",
+      "detail": "QCOM moved +8.42% while NVDA moved +1.97%. NVDA is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-11",
+      "numbers": {
+        "peer_pct_change": 1.97,
+        "subject_pct_change": 8.417,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260511_peer_TSM": {
+      "id": "ev_QCOM_20260511_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -1.73% the same day",
+      "detail": "QCOM moved +8.42% while TSM moved -1.73%. TSM is QCOM's supplier (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-11",
+      "numbers": {
+        "peer_pct_change": -1.73,
+        "subject_pct_change": 8.417,
+        "relationship": "supplier"
+      }
+    },
+    "ev_QCOM_20260512_price": {
+      "id": "ev_QCOM_20260512_price",
+      "kind": "price",
+      "title": "QCOM fell 11.46% on 2026-05-12",
+      "detail": "Closed at $210.31 from $237.53. Volume was 3.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-12",
+      "numbers": {
+        "pct_change": -11.46,
+        "close": 210.31,
+        "prev_close": 237.53,
+        "volume": 38590100,
+        "volume_vs_30d_avg": 2.97,
+        "move_excluding_sector_pct": 9.15
+      }
+    },
+    "ev_QCOM_20260512_peer_AAPL": {
+      "id": "ev_QCOM_20260512_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +0.72% the same day",
+      "detail": "QCOM moved -11.46% while AAPL moved +0.72%. AAPL is QCOM's customer (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-05-12",
+      "numbers": {
+        "peer_pct_change": 0.72,
+        "subject_pct_change": -11.46,
+        "relationship": "customer"
+      }
+    },
+    "ev_QCOM_20260512_peer_AMD": {
+      "id": "ev_QCOM_20260512_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved -2.29% the same day",
+      "detail": "QCOM moved -11.46% while AMD moved -2.29%. AMD is QCOM's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-12",
+      "numbers": {
+        "peer_pct_change": -2.29,
+        "subject_pct_change": -11.46,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260512_peer_AVGO": {
+      "id": "ev_QCOM_20260512_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -2.13% the same day",
+      "detail": "QCOM moved -11.46% while AVGO moved -2.13%. AVGO is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-12",
+      "numbers": {
+        "peer_pct_change": -2.13,
+        "subject_pct_change": -11.46,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260512_peer_CRUS": {
+      "id": "ev_QCOM_20260512_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (competitor) moved -4.45% the same day",
+      "detail": "QCOM moved -11.46% while CRUS moved -4.45%. CRUS is QCOM's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-05-12",
+      "numbers": {
+        "peer_pct_change": -4.45,
+        "subject_pct_change": -11.46,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260512_peer_INTC": {
+      "id": "ev_QCOM_20260512_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -6.82% the same day",
+      "detail": "QCOM moved -11.46% while INTC moved -6.82%. INTC is QCOM's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-12",
+      "numbers": {
+        "peer_pct_change": -6.82,
+        "subject_pct_change": -11.46,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260512_peer_NVDA": {
+      "id": "ev_QCOM_20260512_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +0.61% the same day",
+      "detail": "QCOM moved -11.46% while NVDA moved +0.61%. NVDA is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-12",
+      "numbers": {
+        "peer_pct_change": 0.61,
+        "subject_pct_change": -11.46,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260512_peer_TSM": {
+      "id": "ev_QCOM_20260512_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -1.79% the same day",
+      "detail": "QCOM moved -11.46% while TSM moved -1.79%. TSM is QCOM's supplier (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-12",
+      "numbers": {
+        "peer_pct_change": -1.79,
+        "subject_pct_change": -11.46,
+        "relationship": "supplier"
+      }
+    },
+    "ev_QCOM_20260514_price": {
+      "id": "ev_QCOM_20260514_price",
+      "kind": "price",
+      "title": "QCOM fell 6.14% on 2026-05-14",
+      "detail": "Closed at $200.08 from $213.17. Volume was 1.9x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "pct_change": -6.141,
+        "close": 200.08,
+        "prev_close": 213.17,
+        "volume": 24883900,
+        "volume_vs_30d_avg": 1.92,
+        "move_excluding_sector_pct": 7.47
+      }
+    },
+    "ev_QCOM_20260514_peer_AAPL": {
+      "id": "ev_QCOM_20260514_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -0.22% the same day",
+      "detail": "QCOM moved -6.14% while AAPL moved -0.22%. AAPL is QCOM's customer (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": -0.22,
+        "subject_pct_change": -6.141,
+        "relationship": "customer"
+      }
+    },
+    "ev_QCOM_20260514_peer_AMD": {
+      "id": "ev_QCOM_20260514_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +0.94% the same day",
+      "detail": "QCOM moved -6.14% while AMD moved +0.94%. AMD is QCOM's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": 0.94,
+        "subject_pct_change": -6.141,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260514_peer_AVGO": {
+      "id": "ev_QCOM_20260514_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +5.52% the same day",
+      "detail": "QCOM moved -6.14% while AVGO moved +5.52%. AVGO is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": 5.52,
+        "subject_pct_change": -6.141,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260514_peer_CRUS": {
+      "id": "ev_QCOM_20260514_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (competitor) moved -2.17% the same day",
+      "detail": "QCOM moved -6.14% while CRUS moved -2.17%. CRUS is QCOM's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": -2.17,
+        "subject_pct_change": -6.141,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260514_peer_INTC": {
+      "id": "ev_QCOM_20260514_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -3.62% the same day",
+      "detail": "QCOM moved -6.14% while INTC moved -3.62%. INTC is QCOM's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": -3.62,
+        "subject_pct_change": -6.141,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260514_peer_NVDA": {
+      "id": "ev_QCOM_20260514_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +4.39% the same day",
+      "detail": "QCOM moved -6.14% while NVDA moved +4.39%. NVDA is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": 4.39,
+        "subject_pct_change": -6.141,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260514_peer_TSM": {
+      "id": "ev_QCOM_20260514_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +4.48% the same day",
+      "detail": "QCOM moved -6.14% while TSM moved +4.48%. TSM is QCOM's supplier (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-14",
+      "numbers": {
+        "peer_pct_change": 4.48,
+        "subject_pct_change": -6.141,
+        "relationship": "supplier"
+      }
+    },
+    "ev_QCOM_20260521_price": {
+      "id": "ev_QCOM_20260521_price",
+      "kind": "price",
+      "title": "QCOM rose 5.38% on 2026-05-21",
+      "detail": "Closed at $213.41 from $202.51. Volume was 2.2x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-21",
+      "numbers": {
+        "pct_change": 5.382,
+        "close": 213.41,
+        "prev_close": 202.51,
+        "volume": 28163700,
+        "volume_vs_30d_avg": 2.17,
+        "move_excluding_sector_pct": 5.36
+      }
+    },
+    "ev_QCOM_20260521_peer_AAPL": {
+      "id": "ev_QCOM_20260521_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +0.91% the same day",
+      "detail": "QCOM moved +5.38% while AAPL moved +0.91%. AAPL is QCOM's customer (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-05-21",
+      "numbers": {
+        "peer_pct_change": 0.91,
+        "subject_pct_change": 5.382,
+        "relationship": "customer"
+      }
+    },
+    "ev_QCOM_20260521_peer_AMD": {
+      "id": "ev_QCOM_20260521_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +0.45% the same day",
+      "detail": "QCOM moved +5.38% while AMD moved +0.45%. AMD is QCOM's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-21",
+      "numbers": {
+        "peer_pct_change": 0.45,
+        "subject_pct_change": 5.382,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260521_peer_AVGO": {
+      "id": "ev_QCOM_20260521_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -0.76% the same day",
+      "detail": "QCOM moved +5.38% while AVGO moved -0.76%. AVGO is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-21",
+      "numbers": {
+        "peer_pct_change": -0.76,
+        "subject_pct_change": 5.382,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260521_peer_CRUS": {
+      "id": "ev_QCOM_20260521_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (competitor) moved +0.37% the same day",
+      "detail": "QCOM moved +5.38% while CRUS moved +0.37%. CRUS is QCOM's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-05-21",
+      "numbers": {
+        "peer_pct_change": 0.37,
+        "subject_pct_change": 5.382,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260521_peer_INTC": {
+      "id": "ev_QCOM_20260521_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -0.39% the same day",
+      "detail": "QCOM moved +5.38% while INTC moved -0.39%. INTC is QCOM's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-21",
+      "numbers": {
+        "peer_pct_change": -0.39,
+        "subject_pct_change": 5.382,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260521_peer_NVDA": {
+      "id": "ev_QCOM_20260521_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -1.77% the same day",
+      "detail": "QCOM moved +5.38% while NVDA moved -1.77%. NVDA is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-21",
+      "numbers": {
+        "peer_pct_change": -1.77,
+        "subject_pct_change": 5.382,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260521_peer_TSM": {
+      "id": "ev_QCOM_20260521_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +1.38% the same day",
+      "detail": "QCOM moved +5.38% while TSM moved +1.38%. TSM is QCOM's supplier (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-21",
+      "numbers": {
+        "peer_pct_change": 1.38,
+        "subject_pct_change": 5.382,
+        "relationship": "supplier"
+      }
+    },
+    "ev_QCOM_20260522_price": {
+      "id": "ev_QCOM_20260522_price",
+      "kind": "price",
+      "title": "QCOM rose 11.60% on 2026-05-22",
+      "detail": "Closed at $238.16 from $213.41. Volume was 2.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-05-22",
+      "numbers": {
+        "pct_change": 11.597,
+        "close": 238.16,
+        "prev_close": 213.41,
+        "volume": 30375700,
+        "volume_vs_30d_avg": 2.34,
+        "move_excluding_sector_pct": 10.68
+      }
+    },
+    "ev_QCOM_20260522_peer_AAPL": {
+      "id": "ev_QCOM_20260522_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +1.26% the same day",
+      "detail": "QCOM moved +11.60% while AAPL moved +1.26%. AAPL is QCOM's customer (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-05-22",
+      "numbers": {
+        "peer_pct_change": 1.26,
+        "subject_pct_change": 11.597,
+        "relationship": "customer"
+      }
+    },
+    "ev_QCOM_20260522_peer_AMD": {
+      "id": "ev_QCOM_20260522_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +3.99% the same day",
+      "detail": "QCOM moved +11.60% while AMD moved +3.99%. AMD is QCOM's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-22",
+      "numbers": {
+        "peer_pct_change": 3.99,
+        "subject_pct_change": 11.597,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260522_peer_AVGO": {
+      "id": "ev_QCOM_20260522_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -0.10% the same day",
+      "detail": "QCOM moved +11.60% while AVGO moved -0.10%. AVGO is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-05-22",
+      "numbers": {
+        "peer_pct_change": -0.1,
+        "subject_pct_change": 11.597,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260522_peer_CRUS": {
+      "id": "ev_QCOM_20260522_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (competitor) moved +2.73% the same day",
+      "detail": "QCOM moved +11.60% while CRUS moved +2.73%. CRUS is QCOM's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-05-22",
+      "numbers": {
+        "peer_pct_change": 2.73,
+        "subject_pct_change": 11.597,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260522_peer_INTC": {
+      "id": "ev_QCOM_20260522_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +1.13% the same day",
+      "detail": "QCOM moved +11.60% while INTC moved +1.13%. INTC is QCOM's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-22",
+      "numbers": {
+        "peer_pct_change": 1.13,
+        "subject_pct_change": 11.597,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260522_peer_NVDA": {
+      "id": "ev_QCOM_20260522_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -1.90% the same day",
+      "detail": "QCOM moved +11.60% while NVDA moved -1.90%. NVDA is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-22",
+      "numbers": {
+        "peer_pct_change": -1.9,
+        "subject_pct_change": 11.597,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260522_peer_TSM": {
+      "id": "ev_QCOM_20260522_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -0.65% the same day",
+      "detail": "QCOM moved +11.60% while TSM moved -0.65%. TSM is QCOM's supplier (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-22",
+      "numbers": {
+        "peer_pct_change": -0.65,
+        "subject_pct_change": 11.597,
+        "relationship": "supplier"
+      }
+    },
+    "ev_QCOM_20260601_price": {
+      "id": "ev_QCOM_20260601_price",
+      "kind": "price",
+      "title": "QCOM fell 8.78% on 2026-06-01",
+      "detail": "Closed at $228.99 from $251.02. Volume was 1.6x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "pct_change": -8.776,
+        "close": 228.99,
+        "prev_close": 251.02,
+        "volume": 21185200,
+        "volume_vs_30d_avg": 1.63,
+        "move_excluding_sector_pct": 9.4
+      }
+    },
+    "ev_QCOM_20260601_peer_AAPL": {
+      "id": "ev_QCOM_20260601_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -1.84% the same day",
+      "detail": "QCOM moved -8.78% while AAPL moved -1.84%. AAPL is QCOM's customer (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": -1.84,
+        "subject_pct_change": -8.776,
+        "relationship": "customer"
+      }
+    },
+    "ev_QCOM_20260601_peer_AMD": {
+      "id": "ev_QCOM_20260601_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved -1.16% the same day",
+      "detail": "QCOM moved -8.78% while AMD moved -1.16%. AMD is QCOM's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": -1.16,
+        "subject_pct_change": -8.776,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260601_peer_AVGO": {
+      "id": "ev_QCOM_20260601_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +2.96% the same day",
+      "detail": "QCOM moved -8.78% while AVGO moved +2.96%. AVGO is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": 2.96,
+        "subject_pct_change": -8.776,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260601_peer_CRUS": {
+      "id": "ev_QCOM_20260601_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (competitor) moved -1.31% the same day",
+      "detail": "QCOM moved -8.78% while CRUS moved -1.31%. CRUS is QCOM's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": -1.31,
+        "subject_pct_change": -8.776,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260601_peer_INTC": {
+      "id": "ev_QCOM_20260601_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -4.67% the same day",
+      "detail": "QCOM moved -8.78% while INTC moved -4.67%. INTC is QCOM's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": -4.67,
+        "subject_pct_change": -8.776,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260601_peer_NVDA": {
+      "id": "ev_QCOM_20260601_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +6.26% the same day",
+      "detail": "QCOM moved -8.78% while NVDA moved +6.26%. NVDA is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": 6.26,
+        "subject_pct_change": -8.776,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260601_peer_TSM": {
+      "id": "ev_QCOM_20260601_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +4.11% the same day",
+      "detail": "QCOM moved -8.78% while TSM moved +4.11%. TSM is QCOM's supplier (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-01",
+      "numbers": {
+        "peer_pct_change": 4.11,
+        "subject_pct_change": -8.776,
+        "relationship": "supplier"
+      }
+    },
+    "ev_QCOM_20260625_price": {
+      "id": "ev_QCOM_20260625_price",
+      "kind": "price",
+      "title": "QCOM rose 3.79% on 2026-06-25",
+      "detail": "Closed at $204.90 from $197.41. Volume was 2.7x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "pct_change": 3.794,
+        "close": 204.9,
+        "prev_close": 197.41,
+        "volume": 34793200,
+        "volume_vs_30d_avg": 2.68,
+        "move_excluding_sector_pct": 5.06
+      }
+    },
+    "ev_QCOM_20260625_peer_AAPL": {
+      "id": "ev_QCOM_20260625_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -6.12% the same day",
+      "detail": "QCOM moved +3.79% while AAPL moved -6.12%. AAPL is QCOM's customer (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": -6.12,
+        "subject_pct_change": 3.794,
+        "relationship": "customer"
+      }
+    },
+    "ev_QCOM_20260625_peer_AMD": {
+      "id": "ev_QCOM_20260625_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +2.47% the same day",
+      "detail": "QCOM moved +3.79% while AMD moved +2.47%. AMD is QCOM's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": 2.47,
+        "subject_pct_change": 3.794,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260625_peer_AVGO": {
+      "id": "ev_QCOM_20260625_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -0.83% the same day",
+      "detail": "QCOM moved +3.79% while AVGO moved -0.83%. AVGO is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": -0.83,
+        "subject_pct_change": 3.794,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260625_peer_CRUS": {
+      "id": "ev_QCOM_20260625_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (competitor) moved -2.34% the same day",
+      "detail": "QCOM moved +3.79% while CRUS moved -2.34%. CRUS is QCOM's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": -2.34,
+        "subject_pct_change": 3.794,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260625_peer_INTC": {
+      "id": "ev_QCOM_20260625_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved +0.93% the same day",
+      "detail": "QCOM moved +3.79% while INTC moved +0.93%. INTC is QCOM's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": 0.93,
+        "subject_pct_change": 3.794,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260625_peer_NVDA": {
+      "id": "ev_QCOM_20260625_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -1.64% the same day",
+      "detail": "QCOM moved +3.79% while NVDA moved -1.64%. NVDA is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": -1.64,
+        "subject_pct_change": 3.794,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260625_peer_TSM": {
+      "id": "ev_QCOM_20260625_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -1.32% the same day",
+      "detail": "QCOM moved +3.79% while TSM moved -1.32%. TSM is QCOM's supplier (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": -1.32,
+        "subject_pct_change": 3.794,
+        "relationship": "supplier"
+      }
+    },
+    "ev_QCOM_20260625_filing_000110465926077071": {
+      "id": "ev_QCOM_20260625_filing_000110465926077071",
+      "kind": "filing",
+      "title": "8-K filed 2026-06-24",
+      "detail": "FORM 8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926077071/tm2618522d1_8k.htm",
+      "occurred_on": "2026-06-24",
+      "numbers": {}
+    },
+    "ev_QCOM_20260626_price": {
+      "id": "ev_QCOM_20260626_price",
+      "kind": "price",
+      "title": "QCOM fell 7.57% on 2026-06-26",
+      "detail": "Closed at $189.39 from $204.90. Volume was 2.9x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "pct_change": -7.57,
+        "close": 189.39,
+        "prev_close": 204.9,
+        "volume": 37128900,
+        "volume_vs_30d_avg": 2.86,
+        "move_excluding_sector_pct": 5.7
+      }
+    },
+    "ev_QCOM_20260626_peer_AAPL": {
+      "id": "ev_QCOM_20260626_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved +3.14% the same day",
+      "detail": "QCOM moved -7.57% while AAPL moved +3.14%. AAPL is QCOM's customer (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": 3.14,
+        "subject_pct_change": -7.57,
+        "relationship": "customer"
+      }
+    },
+    "ev_QCOM_20260626_peer_AMD": {
+      "id": "ev_QCOM_20260626_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved -2.06% the same day",
+      "detail": "QCOM moved -7.57% while AMD moved -2.06%. AMD is QCOM's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -2.06,
+        "subject_pct_change": -7.57,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260626_peer_AVGO": {
+      "id": "ev_QCOM_20260626_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved -3.67% the same day",
+      "detail": "QCOM moved -7.57% while AVGO moved -3.67%. AVGO is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -3.67,
+        "subject_pct_change": -7.57,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260626_peer_CRUS": {
+      "id": "ev_QCOM_20260626_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (competitor) moved -4.86% the same day",
+      "detail": "QCOM moved -7.57% while CRUS moved -4.86%. CRUS is QCOM's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -4.86,
+        "subject_pct_change": -7.57,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260626_peer_INTC": {
+      "id": "ev_QCOM_20260626_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -3.42% the same day",
+      "detail": "QCOM moved -7.57% while INTC moved -3.42%. INTC is QCOM's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -3.42,
+        "subject_pct_change": -7.57,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260626_peer_NVDA": {
+      "id": "ev_QCOM_20260626_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -1.64% the same day",
+      "detail": "QCOM moved -7.57% while NVDA moved -1.64%. NVDA is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -1.64,
+        "subject_pct_change": -7.57,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260626_peer_TSM": {
+      "id": "ev_QCOM_20260626_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved -0.61% the same day",
+      "detail": "QCOM moved -7.57% while TSM moved -0.61%. TSM is QCOM's supplier (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -0.61,
+        "subject_pct_change": -7.57,
+        "relationship": "supplier"
+      }
+    },
+    "ev_QCOM_20260626_filing_000110465926077071": {
+      "id": "ev_QCOM_20260626_filing_000110465926077071",
+      "kind": "filing",
+      "title": "8-K filed 2026-06-24",
+      "detail": "FORM 8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926077071/tm2618522d1_8k.htm",
+      "occurred_on": "2026-06-24",
+      "numbers": {}
+    },
+    "ev_QCOM_20260918_price": {
+      "id": "ev_QCOM_20260918_price",
+      "kind": "price",
+      "title": "QCOM fell 5.82% on 2026-09-18",
+      "detail": "Closed at $177.72 from $188.71. Volume was 4.2x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/QCOM/history",
+      "occurred_on": "2026-09-18",
+      "numbers": {
+        "pct_change": -5.824,
+        "close": 177.72,
+        "prev_close": 188.71,
+        "volume": 54480300,
+        "volume_vs_30d_avg": 4.19,
+        "move_excluding_sector_pct": 6.72
+      }
+    },
+    "ev_QCOM_20260918_peer_AAPL": {
+      "id": "ev_QCOM_20260918_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL (customer) moved -0.26% the same day",
+      "detail": "QCOM moved -5.82% while AAPL moved -0.26%. AAPL is QCOM's customer (customer/licensee), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-09-18",
+      "numbers": {
+        "peer_pct_change": -0.26,
+        "subject_pct_change": -5.824,
+        "relationship": "customer"
+      }
+    },
+    "ev_QCOM_20260918_peer_AMD": {
+      "id": "ev_QCOM_20260918_peer_AMD",
+      "kind": "peer_move",
+      "title": "AMD (competitor) moved +2.70% the same day",
+      "detail": "QCOM moved -5.82% while AMD moved +2.70%. AMD is QCOM's competitor (ASSP products), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-09-18",
+      "numbers": {
+        "peer_pct_change": 2.7,
+        "subject_pct_change": -5.824,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260918_peer_AVGO": {
+      "id": "ev_QCOM_20260918_peer_AVGO",
+      "kind": "peer_move",
+      "title": "AVGO (competitor) moved +2.97% the same day",
+      "detail": "QCOM moved -5.82% while AVGO moved +2.97%. AVGO is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "occurred_on": "2026-09-18",
+      "numbers": {
+        "peer_pct_change": 2.97,
+        "subject_pct_change": -5.824,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260918_peer_CRUS": {
+      "id": "ev_QCOM_20260918_peer_CRUS",
+      "kind": "peer_move",
+      "title": "CRUS (competitor) moved -1.29% the same day",
+      "detail": "QCOM moved -5.82% while CRUS moved -1.29%. CRUS is QCOM's competitor (semiconductors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CRUS/history",
+      "occurred_on": "2026-09-18",
+      "numbers": {
+        "peer_pct_change": -1.29,
+        "subject_pct_change": -5.824,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260918_peer_INTC": {
+      "id": "ev_QCOM_20260918_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (competitor) moved -0.18% the same day",
+      "detail": "QCOM moved -5.82% while INTC moved -0.18%. INTC is QCOM's competitor (ARM-based processors), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-09-18",
+      "numbers": {
+        "peer_pct_change": -0.18,
+        "subject_pct_change": -5.824,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260918_peer_NVDA": {
+      "id": "ev_QCOM_20260918_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved +1.34% the same day",
+      "detail": "QCOM moved -5.82% while NVDA moved +1.34%. NVDA is QCOM's competitor (integrated circuit products and software), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-09-18",
+      "numbers": {
+        "peer_pct_change": 1.34,
+        "subject_pct_change": -5.824,
+        "relationship": "competitor"
+      }
+    },
+    "ev_QCOM_20260918_peer_TSM": {
+      "id": "ev_QCOM_20260918_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +1.02% the same day",
+      "detail": "QCOM moved -5.82% while TSM moved +1.02%. TSM is QCOM's supplier (foundry supplier), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-09-18",
+      "numbers": {
+        "peer_pct_change": 1.02,
+        "subject_pct_change": -5.824,
+        "relationship": "supplier"
+      }
+    },
+    "ev_QCOM_20260918_news0": {
+      "id": "ev_QCOM_20260918_news0",
+      "kind": "news",
+      "title": "Dividend Champion, Contender, And Challenger Highlights: Week September 20",
+      "detail": "Reported by SeekingAlpha. Track weekly dividend updates for Dividend Champions, Contenders & Challengers\u00e2\u0080\u0094see dividend changes, upcoming ex-dividend dates and pay dates here.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=46fedd06c559ba8b3d63e97060c25dad3687b4ac45e0e46d0a2425c82202bb5e",
+      "occurred_on": "2026-09-18",
+      "numbers": {}
+    },
+    "ev_QCOM_20260918_news1": {
+      "id": "ev_QCOM_20260918_news1",
+      "kind": "news",
+      "title": "Qualcomm Drops 6% as Past Month\u2019s Rally Unwinds; Skyworks and Qorvo Slip",
+      "detail": "Reported by Yahoo. Qualcomm is selling off sharply on a day when the broader chip fund is climbing, and the disconnect between those two moves points to something specific happening inside one of the market's most closely watched semiconductor names.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=476f277f1993e1e6964860e94b96c610f69416c1426dda746767e6f0f2fdcce4",
+      "occurred_on": "2026-09-18",
+      "numbers": {}
+    },
+    "ev_QCOM_20260918_news2": {
+      "id": "ev_QCOM_20260918_news2",
+      "kind": "news",
+      "title": "Why Does NVDA Stock Carry The Lowest Clean Multiple In Its Peer Group?",
+      "detail": "Reported by Yahoo. NVIDIA (NVDA) is the strongest business in its peer group, and it is priced below every rival you can compare it with fairly, at 27.5 times earnings. Yet over the past twelve months NVDA returned 25.7% while AMD returned 239.7%. The best business in the group is one of its weakest stocks, and not because anyone doubts the demand.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=910aaab2e37c5c865e418bf6ab96878db241210b320b80b96ec35c8568a164c5",
+      "occurred_on": "2026-09-18",
+      "numbers": {}
+    },
+    "ev_QCOM_20260918_news3": {
+      "id": "ev_QCOM_20260918_news3",
+      "kind": "news",
+      "title": "What Needs To Be True To Buy Qualcomm Stock Now?",
+      "detail": "Reported by Yahoo. Qualcomm (QCOM) told investors in its fiscal Q3 2026 call that its share of Apple's recent iPhone launch would be materially lower than its prior estimate of 20%. In the same call, management raised its non-handset revenue target for fiscal 2029 to $40 billion\u2014nearly doubling its prior $22 billion goal as automotive, IoT, and data center expand. Anyone buying the stock today is deciding whether that replacement revenue arrives on schedule.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=41a9bad6173beced040679e4a6c6d1a82c00a9a9fc14bfc0abead1f275f53b2f",
+      "occurred_on": "2026-09-18",
+      "numbers": {}
+    },
+    "ev_QCOM_20260918_news4": {
+      "id": "ev_QCOM_20260918_news4",
+      "kind": "news",
+      "title": "Bitcoin Tops $80,000, S&P 500 Slips as Yields Reclaim 5%: Stock Market Today",
+      "detail": "Reported by Benzinga. Crypto-linked equities ripped higher as Bitcoin cleared $80,000, but the S&amp;P 500 slipped with the 10-year Treasury yield back above 5%.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e855758714d176eb98515430aaeb8f671bdde6b16ce150a2074eb171fca5a2e1",
+      "occurred_on": "2026-09-18",
+      "numbers": {}
+    },
+    "ev_QCOM_20260918_news5": {
+      "id": "ev_QCOM_20260918_news5",
+      "kind": "news",
+      "title": "Citigroup CEO Jane Fraser Expected To Attend U.S. President Donald Trump's State Dinner For President Xi Jinping",
+      "detail": "Reported by Benzinga. - Reuters Citing Sources",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cfde33e0f139ddf79dc892c6ed29b903ad61502a6348de8b88a1757617983da5",
+      "occurred_on": "2026-09-18",
+      "numbers": {}
+    },
+    "ev_QCOM_20260918_news6": {
+      "id": "ev_QCOM_20260918_news6",
+      "kind": "news",
+      "title": "JPMorgan Chase CEO Jamie Dimon Will Attend U.S. President Donald Trump's State Dinner For Chinese President Xi Jinping",
+      "detail": "Reported by Benzinga. - Reuters Citing Sources",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cf209927a95250b961afa201af20089d8bf0bdc1f925ae05ad7aebbb5a8f4eb4",
+      "occurred_on": "2026-09-18",
+      "numbers": {}
+    },
+    "ev_QCOM_20260918_news7": {
+      "id": "ev_QCOM_20260918_news7",
+      "kind": "news",
+      "title": "Apple\u2019s Chip Strategy Keeps Paying Dividends",
+      "detail": "Reported by Yahoo. When Apple\u2019s iPhone turned into an immediate hit upon its 2007 release, CEO Steve Jobs was quick to realize the value of designing and owning as many of the components in its devices as possible.  Since then, designing the main chips for all its devices has been a priority for  Apple  and a potent differentiator, enabling deeper integration between software, services, and hardware than any other consumer technology company.  This week\u2019s release of iPhone 18 Pro and the A20 Pro chip inside of it, makes the advantages of Apple\u2019s chip strategy as clear as day.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=57f57b5b1ed8d7ce566d947de7a261d040489303949c6482808f7bad030d7c8a",
+      "occurred_on": "2026-09-18",
+      "numbers": {}
+    },
+    "ev_QCOM_fund_revenue": {
+      "id": "ev_QCOM_fund_revenue",
+      "kind": "fundamental",
+      "title": "Revenue: 9,947,000,000 (2026-06-28)",
+      "detail": "Reported on form 10-Q, -9.4% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/",
+      "occurred_on": "2026-07-29",
+      "numbers": {
+        "value": 9947000000,
+        "period_end": "2026-06-28",
+        "xbrl_tag": "Revenues",
+        "yoy_pct_change": -9.4
+      }
+    },
+    "ev_QCOM_fund_net_income": {
+      "id": "ev_QCOM_fund_net_income",
+      "kind": "fundamental",
+      "title": "Net Income: 2,002,000,000 (2026-06-28)",
+      "detail": "Reported on form 10-Q, -28.8% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/",
+      "occurred_on": "2026-07-29",
+      "numbers": {
+        "value": 2002000000,
+        "period_end": "2026-06-28",
+        "xbrl_tag": "NetIncomeLoss",
+        "yoy_pct_change": -28.81
+      }
+    },
+    "ev_QCOM_fund_operating_income": {
+      "id": "ev_QCOM_fund_operating_income",
+      "kind": "fundamental",
+      "title": "Operating Income: 1,626,000,000 (2026-06-28)",
+      "detail": "Reported on form 10-Q, -47.9% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/",
+      "occurred_on": "2026-07-29",
+      "numbers": {
+        "value": 1626000000,
+        "period_end": "2026-06-28",
+        "xbrl_tag": "OperatingIncomeLoss",
+        "yoy_pct_change": -47.88
+      }
+    },
+    "ev_QCOM_fund_rnd_expense": {
+      "id": "ev_QCOM_fund_rnd_expense",
+      "kind": "fundamental",
+      "title": "Rnd Expense: 2,607,000,000 (2026-06-28)",
+      "detail": "Reported on form 10-Q, +17.6% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/",
+      "occurred_on": "2026-07-29",
+      "numbers": {
+        "value": 2607000000,
+        "period_end": "2026-06-28",
+        "xbrl_tag": "ResearchAndDevelopmentExpense",
+        "yoy_pct_change": 17.64
+      }
+    },
+    "ev_QCOM_sector_IPG3344S": {
+      "id": "ev_QCOM_sector_IPG3344S",
+      "kind": "sector",
+      "title": "US semiconductor and electronic component production: 190.1 index, 2017=100, +12.3% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/IPG3344S",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 190.0987,
+        "units": "index, 2017=100",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": 12.35
+      }
+    },
+    "ev_QCOM_sector_PCU334413334413": {
+      "id": "ev_QCOM_sector_PCU334413334413",
+      "kind": "sector",
+      "title": "US semiconductor producer price index: 28.5 index, -3.1% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/PCU334413334413",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 28.472,
+        "units": "index",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": -3.13
+      }
+    }
+  },
+  "arc": "Between late April and September 2026, Qualcomm experienced extreme volatility characterized by an aggressive spring rally followed by a full unwinding of those gains. The initial surge was sparked by its Q2 financial filings on April 29, which lifted shares 15.12% and drove a momentum run that peaked near $238 in late May, frequently decoupling from peer movements. However, gains proved difficult to sustain through June amid broad semiconductor pullbacks, culminating in a sharp September selloff to $177.72 driven by confirmation that Qualcomm's component share in key customer Apple's newest iPhone fell materially below prior 20% expectations.",
+  "arc_citation_ids": [
+    "ev_QCOM_20260430_price",
+    "ev_QCOM_20260430_filing_000080432826000060",
+    "ev_QCOM_20260430_filing_000080432826000061",
+    "ev_QCOM_20260522_price",
+    "ev_QCOM_20260626_price",
+    "ev_QCOM_20260918_price",
+    "ev_QCOM_20260918_news1",
+    "ev_QCOM_20260918_news3"
+  ],
+  "warnings": []
+}

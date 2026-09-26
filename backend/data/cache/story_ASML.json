@@ -1,0 +1,2164 @@
+{
+  "symbol": "ASML",
+  "company_name": "ASML Holding N.V.",
+  "generated_at": "2026-09-26T12:32:23.396162+00:00",
+  "bars": [
+    {
+      "date": "2026-03-20",
+      "open": 1357.26,
+      "high": 1370.0,
+      "low": 1291.1,
+      "close": 1317.25,
+      "volume": 2645100,
+      "pct_change": 0.0,
+      "prev_close": 1357.26
+    },
+    {
+      "date": "2026-03-23",
+      "open": 1359.73,
+      "high": 1400.39,
+      "low": 1348.11,
+      "close": 1369.62,
+      "volume": 1983200,
+      "pct_change": 3.976,
+      "prev_close": 1317.25
+    },
+    {
+      "date": "2026-03-24",
+      "open": 1349.12,
+      "high": 1413.28,
+      "low": 1348.6801,
+      "close": 1399.42,
+      "volume": 1801000,
+      "pct_change": 2.176,
+      "prev_close": 1369.62
+    },
+    {
+      "date": "2026-03-25",
+      "open": 1394.09,
+      "high": 1405.83,
+      "low": 1366.6899,
+      "close": 1393.89,
+      "volume": 1610000,
+      "pct_change": -0.395,
+      "prev_close": 1399.42
+    },
+    {
+      "date": "2026-03-26",
+      "open": 1356.8101,
+      "high": 1359.42,
+      "low": 1326.85,
+      "close": 1329.5,
+      "volume": 1721100,
+      "pct_change": -4.619,
+      "prev_close": 1393.89
+    },
+    {
+      "date": "2026-03-27",
+      "open": 1318.4301,
+      "high": 1333.78,
+      "low": 1298.52,
+      "close": 1302.47,
+      "volume": 1759700,
+      "pct_change": -2.033,
+      "prev_close": 1329.5
+    },
+    {
+      "date": "2026-03-30",
+      "open": 1318.77,
+      "high": 1322.92,
+      "low": 1248.11,
+      "close": 1253.96,
+      "volume": 2144500,
+      "pct_change": -3.724,
+      "prev_close": 1302.47
+    },
+    {
+      "date": "2026-03-31",
+      "open": 1284.33,
+      "high": 1322.41,
+      "low": 1276.01,
+      "close": 1320.83,
+      "volume": 1731500,
+      "pct_change": 5.333,
+      "prev_close": 1253.96
+    },
+    {
+      "date": "2026-04-01",
+      "open": 1345.64,
+      "high": 1385.72,
+      "low": 1344.5601,
+      "close": 1359.76,
+      "volume": 1745000,
+      "pct_change": 2.947,
+      "prev_close": 1320.83
+    },
+    {
+      "date": "2026-04-02",
+      "open": 1305.54,
+      "high": 1356.2,
+      "low": 1298.1801,
+      "close": 1317.23,
+      "volume": 1883400,
+      "pct_change": -3.128,
+      "prev_close": 1359.76
+    },
+    {
+      "date": "2026-04-06",
+      "open": 1315.11,
+      "high": 1320.0,
+      "low": 1280.36,
+      "close": 1304.01,
+      "volume": 1299200,
+      "pct_change": -1.004,
+      "prev_close": 1317.23
+    },
+    {
+      "date": "2026-04-07",
+      "open": 1290.4399,
+      "high": 1309.0,
+      "low": 1272.21,
+      "close": 1306.45,
+      "volume": 1368900,
+      "pct_change": 0.187,
+      "prev_close": 1304.01
+    },
+    {
+      "date": "2026-04-08",
+      "open": 1421.0,
+      "high": 1429.29,
+      "low": 1384.23,
+      "close": 1421.05,
+      "volume": 2427300,
+      "pct_change": 8.772,
+      "prev_close": 1306.45
+    },
+    {
+      "date": "2026-04-09",
+      "open": 1412.12,
+      "high": 1453.55,
+      "low": 1412.12,
+      "close": 1448.64,
+      "volume": 1579700,
+      "pct_change": 1.942,
+      "prev_close": 1421.05
+    },
+    {
+      "date": "2026-04-10",
+      "open": 1482.35,
+      "high": 1502.5,
+      "low": 1473.72,
+      "close": 1478.28,
+      "volume": 1519600,
+      "pct_change": 2.046,
+      "prev_close": 1448.64
+    },
+    {
+      "date": "2026-04-13",
+      "open": 1465.16,
+      "high": 1500.8,
+      "low": 1461.03,
+      "close": 1500.2,
+      "volume": 1709400,
+      "pct_change": 1.483,
+      "prev_close": 1478.28
+    },
+    {
+      "date": "2026-04-14",
+      "open": 1526.39,
+      "high": 1531.98,
+      "low": 1496.98,
+      "close": 1518.3,
+      "volume": 1769200,
+      "pct_change": 1.207,
+      "prev_close": 1500.2
+    },
+    {
+      "date": "2026-04-15",
+      "open": 1473.53,
+      "high": 1486.17,
+      "low": 1415.25,
+      "close": 1481.77,
+      "volume": 4251700,
+      "pct_change": -2.406,
+      "prev_close": 1518.3
+    },
+    {
+      "date": "2026-04-16",
+      "open": 1453.0,
+      "high": 1453.92,
+      "low": 1406.5,
+      "close": 1410.83,
+      "volume": 2626700,
+      "pct_change": -4.788,
+      "prev_close": 1481.77
+    },
+    {
+      "date": "2026-04-17",
+      "open": 1463.76,
+      "high": 1472.48,
+      "low": 1445.6899,
+      "close": 1459.8,
+      "volume": 1876500,
+      "pct_change": 3.471,
+      "prev_close": 1410.83
+    },
+    {
+      "date": "2026-04-20",
+      "open": 1461.49,
+      "high": 1479.3,
+      "low": 1452.0,
+      "close": 1476.5,
+      "volume": 1091900,
+      "pct_change": 1.144,
+      "prev_close": 1459.8
+    },
+    {
+      "date": "2026-04-21",
+      "open": 1476.09,
+      "high": 1480.17,
+      "low": 1446.25,
+      "close": 1458.97,
+      "volume": 1274600,
+      "pct_change": -1.187,
+      "prev_close": 1476.5
+    },
+    {
+      "date": "2026-04-22",
+      "open": 1477.0,
+      "high": 1477.0,
+      "low": 1378.3,
+      "close": 1443.66,
+      "volume": 2621800,
+      "pct_change": -1.049,
+      "prev_close": 1458.97
+    },
+    {
+      "date": "2026-04-23",
+      "open": 1438.95,
+      "high": 1450.0,
+      "low": 1396.23,
+      "close": 1417.8,
+      "volume": 1800500,
+      "pct_change": -1.791,
+      "prev_close": 1443.66
+    },
+    {
+      "date": "2026-04-24",
+      "open": 1459.53,
+      "high": 1472.65,
+      "low": 1441.6899,
+      "close": 1457.7,
+      "volume": 1751800,
+      "pct_change": 2.814,
+      "prev_close": 1417.8
+    },
+    {
+      "date": "2026-04-27",
+      "open": 1457.84,
+      "high": 1458.3,
+      "low": 1415.6899,
+      "close": 1432.4399,
+      "volume": 1326200,
+      "pct_change": -1.733,
+      "prev_close": 1457.7
+    },
+    {
+      "date": "2026-04-28",
+      "open": 1389.73,
+      "high": 1398.63,
+      "low": 1364.8101,
+      "close": 1384.5601,
+      "volume": 1926900,
+      "pct_change": -3.343,
+      "prev_close": 1432.4399
+    },
+    {
+      "date": "2026-04-29",
+      "open": 1386.71,
+      "high": 1399.7,
+      "low": 1374.92,
+      "close": 1394.08,
+      "volume": 1256500,
+      "pct_change": 0.688,
+      "prev_close": 1384.5601
+    },
+    {
+      "date": "2026-04-30",
+      "open": 1414.34,
+      "high": 1446.65,
+      "low": 1395.0,
+      "close": 1438.99,
+      "volume": 1414400,
+      "pct_change": 3.221,
+      "prev_close": 1394.08
+    },
+    {
+      "date": "2026-05-01",
+      "open": 1428.29,
+      "high": 1444.15,
+      "low": 1414.0,
+      "close": 1427.02,
+      "volume": 707100,
+      "pct_change": -0.832,
+      "prev_close": 1438.99
+    },
+    {
+      "date": "2026-05-04",
+      "open": 1401.77,
+      "high": 1417.0699,
+      "low": 1366.79,
+      "close": 1386.21,
+      "volume": 1755700,
+      "pct_change": -2.86,
+      "prev_close": 1427.02
+    },
+    {
+      "date": "2026-05-05",
+      "open": 1432.42,
+      "high": 1454.8,
+      "low": 1414.39,
+      "close": 1442.92,
+      "volume": 1621400,
+      "pct_change": 4.091,
+      "prev_close": 1386.21
+    },
+    {
+      "date": "2026-05-06",
+      "open": 1503.09,
+      "high": 1545.52,
+      "low": 1496.0,
+      "close": 1544.74,
+      "volume": 2312400,
+      "pct_change": 7.057,
+      "prev_close": 1442.92
+    },
+    {
+      "date": "2026-05-07",
+      "open": 1548.74,
+      "high": 1550.0,
+      "low": 1497.8101,
+      "close": 1516.6,
+      "volume": 1726700,
+      "pct_change": -1.822,
+      "prev_close": 1544.74
+    },
+    {
+      "date": "2026-05-08",
+      "open": 1538.53,
+      "high": 1595.3101,
+      "low": 1531.16,
+      "close": 1592.02,
+      "volume": 2288300,
+      "pct_change": 4.973,
+      "prev_close": 1516.6
+    },
+    {
+      "date": "2026-05-11",
+      "open": 1559.3,
+      "high": 1567.99,
+      "low": 1521.36,
+      "close": 1565.8101,
+      "volume": 2191300,
+      "pct_change": -1.646,
+      "prev_close": 1592.02
+    },
+    {
+      "date": "2026-05-12",
+      "open": 1526.14,
+      "high": 1535.11,
+      "low": 1475.0,
+      "close": 1520.9399,
+      "volume": 1846800,
+      "pct_change": -2.866,
+      "prev_close": 1565.8101
+    },
+    {
+      "date": "2026-05-13",
+      "open": 1539.39,
+      "high": 1602.6,
+      "low": 1521.08,
+      "close": 1581.58,
+      "volume": 1691200,
+      "pct_change": 3.987,
+      "prev_close": 1520.9399
+    },
+    {
+      "date": "2026-05-14",
+      "open": 1573.74,
+      "high": 1603.49,
+      "low": 1563.28,
+      "close": 1584.51,
+      "volume": 1412600,
+      "pct_change": 0.185,
+      "prev_close": 1581.58
+    },
+    {
+      "date": "2026-05-15",
+      "open": 1511.74,
+      "high": 1527.25,
+      "low": 1486.64,
+      "close": 1501.8101,
+      "volume": 1807400,
+      "pct_change": -5.219,
+      "prev_close": 1584.51
+    },
+    {
+      "date": "2026-05-18",
+      "open": 1521.25,
+      "high": 1522.49,
+      "low": 1453.34,
+      "close": 1472.39,
+      "volume": 1664400,
+      "pct_change": -1.959,
+      "prev_close": 1501.8101
+    },
+    {
+      "date": "2026-05-19",
+      "open": 1449.9301,
+      "high": 1485.76,
+      "low": 1441.3101,
+      "close": 1459.4399,
+      "volume": 1395400,
+      "pct_change": -0.88,
+      "prev_close": 1472.39
+    },
+    {
+      "date": "2026-05-20",
+      "open": 1502.38,
+      "high": 1555.8,
+      "low": 1492.3199,
+      "close": 1550.13,
+      "volume": 1744500,
+      "pct_change": 6.214,
+      "prev_close": 1459.4399
+    },
+    {
+      "date": "2026-05-21",
+      "open": 1548.6801,
+      "high": 1601.79,
+      "low": 1545.9399,
+      "close": 1592.0,
+      "volume": 1358400,
+      "pct_change": 2.701,
+      "prev_close": 1550.13
+    },
+    {
+      "date": "2026-05-22",
+      "open": 1620.03,
+      "high": 1653.53,
+      "low": 1615.85,
+      "close": 1632.9,
+      "volume": 1666700,
+      "pct_change": 2.569,
+      "prev_close": 1592.0
+    },
+    {
+      "date": "2026-05-26",
+      "open": 1641.85,
+      "high": 1648.01,
+      "low": 1604.25,
+      "close": 1632.03,
+      "volume": 1651000,
+      "pct_change": -0.053,
+      "prev_close": 1632.9
+    },
+    {
+      "date": "2026-05-27",
+      "open": 1637.35,
+      "high": 1639.13,
+      "low": 1583.0,
+      "close": 1597.87,
+      "volume": 1361600,
+      "pct_change": -2.093,
+      "prev_close": 1632.03
+    },
+    {
+      "date": "2026-05-28",
+      "open": 1617.09,
+      "high": 1627.53,
+      "low": 1580.0,
+      "close": 1605.77,
+      "volume": 971600,
+      "pct_change": 0.494,
+      "prev_close": 1597.87
+    },
+    {
+      "date": "2026-05-29",
+      "open": 1633.47,
+      "high": 1654.2,
+      "low": 1604.86,
+      "close": 1612.76,
+      "volume": 1069400,
+      "pct_change": 0.435,
+      "prev_close": 1605.77
+    },
+    {
+      "date": "2026-06-01",
+      "open": 1594.47,
+      "high": 1646.53,
+      "low": 1585.61,
+      "close": 1628.5699,
+      "volume": 1058900,
+      "pct_change": 0.98,
+      "prev_close": 1612.76
+    },
+    {
+      "date": "2026-06-02",
+      "open": 1659.6899,
+      "high": 1708.3199,
+      "low": 1647.59,
+      "close": 1705.37,
+      "volume": 1484000,
+      "pct_change": 4.716,
+      "prev_close": 1628.5699
+    },
+    {
+      "date": "2026-06-03",
+      "open": 1709.3101,
+      "high": 1743.27,
+      "low": 1690.0,
+      "close": 1726.36,
+      "volume": 1826900,
+      "pct_change": 1.231,
+      "prev_close": 1705.37
+    },
+    {
+      "date": "2026-06-04",
+      "open": 1679.8,
+      "high": 1779.29,
+      "low": 1672.4301,
+      "close": 1757.47,
+      "volume": 2248200,
+      "pct_change": 1.802,
+      "prev_close": 1726.36
+    },
+    {
+      "date": "2026-06-05",
+      "open": 1685.36,
+      "high": 1705.48,
+      "low": 1638.38,
+      "close": 1641.74,
+      "volume": 2744600,
+      "pct_change": -6.585,
+      "prev_close": 1757.47
+    },
+    {
+      "date": "2026-06-08",
+      "open": 1732.79,
+      "high": 1769.49,
+      "low": 1719.02,
+      "close": 1749.04,
+      "volume": 2062100,
+      "pct_change": 6.536,
+      "prev_close": 1641.74
+    },
+    {
+      "date": "2026-06-09",
+      "open": 1776.62,
+      "high": 1831.11,
+      "low": 1676.28,
+      "close": 1777.77,
+      "volume": 3151400,
+      "pct_change": 1.643,
+      "prev_close": 1749.04
+    },
+    {
+      "date": "2026-06-10",
+      "open": 1746.46,
+      "high": 1812.0,
+      "low": 1723.21,
+      "close": 1734.1899,
+      "volume": 2586400,
+      "pct_change": -2.451,
+      "prev_close": 1777.77
+    },
+    {
+      "date": "2026-06-11",
+      "open": 1780.0,
+      "high": 1903.5,
+      "low": 1775.1,
+      "close": 1899.48,
+      "volume": 2965600,
+      "pct_change": 9.531,
+      "prev_close": 1734.1899
+    },
+    {
+      "date": "2026-06-12",
+      "open": 1847.62,
+      "high": 1892.8,
+      "low": 1839.0,
+      "close": 1863.55,
+      "volume": 2529600,
+      "pct_change": -1.892,
+      "prev_close": 1899.48
+    },
+    {
+      "date": "2026-06-15",
+      "open": 1894.54,
+      "high": 1913.7,
+      "low": 1865.0,
+      "close": 1892.66,
+      "volume": 2339100,
+      "pct_change": 1.562,
+      "prev_close": 1863.55
+    },
+    {
+      "date": "2026-06-16",
+      "open": 1872.01,
+      "high": 1881.16,
+      "low": 1802.61,
+      "close": 1803.89,
+      "volume": 1797600,
+      "pct_change": -4.69,
+      "prev_close": 1892.66
+    },
+    {
+      "date": "2026-06-17",
+      "open": 1897.2,
+      "high": 1938.49,
+      "low": 1865.3199,
+      "close": 1867.83,
+      "volume": 2322900,
+      "pct_change": 3.545,
+      "prev_close": 1803.89
+    },
+    {
+      "date": "2026-06-18",
+      "open": 1924.1801,
+      "high": 1942.87,
+      "low": 1909.53,
+      "close": 1929.6801,
+      "volume": 2406100,
+      "pct_change": 3.311,
+      "prev_close": 1867.83
+    },
+    {
+      "date": "2026-06-22",
+      "open": 1953.52,
+      "high": 1959.04,
+      "low": 1886.4399,
+      "close": 1929.25,
+      "volume": 1793300,
+      "pct_change": -0.022,
+      "prev_close": 1929.6801
+    },
+    {
+      "date": "2026-06-23",
+      "open": 1777.7,
+      "high": 1812.95,
+      "low": 1755.97,
+      "close": 1778.46,
+      "volume": 2415700,
+      "pct_change": -7.816,
+      "prev_close": 1929.25
+    },
+    {
+      "date": "2026-06-24",
+      "open": 1750.42,
+      "high": 1779.65,
+      "low": 1730.29,
+      "close": 1762.77,
+      "volume": 2028200,
+      "pct_change": -0.882,
+      "prev_close": 1778.46
+    },
+    {
+      "date": "2026-06-25",
+      "open": 1855.5,
+      "high": 1855.91,
+      "low": 1777.04,
+      "close": 1841.1801,
+      "volume": 2197000,
+      "pct_change": 4.448,
+      "prev_close": 1762.77
+    },
+    {
+      "date": "2026-06-26",
+      "open": 1781.66,
+      "high": 1809.0,
+      "low": 1767.64,
+      "close": 1794.62,
+      "volume": 2840000,
+      "pct_change": -2.529,
+      "prev_close": 1841.1801
+    },
+    {
+      "date": "2026-06-29",
+      "open": 1798.95,
+      "high": 1886.12,
+      "low": 1772.52,
+      "close": 1883.11,
+      "volume": 1760500,
+      "pct_change": 4.931,
+      "prev_close": 1794.62
+    },
+    {
+      "date": "2026-06-30",
+      "open": 1915.5,
+      "high": 1999.96,
+      "low": 1913.88,
+      "close": 1989.4399,
+      "volume": 2712600,
+      "pct_change": 5.647,
+      "prev_close": 1883.11
+    },
+    {
+      "date": "2026-07-01",
+      "open": 1916.28,
+      "high": 1943.0,
+      "low": 1832.63,
+      "close": 1843.04,
+      "volume": 2584700,
+      "pct_change": -7.359,
+      "prev_close": 1989.4399
+    },
+    {
+      "date": "2026-07-02",
+      "open": 1843.98,
+      "high": 1858.4,
+      "low": 1748.02,
+      "close": 1769.3199,
+      "volume": 2699100,
+      "pct_change": -4.0,
+      "prev_close": 1843.04
+    },
+    {
+      "date": "2026-07-06",
+      "open": 1830.0,
+      "high": 1868.6,
+      "low": 1813.33,
+      "close": 1825.0699,
+      "volume": 1945000,
+      "pct_change": 3.151,
+      "prev_close": 1769.3199
+    },
+    {
+      "date": "2026-07-07",
+      "open": 1737.13,
+      "high": 1761.04,
+      "low": 1717.3101,
+      "close": 1747.28,
+      "volume": 1863900,
+      "pct_change": -4.262,
+      "prev_close": 1825.0699
+    },
+    {
+      "date": "2026-07-08",
+      "open": 1733.6801,
+      "high": 1780.66,
+      "low": 1729.38,
+      "close": 1768.65,
+      "volume": 1424500,
+      "pct_change": 1.223,
+      "prev_close": 1747.28
+    },
+    {
+      "date": "2026-07-09",
+      "open": 1835.46,
+      "high": 1858.73,
+      "low": 1796.76,
+      "close": 1804.25,
+      "volume": 1547400,
+      "pct_change": 2.013,
+      "prev_close": 1768.65
+    },
+    {
+      "date": "2026-07-10",
+      "open": 1783.88,
+      "high": 1815.1801,
+      "low": 1766.66,
+      "close": 1797.3199,
+      "volume": 1218400,
+      "pct_change": -0.384,
+      "prev_close": 1804.25
+    },
+    {
+      "date": "2026-07-13",
+      "open": 1773.54,
+      "high": 1775.79,
+      "low": 1718.08,
+      "close": 1726.04,
+      "volume": 1419800,
+      "pct_change": -3.966,
+      "prev_close": 1797.3199
+    },
+    {
+      "date": "2026-07-14",
+      "open": 1787.45,
+      "high": 1798.27,
+      "low": 1749.86,
+      "close": 1775.64,
+      "volume": 2529100,
+      "pct_change": 2.874,
+      "prev_close": 1726.04
+    },
+    {
+      "date": "2026-07-15",
+      "open": 1825.0601,
+      "high": 1830.0,
+      "low": 1735.65,
+      "close": 1815.27,
+      "volume": 4189300,
+      "pct_change": 2.232,
+      "prev_close": 1775.64
+    },
+    {
+      "date": "2026-07-16",
+      "open": 1796.91,
+      "high": 1853.45,
+      "low": 1779.12,
+      "close": 1784.87,
+      "volume": 2581400,
+      "pct_change": -1.675,
+      "prev_close": 1815.27
+    },
+    {
+      "date": "2026-07-17",
+      "open": 1733.78,
+      "high": 1790.91,
+      "low": 1703.4,
+      "close": 1747.58,
+      "volume": 2209400,
+      "pct_change": -2.089,
+      "prev_close": 1784.87
+    },
+    {
+      "date": "2026-07-20",
+      "open": 1778.6899,
+      "high": 1798.34,
+      "low": 1728.6,
+      "close": 1739.02,
+      "volume": 1639000,
+      "pct_change": -0.49,
+      "prev_close": 1747.58
+    },
+    {
+      "date": "2026-07-21",
+      "open": 1801.2,
+      "high": 1823.88,
+      "low": 1785.54,
+      "close": 1801.51,
+      "volume": 1681100,
+      "pct_change": 3.593,
+      "prev_close": 1739.02
+    },
+    {
+      "date": "2026-07-22",
+      "open": 1767.65,
+      "high": 1817.2,
+      "low": 1767.04,
+      "close": 1801.86,
+      "volume": 1007400,
+      "pct_change": 0.019,
+      "prev_close": 1801.51
+    },
+    {
+      "date": "2026-07-23",
+      "open": 1782.12,
+      "high": 1823.58,
+      "low": 1780.24,
+      "close": 1803.0,
+      "volume": 1106700,
+      "pct_change": 0.063,
+      "prev_close": 1801.86
+    },
+    {
+      "date": "2026-07-24",
+      "open": 1789.88,
+      "high": 1797.87,
+      "low": 1739.88,
+      "close": 1757.09,
+      "volume": 1315000,
+      "pct_change": -2.546,
+      "prev_close": 1803.0
+    },
+    {
+      "date": "2026-07-27",
+      "open": 1739.1899,
+      "high": 1746.7,
+      "low": 1613.34,
+      "close": 1655.26,
+      "volume": 3325500,
+      "pct_change": -5.795,
+      "prev_close": 1757.09
+    },
+    {
+      "date": "2026-07-28",
+      "open": 1580.5,
+      "high": 1599.88,
+      "low": 1553.58,
+      "close": 1582.95,
+      "volume": 3010100,
+      "pct_change": -4.368,
+      "prev_close": 1655.26
+    },
+    {
+      "date": "2026-07-29",
+      "open": 1569.39,
+      "high": 1621.46,
+      "low": 1530.64,
+      "close": 1550.6899,
+      "volume": 2538800,
+      "pct_change": -2.038,
+      "prev_close": 1582.95
+    },
+    {
+      "date": "2026-07-30",
+      "open": 1645.0699,
+      "high": 1676.78,
+      "low": 1626.4399,
+      "close": 1651.4399,
+      "volume": 2170500,
+      "pct_change": 6.497,
+      "prev_close": 1550.6899
+    },
+    {
+      "date": "2026-07-31",
+      "open": 1683.38,
+      "high": 1692.15,
+      "low": 1624.71,
+      "close": 1629.0,
+      "volume": 1601400,
+      "pct_change": -1.359,
+      "prev_close": 1651.4399
+    },
+    {
+      "date": "2026-08-03",
+      "open": 1609.6899,
+      "high": 1655.2,
+      "low": 1582.0,
+      "close": 1642.52,
+      "volume": 1437400,
+      "pct_change": 0.83,
+      "prev_close": 1629.0
+    },
+    {
+      "date": "2026-08-04",
+      "open": 1700.04,
+      "high": 1717.5601,
+      "low": 1686.01,
+      "close": 1711.89,
+      "volume": 1526700,
+      "pct_change": 4.223,
+      "prev_close": 1642.52
+    },
+    {
+      "date": "2026-08-05",
+      "open": 1700.42,
+      "high": 1729.0601,
+      "low": 1671.75,
+      "close": 1678.22,
+      "volume": 1221000,
+      "pct_change": -1.967,
+      "prev_close": 1711.89
+    },
+    {
+      "date": "2026-08-06",
+      "open": 1695.39,
+      "high": 1735.53,
+      "low": 1672.11,
+      "close": 1704.37,
+      "volume": 1072500,
+      "pct_change": 1.558,
+      "prev_close": 1678.22
+    },
+    {
+      "date": "2026-08-07",
+      "open": 1759.71,
+      "high": 1761.3101,
+      "low": 1720.11,
+      "close": 1740.99,
+      "volume": 1064900,
+      "pct_change": 2.149,
+      "prev_close": 1704.37
+    },
+    {
+      "date": "2026-08-10",
+      "open": 1793.01,
+      "high": 1794.47,
+      "low": 1732.8101,
+      "close": 1733.48,
+      "volume": 1107000,
+      "pct_change": -0.431,
+      "prev_close": 1740.99
+    },
+    {
+      "date": "2026-08-11",
+      "open": 1793.9301,
+      "high": 1819.59,
+      "low": 1778.3199,
+      "close": 1799.38,
+      "volume": 1479700,
+      "pct_change": 3.802,
+      "prev_close": 1733.48
+    },
+    {
+      "date": "2026-08-12",
+      "open": 1832.63,
+      "high": 1845.0,
+      "low": 1807.38,
+      "close": 1810.0699,
+      "volume": 1388800,
+      "pct_change": 0.594,
+      "prev_close": 1799.38
+    },
+    {
+      "date": "2026-08-13",
+      "open": 1819.0699,
+      "high": 1873.6899,
+      "low": 1813.3,
+      "close": 1847.9,
+      "volume": 1237900,
+      "pct_change": 2.09,
+      "prev_close": 1810.0699
+    },
+    {
+      "date": "2026-08-14",
+      "open": 1839.1899,
+      "high": 1853.3199,
+      "low": 1820.41,
+      "close": 1844.08,
+      "volume": 929000,
+      "pct_change": -0.207,
+      "prev_close": 1847.9
+    },
+    {
+      "date": "2026-08-17",
+      "open": 1871.6801,
+      "high": 1896.35,
+      "low": 1860.12,
+      "close": 1883.12,
+      "volume": 1285400,
+      "pct_change": 2.117,
+      "prev_close": 1844.08
+    },
+    {
+      "date": "2026-08-18",
+      "open": 1809.0,
+      "high": 1820.41,
+      "low": 1775.7,
+      "close": 1802.98,
+      "volume": 1509300,
+      "pct_change": -4.256,
+      "prev_close": 1883.12
+    },
+    {
+      "date": "2026-08-19",
+      "open": 1797.72,
+      "high": 1804.28,
+      "low": 1748.85,
+      "close": 1751.73,
+      "volume": 1463600,
+      "pct_change": -2.843,
+      "prev_close": 1802.98
+    },
+    {
+      "date": "2026-08-20",
+      "open": 1743.76,
+      "high": 1775.8199,
+      "low": 1741.02,
+      "close": 1750.3101,
+      "volume": 825400,
+      "pct_change": -0.081,
+      "prev_close": 1751.73
+    },
+    {
+      "date": "2026-08-21",
+      "open": 1763.51,
+      "high": 1771.0,
+      "low": 1741.0,
+      "close": 1763.76,
+      "volume": 972400,
+      "pct_change": 0.768,
+      "prev_close": 1750.3101
+    },
+    {
+      "date": "2026-08-24",
+      "open": 1761.5601,
+      "high": 1761.98,
+      "low": 1727.5699,
+      "close": 1740.13,
+      "volume": 1202000,
+      "pct_change": -1.34,
+      "prev_close": 1763.76
+    },
+    {
+      "date": "2026-08-25",
+      "open": 1759.15,
+      "high": 1769.99,
+      "low": 1735.87,
+      "close": 1744.16,
+      "volume": 808900,
+      "pct_change": 0.232,
+      "prev_close": 1740.13
+    },
+    {
+      "date": "2026-08-26",
+      "open": 1746.33,
+      "high": 1761.71,
+      "low": 1732.35,
+      "close": 1745.64,
+      "volume": 873500,
+      "pct_change": 0.085,
+      "prev_close": 1744.16
+    },
+    {
+      "date": "2026-08-27",
+      "open": 1746.53,
+      "high": 1751.78,
+      "low": 1719.11,
+      "close": 1735.01,
+      "volume": 1027200,
+      "pct_change": -0.609,
+      "prev_close": 1745.64
+    },
+    {
+      "date": "2026-08-28",
+      "open": 1734.75,
+      "high": 1740.0,
+      "low": 1692.88,
+      "close": 1696.16,
+      "volume": 1257700,
+      "pct_change": -2.239,
+      "prev_close": 1735.01
+    },
+    {
+      "date": "2026-08-31",
+      "open": 1708.6801,
+      "high": 1716.9,
+      "low": 1679.33,
+      "close": 1696.01,
+      "volume": 1212100,
+      "pct_change": -0.009,
+      "prev_close": 1696.16
+    },
+    {
+      "date": "2026-09-01",
+      "open": 1680.74,
+      "high": 1684.0,
+      "low": 1651.21,
+      "close": 1665.14,
+      "volume": 1004800,
+      "pct_change": -1.82,
+      "prev_close": 1696.01
+    },
+    {
+      "date": "2026-09-02",
+      "open": 1672.21,
+      "high": 1688.66,
+      "low": 1650.2,
+      "close": 1682.3,
+      "volume": 872800,
+      "pct_change": 1.031,
+      "prev_close": 1665.14
+    },
+    {
+      "date": "2026-09-03",
+      "open": 1642.39,
+      "high": 1656.3101,
+      "low": 1619.34,
+      "close": 1646.1899,
+      "volume": 1437500,
+      "pct_change": -2.146,
+      "prev_close": 1682.3
+    },
+    {
+      "date": "2026-09-04",
+      "open": 1678.74,
+      "high": 1721.66,
+      "low": 1675.9301,
+      "close": 1714.88,
+      "volume": 1288700,
+      "pct_change": 4.173,
+      "prev_close": 1646.1899
+    },
+    {
+      "date": "2026-09-08",
+      "open": 1774.35,
+      "high": 1790.0,
+      "low": 1743.09,
+      "close": 1764.85,
+      "volume": 1352800,
+      "pct_change": 2.914,
+      "prev_close": 1714.88
+    },
+    {
+      "date": "2026-09-09",
+      "open": 1727.72,
+      "high": 1750.89,
+      "low": 1722.92,
+      "close": 1729.52,
+      "volume": 1060000,
+      "pct_change": -2.002,
+      "prev_close": 1764.85
+    },
+    {
+      "date": "2026-09-10",
+      "open": 1688.51,
+      "high": 1716.63,
+      "low": 1681.58,
+      "close": 1687.4301,
+      "volume": 1078100,
+      "pct_change": -2.434,
+      "prev_close": 1729.52
+    },
+    {
+      "date": "2026-09-11",
+      "open": 1726.87,
+      "high": 1727.3101,
+      "low": 1696.21,
+      "close": 1698.3,
+      "volume": 881200,
+      "pct_change": 0.644,
+      "prev_close": 1687.4301
+    },
+    {
+      "date": "2026-09-14",
+      "open": 1594.21,
+      "high": 1610.41,
+      "low": 1572.84,
+      "close": 1575.15,
+      "volume": 1970800,
+      "pct_change": -7.251,
+      "prev_close": 1698.3
+    },
+    {
+      "date": "2026-09-15",
+      "open": 1615.61,
+      "high": 1616.55,
+      "low": 1575.78,
+      "close": 1591.48,
+      "volume": 1577600,
+      "pct_change": 1.037,
+      "prev_close": 1575.15
+    },
+    {
+      "date": "2026-09-16",
+      "open": 1629.85,
+      "high": 1629.85,
+      "low": 1584.54,
+      "close": 1602.22,
+      "volume": 1334100,
+      "pct_change": 0.675,
+      "prev_close": 1591.48
+    },
+    {
+      "date": "2026-09-17",
+      "open": 1637.0699,
+      "high": 1638.7,
+      "low": 1614.02,
+      "close": 1629.67,
+      "volume": 1394000,
+      "pct_change": 1.713,
+      "prev_close": 1602.22
+    },
+    {
+      "date": "2026-09-18",
+      "open": 1630.0,
+      "high": 1681.61,
+      "low": 1628.27,
+      "close": 1679.92,
+      "volume": 2523800,
+      "pct_change": 3.083,
+      "prev_close": 1629.67
+    },
+    {
+      "date": "2026-09-21",
+      "open": 1693.0699,
+      "high": 1722.33,
+      "low": 1677.09,
+      "close": 1711.3199,
+      "volume": 1314400,
+      "pct_change": 1.869,
+      "prev_close": 1679.92
+    },
+    {
+      "date": "2026-09-22",
+      "open": 1696.0,
+      "high": 1749.7,
+      "low": 1694.29,
+      "close": 1747.9,
+      "volume": 1174500,
+      "pct_change": 2.138,
+      "prev_close": 1711.3199
+    },
+    {
+      "date": "2026-09-23",
+      "open": 1731.2,
+      "high": 1746.61,
+      "low": 1704.3,
+      "close": 1744.61,
+      "volume": 1254400,
+      "pct_change": -0.188,
+      "prev_close": 1747.9
+    },
+    {
+      "date": "2026-09-24",
+      "open": 1708.85,
+      "high": 1736.84,
+      "low": 1700.88,
+      "close": 1722.5,
+      "volume": 1263300,
+      "pct_change": -1.267,
+      "prev_close": 1744.61
+    },
+    {
+      "date": "2026-09-25",
+      "open": 1741.25,
+      "high": 1759.25,
+      "low": 1728.11,
+      "close": 1743.9399,
+      "volume": 801800,
+      "pct_change": 1.245,
+      "prev_close": 1722.5
+    }
+  ],
+  "beats": [
+    {
+      "date": "2026-04-02",
+      "pct_change": -3.128,
+      "close": 1317.23,
+      "direction": "down",
+      "headline": "ASML drops 3.1% divergent from customer Intel",
+      "explanation": "ASML fell 3.13% to $1317.23 on 1.5 times average volume with no company-specific news reported. The drop was largely company-specific, as customer Intel rose 4.89% while customer TSMC slipped 0.72%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_ASML_20260402_price",
+        "ev_ASML_20260402_peer_INTC",
+        "ev_ASML_20260402_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "pct_change": -4.788,
+      "close": 1410.83,
+      "direction": "down",
+      "headline": "ASML declines 4.8% following 6-K filing",
+      "explanation": "ASML fell 4.79% to $1410.83 on 2.1 times average volume after filing a Form 6-K on April 15. The retreat was shared in part with customer TSMC, which dropped 3.13%, while customer Intel gained 5.48%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_ASML_20260416_price",
+        "ev_ASML_20260416_filing_000162828026025147",
+        "ev_ASML_20260416_peer_INTC",
+        "ev_ASML_20260416_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-05-13",
+      "pct_change": 3.987,
+      "close": 1581.58,
+      "direction": "up",
+      "headline": "ASML climbs 4.0% in company-specific advance",
+      "explanation": "ASML advanced 3.99% to $1581.58 on 1.4 times normal volume without company-specific news disclosures. The rise was company-specific, as customer TSMC rose just 0.63% and customer Intel fell 0.27%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_ASML_20260513_price",
+        "ev_ASML_20260513_peer_INTC",
+        "ev_ASML_20260513_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "pct_change": 4.716,
+      "close": 1705.37,
+      "direction": "up",
+      "headline": "ASML rises 4.7% to $1705.37",
+      "explanation": "ASML gained 4.72% to finish at $1705.37 on 1.2 times average volume without company-specific announcements. It shared positive momentum with customer TSMC, which rose 2.54%, whereas customer Intel fell 1.28%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_ASML_20260602_price",
+        "ev_ASML_20260602_peer_INTC",
+        "ev_ASML_20260602_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-06-05",
+      "pct_change": -6.585,
+      "close": 1641.74,
+      "direction": "down",
+      "headline": "ASML falls 6.6% in broad customer selloff",
+      "explanation": "ASML dropped 6.58% to $1641.74 on volume 2.2 times its 30-day average with no company-specific news. The drop was shared with its primary customers, as TSMC lost 6.69% and Intel dropped 11.28%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_ASML_20260605_price",
+        "ev_ASML_20260605_peer_INTC",
+        "ev_ASML_20260605_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "pct_change": 9.531,
+      "close": 1899.48,
+      "direction": "up",
+      "headline": "ASML surges 9.5% tracking customer rally",
+      "explanation": "ASML climbed 9.53% to $1899.48 on 2.4 times average volume without company-specific news releases. The surge was shared across its customer network, as Intel jumped 9.27% and TSMC rose 3.01%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_ASML_20260611_price",
+        "ev_ASML_20260611_peer_INTC",
+        "ev_ASML_20260611_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "pct_change": 3.311,
+      "close": 1929.6801,
+      "direction": "up",
+      "headline": "ASML advances 3.3% as customers climb",
+      "explanation": "ASML gained 3.31% to close at $1929.68 on 1.9 times normal volume without fresh corporate news. Upward momentum was shared with customers Intel and TSMC, which gained 10.64% and 6.93% on the day.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_ASML_20260618_price",
+        "ev_ASML_20260618_peer_INTC",
+        "ev_ASML_20260618_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "pct_change": 4.448,
+      "close": 1841.1801,
+      "direction": "up",
+      "headline": "ASML rebounds 4.4% on high volume",
+      "explanation": "ASML rose 4.45% to $1841.18 on 1.8 times average volume in the absence of specific corporate news. The gain was largely company-specific, contrasting with customer TSMC's 1.32% decline while customer Intel rose 0.93%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_ASML_20260625_price",
+        "ev_ASML_20260625_peer_INTC",
+        "ev_ASML_20260625_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "pct_change": 3.593,
+      "close": 1801.51,
+      "direction": "up",
+      "headline": "ASML climbs 3.6% alongside Intel and TSMC",
+      "explanation": "ASML rose 3.59% to $1801.51 on 1.4 times normal volume without direct corporate updates. The move was shared with customers Intel and TSMC, which advanced 8.64% and 5.55%, respectively.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_ASML_20260721_price",
+        "ev_ASML_20260721_peer_INTC",
+        "ev_ASML_20260721_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "pct_change": -5.795,
+      "close": 1655.26,
+      "direction": "down",
+      "headline": "ASML drops 5.8% outstripping peer declines",
+      "explanation": "ASML slid 5.79% to $1655.26 on elevated volume of 2.7 times average without company-specific news. The sharp drop was mostly company-specific, far outpacing mild decreases of 0.70% at customer Intel and 1.07% at customer TSMC.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_ASML_20260727_price",
+        "ev_ASML_20260727_peer_INTC",
+        "ev_ASML_20260727_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "pct_change": 6.497,
+      "close": 1651.4399,
+      "direction": "up",
+      "headline": "ASML rises 6.5% alongside customer rally",
+      "explanation": "ASML rallied 6.50% to $1651.44 on 1.8 times 30-day average volume with no company-specific announcements. The rally was shared with customer Intel, which surged 11.30%, and customer TSMC, which gained 7.64%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_ASML_20260730_price",
+        "ev_ASML_20260730_peer_INTC",
+        "ev_ASML_20260730_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "pct_change": 3.083,
+      "close": 1679.92,
+      "direction": "up",
+      "headline": "ASML gains 3.1% on installed base sales surge",
+      "explanation": "ASML advanced 3.08% to $1679.92 on twice its average volume as reports highlighted a 31.8% surge in Installed Base Management revenue. Reports also noted delivery demand testing throughput on 110 EUV machines. The gain was company-specific, as customer TSMC gained 1.02% and customer Intel fell 0.18%.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_ASML_20260918_price",
+        "ev_ASML_20260918_peer_INTC",
+        "ev_ASML_20260918_peer_TSM",
+        "ev_ASML_20260918_news3",
+        "ev_ASML_20260918_news5"
+      ]
+    }
+  ],
+  "evidence": {
+    "ev_ASML_20260402_price": {
+      "id": "ev_ASML_20260402_price",
+      "kind": "price",
+      "title": "ASML fell 3.13% on 2026-04-02",
+      "detail": "Closed at $1317.23 from $1359.76. Volume was 1.5x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-04-02",
+      "numbers": {
+        "pct_change": -3.128,
+        "close": 1317.23,
+        "prev_close": 1359.76,
+        "volume": 1883400,
+        "volume_vs_30d_avg": 1.53,
+        "move_excluding_sector_pct": 5.22
+      }
+    },
+    "ev_ASML_20260402_peer_INTC": {
+      "id": "ev_ASML_20260402_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer) moved +4.89% the same day",
+      "detail": "ASML moved -3.13% while INTC moved +4.89%. INTC is ASML's customer (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-02",
+      "numbers": {
+        "peer_pct_change": 4.89,
+        "subject_pct_change": -3.128,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260402_peer_TSM": {
+      "id": "ev_ASML_20260402_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (customer) moved -0.72% the same day",
+      "detail": "ASML moved -3.13% while TSM moved -0.72%. TSM is ASML's customer (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-02",
+      "numbers": {
+        "peer_pct_change": -0.72,
+        "subject_pct_change": -3.128,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260416_price": {
+      "id": "ev_ASML_20260416_price",
+      "kind": "price",
+      "title": "ASML fell 4.79% on 2026-04-16",
+      "detail": "Closed at $1410.83 from $1481.77. Volume was 2.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "pct_change": -4.788,
+        "close": 1410.83,
+        "prev_close": 1481.77,
+        "volume": 2626700,
+        "volume_vs_30d_avg": 2.13,
+        "move_excluding_sector_pct": 5.96
+      }
+    },
+    "ev_ASML_20260416_peer_INTC": {
+      "id": "ev_ASML_20260416_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer) moved +5.48% the same day",
+      "detail": "ASML moved -4.79% while INTC moved +5.48%. INTC is ASML's customer (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": 5.48,
+        "subject_pct_change": -4.788,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260416_peer_TSM": {
+      "id": "ev_ASML_20260416_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (customer) moved -3.13% the same day",
+      "detail": "ASML moved -4.79% while TSM moved -3.13%. TSM is ASML's customer (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": -3.13,
+        "subject_pct_change": -4.788,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260416_filing_000162828026025147": {
+      "id": "ev_ASML_20260416_filing_000162828026025147",
+      "kind": "filing",
+      "title": "6-K filed 2026-04-15",
+      "detail": "6-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026025147/form6-kquarterlyfilings.htm",
+      "occurred_on": "2026-04-15",
+      "numbers": {}
+    },
+    "ev_ASML_20260513_price": {
+      "id": "ev_ASML_20260513_price",
+      "kind": "price",
+      "title": "ASML rose 3.99% on 2026-05-13",
+      "detail": "Closed at $1581.58 from $1520.94. Volume was 1.4x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-05-13",
+      "numbers": {
+        "pct_change": 3.987,
+        "close": 1581.58,
+        "prev_close": 1520.9399,
+        "volume": 1691200,
+        "volume_vs_30d_avg": 1.37,
+        "move_excluding_sector_pct": 3.8
+      }
+    },
+    "ev_ASML_20260513_peer_INTC": {
+      "id": "ev_ASML_20260513_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer) moved -0.27% the same day",
+      "detail": "ASML moved +3.99% while INTC moved -0.27%. INTC is ASML's customer (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-05-13",
+      "numbers": {
+        "peer_pct_change": -0.27,
+        "subject_pct_change": 3.987,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260513_peer_TSM": {
+      "id": "ev_ASML_20260513_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (customer) moved +0.63% the same day",
+      "detail": "ASML moved +3.99% while TSM moved +0.63%. TSM is ASML's customer (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-13",
+      "numbers": {
+        "peer_pct_change": 0.63,
+        "subject_pct_change": 3.987,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260602_price": {
+      "id": "ev_ASML_20260602_price",
+      "kind": "price",
+      "title": "ASML rose 4.72% on 2026-06-02",
+      "detail": "Closed at $1705.37 from $1628.57. Volume was 1.2x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-06-02",
+      "numbers": {
+        "pct_change": 4.716,
+        "close": 1705.37,
+        "prev_close": 1628.5699,
+        "volume": 1484000,
+        "volume_vs_30d_avg": 1.2,
+        "move_excluding_sector_pct": 4.09
+      }
+    },
+    "ev_ASML_20260602_peer_INTC": {
+      "id": "ev_ASML_20260602_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer) moved -1.28% the same day",
+      "detail": "ASML moved +4.72% while INTC moved -1.28%. INTC is ASML's customer (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-02",
+      "numbers": {
+        "peer_pct_change": -1.28,
+        "subject_pct_change": 4.716,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260602_peer_TSM": {
+      "id": "ev_ASML_20260602_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (customer) moved +2.54% the same day",
+      "detail": "ASML moved +4.72% while TSM moved +2.54%. TSM is ASML's customer (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-02",
+      "numbers": {
+        "peer_pct_change": 2.54,
+        "subject_pct_change": 4.716,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260605_price": {
+      "id": "ev_ASML_20260605_price",
+      "kind": "price",
+      "title": "ASML fell 6.58% on 2026-06-05",
+      "detail": "Closed at $1641.74 from $1757.47. Volume was 2.2x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-06-05",
+      "numbers": {
+        "pct_change": -6.585,
+        "close": 1641.74,
+        "prev_close": 1757.47,
+        "volume": 2744600,
+        "volume_vs_30d_avg": 2.23,
+        "move_excluding_sector_pct": 2.4
+      }
+    },
+    "ev_ASML_20260605_peer_INTC": {
+      "id": "ev_ASML_20260605_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer) moved -11.28% the same day",
+      "detail": "ASML moved -6.58% while INTC moved -11.28%. INTC is ASML's customer (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-05",
+      "numbers": {
+        "peer_pct_change": -11.28,
+        "subject_pct_change": -6.585,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260605_peer_TSM": {
+      "id": "ev_ASML_20260605_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (customer) moved -6.69% the same day",
+      "detail": "ASML moved -6.58% while TSM moved -6.69%. TSM is ASML's customer (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-05",
+      "numbers": {
+        "peer_pct_change": -6.69,
+        "subject_pct_change": -6.585,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260611_price": {
+      "id": "ev_ASML_20260611_price",
+      "kind": "price",
+      "title": "ASML rose 9.53% on 2026-06-11",
+      "detail": "Closed at $1899.48 from $1734.19. Volume was 2.4x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "pct_change": 9.531,
+        "close": 1899.48,
+        "prev_close": 1734.1899,
+        "volume": 2965600,
+        "volume_vs_30d_avg": 2.41,
+        "move_excluding_sector_pct": 3.39
+      }
+    },
+    "ev_ASML_20260611_peer_INTC": {
+      "id": "ev_ASML_20260611_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer) moved +9.27% the same day",
+      "detail": "ASML moved +9.53% while INTC moved +9.27%. INTC is ASML's customer (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "peer_pct_change": 9.27,
+        "subject_pct_change": 9.531,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260611_peer_TSM": {
+      "id": "ev_ASML_20260611_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (customer) moved +3.01% the same day",
+      "detail": "ASML moved +9.53% while TSM moved +3.01%. TSM is ASML's customer (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-11",
+      "numbers": {
+        "peer_pct_change": 3.01,
+        "subject_pct_change": 9.531,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260618_price": {
+      "id": "ev_ASML_20260618_price",
+      "kind": "price",
+      "title": "ASML rose 3.31% on 2026-06-18",
+      "detail": "Closed at $1929.68 from $1867.83. Volume was 1.9x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "pct_change": 3.311,
+        "close": 1929.6801,
+        "prev_close": 1867.83,
+        "volume": 2406100,
+        "volume_vs_30d_avg": 1.95,
+        "move_excluding_sector_pct": 5.48
+      }
+    },
+    "ev_ASML_20260618_peer_INTC": {
+      "id": "ev_ASML_20260618_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer) moved +10.64% the same day",
+      "detail": "ASML moved +3.31% while INTC moved +10.64%. INTC is ASML's customer (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 10.64,
+        "subject_pct_change": 3.311,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260618_peer_TSM": {
+      "id": "ev_ASML_20260618_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (customer) moved +6.93% the same day",
+      "detail": "ASML moved +3.31% while TSM moved +6.93%. TSM is ASML's customer (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-18",
+      "numbers": {
+        "peer_pct_change": 6.93,
+        "subject_pct_change": 3.311,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260625_price": {
+      "id": "ev_ASML_20260625_price",
+      "kind": "price",
+      "title": "ASML rose 4.45% on 2026-06-25",
+      "detail": "Closed at $1841.18 from $1762.77. Volume was 1.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "pct_change": 4.448,
+        "close": 1841.1801,
+        "prev_close": 1762.77,
+        "volume": 2197000,
+        "volume_vs_30d_avg": 1.78,
+        "move_excluding_sector_pct": 4.65
+      }
+    },
+    "ev_ASML_20260625_peer_INTC": {
+      "id": "ev_ASML_20260625_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer) moved +0.93% the same day",
+      "detail": "ASML moved +4.45% while INTC moved +0.93%. INTC is ASML's customer (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": 0.93,
+        "subject_pct_change": 4.448,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260625_peer_TSM": {
+      "id": "ev_ASML_20260625_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (customer) moved -1.32% the same day",
+      "detail": "ASML moved +4.45% while TSM moved -1.32%. TSM is ASML's customer (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-06-25",
+      "numbers": {
+        "peer_pct_change": -1.32,
+        "subject_pct_change": 4.448,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260721_price": {
+      "id": "ev_ASML_20260721_price",
+      "kind": "price",
+      "title": "ASML rose 3.59% on 2026-07-21",
+      "detail": "Closed at $1801.51 from $1739.02. Volume was 1.4x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-07-21",
+      "numbers": {
+        "pct_change": 3.593,
+        "close": 1801.51,
+        "prev_close": 1739.02,
+        "volume": 1681100,
+        "volume_vs_30d_avg": 1.36,
+        "move_excluding_sector_pct": 3.5
+      }
+    },
+    "ev_ASML_20260721_peer_INTC": {
+      "id": "ev_ASML_20260721_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer) moved +8.64% the same day",
+      "detail": "ASML moved +3.59% while INTC moved +8.64%. INTC is ASML's customer (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-21",
+      "numbers": {
+        "peer_pct_change": 8.64,
+        "subject_pct_change": 3.593,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260721_peer_TSM": {
+      "id": "ev_ASML_20260721_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (customer) moved +5.55% the same day",
+      "detail": "ASML moved +3.59% while TSM moved +5.55%. TSM is ASML's customer (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-21",
+      "numbers": {
+        "peer_pct_change": 5.55,
+        "subject_pct_change": 3.593,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260727_price": {
+      "id": "ev_ASML_20260727_price",
+      "kind": "price",
+      "title": "ASML fell 5.79% on 2026-07-27",
+      "detail": "Closed at $1655.26 from $1757.09. Volume was 2.7x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-07-27",
+      "numbers": {
+        "pct_change": -5.795,
+        "close": 1655.26,
+        "prev_close": 1757.09,
+        "volume": 3325500,
+        "volume_vs_30d_avg": 2.7,
+        "move_excluding_sector_pct": 4.91
+      }
+    },
+    "ev_ASML_20260727_peer_INTC": {
+      "id": "ev_ASML_20260727_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer) moved -0.70% the same day",
+      "detail": "ASML moved -5.79% while INTC moved -0.70%. INTC is ASML's customer (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-27",
+      "numbers": {
+        "peer_pct_change": -0.7,
+        "subject_pct_change": -5.795,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260727_peer_TSM": {
+      "id": "ev_ASML_20260727_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (customer) moved -1.07% the same day",
+      "detail": "ASML moved -5.79% while TSM moved -1.07%. TSM is ASML's customer (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-27",
+      "numbers": {
+        "peer_pct_change": -1.07,
+        "subject_pct_change": -5.795,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260730_price": {
+      "id": "ev_ASML_20260730_price",
+      "kind": "price",
+      "title": "ASML rose 6.50% on 2026-07-30",
+      "detail": "Closed at $1651.44 from $1550.69. Volume was 1.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "pct_change": 6.497,
+        "close": 1651.4399,
+        "prev_close": 1550.6899,
+        "volume": 2170500,
+        "volume_vs_30d_avg": 1.76,
+        "move_excluding_sector_pct": 2.97
+      }
+    },
+    "ev_ASML_20260730_peer_INTC": {
+      "id": "ev_ASML_20260730_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer) moved +11.30% the same day",
+      "detail": "ASML moved +6.50% while INTC moved +11.30%. INTC is ASML's customer (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 11.3,
+        "subject_pct_change": 6.497,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260730_peer_TSM": {
+      "id": "ev_ASML_20260730_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (customer) moved +7.64% the same day",
+      "detail": "ASML moved +6.50% while TSM moved +7.64%. TSM is ASML's customer (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 7.64,
+        "subject_pct_change": 6.497,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260918_price": {
+      "id": "ev_ASML_20260918_price",
+      "kind": "price",
+      "title": "ASML rose 3.08% on 2026-09-18",
+      "detail": "Closed at $1679.92 from $1629.67. Volume was 2.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ASML/history",
+      "occurred_on": "2026-09-18",
+      "numbers": {
+        "pct_change": 3.083,
+        "close": 1679.92,
+        "prev_close": 1629.67,
+        "volume": 2523800,
+        "volume_vs_30d_avg": 2.05,
+        "move_excluding_sector_pct": 2.66
+      }
+    },
+    "ev_ASML_20260918_peer_INTC": {
+      "id": "ev_ASML_20260918_peer_INTC",
+      "kind": "peer_move",
+      "title": "INTC (customer) moved -0.18% the same day",
+      "detail": "ASML moved +3.08% while INTC moved -0.18%. INTC is ASML's customer (EUV lithography tools), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "occurred_on": "2026-09-18",
+      "numbers": {
+        "peer_pct_change": -0.18,
+        "subject_pct_change": 3.083,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260918_peer_TSM": {
+      "id": "ev_ASML_20260918_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (customer) moved +1.02% the same day",
+      "detail": "ASML moved +3.08% while TSM moved +1.02%. TSM is ASML's customer (semiconductor equipment and green manufacturing innovations), per the knowledge graph (source: 20-F).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-09-18",
+      "numbers": {
+        "peer_pct_change": 1.02,
+        "subject_pct_change": 3.083,
+        "relationship": "customer"
+      }
+    },
+    "ev_ASML_20260918_news0": {
+      "id": "ev_ASML_20260918_news0",
+      "kind": "news",
+      "title": "KLAC Gains From AI Infrastructure: Can It Outpace AMAT & ASML?",
+      "detail": "Reported by Yahoo. KLA Corporation's AI-driven process-control demand is rising with 2nm, EUV, HBM and advanced packaging investments as rivals intensify competition.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8a88638457d86816368e0fad014858a38c6302f947199fd09b47de613d992430",
+      "occurred_on": "2026-09-18",
+      "numbers": {}
+    },
+    "ev_ASML_20260918_news1": {
+      "id": "ev_ASML_20260918_news1",
+      "kind": "news",
+      "title": "2 Stocks Breaking Out Post-FOMC With One Thing in Common",
+      "detail": "Reported by Yahoo. AMD shares rose more than 6% and Intel surged nearly 8% on Thursday, Sept. 18, after the Fed's rate decision, as investors rotated back into AI-chip stocks beyond NVIDIA.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=721e5bb8ae02e9759b3c5918718bbe29d889da6d9bc9f5d7118c0a2bc0e4e851",
+      "occurred_on": "2026-09-18",
+      "numbers": {}
+    },
+    "ev_ASML_20260918_news2": {
+      "id": "ev_ASML_20260918_news2",
+      "kind": "news",
+      "title": "Eisman Says Buy Micron And SK Hynix. \u201cIn This Knife Fight You Want To Be The One Selling The Knives\u201d",
+      "detail": "Reported by Yahoo. Steve Eisman thinks the real winners of the AI arms race are not the chip designers everyone is fighting over but the suppliers equipping both sides of the battle. Five stocks have already lapped Nvidia in 2026, and Eisman ranks them by who survives if the whole AI ecosystem cracks.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=41937090b1ce9c149b104eac41a6437685222983f3c3dc7e86d4a4af88d840ff",
+      "occurred_on": "2026-09-18",
+      "numbers": {}
+    },
+    "ev_ASML_20260918_news3": {
+      "id": "ev_ASML_20260918_news3",
+      "kind": "news",
+      "title": "ASML Rides on Strength in Installed Base Business: Will it Sustain?",
+      "detail": "Reported by Yahoo. ASML's Installed Base Management sales surge 31.8%, fueled by upgrades and a growing EUV fleet, but sustaining growth hinges on customer demand.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=dd48fae9911da86bd09d63b6531b6b14412c152a253a4a4395f7a3b546be02fd",
+      "occurred_on": "2026-09-18",
+      "numbers": {}
+    },
+    "ev_ASML_20260918_news4": {
+      "id": "ev_ASML_20260918_news4",
+      "kind": "news",
+      "title": "Forget the AI Bubble: VanEck\u2019s Nick Frasse Explains How MU, SK Hynix, ASML, and TSMC Control the Pace of 'Token Factories'",
+      "detail": "Reported by Benzinga. VanEck\u2019s Nick Frasse breaks down AI bottlenecks, &#39;token factories&#39;, and why MU, SK Hynix, ASML, and TSMC control the data center buildout.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7e50a34f87d22b735b4a6f7f6905f3bd9ecdc7234d21cc1824cf2d19a579f90f",
+      "occurred_on": "2026-09-18",
+      "numbers": {}
+    },
+    "ev_ASML_20260918_news5": {
+      "id": "ev_ASML_20260918_news5",
+      "kind": "news",
+      "title": "ASML Gains 1.5% as 110 EUV Machines Test Assembly Speed",
+      "detail": "Reported by Yahoo. AI demand has moved ASML's constraint from customer interest to manufacturing throughput.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e4fd75e80cf531458fa7850a88c81ecb98b69a4f82f52571d9cfa603824b3de5",
+      "occurred_on": "2026-09-17",
+      "numbers": {}
+    },
+    "ev_ASML_20260918_news6": {
+      "id": "ev_ASML_20260918_news6",
+      "kind": "news",
+      "title": "Chasing ASML\u2019s Dominance: Canon and Nikon Are Doing Something The Market Misses",
+      "detail": "Reported by Yahoo. ASML just dominated another quarter, but Canon and Nikon are quietly carving out a position in chip manufacturing that Wall Street's models barely account for, and one memory giant is already betting on it.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b5f4cf4410f90672106321b1fe46911f2c5e52e3d7a33a460ed68219998af7f0",
+      "occurred_on": "2026-09-17",
+      "numbers": {}
+    },
+    "ev_ASML_20260918_news7": {
+      "id": "ev_ASML_20260918_news7",
+      "kind": "news",
+      "title": "ASML Holding N.V. (ASML) is Attracting Investor Attention: Here is What You Should Know",
+      "detail": "Reported by Yahoo. Zacks.com users have recently been watching ASML (ASML) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7fee8f6d3f9edb0248a6c1eb6f1d4572cd4637e77971de4dc6c30e8faecf622d",
+      "occurred_on": "2026-09-17",
+      "numbers": {}
+    },
+    "ev_ASML_sector_IPG3344S": {
+      "id": "ev_ASML_sector_IPG3344S",
+      "kind": "sector",
+      "title": "US semiconductor and electronic component production: 190.1 index, 2017=100, +12.3% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/IPG3344S",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 190.0987,
+        "units": "index, 2017=100",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": 12.35
+      }
+    },
+    "ev_ASML_sector_PCU334413334413": {
+      "id": "ev_ASML_sector_PCU334413334413",
+      "kind": "sector",
+      "title": "US semiconductor producer price index: 28.5 index, -3.1% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/PCU334413334413",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 28.472,
+        "units": "index",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": -3.13
+      }
+    }
+  },
+  "arc": "Between April and September 2026, ASML experienced substantial appreciation, lifting from $1317.23 in early April to $1679.92 by mid-September despite sharp cyclical swings. Throughout June and July, the stock exhibited intense volatility that closely mirrored synchronous double-digit and mid-single-digit swings at its key EUV lithography customers, Intel and TSMC, rather than company-specific announcements. By September, company-specific drivers came to the forefront, highlighted by a 31.8% growth rate in Installed Base Management revenues and high manufacturing throughput demands on 110 EUV units to support AI infrastructure buildouts.",
+  "arc_citation_ids": [
+    "ev_ASML_20260402_price",
+    "ev_ASML_20260605_price",
+    "ev_ASML_20260611_price",
+    "ev_ASML_20260727_price",
+    "ev_ASML_20260730_price",
+    "ev_ASML_20260918_price",
+    "ev_ASML_20260918_news3",
+    "ev_ASML_20260918_news5"
+  ],
+  "warnings": []
+}

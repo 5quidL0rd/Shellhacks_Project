@@ -15,17 +15,19 @@ All limits below were checked on 2026-09-26 and verified by actually calling eac
 | **Yahoo Finance** via `yfinance` | Daily OHLCV for the chart and move detection | No | Unofficial, unpublished | 180 days × 5 symbols, works |
 | **SEC EDGAR** submissions | 8-K / 10-Q / 10-K filings near a move date | No | 10 req/sec | 19 material NVDA filings |
 | **SEC EDGAR** XBRL `companyconcept` | Revenue, net income, gross profit, operating income, R&D | No | 10 req/sec | All 5 concepts for NVDA |
-| **Finnhub** `company-news` | Company news, last ~3 days only | Yes | 60 req/min | 248 NVDA articles |
+| **Finnhub** `company-news` | Company news; ~250 newest articles per request | Yes | 60 req/min | 248 NVDA articles |
 | **FRED** (St. Louis Fed) | Sector backdrop for the arc paragraph | No | Unmetered | Semis production +12.35% YoY |
 | **Gemini** `gemini-3.8-flash` | The narration itself | Yes | — | Live call OK |
 
 ### The known limitation: no historical news
 
-**Finnhub's free tier silently ignores the `from` parameter.** I requested 180 days of NVDA news and got 248 articles — every one of them from the previous three days. It does not error; it just returns recent news. Historical company news is a paid feature.
+**Correction (2026-09-26): Finnhub's free tier does honor the date range; it caps each request at about 250 articles and returns the newest ones in that range.** Requesting 180 days of NVDA news returned 248 articles, all from the previous three days, because 250 NVDA articles only span about three days. A request for a past week (NVDA, 2026-06-01 to 06-07) returns about 250 articles from the end of that week. Less-covered companies fit the whole window in one request: Cirrus Logic's 180-day request returned 128 articles going back to March.
+
+**The fix, not yet built:** in `news_for_move()`, request news for each move's own dates (the move day and the day before) instead of one 180-day request. That is about 12 requests per company, well inside 60 per minute, and cached. Until then, the notes below describe the current behavior.
 
 There is no historical news source in the stack. That was a deliberate scope decision: GDELT was built, tested and working (it correctly found the CNBC earnings story behind NVDA's +8.74% day) but was removed as too much operational hassle for this project — its 1-request-per-5-seconds limit and frequent 429s made a full rebuild take upwards of half an hour.
 
-**What this costs.** Moves in the last ~3 days get news citations. Older moves are explained from:
+**What this costs today.** Moves covered by the ~250 newest articles get news citations (a few days for heavily covered companies, months for less-covered ones). Older moves are explained from:
 
 - **SEC filings** — an 8-K or 10-Q within 2 days of the move. This covers earnings days, which are the largest and most interesting moves anyway, at `high` confidence.
 - **Connected-company moves** — whether its suppliers, customers, and competitors (from the knowledge graph, `backend/app/connections.py`) moved the same day, which distinguishes "this company had a bad day" from "its whole supply chain had a bad day."
@@ -160,7 +162,7 @@ The list is still useful, because it names the right *categories*. Each one maps
 
 | From the list | What it provides | Free equivalent now in use |
 |---|---|---|
-| Bloomberg, Thomson Reuters | Wire-service news | **Finnhub** for the last ~3 days. No historical equivalent — see §1. |
+| Bloomberg, Thomson Reuters | Wire-service news | **Finnhub**, ~250 newest articles per request; historical news needs per-date requests — see §1. |
 | Factiva (Dow Jones) | News archive | **Nothing.** This is the acknowledged gap. |
 | Capital IQ, Mergent, S&P NetAdvantage | Company fundamentals and filings | **SEC EDGAR** XBRL — the primary source these three resell, and a better citation link |
 | CRSP, Global Financial Data, Datastream | Historical prices and returns | **yfinance** — far shorter history, but 180 days is all Story Mode charts |
