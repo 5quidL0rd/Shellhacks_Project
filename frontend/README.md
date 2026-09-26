@@ -42,14 +42,15 @@ npm run lint       # oxlint
 | `src/pages/XRayPage.tsx` | Home screen |
 | `src/pages/MapPage.tsx` | Connection Map (react-force-graph-2d) |
 | `src/pages/StoryPage.tsx` | Story Mode (TradingView Lightweight Charts v5) |
-| `src/index.css` | Design tokens and styles (dark theme) |
+| `src/index.css` | Design tokens and styles |
 
 ## Design notes
 
-- **Look:** dark slate with one amber accent, JetBrains Mono throughout (bundled via `@fontsource-variable/jetbrains-mono`), uppercase letter-spaced section labels, and a left sidebar. Dark only.
+- **Palette** (from the team's `pallette_03.jpg`): deep teal `#2b6777` (sidebar, primary buttons, price line), blue-gray `#c8d8e4` (soft fills), white cards on light gray `#f2f2f2`, and green-teal `#52ab98` (highlights). Light theme. JetBrains Mono throughout, bundled via `@fontsource-variable/jetbrains-mono`.
+- **Soft components:** no hard outlines. Cards separate from the page by fill and a faint shadow; buttons, inputs, chips, and badges use tinted fills; focus shows a soft green-teal ring.
 - **Colors are tokens** in `src/index.css`. Canvas charts (map, price chart) read the same tokens and the font through `useThemeColors`, so a token change restyles everything.
-- **Bright amber (`--accent`) is for UI only** (active nav, buttons, focus, highlights). Data uses a darker amber (`--series-1`), because the bright one fails the chart lightness check on the dark background.
-- **Map node colors are validated** for color-vision deficiency on the card surface: holdings amber, supported-not-owned blue, outside companies aqua. Countries are gray squares, so shape also carries the difference.
+- **Map node colors are validated** for color-vision deficiency on white: holdings teal `#0086a4`, supported-not-owned orange, outside companies violet. The palette's own teals are too muted for data (they read as gray), so the map uses a more saturated teal of the same hue. Teal vs violet needs a second cue, which the map gives: holdings are larger, ringed, and always labeled; countries are gray squares.
+- **Text contrast:** the green-teal `#52ab98` is too light for text on white/gray, so text uses a darker `#2f8a76`; muted text is 4.6:1 on white.
 - **Up and down moves use arrows (▲▼) and a sign**, not color alone.
 - **Every claim links to its source.** Graph edges show the filing quote; story explanations show numbered citations that open the evidence.
 - **No buy/sell language.** Competitors appear as "also affected", never as winners or losers.

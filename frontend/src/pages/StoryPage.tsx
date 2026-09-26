@@ -84,7 +84,7 @@ function PriceChart({ story, selected, onSelect }: {
       grid: { vertLines: { visible: false }, horzLines: { color: colors.grid } },
       rightPriceScale: { borderColor: colors.baseline },
       timeScale: { borderColor: colors.baseline },
-      crosshair: { horzLine: { labelBackgroundColor: colors.baseline }, vertLine: { labelBackgroundColor: colors.baseline } },
+      crosshair: { horzLine: { labelBackgroundColor: colors['price-line'] }, vertLine: { labelBackgroundColor: colors['price-line'] } },
     })
     const series = chart.addSeries(LineSeries, { color: colors['price-line'], lineWidth: 2, priceLineVisible: false })
     series.setData(story.bars.map((b) => ({ time: b.date as Time, value: b.close })))

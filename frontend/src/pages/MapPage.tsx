@@ -148,6 +148,15 @@ export function MapPage({ holdings }: { holdings: string[] }) {
                 ctx.lineWidth = 2 / scale
                 ctx.strokeStyle = colors.surface
                 ctx.stroke()
+                // Holdings get an outer ring: the second cue that keeps them
+                // distinct from outside companies for color-blind readers.
+                if (n.is_holding) {
+                  ctx.lineWidth = 1.5 / scale
+                  ctx.strokeStyle = colors['series-1']
+                  ctx.beginPath()
+                  ctx.arc(n.x!, n.y!, r + 2.5, 0, 2 * Math.PI)
+                  ctx.stroke()
+                }
                 if (selected?.id === n.id) {
                   ctx.lineWidth = 2 / scale
                   ctx.strokeStyle = colors.focus
