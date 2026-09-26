@@ -1,0 +1,229 @@
+{
+  "company": "ASML",
+  "source": "20-F",
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm",
+  "filing_date": "2026-02-25",
+  "model": "gemini-3.8-flash",
+  "relationships": [
+    {
+      "type": "COMPETITOR",
+      "counterparty_name": "Applied Materials Inc.",
+      "country": null,
+      "operates_kind": null,
+      "detail": "applications that support or enhance complex patterning solutions",
+      "evidence": "We also compete with providers of applications that support or enhance complex patterning solutions, such as Applied Materials Inc. and KLA-Tencor Corporation.",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "COMPETITOR",
+      "counterparty_name": "Canon",
+      "country": null,
+      "operates_kind": null,
+      "detail": "DUV systems",
+      "evidence": "We compete primarily with Canon and Nikon in respect of DUV systems.",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "COMPETITOR",
+      "counterparty_name": "KLA-Tencor Corporation",
+      "country": null,
+      "operates_kind": null,
+      "detail": "applications that support or enhance complex patterning solutions",
+      "evidence": "We also compete with providers of applications that support or enhance complex patterning solutions, such as Applied Materials Inc. and KLA-Tencor Corporation.",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "COMPETITOR",
+      "counterparty_name": "Nikon",
+      "country": null,
+      "operates_kind": null,
+      "detail": "DUV systems",
+      "evidence": "We compete primarily with Canon and Nikon in respect of DUV systems.",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": "TSMC",
+      "country": null,
+      "operates_kind": null,
+      "detail": "semiconductor equipment and green manufacturing innovations",
+      "evidence": "In November 2025, we were honored to receive the TSMC Supplier ‘Excellence in Green Manufacturing’ Award, for this and other product energy- efficiency innovations.",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "lithography systems",
+      "evidence": "Total net sales to our largest customer amounted to €7,796.7 million , or 23.9% of total net sales in 2025 , compared with €4,682.4 million , or 16.6% of total net sales in 2024 .",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "products sold",
+      "evidence": "For emission factors, w e differentiate the products sold to f ive of our largest customers.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": null,
+      "evidence": "Our three largest customers (based on total net sales) accounted for € 1.3 billion , or 35.4 % , of accounts receivable and finance receivables at December 31, 2025",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "China",
+      "operates_kind": "major_market",
+      "detail": null,
+      "evidence": "Sales were primarily driven by our China mainstream business.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "South Korea",
+      "operates_kind": "major_market",
+      "detail": null,
+      "evidence": "in South Korea represented 25.0% of our 2025 total net sales and 22.7% of our 2024 total net sales.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "United States",
+      "operates_kind": "manufacturing",
+      "detail": null,
+      "evidence": "By broadening supplier bases in Asia and enhancing manufacturing in Europe, Asia and the US, we aim to better meet customer needs.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": "Carl Zeiss SMT",
+      "country": null,
+      "operates_kind": null,
+      "detail": "critical optical components",
+      "evidence": "Carl Zeiss SMT, our sole supplier of lenses, mirrors, illuminators, collectors and other critical optical components (which we refer to as optics).",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": "Carl Zeiss SMT GmbH",
+      "country": null,
+      "operates_kind": null,
+      "detail": "optical columns",
+      "evidence": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography systems.",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "supplier emissions data quality services",
+      "evidence": "We have contracted a service provider to help us improve suppliers’ emissions data quality.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "transportation and distribution services",
+      "evidence": "Around 90% of the emissions are reported by the forwarders (tier 1 logistic suppliers). We directly receive emissions reports from our major logistics suppliers",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "carbon credits",
+      "evidence": "carbon credits planned to be canceled in the next reporting period based on existing contractual agreements are provided by our carbon credit supplier.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "air travel services",
+      "evidence": "Air travel: gross emissions are reported to us directly from our travel suppliers.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "potable water supply",
+      "evidence": "Data is provided by the water supplier for all manufacturing sites and large offices.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "fossil fuel and electricity",
+      "evidence": "For all significant manufacturing and office locations, data from the energy supplier is used.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "components and subassemblies",
+      "evidence": "We rely on outside vendors for components and subassemblies used in our systems, including the design thereof, each of which is obtained from a single supplier or a limited number of suppliers.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    }
+  ]
+}

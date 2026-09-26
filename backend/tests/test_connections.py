@@ -54,7 +54,10 @@ def test_a_pair_with_two_relationships_is_one_peer(monkeypatch, tmp_path):
 
 def test_no_graph_links_falls_back_to_same_sector(monkeypatch, tmp_path):
     use_graph(monkeypatch, tmp_path, [])
-    assert set(conn.peers("NVDA")) == {"AMD", "TSM"}
+    same_sector = {s for s, c in conn.COMPANIES.items()
+                   if s != "NVDA" and c.sector == conn.COMPANIES["NVDA"].sector}
+    assert {"AMD", "TSM"} <= same_sector
+    assert set(conn.peers("NVDA")) == same_sector
     assert {c.label for c in conn.connections("NVDA")} == {"same_sector"}
 
 

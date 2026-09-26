@@ -1,0 +1,97 @@
+{
+  "company": "GOOGL",
+  "source": "10-K",
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+  "filing_date": "2026-02-05",
+  "model": "gemini-3.8-flash",
+  "relationships": [
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "distribution of products and services",
+      "evidence": "We also rely on third parties to supply components and distribute our products and services.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": null,
+      "evidence": "These attacks may target us or our customers, particularly our public sector customers (including federal, state, and local governments).",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "United States",
+      "operates_kind": "major_market",
+      "detail": "domestic market accounting for 48% of consolidated revenues",
+      "evidence": "International revenues accounted for approximately 52% of consolidated revenues in 2025.",
+      "confidence": "medium",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "devices, servers, and networking equipment manufacturing and assembly",
+      "evidence": "We rely on contract manufacturers to manufacture or assemble our devices as well as servers and networking equipment used in our technical infrastructure, certain components of which we may supply.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "components for technical infrastructure and devices",
+      "evidence": "Some of the components we use in our technical infrastructure and our devices are available from only one or limited sources, and we may not be able to find replacement vendors on favorable terms in the event of a supply chain disruption.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "servers, network equipment, and specialized AI chips",
+      "evidence": "Additionally, manufacturing and supply of servers and network equipment for our technical infrastructure, particularly for specialized AI chips, is limited to a small number of qualified suppliers.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "leasing arrangements for compute capacity",
+      "evidence": "To meet the compute capacity demands of AI training and inference, as well as traditional cloud computing services, we are entering into significant leasing arrangements with third party operators, which may increase costs and operational complexity.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": null,
+      "evidence": "Many of our agreements with our customers and partners, including certain suppliers, require us to defend against certain intellectual property infringement claims",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    }
+  ]
+}

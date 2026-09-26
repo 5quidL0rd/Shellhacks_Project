@@ -1,0 +1,64 @@
+{
+  "company": "AMZN",
+  "source": "10-K",
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+  "filing_date": "2026-02-06",
+  "model": "gemini-3.8-flash",
+  "relationships": [
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": "China",
+      "operates_kind": null,
+      "detail": "third-party seller services and advertising",
+      "evidence": "China-based sellers account for significant portions of our third-party seller services and advertising revenues",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": "China",
+      "operates_kind": null,
+      "detail": "components and finished goods",
+      "evidence": "China-based suppliers provide significant portions of our components and finished goods",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "semiconductor products and graphics processing units",
+      "evidence": "we rely on a limited group of suppliers for semiconductor products, including products related to artificial intelligence infrastructure such as graphics processing units.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "shipping and delivery services",
+      "evidence": "We rely on a limited number of shipping companies to deliver inventory to us and completed orders to our customers.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "content and technology licensing",
+      "evidence": "We have significant suppliers, including content and technology licensors, and in some cases, limited or single-sources of supply",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    }
+  ]
+}

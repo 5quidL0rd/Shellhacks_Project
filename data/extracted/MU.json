@@ -1,0 +1,262 @@
+{
+  "company": "MU",
+  "source": "10-K",
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
+  "filing_date": "2025-10-03",
+  "model": "gemini-3.8-flash",
+  "relationships": [
+    {
+      "type": "COMPETITOR",
+      "counterparty_name": "ChangXin Memory Technologies, Inc.",
+      "country": null,
+      "operates_kind": null,
+      "detail": "semiconductor memory and storage",
+      "evidence": "from a number of companies, including Samsung Electronics Co., Ltd.; SK hynix Inc.; Kioxia Holdings Corporation; Sandisk Corporation; ChangXin Memory Technologies, Inc. (“CXMT”); and Yangtze Memory Technologies Co., Ltd. (“YMTC”).",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "COMPETITOR",
+      "counterparty_name": "Kioxia Holdings Corporation",
+      "country": null,
+      "operates_kind": null,
+      "detail": "semiconductor memory and storage",
+      "evidence": "from a number of companies, including Samsung Electronics Co., Ltd.; SK hynix Inc.; Kioxia Holdings Corporation; Sandisk Corporation; ChangXin Memory Technologies, Inc. (“CXMT”); and Yangtze Memory Technologies Co., Ltd. (“YMTC”).",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "COMPETITOR",
+      "counterparty_name": "SK hynix Inc.",
+      "country": null,
+      "operates_kind": null,
+      "detail": "semiconductor memory and storage",
+      "evidence": "from a number of companies, including Samsung Electronics Co., Ltd.; SK hynix Inc.; Kioxia Holdings Corporation; Sandisk Corporation; ChangXin Memory Technologies, Inc. (“CXMT”); and Yangtze Memory Technologies Co., Ltd. (“YMTC”).",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "COMPETITOR",
+      "counterparty_name": "Samsung Electronics Co., Ltd.",
+      "country": null,
+      "operates_kind": null,
+      "detail": "semiconductor memory and storage",
+      "evidence": "from a number of companies, including Samsung Electronics Co., Ltd.; SK hynix Inc.; Kioxia Holdings Corporation; Sandisk Corporation; ChangXin Memory Technologies, Inc. (“CXMT”); and Yangtze Memory Technologies Co., Ltd. (“YMTC”).",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "COMPETITOR",
+      "counterparty_name": "Sandisk Corporation",
+      "country": null,
+      "operates_kind": null,
+      "detail": "semiconductor memory and storage",
+      "evidence": "from a number of companies, including Samsung Electronics Co., Ltd.; SK hynix Inc.; Kioxia Holdings Corporation; Sandisk Corporation; ChangXin Memory Technologies, Inc. (“CXMT”); and Yangtze Memory Technologies Co., Ltd. (“YMTC”).",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "COMPETITOR",
+      "counterparty_name": "Yangtze Memory Technologies Co., Ltd.",
+      "country": null,
+      "operates_kind": null,
+      "detail": "semiconductor memory and storage",
+      "evidence": "from a number of companies, including Samsung Electronics Co., Ltd.; SK hynix Inc.; Kioxia Holdings Corporation; Sandisk Corporation; ChangXin Memory Technologies, Inc. (“CXMT”); and Yangtze Memory Technologies Co., Ltd. (“YMTC”).",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "top ten customers accounting for approximately one-half of total revenue",
+      "evidence": "In each of the last three years, approximately one-half of our total revenue was from our top ten customers.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "semiconductor memory and storage products",
+      "evidence": "In 2025, over half of our total revenue came from our top ten customers.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": "China",
+      "operates_kind": null,
+      "detail": "critical information infrastructure operators",
+      "evidence": "the CAC determined that critical information infrastructure operators in China may not purchase Micron products, impacting our revenue with companies headquartered in mainland China and Hong Kong",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "distributors",
+      "evidence": "impacting our revenue with companies headquartered in mainland China and Hong Kong, including direct sales as well as indirect sales through distributors.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "United States",
+      "operates_kind": "headquarters",
+      "detail": "executive offices",
+      "evidence": "Our executive offices are located at 8000 South Federal Way, Boise, Idaho 83716-9632 and our telephone number is (208) 368-4000.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "Taiwan",
+      "operates_kind": "manufacturing",
+      "detail": "manufacturing facilities",
+      "evidence": "We manufacture our products within our own facilities located in Taiwan, Singapore, Japan, the United States, Malaysia, China, and India",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "Singapore",
+      "operates_kind": "manufacturing",
+      "detail": "manufacturing facilities",
+      "evidence": "We manufacture our products within our own facilities located in Taiwan, Singapore, Japan, the United States, Malaysia, China, and India",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "Japan",
+      "operates_kind": "manufacturing",
+      "detail": "manufacturing facilities",
+      "evidence": "We manufacture our products within our own facilities located in Taiwan, Singapore, Japan, the United States, Malaysia, China, and India",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "United States",
+      "operates_kind": "manufacturing",
+      "detail": "manufacturing facilities",
+      "evidence": "We manufacture our products within our own facilities located in Taiwan, Singapore, Japan, the United States, Malaysia, China, and India",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "Malaysia",
+      "operates_kind": "manufacturing",
+      "detail": "manufacturing facilities",
+      "evidence": "We manufacture our products within our own facilities located in Taiwan, Singapore, Japan, the United States, Malaysia, China, and India",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "China",
+      "operates_kind": "manufacturing",
+      "detail": "manufacturing facilities",
+      "evidence": "We manufacture our products within our own facilities located in Taiwan, Singapore, Japan, the United States, Malaysia, China, and India",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "India",
+      "operates_kind": "manufacturing",
+      "detail": "manufacturing facilities",
+      "evidence": "We manufacture our products within our own facilities located in Taiwan, Singapore, Japan, the United States, Malaysia, China, and India",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "China",
+      "operates_kind": "major_market",
+      "detail": null,
+      "evidence": "following the May 2023 decision of its cybersecurity review of our products sold in China, the CAC determined that critical information infrastructure operators in China may not purchase Micron products",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "materials, components, or services provided by single or sole sources",
+      "evidence": "in some cases, materials, components, or services are provided by a single or sole source, and we may be unable to qualify new suppliers on a timely basis.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "photolithography tools",
+      "evidence": "For certain key types of equipment, including photolithography tools, we are sometimes dependent on a single supplier.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "materials, supplies, and services",
+      "evidence": "Any inability to replace removed suppliers in a timely or cost-effective manner may affect our ability and/or the cost to obtain sufficient quantities of materials, supplies, and services necessary for the manufacture of our products.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "intellectual property licenses",
+      "evidence": "We have a number of intellectual property license agreements. Some of these license agreements require us to make one-time or periodic payments.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    }
+  ]
+}

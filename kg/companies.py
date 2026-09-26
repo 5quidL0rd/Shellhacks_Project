@@ -16,7 +16,7 @@ COMPANIES = {
 }
 
 _SUFFIXES = re.compile(
-    r"\b(incorporated|inc|corporation|corp|company|co|limited|ltd|llc|plc|holdings?|group)\b\.?",
+    r"\b(incorporated|inc|corporation|corp|company|co|limited|ltd|llc|plc|holdings?|group|gmbh|pte|ag)\b\.?",
     re.IGNORECASE,
 )
 
@@ -32,20 +32,28 @@ def normalize(name: str) -> str:
 # slug -> (display name, [variants])
 EXTERNAL = {
     "samsung-electronics": ("Samsung Electronics", ["Samsung", "Samsung Electronics Co"]),
-    "alphabet": ("Alphabet (Google)", ["Google", "Google LLC", "Alphabet Inc"]),
     "openai": ("OpenAI", ["OpenAI OpCo", "OpenAI OpCo LLC"]),
     "nxp-semiconductors": ("NXP Semiconductors", ["NXP Semiconductors N.V."]),
-    "hon-hai-precision-industry": ("Hon Hai (Foxconn)", ["Foxconn", "Hon Hai"]),
-    "amazon": ("Amazon", ["Amazon.com", "Amazon Web Services", "AWS"]),
+    "hon-hai-precision-industry": ("Hon Hai (Foxconn)", ["Foxconn", "Hon Hai", "Foxconn Technology Group"]),
+    "globalfoundries": ("GlobalFoundries", ["Global Foundries", "GLOBALFOUNDRIES Inc"]),
+    "stats-chippac": ("STATS ChipPAC", ["STATSChipPAC", "STATS ChipPAC Pte. Ltd."]),
+    "advanced-semiconductor-engineering": ("ASE (Advanced Semiconductor Engineering)",
+                                           ["Advanced Semiconductor Engineering", "ASE Technology", "ASE"]),
+    "huawei": ("Huawei", ["Huawei Technologies", "Huawei Technologies Co. Ltd."]),
+    "skyworks": ("Skyworks Solutions", ["Skyworks", "Skyworks Solutions Inc."]),
+    "carl-zeiss": ("Carl Zeiss", ["Zeiss", "Carl Zeiss SMT", "Carl Zeiss SMT GmbH"]),
+    "kla": ("KLA", ["KLA Corporation", "KLA-Tencor", "KLA-Tencor Corporation"]),
+    "meta": ("Meta Platforms", ["Meta", "Meta Platforms, Inc.", "Facebook"]),
 }
 
 _ALIAS_INDEX = {}
-for _ticker, _c in COMPANIES.items():
-    for _n in [_ticker, _c["name"], *_c["aliases"]]:
-        _ALIAS_INDEX[normalize(_n)] = _ticker
 for _slug, (_display, _variants) in EXTERNAL.items():
     for _n in [_display, *_variants]:
         _ALIAS_INDEX[normalize(_n)] = _slug
+# Supported companies go last so they win if a name is in both lists.
+for _ticker, _c in COMPANIES.items():
+    for _n in [_ticker, _c["name"], *_c["aliases"]]:
+        _ALIAS_INDEX[normalize(_n)] = _ticker
 
 
 def resolve(name: str) -> tuple[str, bool]:
@@ -55,6 +63,17 @@ def resolve(name: str) -> tuple[str, bool]:
     anything else gets a stable slug like 'samsung-electronics'.
     """
     norm = normalize(name)
+    if norm not in _ALIAS_INDEX:
+        # "Taiwan Semiconductor Manufacturing Company (TSMC)": try the name
+        # without the parenthetical, then the abbreviation inside it.
+        bare = re.sub(r"\s*\([^)]*\)", "", name)
+        inner = re.findall(r"\(([^)]*)\)", name)
+        for candidate in [bare, *inner]:
+            if normalize(candidate) in _ALIAS_INDEX:
+                norm = normalize(candidate)
+                break
+        else:
+            norm = normalize(bare)
     key = _ALIAS_INDEX.get(norm, norm.replace(" ", "-"))
     return key, key in COMPANIES
 

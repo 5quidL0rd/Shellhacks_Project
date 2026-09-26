@@ -4,6 +4,21 @@
 
 Proposed: **40 companies**, the current 5 plus 35 new ones. Every company below was checked against SEC EDGAR on 2026-09-26: the CIK is real, and a recent annual report (10-K or 20-F) is on file, so the knowledge graph pipeline can read it.
 
+## Pilot results (2026-09-26)
+
+The first 8 new companies (INTC, MU, AVGO, QCOM, ASML, CRUS, AMZN, GOOGL) have been added to `data/companies.json` and run through the knowledge graph pipeline. The universe is now 13 companies.
+
+- **Links between supported companies went from 8 to 35.** The graph has 93 nodes and 195 relationships.
+- **TSMC supplies 7 of the 13**: AAPL, NVDA, AMD, INTC, AVGO, QCOM, CRUS. **ASML supplies TSMC and Intel**, a two-step dependency.
+- **New shared suppliers surfaced from the filings**: Siliconware (4 supported companies), ASE, Amkor, GlobalFoundries, Samsung (3 each).
+- **Intel names TSMC as its "primary competitor"** while also buying from it, which fills TSMC's missing competitor link.
+- **Cirrus Logic: Apple is 91% of sales**, per its 10-K.
+- **Amazon and Alphabet name no suppliers or competitors** in their own filings; their links come from other companies naming them (2 and 3 links).
+- **Two filings had no standard section headings** (Intel's topic-organized 10-K and ASML's 20-F, which is its full annual report). The fetcher now falls back to keeping only sentences that mention a known company or a supply-chain term. On NVDA's filing this keeps 26 of the 27 quotes the normal extraction used.
+- **Hand-check fixes**: one row removed (Cirrus Logic's "limited sales to Russia" would have become a major-market link), and company-name matching now handles names like "Taiwan Semiconductor Manufacturing Company (TSMC)" and variants such as "Global Foundries" / "GLOBALFOUNDRIES".
+
+Not yet done for the pilot companies: Story Mode stories, and refreshing the Snowflake graph tables (still the 5-company version).
+
 ## How the list was chosen
 
 The product's pitch is "we show you what you actually depend on," so the list is built around **one connected cluster: the AI and chip supply chain**, from chip-making equipment through foundries, chip designers, and hardware makers to cloud companies. Companies in a cluster name each other in their filings, which makes the Connection Map dense and makes shared dependencies visible.

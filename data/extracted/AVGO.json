@@ -1,0 +1,174 @@
+{
+  "company": "AVGO",
+  "source": "10-K",
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+  "filing_date": "2025-12-18",
+  "model": "gemini-3.8-flash",
+  "relationships": [
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "top five end customers",
+      "evidence": "We believe aggregate sales to our top five end customers, through all channels, accounted for approximately 40% of our net revenue for each of the fiscal years 2025 and 2024.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "distributors",
+      "evidence": "For fiscal year 2025, sales to distributors accounted for 48% of our net revenue.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "top five end customers",
+      "evidence": "We believe aggregate sales, through all channels, to our top five end customers accounted for approximately 40% of our net revenue for fiscal year 2025.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "software portfolio",
+      "evidence": "our customers are managing more complex, larger cloud infrastructures for more complex computing environments, license and deploy our portfolio across a variety of computer platforms",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "United States",
+      "operates_kind": "manufacturing",
+      "detail": "III-V semiconductor wafer fabrication",
+      "evidence": "The majority of our internal III-V semiconductor wafer fabrication is done in the U.S. and Singapore.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "Singapore",
+      "operates_kind": "manufacturing",
+      "detail": "III-V semiconductor wafer fabrication",
+      "evidence": "The majority of our internal III-V semiconductor wafer fabrication is done in the U.S. and Singapore.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": "Advanced Semiconductor Engineering, Inc.",
+      "country": null,
+      "operates_kind": null,
+      "detail": "assembly and test operations",
+      "evidence": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": "Amkor Technology, Inc.",
+      "country": null,
+      "operates_kind": null,
+      "detail": "assembly and test operations",
+      "evidence": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": "Foxconn Technology Group",
+      "country": null,
+      "operates_kind": null,
+      "detail": "assembly and test operations",
+      "evidence": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": "Siliconware Precision Industries Co., Ltd.",
+      "country": null,
+      "operates_kind": null,
+      "detail": "assembly and test operations",
+      "evidence": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": "TSMC",
+      "country": null,
+      "operates_kind": null,
+      "detail": "wafer manufacturing",
+      "evidence": "During fiscal year 2025, approximately 95% of the wafers manufactured by our CMs were produced by TSMC.",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "country": null,
+      "operates_kind": null,
+      "detail": "front-end wafer manufacturing",
+      "evidence": "The majority of our front-end wafer manufacturing operations is outsourced to external foundries, including Taiwan Semiconductor Manufacturing Company Limited (“TSMC”).",
+      "confidence": "high",
+      "is_named": true,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "third-party wafer foundries",
+      "evidence": "We operate a primarily outsourced manufacturing business model that principally utilizes CMs, such as third-party wafer foundries.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "manufacturing materials",
+      "evidence": "During fiscal year 2025, we purchased approximately two-thirds of our manufacturing materials from five materials suppliers, some of which are single source suppliers.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "third-party components",
+      "evidence": "If any of our products or third-party components used in our products, contain defects or bugs, or have reliability, quality or compatibility problems, we may not be able to successfully design workarounds.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    }
+  ]
+}
