@@ -1,0 +1,152 @@
+{
+  "available": true,
+  "form": "10-K",
+  "filing_date": "2026-05-21",
+  "url": "https://www.sec.gov/Archives/edgar/data/772406/000077240626000018/crus-20260328.htm",
+  "facts": [
+    {
+      "kind": "customer_concentration",
+      "subject": "our ten largest end customers",
+      "counterparty_name": null,
+      "percent": 96.0,
+      "at_least": false,
+      "scope": "group",
+      "basis": "indirect",
+      "metric": "net sales",
+      "period": "fiscal year 2026",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2025",
+          "percent": 96.0
+        },
+        {
+          "period": "2024",
+          "percent": 95.0
+        }
+      ],
+      "evidence": "For fiscal year 2026, 2025 and 2024, our ten largest end customers, represented approximately 96 percent, 96 percent, and 95 percent of our net sales, respectively.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "one end customer",
+      "counterparty_name": "Apple Inc.",
+      "percent": 91.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "indirect",
+      "metric": "total net sales",
+      "period": "fiscal years 2026",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2025",
+          "percent": 89.0
+        },
+        {
+          "period": "2024",
+          "percent": 87.0
+        }
+      ],
+      "evidence": "For fiscal years 2026, 2025, and 2024, we had one end customer, Apple Inc., who purchased through multiple contract manufacturers and represented approximately 91 percent, 89 percent, and 87 percent, of the Company\u2019s total net sales, respectively.",
+      "confidence": "high"
+    },
+    {
+      "kind": "none_above_threshold",
+      "subject": null,
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "net sales",
+      "period": "fiscal years 2026",
+      "threshold": 10.0,
+      "earlier": [],
+      "evidence": "No other customer or distributor represented more than 10 percent of net sales in fiscal years 2026, 2025, or 2024.",
+      "confidence": "high"
+    },
+    {
+      "kind": "geographic_concentration",
+      "subject": "International sales",
+      "counterparty_name": null,
+      "percent": 99.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "net sales",
+      "period": "fiscal years 2026",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2025",
+          "percent": 99.0
+        },
+        {
+          "period": "2024",
+          "percent": 99.0
+        }
+      ],
+      "evidence": "International sales represented 99 percent of our net sales in fiscal years 2026, 2025, and 2024.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "Contract manufacturers aggregated at their parent level",
+      "counterparty_name": "Foxconn",
+      "percent": 39.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "direct",
+      "metric": "consolidated gross trade accounts receivable",
+      "period": "fiscal year 2026",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "fiscal year 2025",
+          "percent": 41.0
+        }
+      ],
+      "evidence": "representing 39 percent and 22 percent, respectively, of our consolidated gross trade accounts receivable as of the end of fiscal year 2026, and Foxconn and Luxshare, representing 41 percent and 27 percent, respectively",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "Contract manufacturers aggregated at their parent level",
+      "counterparty_name": "Luxshare",
+      "percent": 22.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "direct",
+      "metric": "consolidated gross trade accounts receivable",
+      "period": "fiscal year 2026",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "fiscal year 2025",
+          "percent": 27.0
+        }
+      ],
+      "evidence": "representing 39 percent and 22 percent, respectively, of our consolidated gross trade accounts receivable as of the end of fiscal year 2026, and Foxconn and Luxshare, representing 41 percent and 27 percent, respectively",
+      "confidence": "high"
+    },
+    {
+      "kind": "none_above_threshold",
+      "subject": null,
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "consolidated gross trade accounts receivable",
+      "period": "fiscal year 2026",
+      "threshold": 10.0,
+      "earlier": [],
+      "evidence": "No other distributor or contract manufacturer had receivable balances that represented more than 10 percent of consolidated gross trade accounts receivable as of the end of fiscal year 2026 or 2025.",
+      "confidence": "high"
+    }
+  ],
+  "dropped_unverified": 0,
+  "passage_chars": 9535
+}

@@ -292,6 +292,8 @@ export interface Analysis {
     nodes: (MapNode & { is_candidate: boolean })[]
     links: MapLink[]
   }
+  /** How much its dependencies matter, read from the same filing. */
+  concentration: ConcentrationRead | null
   /** What we read out of the company's own annual report, for anything outside
    * the 13 companies whose filings were read offline. Null for those 13. */
   filing_read: {
@@ -332,6 +334,165 @@ export class ResearchLookupError extends Error {
     this.problem = problem
     this.status = status
   }
+}
+
+/** One concentration disclosure, read from a filing and quote-verified. */
+export interface ConcentrationFact {
+  kind: 'customer_concentration' | 'supplier_concentration'
+    | 'geographic_concentration' | 'single_source' | 'none_above_threshold'
+  subject: string | null
+  counterparty_name: string | null
+  percent: number | null
+  /** The filing gave a floor ("10% or more"), not an exact share. */
+  at_least: boolean
+  scope: 'single' | 'group'
+  basis: 'direct' | 'indirect' | 'unspecified'
+  metric: string | null
+  period: string | null
+  threshold: number | null
+  evidence: string
+  confidence: 'high' | 'medium' | 'low'
+}
+
+export interface ConcentrationRead {
+  available: boolean
+  reason?: string
+  summary: string
+  headline: string | null
+  largest_customer_share: number | null
+  form?: string
+  filing_date?: string
+  url?: string
+  facts?: ConcentrationFact[]
+  dropped_unverified?: number
+  revenue_mix: RevenueMix
+}
+
+/** One disclosed customer's share of revenue: a slice of the donut. */
+export interface RevenueSlice {
+  /** The name if the filing names it, else "Customer A", "Customer B". */
+  label: string
+  named: boolean
+  /** The filing's own words, e.g. "one direct customer". */
+  described_as: string | null
+  percent: number
+  at_least: boolean
+  metric: string | null
+  period: string | null
+  /** This customer's share by year, oldest first, when the quote gives several. */
+  history: { period: string; percent: number }[]
+  evidence: string
+}
+
+/** A customer another filing names, without a share. Never matched to a slice. */
+export interface NamedCustomer {
+  id: string
+  name: string
+  in_universe: boolean
+  detail: string | null
+  evidence: string
+  reported_by: string
+  reported_by_name: string
+  source: string
+  filing_url: string
+}
+
+export interface MixNote {
+  text: string
+  percent: number | null
+  at_least: boolean
+  metric: string | null
+  period: string | null
+  evidence: string
+}
+
+/** A supported company whose own filing says this one is a big customer. */
+export interface DependedOnBy {
+  ticker: string
+  name: string
+  percent: number
+  at_least: boolean
+  metric: string | null
+  period: string | null
+  evidence: string
+  form: string
+  url: string
+}
+
+/** Who pays a company, from its annual report. */
+export interface RevenueMix {
+  ticker?: string
+  name?: string
+  available: boolean
+  /** disclosed: slices below. none_above_threshold: no customer reaches the
+   * threshold. overlapping: shares add to over 100%, so no pie. */
+  status: 'disclosed' | 'none_above_threshold' | 'not_disclosed' | 'overlapping' | 'unavailable'
+  summary: string
+  form?: string | null
+  filing_date?: string | null
+  url?: string | null
+  period: string | null
+  threshold: number | null
+  slices: RevenueSlice[]
+  disclosed_total?: number
+  other: { percent: number; at_most: boolean; note: string } | null
+  /** Customers the filing names as over a floor ("10% or more") while giving
+   * exact shares only unnamed; which share is whose is not stated. */
+  named_without_share: { name: string; at_least: number; evidence: string }[]
+  /** Groups and indirect customers: true, but they overlap the slices. */
+  context: MixNote[]
+  suppliers: MixNote[]
+  geography: MixNote[]
+  depended_on_by: DependedOnBy[]
+  named_in_filings: NamedCustomer[]
+  dropped_unverified: number
+  method?: string
+}
+
+/** One holding's concentration, in the portfolio rollup. */
+export interface HoldingConcentration {
+  ticker: string
+  name: string
+  headline: string | null
+  largest_customer_share: number | null
+  single_source_count: number
+  fact_count: number
+  dropped_unverified: number
+  form: string
+  filing_date: string
+  url: string
+  facts: ConcentrationFact[]
+}
+
+/** A holding that names another holding as a material customer or supplier. */
+export interface InternalConcentrationLink {
+  from: string
+  to: string
+  role: 'customer' | 'supplier'
+  percent: number | null
+  metric: string | null
+  quote: string
+  form: string
+  url: string
+}
+
+export interface PortfolioConcentration {
+  holdings: HoldingConcentration[]
+  internal_links: InternalConcentrationLink[]
+  geography: { ticker: string; region: string | null; percent: number
+               metric: string | null; quote: string; url: string }[]
+  unavailable: { ticker: string; name: string; reason: string }[]
+  stats: {
+    holdings_requested: number
+    filings_read: number
+    disclosing_customer_concentration: number
+    largest_disclosed_share: number | null
+    holdings_with_single_source: number
+    internal_links: number
+    claims_dropped_unverified: number
+  }
+  method: string
+  unsupported: string[]
 }
 
 async function get<T>(path: string, params?: Record<string, string>): Promise<T> {
@@ -376,6 +537,14 @@ export const api = {
   story: (symbol: string) => get<Story>(`/story/${encodeURIComponent(symbol)}`),
   /** What Changed: last week's events that touch these holdings, ranked. */
   feed: (holdings: string[]) => get<Feed>('/feed', { holdings: holdingsParam(holdings), limit: '60' }),
+  /** Who pays a company, from its annual report. Any SEC filer. */
+  revenueMix: (ticker: string) =>
+    get<RevenueMix>(`/company/${encodeURIComponent(ticker)}/revenue-mix`),
+  /** How concentrated each holding is, read from their annual reports. */
+  concentration: (holdings: string[]) =>
+    get<PortfolioConcentration>('/portfolio/concentration', {
+      holdings: holdingsParam(holdings),
+    }),
   /** Companies matching a typed query; any SEC filer, not just our 13. */
   researchSearch: (q: string, limit = 8) =>
     get<SearchResults>('/research/search', { q, limit: String(limit) }),

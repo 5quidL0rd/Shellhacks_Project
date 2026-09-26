@@ -138,6 +138,7 @@ Never commit `.env`, the private key, or any token.
 ../.venv/bin/python -m scripts.build_story_cache       # rebuild the stories (uses Gemini and Finnhub)
 ../.venv/bin/python -m scripts.build_feed              # rebuild What Changed events (uses Gemini and Finnhub)
 ../.venv/bin/python -m scripts.load_snowflake          # load graph, stories, prices, and news into Snowflake
+../.venv/bin/python -m scripts.build_revenue_mix       # read who pays each company from its filing (uses Gemini)
 ../.venv/bin/python -m pytest tests                    # run the tests
 
 # Frontend (from frontend/, with the API running)
@@ -162,6 +163,7 @@ Nothing runs on a schedule. The app serves saved files, and they only change whe
 | `GET /portfolio/impact?company=TSM&holdings=...` | Which holdings news about a company touches, and how (supply chain, one step further downstream, competitors) |
 | `GET /feed?holdings=...` | What Changed: last week's events that touch the portfolio, ranked your holding → connected → same sector, with the holdings each reaches and its sources |
 | `GET /quotes` | Last-close price, daily change, period returns, and a 30-day sparkline per company |
+| `GET /company/{ticker}/revenue-mix` | Who pays a company: each disclosed customer's share of revenue (unnamed ones stay unnamed) and the rest, from its annual report; plus the supported companies whose filings say they depend on it. Any SEC filer; the 13 are precomputed |
 
 ---
 

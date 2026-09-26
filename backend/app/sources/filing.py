@@ -53,6 +53,64 @@ RELATIONSHIP_TERMS = re.compile(
 )
 
 
+# How concentrated a company's revenue, customers, suppliers and geography are.
+# Distinct language from the relationship terms above: a filing states existence
+# of a supplier in one sentence ("we purchase from X") and its magnitude in
+# another ("X accounted for 22% of revenue"), and the magnitude is the part that
+# tells an investor how much a dependency actually matters.
+# A stated percentage. Filings write "22%", but plenty write "91 percent" (Cirrus
+# Logic on Apple, its biggest customer), and matching only "%" silently lost
+# the most concentrated disclosure in the set.
+PERCENT = r"\d{1,3}(?:\.\d+)?\s*(?:%|percent\b|per cent\b)"
+
+CONCENTRATION_TERMS = re.compile(
+    r"(?:"
+    r"\b(?:accounted for|accounting for|represented|representing|comprised|"
+    r"derived from|attributable to)\b[^.]{0,120}?" + PERCENT +
+    r"|" + PERCENT + r"[^.]{0,120}?"
+    r"\b(?:of (?:our |the |its |total |net |consolidated |the company's )*"
+    r"(?:revenue|revenues|sales|net sales|trade receivables|accounts receivable))\b"
+    r"|" + PERCENT + r"\s*or (?:more|greater|higher)\b"
+    r"|\bno (?:single |one )?(?:customer|client|supplier|vendor|bottler|distributor)s?\b"
+    r"[^.]{0,100}?\d{1,2}\s*(?:%|percent\b|per cent\b)"
+    r"|\b(?:sole|single)[- ]sourced?\b|\bsole source\b|\bsingle source\b"
+    r"|\b(?:a )?(?:limited|small) number of (?:suppliers|vendors|customers|manufacturers)\b"
+    r"|\bconcentration of (?:credit )?risk\b"
+    r"|\b(?:sales|revenues?) (?:outside|within|in) (?:the )?[A-Z][a-z]+"
+    r"[^.]{0,80}?" + PERCENT +
+    r")",
+    re.IGNORECASE,
+)
+
+
+def concentration_passages(text: str, budget: int = 30_000) -> str:
+    """Sentences that quantify how concentrated the business is.
+
+    Kept separate from relevant_passages because the two answer different
+    questions and compete for the same character budget: one finds who the
+    counterparties are, this one finds how much they matter.
+    """
+    sentences = _sentences(text)
+    keep: list[str] = []
+    used = 0
+    seen: set[str] = set()
+    for index, sentence in enumerate(sentences):
+        if not CONCENTRATION_TERMS.search(sentence):
+            continue
+        # Bring the previous sentence: a filing often says "Customer A" in one
+        # and the percentage in the next.
+        for candidate in (sentences[index - 1] if index else "", sentence):
+            trimmed = candidate.strip()
+            if not trimmed or trimmed in seen:
+                continue
+            if used + len(trimmed) > budget:
+                return "\n".join(keep)
+            seen.add(trimmed)
+            keep.append(trimmed)
+            used += len(trimmed)
+    return "\n".join(keep)
+
+
 def _get(url: str) -> requests.Response:
     response = requests.get(url, headers={"User-Agent": SEC_USER_AGENT}, timeout=60)
     if response.status_code == 403:

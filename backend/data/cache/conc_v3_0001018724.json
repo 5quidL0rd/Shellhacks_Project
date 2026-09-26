@@ -1,0 +1,40 @@
+{
+  "available": true,
+  "form": "10-K",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+  "facts": [
+    {
+      "kind": "geographic_concentration",
+      "subject": "our International segment",
+      "counterparty_name": null,
+      "percent": 23.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "consolidated revenues",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [],
+      "evidence": "During 2025, net sales from our International segment accounted for 23% of our consolidated revenues.",
+      "confidence": "high"
+    },
+    {
+      "kind": "none_above_threshold",
+      "subject": "vendor",
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "purchases",
+      "period": "2025",
+      "threshold": 10.0,
+      "earlier": [],
+      "evidence": "During 2025, no vendor accounted for 10% or more of our purchases.",
+      "confidence": "high"
+    }
+  ],
+  "dropped_unverified": 0,
+  "passage_chars": 3696
+}

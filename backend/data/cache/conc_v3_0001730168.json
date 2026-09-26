@@ -1,0 +1,129 @@
+{
+  "available": true,
+  "form": "10-K",
+  "filing_date": "2025-12-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+  "facts": [
+    {
+      "kind": "customer_concentration",
+      "subject": "distributors",
+      "counterparty_name": null,
+      "percent": 48.0,
+      "at_least": false,
+      "scope": "group",
+      "basis": "direct",
+      "metric": "net revenue",
+      "period": "fiscal year 2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "fiscal year 2024",
+          "percent": 48.0
+        }
+      ],
+      "evidence": "Sales to distributors accounted for 48% of our net revenue for each of the fiscal years 2025 and 2024.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "top five end customers",
+      "counterparty_name": null,
+      "percent": 40.0,
+      "at_least": false,
+      "scope": "group",
+      "basis": "indirect",
+      "metric": "net revenue",
+      "period": "fiscal year 2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "fiscal year 2024",
+          "percent": 40.0
+        }
+      ],
+      "evidence": "We believe aggregate sales to our top five end customers, through all channels, accounted for approximately 40% of our net revenue for each of the fiscal years 2025 and 2024.",
+      "confidence": "high"
+    },
+    {
+      "kind": "single_source",
+      "subject": "five materials suppliers",
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "group",
+      "basis": "unspecified",
+      "metric": null,
+      "period": "fiscal year 2025",
+      "threshold": null,
+      "earlier": [],
+      "evidence": "During fiscal year 2025, we purchased approximately two-thirds of our manufacturing materials from five materials suppliers, some of which are single source suppliers.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "one customer",
+      "counterparty_name": null,
+      "percent": 32.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "direct",
+      "metric": "net revenue",
+      "period": "fiscal year 2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "fiscal year 2024",
+          "percent": 28.0
+        },
+        {
+          "period": "fiscal year 2023",
+          "percent": 21.0
+        }
+      ],
+      "evidence": "During fiscal years 2025, 2024 and 2023, one customer accounted for 32 %, 28 % and 21 % of our net revenue, respectively.",
+      "confidence": "high"
+    },
+    {
+      "kind": "geographic_concentration",
+      "subject": "China (including Hong Kong)",
+      "counterparty_name": null,
+      "percent": 17.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "net revenue",
+      "period": "fiscal year 2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "fiscal year 2024",
+          "percent": 20.0
+        }
+      ],
+      "evidence": "In fiscal years 2025 and 2024, 17% and 20%, respectively, of our net revenue came from shipments or deliveries to China (including Hong Kong).",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "one customer",
+      "counterparty_name": null,
+      "percent": 44.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "direct",
+      "metric": "net accounts receivable balance",
+      "period": "November 2, 2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "November 3, 2024",
+          "percent": 18.0
+        }
+      ],
+      "evidence": "One customer accounted for 44 % and 18 % of our net accounts receivable balance as of November 2, 2025 and November 3, 2024, respectively.",
+      "confidence": "high"
+    }
+  ],
+  "dropped_unverified": 0,
+  "passage_chars": 6252
+}

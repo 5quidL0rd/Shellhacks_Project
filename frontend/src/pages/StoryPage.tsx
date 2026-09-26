@@ -6,6 +6,7 @@ import { AsOf, Change, Cite, CiteGuide } from '../components'
 import { EVIDENCE_LABEL } from '../evidence'
 import { money } from '../format'
 import { useAsync, useThemeColors } from '../hooks'
+import { RevenueMixCard } from '../RevenueMix'
 
 const TOKENS = ['price-line', 'up', 'down', 'text-muted', 'grid', 'baseline', 'surface', 'font']
 
@@ -52,6 +53,9 @@ export function StoryPage() {
           <p className="small muted">
             ▲▼ mark the {s.beats.length} biggest moves. Click a marker or a move below to read why it happened.
           </p>
+          <section className="card" aria-label="Who pays it" style={{ marginBottom: 16 }}>
+            <RevenueMixCard ticker={s.symbol} />
+          </section>
           <section className="card" aria-label="Major moves">
             <div className="card-label">Major moves</div>
             {s.beats.map((b) => (

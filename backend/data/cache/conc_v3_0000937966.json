@@ -1,0 +1,165 @@
+{
+  "available": true,
+  "form": "20-F",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm",
+  "facts": [
+    {
+      "kind": "geographic_concentration",
+      "subject": "Customers in China",
+      "counterparty_name": null,
+      "percent": 29.1,
+      "at_least": false,
+      "scope": "single",
+      "basis": "direct",
+      "metric": "total net sales",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2024",
+          "percent": 36.1
+        }
+      ],
+      "evidence": "Customers in China represented 29.1% of our 2025 total net sales and 36.1% of our 2024 net sales.",
+      "confidence": "high"
+    },
+    {
+      "kind": "geographic_concentration",
+      "subject": "customers in Taiwan",
+      "counterparty_name": null,
+      "percent": 25.5,
+      "at_least": false,
+      "scope": "single",
+      "basis": "direct",
+      "metric": "total net sales",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2024",
+          "percent": 15.4
+        }
+      ],
+      "evidence": "customers in Taiwan \u2013 who represented 25.5% of our 2025 total net sales and 15.4% of our 2024 total net sales.",
+      "confidence": "high"
+    },
+    {
+      "kind": "geographic_concentration",
+      "subject": "Customers in South Korea",
+      "counterparty_name": null,
+      "percent": 25.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "direct",
+      "metric": "total net sales",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2024",
+          "percent": 22.7
+        }
+      ],
+      "evidence": "Customers in South Korea represented 25.0% of our 2025 total net sales and 22.7% of our 2024 total net sales.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "our largest customer",
+      "counterparty_name": null,
+      "percent": 23.9,
+      "at_least": false,
+      "scope": "single",
+      "basis": "direct",
+      "metric": "total net sales",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2024",
+          "percent": 16.6
+        }
+      ],
+      "evidence": "Total net sales to our largest customer amounted to \u20ac7,796.7 million , or 23.9% of total net sales in 2025 , compared with \u20ac4,682.4 million , or 16.6% of total net sales in 2024 .",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "our two largest customers",
+      "counterparty_name": null,
+      "percent": 38.0,
+      "at_least": false,
+      "scope": "group",
+      "basis": "direct",
+      "metric": "total net sales",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [],
+      "evidence": "In 2025 , 38.0% of total net sales were made to our two largest customers.",
+      "confidence": "high"
+    },
+    {
+      "kind": "single_source",
+      "subject": "components and subassemblies used in our systems",
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "group",
+      "basis": "unspecified",
+      "metric": null,
+      "period": null,
+      "threshold": null,
+      "earlier": [],
+      "evidence": "We depend on third-party vendors for the components and subassemblies used in our systems, including their design. Many of these parts are single-sourced or supplied by a limited number of vendors.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "four cu stomers",
+      "counterparty_name": null,
+      "percent": 61.2,
+      "at_least": false,
+      "scope": "group",
+      "basis": "direct",
+      "metric": "total net sales",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [],
+      "evidence": "In 2025 , four cu stomers each individually exceeded 10% of total net sales , totaling \u20ac 20.0 billion , or 61.2 % , of total net sales.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "Our three largest customers (based on total net sales)",
+      "counterparty_name": null,
+      "percent": 35.4,
+      "at_least": false,
+      "scope": "group",
+      "basis": "direct",
+      "metric": "accounts receivable and finance receivables",
+      "period": "December 31, 2025",
+      "threshold": null,
+      "earlier": [],
+      "evidence": "Our three largest customers (based on total net sales) accounted for \u20ac 1.3 billion , or 35.4 % , of accounts receivable and finance receivables at December 31, 2025",
+      "confidence": "high"
+    },
+    {
+      "kind": "single_source",
+      "subject": "components and subassemblies used in our systems",
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "group",
+      "basis": "unspecified",
+      "metric": null,
+      "period": null,
+      "threshold": null,
+      "earlier": [],
+      "evidence": "We rely on outside vendors for components and subassemblies used in our systems, including the design thereof, each of which is obtained from a single supplier or a limited number of suppliers.",
+      "confidence": "high"
+    }
+  ],
+  "dropped_unverified": 0,
+  "passage_chars": 19872
+}

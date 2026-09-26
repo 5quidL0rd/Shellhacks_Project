@@ -1,0 +1,40 @@
+{
+  "available": true,
+  "form": "10-K",
+  "filing_date": "2026-07-29",
+  "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+  "facts": [
+    {
+      "kind": "none_above_threshold",
+      "subject": "an individual customer",
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "revenue",
+      "period": "fiscal 2026",
+      "threshold": 10.0,
+      "earlier": [],
+      "evidence": "No sales to an individual customer or country other than the United States accounted for more than 10% of revenue for fiscal years 2026, 2025, or 2024.",
+      "confidence": "high"
+    },
+    {
+      "kind": "none_above_threshold",
+      "subject": "country other than the United States",
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "revenue",
+      "period": "fiscal 2026",
+      "threshold": 10.0,
+      "earlier": [],
+      "evidence": "No sales to an individual customer or country other than the United States accounted for more than 10% of revenue for fiscal years 2026, 2025, or 2024.",
+      "confidence": "high"
+    }
+  ],
+  "dropped_unverified": 0,
+  "passage_chars": 500
+}
