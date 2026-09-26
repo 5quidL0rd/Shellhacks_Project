@@ -1,6 +1,6 @@
 # Shellhacks Portfolio Intelligence
 
-An app that helps experienced investors see what matters to *their* portfolio: which news affects their holdings, how their holdings are connected through suppliers, customers, and competitors, and why each stock's price moved. The full product plan is in [plans.md](plans.md).
+An app that helps experienced investors see what matters to *their* portfolio: which news affects their holdings, how their holdings are connected through suppliers, customers, and competitors, and why each stock's price moved. The product vision (pitch, features, and the principles every feature follows) is in [Product.md](Product.md); the build steps are in [plans.md](plans.md).
 
 Current scope: five companies, **Apple (AAPL), Nvidia (NVDA), AMD (AMD), TSMC (TSM), and Microsoft (MSFT)**.
 
