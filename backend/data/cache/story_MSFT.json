@@ -1,0 +1,2166 @@
+{
+  "symbol": "MSFT",
+  "company_name": "Microsoft Corporation",
+  "generated_at": "2026-09-26T09:16:52.357231+00:00",
+  "bars": [
+    {
+      "date": "2026-03-20",
+      "open": 386.79,
+      "high": 387.0,
+      "low": 380.12,
+      "close": 381.87,
+      "volume": 50853200,
+      "pct_change": 0.0,
+      "prev_close": 386.79
+    },
+    {
+      "date": "2026-03-23",
+      "open": 383.9,
+      "high": 387.21,
+      "low": 381.68,
+      "close": 383.0,
+      "volume": 29680100,
+      "pct_change": 0.296,
+      "prev_close": 381.87
+    },
+    {
+      "date": "2026-03-24",
+      "open": 382.36,
+      "high": 382.47,
+      "low": 371.85,
+      "close": 372.74,
+      "volume": 42733600,
+      "pct_change": -2.679,
+      "prev_close": 383.0
+    },
+    {
+      "date": "2026-03-25",
+      "open": 376.92,
+      "high": 377.06,
+      "low": 369.63,
+      "close": 371.04,
+      "volume": 31181200,
+      "pct_change": -0.456,
+      "prev_close": 372.74
+    },
+    {
+      "date": "2026-03-26",
+      "open": 370.82,
+      "high": 374.72,
+      "low": 365.19,
+      "close": 365.97,
+      "volume": 36836600,
+      "pct_change": -1.366,
+      "prev_close": 371.04
+    },
+    {
+      "date": "2026-03-27",
+      "open": 361.9,
+      "high": 362.45,
+      "low": 356.51,
+      "close": 356.77,
+      "volume": 37883400,
+      "pct_change": -2.514,
+      "prev_close": 365.97
+    },
+    {
+      "date": "2026-03-30",
+      "open": 361.9,
+      "high": 365.36,
+      "low": 356.28,
+      "close": 358.96,
+      "volume": 44797000,
+      "pct_change": 0.614,
+      "prev_close": 356.77
+    },
+    {
+      "date": "2026-03-31",
+      "open": 364.55,
+      "high": 372.9,
+      "low": 363.07,
+      "close": 370.17,
+      "volume": 45244400,
+      "pct_change": 3.123,
+      "prev_close": 358.96
+    },
+    {
+      "date": "2026-04-01",
+      "open": 373.49,
+      "high": 373.99,
+      "low": 368.2,
+      "close": 369.37,
+      "volume": 29417200,
+      "pct_change": -0.216,
+      "prev_close": 370.17
+    },
+    {
+      "date": "2026-04-02",
+      "open": 367.21,
+      "high": 373.64,
+      "low": 364.15,
+      "close": 373.46,
+      "volume": 24099100,
+      "pct_change": 1.107,
+      "prev_close": 369.37
+    },
+    {
+      "date": "2026-04-06",
+      "open": 373.49,
+      "high": 373.73,
+      "low": 369.5,
+      "close": 372.88,
+      "volume": 16146600,
+      "pct_change": -0.155,
+      "prev_close": 373.46
+    },
+    {
+      "date": "2026-04-07",
+      "open": 370.34,
+      "high": 372.45,
+      "low": 366.56,
+      "close": 372.29,
+      "volume": 21443300,
+      "pct_change": -0.158,
+      "prev_close": 372.88
+    },
+    {
+      "date": "2026-04-08",
+      "open": 384.98,
+      "high": 385.0,
+      "low": 371.41,
+      "close": 374.33,
+      "volume": 33064800,
+      "pct_change": 0.548,
+      "prev_close": 372.29
+    },
+    {
+      "date": "2026-04-09",
+      "open": 372.5,
+      "high": 373.5,
+      "low": 367.05,
+      "close": 373.07,
+      "volume": 30435300,
+      "pct_change": -0.337,
+      "prev_close": 374.33
+    },
+    {
+      "date": "2026-04-10",
+      "open": 372.98,
+      "high": 375.64,
+      "low": 370.03,
+      "close": 370.87,
+      "volume": 28111100,
+      "pct_change": -0.59,
+      "prev_close": 373.07
+    },
+    {
+      "date": "2026-04-13",
+      "open": 373.61,
+      "high": 384.54,
+      "low": 371.02,
+      "close": 384.37,
+      "volume": 35745800,
+      "pct_change": 3.64,
+      "prev_close": 370.87
+    },
+    {
+      "date": "2026-04-14",
+      "open": 387.92,
+      "high": 394.69,
+      "low": 386.52,
+      "close": 393.11,
+      "volume": 37504500,
+      "pct_change": 2.274,
+      "prev_close": 384.37
+    },
+    {
+      "date": "2026-04-15",
+      "open": 398.0,
+      "high": 414.37,
+      "low": 396.73,
+      "close": 411.22,
+      "volume": 45063400,
+      "pct_change": 4.607,
+      "prev_close": 393.11
+    },
+    {
+      "date": "2026-04-16",
+      "open": 419.86,
+      "high": 420.82,
+      "low": 412.14,
+      "close": 420.26,
+      "volume": 41642400,
+      "pct_change": 2.198,
+      "prev_close": 411.22
+    },
+    {
+      "date": "2026-04-17",
+      "open": 424.82,
+      "high": 431.58,
+      "low": 420.69,
+      "close": 422.79,
+      "volume": 48568200,
+      "pct_change": 0.602,
+      "prev_close": 420.26
+    },
+    {
+      "date": "2026-04-20",
+      "open": 421.15,
+      "high": 423.33,
+      "low": 416.3,
+      "close": 418.07,
+      "volume": 27582200,
+      "pct_change": -1.116,
+      "prev_close": 422.79
+    },
+    {
+      "date": "2026-04-21",
+      "open": 420.24,
+      "high": 427.18,
+      "low": 417.2,
+      "close": 424.16,
+      "volume": 32048500,
+      "pct_change": 1.457,
+      "prev_close": 418.07
+    },
+    {
+      "date": "2026-04-22",
+      "open": 426.19,
+      "high": 433.7,
+      "low": 423.67,
+      "close": 432.92,
+      "volume": 29378200,
+      "pct_change": 2.065,
+      "prev_close": 424.16
+    },
+    {
+      "date": "2026-04-23",
+      "open": 419.89,
+      "high": 423.66,
+      "low": 411.41,
+      "close": 415.75,
+      "volume": 38308000,
+      "pct_change": -3.966,
+      "prev_close": 432.92
+    },
+    {
+      "date": "2026-04-24",
+      "open": 416.97,
+      "high": 424.95,
+      "low": 415.8,
+      "close": 424.62,
+      "volume": 27457400,
+      "pct_change": 2.133,
+      "prev_close": 415.75
+    },
+    {
+      "date": "2026-04-27",
+      "open": 422.38,
+      "high": 427.11,
+      "low": 417.07,
+      "close": 424.82,
+      "volume": 30867300,
+      "pct_change": 0.047,
+      "prev_close": 424.62
+    },
+    {
+      "date": "2026-04-28",
+      "open": 424.57,
+      "high": 429.92,
+      "low": 421.9,
+      "close": 429.25,
+      "volume": 30438100,
+      "pct_change": 1.043,
+      "prev_close": 424.82
+    },
+    {
+      "date": "2026-04-29",
+      "open": 424.58,
+      "high": 426.82,
+      "low": 420.29,
+      "close": 424.46,
+      "volume": 38288300,
+      "pct_change": -1.116,
+      "prev_close": 429.25
+    },
+    {
+      "date": "2026-04-30",
+      "open": 410.81,
+      "high": 414.42,
+      "low": 398.01,
+      "close": 407.78,
+      "volume": 70909400,
+      "pct_change": -3.93,
+      "prev_close": 424.46
+    },
+    {
+      "date": "2026-05-01",
+      "open": 412.8,
+      "high": 417.11,
+      "low": 410.44,
+      "close": 414.44,
+      "volume": 31372400,
+      "pct_change": 1.633,
+      "prev_close": 407.78
+    },
+    {
+      "date": "2026-05-04",
+      "open": 411.54,
+      "high": 420.78,
+      "low": 410.8,
+      "close": 413.62,
+      "volume": 28066500,
+      "pct_change": -0.198,
+      "prev_close": 414.44
+    },
+    {
+      "date": "2026-05-05",
+      "open": 415.32,
+      "high": 416.78,
+      "low": 408.8,
+      "close": 411.38,
+      "volume": 25700900,
+      "pct_change": -0.542,
+      "prev_close": 413.62
+    },
+    {
+      "date": "2026-05-06",
+      "open": 408.0,
+      "high": 418.42,
+      "low": 405.11,
+      "close": 413.96,
+      "volume": 30285900,
+      "pct_change": 0.627,
+      "prev_close": 411.38
+    },
+    {
+      "date": "2026-05-07",
+      "open": 420.11,
+      "high": 427.98,
+      "low": 418.76,
+      "close": 420.77,
+      "volume": 34942400,
+      "pct_change": 1.645,
+      "prev_close": 413.96
+    },
+    {
+      "date": "2026-05-08",
+      "open": 417.39,
+      "high": 418.63,
+      "low": 414.0,
+      "close": 415.12,
+      "volume": 33383800,
+      "pct_change": -1.343,
+      "prev_close": 420.77
+    },
+    {
+      "date": "2026-05-11",
+      "open": 407.87,
+      "high": 412.69,
+      "low": 405.5,
+      "close": 412.66,
+      "volume": 35657900,
+      "pct_change": -0.593,
+      "prev_close": 415.12
+    },
+    {
+      "date": "2026-05-12",
+      "open": 414.48,
+      "high": 415.5,
+      "low": 406.64,
+      "close": 407.77,
+      "volume": 38594200,
+      "pct_change": -1.185,
+      "prev_close": 412.66
+    },
+    {
+      "date": "2026-05-13",
+      "open": 403.2,
+      "high": 406.31,
+      "low": 401.03,
+      "close": 405.21,
+      "volume": 29667100,
+      "pct_change": -0.628,
+      "prev_close": 407.77
+    },
+    {
+      "date": "2026-05-14",
+      "open": 404.48,
+      "high": 411.84,
+      "low": 400.88,
+      "close": 409.43,
+      "volume": 27077500,
+      "pct_change": 1.041,
+      "prev_close": 405.21
+    },
+    {
+      "date": "2026-05-15",
+      "open": 414.27,
+      "high": 428.17,
+      "low": 412.91,
+      "close": 421.92,
+      "volume": 50771200,
+      "pct_change": 3.051,
+      "prev_close": 409.43
+    },
+    {
+      "date": "2026-05-18",
+      "open": 416.62,
+      "high": 425.12,
+      "low": 415.61,
+      "close": 423.54,
+      "volume": 32564100,
+      "pct_change": 0.384,
+      "prev_close": 421.92
+    },
+    {
+      "date": "2026-05-19",
+      "open": 429.9,
+      "high": 432.7,
+      "low": 416.49,
+      "close": 417.42,
+      "volume": 33018700,
+      "pct_change": -1.445,
+      "prev_close": 423.54
+    },
+    {
+      "date": "2026-05-20",
+      "open": 414.17,
+      "high": 422.1,
+      "low": 411.3,
+      "close": 421.06,
+      "volume": 27864000,
+      "pct_change": 0.872,
+      "prev_close": 417.42
+    },
+    {
+      "date": "2026-05-21",
+      "open": 424.75,
+      "high": 426.34,
+      "low": 415.71,
+      "close": 419.09,
+      "volume": 31393500,
+      "pct_change": -0.468,
+      "prev_close": 421.06
+    },
+    {
+      "date": "2026-05-22",
+      "open": 419.54,
+      "high": 424.4,
+      "low": 416.33,
+      "close": 418.57,
+      "volume": 22390300,
+      "pct_change": -0.124,
+      "prev_close": 419.09
+    },
+    {
+      "date": "2026-05-26",
+      "open": 416.43,
+      "high": 419.77,
+      "low": 413.02,
+      "close": 416.03,
+      "volume": 30398000,
+      "pct_change": -0.607,
+      "prev_close": 418.57
+    },
+    {
+      "date": "2026-05-27",
+      "open": 411.01,
+      "high": 415.94,
+      "low": 409.58,
+      "close": 412.67,
+      "volume": 28901500,
+      "pct_change": -0.808,
+      "prev_close": 416.03
+    },
+    {
+      "date": "2026-05-28",
+      "open": 412.98,
+      "high": 429.49,
+      "low": 412.67,
+      "close": 426.99,
+      "volume": 47250500,
+      "pct_change": 3.47,
+      "prev_close": 412.67
+    },
+    {
+      "date": "2026-05-29",
+      "open": 432.55,
+      "high": 450.33,
+      "low": 432.36,
+      "close": 450.24,
+      "volume": 79654400,
+      "pct_change": 5.445,
+      "prev_close": 426.99
+    },
+    {
+      "date": "2026-06-01",
+      "open": 464.84,
+      "high": 466.32,
+      "low": 458.27,
+      "close": 460.52,
+      "volume": 53628900,
+      "pct_change": 2.283,
+      "prev_close": 450.24
+    },
+    {
+      "date": "2026-06-02",
+      "open": 446.88,
+      "high": 453.5,
+      "low": 440.43,
+      "close": 441.31,
+      "volume": 37036800,
+      "pct_change": -4.171,
+      "prev_close": 460.52
+    },
+    {
+      "date": "2026-06-03",
+      "open": 438.45,
+      "high": 440.39,
+      "low": 424.25,
+      "close": 427.34,
+      "volume": 39037000,
+      "pct_change": -3.166,
+      "prev_close": 441.31
+    },
+    {
+      "date": "2026-06-04",
+      "open": 435.81,
+      "high": 436.15,
+      "low": 426.41,
+      "close": 428.05,
+      "volume": 26899500,
+      "pct_change": 0.166,
+      "prev_close": 427.34
+    },
+    {
+      "date": "2026-06-05",
+      "open": 428.34,
+      "high": 429.47,
+      "low": 414.4,
+      "close": 416.67,
+      "volume": 34782200,
+      "pct_change": -2.659,
+      "prev_close": 428.05
+    },
+    {
+      "date": "2026-06-08",
+      "open": 414.14,
+      "high": 417.16,
+      "low": 408.56,
+      "close": 411.74,
+      "volume": 32086700,
+      "pct_change": -1.183,
+      "prev_close": 416.67
+    },
+    {
+      "date": "2026-06-09",
+      "open": 409.03,
+      "high": 411.98,
+      "low": 398.48,
+      "close": 403.41,
+      "volume": 35317300,
+      "pct_change": -2.023,
+      "prev_close": 411.74
+    },
+    {
+      "date": "2026-06-10",
+      "open": 398.55,
+      "high": 405.04,
+      "low": 397.16,
+      "close": 397.36,
+      "volume": 32576000,
+      "pct_change": -1.5,
+      "prev_close": 403.41
+    },
+    {
+      "date": "2026-06-11",
+      "open": 395.21,
+      "high": 396.85,
+      "low": 384.0,
+      "close": 390.34,
+      "volume": 47224100,
+      "pct_change": -1.767,
+      "prev_close": 397.36
+    },
+    {
+      "date": "2026-06-12",
+      "open": 391.43,
+      "high": 391.74,
+      "low": 382.27,
+      "close": 390.74,
+      "volume": 34865800,
+      "pct_change": 0.102,
+      "prev_close": 390.34
+    },
+    {
+      "date": "2026-06-15",
+      "open": 396.8,
+      "high": 401.75,
+      "low": 392.85,
+      "close": 399.76,
+      "volume": 32266400,
+      "pct_change": 2.308,
+      "prev_close": 390.74
+    },
+    {
+      "date": "2026-06-16",
+      "open": 395.79,
+      "high": 396.84,
+      "low": 390.69,
+      "close": 393.83,
+      "volume": 31506800,
+      "pct_change": -1.483,
+      "prev_close": 399.76
+    },
+    {
+      "date": "2026-06-17",
+      "open": 390.25,
+      "high": 390.37,
+      "low": 377.32,
+      "close": 378.91,
+      "volume": 41987800,
+      "pct_change": -3.788,
+      "prev_close": 393.83
+    },
+    {
+      "date": "2026-06-18",
+      "open": 377.82,
+      "high": 381.37,
+      "low": 373.28,
+      "close": 379.4,
+      "volume": 59714200,
+      "pct_change": 0.129,
+      "prev_close": 378.91
+    },
+    {
+      "date": "2026-06-22",
+      "open": 375.74,
+      "high": 381.63,
+      "low": 367.07,
+      "close": 367.34,
+      "volume": 45171100,
+      "pct_change": -3.179,
+      "prev_close": 379.4
+    },
+    {
+      "date": "2026-06-23",
+      "open": 372.38,
+      "high": 377.22,
+      "low": 370.67,
+      "close": 373.94,
+      "volume": 40647600,
+      "pct_change": 1.797,
+      "prev_close": 367.34
+    },
+    {
+      "date": "2026-06-24",
+      "open": 371.57,
+      "high": 378.88,
+      "low": 364.78,
+      "close": 365.46,
+      "volume": 44509900,
+      "pct_change": -2.268,
+      "prev_close": 373.94
+    },
+    {
+      "date": "2026-06-25",
+      "open": 362.77,
+      "high": 364.23,
+      "low": 349.2,
+      "close": 352.83,
+      "volume": 66179000,
+      "pct_change": -3.456,
+      "prev_close": 365.46
+    },
+    {
+      "date": "2026-06-26",
+      "open": 357.15,
+      "high": 376.61,
+      "low": 355.43,
+      "close": 372.97,
+      "volume": 186201600,
+      "pct_change": 5.708,
+      "prev_close": 352.83
+    },
+    {
+      "date": "2026-06-29",
+      "open": 377.5,
+      "high": 380.5,
+      "low": 359.9,
+      "close": 368.57,
+      "volume": 51229900,
+      "pct_change": -1.18,
+      "prev_close": 372.97
+    },
+    {
+      "date": "2026-06-30",
+      "open": 371.03,
+      "high": 374.15,
+      "low": 367.45,
+      "close": 373.02,
+      "volume": 44945700,
+      "pct_change": 1.207,
+      "prev_close": 368.57
+    },
+    {
+      "date": "2026-07-01",
+      "open": 380.83,
+      "high": 388.83,
+      "low": 374.89,
+      "close": 384.28,
+      "volume": 48065800,
+      "pct_change": 3.019,
+      "prev_close": 373.02
+    },
+    {
+      "date": "2026-07-02",
+      "open": 384.48,
+      "high": 392.2,
+      "low": 383.7,
+      "close": 390.49,
+      "volume": 42128900,
+      "pct_change": 1.616,
+      "prev_close": 384.28
+    },
+    {
+      "date": "2026-07-06",
+      "open": 387.04,
+      "high": 389.15,
+      "low": 381.22,
+      "close": 386.74,
+      "volume": 34224500,
+      "pct_change": -0.96,
+      "prev_close": 390.49
+    },
+    {
+      "date": "2026-07-07",
+      "open": 392.49,
+      "high": 395.57,
+      "low": 388.22,
+      "close": 388.84,
+      "volume": 29297500,
+      "pct_change": 0.543,
+      "prev_close": 386.74
+    },
+    {
+      "date": "2026-07-08",
+      "open": 384.03,
+      "high": 385.31,
+      "low": 381.33,
+      "close": 383.34,
+      "volume": 25908300,
+      "pct_change": -1.414,
+      "prev_close": 388.84
+    },
+    {
+      "date": "2026-07-09",
+      "open": 374.45,
+      "high": 384.65,
+      "low": 373.35,
+      "close": 384.36,
+      "volume": 31083200,
+      "pct_change": 0.266,
+      "prev_close": 383.34
+    },
+    {
+      "date": "2026-07-10",
+      "open": 387.8,
+      "high": 391.91,
+      "low": 381.5,
+      "close": 385.1,
+      "volume": 24644600,
+      "pct_change": 0.193,
+      "prev_close": 384.36
+    },
+    {
+      "date": "2026-07-13",
+      "open": 387.75,
+      "high": 393.65,
+      "low": 384.15,
+      "close": 390.99,
+      "volume": 28914900,
+      "pct_change": 1.529,
+      "prev_close": 385.1
+    },
+    {
+      "date": "2026-07-14",
+      "open": 382.82,
+      "high": 388.19,
+      "low": 378.65,
+      "close": 384.93,
+      "volume": 27863900,
+      "pct_change": -1.55,
+      "prev_close": 390.99
+    },
+    {
+      "date": "2026-07-15",
+      "open": 387.8,
+      "high": 398.96,
+      "low": 386.4,
+      "close": 395.63,
+      "volume": 36253700,
+      "pct_change": 2.78,
+      "prev_close": 384.93
+    },
+    {
+      "date": "2026-07-16",
+      "open": 398.31,
+      "high": 405.99,
+      "low": 392.05,
+      "close": 401.1,
+      "volume": 37047400,
+      "pct_change": 1.383,
+      "prev_close": 395.63
+    },
+    {
+      "date": "2026-07-17",
+      "open": 394.86,
+      "high": 398.39,
+      "low": 389.39,
+      "close": 393.82,
+      "volume": 33049800,
+      "pct_change": -1.815,
+      "prev_close": 401.1
+    },
+    {
+      "date": "2026-07-20",
+      "open": 391.41,
+      "high": 403.18,
+      "low": 389.65,
+      "close": 402.29,
+      "volume": 27915800,
+      "pct_change": 2.151,
+      "prev_close": 393.82
+    },
+    {
+      "date": "2026-07-21",
+      "open": 398.81,
+      "high": 401.47,
+      "low": 396.32,
+      "close": 397.75,
+      "volume": 24126600,
+      "pct_change": -1.129,
+      "prev_close": 402.29
+    },
+    {
+      "date": "2026-07-22",
+      "open": 399.58,
+      "high": 401.0,
+      "low": 386.96,
+      "close": 390.34,
+      "volume": 28142500,
+      "pct_change": -1.863,
+      "prev_close": 397.75
+    },
+    {
+      "date": "2026-07-23",
+      "open": 389.97,
+      "high": 391.78,
+      "low": 377.39,
+      "close": 381.58,
+      "volume": 30351800,
+      "pct_change": -2.244,
+      "prev_close": 390.34
+    },
+    {
+      "date": "2026-07-24",
+      "open": 387.05,
+      "high": 389.03,
+      "low": 380.65,
+      "close": 381.7,
+      "volume": 27659400,
+      "pct_change": 0.031,
+      "prev_close": 381.58
+    },
+    {
+      "date": "2026-07-27",
+      "open": 390.08,
+      "high": 394.2,
+      "low": 387.99,
+      "close": 389.1,
+      "volume": 27856200,
+      "pct_change": 1.939,
+      "prev_close": 381.7
+    },
+    {
+      "date": "2026-07-28",
+      "open": 393.16,
+      "high": 400.32,
+      "low": 391.3,
+      "close": 393.35,
+      "volume": 32367500,
+      "pct_change": 1.092,
+      "prev_close": 389.1
+    },
+    {
+      "date": "2026-07-29",
+      "open": 393.4,
+      "high": 401.25,
+      "low": 388.74,
+      "close": 390.54,
+      "volume": 47209000,
+      "pct_change": -0.714,
+      "prev_close": 393.35
+    },
+    {
+      "date": "2026-07-30",
+      "open": 437.9,
+      "high": 458.69,
+      "low": 432.44,
+      "close": 451.1,
+      "volume": 110160700,
+      "pct_change": 15.507,
+      "prev_close": 390.54
+    },
+    {
+      "date": "2026-07-31",
+      "open": 450.0,
+      "high": 466.84,
+      "low": 449.33,
+      "close": 464.72,
+      "volume": 60846000,
+      "pct_change": 3.019,
+      "prev_close": 451.1
+    },
+    {
+      "date": "2026-08-03",
+      "open": 476.13,
+      "high": 491.65,
+      "low": 475.0,
+      "close": 487.65,
+      "volume": 66762100,
+      "pct_change": 4.934,
+      "prev_close": 464.72
+    },
+    {
+      "date": "2026-08-04",
+      "open": 480.9,
+      "high": 499.44,
+      "low": 479.17,
+      "close": 492.81,
+      "volume": 50455500,
+      "pct_change": 1.058,
+      "prev_close": 487.65
+    },
+    {
+      "date": "2026-08-05",
+      "open": 496.36,
+      "high": 498.24,
+      "low": 485.68,
+      "close": 487.46,
+      "volume": 33388900,
+      "pct_change": -1.086,
+      "prev_close": 492.81
+    },
+    {
+      "date": "2026-08-06",
+      "open": 488.55,
+      "high": 501.56,
+      "low": 488.52,
+      "close": 499.86,
+      "volume": 36441500,
+      "pct_change": 2.544,
+      "prev_close": 487.46
+    },
+    {
+      "date": "2026-08-07",
+      "open": 499.21,
+      "high": 505.18,
+      "low": 498.73,
+      "close": 499.99,
+      "volume": 28846200,
+      "pct_change": 0.026,
+      "prev_close": 499.86
+    },
+    {
+      "date": "2026-08-10",
+      "open": 503.44,
+      "high": 513.73,
+      "low": 502.27,
+      "close": 506.06,
+      "volume": 31206100,
+      "pct_change": 1.214,
+      "prev_close": 499.99
+    },
+    {
+      "date": "2026-08-11",
+      "open": 504.33,
+      "high": 505.33,
+      "low": 499.55,
+      "close": 503.81,
+      "volume": 23049800,
+      "pct_change": -0.445,
+      "prev_close": 506.06
+    },
+    {
+      "date": "2026-08-12",
+      "open": 499.99,
+      "high": 501.5,
+      "low": 491.52,
+      "close": 492.43,
+      "volume": 29001500,
+      "pct_change": -2.259,
+      "prev_close": 503.81
+    },
+    {
+      "date": "2026-08-13",
+      "open": 493.27,
+      "high": 501.34,
+      "low": 493.01,
+      "close": 496.88,
+      "volume": 23039000,
+      "pct_change": 0.904,
+      "prev_close": 492.43
+    },
+    {
+      "date": "2026-08-14",
+      "open": 496.36,
+      "high": 500.01,
+      "low": 493.92,
+      "close": 495.4,
+      "volume": 16217600,
+      "pct_change": -0.298,
+      "prev_close": 496.88
+    },
+    {
+      "date": "2026-08-17",
+      "open": 490.14,
+      "high": 492.66,
+      "low": 478.41,
+      "close": 480.35,
+      "volume": 29635800,
+      "pct_change": -3.038,
+      "prev_close": 495.4
+    },
+    {
+      "date": "2026-08-18",
+      "open": 481.54,
+      "high": 484.27,
+      "low": 477.15,
+      "close": 481.63,
+      "volume": 24087600,
+      "pct_change": 0.266,
+      "prev_close": 480.35
+    },
+    {
+      "date": "2026-08-19",
+      "open": 480.07,
+      "high": 489.3,
+      "low": 479.36,
+      "close": 484.31,
+      "volume": 19961900,
+      "pct_change": 0.556,
+      "prev_close": 481.63
+    },
+    {
+      "date": "2026-08-20",
+      "open": 483.3,
+      "high": 484.16,
+      "low": 479.5,
+      "close": 481.15,
+      "volume": 20020800,
+      "pct_change": -0.652,
+      "prev_close": 484.31
+    },
+    {
+      "date": "2026-08-21",
+      "open": 479.88,
+      "high": 486.36,
+      "low": 478.53,
+      "close": 483.24,
+      "volume": 22510800,
+      "pct_change": 0.434,
+      "prev_close": 481.15
+    },
+    {
+      "date": "2026-08-24",
+      "open": 483.21,
+      "high": 490.61,
+      "low": 481.86,
+      "close": 487.31,
+      "volume": 17230800,
+      "pct_change": 0.842,
+      "prev_close": 483.24
+    },
+    {
+      "date": "2026-08-25",
+      "open": 485.44,
+      "high": 492.44,
+      "low": 484.3,
+      "close": 491.71,
+      "volume": 19519000,
+      "pct_change": 0.903,
+      "prev_close": 487.31
+    },
+    {
+      "date": "2026-08-26",
+      "open": 487.85,
+      "high": 497.4,
+      "low": 487.31,
+      "close": 496.37,
+      "volume": 20758900,
+      "pct_change": 0.948,
+      "prev_close": 491.71
+    },
+    {
+      "date": "2026-08-27",
+      "open": 494.88,
+      "high": 506.48,
+      "low": 490.08,
+      "close": 505.06,
+      "volume": 28688800,
+      "pct_change": 1.751,
+      "prev_close": 496.37
+    },
+    {
+      "date": "2026-08-28",
+      "open": 505.33,
+      "high": 517.78,
+      "low": 504.87,
+      "close": 513.53,
+      "volume": 29207300,
+      "pct_change": 1.677,
+      "prev_close": 505.06
+    },
+    {
+      "date": "2026-08-31",
+      "open": 510.38,
+      "high": 512.19,
+      "low": 506.39,
+      "close": 507.29,
+      "volume": 27208900,
+      "pct_change": -1.215,
+      "prev_close": 513.53
+    },
+    {
+      "date": "2026-09-01",
+      "open": 497.52,
+      "high": 505.97,
+      "low": 496.78,
+      "close": 501.02,
+      "volume": 21046900,
+      "pct_change": -1.236,
+      "prev_close": 507.29
+    },
+    {
+      "date": "2026-09-02",
+      "open": 499.85,
+      "high": 500.27,
+      "low": 493.81,
+      "close": 496.82,
+      "volume": 15336100,
+      "pct_change": -0.838,
+      "prev_close": 501.02
+    },
+    {
+      "date": "2026-09-03",
+      "open": 501.66,
+      "high": 515.65,
+      "low": 500.8,
+      "close": 510.12,
+      "volume": 24125900,
+      "pct_change": 2.677,
+      "prev_close": 496.82
+    },
+    {
+      "date": "2026-09-04",
+      "open": 510.0,
+      "high": 511.0,
+      "low": 499.36,
+      "close": 499.7,
+      "volume": 18101800,
+      "pct_change": -2.043,
+      "prev_close": 510.12
+    },
+    {
+      "date": "2026-09-08",
+      "open": 493.01,
+      "high": 495.19,
+      "low": 490.15,
+      "close": 493.95,
+      "volume": 18882300,
+      "pct_change": -1.151,
+      "prev_close": 499.7
+    },
+    {
+      "date": "2026-09-09",
+      "open": 493.07,
+      "high": 494.39,
+      "low": 489.8,
+      "close": 491.65,
+      "volume": 12889600,
+      "pct_change": -0.466,
+      "prev_close": 493.95
+    },
+    {
+      "date": "2026-09-10",
+      "open": 488.32,
+      "high": 494.52,
+      "low": 486.0,
+      "close": 492.44,
+      "volume": 16038800,
+      "pct_change": 0.161,
+      "prev_close": 491.65
+    },
+    {
+      "date": "2026-09-11",
+      "open": 495.65,
+      "high": 498.97,
+      "low": 492.58,
+      "close": 495.63,
+      "volume": 14510500,
+      "pct_change": 0.648,
+      "prev_close": 492.44
+    },
+    {
+      "date": "2026-09-14",
+      "open": 497.06,
+      "high": 509.95,
+      "low": 495.34,
+      "close": 505.41,
+      "volume": 23091900,
+      "pct_change": 1.973,
+      "prev_close": 495.63
+    },
+    {
+      "date": "2026-09-15",
+      "open": 500.06,
+      "high": 505.9,
+      "low": 495.54,
+      "close": 497.12,
+      "volume": 17794600,
+      "pct_change": -1.64,
+      "prev_close": 505.41
+    },
+    {
+      "date": "2026-09-16",
+      "open": 493.03,
+      "high": 495.97,
+      "low": 487.23,
+      "close": 490.3,
+      "volume": 16670300,
+      "pct_change": -1.372,
+      "prev_close": 497.12
+    },
+    {
+      "date": "2026-09-17",
+      "open": 497.8,
+      "high": 501.47,
+      "low": 493.17,
+      "close": 497.75,
+      "volume": 17841600,
+      "pct_change": 1.519,
+      "prev_close": 490.3
+    },
+    {
+      "date": "2026-09-18",
+      "open": 497.97,
+      "high": 498.65,
+      "low": 491.1,
+      "close": 493.78,
+      "volume": 39622300,
+      "pct_change": -0.798,
+      "prev_close": 497.75
+    },
+    {
+      "date": "2026-09-21",
+      "open": 494.95,
+      "high": 501.87,
+      "low": 491.33,
+      "close": 501.61,
+      "volume": 27959900,
+      "pct_change": 1.586,
+      "prev_close": 493.78
+    },
+    {
+      "date": "2026-09-22",
+      "open": 507.32,
+      "high": 508.5,
+      "low": 493.65,
+      "close": 498.0,
+      "volume": 21652800,
+      "pct_change": -0.72,
+      "prev_close": 501.61
+    },
+    {
+      "date": "2026-09-23",
+      "open": 500.76,
+      "high": 509.44,
+      "low": 495.88,
+      "close": 500.59,
+      "volume": 19445600,
+      "pct_change": 0.52,
+      "prev_close": 498.0
+    },
+    {
+      "date": "2026-09-24",
+      "open": 495.07,
+      "high": 498.9,
+      "low": 491.22,
+      "close": 497.93,
+      "volume": 16657600,
+      "pct_change": -0.531,
+      "prev_close": 500.59
+    },
+    {
+      "date": "2026-09-25",
+      "open": 499.04,
+      "high": 519.4,
+      "low": 497.25,
+      "close": 516.17,
+      "volume": 38154200,
+      "pct_change": 3.663,
+      "prev_close": 497.93
+    }
+  ],
+  "beats": [
+    {
+      "date": "2026-04-13",
+      "pct_change": 3.64,
+      "close": 384.37,
+      "direction": "up",
+      "headline": "MSFT gains 3.6% on above-average volume",
+      "explanation": "Microsoft shares advanced 3.64% to $384.37 with trading volume at 1.64 times the 30-day average. No company-specific news accompanied the move, while peers Apple fell 0.49% and Nvidia edged up 0.36%, suggesting idiosyncratic buying rather than a sector trend.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MSFT_20260413_price",
+        "ev_MSFT_20260413_peer_AAPL",
+        "ev_MSFT_20260413_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "pct_change": -3.966,
+      "close": 415.75,
+      "direction": "down",
+      "headline": "MSFT slides 4.0% with peers mixed",
+      "explanation": "Microsoft fell 3.97% to close at $415.75 on volume 1.75 times its 30-day average. The pullback had no company-specific filings attached, while peer Apple rose 0.10% and Nvidia dropped 1.41%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MSFT_20260423_price",
+        "ev_MSFT_20260423_peer_AAPL",
+        "ev_MSFT_20260423_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-04-30",
+      "pct_change": -3.93,
+      "close": 407.78,
+      "direction": "down",
+      "headline": "MSFT drops 3.9% following 10-Q and 8-K filings",
+      "explanation": "Shares fell 3.93% to $407.78 on heavy trading volume of 3.25 times the 30-day average following quarterly 10-Q and 8-K reports filed the prior day. Peer Nvidia also dropped 4.63% while Apple gained 0.44%.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_MSFT_20260430_price",
+        "ev_MSFT_20260430_peer_AAPL",
+        "ev_MSFT_20260430_peer_NVDA",
+        "ev_MSFT_20260430_filing_000119312526191507",
+        "ev_MSFT_20260430_filing_000119312526191457"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "pct_change": 3.051,
+      "close": 421.92,
+      "direction": "up",
+      "headline": "MSFT rises 3.1% after 8-K disclosure",
+      "explanation": "Microsoft climbed 3.05% to $421.92 on volume 2.33 times normal following an 8-K filing submitted on May 14. The gain was company-specific, as Apple added only 0.68% and Nvidia declined 4.42%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_MSFT_20260515_price",
+        "ev_MSFT_20260515_peer_AAPL",
+        "ev_MSFT_20260515_peer_NVDA",
+        "ev_MSFT_20260515_filing_000119312526224155"
+      ]
+    },
+    {
+      "date": "2026-05-28",
+      "pct_change": 3.47,
+      "close": 426.99,
+      "direction": "up",
+      "headline": "MSFT climbs 3.5% in company-led advance",
+      "explanation": "Shares climbed 3.47% to $426.99 with volume reaching 2.16 times the 30-day average. The move was largely company-specific, outpacing modest gains in Apple (+0.53%) and Nvidia (+0.78%) without direct corporate news.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MSFT_20260528_price",
+        "ev_MSFT_20260528_peer_AAPL",
+        "ev_MSFT_20260528_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "pct_change": 5.445,
+      "close": 450.24,
+      "direction": "up",
+      "headline": "MSFT surges 5.4% while peers decline",
+      "explanation": "Microsoft extended its rally by 5.45% to $450.24 on 3.65 times average volume. The move was entirely company-specific, diverging from Apple's 0.14% dip and Nvidia's 1.45% loss, though no filings were reported.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MSFT_20260529_price",
+        "ev_MSFT_20260529_peer_AAPL",
+        "ev_MSFT_20260529_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "pct_change": -4.171,
+      "close": 441.31,
+      "direction": "down",
+      "headline": "MSFT retreats 4.2% as Apple rallies",
+      "explanation": "Shares dropped 4.17% to $441.31 on 1.70 times average volume. The decline was idiosyncratic, as Apple gained 2.90% while Nvidia fell only 0.69%, with no news explaining the selloff.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MSFT_20260602_price",
+        "ev_MSFT_20260602_peer_AAPL",
+        "ev_MSFT_20260602_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "pct_change": 5.708,
+      "close": 372.97,
+      "direction": "up",
+      "headline": "MSFT rebounds 5.7% on massive volume",
+      "explanation": "Microsoft jumped 5.71% to $372.97 with trading volume spiking to 8.53 times the 30-day average. The gain occurred without fresh filings and was partly sector-wide, with Apple gaining 3.14% while Nvidia fell 1.64%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MSFT_20260626_price",
+        "ev_MSFT_20260626_peer_AAPL",
+        "ev_MSFT_20260626_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "pct_change": 3.019,
+      "close": 384.28,
+      "direction": "up",
+      "headline": "MSFT adds 3.0% on above-average volume",
+      "explanation": "The stock gained 3.02% to close at $384.28 on 2.20 times normal volume. No corporate filings were posted, while peer performance was mixed as Apple rose 1.74% and Nvidia fell 1.25%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MSFT_20260701_price",
+        "ev_MSFT_20260701_peer_AAPL",
+        "ev_MSFT_20260701_peer_NVDA"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "pct_change": 15.507,
+      "close": 451.1,
+      "direction": "up",
+      "headline": "MSFT surges 15.5% after annual 10-K filing",
+      "explanation": "Microsoft jumped 15.51% to $451.10 on 5.05 times average volume following its fiscal year 10-K and 8-K filings on July 29. The substantial surge was company-specific, vastly outpacing Nvidia's 2.65% rise and Apple's 1.41% drop.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_MSFT_20260730_price",
+        "ev_MSFT_20260730_peer_AAPL",
+        "ev_MSFT_20260730_peer_NVDA",
+        "ev_MSFT_20260730_filing_000119312526323660",
+        "ev_MSFT_20260730_filing_000119312526323632"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "pct_change": 3.019,
+      "close": 464.72,
+      "direction": "up",
+      "headline": "MSFT gains another 3.0% post-earnings",
+      "explanation": "Shares rose an additional 3.02% to $464.72 on 2.79 times average volume as positive momentum continued following the annual filing. Microsoft strongly diverged from Apple, which plummeted 7.35%, while Nvidia gained 2.93%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_MSFT_20260731_price",
+        "ev_MSFT_20260731_peer_AAPL",
+        "ev_MSFT_20260731_peer_NVDA",
+        "ev_MSFT_20260731_filing_000119312526323660",
+        "ev_MSFT_20260731_filing_000119312526323632"
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "pct_change": 4.934,
+      "close": 487.65,
+      "direction": "up",
+      "headline": "MSFT rises 4.9% extending multi-day surge",
+      "explanation": "Microsoft gained 4.93% to reach $487.65 with volume at 3.06 times its 30-day average. The stock continued to outperform its peers without new disclosures, while Nvidia rose 2.93% and Apple slipped 1.78%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_MSFT_20260803_price",
+        "ev_MSFT_20260803_peer_AAPL",
+        "ev_MSFT_20260803_peer_NVDA"
+      ]
+    }
+  ],
+  "evidence": {
+    "ev_MSFT_20260413_price": {
+      "id": "ev_MSFT_20260413_price",
+      "kind": "price",
+      "title": "MSFT rose 3.64% on 2026-04-13",
+      "detail": "Closed at $384.37 from $370.87. Volume was 1.6x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-13",
+      "numbers": {
+        "pct_change": 3.64,
+        "close": 384.37,
+        "prev_close": 370.87,
+        "volume": 35745800,
+        "volume_vs_30d_avg": 1.64,
+        "move_excluding_sector_pct": 3.71
+      }
+    },
+    "ev_MSFT_20260413_peer_AAPL": {
+      "id": "ev_MSFT_20260413_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL moved -0.49% the same day",
+      "detail": "MSFT moved +3.64% while AAPL moved -0.49%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-04-13",
+      "numbers": {
+        "peer_pct_change": -0.49,
+        "subject_pct_change": 3.64
+      }
+    },
+    "ev_MSFT_20260413_peer_NVDA": {
+      "id": "ev_MSFT_20260413_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +0.36% the same day",
+      "detail": "MSFT moved +3.64% while NVDA moved +0.36%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-13",
+      "numbers": {
+        "peer_pct_change": 0.36,
+        "subject_pct_change": 3.64
+      }
+    },
+    "ev_MSFT_20260423_price": {
+      "id": "ev_MSFT_20260423_price",
+      "kind": "price",
+      "title": "MSFT fell 3.97% on 2026-04-23",
+      "detail": "Closed at $415.75 from $432.92. Volume was 1.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-23",
+      "numbers": {
+        "pct_change": -3.966,
+        "close": 415.75,
+        "prev_close": 432.92,
+        "volume": 38308000,
+        "volume_vs_30d_avg": 1.75,
+        "move_excluding_sector_pct": 3.31
+      }
+    },
+    "ev_MSFT_20260423_peer_AAPL": {
+      "id": "ev_MSFT_20260423_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL moved +0.10% the same day",
+      "detail": "MSFT moved -3.97% while AAPL moved +0.10%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-04-23",
+      "numbers": {
+        "peer_pct_change": 0.1,
+        "subject_pct_change": -3.966
+      }
+    },
+    "ev_MSFT_20260423_peer_NVDA": {
+      "id": "ev_MSFT_20260423_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved -1.41% the same day",
+      "detail": "MSFT moved -3.97% while NVDA moved -1.41%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-23",
+      "numbers": {
+        "peer_pct_change": -1.41,
+        "subject_pct_change": -3.966
+      }
+    },
+    "ev_MSFT_20260430_price": {
+      "id": "ev_MSFT_20260430_price",
+      "kind": "price",
+      "title": "MSFT fell 3.93% on 2026-04-30",
+      "detail": "Closed at $407.78 from $424.46. Volume was 3.2x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "pct_change": -3.93,
+        "close": 407.78,
+        "prev_close": 424.46,
+        "volume": 70909400,
+        "volume_vs_30d_avg": 3.25,
+        "move_excluding_sector_pct": 1.84
+      }
+    },
+    "ev_MSFT_20260430_peer_AAPL": {
+      "id": "ev_MSFT_20260430_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL moved +0.44% the same day",
+      "detail": "MSFT moved -3.93% while AAPL moved +0.44%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": 0.44,
+        "subject_pct_change": -3.93
+      }
+    },
+    "ev_MSFT_20260430_peer_NVDA": {
+      "id": "ev_MSFT_20260430_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved -4.63% the same day",
+      "detail": "MSFT moved -3.93% while NVDA moved -4.63%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": -4.63,
+        "subject_pct_change": -3.93
+      }
+    },
+    "ev_MSFT_20260430_filing_000119312526191507": {
+      "id": "ev_MSFT_20260430_filing_000119312526191507",
+      "kind": "filing",
+      "title": "10-Q filed 2026-04-29",
+      "detail": "10-Q",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+      "occurred_on": "2026-04-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260430_filing_000119312526191457": {
+      "id": "ev_MSFT_20260430_filing_000119312526191457",
+      "kind": "filing",
+      "title": "8-K filed 2026-04-29",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-20260429.htm",
+      "occurred_on": "2026-04-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260515_price": {
+      "id": "ev_MSFT_20260515_price",
+      "kind": "price",
+      "title": "MSFT rose 3.05% on 2026-05-15",
+      "detail": "Closed at $421.92 from $409.43. Volume was 2.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-05-15",
+      "numbers": {
+        "pct_change": 3.051,
+        "close": 421.92,
+        "prev_close": 409.43,
+        "volume": 50771200,
+        "volume_vs_30d_avg": 2.33,
+        "move_excluding_sector_pct": 4.92
+      }
+    },
+    "ev_MSFT_20260515_peer_AAPL": {
+      "id": "ev_MSFT_20260515_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL moved +0.68% the same day",
+      "detail": "MSFT moved +3.05% while AAPL moved +0.68%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-05-15",
+      "numbers": {
+        "peer_pct_change": 0.68,
+        "subject_pct_change": 3.051
+      }
+    },
+    "ev_MSFT_20260515_peer_NVDA": {
+      "id": "ev_MSFT_20260515_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved -4.42% the same day",
+      "detail": "MSFT moved +3.05% while NVDA moved -4.42%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-15",
+      "numbers": {
+        "peer_pct_change": -4.42,
+        "subject_pct_change": 3.051
+      }
+    },
+    "ev_MSFT_20260515_filing_000119312526224155": {
+      "id": "ev_MSFT_20260515_filing_000119312526224155",
+      "kind": "filing",
+      "title": "8-K filed 2026-05-14",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526224155/d125909d8k.htm",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_MSFT_20260528_price": {
+      "id": "ev_MSFT_20260528_price",
+      "kind": "price",
+      "title": "MSFT rose 3.47% on 2026-05-28",
+      "detail": "Closed at $426.99 from $412.67. Volume was 2.2x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-05-28",
+      "numbers": {
+        "pct_change": 3.47,
+        "close": 426.99,
+        "prev_close": 412.67,
+        "volume": 47250500,
+        "volume_vs_30d_avg": 2.16,
+        "move_excluding_sector_pct": 2.82
+      }
+    },
+    "ev_MSFT_20260528_peer_AAPL": {
+      "id": "ev_MSFT_20260528_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL moved +0.53% the same day",
+      "detail": "MSFT moved +3.47% while AAPL moved +0.53%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-05-28",
+      "numbers": {
+        "peer_pct_change": 0.53,
+        "subject_pct_change": 3.47
+      }
+    },
+    "ev_MSFT_20260528_peer_NVDA": {
+      "id": "ev_MSFT_20260528_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +0.78% the same day",
+      "detail": "MSFT moved +3.47% while NVDA moved +0.78%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-28",
+      "numbers": {
+        "peer_pct_change": 0.78,
+        "subject_pct_change": 3.47
+      }
+    },
+    "ev_MSFT_20260529_price": {
+      "id": "ev_MSFT_20260529_price",
+      "kind": "price",
+      "title": "MSFT rose 5.45% on 2026-05-29",
+      "detail": "Closed at $450.24 from $426.99. Volume was 3.6x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "pct_change": 5.445,
+        "close": 450.24,
+        "prev_close": 426.99,
+        "volume": 79654400,
+        "volume_vs_30d_avg": 3.65,
+        "move_excluding_sector_pct": 6.24
+      }
+    },
+    "ev_MSFT_20260529_peer_AAPL": {
+      "id": "ev_MSFT_20260529_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL moved -0.14% the same day",
+      "detail": "MSFT moved +5.45% while AAPL moved -0.14%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": -0.14,
+        "subject_pct_change": 5.445
+      }
+    },
+    "ev_MSFT_20260529_peer_NVDA": {
+      "id": "ev_MSFT_20260529_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved -1.45% the same day",
+      "detail": "MSFT moved +5.45% while NVDA moved -1.45%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-29",
+      "numbers": {
+        "peer_pct_change": -1.45,
+        "subject_pct_change": 5.445
+      }
+    },
+    "ev_MSFT_20260602_price": {
+      "id": "ev_MSFT_20260602_price",
+      "kind": "price",
+      "title": "MSFT fell 4.17% on 2026-06-02",
+      "detail": "Closed at $441.31 from $460.52. Volume was 1.7x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-06-02",
+      "numbers": {
+        "pct_change": -4.171,
+        "close": 441.31,
+        "prev_close": 460.52,
+        "volume": 37036800,
+        "volume_vs_30d_avg": 1.7,
+        "move_excluding_sector_pct": 5.28
+      }
+    },
+    "ev_MSFT_20260602_peer_AAPL": {
+      "id": "ev_MSFT_20260602_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL moved +2.90% the same day",
+      "detail": "MSFT moved -4.17% while AAPL moved +2.90%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-06-02",
+      "numbers": {
+        "peer_pct_change": 2.9,
+        "subject_pct_change": -4.171
+      }
+    },
+    "ev_MSFT_20260602_peer_NVDA": {
+      "id": "ev_MSFT_20260602_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved -0.69% the same day",
+      "detail": "MSFT moved -4.17% while NVDA moved -0.69%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-02",
+      "numbers": {
+        "peer_pct_change": -0.69,
+        "subject_pct_change": -4.171
+      }
+    },
+    "ev_MSFT_20260626_price": {
+      "id": "ev_MSFT_20260626_price",
+      "kind": "price",
+      "title": "MSFT rose 5.71% on 2026-06-26",
+      "detail": "Closed at $372.97 from $352.83. Volume was 8.5x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "pct_change": 5.708,
+        "close": 372.97,
+        "prev_close": 352.83,
+        "volume": 186201600,
+        "volume_vs_30d_avg": 8.53,
+        "move_excluding_sector_pct": 4.96
+      }
+    },
+    "ev_MSFT_20260626_peer_AAPL": {
+      "id": "ev_MSFT_20260626_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL moved +3.14% the same day",
+      "detail": "MSFT moved +5.71% while AAPL moved +3.14%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": 3.14,
+        "subject_pct_change": 5.708
+      }
+    },
+    "ev_MSFT_20260626_peer_NVDA": {
+      "id": "ev_MSFT_20260626_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved -1.64% the same day",
+      "detail": "MSFT moved +5.71% while NVDA moved -1.64%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-06-26",
+      "numbers": {
+        "peer_pct_change": -1.64,
+        "subject_pct_change": 5.708
+      }
+    },
+    "ev_MSFT_20260701_price": {
+      "id": "ev_MSFT_20260701_price",
+      "kind": "price",
+      "title": "MSFT rose 3.02% on 2026-07-01",
+      "detail": "Closed at $384.28 from $373.02. Volume was 2.2x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-07-01",
+      "numbers": {
+        "pct_change": 3.019,
+        "close": 384.28,
+        "prev_close": 373.02,
+        "volume": 48065800,
+        "volume_vs_30d_avg": 2.2,
+        "move_excluding_sector_pct": 2.78
+      }
+    },
+    "ev_MSFT_20260701_peer_AAPL": {
+      "id": "ev_MSFT_20260701_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL moved +1.74% the same day",
+      "detail": "MSFT moved +3.02% while AAPL moved +1.74%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-07-01",
+      "numbers": {
+        "peer_pct_change": 1.74,
+        "subject_pct_change": 3.019
+      }
+    },
+    "ev_MSFT_20260701_peer_NVDA": {
+      "id": "ev_MSFT_20260701_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved -1.25% the same day",
+      "detail": "MSFT moved +3.02% while NVDA moved -1.25%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-01",
+      "numbers": {
+        "peer_pct_change": -1.25,
+        "subject_pct_change": 3.019
+      }
+    },
+    "ev_MSFT_20260730_price": {
+      "id": "ev_MSFT_20260730_price",
+      "kind": "price",
+      "title": "MSFT rose 15.51% on 2026-07-30",
+      "detail": "Closed at $451.10 from $390.54. Volume was 5.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "pct_change": 15.507,
+        "close": 451.1,
+        "prev_close": 390.54,
+        "volume": 110160700,
+        "volume_vs_30d_avg": 5.05,
+        "move_excluding_sector_pct": 14.89
+      }
+    },
+    "ev_MSFT_20260730_peer_AAPL": {
+      "id": "ev_MSFT_20260730_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL moved -1.41% the same day",
+      "detail": "MSFT moved +15.51% while AAPL moved -1.41%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": -1.41,
+        "subject_pct_change": 15.507
+      }
+    },
+    "ev_MSFT_20260730_peer_NVDA": {
+      "id": "ev_MSFT_20260730_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +2.65% the same day",
+      "detail": "MSFT moved +15.51% while NVDA moved +2.65%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 2.65,
+        "subject_pct_change": 15.507
+      }
+    },
+    "ev_MSFT_20260730_filing_000119312526323660": {
+      "id": "ev_MSFT_20260730_filing_000119312526323660",
+      "kind": "filing",
+      "title": "10-K filed 2026-07-29",
+      "detail": "10-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "occurred_on": "2026-07-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260730_filing_000119312526323632": {
+      "id": "ev_MSFT_20260730_filing_000119312526323632",
+      "kind": "filing",
+      "title": "8-K filed 2026-07-29",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm",
+      "occurred_on": "2026-07-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260731_price": {
+      "id": "ev_MSFT_20260731_price",
+      "kind": "price",
+      "title": "MSFT rose 3.02% on 2026-07-31",
+      "detail": "Closed at $464.72 from $451.10. Volume was 2.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "pct_change": 3.019,
+        "close": 464.72,
+        "prev_close": 451.1,
+        "volume": 60846000,
+        "volume_vs_30d_avg": 2.79,
+        "move_excluding_sector_pct": 5.23
+      }
+    },
+    "ev_MSFT_20260731_peer_AAPL": {
+      "id": "ev_MSFT_20260731_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL moved -7.35% the same day",
+      "detail": "MSFT moved +3.02% while AAPL moved -7.35%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "peer_pct_change": -7.35,
+        "subject_pct_change": 3.019
+      }
+    },
+    "ev_MSFT_20260731_peer_NVDA": {
+      "id": "ev_MSFT_20260731_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +2.93% the same day",
+      "detail": "MSFT moved +3.02% while NVDA moved +2.93%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-31",
+      "numbers": {
+        "peer_pct_change": 2.93,
+        "subject_pct_change": 3.019
+      }
+    },
+    "ev_MSFT_20260731_filing_000119312526323660": {
+      "id": "ev_MSFT_20260731_filing_000119312526323660",
+      "kind": "filing",
+      "title": "10-K filed 2026-07-29",
+      "detail": "10-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "occurred_on": "2026-07-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260731_filing_000119312526323632": {
+      "id": "ev_MSFT_20260731_filing_000119312526323632",
+      "kind": "filing",
+      "title": "8-K filed 2026-07-29",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm",
+      "occurred_on": "2026-07-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260803_price": {
+      "id": "ev_MSFT_20260803_price",
+      "kind": "price",
+      "title": "MSFT rose 4.93% on 2026-08-03",
+      "detail": "Closed at $487.65 from $464.72. Volume was 3.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-08-03",
+      "numbers": {
+        "pct_change": 4.934,
+        "close": 487.65,
+        "prev_close": 464.72,
+        "volume": 66762100,
+        "volume_vs_30d_avg": 3.06,
+        "move_excluding_sector_pct": 4.36
+      }
+    },
+    "ev_MSFT_20260803_peer_AAPL": {
+      "id": "ev_MSFT_20260803_peer_AAPL",
+      "kind": "peer_move",
+      "title": "AAPL moved -1.78% the same day",
+      "detail": "MSFT moved +4.93% while AAPL moved -1.78%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "occurred_on": "2026-08-03",
+      "numbers": {
+        "peer_pct_change": -1.78,
+        "subject_pct_change": 4.934
+      }
+    },
+    "ev_MSFT_20260803_peer_NVDA": {
+      "id": "ev_MSFT_20260803_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +2.93% the same day",
+      "detail": "MSFT moved +4.93% while NVDA moved +2.93%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-08-03",
+      "numbers": {
+        "peer_pct_change": 2.93,
+        "subject_pct_change": 4.934
+      }
+    },
+    "ev_MSFT_fund_revenue": {
+      "id": "ev_MSFT_fund_revenue",
+      "kind": "fundamental",
+      "title": "Revenue: 82,886,000,000 (2026-03-31)",
+      "detail": "Reported on form 10-Q, +19.0% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "value": 82886000000,
+        "period_end": "2026-03-31",
+        "xbrl_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "yoy_pct_change": 19.03
+      }
+    },
+    "ev_MSFT_fund_net_income": {
+      "id": "ev_MSFT_fund_net_income",
+      "kind": "fundamental",
+      "title": "Net Income: 31,778,000,000 (2026-03-31)",
+      "detail": "Reported on form 10-Q, +31.8% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "value": 31778000000,
+        "period_end": "2026-03-31",
+        "xbrl_tag": "NetIncomeLoss",
+        "yoy_pct_change": 31.82
+      }
+    },
+    "ev_MSFT_fund_gross_profit": {
+      "id": "ev_MSFT_fund_gross_profit",
+      "kind": "fundamental",
+      "title": "Gross Profit: 56,058,000,000 (2026-03-31)",
+      "detail": "Reported on form 10-Q, +17.2% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "value": 56058000000,
+        "period_end": "2026-03-31",
+        "xbrl_tag": "GrossProfit",
+        "yoy_pct_change": 17.2
+      }
+    },
+    "ev_MSFT_fund_operating_income": {
+      "id": "ev_MSFT_fund_operating_income",
+      "kind": "fundamental",
+      "title": "Operating Income: 38,398,000,000 (2026-03-31)",
+      "detail": "Reported on form 10-Q, +21.3% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "value": 38398000000,
+        "period_end": "2026-03-31",
+        "xbrl_tag": "OperatingIncomeLoss",
+        "yoy_pct_change": 21.31
+      }
+    },
+    "ev_MSFT_fund_rnd_expense": {
+      "id": "ev_MSFT_fund_rnd_expense",
+      "kind": "fundamental",
+      "title": "Rnd Expense: 8,915,000,000 (2026-03-31)",
+      "detail": "Reported on form 10-Q, +12.6% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/",
+      "occurred_on": "2026-04-29",
+      "numbers": {
+        "value": 8915000000,
+        "period_end": "2026-03-31",
+        "xbrl_tag": "ResearchAndDevelopmentExpense",
+        "yoy_pct_change": 12.61
+      }
+    }
+  },
+  "arc": "Between April and August 2026, Microsoft exhibited substantial price volatility marked by distinct company-specific catalysts and independent price action from peers Apple and Nvidia. The stock experienced choppy performance through the spring, including a sharp drop following its late-April 10-Q filing and an unexplained drop below $360 before a high-volume rebound in late June. The decisive inflection came at the end of July, when Microsoft's annual 10-K and 8-K filings sparked an explosive rally of over 15% in a single session, followed by sustained multi-day momentum that propelled the stock to $487.65.",
+  "arc_citation_ids": [
+    "ev_MSFT_20260430_filing_000119312526191507",
+    "ev_MSFT_20260626_price",
+    "ev_MSFT_20260730_price",
+    "ev_MSFT_20260730_filing_000119312526323660",
+    "ev_MSFT_20260803_price"
+  ],
+  "warnings": []
+}

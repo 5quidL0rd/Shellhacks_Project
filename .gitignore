@@ -1,0 +1,10 @@
+backend/.env
+__pycache__/
+*.pyc
+.venv/
+
+# Raw fetched data is re-fetchable and bulky; the built stories are neither.
+# plans.md requires the demo to run without live API calls, so the precomputed
+# stories are committed and everything else is ignored.
+backend/data/cache/*
+!backend/data/cache/story_*.json

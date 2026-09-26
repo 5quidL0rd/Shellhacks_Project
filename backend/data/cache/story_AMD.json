@@ -1,0 +1,2271 @@
+{
+  "symbol": "AMD",
+  "company_name": "Advanced Micro Devices, Inc.",
+  "generated_at": "2026-09-26T09:16:18.615351+00:00",
+  "bars": [
+    {
+      "date": "2026-03-20",
+      "open": 204.89,
+      "high": 206.3,
+      "low": 198.26,
+      "close": 201.33,
+      "volume": 37265100,
+      "pct_change": 0.0,
+      "prev_close": 204.89
+    },
+    {
+      "date": "2026-03-23",
+      "open": 206.4,
+      "high": 209.11,
+      "low": 201.71,
+      "close": 202.68,
+      "volume": 31857800,
+      "pct_change": 0.671,
+      "prev_close": 201.33
+    },
+    {
+      "date": "2026-03-24",
+      "open": 201.39,
+      "high": 206.43,
+      "low": 200.13,
+      "close": 205.37,
+      "volume": 27258800,
+      "pct_change": 1.327,
+      "prev_close": 202.68
+    },
+    {
+      "date": "2026-03-25",
+      "open": 211.51,
+      "high": 221.33,
+      "low": 211.51,
+      "close": 220.27,
+      "volume": 48518300,
+      "pct_change": 7.255,
+      "prev_close": 205.37
+    },
+    {
+      "date": "2026-03-26",
+      "open": 217.98,
+      "high": 221.0,
+      "low": 203.43,
+      "close": 203.77,
+      "volume": 49213000,
+      "pct_change": -7.491,
+      "prev_close": 220.27
+    },
+    {
+      "date": "2026-03-27",
+      "open": 201.77,
+      "high": 203.27,
+      "low": 197.69,
+      "close": 201.99,
+      "volume": 29206600,
+      "pct_change": -0.874,
+      "prev_close": 203.77
+    },
+    {
+      "date": "2026-03-30",
+      "open": 204.95,
+      "high": 208.43,
+      "low": 192.87,
+      "close": 196.04,
+      "volume": 41053300,
+      "pct_change": -2.946,
+      "prev_close": 201.99
+    },
+    {
+      "date": "2026-03-31",
+      "open": 198.05,
+      "high": 204.0,
+      "low": 196.41,
+      "close": 203.43,
+      "volume": 42318700,
+      "pct_change": 3.77,
+      "prev_close": 196.04
+    },
+    {
+      "date": "2026-04-01",
+      "open": 207.59,
+      "high": 213.83,
+      "low": 205.84,
+      "close": 210.21,
+      "volume": 40835800,
+      "pct_change": 3.333,
+      "prev_close": 203.43
+    },
+    {
+      "date": "2026-04-02",
+      "open": 204.05,
+      "high": 217.78,
+      "low": 200.62,
+      "close": 217.5,
+      "volume": 38463500,
+      "pct_change": 3.468,
+      "prev_close": 210.21
+    },
+    {
+      "date": "2026-04-06",
+      "open": 219.28,
+      "high": 226.31,
+      "low": 217.73,
+      "close": 220.18,
+      "volume": 30786400,
+      "pct_change": 1.232,
+      "prev_close": 217.5
+    },
+    {
+      "date": "2026-04-07",
+      "open": 218.26,
+      "high": 222.1,
+      "low": 215.38,
+      "close": 221.53,
+      "volume": 26483000,
+      "pct_change": 0.613,
+      "prev_close": 220.18
+    },
+    {
+      "date": "2026-04-08",
+      "open": 232.12,
+      "high": 234.0,
+      "low": 227.09,
+      "close": 231.82,
+      "volume": 35496400,
+      "pct_change": 4.645,
+      "prev_close": 221.53
+    },
+    {
+      "date": "2026-04-09",
+      "open": 233.01,
+      "high": 237.1,
+      "low": 230.91,
+      "close": 236.64,
+      "volume": 27126200,
+      "pct_change": 2.079,
+      "prev_close": 231.82
+    },
+    {
+      "date": "2026-04-10",
+      "open": 239.0,
+      "high": 249.58,
+      "low": 238.96,
+      "close": 245.04,
+      "volume": 36477200,
+      "pct_change": 3.55,
+      "prev_close": 236.64
+    },
+    {
+      "date": "2026-04-13",
+      "open": 245.03,
+      "high": 247.33,
+      "low": 242.03,
+      "close": 246.83,
+      "volume": 22781800,
+      "pct_change": 0.73,
+      "prev_close": 245.04
+    },
+    {
+      "date": "2026-04-14",
+      "open": 249.79,
+      "high": 255.46,
+      "low": 245.7,
+      "close": 255.07,
+      "volume": 25733200,
+      "pct_change": 3.338,
+      "prev_close": 246.83
+    },
+    {
+      "date": "2026-04-15",
+      "open": 254.96,
+      "high": 258.18,
+      "low": 251.85,
+      "close": 258.12,
+      "volume": 24695200,
+      "pct_change": 1.196,
+      "prev_close": 255.07
+    },
+    {
+      "date": "2026-04-16",
+      "open": 264.99,
+      "high": 279.34,
+      "low": 261.51,
+      "close": 278.26,
+      "volume": 64850800,
+      "pct_change": 7.803,
+      "prev_close": 258.12
+    },
+    {
+      "date": "2026-04-17",
+      "open": 281.0,
+      "high": 281.05,
+      "low": 274.14,
+      "close": 278.39,
+      "volume": 35519900,
+      "pct_change": 0.047,
+      "prev_close": 278.26
+    },
+    {
+      "date": "2026-04-20",
+      "open": 280.6,
+      "high": 287.61,
+      "low": 272.0,
+      "close": 274.95,
+      "volume": 34833900,
+      "pct_change": -1.236,
+      "prev_close": 278.39
+    },
+    {
+      "date": "2026-04-21",
+      "open": 277.33,
+      "high": 286.2,
+      "low": 276.62,
+      "close": 284.49,
+      "volume": 38950900,
+      "pct_change": 3.47,
+      "prev_close": 274.95
+    },
+    {
+      "date": "2026-04-22",
+      "open": 291.22,
+      "high": 304.25,
+      "low": 286.14,
+      "close": 303.46,
+      "volume": 49054200,
+      "pct_change": 6.668,
+      "prev_close": 284.49
+    },
+    {
+      "date": "2026-04-23",
+      "open": 302.01,
+      "high": 310.22,
+      "low": 299.76,
+      "close": 305.33,
+      "volume": 45619700,
+      "pct_change": 0.616,
+      "prev_close": 303.46
+    },
+    {
+      "date": "2026-04-24",
+      "open": 336.76,
+      "high": 352.99,
+      "low": 334.54,
+      "close": 347.81,
+      "volume": 81616700,
+      "pct_change": 13.913,
+      "prev_close": 305.33
+    },
+    {
+      "date": "2026-04-27",
+      "open": 346.32,
+      "high": 349.21,
+      "low": 328.81,
+      "close": 334.63,
+      "volume": 50585300,
+      "pct_change": -3.789,
+      "prev_close": 347.81
+    },
+    {
+      "date": "2026-04-28",
+      "open": 311.86,
+      "high": 327.5,
+      "low": 310.0,
+      "close": 323.21,
+      "volume": 43002500,
+      "pct_change": -3.413,
+      "prev_close": 334.63
+    },
+    {
+      "date": "2026-04-29",
+      "open": 326.58,
+      "high": 340.17,
+      "low": 318.86,
+      "close": 337.11,
+      "volume": 44704400,
+      "pct_change": 4.301,
+      "prev_close": 323.21
+    },
+    {
+      "date": "2026-04-30",
+      "open": 341.36,
+      "high": 354.96,
+      "low": 332.6,
+      "close": 354.49,
+      "volume": 42115300,
+      "pct_change": 5.156,
+      "prev_close": 337.11
+    },
+    {
+      "date": "2026-05-01",
+      "open": 351.87,
+      "high": 362.79,
+      "low": 349.25,
+      "close": 360.54,
+      "volume": 34279200,
+      "pct_change": 1.707,
+      "prev_close": 354.49
+    },
+    {
+      "date": "2026-05-04",
+      "open": 360.31,
+      "high": 361.85,
+      "low": 338.7,
+      "close": 341.54,
+      "volume": 42000200,
+      "pct_change": -5.27,
+      "prev_close": 360.54
+    },
+    {
+      "date": "2026-05-05",
+      "open": 351.51,
+      "high": 359.57,
+      "low": 344.88,
+      "close": 355.26,
+      "volume": 64235100,
+      "pct_change": 4.017,
+      "prev_close": 341.54
+    },
+    {
+      "date": "2026-05-06",
+      "open": 409.49,
+      "high": 430.6,
+      "low": 402.04,
+      "close": 421.39,
+      "volume": 87732200,
+      "pct_change": 18.615,
+      "prev_close": 355.26
+    },
+    {
+      "date": "2026-05-07",
+      "open": 417.07,
+      "high": 421.71,
+      "low": 401.08,
+      "close": 408.46,
+      "volume": 44885500,
+      "pct_change": -3.068,
+      "prev_close": 421.39
+    },
+    {
+      "date": "2026-05-08",
+      "open": 418.59,
+      "high": 456.29,
+      "low": 418.29,
+      "close": 455.19,
+      "volume": 58134900,
+      "pct_change": 11.441,
+      "prev_close": 408.46
+    },
+    {
+      "date": "2026-05-11",
+      "open": 460.55,
+      "high": 469.22,
+      "low": 450.88,
+      "close": 458.79,
+      "volume": 46085400,
+      "pct_change": 0.791,
+      "prev_close": 455.19
+    },
+    {
+      "date": "2026-05-12",
+      "open": 449.25,
+      "high": 458.8,
+      "low": 426.11,
+      "close": 448.29,
+      "volume": 39140100,
+      "pct_change": -2.289,
+      "prev_close": 458.79
+    },
+    {
+      "date": "2026-05-13",
+      "open": 457.04,
+      "high": 459.5,
+      "low": 432.65,
+      "close": 445.5,
+      "volume": 30423400,
+      "pct_change": -0.622,
+      "prev_close": 448.29
+    },
+    {
+      "date": "2026-05-14",
+      "open": 440.6,
+      "high": 453.31,
+      "low": 435.68,
+      "close": 449.7,
+      "volume": 26113600,
+      "pct_change": 0.943,
+      "prev_close": 445.5
+    },
+    {
+      "date": "2026-05-15",
+      "open": 433.34,
+      "high": 439.0,
+      "low": 423.36,
+      "close": 424.1,
+      "volume": 29131600,
+      "pct_change": -5.693,
+      "prev_close": 449.7
+    },
+    {
+      "date": "2026-05-18",
+      "open": 429.5,
+      "high": 438.8,
+      "low": 410.71,
+      "close": 420.99,
+      "volume": 28432100,
+      "pct_change": -0.733,
+      "prev_close": 424.1
+    },
+    {
+      "date": "2026-05-19",
+      "open": 412.6,
+      "high": 428.75,
+      "low": 393.36,
+      "close": 414.05,
+      "volume": 38756900,
+      "pct_change": -1.648,
+      "prev_close": 420.99
+    },
+    {
+      "date": "2026-05-20",
+      "open": 428.04,
+      "high": 449.39,
+      "low": 426.05,
+      "close": 447.58,
+      "volume": 36137500,
+      "pct_change": 8.098,
+      "prev_close": 414.05
+    },
+    {
+      "date": "2026-05-21",
+      "open": 441.99,
+      "high": 451.2,
+      "low": 431.6,
+      "close": 449.59,
+      "volume": 27252000,
+      "pct_change": 0.449,
+      "prev_close": 447.58
+    },
+    {
+      "date": "2026-05-22",
+      "open": 469.84,
+      "high": 481.41,
+      "low": 461.71,
+      "close": 467.51,
+      "volume": 34758600,
+      "pct_change": 3.986,
+      "prev_close": 449.59
+    },
+    {
+      "date": "2026-05-26",
+      "open": 484.74,
+      "high": 506.96,
+      "low": 480.23,
+      "close": 503.89,
+      "volume": 38473800,
+      "pct_change": 7.782,
+      "prev_close": 467.51
+    },
+    {
+      "date": "2026-05-27",
+      "open": 508.0,
+      "high": 510.21,
+      "low": 486.66,
+      "close": 495.54,
+      "volume": 27589300,
+      "pct_change": -1.657,
+      "prev_close": 503.89
+    },
+    {
+      "date": "2026-05-28",
+      "open": 499.0,
+      "high": 527.2,
+      "low": 493.52,
+      "close": 518.09,
+      "volume": 31438500,
+      "pct_change": 4.551,
+      "prev_close": 495.54
+    },
+    {
+      "date": "2026-05-29",
+      "open": 520.8,
+      "high": 522.0,
+      "low": 503.43,
+      "close": 516.1,
+      "volume": 30803200,
+      "pct_change": -0.384,
+      "prev_close": 518.09
+    },
+    {
+      "date": "2026-06-01",
+      "open": 500.16,
+      "high": 517.5,
+      "low": 486.8,
+      "close": 510.13,
+      "volume": 33309200,
+      "pct_change": -1.157,
+      "prev_close": 516.1
+    },
+    {
+      "date": "2026-06-02",
+      "open": 506.3,
+      "high": 522.49,
+      "low": 501.22,
+      "close": 521.54,
+      "volume": 24293200,
+      "pct_change": 2.237,
+      "prev_close": 510.13
+    },
+    {
+      "date": "2026-06-03",
+      "open": 533.75,
+      "high": 546.44,
+      "low": 524.3,
+      "close": 542.52,
+      "volume": 29411100,
+      "pct_change": 4.023,
+      "prev_close": 521.54
+    },
+    {
+      "date": "2026-06-04",
+      "open": 514.75,
+      "high": 532.19,
+      "low": 499.87,
+      "close": 523.2,
+      "volume": 29110000,
+      "pct_change": -3.561,
+      "prev_close": 542.52
+    },
+    {
+      "date": "2026-06-05",
+      "open": 499.53,
+      "high": 505.62,
+      "low": 463.95,
+      "close": 466.38,
+      "volume": 46900600,
+      "pct_change": -10.86,
+      "prev_close": 523.2
+    },
+    {
+      "date": "2026-06-08",
+      "open": 485.0,
+      "high": 494.97,
+      "low": 477.71,
+      "close": 490.33,
+      "volume": 25158800,
+      "pct_change": 5.135,
+      "prev_close": 466.38
+    },
+    {
+      "date": "2026-06-09",
+      "open": 502.75,
+      "high": 505.0,
+      "low": 437.23,
+      "close": 475.51,
+      "volume": 37799800,
+      "pct_change": -3.022,
+      "prev_close": 490.33
+    },
+    {
+      "date": "2026-06-10",
+      "open": 467.97,
+      "high": 477.45,
+      "low": 448.33,
+      "close": 452.4,
+      "volume": 27777400,
+      "pct_change": -4.86,
+      "prev_close": 475.51
+    },
+    {
+      "date": "2026-06-11",
+      "open": 461.6,
+      "high": 490.46,
+      "low": 458.02,
+      "close": 488.45,
+      "volume": 30463100,
+      "pct_change": 7.969,
+      "prev_close": 452.4
+    },
+    {
+      "date": "2026-06-12",
+      "open": 499.69,
+      "high": 521.71,
+      "low": 494.0,
+      "close": 511.57,
+      "volume": 31553100,
+      "pct_change": 4.733,
+      "prev_close": 488.45
+    },
+    {
+      "date": "2026-06-15",
+      "open": 535.75,
+      "high": 558.37,
+      "low": 530.5,
+      "close": 547.26,
+      "volume": 33482400,
+      "pct_change": 6.977,
+      "prev_close": 511.57
+    },
+    {
+      "date": "2026-06-16",
+      "open": 546.89,
+      "high": 548.95,
+      "low": 507.25,
+      "close": 507.29,
+      "volume": 28411700,
+      "pct_change": -7.304,
+      "prev_close": 547.26
+    },
+    {
+      "date": "2026-06-17",
+      "open": 529.66,
+      "high": 532.5,
+      "low": 507.3,
+      "close": 512.48,
+      "volume": 27085300,
+      "pct_change": 1.023,
+      "prev_close": 507.29
+    },
+    {
+      "date": "2026-06-18",
+      "open": 531.58,
+      "high": 539.69,
+      "low": 526.32,
+      "close": 537.37,
+      "volume": 43805600,
+      "pct_change": 4.857,
+      "prev_close": 512.48
+    },
+    {
+      "date": "2026-06-22",
+      "open": 545.5,
+      "high": 562.99,
+      "low": 535.71,
+      "close": 551.63,
+      "volume": 25983200,
+      "pct_change": 2.654,
+      "prev_close": 537.37
+    },
+    {
+      "date": "2026-06-23",
+      "open": 509.08,
+      "high": 528.49,
+      "low": 506.81,
+      "close": 519.85,
+      "volume": 30196800,
+      "pct_change": -5.761,
+      "prev_close": 551.63
+    },
+    {
+      "date": "2026-06-24",
+      "open": 520.82,
+      "high": 524.96,
+      "low": 503.5,
+      "close": 519.74,
+      "volume": 26548300,
+      "pct_change": -0.021,
+      "prev_close": 519.85
+    },
+    {
+      "date": "2026-06-25",
+      "open": 543.93,
+      "high": 550.88,
+      "low": 507.0,
+      "close": 532.57,
+      "volume": 27031300,
+      "pct_change": 2.469,
+      "prev_close": 519.74
+    },
+    {
+      "date": "2026-06-26",
+      "open": 519.8,
+      "high": 525.11,
+      "low": 502.61,
+      "close": 521.58,
+      "volume": 52705100,
+      "pct_change": -2.064,
+      "prev_close": 532.57
+    },
+    {
+      "date": "2026-06-29",
+      "open": 522.84,
+      "high": 542.19,
+      "low": 495.35,
+      "close": 539.49,
+      "volume": 26671000,
+      "pct_change": 3.434,
+      "prev_close": 521.58
+    },
+    {
+      "date": "2026-06-30",
+      "open": 545.57,
+      "high": 584.73,
+      "low": 545.57,
+      "close": 580.91,
+      "volume": 34488500,
+      "pct_change": 7.678,
+      "prev_close": 539.49
+    },
+    {
+      "date": "2026-07-01",
+      "open": 557.53,
+      "high": 564.09,
+      "low": 538.74,
+      "close": 540.88,
+      "volume": 28326800,
+      "pct_change": -6.891,
+      "prev_close": 580.91
+    },
+    {
+      "date": "2026-07-02",
+      "open": 538.16,
+      "high": 547.65,
+      "low": 506.0,
+      "close": 517.82,
+      "volume": 28142500,
+      "pct_change": -4.263,
+      "prev_close": 540.88
+    },
+    {
+      "date": "2026-07-06",
+      "open": 535.35,
+      "high": 572.5,
+      "low": 527.0,
+      "close": 552.05,
+      "volume": 30684200,
+      "pct_change": 6.61,
+      "prev_close": 517.82
+    },
+    {
+      "date": "2026-07-07",
+      "open": 515.91,
+      "high": 524.97,
+      "low": 503.11,
+      "close": 516.11,
+      "volume": 29166800,
+      "pct_change": -6.51,
+      "prev_close": 552.05
+    },
+    {
+      "date": "2026-07-08",
+      "open": 504.81,
+      "high": 522.98,
+      "low": 498.15,
+      "close": 517.41,
+      "volume": 23768500,
+      "pct_change": 0.252,
+      "prev_close": 516.11
+    },
+    {
+      "date": "2026-07-09",
+      "open": 537.27,
+      "high": 559.5,
+      "low": 535.2,
+      "close": 546.72,
+      "volume": 26900800,
+      "pct_change": 5.665,
+      "prev_close": 517.41
+    },
+    {
+      "date": "2026-07-10",
+      "open": 544.01,
+      "high": 560.25,
+      "low": 540.05,
+      "close": 557.89,
+      "volume": 20704500,
+      "pct_change": 2.043,
+      "prev_close": 546.72
+    },
+    {
+      "date": "2026-07-13",
+      "open": 537.5,
+      "high": 551.87,
+      "low": 526.92,
+      "close": 534.39,
+      "volume": 22957400,
+      "pct_change": -4.212,
+      "prev_close": 557.89
+    },
+    {
+      "date": "2026-07-14",
+      "open": 567.22,
+      "high": 574.2,
+      "low": 546.77,
+      "close": 548.13,
+      "volume": 21201400,
+      "pct_change": 2.571,
+      "prev_close": 534.39
+    },
+    {
+      "date": "2026-07-15",
+      "open": 556.02,
+      "high": 558.89,
+      "low": 509.57,
+      "close": 529.14,
+      "volume": 27826200,
+      "pct_change": -3.465,
+      "prev_close": 548.13
+    },
+    {
+      "date": "2026-07-16",
+      "open": 509.33,
+      "high": 518.74,
+      "low": 491.8,
+      "close": 500.94,
+      "volume": 27093700,
+      "pct_change": -5.329,
+      "prev_close": 529.14
+    },
+    {
+      "date": "2026-07-17",
+      "open": 476.88,
+      "high": 505.88,
+      "low": 460.21,
+      "close": 495.76,
+      "volume": 32115900,
+      "pct_change": -1.034,
+      "prev_close": 500.94
+    },
+    {
+      "date": "2026-07-20",
+      "open": 517.0,
+      "high": 522.44,
+      "low": 502.36,
+      "close": 503.57,
+      "volume": 23440700,
+      "pct_change": 1.575,
+      "prev_close": 495.76
+    },
+    {
+      "date": "2026-07-21",
+      "open": 526.0,
+      "high": 548.14,
+      "low": 522.6,
+      "close": 544.43,
+      "volume": 29045100,
+      "pct_change": 8.114,
+      "prev_close": 503.57
+    },
+    {
+      "date": "2026-07-22",
+      "open": 526.88,
+      "high": 561.47,
+      "low": 526.6,
+      "close": 552.33,
+      "volume": 24776700,
+      "pct_change": 1.451,
+      "prev_close": 544.43
+    },
+    {
+      "date": "2026-07-23",
+      "open": 544.74,
+      "high": 556.49,
+      "low": 525.0,
+      "close": 539.69,
+      "volume": 27155100,
+      "pct_change": -2.288,
+      "prev_close": 552.33
+    },
+    {
+      "date": "2026-07-24",
+      "open": 546.92,
+      "high": 549.0,
+      "low": 518.0,
+      "close": 521.95,
+      "volume": 27200700,
+      "pct_change": -3.287,
+      "prev_close": 539.69
+    },
+    {
+      "date": "2026-07-27",
+      "open": 527.51,
+      "high": 528.0,
+      "low": 476.93,
+      "close": 494.95,
+      "volume": 31800300,
+      "pct_change": -5.173,
+      "prev_close": 521.95
+    },
+    {
+      "date": "2026-07-28",
+      "open": 467.0,
+      "high": 472.75,
+      "low": 442.27,
+      "close": 454.62,
+      "volume": 36315500,
+      "pct_change": -8.148,
+      "prev_close": 494.95
+    },
+    {
+      "date": "2026-07-29",
+      "open": 452.68,
+      "high": 457.22,
+      "low": 424.03,
+      "close": 429.56,
+      "volume": 32304900,
+      "pct_change": -5.512,
+      "prev_close": 454.62
+    },
+    {
+      "date": "2026-07-30",
+      "open": 460.0,
+      "high": 498.2,
+      "low": 457.68,
+      "close": 485.39,
+      "volume": 36936600,
+      "pct_change": 12.997,
+      "prev_close": 429.56
+    },
+    {
+      "date": "2026-07-31",
+      "open": 510.28,
+      "high": 515.62,
+      "low": 475.76,
+      "close": 476.15,
+      "volume": 26615700,
+      "pct_change": -1.904,
+      "prev_close": 485.39
+    },
+    {
+      "date": "2026-08-03",
+      "open": 461.79,
+      "high": 490.95,
+      "low": 455.3,
+      "close": 484.64,
+      "volume": 24422300,
+      "pct_change": 1.783,
+      "prev_close": 476.15
+    },
+    {
+      "date": "2026-08-04",
+      "open": 504.0,
+      "high": 530.13,
+      "low": 502.2,
+      "close": 518.58,
+      "volume": 48463600,
+      "pct_change": 7.003,
+      "prev_close": 484.64
+    },
+    {
+      "date": "2026-08-05",
+      "open": 484.5,
+      "high": 502.0,
+      "low": 478.2,
+      "close": 482.05,
+      "volume": 49615800,
+      "pct_change": -7.044,
+      "prev_close": 518.58
+    },
+    {
+      "date": "2026-08-06",
+      "open": 471.75,
+      "high": 496.72,
+      "low": 469.5,
+      "close": 489.28,
+      "volume": 24675300,
+      "pct_change": 1.5,
+      "prev_close": 482.05
+    },
+    {
+      "date": "2026-08-07",
+      "open": 497.94,
+      "high": 498.99,
+      "low": 476.06,
+      "close": 483.36,
+      "volume": 26618800,
+      "pct_change": -1.21,
+      "prev_close": 489.28
+    },
+    {
+      "date": "2026-08-10",
+      "open": 477.09,
+      "high": 483.36,
+      "low": 469.29,
+      "close": 469.56,
+      "volume": 19656600,
+      "pct_change": -2.855,
+      "prev_close": 483.36
+    },
+    {
+      "date": "2026-08-11",
+      "open": 474.75,
+      "high": 475.99,
+      "low": 463.21,
+      "close": 474.32,
+      "volume": 18052500,
+      "pct_change": 1.014,
+      "prev_close": 469.56
+    },
+    {
+      "date": "2026-08-12",
+      "open": 488.32,
+      "high": 491.69,
+      "low": 480.88,
+      "close": 482.93,
+      "volume": 18628300,
+      "pct_change": 1.815,
+      "prev_close": 474.32
+    },
+    {
+      "date": "2026-08-13",
+      "open": 483.0,
+      "high": 497.99,
+      "low": 481.0,
+      "close": 483.01,
+      "volume": 18764900,
+      "pct_change": 0.017,
+      "prev_close": 482.93
+    },
+    {
+      "date": "2026-08-14",
+      "open": 487.6,
+      "high": 514.67,
+      "low": 483.2,
+      "close": 514.39,
+      "volume": 25570300,
+      "pct_change": 6.497,
+      "prev_close": 483.01
+    },
+    {
+      "date": "2026-08-17",
+      "open": 514.16,
+      "high": 517.35,
+      "low": 504.52,
+      "close": 506.0,
+      "volume": 20057600,
+      "pct_change": -1.631,
+      "prev_close": 514.39
+    },
+    {
+      "date": "2026-08-18",
+      "open": 487.56,
+      "high": 491.81,
+      "low": 474.98,
+      "close": 484.39,
+      "volume": 23721500,
+      "pct_change": -4.271,
+      "prev_close": 506.0
+    },
+    {
+      "date": "2026-08-19",
+      "open": 486.08,
+      "high": 487.01,
+      "low": 462.55,
+      "close": 466.42,
+      "volume": 19208400,
+      "pct_change": -3.71,
+      "prev_close": 484.39
+    },
+    {
+      "date": "2026-08-20",
+      "open": 465.67,
+      "high": 475.53,
+      "low": 460.27,
+      "close": 469.46,
+      "volume": 15178900,
+      "pct_change": 0.652,
+      "prev_close": 466.42
+    },
+    {
+      "date": "2026-08-21",
+      "open": 476.5,
+      "high": 477.36,
+      "low": 462.11,
+      "close": 473.25,
+      "volume": 14343900,
+      "pct_change": 0.807,
+      "prev_close": 469.46
+    },
+    {
+      "date": "2026-08-24",
+      "open": 468.54,
+      "high": 468.54,
+      "low": 451.0,
+      "close": 456.75,
+      "volume": 16602200,
+      "pct_change": -3.487,
+      "prev_close": 473.25
+    },
+    {
+      "date": "2026-08-25",
+      "open": 474.2,
+      "high": 481.5,
+      "low": 469.07,
+      "close": 479.18,
+      "volume": 19001400,
+      "pct_change": 4.911,
+      "prev_close": 456.75
+    },
+    {
+      "date": "2026-08-26",
+      "open": 475.07,
+      "high": 491.12,
+      "low": 474.58,
+      "close": 480.93,
+      "volume": 14348100,
+      "pct_change": 0.365,
+      "prev_close": 479.18
+    },
+    {
+      "date": "2026-08-27",
+      "open": 481.5,
+      "high": 483.0,
+      "low": 469.63,
+      "close": 476.67,
+      "volume": 16441800,
+      "pct_change": -0.886,
+      "prev_close": 480.93
+    },
+    {
+      "date": "2026-08-28",
+      "open": 472.52,
+      "high": 478.75,
+      "low": 465.29,
+      "close": 465.58,
+      "volume": 15373900,
+      "pct_change": -2.327,
+      "prev_close": 476.67
+    },
+    {
+      "date": "2026-08-31",
+      "open": 466.22,
+      "high": 475.81,
+      "low": 463.68,
+      "close": 470.72,
+      "volume": 12463000,
+      "pct_change": 1.104,
+      "prev_close": 465.58
+    },
+    {
+      "date": "2026-09-01",
+      "open": 459.91,
+      "high": 461.5,
+      "low": 452.3,
+      "close": 459.61,
+      "volume": 16212800,
+      "pct_change": -2.36,
+      "prev_close": 470.72
+    },
+    {
+      "date": "2026-09-02",
+      "open": 459.51,
+      "high": 462.21,
+      "low": 452.36,
+      "close": 457.06,
+      "volume": 11938800,
+      "pct_change": -0.555,
+      "prev_close": 459.61
+    },
+    {
+      "date": "2026-09-03",
+      "open": 453.15,
+      "high": 459.77,
+      "low": 440.5,
+      "close": 456.16,
+      "volume": 14868100,
+      "pct_change": -0.197,
+      "prev_close": 457.06
+    },
+    {
+      "date": "2026-09-04",
+      "open": 462.0,
+      "high": 478.83,
+      "low": 458.0,
+      "close": 477.57,
+      "volume": 19678700,
+      "pct_change": 4.694,
+      "prev_close": 456.16
+    },
+    {
+      "date": "2026-09-08",
+      "open": 488.92,
+      "high": 512.36,
+      "low": 486.57,
+      "close": 505.74,
+      "volume": 28166500,
+      "pct_change": 5.899,
+      "prev_close": 477.57
+    },
+    {
+      "date": "2026-09-09",
+      "open": 507.5,
+      "high": 526.79,
+      "low": 506.36,
+      "close": 521.1,
+      "volume": 22152400,
+      "pct_change": 3.037,
+      "prev_close": 505.74
+    },
+    {
+      "date": "2026-09-10",
+      "open": 509.07,
+      "high": 516.33,
+      "low": 502.81,
+      "close": 503.6,
+      "volume": 16005500,
+      "pct_change": -3.358,
+      "prev_close": 521.1
+    },
+    {
+      "date": "2026-09-11",
+      "open": 510.71,
+      "high": 521.06,
+      "low": 501.35,
+      "close": 516.13,
+      "volume": 19026200,
+      "pct_change": 2.488,
+      "prev_close": 503.6
+    },
+    {
+      "date": "2026-09-14",
+      "open": 486.28,
+      "high": 498.39,
+      "low": 480.33,
+      "close": 493.41,
+      "volume": 24810100,
+      "pct_change": -4.402,
+      "prev_close": 516.13
+    },
+    {
+      "date": "2026-09-15",
+      "open": 501.7,
+      "high": 513.67,
+      "low": 497.51,
+      "close": 504.2,
+      "volume": 17134000,
+      "pct_change": 2.187,
+      "prev_close": 493.41
+    },
+    {
+      "date": "2026-09-16",
+      "open": 517.39,
+      "high": 527.25,
+      "low": 506.05,
+      "close": 512.5,
+      "volume": 22317700,
+      "pct_change": 1.646,
+      "prev_close": 504.2
+    },
+    {
+      "date": "2026-09-17",
+      "open": 533.6,
+      "high": 551.42,
+      "low": 527.6,
+      "close": 545.09,
+      "volume": 28464700,
+      "pct_change": 6.359,
+      "prev_close": 512.5
+    },
+    {
+      "date": "2026-09-18",
+      "open": 547.37,
+      "high": 559.91,
+      "low": 541.53,
+      "close": 559.82,
+      "volume": 31867300,
+      "pct_change": 2.702,
+      "prev_close": 545.09
+    },
+    {
+      "date": "2026-09-21",
+      "open": 583.88,
+      "high": 616.69,
+      "low": 582.27,
+      "close": 615.52,
+      "volume": 44494300,
+      "pct_change": 9.95,
+      "prev_close": 559.82
+    },
+    {
+      "date": "2026-09-22",
+      "open": 606.57,
+      "high": 624.52,
+      "low": 606.31,
+      "close": 623.77,
+      "volume": 28282800,
+      "pct_change": 1.34,
+      "prev_close": 615.52
+    },
+    {
+      "date": "2026-09-23",
+      "open": 621.5,
+      "high": 624.69,
+      "low": 608.08,
+      "close": 614.61,
+      "volume": 16338200,
+      "pct_change": -1.468,
+      "prev_close": 623.77
+    },
+    {
+      "date": "2026-09-24",
+      "open": 600.27,
+      "high": 630.8,
+      "low": 599.24,
+      "close": 629.26,
+      "volume": 25318900,
+      "pct_change": 2.384,
+      "prev_close": 614.61
+    },
+    {
+      "date": "2026-09-25",
+      "open": 634.54,
+      "high": 639.0,
+      "low": 625.52,
+      "close": 630.63,
+      "volume": 17594900,
+      "pct_change": 0.218,
+      "prev_close": 629.26
+    }
+  ],
+  "beats": [
+    {
+      "date": "2026-03-25",
+      "pct_change": 7.255,
+      "close": 220.27,
+      "direction": "up",
+      "headline": "Shares rise 7.3% outpacing semiconductor peers",
+      "explanation": "No company-specific news accompanied the move as AMD rose 7.25% to close at $220.27 on 2.4 times average volume. Peers NVDA and TSM gained 1.99% and 1.31%, indicating AMD significantly outpaced the broader sector without an identified catalyst in the records.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMD_20260325_price",
+        "ev_AMD_20260325_peer_NVDA",
+        "ev_AMD_20260325_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "pct_change": 7.803,
+      "close": 278.26,
+      "direction": "up",
+      "headline": "Shares climb 7.8% despite declines across peers",
+      "explanation": "AMD climbed 7.80% to close at $278.26 on 3.1 times typical volume while peers NVDA and TSM fell 0.26% and 3.13%, respectively. No company filings or news items were provided to explain the gain, pointing to an unexplained company-specific move.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMD_20260416_price",
+        "ev_AMD_20260416_peer_NVDA",
+        "ev_AMD_20260416_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "pct_change": 13.913,
+      "close": 347.81,
+      "direction": "up",
+      "headline": "Stock surges 13.9% amid broader semiconductor rally",
+      "explanation": "AMD jumped 13.91% from $305.33 to $347.81 on 4.0 times normal volume. The advance was partly sector-wide as NVDA climbed 4.32% and TSM rose 5.17%, though no company-specific news was provided to explain AMD's larger surge.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMD_20260424_price",
+        "ev_AMD_20260424_peer_NVDA",
+        "ev_AMD_20260424_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "pct_change": -3.789,
+      "close": 334.63,
+      "direction": "down",
+      "headline": "Shares slip 3.8% while peer Nvidia advances",
+      "explanation": "AMD retreated 3.79% to $334.63 on 2.5 times average volume, diverging from peer NVDA which gained 4.00% and TSM which rose 0.63%. With no company-specific reports provided, the drop appears to be an isolated company pullback.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMD_20260427_price",
+        "ev_AMD_20260427_peer_NVDA",
+        "ev_AMD_20260427_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-04-30",
+      "pct_change": 5.156,
+      "close": 354.49,
+      "direction": "up",
+      "headline": "Stock rebounds 5.2% against Nvidia decline",
+      "explanation": "AMD gained 5.16% to close at $354.49 on twice its 30-day average volume. The move was company-specific, as NVDA dropped 4.63% and TSM rose just 0.57%, though no direct news or corporate filings were provided.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMD_20260430_price",
+        "ev_AMD_20260430_peer_NVDA",
+        "ev_AMD_20260430_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-05-05",
+      "pct_change": 4.017,
+      "close": 355.26,
+      "direction": "up",
+      "headline": "Shares gain 4.0% alongside 8-K filing",
+      "explanation": "AMD rose 4.02% to close at $355.26 on 3.1 times normal volume while NVDA dropped 1.00% and TSM declined 1.79%. The company-specific gain coincided with an 8-K filing submitted to the SEC the same day.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_AMD_20260505_price",
+        "ev_AMD_20260505_peer_NVDA",
+        "ev_AMD_20260505_peer_TSM",
+        "ev_AMD_20260505_filing_000000248826000072"
+      ]
+    },
+    {
+      "date": "2026-05-06",
+      "pct_change": 18.615,
+      "close": 421.39,
+      "direction": "up",
+      "headline": "Shares surge 18.6% following 10-Q filing",
+      "explanation": "AMD surged 18.61% to $421.39 on 4.3 times average volume after filing its quarterly 10-Q report following the previous day's 8-K. The move was supported by sector tailwinds, with NVDA and TSM gaining 5.77% and 6.36%, respectively.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_AMD_20260506_price",
+        "ev_AMD_20260506_peer_NVDA",
+        "ev_AMD_20260506_peer_TSM",
+        "ev_AMD_20260506_filing_000000248826000076",
+        "ev_AMD_20260506_filing_000000248826000072"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "pct_change": 11.441,
+      "close": 455.19,
+      "direction": "up",
+      "headline": "Stock adds 11.4% continuing post-filing momentum",
+      "explanation": "AMD advanced 11.44% to reach $455.19 on 2.8 times average volume, continuing its climb following the May 6 quarterly 10-Q filing. The move was largely company-specific, as NVDA rose 1.75% and TSM fell 0.60%.",
+      "confidence": "medium",
+      "citation_ids": [
+        "ev_AMD_20260508_price",
+        "ev_AMD_20260508_peer_NVDA",
+        "ev_AMD_20260508_peer_TSM",
+        "ev_AMD_20260508_filing_000000248826000076"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "pct_change": -8.148,
+      "close": 454.62,
+      "direction": "down",
+      "headline": "Shares fall 8.1% in company-specific retreat",
+      "explanation": "AMD dropped 8.15% from $494.95 to $454.62 on 1.8 times average volume. The decline was largely company-specific, as peer NVDA moved up 0.25% and TSM declined a modest 1.70%, with no company disclosures provided.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMD_20260728_price",
+        "ev_AMD_20260728_peer_NVDA",
+        "ev_AMD_20260728_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "pct_change": 12.997,
+      "close": 485.39,
+      "direction": "up",
+      "headline": "Stock rallies 13.0% alongside semiconductor peers",
+      "explanation": "AMD climbed 13.00% to close at $485.39 on 1.8 times typical volume. The rebound coincided with strong sector momentum, as peer TSM surged 7.64% and NVDA gained 2.65%, though no company filings accompanied the move.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMD_20260730_price",
+        "ev_AMD_20260730_peer_NVDA",
+        "ev_AMD_20260730_peer_TSM"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "pct_change": -7.044,
+      "close": 482.05,
+      "direction": "down",
+      "headline": "Shares drop 7.0% following quarterly 10-Q filing",
+      "explanation": "AMD shares declined 7.04% to close at $482.05 on 2.4 times typical volume after the company filed an 8-K on August 4 and a 10-Q on August 5. The drop was company-specific, occurring while NVDA gained 3.44% and TSM slipped 0.76%.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_AMD_20260805_price",
+        "ev_AMD_20260805_peer_NVDA",
+        "ev_AMD_20260805_peer_TSM",
+        "ev_AMD_20260805_filing_000000248826000123",
+        "ev_AMD_20260805_filing_000000248826000121"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "pct_change": 9.95,
+      "close": 615.52,
+      "direction": "up",
+      "headline": "Shares jump 10.0% to reach $1 trillion market cap",
+      "explanation": "AMD climbed 9.95% to close at $615.52 on 2.2 times normal volume, crossing $1 trillion in market capitalization. The move was fueled by reports of expanding AI infrastructure workloads using Instinct MI325X GPUs and a broad tech rally where NVDA and TSM rose 2.30% and 2.41%.",
+      "confidence": "high",
+      "citation_ids": [
+        "ev_AMD_20260921_price",
+        "ev_AMD_20260921_peer_NVDA",
+        "ev_AMD_20260921_peer_TSM",
+        "ev_AMD_20260921_news1",
+        "ev_AMD_20260921_news2",
+        "ev_AMD_20260921_news4",
+        "ev_AMD_20260921_news7"
+      ]
+    }
+  ],
+  "evidence": {
+    "ev_AMD_20260325_price": {
+      "id": "ev_AMD_20260325_price",
+      "kind": "price",
+      "title": "AMD rose 7.25% on 2026-03-25",
+      "detail": "Closed at $220.27 from $205.37. Volume was 2.4x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-03-25",
+      "numbers": {
+        "pct_change": 7.255,
+        "close": 220.27,
+        "prev_close": 205.37,
+        "volume": 48518300,
+        "volume_vs_30d_avg": 2.36,
+        "move_excluding_sector_pct": 5.61
+      }
+    },
+    "ev_AMD_20260325_peer_NVDA": {
+      "id": "ev_AMD_20260325_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +1.99% the same day",
+      "detail": "AMD moved +7.25% while NVDA moved +1.99%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-03-25",
+      "numbers": {
+        "peer_pct_change": 1.99,
+        "subject_pct_change": 7.255
+      }
+    },
+    "ev_AMD_20260325_peer_TSM": {
+      "id": "ev_AMD_20260325_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM moved +1.31% the same day",
+      "detail": "AMD moved +7.25% while TSM moved +1.31%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-03-25",
+      "numbers": {
+        "peer_pct_change": 1.31,
+        "subject_pct_change": 7.255
+      }
+    },
+    "ev_AMD_20260416_price": {
+      "id": "ev_AMD_20260416_price",
+      "kind": "price",
+      "title": "AMD rose 7.80% on 2026-04-16",
+      "detail": "Closed at $278.26 from $258.12. Volume was 3.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "pct_change": 7.803,
+        "close": 278.26,
+        "prev_close": 258.12,
+        "volume": 64850800,
+        "volume_vs_30d_avg": 3.15,
+        "move_excluding_sector_pct": 9.5
+      }
+    },
+    "ev_AMD_20260416_peer_NVDA": {
+      "id": "ev_AMD_20260416_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved -0.26% the same day",
+      "detail": "AMD moved +7.80% while NVDA moved -0.26%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": -0.26,
+        "subject_pct_change": 7.803
+      }
+    },
+    "ev_AMD_20260416_peer_TSM": {
+      "id": "ev_AMD_20260416_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM moved -3.13% the same day",
+      "detail": "AMD moved +7.80% while TSM moved -3.13%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": -3.13,
+        "subject_pct_change": 7.803
+      }
+    },
+    "ev_AMD_20260424_price": {
+      "id": "ev_AMD_20260424_price",
+      "kind": "price",
+      "title": "AMD rose 13.91% on 2026-04-24",
+      "detail": "Closed at $347.81 from $305.33. Volume was 4.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "pct_change": 13.913,
+        "close": 347.81,
+        "prev_close": 305.33,
+        "volume": 81616700,
+        "volume_vs_30d_avg": 3.97,
+        "move_excluding_sector_pct": 9.16
+      }
+    },
+    "ev_AMD_20260424_peer_NVDA": {
+      "id": "ev_AMD_20260424_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +4.32% the same day",
+      "detail": "AMD moved +13.91% while NVDA moved +4.32%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 4.32,
+        "subject_pct_change": 13.913
+      }
+    },
+    "ev_AMD_20260424_peer_TSM": {
+      "id": "ev_AMD_20260424_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM moved +5.17% the same day",
+      "detail": "AMD moved +13.91% while TSM moved +5.17%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 5.17,
+        "subject_pct_change": 13.913
+      }
+    },
+    "ev_AMD_20260427_price": {
+      "id": "ev_AMD_20260427_price",
+      "kind": "price",
+      "title": "AMD fell 3.79% on 2026-04-27",
+      "detail": "Closed at $334.63 from $347.81. Volume was 2.5x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "pct_change": -3.789,
+        "close": 334.63,
+        "prev_close": 347.81,
+        "volume": 50585300,
+        "volume_vs_30d_avg": 2.46,
+        "move_excluding_sector_pct": 6.1
+      }
+    },
+    "ev_AMD_20260427_peer_NVDA": {
+      "id": "ev_AMD_20260427_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +4.00% the same day",
+      "detail": "AMD moved -3.79% while NVDA moved +4.00%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "peer_pct_change": 4.0,
+        "subject_pct_change": -3.789
+      }
+    },
+    "ev_AMD_20260427_peer_TSM": {
+      "id": "ev_AMD_20260427_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM moved +0.63% the same day",
+      "detail": "AMD moved -3.79% while TSM moved +0.63%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "peer_pct_change": 0.63,
+        "subject_pct_change": -3.789
+      }
+    },
+    "ev_AMD_20260430_price": {
+      "id": "ev_AMD_20260430_price",
+      "kind": "price",
+      "title": "AMD rose 5.16% on 2026-04-30",
+      "detail": "Closed at $354.49 from $337.11. Volume was 2.0x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "pct_change": 5.156,
+        "close": 354.49,
+        "prev_close": 337.11,
+        "volume": 42115300,
+        "volume_vs_30d_avg": 2.05,
+        "move_excluding_sector_pct": 7.19
+      }
+    },
+    "ev_AMD_20260430_peer_NVDA": {
+      "id": "ev_AMD_20260430_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved -4.63% the same day",
+      "detail": "AMD moved +5.16% while NVDA moved -4.63%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": -4.63,
+        "subject_pct_change": 5.156
+      }
+    },
+    "ev_AMD_20260430_peer_TSM": {
+      "id": "ev_AMD_20260430_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM moved +0.57% the same day",
+      "detail": "AMD moved +5.16% while TSM moved +0.57%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": 0.57,
+        "subject_pct_change": 5.156
+      }
+    },
+    "ev_AMD_20260505_price": {
+      "id": "ev_AMD_20260505_price",
+      "kind": "price",
+      "title": "AMD rose 4.02% on 2026-05-05",
+      "detail": "Closed at $355.26 from $341.54. Volume was 3.1x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "pct_change": 4.017,
+        "close": 355.26,
+        "prev_close": 341.54,
+        "volume": 64235100,
+        "volume_vs_30d_avg": 3.12,
+        "move_excluding_sector_pct": 5.41
+      }
+    },
+    "ev_AMD_20260505_peer_NVDA": {
+      "id": "ev_AMD_20260505_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved -1.00% the same day",
+      "detail": "AMD moved +4.02% while NVDA moved -1.00%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": -1.0,
+        "subject_pct_change": 4.017
+      }
+    },
+    "ev_AMD_20260505_peer_TSM": {
+      "id": "ev_AMD_20260505_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM moved -1.79% the same day",
+      "detail": "AMD moved +4.02% while TSM moved -1.79%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": -1.79,
+        "subject_pct_change": 4.017
+      }
+    },
+    "ev_AMD_20260505_filing_000000248826000072": {
+      "id": "ev_AMD_20260505_filing_000000248826000072",
+      "kind": "filing",
+      "title": "8-K filed 2026-05-05",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000072/amd-20260505.htm",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_AMD_20260506_price": {
+      "id": "ev_AMD_20260506_price",
+      "kind": "price",
+      "title": "AMD rose 18.61% on 2026-05-06",
+      "detail": "Closed at $421.39 from $355.26. Volume was 4.3x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-06",
+      "numbers": {
+        "pct_change": 18.615,
+        "close": 421.39,
+        "prev_close": 355.26,
+        "volume": 87732200,
+        "volume_vs_30d_avg": 4.27,
+        "move_excluding_sector_pct": 12.55
+      }
+    },
+    "ev_AMD_20260506_peer_NVDA": {
+      "id": "ev_AMD_20260506_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +5.77% the same day",
+      "detail": "AMD moved +18.61% while NVDA moved +5.77%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-06",
+      "numbers": {
+        "peer_pct_change": 5.77,
+        "subject_pct_change": 18.615
+      }
+    },
+    "ev_AMD_20260506_peer_TSM": {
+      "id": "ev_AMD_20260506_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM moved +6.36% the same day",
+      "detail": "AMD moved +18.61% while TSM moved +6.36%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-06",
+      "numbers": {
+        "peer_pct_change": 6.36,
+        "subject_pct_change": 18.615
+      }
+    },
+    "ev_AMD_20260506_filing_000000248826000076": {
+      "id": "ev_AMD_20260506_filing_000000248826000076",
+      "kind": "filing",
+      "title": "10-Q filed 2026-05-06",
+      "detail": "10-Q",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm",
+      "occurred_on": "2026-05-06",
+      "numbers": {}
+    },
+    "ev_AMD_20260506_filing_000000248826000072": {
+      "id": "ev_AMD_20260506_filing_000000248826000072",
+      "kind": "filing",
+      "title": "8-K filed 2026-05-05",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000072/amd-20260505.htm",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_AMD_20260508_price": {
+      "id": "ev_AMD_20260508_price",
+      "kind": "price",
+      "title": "AMD rose 11.44% on 2026-05-08",
+      "detail": "Closed at $455.19 from $408.46. Volume was 2.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "pct_change": 11.441,
+        "close": 455.19,
+        "prev_close": 408.46,
+        "volume": 58134900,
+        "volume_vs_30d_avg": 2.83,
+        "move_excluding_sector_pct": 10.86
+      }
+    },
+    "ev_AMD_20260508_peer_NVDA": {
+      "id": "ev_AMD_20260508_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +1.75% the same day",
+      "detail": "AMD moved +11.44% while NVDA moved +1.75%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": 1.75,
+        "subject_pct_change": 11.441
+      }
+    },
+    "ev_AMD_20260508_peer_TSM": {
+      "id": "ev_AMD_20260508_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM moved -0.60% the same day",
+      "detail": "AMD moved +11.44% while TSM moved -0.60%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": -0.6,
+        "subject_pct_change": 11.441
+      }
+    },
+    "ev_AMD_20260508_filing_000000248826000076": {
+      "id": "ev_AMD_20260508_filing_000000248826000076",
+      "kind": "filing",
+      "title": "10-Q filed 2026-05-06",
+      "detail": "10-Q",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm",
+      "occurred_on": "2026-05-06",
+      "numbers": {}
+    },
+    "ev_AMD_20260728_price": {
+      "id": "ev_AMD_20260728_price",
+      "kind": "price",
+      "title": "AMD fell 8.15% on 2026-07-28",
+      "detail": "Closed at $454.62 from $494.95. Volume was 1.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-07-28",
+      "numbers": {
+        "pct_change": -8.148,
+        "close": 454.62,
+        "prev_close": 494.95,
+        "volume": 36315500,
+        "volume_vs_30d_avg": 1.77,
+        "move_excluding_sector_pct": 7.43
+      }
+    },
+    "ev_AMD_20260728_peer_NVDA": {
+      "id": "ev_AMD_20260728_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +0.25% the same day",
+      "detail": "AMD moved -8.15% while NVDA moved +0.25%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-28",
+      "numbers": {
+        "peer_pct_change": 0.25,
+        "subject_pct_change": -8.148
+      }
+    },
+    "ev_AMD_20260728_peer_TSM": {
+      "id": "ev_AMD_20260728_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM moved -1.70% the same day",
+      "detail": "AMD moved -8.15% while TSM moved -1.70%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-28",
+      "numbers": {
+        "peer_pct_change": -1.7,
+        "subject_pct_change": -8.148
+      }
+    },
+    "ev_AMD_20260730_price": {
+      "id": "ev_AMD_20260730_price",
+      "kind": "price",
+      "title": "AMD rose 13.00% on 2026-07-30",
+      "detail": "Closed at $485.39 from $429.56. Volume was 1.8x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "pct_change": 12.997,
+        "close": 485.39,
+        "prev_close": 429.56,
+        "volume": 36936600,
+        "volume_vs_30d_avg": 1.8,
+        "move_excluding_sector_pct": 7.85
+      }
+    },
+    "ev_AMD_20260730_peer_NVDA": {
+      "id": "ev_AMD_20260730_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +2.65% the same day",
+      "detail": "AMD moved +13.00% while NVDA moved +2.65%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 2.65,
+        "subject_pct_change": 12.997
+      }
+    },
+    "ev_AMD_20260730_peer_TSM": {
+      "id": "ev_AMD_20260730_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM moved +7.64% the same day",
+      "detail": "AMD moved +13.00% while TSM moved +7.64%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-07-30",
+      "numbers": {
+        "peer_pct_change": 7.64,
+        "subject_pct_change": 12.997
+      }
+    },
+    "ev_AMD_20260805_price": {
+      "id": "ev_AMD_20260805_price",
+      "kind": "price",
+      "title": "AMD fell 7.04% on 2026-08-05",
+      "detail": "Closed at $482.05 from $518.58. Volume was 2.4x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "pct_change": -7.044,
+        "close": 482.05,
+        "prev_close": 518.58,
+        "volume": 49615800,
+        "volume_vs_30d_avg": 2.41,
+        "move_excluding_sector_pct": 8.38
+      }
+    },
+    "ev_AMD_20260805_peer_NVDA": {
+      "id": "ev_AMD_20260805_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +3.44% the same day",
+      "detail": "AMD moved -7.04% while NVDA moved +3.44%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "peer_pct_change": 3.44,
+        "subject_pct_change": -7.044
+      }
+    },
+    "ev_AMD_20260805_peer_TSM": {
+      "id": "ev_AMD_20260805_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM moved -0.76% the same day",
+      "detail": "AMD moved -7.04% while TSM moved -0.76%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "peer_pct_change": -0.76,
+        "subject_pct_change": -7.044
+      }
+    },
+    "ev_AMD_20260805_filing_000000248826000123": {
+      "id": "ev_AMD_20260805_filing_000000248826000123",
+      "kind": "filing",
+      "title": "10-Q filed 2026-08-05",
+      "detail": "10-Q",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_AMD_20260805_filing_000000248826000121": {
+      "id": "ev_AMD_20260805_filing_000000248826000121",
+      "kind": "filing",
+      "title": "8-K filed 2026-08-04",
+      "detail": "8-K",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amd-20260804.htm",
+      "occurred_on": "2026-08-04",
+      "numbers": {}
+    },
+    "ev_AMD_20260921_price": {
+      "id": "ev_AMD_20260921_price",
+      "kind": "price",
+      "title": "AMD rose 9.95% on 2026-09-21",
+      "detail": "Closed at $615.52 from $559.82. Volume was 2.2x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "pct_change": 9.95,
+        "close": 615.52,
+        "prev_close": 559.82,
+        "volume": 44494300,
+        "volume_vs_30d_avg": 2.16,
+        "move_excluding_sector_pct": 7.6
+      }
+    },
+    "ev_AMD_20260921_peer_NVDA": {
+      "id": "ev_AMD_20260921_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA moved +2.30% the same day",
+      "detail": "AMD moved +9.95% while NVDA moved +2.30%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 2.3,
+        "subject_pct_change": 9.95
+      }
+    },
+    "ev_AMD_20260921_peer_TSM": {
+      "id": "ev_AMD_20260921_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM moved +2.41% the same day",
+      "detail": "AMD moved +9.95% while TSM moved +2.41%.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 2.41,
+        "subject_pct_change": 9.95
+      }
+    },
+    "ev_AMD_20260921_news0": {
+      "id": "ev_AMD_20260921_news0",
+      "kind": "news",
+      "title": "Trump, Xi Meet on S&P 500's Best Day Since Early August: Will Markets Stay Bullish?",
+      "detail": "Reported by Yahoo. Trump and Xi meet in Washington as the S&P 500 posts its best day since Aug. 4, driven by a rally in AI stocks.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6965103b0fad8640ba1f5676336f1fb3908796c357668417d195d3cb9c56d230",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_AMD_20260921_news1": {
+      "id": "ev_AMD_20260921_news1",
+      "kind": "news",
+      "title": "Advanced Micro Devices (AMD) Is Up 24.7% After Expanding Its Role In Regulated AI Infrastructure \u2013 Has The Bull Case Changed?",
+      "detail": "Reported by Yahoo. Advanced Micro Devices has recently been at the center of a series of AI-focused developments, from powering MindWalk\u2019s OpenFold3 life-sciences workloads on Instinct MI325X GPUs to expanding ecosystem collaborations across edge AI, quantum-classical integration, and agentic AI security and infrastructure. Together, these partnerships and deployments highlight AMD\u2019s role not just as a chip supplier but as a foundational compute layer for regulated, production-grade AI systems spanning data...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=86d150aa8e250c33b1ed6e5ea39d2c17d10fec74cbdc713c1ffed209d50afe78",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_AMD_20260921_news2": {
+      "id": "ev_AMD_20260921_news2",
+      "kind": "news",
+      "title": "Nasdaq Ends Nearly 3% Higher As AI Stocks Pop, AMD Enters $1 Trillion Club \u2014  AMD, ARM, META, AMZN, PSKY In Focus",
+      "detail": "Reported by Yahoo. Advanced Micro Devices added about 10% and hit $1 trillion in market cap.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f590f157a45e9ede0b45e363e2fe2fa232850b082542c852b4d171af05ca41ea",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_AMD_20260921_news3": {
+      "id": "ev_AMD_20260921_news3",
+      "kind": "news",
+      "title": "Meta Platforms, Greenland Mines, Intel, AMD and GameStop: Why These 5 Stocks Are on Investors' Radars Today",
+      "detail": "Reported by Benzinga. META, GRML, INTC, AMD, GME were among the stocks seen trending on Monday, Sept. 21, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=068174cd1183086242d43eb1b0bfd24db39a1190dd2aee03e5b55be721c6af87",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_AMD_20260921_news4": {
+      "id": "ev_AMD_20260921_news4",
+      "kind": "news",
+      "title": "Stock Market Today, Sept. 21: Tech Strength Powers Nasdaq to Record Close",
+      "detail": "Reported by Yahoo. Today, Sept. 21, 2026, semiconductor stocks surged on AI demand while Bitcoin topped $87,000, offsetting energy sector weakness.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e47cb55db2b013246600f93235e702c47c4e8a8cf765e371861befd71a1cd2f7",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_AMD_20260921_news5": {
+      "id": "ev_AMD_20260921_news5",
+      "kind": "news",
+      "title": "Dow Jones Futures: Falling Oil Prices, Yields Spark Market Rally; AMD, Intel, Micron, Nvidia, Sandisk Are Key Movers",
+      "detail": "Reported by Yahoo. Dow Jones Futures: Falling oil prices and yields sparked a stock market rally. AMD, Intel, Micron, Nvidia and Sandisk are key movers.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2a965795bdbd096ed40eab32fa4f9c1b24ff1d694581a8ad0ef479a1e6ec4985",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_AMD_20260921_news6": {
+      "id": "ev_AMD_20260921_news6",
+      "kind": "news",
+      "title": "Update: Communication Services, Tech Heavyweights Push US Equity Indexes Higher as Crude Oil Slides With Treasury Yields",
+      "detail": "Reported by Yahoo. (Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8c9d7afe8453a5109358537a6d992fe1cc1160596d21bd8c4ceeec4c4616f090",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_AMD_20260921_news7": {
+      "id": "ev_AMD_20260921_news7",
+      "kind": "news",
+      "title": "AMD Stock Alert: Advanced Micro Devices Joins the Trillion-Dollar Club",
+      "detail": "Reported by Yahoo. AMD\u2019s market cap exceeded $1 trillion for the first time on Monday. Options sentiment suggests AMD shares could rip further up from here through the remainder of 2026.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ab9585020a69d087d3b15b37498f89cd2d8c0a7b8495df3d2acb00a1ee0b070d",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_AMD_fund_revenue": {
+      "id": "ev_AMD_fund_revenue",
+      "kind": "fundamental",
+      "title": "Revenue: 11,536,000,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, +55.1% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "value": 11536000000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "yoy_pct_change": 55.1
+      }
+    },
+    "ev_AMD_fund_net_income": {
+      "id": "ev_AMD_fund_net_income",
+      "kind": "fundamental",
+      "title": "Net Income: 2,297,000,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, +224.0% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "value": 2297000000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "NetIncomeLoss",
+        "yoy_pct_change": 223.98
+      }
+    },
+    "ev_AMD_fund_gross_profit": {
+      "id": "ev_AMD_fund_gross_profit",
+      "kind": "fundamental",
+      "title": "Gross Profit: 6,203,000,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, +66.0% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "value": 6203000000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "GrossProfit",
+        "yoy_pct_change": 66.03
+      }
+    },
+    "ev_AMD_fund_operating_income": {
+      "id": "ev_AMD_fund_operating_income",
+      "kind": "fundamental",
+      "title": "Operating Income: 1,990,000,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, +146.9% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "value": 1990000000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "OperatingIncomeLoss",
+        "yoy_pct_change": 146.9
+      }
+    },
+    "ev_AMD_fund_rnd_expense": {
+      "id": "ev_AMD_fund_rnd_expense",
+      "kind": "fundamental",
+      "title": "Rnd Expense: 2,528,000,000 (2026-06-27)",
+      "detail": "Reported on form 10-Q, +46.3% year over year.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "value": 2528000000,
+        "period_end": "2026-06-27",
+        "xbrl_tag": "ResearchAndDevelopmentExpense",
+        "yoy_pct_change": 46.3
+      }
+    },
+    "ev_AMD_sector_IPG3344S": {
+      "id": "ev_AMD_sector_IPG3344S",
+      "kind": "sector",
+      "title": "US semiconductor and electronic component production: 190.1 index, 2017=100, +12.3% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/IPG3344S",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 190.0987,
+        "units": "index, 2017=100",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": 12.35
+      }
+    },
+    "ev_AMD_sector_PCU334413334413": {
+      "id": "ev_AMD_sector_PCU334413334413",
+      "kind": "sector",
+      "title": "US semiconductor producer price index: 28.5 index, -3.1% year over year",
+      "detail": "Monthly series, latest reading 2026-08-01.",
+      "source": "FRED (Federal Reserve Bank of St. Louis)",
+      "url": "https://fred.stlouisfed.org/series/PCU334413334413",
+      "occurred_on": "2026-08-01",
+      "numbers": {
+        "value": 28.472,
+        "units": "index",
+        "as_of": "2026-08-01",
+        "yoy_pct_change": -3.13
+      }
+    }
+  },
+  "arc": "Between March and September 2026, AMD staged an aggressive upward trajectory, climbing from $205.37 to $615.52. While early spring and mid-summer moves were characterized by volatility and large single-day swings that outpaced peers without direct disclosures, quarterly filings in early May and August provided concrete corporate milestones. The multi-month expansion culminated in September 2026 when growing commercial traction in regulated AI compute workloads with Instinct MI325X GPUs and a strong semiconductor rally drove the company's valuation past the $1 trillion market capitalization threshold.",
+  "arc_citation_ids": [
+    "ev_AMD_20260325_price",
+    "ev_AMD_20260506_filing_000000248826000076",
+    "ev_AMD_20260805_filing_000000248826000123",
+    "ev_AMD_20260921_price",
+    "ev_AMD_20260921_news1",
+    "ev_AMD_20260921_news2",
+    "ev_AMD_20260921_news7"
+  ],
+  "warnings": []
+}
