@@ -4,6 +4,7 @@ import { Change } from './components'
 import { useAsync, usePortfolio } from './hooks'
 import { HoldingsPage } from './pages/HoldingsPage'
 import { MapPage } from './pages/MapPage'
+import { ResearchPage } from './pages/ResearchPage'
 import { StoryPage } from './pages/StoryPage'
 import { XRayPage } from './pages/XRayPage'
 
@@ -47,7 +48,7 @@ export default function App() {
             <Route path="/map" element={<MapPage holdings={holdings} />} />
             <Route path="/holdings" element={<HoldingsPage holdings={holdings} setHoldings={setHoldings} />} />
             <Route path="/stock/:symbol" element={<StoryPage />} />
-            <Route path="/research" element={<ResearchPlaceholder />} />
+            <Route path="/research" element={<ResearchPage holdings={holdings} />} />
           </Routes>
         </main>
       </div>
@@ -77,24 +78,5 @@ function SidebarHoldings({ holdings }: { holdings: string[] }) {
           </div>
         )}
     </div>
-  )
-}
-
-function ResearchPlaceholder() {
-  return (
-    <>
-      <div className="page-head">
-        <div className="eyebrow">Research</div>
-        <h1>How would this fit your portfolio?</h1>
-        <p>Compare a company's shape (growth, stability, profitability, debt, risk) with what you already own, and see where it would connect.</p>
-      </div>
-      <div className="placeholder">
-        <strong>Not built yet</strong>
-        <p className="small muted">
-          Needs the financial ratios for the radar shape (the FUNDAMENTALS table is empty) and a
-          "how would this fit" endpoint. See Product.md, feature 5.
-        </p>
-      </div>
-    </>
   )
 }

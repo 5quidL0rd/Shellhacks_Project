@@ -140,17 +140,178 @@ export interface Story {
   warnings: string[]
 }
 
+/** One radar axis: the raw measure, and its rank among the covered companies. */
+export interface RadarAxis {
+  axis: 'growth' | 'profitability' | 'stability' | 'debt' | 'risk'
+  label: string
+  value: number | null
+  unit: string
+  /** 0-100, always oriented so higher is the more favourable end. */
+  score: number | null
+  available: boolean
+  /** "SEC EDGAR" or "Yahoo Finance" — a filing is stronger than a vendor ratio. */
+  basis: string
+  explanation: string
+  favourable: string
+}
+
+/** The portfolio's own average shape, for drawing the candidate over it. */
+export interface PortfolioRadarAxis {
+  axis: RadarAxis['axis']
+  label: string
+  score: number | null
+  from_holdings: number
+}
+
+export type FitComponentName =
+  | 'correlation'
+  | 'sector_crowding'
+  | 'dependency_overlap'
+  | 'direct_connection'
+
+export interface FitComponent {
+  /** null when the check could not be run; it is then excluded from the score. */
+  score: number | null
+  measured: boolean
+  /** The score in words: "Little overlap" … "Heavy overlap", or "Unknown". */
+  band: string
+  /** What it means for the investor, in plain words and no figures. */
+  plain: string
+  /** Share of the fit score this check accounts for, after renormalising. */
+  weight_applied: number
+  /** The numeric summary, e.g. "Average correlation +0.19". */
+  label: string
+  /** The figures spelled out. */
+  detail: string
+  evidence: Record<string, unknown>[]
+}
+
+export type Verdict = 'Good diversity' | 'Some diversification' | 'Risky overlap'
+
+export interface ResearchEvidence {
+  id: string
+  kind: 'metric' | 'diversification' | 'news'
+  title: string
+  detail: string
+  source: string
+  url: string | null
+  numbers: Record<string, string | number | boolean | null>
+  supporting: Record<string, unknown>[]
+}
+
+export interface BriefPoint {
+  point: string
+  citation_ids: string[]
+}
+
+/** A company matching what was typed in the search box. */
+export interface CompanyMatch {
+  ticker: string
+  cik: string
+  name: string
+  in_universe: boolean
+  match_score: number
+}
+
+export interface SearchResults {
+  query: string
+  matches: CompanyMatch[]
+}
+
+export interface Analysis {
+  ticker: string
+  name: string
+  cik: string | null
+  sector: string
+  industry: string
+  country: string
+  in_universe: boolean
+  in_graph: boolean
+  graph_id: string | null
+  already_held: boolean
+  holdings: string[]
+  unsupported: string[]
+  fit_score: number
+  verdict: Verdict
+  verdict_meaning: string
+  confidence: 'high' | 'medium' | 'low'
+  confidence_reason: string
+  components: Record<FitComponentName, FitComponent>
+  /** One line explaining what 0 and 100 mean, shown above the checks. */
+  score_scale: string
+  radar: RadarAxis[]
+  portfolio_radar: PortfolioRadarAxis[]
+  brief: {
+    summary: string
+    summary_citation_ids: string[]
+    pros: BriefPoint[]
+    cons: BriefPoint[]
+    generated_at: string | null
+  }
+  evidence: Record<string, ResearchEvidence>
+  map_placement: {
+    in_graph: boolean
+    nodes: (MapNode & { is_candidate: boolean })[]
+    links: MapLink[]
+  }
+  /** What we read out of the company's own annual report, for anything outside
+   * the 13 companies whose filings were read offline. Null for those 13. */
+  filing_read: {
+    summary: string
+    available: boolean
+    reason?: string
+    form?: string
+    filing_date?: string
+    url?: string
+    relationships?: {
+      type: 'SUPPLIER' | 'CUSTOMER' | 'COMPETITOR' | 'OPERATES_IN'
+      counterparty_name: string | null
+      country: string | null
+      detail: string | null
+      evidence: string
+      confidence: 'high' | 'medium' | 'low'
+      is_named: boolean
+    }[]
+    dropped_unverified?: number
+  } | null
+  alternatives: CompanyMatch[]
+  warnings: string[]
+  disclaimer: string
+}
+
+/** A 404 or 409 from /research/analyze carries the companies it did match. */
+export interface ResolutionProblem {
+  message: string
+  options: CompanyMatch[]
+}
+
+export class ResearchLookupError extends Error {
+  problem: ResolutionProblem
+  status: number
+  constructor(problem: ResolutionProblem, status: number) {
+    super(problem.message)
+    this.name = 'ResearchLookupError'
+    this.problem = problem
+    this.status = status
+  }
+}
+
 async function get<T>(path: string, params?: Record<string, string>): Promise<T> {
   const query = params ? `?${new URLSearchParams(params)}` : ''
   const response = await fetch(`${BASE}${path}${query}`)
   if (!response.ok) {
-    let detail = response.statusText
+    let detail: unknown = response.statusText
     try {
       detail = (await response.json()).detail ?? detail
     } catch {
       /* not JSON */
     }
-    throw new Error(`${response.status}: ${detail}`)
+    // Lookup failures carry the companies that did match, so the UI can offer
+    // them instead of showing a dead end.
+    if (detail && typeof detail === 'object' && 'options' in detail) {
+      throw new ResearchLookupError(detail as ResolutionProblem, response.status)
+    }
+    throw new Error(`${response.status}: ${typeof detail === 'string' ? detail : response.statusText}`)
   }
   return response.json() as Promise<T>
 }
@@ -175,6 +336,13 @@ export const api = {
   impact: (company: string, holdings: string[]) =>
     get<Impact>('/portfolio/impact', { company, holdings: holdingsParam(holdings) }),
   story: (symbol: string) => get<Story>(`/story/${encodeURIComponent(symbol)}`),
+  /** Companies matching a typed query; any SEC filer, not just our 13. */
+  researchSearch: (q: string, limit = 8) =>
+    get<SearchResults>('/research/search', { q, limit: String(limit) }),
+  /** Full analysis of one company against the holdings. Spends a Gemini call
+   * on the backend the first time, then serves from cache. */
+  researchAnalyze: (q: string, holdings: string[]) =>
+    get<Analysis>('/research/analyze', { q, holdings: holdingsParam(holdings) }),
   /** Last-close quotes for every supported company; small, so fetched once and shared. */
   quotes: () => (quotesRequest ??= get<Quotes>('/quotes').catch((e) => {
     quotesRequest = null

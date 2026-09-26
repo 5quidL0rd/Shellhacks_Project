@@ -438,3 +438,265 @@ input[type="search"].search { margin-bottom: 10px; }
 .sidebar .change.down { color: #ffdccc; } /* 4.9:1 */
 .sidebar .change.flat { color: var(--sidebar-muted); }
 .sidebar .ticker-link.active .change { color: #0f2a2f; }
+
+/* --- Research: ranked candidates, radar shape, cited brief ---------------- */
+
+.candidate-row {
+  display: grid;
+  grid-template-columns: 8.5rem auto 12rem 5rem 1fr;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  padding: 10px 8px;
+  border: 0;
+  border-top: 1px solid var(--hairline);
+  border-radius: var(--radius-sm);
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.candidate-row:hover { background: var(--wash); }
+.candidate-row.selected { background: var(--accent-wash); }
+.candidate-row:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
+.candidate-id { display: flex; flex-direction: column; gap: 1px; }
+.candidate-why { text-align: right; }
+
+/* A verdict is a word first and a color second, so it survives being printed
+   in greyscale or read by someone who cannot separate red from green. */
+.verdict {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  white-space: nowrap;
+  justify-self: start;
+}
+.verdict.big { font-size: 0.85rem; padding: 3px 10px; }
+.verdict.up { color: var(--up); }
+.verdict.down { color: var(--down); }
+.verdict.flat { color: var(--text-secondary); }
+
+.score-bar { display: inline-flex; align-items: center; gap: 8px; }
+.score-bar .bar-track { flex: 1; }
+.bar-fill.up { background: var(--up); }
+.bar-fill.down { background: var(--down); }
+.bar-fill.flat { background: var(--text-muted); }
+
+.fit-component { padding: 8px 0; border-top: 1px solid var(--hairline); }
+.fit-component:first-of-type { border-top: 0; }
+
+.radar { margin: 0 0 4px; text-align: center; }
+.radar-ring, .radar-spoke { fill: none; stroke: var(--grid); stroke-width: 1; }
+.radar-portfolio {
+  fill: var(--text-muted);
+  fill-opacity: 0.16;
+  stroke: var(--text-muted);
+  stroke-width: 1.5;
+  stroke-dasharray: 4 3;
+}
+.radar-candidate {
+  fill: var(--accent);
+  fill-opacity: 0.22;
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+.radar-label { fill: var(--text-muted); font-size: 0.7rem; }
+.legend-key {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin: 0 4px 0 10px;
+  vertical-align: -1px;
+}
+.legend-key:first-child { margin-left: 0; }
+.legend-key.candidate { background: var(--accent); }
+.legend-key.portfolio { background: var(--text-muted); opacity: 0.5; }
+
+.brief-block { margin-top: 10px; }
+.role.up { color: var(--up); }
+.role.down { color: var(--down); }
+.brief-list { margin: 4px 0 0; padding-left: 18px; }
+.brief-list li { margin-bottom: 6px; }
+
+@media (max-width: 900px) {
+  .candidate-row { grid-template-columns: 6.5rem 1fr; row-gap: 6px; }
+  .candidate-why, .candidate-row .confidence { display: none; }
+}
+
+/* --- Research: search any company, one result at a time ------------------- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.search-box { position: relative; max-width: 560px; margin: 4px 0 18px; }
+.search-input {
+  width: 100%;
+  padding: 10px 12px;
+  font: inherit;
+  color: var(--text-primary);
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-sm);
+}
+.search-input:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
+
+.search-results {
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  margin: 4px 0 0;
+  padding: 4px;
+  list-style: none;
+  max-height: 20rem;
+  overflow-y: auto;
+  background: var(--surface-raised);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow);
+}
+.search-note { padding: 8px 10px; }
+.search-hit {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr auto;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.search-hit:hover, .search-hit:focus-visible { background: var(--accent-wash); outline: none; }
+.search-ticker { font-weight: 600; }
+.search-name { color: var(--text-secondary); font-size: 0.85rem; }
+
+.tag {
+  margin-left: 6px;
+  padding: 1px 6px;
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.example-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; justify-content: center; }
+
+/* A verdict is a word first and a color second, so it survives greyscale and
+   red-green colorblindness. */
+.verdict {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  white-space: nowrap;
+}
+.verdict.big { font-size: 0.85rem; padding: 3px 10px; }
+.verdict.up { color: var(--up); }
+.verdict.down { color: var(--down); }
+.verdict.flat { color: var(--text-secondary); }
+
+.score-bar { display: inline-flex; align-items: center; gap: 8px; }
+.score-bar .bar-track { flex: 1; }
+.bar-fill.up { background: var(--up); }
+.bar-fill.down { background: var(--down); }
+.bar-fill.flat { background: var(--text-muted); }
+
+.fit-component { padding: 9px 0; border-top: 1px solid var(--hairline); }
+.fit-component:first-of-type { border-top: 0; }
+
+.radar { margin: 0 0 4px; text-align: center; }
+.radar-ring, .radar-spoke { fill: none; stroke: var(--grid); stroke-width: 1; }
+.radar-portfolio {
+  fill: var(--text-muted);
+  fill-opacity: 0.14;
+  stroke: var(--text-muted);
+  stroke-width: 1.5;
+  stroke-dasharray: 4 3;
+}
+.radar-candidate {
+  fill: var(--accent);
+  fill-opacity: 0.22;
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+.radar-label { fill: var(--text-muted); font-size: 0.7rem; }
+.legend-key {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin: 0 4px 0 10px;
+  vertical-align: -1px;
+}
+.legend-key:first-child { margin-left: 0; }
+.legend-key.candidate { background: var(--accent); }
+.legend-key.portfolio { background: var(--text-muted); opacity: 0.5; }
+
+.brief-block { margin-top: 10px; }
+.role.up { color: var(--up); }
+.role.down { color: var(--down); }
+.brief-list { margin: 4px 0 0; padding-left: 18px; }
+.brief-list li { margin-bottom: 7px; }
+
+/* --- Research: one overlap check ----------------------------------------- */
+
+.check-head { display: flex; align-items: center; gap: 10px; margin-bottom: 3px; }
+.check-name { font-weight: 600; }
+
+/* The score in words. Paired with the bar so the number is never the only cue
+   for whether a result is good. */
+.band {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  padding: 1px 7px;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  white-space: nowrap;
+}
+.band.up { color: var(--up); }
+.band.down { color: var(--down); }
+.band.flat { color: var(--text-secondary); }
+
+.check-plain { margin: 2px 0 7px; font-size: 0.9rem; color: var(--text-primary); }
+.check-meter { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.check-detail {
+  margin: 6px 0 0;
+  padding-left: 10px;
+  border-left: 2px solid var(--hairline);
+}
+
+@media (max-width: 720px) {
+  .check-meter { gap: 6px; }
+}
+
+/* --- Research: what the company's own filing says ------------------------ */
+
+.filing-stats { display: flex; flex-wrap: wrap; gap: 14px; margin: 2px 0 6px; }
+.filing-rels { margin-top: 8px; }
+.filing-rel { padding: 7px 0; border-top: 1px solid var(--hairline); }
+.filing-rel q {
+  display: block;
+  margin-top: 3px;
+  padding-left: 10px;
+  border-left: 2px solid var(--hairline);
+}
