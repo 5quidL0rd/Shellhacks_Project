@@ -1,6 +1,17 @@
+# Secrets: never commit either env file.
 .env
+backend/.env
+
 .venv/
 __pycache__/
 *.pyc
-data/raw/
 .DS_Store
+
+# Knowledge graph: raw filings are re-downloadable.
+data/raw/
+
+# Story Mode: raw fetched data is re-fetchable and bulky; the built stories are neither.
+# plans.md requires the demo to run without live API calls, so the precomputed
+# stories are committed and everything else is ignored.
+backend/data/cache/*
+!backend/data/cache/story_*.json
