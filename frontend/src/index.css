@@ -128,7 +128,7 @@ button {
 .sidebar .eyebrow { color: var(--sidebar-muted); opacity: 0.85; }
 .sidebar-foot { margin-top: auto; padding: 0 10px; color: var(--sidebar-muted); opacity: 0.7; font-size: 11px; }
 
-.main { padding: 32px 40px 64px; max-width: 1260px; width: 100%; }
+.main { padding: 32px 40px 64px; max-width: 1680px; width: 100%; }
 
 @media (max-width: 860px) {
   .app { grid-template-columns: 1fr; }
@@ -352,11 +352,12 @@ input[type="search"].search { margin-bottom: 10px; }
 @media (max-width: 1100px) { .two-col { grid-template-columns: 1fr; } }
 
 /* ---- map ---- */
-.map-layout { display: grid; grid-template-columns: 200px minmax(0, 1fr) 320px; gap: 20px; align-items: start; }
+.map-layout { display: grid; grid-template-columns: 180px minmax(0, 1fr) 300px; gap: 20px; align-items: start; }
 @media (max-width: 1200px) { .map-layout { grid-template-columns: 180px minmax(0, 1fr); } .map-layout > aside:last-child { grid-column: 1 / -1; } }
 @media (max-width: 760px) { .map-layout { grid-template-columns: 1fr; } }
 .focus-rail { padding: 16px 12px; }
-.map-wrap { position: relative; height: 640px; padding: 0; overflow: hidden; background: var(--map-bg); color: var(--map-ink-2); }
+/* The graph fills most of the screen height: at least 640px, at most 1100px. */
+.map-wrap { position: relative; height: clamp(640px, calc(100vh - 230px), 1100px); padding: 0; overflow: hidden; background: var(--map-bg); color: var(--map-ink-2); }
 .filters { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; font-size: 12px; }
 .filters label { display: inline-flex; gap: 6px; align-items: center; color: var(--text-secondary); }
 .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--text-secondary); }
@@ -743,3 +744,14 @@ input[type="search"].search { margin-bottom: 10px; }
 .feed-why { margin: 6px 0 0; }
 .feed-sources-toggle { padding-left: 0; }
 .feed-sources { margin: 4px 0 0; padding-left: 18px; font-size: 12px; display: grid; gap: 4px; }
+
+/* ---- X-Ray: a larger dependency list ---- */
+.xray-layout { grid-template-columns: minmax(0, 1fr) 380px; }
+@media (max-width: 1100px) { .xray-layout { grid-template-columns: 1fr; } }
+.xray-deps { padding: 24px 26px; }
+.xray-deps .dep-row { grid-template-columns: minmax(220px, 1.1fr) minmax(200px, 2.4fr) 88px; gap: 20px; padding: 14px 14px; }
+.xray-deps .dep-name { font-size: 14.5px; }
+.xray-deps .dep-type { font-size: 12px; margin-top: 2px; }
+.xray-deps .bar-track { height: 12px; }
+.xray-deps .dep-count { font-size: 13px; text-align: right; }
+.xray-deps .dep-detail { padding: 8px 14px 18px; }
