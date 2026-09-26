@@ -218,9 +218,10 @@ def test_unmeasured_components_are_excluded_and_weights_renormalised():
     assert score == round(50 * (0.35 / 0.65) + 100 * (0.30 / 0.65))
 
 
-def test_all_unmeasured_scores_zero_rather_than_inventing_a_number():
+def test_all_unmeasured_gives_no_score_rather_than_the_worst_one():
     components = {n: fit.Component(n, None, "", "") for n in fit.WEIGHTS}
-    assert fit.combine(components) == (0, {})
+    assert fit.combine(components) == (None, {})
+    assert fit.verdict_for(None)[0] == "Not enough data"
 
 
 def test_weights_sum_to_one():
@@ -338,3 +339,65 @@ def test_an_unverifiable_quote_is_dropped():
     assert good in rels_mod._normalise(filing_text)
     invented = rels_mod._normalise("We buy all our chips exclusively from Intel Corporation")
     assert invented not in rels_mod._normalise(filing_text)
+
+
+# --- review fixes -------------------------------------------------------------
+
+def test_a_stock_you_already_hold_is_compared_with_the_rest_not_itself(monkeypatch):
+    """AMD researched against a portfolio containing AMD must not be measured
+    against AMD: that is a guaranteed 1.0 correlation and its own sector."""
+    from app.research import build
+    from app.research.metrics import Metric
+
+    amd = Subject("AMD", "Advanced Micro Devices", "0000002488", "Technology", "",
+                  "United States", True, "AMD")
+    seen = {}
+    monkeypatch.setattr(build.lookup, "resolve",
+                        lambda q: (lookup.Match("AMD", "0000002488", "AMD", True, 1.0), []))
+    monkeypatch.setattr(build, "load", lambda key: None)
+    monkeypatch.setattr(build, "save", lambda key, value: None)
+    monkeypatch.setattr(build.subject_mod, "from_match", lambda m: amd)
+    monkeypatch.setattr(build.subject_mod, "for_holding",
+                        lambda t: Subject(t, t, None, "Technology", "", "", True, t))
+    monkeypatch.setattr(build.subject_mod, "bars", lambda t: [])
+    monkeypatch.setattr(build, "raw_metrics", lambda s, b: {
+        a: Metric(a, None, "", a) for a in AXES})
+    monkeypatch.setattr(build, "_news_evidence", lambda s, w: {})
+
+    def fake_sector(subject, holding_sectors):
+        seen["sector_holdings"] = set(holding_sectors)
+        return fit.Component("sector_crowding", 50, "", "")
+
+    def fake_direct(subject, holdings, extracted=None):
+        seen["direct_holdings"] = set(holdings)
+        return fit.Component("direct_connection", 100, "", "")
+
+    monkeypatch.setattr(build.fit_module, "sector_crowding", fake_sector)
+    monkeypatch.setattr(build.fit_module, "direct_connection", fake_direct)
+    monkeypatch.setattr(build.generate, "narrate", lambda *a, **k: {
+        "summary": "", "summary_citation_ids": [], "pros": [], "cons": [],
+        "warnings": [], "generated_at": None})
+
+    result = build.analyse("AMD", ["AMD", "NVDA", "AAPL"])
+    assert result["already_held"] is True
+    assert seen["sector_holdings"] == {"NVDA", "AAPL"}
+    assert seen["direct_holdings"] == {"NVDA", "AAPL"}
+
+
+def test_search_reports_an_unreachable_sec_directory_as_503(monkeypatch):
+    from fastapi.testclient import TestClient
+
+    from app.main import app
+
+    def boom():
+        raise ConnectionError("offline")
+
+    lookup.directory.cache_clear()
+    monkeypatch.setattr(lookup, "cached", lambda key, producer, **kw: producer())
+    monkeypatch.setattr(lookup, "_fetch_directory", boom)
+    try:
+        response = TestClient(app).get("/research/search", params={"q": "ford"})
+        assert response.status_code == 503
+        assert "ticker directory" in response.json()["detail"]
+    finally:
+        lookup.directory.cache_clear()

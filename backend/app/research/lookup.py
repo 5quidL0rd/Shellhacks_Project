@@ -83,11 +83,21 @@ def _fetch_directory() -> list[dict]:
             for row in payload.values() if row.get("ticker")]
 
 
+class SearchUnavailable(Exception):
+    """SEC's ticker directory could not be downloaded, and no cached copy exists."""
+
+
 @lru_cache(maxsize=1)
 def directory() -> tuple[dict, ...]:
     """Every SEC filer with a ticker. Cached on disk for a day."""
-    return tuple(cached("sec_ticker_directory", _fetch_directory,
-                        max_age_seconds=24 * 3600))
+    try:
+        return tuple(cached("sec_ticker_directory", _fetch_directory,
+                            max_age_seconds=24 * 3600))
+    except Exception as exc:  # network down, SEC 403 without a contact email, ...
+        raise SearchUnavailable(
+            "Company search needs SEC's public ticker directory, which could not be "
+            f"downloaded ({type(exc).__name__}). Check the internet connection and that "
+            "SEC_USER_AGENT in .env has a real contact email.") from exc
 
 
 def _normalise(text: str) -> str:

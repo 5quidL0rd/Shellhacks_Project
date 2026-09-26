@@ -506,14 +506,21 @@ def _direct_connection_from_filing(subject: Subject, holdings: list[str],
     )
 
 
-def verdict_for(score: int) -> tuple[str, str]:
+NO_VERDICT = ("Not enough data",
+              "None of the overlap checks could be run for this company, so there is "
+              "no fit score. Unknown is not the same as no overlap.")
+
+
+def verdict_for(score: int | None) -> tuple[str, str]:
+    if score is None:
+        return NO_VERDICT
     for threshold, label, meaning in VERDICTS:
         if score >= threshold:
             return label, meaning
     return VERDICTS[-1][1], VERDICTS[-1][2]
 
 
-def combine(components: dict[str, Component]) -> tuple[int, dict[str, float]]:
+def combine(components: dict[str, Component]) -> tuple[int | None, dict[str, float]]:
     """Weighted score over the components that could be measured.
 
     Weights are renormalised across whatever was available, so a company missing
@@ -522,7 +529,8 @@ def combine(components: dict[str, Component]) -> tuple[int, dict[str, float]]:
     """
     usable = {name: c for name, c in components.items() if c.measured}
     if not usable:
-        return 0, {}
+        # Nothing measured is not the worst possible overlap; it is no answer.
+        return None, {}
     total_weight = sum(WEIGHTS[name] for name in usable)
     applied = {name: WEIGHTS[name] / total_weight for name in usable}
     score = round(sum(usable[name].score * weight for name, weight in applied.items()))

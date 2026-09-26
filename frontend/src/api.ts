@@ -186,7 +186,7 @@ export interface FitComponent {
   evidence: Record<string, unknown>[]
 }
 
-export type Verdict = 'Good diversity' | 'Some diversification' | 'Risky overlap'
+export type Verdict = 'Good diversity' | 'Some diversification' | 'Risky overlap' | 'Not enough data'
 
 export interface ResearchEvidence {
   id: string
@@ -231,7 +231,8 @@ export interface Analysis {
   already_held: boolean
   holdings: string[]
   unsupported: string[]
-  fit_score: number
+  /** null when none of the overlap checks could be run. */
+  fit_score: number | null
   verdict: Verdict
   verdict_meaning: string
   confidence: 'high' | 'medium' | 'low'

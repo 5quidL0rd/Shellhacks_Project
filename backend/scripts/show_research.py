@@ -44,7 +44,8 @@ def render(r: dict) -> None:
     print(f"\n{BOLD}{r['name']} ({r['ticker']}){RESET}  {DIM}{r['sector']}"
           f"{' · ' + r['industry'] if r['industry'] else ''}"
           f"{' · ' + r['country'] if r['country'] else ''}{RESET}")
-    print(f"{BOLD}Fit {r['fit_score']}/100{RESET}  {color}{r['verdict']}{RESET}  "
+    fit = "—" if r["fit_score"] is None else r["fit_score"]
+    print(f"{BOLD}Fit {fit}/100{RESET}  {color}{r['verdict']}{RESET}  "
           f"{conf}[{r['confidence']} confidence]{RESET}")
     print(wrap(r["verdict_meaning"], indent="  "))
     print(f"{DIM}{wrap(r['confidence_reason'], indent='  ')}{RESET}")

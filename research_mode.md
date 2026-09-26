@@ -24,7 +24,9 @@ fit = 0.35 × correlation         Pearson on daily returns vs each holding
 
 Each check scores **0–100 where 100 means it adds something you don't already have**, and carries a word (`Little` / `Some` / `Notable` / `Heavy overlap`) plus a plain-English sentence, because a bare "54/100" told people nothing. Verdicts: **≥70 Good diversity**, **≥45 Some diversification**, **<45 Risky overlap**.
 
-**A check that could not be run is excluded and the weights renormalised** — never scored as "no overlap." Absence of evidence is not evidence of absence, and treating it as clean would systematically flatter every unknown company.
+**A check that could not be run is excluded and the weights renormalised** — never scored as "no overlap." Absence of evidence is not evidence of absence, and treating it as clean would systematically flatter every unknown company. **If no check can be run at all, there is no score** (`fit_score: null`, verdict **Not enough data**) rather than a 0 that would read as heavy overlap.
+
+**Researching a stock you already hold** compares it with the rest of the portfolio, not with itself (`already_held: true`); otherwise its own sector and a 1.0 self-correlation read as overlap.
 
 `correlation` is the check that catches what the others miss: a company in an unrelated sector can still move in lockstep, and a different sector label does not cancel that out.
 
@@ -96,7 +98,9 @@ Same as Story Mode. Gemini sees evidence rows with ids, titles and numbers — *
 
 ## Known limits
 
-- **First search of a new company takes 20–40s** — a filing download plus two Gemini calls. Cached after. Pre-warm before demoing.
+- **First search of a new company takes 20–60s** — a filing download plus two Gemini calls, and Yahoo profile lookups. Cached after, on that machine only (`backend/data/cache/` is not committed). Pre-warm before demoing. Research needs `GEMINI_API_KEY`, `SEC_USER_AGENT`, and `FINNHUB_API_KEY`.
+- **If SEC's ticker directory cannot be downloaded**, search returns **503** with the reason instead of failing.
+- **Cached analyses carry a version** (`ANALYSIS_VERSION` in `research/build.py`); bump it when the analysis changes so old results are recomputed.
 - **`backend/data/cache/` is now ~144MB** (filing texts). Gitignored except `story_*.json`.
 - **Not drawn on the Connection Map** unless the company is already a graph node. The extracted relationships are shown as quotes instead.
 - **No position weighting.** The portfolio radar average and sector shares are unweighted; no share counts are stored.

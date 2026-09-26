@@ -184,7 +184,10 @@ def research_search(q: str = Query(..., min_length=1, description="Ticker, compa
     Matched against SEC's public ticker directory, so any of the ~10,400 filers
     can be researched, not only the companies we precompute.
     """
-    return research.search(q, limit)
+    try:
+        return research.search(q, limit)
+    except research.SearchUnavailable as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from None
 
 
 @app.get("/research/analyze")
@@ -199,6 +202,8 @@ def research_analyze(q: str = Query(..., min_length=1, description="Ticker or co
     supported, unsupported = _holdings(holdings)
     try:
         result = research.analyse(q, supported, refresh=refresh)
+    except research.SearchUnavailable as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from None
     except research.Ambiguous as exc:
         raise HTTPException(status_code=409, detail={
             "message": f"'{exc.query}' matched several companies; pick one.",

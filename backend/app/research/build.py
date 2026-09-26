@@ -24,6 +24,9 @@ from .subject import Subject
 NEWS_ITEMS = 6
 
 
+SearchUnavailable = lookup.SearchUnavailable
+
+
 class NotFound(Exception):
     """Nothing matched the query; `suggestions` are the closest names."""
 
@@ -135,8 +138,14 @@ def _radar(metrics: dict[str, Metric]) -> list[dict]:
     } for axis in AXES]
 
 
+# Bump when the analysis changes, so results cached by an older version are
+# recomputed instead of served. v2: no-data verdict, held stocks not compared
+# with themselves.
+ANALYSIS_VERSION = 2
+
+
 def _cache_key(ticker: str, holdings: list[str]) -> str:
-    return f"research_{ticker}_{'-'.join(sorted(holdings)) or 'none'}"
+    return f"research_v{ANALYSIS_VERSION}_{ticker}_{'-'.join(sorted(holdings)) or 'none'}"
 
 
 def analyse(query: str, holdings: list[str], refresh: bool = False) -> dict:
@@ -151,6 +160,10 @@ def analyse(query: str, holdings: list[str], refresh: bool = False) -> dict:
         raise (Ambiguous(query, options) if options else NotFound(query, options))
 
     held = [h for h in holdings if h in COMPANIES]
+    # When the investor already owns it, compare it with the rest of the
+    # portfolio: comparing a stock with itself (correlation 1.0, its own sector,
+    # its own suppliers) reads as heavy overlap that is not there.
+    others = [h for h in held if h != match.ticker]
     key = _cache_key(match.ticker, held)
     if not refresh:
         cached = load(key)
@@ -164,8 +177,8 @@ def analyse(query: str, holdings: list[str], refresh: bool = False) -> dict:
         warnings.append(f"No price history available for {subject.ticker}; "
                         "correlation, volatility and drawdown cannot be measured.")
 
-    holding_subjects = {t: subject_mod.for_holding(t) for t in held}
-    holding_bars = {t: subject_mod.bars(t) for t in held}
+    holding_subjects = {t: subject_mod.for_holding(t) for t in others}
+    holding_bars = {t: subject_mod.bars(t) for t in others}
     holding_bars = {t: b for t, b in holding_bars.items() if b}
 
     # Rank the candidate against the holdings plus itself: the comparison the
@@ -196,8 +209,8 @@ def analyse(query: str, holdings: list[str], refresh: bool = False) -> dict:
         "correlation": fit_module.correlation_fit(subject_bars, holding_bars),
         "sector_crowding": fit_module.sector_crowding(
             subject, {t: s.sector for t, s in holding_subjects.items()}),
-        "dependency_overlap": fit_module.dependency_overlap(subject, held, extracted),
-        "direct_connection": fit_module.direct_connection(subject, held, extracted),
+        "dependency_overlap": fit_module.dependency_overlap(subject, others, extracted),
+        "direct_connection": fit_module.direct_connection(subject, others, extracted),
     }
     score, applied = fit_module.combine(components)
     verdict, meaning = fit_module.verdict_for(score)
@@ -211,7 +224,7 @@ def analyse(query: str, holdings: list[str], refresh: bool = False) -> dict:
     summary = {"fit_score": score, "verdict": verdict, "verdict_meaning": meaning,
                "confidence": confidence}
     try:
-        brief = generate.narrate(subject, held, evidence, summary)
+        brief = generate.narrate(subject, others, evidence, summary)
     except Exception as exc:
         warnings.append(f"Gemini brief unavailable ({exc}); showing measured data only.")
         brief = {"summary": "", "summary_citation_ids": [], "pros": [], "cons": [],
@@ -235,11 +248,11 @@ def analyse(query: str, holdings: list[str], refresh: bool = False) -> dict:
         },
         "score_scale": fit_module.SCALE_EXPLAINER,
         "radar": _radar(metrics),
-        "portfolio_radar": _portfolio_radar(population, held),
+        "portfolio_radar": _portfolio_radar(population, others),
         "brief": {k: brief[k] for k in
                   ("summary", "summary_citation_ids", "pros", "cons", "generated_at")},
         "evidence": evidence,
-        "map_placement": _map_placement(subject, held),
+        "map_placement": _map_placement(subject, others),
         "filing_read": ({"summary": rels.summarise(extracted), **extracted}
                         if extracted else None),
         "alternatives": [m.as_dict() for m in alternatives[1:4]],

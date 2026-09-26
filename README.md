@@ -39,7 +39,7 @@ npm run dev
 
 On Windows, use `.venv\Scripts\pip` and `..\.venv\Scripts\uvicorn` instead of the `.venv/bin/...` paths.
 
-**What needs keys:** only rebuilding data (new companies, fresh stories, Snowflake loads) and the Snowflake-backed `/graph/*` endpoints. For those, see [Full setup](#full-setup-for-rebuilding-data) below.
+**What needs keys:** the **Research** page (it reads a searched company's filing and asks Gemini live, so it needs `GEMINI_API_KEY`, `SEC_USER_AGENT`, and `FINNHUB_API_KEY` in `.env`; the first search of a company takes up to a minute, then it is cached), rebuilding data (new companies, fresh stories, Snowflake loads), and the Snowflake-backed `/graph/*` endpoints. Everything else runs without keys. See [Full setup](#full-setup-for-rebuilding-data) below.
 
 ## Where we are
 
@@ -49,9 +49,9 @@ On Windows, use `.venv\Scripts\pip` and `..\.venv\Scripts\uvicorn` instead of th
 | **Story Mode** (why each price move happened) | Done for all 13 companies | 153 explained moves, 113 at high confidence; every citation verified; served by the API |
 | **Snowflake** (sponsor track) | Connected and loaded | Graph, stories, prices, and news are in Snowflake |
 | **Backend API** (FastAPI) | Partly done | Story, graph, X-Ray, portfolio map, and impact endpoints work; feed, research, and saving a portfolio are not started |
-| **Frontend** (React) | Scaffolded and working | X-Ray home, Connection Map, and Story Mode screens on the real API; Research is a placeholder. See [frontend/README.md](frontend/README.md) |
+| **Frontend** (React) | Scaffolded and working | Holdings, X-Ray, Connection Map, Story Mode, and Research screens on the real API. See [frontend/README.md](frontend/README.md) |
 | **What Changed feed** | Not started | The data it needs (news and graph) is in place |
-| **Research a New Investment** | Not started | Needs financial ratios (`FUNDAMENTALS` is empty) |
+| **Research a New Investment** | Working | Search any SEC filer; fit score, radar vs your holdings, cited brief. See [research_mode.md](research_mode.md) |
 | **Company list of 30–50** (Step 1) | Not started | `companylist.md` is a list of data providers, not companies |
 
 ### The demo story already works

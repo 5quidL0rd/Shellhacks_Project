@@ -17,6 +17,7 @@ const VERDICT_CLASS: Record<Verdict, string> = {
   'Good diversity': 'up',
   'Some diversification': 'flat',
   'Risky overlap': 'down',
+  'Not enough data': 'flat',
 }
 
 const COMPONENT_LABEL: Record<FitComponentName, string> = {
@@ -260,7 +261,7 @@ function Result({ ticker, holdings, onPick }: {
           )}
           <div className="quote-line">
             <span className={`verdict big ${VERDICT_CLASS[r.verdict]}`}>{r.verdict}</span>
-            <span className="small muted">fit {r.fit_score}/100</span>
+            <span className="small muted">fit {r.fit_score ?? '—'}/100</span>
             <span className="confidence" title={r.confidence_reason}>{r.confidence} confidence</span>
           </div>
           <p className="small secondary" style={{ marginBottom: 4 }}>{r.verdict_meaning}</p>
@@ -380,7 +381,11 @@ function Radar({ candidate, portfolio, size = 250 }: {
   portfolio: PortfolioRadarAxis[]
   size?: number
 }) {
-  const cx = size / 2
+  // Room for axis names. Asymmetric: "profitability" sits on the right and is
+  // the longest label; the left only holds "risk" and "debt".
+  const padLeft = 36
+  const padRight = 88
+  const cx = size / 2 + padLeft
   const cy = size / 2
   const r = size / 2 - 40
   const angle = (i: number) => (Math.PI * 2 * i) / candidate.length - Math.PI / 2
@@ -395,7 +400,9 @@ function Radar({ candidate, portfolio, size = 250 }: {
 
   return (
     <figure className="radar">
-      <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} role="img"
+      <svg width={size + padLeft + padRight} height={size}
+           viewBox={`0 0 ${size + padLeft + padRight} ${size}`}
+           style={{ maxWidth: '100%', height: 'auto' }} role="img"
            aria-label="Candidate shape compared with the portfolio average">
         {[25, 50, 75, 100].map((ring) => (
           <polygon key={ring} className="radar-ring" points={polygon(candidate.map(() => ring))} />
@@ -566,47 +573,69 @@ const ROLE_WORD: Record<string, string> = {
   OPERATES_IN: 'Operates in',
 }
 
+interface DirectLink {
+  verb: string
+  holding: string
+  source: 'filing' | 'graph'
+}
+
+/** The links behind the "Direct links to holdings" check, from both of its
+ * sources: the company's own annual report and the knowledge graph. Reading the
+ * check's evidence keeps this list and the check's count in agreement. */
+function directLinks(r: Analysis): DirectLink[] {
+  const graphVerb: Record<string, string> = {
+    supplies: 'supplies', buys_from: 'buys from', competes_with: 'competes with',
+  }
+  const filingVerb: Record<string, string> = {
+    SUPPLIER: 'buys from', CUSTOMER: 'sells to', COMPETITOR: 'competes with',
+  }
+  const out = new Map<string, DirectLink>()
+  for (const item of r.components.direct_connection?.evidence ?? []) {
+    const links = (item as { links?: Record<string, string>[] }).links ?? []
+    const fromFiling = typeof (item as { filing_url?: string }).filing_url === 'string'
+    for (const link of links) {
+      const verb = fromFiling ? filingVerb[link.type] : graphVerb[link.role]
+      if (!verb || !link.holding) continue
+      const key = `${verb}|${link.holding}`
+      if (!out.has(key)) out.set(key, { verb, holding: link.holding, source: fromFiling ? 'filing' : 'graph' })
+    }
+  }
+  return [...out.values()].sort((a, b) => a.holding.localeCompare(b.holding) || a.verb.localeCompare(b.verb))
+}
+
 function MapPlacement({ r }: { r: Analysis }) {
-  if (!r.map_placement.in_graph) {
-    return (
-      <p className="small secondary" style={{ marginTop: 0 }}>
-        {r.name} is not one of the companies on our Connection Map, so it cannot be drawn
-        there yet. Its supply-chain links were read from its own annual report instead — see
-        below.
-      </p>
-    )
-  }
-  const held = new Set(r.map_placement.nodes.filter((n) => n.is_holding).map((n) => n.id))
-  const id = r.graph_id ?? r.ticker
-  const direct = r.map_placement.links.filter(
-    (l) => (l.source === id && held.has(l.target)) || (l.target === id && held.has(l.source)),
-  )
-  if (direct.length === 0) {
-    return (
-      <p className="small secondary" style={{ marginTop: 0 }}>
-        It is in the graph, but no filing connects it to anything you hold.
-      </p>
-    )
-  }
+  const links = directLinks(r)
+  const holdings = new Set(links.map((l) => l.holding))
   return (
     <>
-      <p className="small secondary" style={{ marginTop: 0 }}>
-        {direct.length} direct {direct.length === 1 ? 'link' : 'links'} to your holdings:
-      </p>
-      <div className="dep-list">
-        {direct.map((l, i) => {
-          const outgoing = l.source === id
-          const other = outgoing ? l.target : l.source
-          const verb = l.type === 'supplies' ? (outgoing ? 'supplies' : 'is supplied by')
-            : l.type === 'competes_with' ? 'competes with' : l.type
-          return (
-            <div key={i} className="dep-row">
-              <span className="dep-name">{r.ticker} {verb} {other}</span>
-            </div>
-          )
-        })}
-      </div>
-      <Link className="link-btn small" to="/map">Open the Connection Map →</Link>
+      {links.length === 0 ? (
+        <p className="small secondary" style={{ marginTop: 0 }}>
+          {r.components.direct_connection?.measured
+            ? 'Nothing we read connects it directly to anything you hold.'
+            : 'We could not check whether it connects to anything you hold.'}
+        </p>
+      ) : (
+        <>
+          <p className="small secondary" style={{ marginTop: 0 }}>
+            Directly linked to {holdings.size} of your holdings:
+          </p>
+          <div className="dep-list">
+            {links.map((l) => (
+              <div key={`${l.verb}|${l.holding}`} className="dep-row">
+                <span className="dep-name">{r.ticker} {l.verb} {l.holding}</span>
+                <span className="small muted">{l.source === 'filing' ? 'its annual report' : 'knowledge graph'}</span>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+      {r.map_placement.in_graph
+        ? <Link className="link-btn small" to="/map">Open the Connection Map →</Link>
+        : (
+          <p className="small muted">
+            {r.name} is not on the Connection Map yet, so it cannot be drawn there.
+          </p>
+        )}
     </>
   )
 }
