@@ -1,0 +1,68 @@
+{
+  "_about": "The supported company universe. The single list read by the knowledge graph (kg/companies.py) and the backend (backend/app/universe.py). To add a company, add an entry here, then run the kg pipeline and Story Mode for it.",
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "cik": 320193,
+      "form": "10-K",
+      "sector": "Technology Hardware",
+      "hq_country": "United States",
+      "aliases": [
+        "Apple",
+        "Apple Inc"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "cik": 1045810,
+      "form": "10-K",
+      "sector": "Semiconductors",
+      "hq_country": "United States",
+      "aliases": [
+        "NVIDIA",
+        "Nvidia",
+        "NVIDIA Corp"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "cik": 2488,
+      "form": "10-K",
+      "sector": "Semiconductors",
+      "hq_country": "United States",
+      "aliases": [
+        "AMD",
+        "Advanced Micro Devices"
+      ]
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "cik": 1046179,
+      "form": "20-F",
+      "sector": "Semiconductors",
+      "hq_country": "Taiwan",
+      "aliases": [
+        "TSMC",
+        "Taiwan Semiconductor Manufacturing Company",
+        "Taiwan Semiconductor Manufacturing Co",
+        "Taiwan Semiconductor"
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "cik": 789019,
+      "form": "10-K",
+      "sector": "Software",
+      "hq_country": "United States",
+      "aliases": [
+        "Microsoft",
+        "Microsoft Corp"
+      ]
+    }
+  ]
+}

@@ -146,11 +146,10 @@ Never commit `.env`, the private key, or any token.
 4. **Build the What Changed feed.** Rank news by relevance: owned company, then connected company, then same sector. The `NEWS` and `GRAPH_EDGES` tables already hold what the ranking needs.
 
 ### Medium priority
-5. **Scale the knowledge graph to the full list.** For each company: add it to `kg/companies.py`, run the three `kg` commands, hand-check the JSON, re-export, and reload Snowflake.
-6. **Keep one company list.** `kg/companies.py` and `backend/app/universe.py` both define the companies, with different sector names for Apple. Merge them into one before adding more companies.
-7. **Fill `FUNDAMENTALS`** with revenue growth, profit margin, debt-to-equity, volatility, and market cap for the radar shape in Research a New Investment.
-8. **Tighten one prompt rule.** Gemini sometimes calls a move "shared across the sector" when connected companies moved far less (AMD +9.95% vs peers around +2%). Only call it shared when the moves are similar in size.
-9. **Decide on the Snowflake Cortex test.** Cortex could write Story Mode labels inside Snowflake, the strongest angle for the sponsor prize. The Snowflake owner is waiting for an explicit go-ahead since it uses credits.
+5. **Scale the knowledge graph to the full list.** For each company: add it to `data/companies.json`, run the three `kg` commands, hand-check the JSON, re-export, and reload Snowflake.
+6. **Fill `FUNDAMENTALS`** with revenue growth, profit margin, debt-to-equity, volatility, and market cap for the radar shape in Research a New Investment.
+7. **Tighten one prompt rule.** Gemini sometimes calls a move "shared across the sector" when connected companies moved far less (AMD +9.95% vs peers around +2%). Only call it shared when the moves are similar in size.
+8. **Decide on the Snowflake Cortex test.** Cortex could write Story Mode labels inside Snowflake, the strongest angle for the sponsor prize. The Snowflake owner is waiting for an explicit go-ahead since it uses credits.
 
 ### Decisions the team still owes
 - **The two general-knowledge graph edges** (TSMC supplies Apple; Nvidia supplies Microsoft): keep them, clearly marked as manual, or show only what filings state.

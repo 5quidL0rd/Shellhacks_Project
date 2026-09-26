@@ -1,56 +1,18 @@
 """The supported company universe and name resolution.
 
-To add a company: add one entry to COMPANIES. Everything else reads from here.
+The companies themselves live in data/companies.json, the one list shared with
+the backend. To add a company, add it there.
 """
 
+import json
 import re
+from pathlib import Path
+
+_COMPANIES_FILE = Path(__file__).resolve().parent.parent / "data" / "companies.json"
 
 COMPANIES = {
-    "AAPL": {
-        "name": "Apple Inc.",
-        "cik": 320193,
-        "form": "10-K",
-        "sector": "Technology Hardware",
-        "hq_country": "United States",
-        "aliases": ["Apple", "Apple Inc"],
-    },
-    "NVDA": {
-        "name": "NVIDIA Corporation",
-        "cik": 1045810,
-        "form": "10-K",
-        "sector": "Semiconductors",
-        "hq_country": "United States",
-        "aliases": ["NVIDIA", "Nvidia", "NVIDIA Corp"],
-    },
-    "AMD": {
-        "name": "Advanced Micro Devices, Inc.",
-        "cik": 2488,
-        "form": "10-K",
-        "sector": "Semiconductors",
-        "hq_country": "United States",
-        "aliases": ["AMD", "Advanced Micro Devices"],
-    },
-    "TSM": {
-        "name": "Taiwan Semiconductor Manufacturing Company Limited",
-        "cik": 1046179,
-        "form": "20-F",
-        "sector": "Semiconductors",
-        "hq_country": "Taiwan",
-        "aliases": [
-            "TSMC",
-            "Taiwan Semiconductor Manufacturing Company",
-            "Taiwan Semiconductor Manufacturing Co",
-            "Taiwan Semiconductor",
-        ],
-    },
-    "MSFT": {
-        "name": "Microsoft Corporation",
-        "cik": 789019,
-        "form": "10-K",
-        "sector": "Software",
-        "hq_country": "United States",
-        "aliases": ["Microsoft", "Microsoft Corp"],
-    },
+    c["ticker"]: {k: v for k, v in c.items() if k != "ticker"}
+    for c in json.loads(_COMPANIES_FILE.read_text())["companies"]
 }
 
 _SUFFIXES = re.compile(

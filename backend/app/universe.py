@@ -1,9 +1,15 @@
-"""The five companies Story Mode covers for the demo.
+"""The companies Story Mode covers.
 
-Keeping CIKs here means no lookup call at story-build time. Which companies
-are connected to which comes from the knowledge graph; see connections.py.
+Read from data/companies.json, the one list shared with the knowledge graph, so
+a company is added in one place. Which companies are connected to which comes
+from the knowledge graph; see connections.py.
 """
+import json
 from dataclasses import dataclass
+
+from .config import BACKEND_DIR
+
+COMPANIES_FILE = BACKEND_DIR.parent / "data" / "companies.json"
 
 
 @dataclass(frozen=True)
@@ -15,22 +21,8 @@ class Company:
 
 
 COMPANIES: dict[str, Company] = {
-    "AAPL": Company(
-        "AAPL", "Apple Inc.", "0000320193", "Consumer Electronics",
-    ),
-    "NVDA": Company(
-        "NVDA", "NVIDIA Corporation", "0001045810", "Semiconductors",
-    ),
-    "AMD": Company(
-        "AMD", "Advanced Micro Devices, Inc.", "0000002488", "Semiconductors",
-    ),
-    "TSM": Company(
-        "TSM", "Taiwan Semiconductor Manufacturing Company Limited",
-        "0001046179", "Semiconductors",
-    ),
-    "MSFT": Company(
-        "MSFT", "Microsoft Corporation", "0000789019", "Software",
-    ),
+    c["ticker"]: Company(c["ticker"], c["name"], f"{int(c['cik']):010d}", c["sector"])
+    for c in json.loads(COMPANIES_FILE.read_text())["companies"]
 }
 
 SYMBOLS = tuple(COMPANIES)
