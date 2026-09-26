@@ -398,6 +398,9 @@ input[type="search"].search { margin-bottom: 10px; }
   letter-spacing: 0.1em;
 }
 .cite {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
   font-size: 10px;
   border: 0;
   background: var(--tint);
@@ -406,7 +409,11 @@ input[type="search"].search { margin-bottom: 10px; }
   margin-left: 3px;
   color: var(--text-secondary);
   vertical-align: 1px;
+  line-height: 1.5;
 }
+.cite-icon { flex: none; opacity: 0.85; }
+.cite-key { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; font-size: 11px; color: var(--text-muted); margin: -4px 0 14px; }
+.cite-key-item { display: inline-flex; align-items: center; gap: 4px; color: var(--text-secondary); }
 .cite:hover { background: var(--baseline); color: var(--text-primary); }
 .cite.active { background: var(--accent); color: var(--accent-ink); }
 .numbers { display: grid; grid-template-columns: auto 1fr; gap: 3px 14px; font-size: 12px; font-variant-numeric: tabular-nums; }

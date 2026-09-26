@@ -10,7 +10,7 @@ import {
   type ResearchEvidence,
   type Verdict,
 } from '../api'
-import { EmptyPortfolio, HoldingsSummary } from '../components'
+import { Cite, EmptyPortfolio, HoldingsSummary } from '../components'
 import { useAsync } from '../hooks'
 
 const VERDICT_CLASS: Record<Verdict, string> = {
@@ -290,11 +290,11 @@ function Result({ ticker, holdings, onPick }: {
             <p className="small secondary" style={{ marginTop: 0 }}>
               {r.brief.summary}
               {r.brief.summary_citation_ids.map((id, i) => (
-                <CiteButton key={id} n={i + 1} id={id} active={citation === id} onClick={setCitation} />
+                <Cite key={id} n={i + 1} id={id} active={citation === id} onClick={setCitation} evidence={r.evidence[id]} />
               ))}
             </p>
-            <BriefList title="For" tone="up" items={r.brief.pros} citation={citation} onCite={setCitation} />
-            <BriefList title="Against" tone="down" items={r.brief.cons} citation={citation} onCite={setCitation} />
+            <BriefList title="For" tone="up" items={r.brief.pros} citation={citation} evidence={r.evidence} onCite={setCitation} />
+            <BriefList title="Against" tone="down" items={r.brief.cons} citation={citation} evidence={r.evidence} onCite={setCitation} />
           </div>
         )}
 
@@ -435,11 +435,12 @@ function Radar({ candidate, portfolio, size = 250 }: {
   )
 }
 
-function BriefList({ title, tone, items, citation, onCite }: {
+function BriefList({ title, tone, items, citation, evidence, onCite }: {
   title: string
   tone: 'up' | 'down'
   items: { point: string; citation_ids: string[] }[]
   citation: string | null
+  evidence: Analysis['evidence']
   onCite: (id: string) => void
 }) {
   return (
@@ -453,25 +454,13 @@ function BriefList({ title, tone, items, citation, onCite }: {
               <li key={i} className="small">
                 {item.point}
                 {item.citation_ids.map((id, n) => (
-                  <CiteButton key={id} n={n + 1} id={id} active={citation === id} onClick={onCite} />
+                  <Cite key={id} n={n + 1} id={id} active={citation === id} onClick={onCite} evidence={evidence[id]} />
                 ))}
               </li>
             ))}
           </ul>
         )}
     </div>
-  )
-}
-
-function CiteButton({ n, id, active, onClick }: {
-  n: number
-  id: string
-  active: boolean
-  onClick: (id: string) => void
-}) {
-  return (
-    <button className={`cite ${active ? 'active' : ''}`} aria-label={`Citation ${n}`}
-            onClick={(e) => { e.stopPropagation(); onClick(id) }}>{n}</button>
   )
 }
 

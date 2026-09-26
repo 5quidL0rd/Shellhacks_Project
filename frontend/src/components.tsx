@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { api, type Provenance } from './api'
+import { EVIDENCE_ICON, EVIDENCE_LABEL } from './evidence'
 import { useAsync } from './hooks'
 
 /** "7 holdings · Edit" line for page headers; holdings live on /holdings. */
@@ -131,3 +132,51 @@ export function AsOf({ date }: { date: string | null | undefined }) {
   return <span className="as-of" title="Prices come from saved data, not a live feed">Prices as of {label} close</span>
 }
 
+
+function EvidenceIcon({ kind }: { kind: string }) {
+  const d = EVIDENCE_ICON[kind]
+  if (!d) return null
+  return (
+    <svg className="cite-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+         strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d={d} />
+    </svg>
+  )
+}
+
+/** A numbered citation: an icon for the kind of evidence, the number, and a
+ * hover title saying what it is. Clicking opens the evidence panel. */
+export function Cite({ n, id, active, onClick, evidence }: {
+  n: number
+  id: string
+  active: boolean
+  onClick: (id: string) => void
+  evidence?: { kind: string; title: string; occurred_on?: string }
+}) {
+  const label = evidence ? EVIDENCE_LABEL[evidence.kind] ?? evidence.kind : 'Source'
+  const when = evidence?.occurred_on
+    ? ` · ${new Date(`${evidence.occurred_on}T12:00:00`).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`
+    : ''
+  return (
+    <button className={`cite ${active ? 'active' : ''}`}
+            aria-label={`Citation ${n}: ${label}${evidence ? `, ${evidence.title}` : ''}`}
+            title={`${label}${when}${evidence ? ` · ${evidence.title}` : ''}`}
+            onClick={(e) => { e.stopPropagation(); onClick(id) }}>
+      {evidence && <EvidenceIcon kind={evidence.kind} />}{n}
+    </button>
+  )
+}
+
+/** One line explaining the citation icons that appear on this page. */
+export function CiteKey({ kinds }: { kinds: string[] }) {
+  const shown = [...new Set(kinds)].filter((k) => EVIDENCE_ICON[k])
+  if (!shown.length) return null
+  return (
+    <div className="cite-key" aria-label="Citation types">
+      <span>Citations:</span>
+      {shown.map((k) => (
+        <span key={k} className="cite-key-item"><EvidenceIcon kind={k} /> {EVIDENCE_LABEL[k]}</span>
+      ))}
+    </div>
+  )
+}

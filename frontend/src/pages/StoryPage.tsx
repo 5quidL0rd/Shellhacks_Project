@@ -2,7 +2,8 @@ import { createChart, createSeriesMarkers, LineSeries, type ISeriesMarkersPlugin
 import { useEffect, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { api, type Beat, type Evidence, type Story } from '../api'
-import { AsOf, Change } from '../components'
+import { AsOf, Change, Cite, CiteKey } from '../components'
+import { EVIDENCE_LABEL } from '../evidence'
 import { money } from '../format'
 import { useAsync, useThemeColors } from '../hooks'
 
@@ -40,7 +41,7 @@ export function StoryPage() {
       <p className="secondary" style={{ maxWidth: 820, marginTop: 0 }}>
         {s.arc}
         {s.arc_citation_ids.map((id, i) => (
-          <CiteButton key={id} n={i + 1} id={id} active={citation === id} onClick={setCitation} />
+          <Cite key={id} n={i + 1} id={id} active={citation === id} onClick={setCitation} evidence={s.evidence[id]} />
         ))}
       </p>
       <div className="two-col">
@@ -51,11 +52,13 @@ export function StoryPage() {
           <p className="small muted">
             ▲▼ mark the {s.beats.length} biggest moves. Click a marker or a move below to read why it happened.
           </p>
+          <CiteKey kinds={[...s.arc_citation_ids, ...s.beats.flatMap((b) => b.citation_ids)]
+            .map((id) => s.evidence[id]?.kind).filter(Boolean) as string[]} />
           <section className="card" aria-label="Major moves">
             <div className="card-label">Major moves</div>
             {s.beats.map((b) => (
               <BeatItem key={b.date} beat={b} selected={selected === b.date} citation={citation}
-                        onSelect={() => setSelected(b.date)} onCite={setCitation} />
+                        evidence={s.evidence} onSelect={() => setSelected(b.date)} onCite={setCitation} />
             ))}
           </section>
         </div>
@@ -130,10 +133,11 @@ function PriceChart({ story, selected, onSelect }: {
   return <div ref={box} style={{ width: '100%', height: '100%' }} />
 }
 
-function BeatItem({ beat, selected, citation, onSelect, onCite }: {
+function BeatItem({ beat, selected, citation, evidence, onSelect, onCite }: {
   beat: Beat
   selected: boolean
   citation: string | null
+  evidence: Story['evidence']
   onSelect: () => void
   onCite: (id: string) => void
 }) {
@@ -149,34 +153,18 @@ function BeatItem({ beat, selected, citation, onSelect, onCite }: {
       <div className="small secondary">
         {beat.explanation}
         {beat.citation_ids.map((id, i) => (
-          <CiteButton key={id} n={i + 1} id={id} active={citation === id} onClick={onCite} />
+          <Cite key={id} n={i + 1} id={id} active={citation === id} onClick={onCite} evidence={evidence[id]} />
         ))}
       </div>
     </div>
   )
 }
 
-function CiteButton({ n, id, active, onClick }: { n: number; id: string; active: boolean; onClick: (id: string) => void }) {
-  return (
-    <button className={`cite ${active ? 'active' : ''}`} aria-label={`Citation ${n}`}
-            onClick={(e) => { e.stopPropagation(); onClick(id) }}>{n}</button>
-  )
-}
-
-const KIND_LABEL: Record<Evidence['kind'], string> = {
-  news: 'News article',
-  filing: 'SEC filing',
-  price: 'Price move',
-  fundamental: 'Quarterly results',
-  peer_move: 'Connected company',
-  sector: 'Industry data',
-}
-
 function EvidencePanel({ e, onClose }: { e: Evidence; onClose: () => void }) {
   const numbers = Object.entries(e.numbers)
   return (
     <div>
-      <div className="role">{KIND_LABEL[e.kind] ?? e.kind} · {e.occurred_on}</div>
+      <div className="role">{EVIDENCE_LABEL[e.kind] ?? e.kind} · {e.occurred_on}</div>
       <h2 style={{ marginTop: 4 }}>{e.title}</h2>
       {e.detail && <p className="small secondary">{e.detail}</p>}
       {numbers.length > 0 && (
