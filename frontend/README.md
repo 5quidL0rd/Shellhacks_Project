@@ -29,7 +29,7 @@ npm run lint       # oxlint
 | **Portfolio X-Ray** (home) | `/` | `/portfolio/xray`, `/portfolio/impact` | Working: shared dependencies ranked, evidence per holding, "if news hits this supplier" panel |
 | **Connection Map** | `/map` | `/portfolio/map`, `/portfolio/impact` | Working: force-directed map, click a company to highlight it and see affected holdings |
 | **Story Mode** | `/stock/:symbol` | `/story/{symbol}` | Working: price chart with numbered move markers, explanations, clickable citations |
-| **Research** | `/research` | none yet | Placeholder |
+| **Research** | `/research` | `/research/search`, `/research/analyze` | Working: search any SEC filer; fit score, radar vs your holdings, overlap checks, cited brief (first search of a company is live and slow; see `research_mode.md`) |
 | **What Changed feed** | none | none yet | Not started |
 
 ## Files

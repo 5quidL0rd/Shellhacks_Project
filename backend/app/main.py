@@ -10,6 +10,7 @@ from snowflake.connector import DictCursor
 from snowflake.connector.errors import Error as SnowflakeError
 
 from . import portfolio, quotes
+from .research import build as research
 from .connections import connections
 from .snowflake_db import get_connection
 from .story.build import get_story
@@ -173,6 +174,48 @@ def universe() -> list[dict]:
         }
         for c in COMPANIES.values()
     ]
+
+
+@app.get("/research/search")
+def research_search(q: str = Query(..., min_length=1, description="Ticker, company name, or brand"),
+                    limit: int = Query(default=8, ge=1, le=25)) -> dict:
+    """Companies matching what the user typed, for the search box.
+
+    Matched against SEC's public ticker directory, so any of the ~10,400 filers
+    can be researched, not only the companies we precompute.
+    """
+    try:
+        return research.search(q, limit)
+    except research.SearchUnavailable as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from None
+
+
+@app.get("/research/analyze")
+def research_analyze(q: str = Query(..., min_length=1, description="Ticker or company name"),
+                     holdings: list[str] = HOLDINGS,
+                     refresh: bool = Query(default=False)) -> dict:
+    """How the searched company would fit the portfolio.
+
+    Returns the radar shape, the overlap breakdown, a cited pros-and-cons brief,
+    and its placement on the Connection Map when the graph knows it.
+    """
+    supported, unsupported = _holdings(holdings)
+    try:
+        result = research.analyse(q, supported, refresh=refresh)
+    except research.SearchUnavailable as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from None
+    except research.Ambiguous as exc:
+        raise HTTPException(status_code=409, detail={
+            "message": f"'{exc.query}' matched several companies; pick one.",
+            "options": exc.options,
+        }) from None
+    except research.NotFound as exc:
+        raise HTTPException(status_code=404, detail={
+            "message": f"No public company matched '{exc.query}'.",
+            "options": exc.suggestions,
+        }) from None
+    result["unsupported"] = unsupported
+    return result
 
 
 @app.get("/story/{symbol}", response_model=Story)
