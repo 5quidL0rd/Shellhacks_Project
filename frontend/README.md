@@ -42,12 +42,14 @@ npm run lint       # oxlint
 | `src/pages/XRayPage.tsx` | Home screen |
 | `src/pages/MapPage.tsx` | Connection Map (react-force-graph-2d) |
 | `src/pages/StoryPage.tsx` | Story Mode (TradingView Lightweight Charts v5) |
-| `src/index.css` | Design tokens and styles, light and dark |
+| `src/index.css` | Design tokens and styles (dark theme) |
 
 ## Design notes
 
-- **Colors are tokens** in `src/index.css`, with separate dark-mode values. Canvas charts read the same tokens through `useThemeColors`, so everything switches with the OS theme.
-- **Map node colors are validated** for color-vision deficiency in both modes (holdings blue, supported-not-owned orange, outside companies aqua). Countries are gray squares, so shape also carries the difference. Aqua is low-contrast on the light background, so those nodes always have a legend entry and hover labels.
+- **Look:** dark slate with one amber accent, JetBrains Mono throughout (bundled via `@fontsource-variable/jetbrains-mono`), uppercase letter-spaced section labels, and a left sidebar. Dark only.
+- **Colors are tokens** in `src/index.css`. Canvas charts (map, price chart) read the same tokens and the font through `useThemeColors`, so a token change restyles everything.
+- **Bright amber (`--accent`) is for UI only** (active nav, buttons, focus, highlights). Data uses a darker amber (`--series-1`), because the bright one fails the chart lightness check on the dark background.
+- **Map node colors are validated** for color-vision deficiency on the card surface: holdings amber, supported-not-owned blue, outside companies aqua. Countries are gray squares, so shape also carries the difference.
 - **Up and down moves use arrows (▲▼) and a sign**, not color alone.
 - **Every claim links to its source.** Graph edges show the filing quote; story explanations show numbered citations that open the evidence.
 - **No buy/sell language.** Competitors appear as "also affected", never as winners or losers.

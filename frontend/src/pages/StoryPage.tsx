@@ -4,7 +4,7 @@ import { Link, useParams } from 'react-router-dom'
 import { api, type Beat, type Evidence, type Story } from '../api'
 import { useAsync, useThemeColors } from '../hooks'
 
-const TOKENS = ['series-1', 'up', 'down', 'text-muted', 'grid', 'baseline', 'surface']
+const TOKENS = ['price-line', 'up', 'down', 'text-muted', 'grid', 'baseline', 'surface', 'font']
 
 /** Story Mode: a stock's price with each major move explained and cited. */
 export function StoryPage() {
@@ -23,9 +23,11 @@ export function StoryPage() {
 
   return (
     <>
-      <p className="small"><Link to="/">← My portfolio</Link></p>
-      <h1>{s.company_name} <span className="muted">{s.symbol}</span></h1>
-      <p className="secondary" style={{ maxWidth: 820 }}>
+      <div className="page-head">
+        <div className="eyebrow"><Link to="/">Portfolio</Link> / Story Mode</div>
+        <h1>{s.company_name} <span className="muted">{s.symbol}</span></h1>
+      </div>
+      <p className="secondary" style={{ maxWidth: 820, marginTop: 0 }}>
         {s.arc}
         {s.arc_citation_ids.map((id, i) => (
           <CiteButton key={id} n={i + 1} id={id} active={citation === id} onClick={setCitation} />
@@ -40,6 +42,7 @@ export function StoryPage() {
             ▲▼ mark the {s.beats.length} biggest moves. Click a marker or a move below to read why it happened.
           </p>
           <section className="card" aria-label="Major moves">
+            <div className="card-label">Major moves</div>
             {s.beats.map((b) => (
               <BeatItem key={b.date} beat={b} selected={selected === b.date} citation={citation}
                         onSelect={() => setSelected(b.date)} onCite={setCitation} />
@@ -77,13 +80,13 @@ function PriceChart({ story, selected, onSelect }: {
     if (!box.current) return
     const chart = createChart(box.current, {
       autoSize: true,
-      layout: { background: { color: colors.surface }, textColor: colors['text-muted'], attributionLogo: false },
+      layout: { background: { color: colors.surface }, textColor: colors['text-muted'], fontFamily: colors.font, attributionLogo: false },
       grid: { vertLines: { visible: false }, horzLines: { color: colors.grid } },
       rightPriceScale: { borderColor: colors.baseline },
       timeScale: { borderColor: colors.baseline },
-      crosshair: { horzLine: { labelBackgroundColor: colors['series-1'] }, vertLine: { labelBackgroundColor: colors['series-1'] } },
+      crosshair: { horzLine: { labelBackgroundColor: colors.baseline }, vertLine: { labelBackgroundColor: colors.baseline } },
     })
-    const series = chart.addSeries(LineSeries, { color: colors['series-1'], lineWidth: 2, priceLineVisible: false })
+    const series = chart.addSeries(LineSeries, { color: colors['price-line'], lineWidth: 2, priceLineVisible: false })
     series.setData(story.bars.map((b) => ({ time: b.date as Time, value: b.close })))
     markersRef.current = createSeriesMarkers(series, [])
     chart.timeScale().fitContent()

@@ -24,13 +24,12 @@ export function XRayPage({ holdings, setHoldings }: { holdings: string[]; setHol
 
   return (
     <>
-      <PortfolioBar holdings={holdings} setHoldings={setHoldings} unsupported={xray.data?.unsupported} />
-      {xray.error && <p className="error">{xray.error}</p>}
-      {xray.data && (
-        <>
+      <div className="page-head">
+        <div className="eyebrow">Portfolio X-Ray</div>
+        {xray.data ? (
           <div className="hero">
             <div className="big">
-              Your {supported} holdings share {shared.length} hidden {shared.length === 1 ? 'dependency' : 'dependencies'}
+              Your {supported} holdings share <em>{shared.length} hidden {shared.length === 1 ? 'dependency' : 'dependencies'}</em>
             </div>
             {shared[0] && (
               <p className="secondary">
@@ -38,10 +37,16 @@ export function XRayPage({ holdings, setHoldings }: { holdings: string[]; setHol
               </p>
             )}
           </div>
+        ) : <h1>What you actually depend on</h1>}
+      </div>
+      <PortfolioBar holdings={holdings} setHoldings={setHoldings} unsupported={xray.data?.unsupported} />
+      {xray.error && <p className="error">{xray.error}</p>}
+      {xray.data && (
+        <>
           <div className="two-col">
             <section className="card" aria-label="Dependencies">
-              <h2>What your portfolio depends on</h2>
-              <p className="small muted">Suppliers and countries, from SEC filings. Click one to see the evidence.</p>
+              <div className="card-label">What your portfolio depends on</div>
+              <p className="small muted" style={{ marginTop: 0 }}>Suppliers and countries, from SEC filings. Click one to see the evidence.</p>
               <div className="dep-list">
                 {shown.map((d) => (
                   <DependencyRow key={`${d.type}:${d.id}`} dep={d} total={supported}

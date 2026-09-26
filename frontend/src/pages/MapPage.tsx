@@ -8,7 +8,7 @@ type GNode = MapNode & { x?: number; y?: number }
 type GLink = Omit<MapLink, 'source' | 'target'> & { source: string | GNode; target: string | GNode }
 
 const TOKENS = ['series-1', 'series-2', 'series-3', 'neutral-node', 'text-primary',
-  'text-secondary', 'text-muted', 'grid', 'surface', 'focus']
+  'text-secondary', 'text-muted', 'grid', 'surface', 'focus', 'font']
 
 const endId = (end: string | GNode) => (typeof end === 'string' ? end : end.id)
 
@@ -68,6 +68,11 @@ export function MapPage({ holdings, setHoldings }: { holdings: string[]; setHold
 
   return (
     <>
+      <div className="page-head">
+        <div className="eyebrow">Connection Map</div>
+        <h1>How your holdings are linked</h1>
+        <p>Suppliers, customers, competitors, and countries one step from what you own. Click a company to see which holdings its news would reach.</p>
+      </div>
       <PortfolioBar holdings={holdings} setHoldings={setHoldings} unsupported={map.data?.unsupported} />
       <div className="filters">
         <label><input type="checkbox" checked={countries} onChange={(e) => setCountries(e.target.checked)} /> Countries</label>
@@ -140,7 +145,7 @@ export function MapPage({ holdings, setHoldings }: { holdings: string[]; setHold
                   || n.connected_holdings.length >= 3 || (highlight && !dim)
                 if (label) {
                   const text = n.type === 'company' && n.in_universe ? n.id : n.name
-                  ctx.font = `${n.is_holding ? 600 : 400} ${12 / scale}px system-ui, sans-serif`
+                  ctx.font = `${n.is_holding ? 700 : 400} ${11 / scale}px ${colors.font}`
                   ctx.textAlign = 'center'
                   ctx.textBaseline = 'top'
                   ctx.fillStyle = n.is_holding ? colors['text-primary'] : colors['text-secondary']
