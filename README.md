@@ -8,6 +8,39 @@ Current scope: **13 companies** (listed in [data/companies.json](data/companies.
 
 ---
 
+## Quick start (run it locally)
+
+**No API keys needed.** The app reads data that is already committed (the knowledge graph export, the precomputed stories, and saved prices), so a fresh clone runs as-is.
+
+**You need:** Python 3.10+ and Node 20.19+ (or 22.12+).
+
+**1. Clone and install** (once):
+```bash
+git clone https://github.com/5quidL0rd/Shellhacks_Project.git
+cd Shellhacks_Project
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt -r backend/requirements.txt
+cd frontend && npm install && cd ..
+```
+
+**2. Start the API** (terminal 1):
+```bash
+cd backend
+../.venv/bin/uvicorn app.main:app --reload
+```
+
+**3. Start the app** (terminal 2):
+```bash
+cd frontend
+npm run dev
+```
+
+**4. Open http://localhost:5173.** It starts with a sample portfolio; change it on the **Holdings** page.
+
+On Windows, use `.venv\Scripts\pip` and `..\.venv\Scripts\uvicorn` instead of the `.venv/bin/...` paths.
+
+**What needs keys:** only rebuilding data (new companies, fresh stories, Snowflake loads) and the Snowflake-backed `/graph/*` endpoints. For those, see [Full setup](#full-setup-for-rebuilding-data) below.
+
 ## Where we are
 
 | Area (plans.md) | Status | Notes |
@@ -69,7 +102,9 @@ Two principles run through everything:
 
 ---
 
-## Getting started
+## Full setup (for rebuilding data)
+
+Only needed to add companies, rebuild stories, or load Snowflake. To just run the app, see [Quick start](#quick-start-run-it-locally).
 
 ```bash
 python3 -m venv .venv
