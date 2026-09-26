@@ -1,5 +1,7 @@
 import { BrowserRouter, Link, NavLink, Route, Routes } from 'react-router-dom'
-import { usePortfolio } from './hooks'
+import { api } from './api'
+import { Change } from './components'
+import { useAsync, usePortfolio } from './hooks'
 import { HoldingsPage } from './pages/HoldingsPage'
 import { MapPage } from './pages/MapPage'
 import { StoryPage } from './pages/StoryPage'
@@ -55,6 +57,7 @@ export default function App() {
 
 /** Every holding at a glance, one click from its story. Scrolls when long. */
 function SidebarHoldings({ holdings }: { holdings: string[] }) {
+  const quotes = useAsync(api.quotes, 'quotes')
   return (
     <div className="sidebar-holdings">
       <div className="row-between">
@@ -66,7 +69,10 @@ function SidebarHoldings({ holdings }: { holdings: string[] }) {
         : (
           <div className="sidebar-tickers">
             {[...holdings].sort().map((t) => (
-              <NavLink key={t} to={`/stock/${t}`} className="ticker-link">{t}</NavLink>
+              <NavLink key={t} to={`/stock/${t}`} className="ticker-link">
+                <span>{t}</span>
+                <Change pct={quotes.data?.quotes[t]?.change_pct} />
+              </NavLink>
             ))}
           </div>
         )}

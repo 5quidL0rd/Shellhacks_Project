@@ -76,6 +76,26 @@ export interface UniverseCompany {
   sector: string
 }
 
+export interface Quote {
+  symbol: string
+  as_of: string
+  price: number
+  prev_close: number
+  change: number
+  change_pct: number | null
+  returns: Partial<Record<'1W' | '1M' | '3M' | '6M', number | null>>
+  range: { low: number; high: number; days: number; from: string; to: string }
+  volume: number
+  volume_vs_avg: number | null
+  sparkline: { date: string; close: number }[]
+}
+
+export interface Quotes {
+  as_of: string | null
+  quotes: Record<string, Quote>
+  missing: string[]
+}
+
 export interface Bar {
   date: string
   open: number
@@ -137,6 +157,7 @@ async function get<T>(path: string, params?: Record<string, string>): Promise<T>
 
 const holdingsParam = (holdings: string[]) => holdings.join(',')
 let universeRequest: Promise<UniverseCompany[]> | null = null
+let quotesRequest: Promise<Quotes> | null = null
 
 export const api = {
   /** The supported companies; fetched once per page load and shared. */
@@ -154,4 +175,9 @@ export const api = {
   impact: (company: string, holdings: string[]) =>
     get<Impact>('/portfolio/impact', { company, holdings: holdingsParam(holdings) }),
   story: (symbol: string) => get<Story>(`/story/${encodeURIComponent(symbol)}`),
+  /** Last-close quotes for every supported company; small, so fetched once and shared. */
+  quotes: () => (quotesRequest ??= get<Quotes>('/quotes').catch((e) => {
+    quotesRequest = null
+    throw e
+  })),
 }

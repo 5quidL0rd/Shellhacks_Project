@@ -2,6 +2,8 @@ import { createChart, createSeriesMarkers, LineSeries, type ISeriesMarkersPlugin
 import { useEffect, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { api, type Beat, type Evidence, type Story } from '../api'
+import { AsOf, Change } from '../components'
+import { money } from '../format'
 import { useAsync, useThemeColors } from '../hooks'
 
 const TOKENS = ['price-line', 'up', 'down', 'text-muted', 'grid', 'baseline', 'surface', 'font']
@@ -10,6 +12,7 @@ const TOKENS = ['price-line', 'up', 'down', 'text-muted', 'grid', 'baseline', 's
 export function StoryPage() {
   const { symbol = '' } = useParams()
   const story = useAsync(() => api.story(symbol), symbol)
+  const quotes = useAsync(api.quotes, 'quotes')
   const [selected, setSelected] = useState<string | null>(null)
   const [citation, setCitation] = useState<string | null>(null)
 
@@ -26,6 +29,13 @@ export function StoryPage() {
       <div className="page-head">
         <div className="eyebrow"><Link to="/">Portfolio</Link> / Story Mode</div>
         <h1>{s.company_name} <span className="muted">{s.symbol}</span></h1>
+        {quotes.data?.quotes[s.symbol] && (
+          <div className="quote-line">
+            <span className="price">{money(quotes.data.quotes[s.symbol].price)}</span>
+            <Change pct={quotes.data.quotes[s.symbol].change_pct} suffix=" today" />
+            <AsOf date={quotes.data.as_of} />
+          </div>
+        )}
       </div>
       <p className="secondary" style={{ maxWidth: 820, marginTop: 0 }}>
         {s.arc}

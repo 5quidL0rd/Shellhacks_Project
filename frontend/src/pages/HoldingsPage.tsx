@@ -1,11 +1,14 @@
 import { useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { api, type UniverseCompany } from '../api'
+import { api, type Quote, type UniverseCompany } from '../api'
+import { AsOf, Change, Sparkline } from '../components'
+import { money } from '../format'
 import { parseTickers, SAMPLE_PORTFOLIO, useAsync } from '../hooks'
 
 /** Where the portfolio is built: paste, upload, or browse, then review. */
 export function HoldingsPage({ holdings, setHoldings }: { holdings: string[]; setHoldings: (h: string[]) => void }) {
   const universe = useAsync(api.universe, 'universe')
+  const quotes = useAsync(api.quotes, 'quotes')
   const companies = useMemo(() => universe.data ?? [], [universe.data])
   const bySymbol = useMemo(() => new Map(companies.map((c) => [c.symbol, c])), [companies])
 
@@ -18,6 +21,7 @@ export function HoldingsPage({ holdings, setHoldings }: { holdings: string[]; se
       <div className="page-head">
         <div className="eyebrow">Holdings</div>
         <h1>Your portfolio</h1>
+        <AsOf date={quotes.data?.as_of} />
         <p>
           Paste your tickers, upload a CSV from your brokerage, or pick companies from the list.
           Every screen reads from here.
@@ -27,7 +31,8 @@ export function HoldingsPage({ holdings, setHoldings }: { holdings: string[]; se
       <div className="holdings-grid">
         <div className="stack">
           <PasteBox known={bySymbol} onAdd={addMany} />
-          <HoldingsTable holdings={holdings} bySymbol={bySymbol} setHoldings={setHoldings} />
+          <HoldingsTable holdings={holdings} bySymbol={bySymbol} setHoldings={setHoldings}
+                         quotes={quotes.data?.quotes ?? {}} />
         </div>
         <CompanyBrowser companies={companies} holdings={holdings} toggle={toggle}
                         setHoldings={setHoldings} />
@@ -88,10 +93,11 @@ function PasteBox({ known, onAdd }: { known: Map<string, UniverseCompany>; onAdd
   )
 }
 
-function HoldingsTable({ holdings, bySymbol, setHoldings }: {
+function HoldingsTable({ holdings, bySymbol, setHoldings, quotes }: {
   holdings: string[]
   bySymbol: Map<string, UniverseCompany>
   setHoldings: (h: string[]) => void
+  quotes: Record<string, Quote>
 }) {
   const rows = [...holdings].sort()
   return (
@@ -108,16 +114,25 @@ function HoldingsTable({ holdings, bySymbol, setHoldings }: {
       ) : (
         <table className="table">
           <thead>
-            <tr><th>Ticker</th><th>Company</th><th>Sector</th><th aria-label="Actions" /></tr>
+            <tr>
+              <th>Ticker</th><th>Company</th><th className="num">Price</th><th className="num">Today</th>
+              <th>30 days</th><th aria-label="Actions" />
+            </tr>
           </thead>
           <tbody>
             {rows.map((t) => {
               const c = bySymbol.get(t)
+              const q = quotes[t]
               return (
                 <tr key={t}>
                   <td><Link to={`/stock/${t}`}><strong>{t}</strong></Link></td>
-                  <td className="secondary">{c?.name ?? <span className="muted">Not supported</span>}</td>
-                  <td className="muted">{c?.sector ?? ''}</td>
+                  <td className="secondary">
+                    {c?.name ?? <span className="muted">Not supported</span>}
+                    {c && <div className="small muted">{c.sector}</div>}
+                  </td>
+                  <td className="num price">{q ? money(q.price) : '—'}</td>
+                  <td className="num"><Change pct={q?.change_pct} /></td>
+                  <td>{q && <Sparkline points={q.sparkline} />}</td>
                   <td style={{ textAlign: 'right' }}>
                     <button className="ghost-btn" aria-label={`Remove ${t}`}
                             onClick={() => setHoldings(holdings.filter((h) => h !== t))}>Remove</button>

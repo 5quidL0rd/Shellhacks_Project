@@ -88,3 +88,46 @@ export function ImpactPanel({ company, holdings }: { company: string; holdings: 
     </div>
   )
 }
+
+/** ▲ +1.23% / ▼ −0.45%: arrow, sign, and color together, never color alone. */
+export function Change({ pct, suffix = '' }: { pct: number | null | undefined; suffix?: string }) {
+  if (pct == null) return <span className="muted">—</span>
+  const flat = Math.abs(pct) < 0.005
+  const dir = flat ? 'flat' : pct > 0 ? 'up' : 'down'
+  const arrow = flat ? '•' : pct > 0 ? '▲' : '▼'
+  const sign = pct > 0 ? '+' : pct < 0 ? '−' : ''
+  return <span className={`change ${dir}`}>{arrow} {sign}{Math.abs(pct).toFixed(2)}%{suffix}</span>
+}
+
+/** Tiny single-series price line (no axes, no legend; the row names it). */
+export function Sparkline({ points, width = 88, height = 26 }: {
+  points: { date: string; close: number }[]
+  width?: number
+  height?: number
+}) {
+  if (points.length < 2) return null
+  const closes = points.map((p) => p.close)
+  const lo = Math.min(...closes)
+  const hi = Math.max(...closes)
+  const x = (i: number) => (i / (points.length - 1)) * (width - 4) + 2
+  const y = (c: number) => (hi === lo ? height / 2 : height - 3 - ((c - lo) / (hi - lo)) * (height - 6))
+  const d = points.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.close).toFixed(1)}`).join(' ')
+  const first = points[0]
+  const last = points[points.length - 1]
+  return (
+    <svg className="sparkline" width={width} height={height} viewBox={`0 0 ${width} ${height}`} role="img"
+         aria-label={`${points.length}-day price, ${first.close.toFixed(2)} to ${last.close.toFixed(2)}`}>
+      <title>{`${first.date}: $${first.close.toFixed(2)} → ${last.date}: $${last.close.toFixed(2)}`}</title>
+      <path d={d} fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" strokeLinecap="round" />
+      <circle cx={x(points.length - 1)} cy={y(last.close)} r="2.2" fill="currentColor" />
+    </svg>
+  )
+}
+
+/** "Prices as of Sep 25 close": quotes are saved data, not live. */
+export function AsOf({ date }: { date: string | null | undefined }) {
+  if (!date) return null
+  const label = new Date(`${date}T12:00:00`).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+  return <span className="as-of" title="Prices come from saved data, not a live feed">Prices as of {label} close</span>
+}
+

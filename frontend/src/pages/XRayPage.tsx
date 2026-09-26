@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { api, type Dependency } from '../api'
-import { EmptyPortfolio, EvidenceQuote, HoldingsSummary, ImpactPanel } from '../components'
+import { api, type Dependency, type Quote } from '../api'
+import { AsOf, Change, EmptyPortfolio, EvidenceQuote, HoldingsSummary, ImpactPanel } from '../components'
 import { useAsync } from '../hooks'
 
 const HOW_LABEL: Record<string, string> = {
@@ -13,6 +13,7 @@ const HOW_LABEL: Record<string, string> = {
 /** Home screen: what the portfolio actually depends on. */
 export function XRayPage({ holdings }: { holdings: string[] }) {
   const xray = useAsync(() => (holdings.length ? api.xray(holdings) : Promise.resolve(null)), holdings.join(','))
+  const quotes = useAsync(api.quotes, 'quotes')
   const [open, setOpen] = useState<string | null>(null)
   const [showAll, setShowAll] = useState(false)
 
@@ -36,6 +37,7 @@ export function XRayPage({ holdings }: { holdings: string[] }) {
                 The biggest: <strong>{shared[0].name}</strong>, which {shared[0].holding_count} of your {supported} holdings depend on.
               </p>
             )}
+            <AsOf date={quotes.data?.as_of} />
           </div>
         ) : <h1>What you actually depend on</h1>}
       </div>
@@ -50,7 +52,7 @@ export function XRayPage({ holdings }: { holdings: string[] }) {
               <p className="small muted" style={{ marginTop: 0 }}>Suppliers and countries, from SEC filings. Click one to see the evidence.</p>
               <div className="dep-list">
                 {shown.map((d) => (
-                  <DependencyRow key={`${d.type}:${d.id}`} dep={d} total={supported}
+                  <DependencyRow key={`${d.type}:${d.id}`} dep={d} total={supported} quote={quotes.data?.quotes[d.id]}
                                  open={open === d.id} onToggle={() => setOpen(open === d.id ? null : d.id)} />
                 ))}
               </div>
@@ -74,9 +76,10 @@ export function XRayPage({ holdings }: { holdings: string[] }) {
   )
 }
 
-function DependencyRow({ dep, total, open, onToggle }: {
+function DependencyRow({ dep, total, open, onToggle, quote }: {
   dep: Dependency
   total: number
+  quote?: Quote
   open: boolean
   onToggle: () => void
 }) {
@@ -89,6 +92,12 @@ function DependencyRow({ dep, total, open, onToggle }: {
             {dep.type === 'country' ? 'Country' : dep.in_universe ? 'Supported company' : 'Outside company'}
             {dep.is_holding ? ' · you own it' : ''}
           </div>
+          {/* Dependency pulse: how a supported supplier moved at the last close. */}
+          {quote && (
+            <div className="dep-pulse" title={`Last close ${quote.as_of}`}>
+              <Change pct={quote.change_pct} suffix=" last close" />
+            </div>
+          )}
         </span>
         <span className="bar-track" aria-hidden="true">
           <span className="bar-fill" style={{ display: 'block', width: `${(dep.holding_count / total) * 100}%` }} />

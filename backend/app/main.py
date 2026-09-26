@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from snowflake.connector import DictCursor
 from snowflake.connector.errors import Error as SnowflakeError
 
-from . import portfolio
+from . import portfolio, quotes
 from .connections import connections
 from .snowflake_db import get_connection
 from .story.build import get_story
@@ -149,6 +149,14 @@ def portfolio_impact(company: str = Query(..., description="Ticker or graph id, 
     except KeyError as exc:
         raise HTTPException(status_code=404, detail=str(exc.args[0])) from None
     return {"holdings": supported, "unsupported": unsupported, **result}
+
+
+@app.get("/quotes")
+def get_quotes(symbols: str = Query(default="", description="Comma-separated; empty = every supported company")) -> dict:
+    """Last close, daily change, period returns, range, volume, and a 30-day
+    sparkline per company. From saved prices, so never a live call."""
+    wanted = [s.strip().upper() for s in symbols.split(",") if s.strip()] or None
+    return quotes.quotes(wanted)
 
 
 @app.get("/universe")

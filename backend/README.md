@@ -47,7 +47,8 @@ Then open `http://127.0.0.1:8000/docs` for the interactive API page.
 |---|---|---|
 | `GET /health` | nothing | Liveness; never touches Snowflake |
 | `GET /health/snowflake` | Snowflake | Confirms the Snowflake connection |
-| `GET /universe` | graph export | The 5 companies with their graph connections |
+| `GET /universe` | graph export | The supported companies with their graph connections |
+| `GET /quotes?symbols=AAPL,NVDA` | story cache | Last close, daily change, 1W/1M/3M/6M returns, 6-month range, volume vs 30-day average, 30-day sparkline; empty `symbols` = all companies |
 | `GET /story/{symbol}` | story cache | Price series and cited explanations of big moves |
 | `GET /story/{symbol}/citation/{id}` | story cache | One evidence row for the drill-down panel |
 | `GET /graph/summary` | Snowflake | Row counts of the graph tables |
