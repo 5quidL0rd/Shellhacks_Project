@@ -19,10 +19,14 @@ cp .env.example .env   # then fill in the values
 .venv/bin/python -m kg.edgar            # download latest 10-K / 20-F for every company (cached)
 .venv/bin/python -m kg.extract          # Gemini -> data/extracted/{TICKER}.json (costs API calls)
 .venv/bin/python -m kg.load --reset     # wipe and rebuild the graph
+.venv/bin/python -m kg.export_edges     # graph -> data/exports/*.csv for Snowflake
 ```
 Each step takes tickers (`python -m kg.extract NVDA`). `data/extracted/` is committed, so teammates can run `kg.load` without calling EDGAR or Gemini.
 
 **Adding a company:** add it to `COMPANIES` in `kg/companies.py`, then run the three steps for its ticker and hand-check the JSON.
+
+## Snowflake export
+`kg.export_edges` writes the graph as two CSV tables in `data/exports/`: `GRAPH_EDGES` (one row per relationship) and `GRAPH_COMPANIES` (one row per company). `data/exports/snowflake_graph_tables.sql` creates the tables, loads the files, and includes example queries. Re-run the export after every `kg.load`.
 
 ## Schema (contract with the backend)
 
