@@ -1,7 +1,7 @@
 {
   "symbol": "CRUS",
   "company_name": "Cirrus Logic, Inc.",
-  "generated_at": "2026-09-26T12:32:40.545000+00:00",
+  "generated_at": "2026-09-26T12:51:27.785842+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,13 +1320,15 @@
       "pct_change": 3.754,
       "close": 148.69,
       "direction": "up",
-      "headline": "Cirrus Logic gains 3.8% on heavy volume",
-      "explanation": "Cirrus Logic shares climbed 3.75% to close at $148.69 on twice its 30-day average volume. No company-specific news accompanied the rally, though the advance was company-specific as customer Apple added just 0.11% and competitor Qualcomm gained 0.15%, while supplier TSMC dropped 6.22%.",
-      "confidence": "low",
+      "headline": "Cirrus Logic jumps 3.75% on Apple program addition",
+      "explanation": "Cirrus Logic gained 3.75% to close at $148.69 on double its normal volume. Customer Apple announced the inclusion of Cirrus Logic in its American Manufacturing Program, part of plans to invest $400 million through 2030 to expand domestic supply chains. The move was company-specific, as customer Apple was up just 0.11% while supplier TSM dropped 6.22%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_CRUS_20260326_price",
+        "ev_CRUS_20260326_news0",
+        "ev_CRUS_20260326_news1",
+        "ev_CRUS_20260326_news2",
         "ev_CRUS_20260326_peer_AAPL",
-        "ev_CRUS_20260326_peer_QCOM",
         "ev_CRUS_20260326_peer_TSM"
       ]
     },
@@ -1335,8 +1337,8 @@
       "pct_change": 4.521,
       "close": 164.84,
       "direction": "up",
-      "headline": "Shares jump 4.5% on new chip line and PT boost",
-      "explanation": "The stock climbed 4.52% to $164.84 after Cirrus Logic launched a new family of industrial imaging integrated circuits for scanning systems. Analyst Tore Svanberg at Stifel also raised his price target on the stock from $163 to $175 while keeping a Buy rating. The move diverged from connected peers, as customer Apple fell 1.14% and supplier TSMC declined 3.13%.",
+      "headline": "Cirrus Logic rises 4.52% on industrial IC launch",
+      "explanation": "Cirrus Logic shares climbed 4.52% to $164.84 after unveiling a new portfolio of industrial imaging integrated circuits for high-precision scanning platforms. The rally also coincided with Stifel raising its price target on the stock from $163 to $175 with a Buy rating. The move was company-specific, occurring while customer Apple fell 1.14% and supplier TSM dropped 3.13%.",
       "confidence": "high",
       "citation_ids": [
         "ev_CRUS_20260416_price",
@@ -1351,14 +1353,14 @@
       "pct_change": -4.848,
       "close": 162.51,
       "direction": "down",
-      "headline": "Stock drops 4.8% amid semiconductor demand worries",
-      "explanation": "Cirrus Logic fell 4.85% to $162.51 as broader semiconductor equities pulled back following reports that OpenAI missed internal sales and user targets. The retreat was shared with supplier TSMC, which dropped 3.12%, though customer Apple gained 1.16%.",
+      "headline": "Cirrus Logic falls 4.85% amid chip sector softness",
+      "explanation": "Shares slipped 4.85% to close at $162.51. Broad semiconductor sentiment took a hit following reports that OpenAI missed internal targets, sparking fears over tech demand. The decline was shared with supplier TSM, which fell 3.12%, while customer Apple rose 1.16%.",
       "confidence": "medium",
       "citation_ids": [
         "ev_CRUS_20260428_price",
-        "ev_CRUS_20260428_news0",
-        "ev_CRUS_20260428_peer_TSM",
-        "ev_CRUS_20260428_peer_AAPL"
+        "ev_CRUS_20260428_news3",
+        "ev_CRUS_20260428_peer_AAPL",
+        "ev_CRUS_20260428_peer_TSM"
       ]
     },
     {
@@ -1366,14 +1368,14 @@
       "pct_change": -3.212,
       "close": 157.29,
       "direction": "down",
-      "headline": "Shares slip another 3.2% without fresh catalysts",
-      "explanation": "The stock retreated 3.21% to $157.29 on average volume, extending the previous session's decline. No new company-specific announcements were reported, and the move was company-specific as competitor Qualcomm rallied 4.00% and supplier TSMC rose 0.38%.",
+      "headline": "Cirrus Logic drops 3.21% as tech overhang lingers",
+      "explanation": "Cirrus Logic fell an additional 3.21% to $157.29 on average volume. No new company-specific announcements were reported, though broader semiconductor demand concerns stemming from earlier reports weighed on the stock. The move was company-specific, as competitor Qualcomm rose 4.00% and supplier TSM gained 0.38%.",
       "confidence": "low",
       "citation_ids": [
         "ev_CRUS_20260429_price",
+        "ev_CRUS_20260429_news0",
         "ev_CRUS_20260429_peer_QCOM",
-        "ev_CRUS_20260429_peer_TSM",
-        "ev_CRUS_20260429_peer_AAPL"
+        "ev_CRUS_20260429_peer_TSM"
       ]
     },
     {
@@ -1381,13 +1383,14 @@
       "pct_change": -4.858,
       "close": 146.5,
       "direction": "down",
-      "headline": "Stock drops 4.9% alongside competitor weakness",
-      "explanation": "Cirrus Logic shares fell 4.86% to $146.50 without direct corporate news. Weakness was shared with semiconductor competitor Qualcomm, which dropped 7.57%, even as key customer Apple rose 3.14%.",
+      "headline": "Cirrus Logic drops 4.86% in peer-shared pullback",
+      "explanation": "Shares dropped 4.86% to close at $146.50 on 1.1x 30-day average volume without any company-specific news. The slide was shared with competitor Qualcomm, which fell 7.57%, while customer Apple moved opposite, gaining 3.14%.",
       "confidence": "low",
       "citation_ids": [
         "ev_CRUS_20260626_price",
+        "ev_CRUS_20260626_peer_AAPL",
         "ev_CRUS_20260626_peer_QCOM",
-        "ev_CRUS_20260626_peer_AAPL"
+        "ev_CRUS_20260626_peer_TSM"
       ]
     },
     {
@@ -1395,15 +1398,14 @@
       "pct_change": -6.245,
       "close": 137.36,
       "direction": "down",
-      "headline": "Stock declines 6.2% as KeyBanc lowers price target",
-      "explanation": "Shares fell 6.25% to $137.36 after KeyBanc analyst John Vinh trimmed his price target from $200 to $190 while maintaining an Overweight rating. Cirrus Logic also confirmed its fiscal Q1 2027 earnings release date for August 5. Competitor Qualcomm similarly slipped 3.20%, while customer Apple dipped 0.77%.",
+      "headline": "Cirrus Logic declines 6.25% following target cut",
+      "explanation": "Cirrus Logic declined 6.25% to $137.36 as KeyBanc maintained an Overweight rating but cut its price target from $200 to $190. Weakness was shared across the sector, with competitor Qualcomm sliding 3.20% and customer Apple declining 0.77%.",
       "confidence": "medium",
       "citation_ids": [
         "ev_CRUS_20260714_price",
         "ev_CRUS_20260714_news1",
-        "ev_CRUS_20260714_news0",
-        "ev_CRUS_20260714_peer_QCOM",
-        "ev_CRUS_20260714_peer_AAPL"
+        "ev_CRUS_20260714_peer_AAPL",
+        "ev_CRUS_20260714_peer_QCOM"
       ]
     },
     {
@@ -1411,15 +1413,15 @@
       "pct_change": -4.273,
       "close": 133.53,
       "direction": "down",
-      "headline": "Stock falls 4.3% in broad peer selloff",
-      "explanation": "Cirrus Logic dropped 4.27% to close at $133.53 despite announcing an R&D grant from Scottish Enterprise for smart energy technology. The decline was shared across connected companies, as competitor Qualcomm fell 2.57%, supplier TSMC fell 1.34%, and customer Apple shed 1.30%.",
-      "confidence": "low",
+      "headline": "Cirrus Logic drops 4.27% despite energy R&D grant",
+      "explanation": "Cirrus Logic fell 4.27% to close at $133.53 despite announcing a research grant from Scottish Enterprise to develop smart energy technology. The pullback was shared across connected companies, with competitor Qualcomm dropping 2.57%, supplier TSM down 1.34%, and customer Apple shedding 1.30%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_CRUS_20260723_price",
         "ev_CRUS_20260723_news0",
+        "ev_CRUS_20260723_peer_AAPL",
         "ev_CRUS_20260723_peer_QCOM",
-        "ev_CRUS_20260723_peer_TSM",
-        "ev_CRUS_20260723_peer_AAPL"
+        "ev_CRUS_20260723_peer_TSM"
       ]
     },
     {
@@ -1427,18 +1429,19 @@
       "pct_change": -4.567,
       "close": 123.51,
       "direction": "down",
-      "headline": "Shares slide 4.6% as analyst targets drop after Q1",
-      "explanation": "Cirrus Logic tumbled 4.57% to $123.51 on double typical trading volume following its Q1 2027 earnings release. Although revenue of $460 million and EPS of $1.84 set records, results highlighted pricing pressure and PC delays, prompting KeyBanc, Stifel, and Barclays to cut price targets to $170, $160, and $130, respectively. The drop was company-specific, as peers rallied, including competitor Qualcomm up 1.82% and customer Apple up 0.45%.",
+      "headline": "Cirrus Logic drops 4.57% on target cuts and delays",
+      "explanation": "Despite posting record Q1 revenue of $460 million and beating earnings estimates, Cirrus Logic shares declined 4.57% to $123.51 on double normal volume. Commentary pointed to pricing pressure and delays in the PC segment, prompting price target reductions from KeyBanc, Stifel, and Barclays. The move was company-specific, as customer Apple, competitor Qualcomm, and supplier TSM all gained.",
       "confidence": "high",
       "citation_ids": [
         "ev_CRUS_20260806_price",
-        "ev_CRUS_20260806_news1",
+        "ev_CRUS_20260806_news0",
+        "ev_CRUS_20260806_news2",
         "ev_CRUS_20260806_news3",
         "ev_CRUS_20260806_news4",
-        "ev_CRUS_20260806_news5",
-        "ev_CRUS_20260806_news7",
+        "ev_CRUS_20260806_news6",
         "ev_CRUS_20260806_peer_AAPL",
-        "ev_CRUS_20260806_peer_QCOM"
+        "ev_CRUS_20260806_peer_QCOM",
+        "ev_CRUS_20260806_peer_TSM"
       ]
     },
     {
@@ -1446,14 +1449,14 @@
       "pct_change": 3.658,
       "close": 113.06,
       "direction": "up",
-      "headline": "Stock rebounds 3.7% off cycle lows",
-      "explanation": "Shares rose 3.66% to $113.06 on 1.45 times average volume, bouncing after an extended summer drawdown. No positive operational headlines emerged, but competitor Qualcomm also gained 2.01%, while customer Apple was virtually unchanged at down 0.05%.",
+      "headline": "Cirrus Logic rebounds 3.66% near cycle lows",
+      "explanation": "Shares bounced 3.66% to $113.06 on elevated volume following a sharp multi-week decline. No positive company filings were reported, though commentary noted the stock was trading near cyclical lows while attempting to pivot into industrial and smart metering markets. The rebound was shared with competitor Qualcomm, which gained 2.01%.",
       "confidence": "low",
       "citation_ids": [
         "ev_CRUS_20260902_price",
-        "ev_CRUS_20260902_peer_QCOM",
+        "ev_CRUS_20260902_news0",
         "ev_CRUS_20260902_peer_AAPL",
-        "ev_CRUS_20260902_news0"
+        "ev_CRUS_20260902_peer_QCOM"
       ]
     },
     {
@@ -1461,13 +1464,14 @@
       "pct_change": 5.202,
       "close": 116.48,
       "direction": "up",
-      "headline": "Cirrus Logic rises 5.2% alongside Apple rally",
-      "explanation": "The stock gained 5.20% to reach $116.48 on above-average trading volume. The surge coincided with strength from top customer Apple, which advanced 3.56% on the same day, while competitor Qualcomm added 0.27%.",
+      "headline": "Cirrus Logic rallies 5.20% alongside Apple",
+      "explanation": "Cirrus Logic climbed 5.20% to $116.48 on above-average trading volume. The surge coincided with strength in key customer Apple, which moved up 3.56% the same day, while competitor Qualcomm saw a modest gain of 0.27% and supplier TSM dropped 1.68%.",
       "confidence": "medium",
       "citation_ids": [
         "ev_CRUS_20260910_price",
         "ev_CRUS_20260910_peer_AAPL",
-        "ev_CRUS_20260910_peer_QCOM"
+        "ev_CRUS_20260910_peer_QCOM",
+        "ev_CRUS_20260910_peer_TSM"
       ]
     },
     {
@@ -1475,14 +1479,14 @@
       "pct_change": 5.046,
       "close": 122.21,
       "direction": "up",
-      "headline": "Stock gains 5.0% alongside peer Qualcomm",
-      "explanation": "Cirrus Logic shares surged 5.05% to $122.21 on 1.6 times regular volume as commentary highlighted valuation support and an active share buyback following a 27% three-month drawdown. The rise was shared with competitor Qualcomm, which gained 4.25%, even as customer Apple slipped 0.52%.",
+      "headline": "Cirrus Logic rises 5.05% in peer-shared advance",
+      "explanation": "The stock climbed 5.05% to $122.21 on 1.6x average volume, continuing a volatile recovery off its lows as analysts highlighted valuation and buyback support after a roughly 27% three-month drawdown. Competitor Qualcomm similarly rallied 4.25%, while customer Apple slipped 0.52%.",
       "confidence": "medium",
       "citation_ids": [
         "ev_CRUS_20260915_price",
-        "ev_CRUS_20260915_news1",
-        "ev_CRUS_20260915_peer_QCOM",
-        "ev_CRUS_20260915_peer_AAPL"
+        "ev_CRUS_20260915_news0",
+        "ev_CRUS_20260915_peer_AAPL",
+        "ev_CRUS_20260915_peer_QCOM"
       ]
     },
     {
@@ -1490,14 +1494,14 @@
       "pct_change": -3.445,
       "close": 118.0,
       "direction": "down",
-      "headline": "Cirrus Logic pulls back 3.4% following sharp rally",
-      "explanation": "Shares gave back 3.44% to settle at $118.00 after the previous day's sharp 5% climb. Macro pressures including rising 10-year Treasury yields weighed on broader equities, and peer competitor Qualcomm also declined 1.58%, while customer Apple rose 0.32%.",
-      "confidence": "low",
+      "headline": "Cirrus Logic slips 3.44% amid macro pressure",
+      "explanation": "Cirrus Logic fell 3.44% to $118.00, giving back a portion of the previous session's surge. Broad market headwinds weighed on equities as 10-year Treasury yields breached 5% and oil prices topped $105. Competitor Qualcomm also fell 1.58%, though customer Apple managed a 0.32% gain.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_CRUS_20260916_price",
-        "ev_CRUS_20260916_news0",
-        "ev_CRUS_20260916_peer_QCOM",
-        "ev_CRUS_20260916_peer_AAPL"
+        "ev_CRUS_20260916_news1",
+        "ev_CRUS_20260916_peer_AAPL",
+        "ev_CRUS_20260916_peer_QCOM"
       ]
     }
   ],
@@ -1560,6 +1564,56 @@
         "subject_pct_change": 3.754,
         "relationship": "supplier"
       }
+    },
+    "ev_CRUS_20260326_news0": {
+      "id": "ev_CRUS_20260326_news0",
+      "kind": "news",
+      "title": "Cirrus Logic Stock Breaks Out On Apple Partnership",
+      "detail": "Reported by Yahoo. Cirrus Logic stock jumped after customer Apple named the fabless chipmaker to its American Manufacturing Program.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0e52505c5b6f04caa6a7f89dc2220c4d2542a7e6f89506e78bb588b427024460",
+      "occurred_on": "2026-03-26",
+      "numbers": {}
+    },
+    "ev_CRUS_20260326_news1": {
+      "id": "ev_CRUS_20260326_news1",
+      "kind": "news",
+      "title": "Cirrus Logic shares are trading higher after Apple announced that it was adding the company as a partner to its American Manufacturing Program.",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=aecbf3115967e09f31a7c5d9363c22988133b63ff255248f7a7a7501f0993cbd",
+      "occurred_on": "2026-03-26",
+      "numbers": {}
+    },
+    "ev_CRUS_20260326_news2": {
+      "id": "ev_CRUS_20260326_news2",
+      "kind": "news",
+      "title": "Apple adds Bosch, Cirrus Logic, others to US manufacturing program, to invest $400 million",
+      "detail": "Reported by Yahoo. Apple said it was adding Bosch, Cirrus Logic, TDK and Qnity Electronics \u200cto its American Manufacturing Program, with plans \u200cto invest $400 million through 2030 to expand U.S.-based production of key \u200bcomponents.  The move comes as companies increasingly shift manufacturing and critical supply chains to the United States to reduce geopolitical risks and strengthen domestic production.  The expansion builds \u200con Apple's $600 billion, four-year \u2060commitment to invest in U.S. manufacturing announced last year.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b03b668b36919398a3d00ce04eb5bba8ac0176f4de02d1d8bb92991a0df0b83a",
+      "occurred_on": "2026-03-26",
+      "numbers": {}
+    },
+    "ev_CRUS_20260326_news3": {
+      "id": "ev_CRUS_20260326_news3",
+      "kind": "news",
+      "title": "Apple Taps Bosch, TDK For US iPhone Parts As Domestic Spending Surges",
+      "detail": "Reported by Benzinga. Apple (AAPL) is expanding its U.S. manufacturing with Bosch, TDK and Cirrus Logic. Discover how a $600B commitment is bringing iPhone sensor production to America.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e6f5e49b823fe2f445420bd481bac9ae36acd4026591993a111b53c3b8abac89",
+      "occurred_on": "2026-03-26",
+      "numbers": {}
+    },
+    "ev_CRUS_20260326_news4": {
+      "id": "ev_CRUS_20260326_news4",
+      "kind": "news",
+      "title": "Apple to source parts made in US by Japanese supplier for first time",
+      "detail": "Reported by Yahoo. Apple will for the first time source parts made in the US by a Japanese supplier as chief executive Tim Cook looks to reshore parts of its supply...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cb55b9d916e3e802c8879739f86395ec777b5323cb9d32e2b21f98266208d81c",
+      "occurred_on": "2026-03-26",
+      "numbers": {}
     },
     "ev_CRUS_20260416_price": {
       "id": "ev_CRUS_20260416_price",
@@ -1762,16 +1816,6 @@
     "ev_CRUS_20260428_news0": {
       "id": "ev_CRUS_20260428_news0",
       "kind": "news",
-      "title": "Shares of semiconductor companies are trading lower following reports that OpenAI has missed some internal targets for sales and usership, which may erode confidence in future demand. Also, ongoing Middle East tensions are weighing on broader sentiment.",
-      "detail": "Reported by Benzinga.",
-      "source": "Benzinga (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=b46005d33049352e8d7dea2cf04126f4d946d5f0c7e0fad8db4edf0f71544459",
-      "occurred_on": "2026-04-28",
-      "numbers": {}
-    },
-    "ev_CRUS_20260428_news1": {
-      "id": "ev_CRUS_20260428_news1",
-      "kind": "news",
       "title": "Is Cirrus Logic's Product Mix Boosting Its Performance?",
       "detail": "Reported by Yahoo. CRUS gains from a stronger product mix as boosted amplifiers, smart codecs and PC design wins support growth across smartphones, laptops and AI PCs.",
       "source": "Yahoo (via Finnhub company news)",
@@ -1779,8 +1823,8 @@
       "occurred_on": "2026-04-27",
       "numbers": {}
     },
-    "ev_CRUS_20260428_news2": {
-      "id": "ev_CRUS_20260428_news2",
+    "ev_CRUS_20260428_news1": {
+      "id": "ev_CRUS_20260428_news1",
       "kind": "news",
       "title": "Cirrus Logic (CRUS) Is Up 3.80% in One Week: What You Should Know",
       "detail": "Reported by Yahoo. Does Cirrus Logic (CRUS) have what it takes to be a top stock pick for momentum investors? Let's find out.",
@@ -1789,14 +1833,24 @@
       "occurred_on": "2026-04-27",
       "numbers": {}
     },
-    "ev_CRUS_20260428_news3": {
-      "id": "ev_CRUS_20260428_news3",
+    "ev_CRUS_20260428_news2": {
+      "id": "ev_CRUS_20260428_news2",
       "kind": "news",
       "title": "Cirrus Logic, Inc. (CRUS) Hits Fresh High: Is There Still Room to Run?",
       "detail": "Reported by Yahoo. Cirrus Logic (CRUS) is at a 52-week high, but can investors hope for more gains in the future? We take a look at the company's fundamentals for clues.",
       "source": "Yahoo (via Finnhub company news)",
       "url": "https://finnhub.io/api/news?id=89808735c1b66b085a7e4c355071b68f4e5a36c0ffb4cf741478a3bc7f693c36",
       "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_CRUS_20260428_news3": {
+      "id": "ev_CRUS_20260428_news3",
+      "kind": "news",
+      "title": "Shares of semiconductor companies are trading lower following reports that OpenAI has missed some internal targets for sales and usership, which may erode confidence in future demand. Also, ongoing Middle East tensions are weighing on broader sentiment.",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b46005d33049352e8d7dea2cf04126f4d946d5f0c7e0fad8db4edf0f71544459",
+      "occurred_on": "2026-04-28",
       "numbers": {}
     },
     "ev_CRUS_20260429_price": {
@@ -2157,16 +2211,6 @@
     "ev_CRUS_20260806_news0": {
       "id": "ev_CRUS_20260806_news0",
       "kind": "news",
-      "title": "Macom, SiTime Jump As Chip Stocks Stage Comeback",
-      "detail": "Reported by Yahoo. Chip stocks rallied on Thursday, helped by positive earnings reports from Macom Technology Solutions and SiTime.",
-      "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=6f19105182d4ffe169f0c1f2db89d4aac90dfaa3d2ed5942f4b80b4537344054",
-      "occurred_on": "2026-08-06",
-      "numbers": {}
-    },
-    "ev_CRUS_20260806_news1": {
-      "id": "ev_CRUS_20260806_news1",
-      "kind": "news",
       "title": "CRUS Q1 Earnings Beat on Smartphone Demand, Revenues Match Estimates",
       "detail": "Reported by Yahoo. Cirrus Logic posts record fiscal first-quarter earnings as premium smartphone demand offsets pricing pressure and PC delays.",
       "source": "Yahoo (via Finnhub company news)",
@@ -2174,8 +2218,8 @@
       "occurred_on": "2026-08-06",
       "numbers": {}
     },
-    "ev_CRUS_20260806_news2": {
-      "id": "ev_CRUS_20260806_news2",
+    "ev_CRUS_20260806_news1": {
+      "id": "ev_CRUS_20260806_news1",
       "kind": "news",
       "title": "Cirrus Logic, Inc. Q1 2027 Earnings Call Summary",
       "detail": "Reported by Yahoo. Moby summary of Cirrus Logic, Inc.'s Q1 2027 earnings call",
@@ -2184,8 +2228,8 @@
       "occurred_on": "2026-08-06",
       "numbers": {}
     },
-    "ev_CRUS_20260806_news3": {
-      "id": "ev_CRUS_20260806_news3",
+    "ev_CRUS_20260806_news2": {
+      "id": "ev_CRUS_20260806_news2",
       "kind": "news",
       "title": "Keybanc Maintains Overweight on Cirrus Logic, Lowers Price Target to $170",
       "detail": "Reported by Benzinga. Keybanc  analyst John Vinh   maintains Cirrus Logic (NASDAQ:CRUS) with a Overweight and lowers the price target from $190 to $170.",
@@ -2194,8 +2238,8 @@
       "occurred_on": "2026-08-06",
       "numbers": {}
     },
-    "ev_CRUS_20260806_news4": {
-      "id": "ev_CRUS_20260806_news4",
+    "ev_CRUS_20260806_news3": {
+      "id": "ev_CRUS_20260806_news3",
       "kind": "news",
       "title": "Stifel Maintains Buy on Cirrus Logic, Lowers Price Target to $160",
       "detail": "Reported by Benzinga. Stifel  analyst Tore Svanberg   maintains Cirrus Logic (NASDAQ:CRUS) with a Buy and lowers the price target from $197 to $160.",
@@ -2204,8 +2248,8 @@
       "occurred_on": "2026-08-06",
       "numbers": {}
     },
-    "ev_CRUS_20260806_news5": {
-      "id": "ev_CRUS_20260806_news5",
+    "ev_CRUS_20260806_news4": {
+      "id": "ev_CRUS_20260806_news4",
       "kind": "news",
       "title": "Barclays Maintains Equal-Weight on Cirrus Logic, Lowers Price Target to $130",
       "detail": "Reported by Benzinga. Barclays  analyst Tom O&#39;Malley   maintains Cirrus Logic (NASDAQ:CRUS) with a Equal-Weight and lowers the price target from $140 to $130.",
@@ -2214,24 +2258,34 @@
       "occurred_on": "2026-08-06",
       "numbers": {}
     },
-    "ev_CRUS_20260806_news6": {
-      "id": "ev_CRUS_20260806_news6",
-      "kind": "news",
-      "title": "Top 3 Tech Stocks That Could Lead To Your Biggest Gains This Quarter",
-      "detail": "Reported by Benzinga. The information tech sector has oversold stocks with an RSI below 30, a momentum indicator that can predict short term performance.",
-      "source": "Benzinga (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=bb83083dcbe04cd5823d2c4452299b9cfe0294fdafbe96edfd54c7f478eac6df",
-      "occurred_on": "2026-08-06",
-      "numbers": {}
-    },
-    "ev_CRUS_20260806_news7": {
-      "id": "ev_CRUS_20260806_news7",
+    "ev_CRUS_20260806_news5": {
+      "id": "ev_CRUS_20260806_news5",
       "kind": "news",
       "title": "Cirrus Logic Inc (CRUS) (Q1 2027) Earnings Call Highlights: Record Revenue and EPS Signal ...",
       "detail": "Reported by Yahoo. Cirrus Logic Inc (CRUS) posts record Q1 revenue of $460 million and EPS of $1.84, driven by strong smartphone demand and a robust HPMS pipeline.",
       "source": "Yahoo (via Finnhub company news)",
       "url": "https://finnhub.io/api/news?id=e6405689d9822227607ef3e9bee5ca541de43bde14773c4be1a37cbbc87797ad",
       "occurred_on": "2026-08-06",
+      "numbers": {}
+    },
+    "ev_CRUS_20260806_news6": {
+      "id": "ev_CRUS_20260806_news6",
+      "kind": "news",
+      "title": "Cirrus Logic Q1 Earnings Call Highlights",
+      "detail": "Reported by Yahoo. Cirrus Logic (NASDAQ:CRUS) reported record fiscal first-quarter revenue of $460 million for the June quarter, up 2% sequentially and 13% from a year earlier, driven by higher component sales into smartphones. The company posted GAAP earnings per share of $1.47 and non-GAAP earnings per share of $1.8",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=582793a4e6461f0a954781faaaddf4a8cb8e224db8a4b2df96c65cdf3eaef0f8",
+      "occurred_on": "2026-08-06",
+      "numbers": {}
+    },
+    "ev_CRUS_20260806_news7": {
+      "id": "ev_CRUS_20260806_news7",
+      "kind": "news",
+      "title": "Cirrus Logic (CRUS) Q1 Earnings Surpass Estimates",
+      "detail": "Reported by Yahoo. Cirrus Logic (CRUS) delivered earnings and revenue surprises of +2.22% and -0.03%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2245d509a9be57a2b07f5d72807de5a3357470c4da763d93973202d96d1db5ab",
+      "occurred_on": "2026-08-05",
       "numbers": {}
     },
     "ev_CRUS_20260902_price": {
@@ -2444,20 +2498,20 @@
     "ev_CRUS_20260915_news0": {
       "id": "ev_CRUS_20260915_news0",
       "kind": "news",
-      "title": "10-Year Yield Tops 5%, Oil Storms Past $105: Stock Market Today",
-      "detail": "Reported by Benzinga. The 10-year Treasury yield broke 5% for the first time since 2007 as WTI surged past $105 on Saudi pipeline outages, pressuring stocks ahead of the Fed.",
-      "source": "Benzinga (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=d1cab808ccf45cf13f1263e44cacc1adc587155103fca3659b6bbe4aa4db95f1",
+      "title": "Should You Buy Cirrus Logic Stock Because Its Buyback Got Cheaper?",
+      "detail": "Reported by Yahoo. Cirrus Logic (CRUS) stock has fallen about 27% in three months and trades roughly a third below its 52-week high. Investors are weighing a PC year that just got pushed out against a share count that keeps shrinking anyway. The buyback behind that is sturdier than the tape suggests: third in line for the cash, and still comfortably funded.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f5c52df628660c70e11df0b0273017eb583c03423d0de9bd062e078d4a2e2917",
       "occurred_on": "2026-09-15",
       "numbers": {}
     },
     "ev_CRUS_20260915_news1": {
       "id": "ev_CRUS_20260915_news1",
       "kind": "news",
-      "title": "Should You Buy Cirrus Logic Stock Because Its Buyback Got Cheaper?",
-      "detail": "Reported by Yahoo. Cirrus Logic (CRUS) stock has fallen about 27% in three months and trades roughly a third below its 52-week high. Investors are weighing a PC year that just got pushed out against a share count that keeps shrinking anyway. The buyback behind that is sturdier than the tape suggests: third in line for the cash, and still comfortably funded.",
-      "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=f5c52df628660c70e11df0b0273017eb583c03423d0de9bd062e078d4a2e2917",
+      "title": "10-Year Yield Tops 5%, Oil Storms Past $105: Stock Market Today",
+      "detail": "Reported by Benzinga. The 10-year Treasury yield broke 5% for the first time since 2007 as WTI surged past $105 on Saudi pipeline outages, pressuring stocks ahead of the Fed.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d1cab808ccf45cf13f1263e44cacc1adc587155103fca3659b6bbe4aa4db95f1",
       "occurred_on": "2026-09-15",
       "numbers": {}
     },
@@ -2523,20 +2577,20 @@
     "ev_CRUS_20260916_news0": {
       "id": "ev_CRUS_20260916_news0",
       "kind": "news",
-      "title": "10-Year Yield Tops 5%, Oil Storms Past $105: Stock Market Today",
-      "detail": "Reported by Benzinga. The 10-year Treasury yield broke 5% for the first time since 2007 as WTI surged past $105 on Saudi pipeline outages, pressuring stocks ahead of the Fed.",
-      "source": "Benzinga (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=d1cab808ccf45cf13f1263e44cacc1adc587155103fca3659b6bbe4aa4db95f1",
+      "title": "Should You Buy Cirrus Logic Stock Because Its Buyback Got Cheaper?",
+      "detail": "Reported by Yahoo. Cirrus Logic (CRUS) stock has fallen about 27% in three months and trades roughly a third below its 52-week high. Investors are weighing a PC year that just got pushed out against a share count that keeps shrinking anyway. The buyback behind that is sturdier than the tape suggests: third in line for the cash, and still comfortably funded.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f5c52df628660c70e11df0b0273017eb583c03423d0de9bd062e078d4a2e2917",
       "occurred_on": "2026-09-15",
       "numbers": {}
     },
     "ev_CRUS_20260916_news1": {
       "id": "ev_CRUS_20260916_news1",
       "kind": "news",
-      "title": "Should You Buy Cirrus Logic Stock Because Its Buyback Got Cheaper?",
-      "detail": "Reported by Yahoo. Cirrus Logic (CRUS) stock has fallen about 27% in three months and trades roughly a third below its 52-week high. Investors are weighing a PC year that just got pushed out against a share count that keeps shrinking anyway. The buyback behind that is sturdier than the tape suggests: third in line for the cash, and still comfortably funded.",
-      "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=f5c52df628660c70e11df0b0273017eb583c03423d0de9bd062e078d4a2e2917",
+      "title": "10-Year Yield Tops 5%, Oil Storms Past $105: Stock Market Today",
+      "detail": "Reported by Benzinga. The 10-year Treasury yield broke 5% for the first time since 2007 as WTI surged past $105 on Saudi pipeline outages, pressuring stocks ahead of the Fed.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d1cab808ccf45cf13f1263e44cacc1adc587155103fca3659b6bbe4aa4db95f1",
       "occurred_on": "2026-09-15",
       "numbers": {}
     },
@@ -2646,20 +2700,19 @@
       }
     }
   },
-  "arc": "Cirrus Logic experienced a pronounced boom-and-bust cycle between March and September 2026. The stock initially peaked above $164 in mid-April supported by product expansions in industrial imaging and target increases from Wall Street analysts. However, sentiment deteriorated sharply over the summer as broader semiconductor demand anxieties were compounded by Cirrus Logic's Q1 fiscal 2027 update. Despite reporting record top-line revenue of $460 million, disclosures of PC market pushouts and component pricing pressure prompted widespread analyst target cuts and sent shares tumbling toward $109 by early September. A partial recovery took hold in mid-September as value screens and ongoing share buybacks drew dip-buyers back into the stock.",
+  "arc": "Cirrus Logic experienced a turbulent six-month trajectory, initially reaching highs above $170 in April before undergoing a protracted slide down toward $110 by late summer. The earlier gains were fueled by company-specific catalysts, notably its inclusion in Apple's American Manufacturing Program and product expansion into industrial imaging ICs. However, sentiment deteriorated sharply from late April through August due to emerging reports of demand headwinds, PC segment roll-out delays, and pricing pressure\u2014which culminated in a series of price target reductions following its Q1 fiscal 2027 earnings release. By September, after losing over a quarter of its value from mid-year levels, the stock found dip-buying support around perceived valuation bottoms and share repurchase backing, though it continued to exhibit elevated volatility alongside macro pressures such as surging Treasury yields.",
   "arc_citation_ids": [
-    "ev_CRUS_20260416_price",
+    "ev_CRUS_20260326_news2",
     "ev_CRUS_20260416_news0",
-    "ev_CRUS_20260416_news4",
-    "ev_CRUS_20260428_news0",
-    "ev_CRUS_20260806_price",
-    "ev_CRUS_20260806_news1",
+    "ev_CRUS_20260428_news3",
+    "ev_CRUS_20260714_news1",
+    "ev_CRUS_20260806_news0",
+    "ev_CRUS_20260806_news2",
     "ev_CRUS_20260806_news3",
     "ev_CRUS_20260806_news4",
-    "ev_CRUS_20260806_news5",
-    "ev_CRUS_20260806_news7",
-    "ev_CRUS_20260902_price",
-    "ev_CRUS_20260915_news1"
+    "ev_CRUS_20260902_news0",
+    "ev_CRUS_20260915_news0",
+    "ev_CRUS_20260916_news1"
   ],
   "warnings": []
 }

@@ -1,7 +1,7 @@
 {
   "symbol": "MU",
   "company_name": "Micron Technology, Inc.",
-  "generated_at": "2026-09-26T12:31:28.867310+00:00",
+  "generated_at": "2026-09-26T12:49:24.880636+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,12 +1320,15 @@
       "pct_change": -9.915,
       "close": 321.8,
       "direction": "down",
-      "headline": "MU drops 9.9% on heavy trading volume",
-      "explanation": "Micron fell 9.91% to close at $321.80 on volume 2.88 times its 30-day average. No company-specific news accompanied the drop, and customer NVIDIA declined a milder 1.40% the same day, indicating an isolated selloff.",
-      "confidence": "low",
+      "headline": "Micron drops 9.9% amid algorithm fears and slump",
+      "explanation": "Micron tumbled 9.91% to $321.80 on 2.9 times its average volume, underperforming its customer Nvidia, which slipped just 1.40%. The decline was driven by investor concerns surrounding TurboQuant, an algorithm improving memory efficiency, alongside an ongoing post-earnings correction. Google's technological advancements also added downward pressure on memory makers.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MU_20260330_price",
-        "ev_MU_20260330_peer_NVDA"
+        "ev_MU_20260330_peer_NVDA",
+        "ev_MU_20260330_news1",
+        "ev_MU_20260330_news3",
+        "ev_MU_20260330_news5"
       ]
     },
     {
@@ -1333,13 +1336,14 @@
       "pct_change": 8.883,
       "close": 367.85,
       "direction": "up",
-      "headline": "MU rallies 8.9% following Form 8-K filing",
-      "explanation": "Micron gained 8.88% to close at $367.85 on trading volume 2.90 times normal following the filing of a Form 8-K. The advance was company-specific, as customer NVIDIA gained only 0.77% on the day.",
-      "confidence": "medium",
+      "headline": "Micron jumps 8.9% in broad memory rebound",
+      "explanation": "Micron gained 8.88% to close at $367.85 on 2.9 times average volume, sharply outpacing customer Nvidia's modest 0.77% gain. The rally was driven by a sector-wide rebound in memory and data-storage stocks as investors rotated back into AI infrastructure names. SanDisk also surged roughly 9% during the session as risk-on sentiment returned.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MU_20260401_price",
         "ev_MU_20260401_peer_NVDA",
-        "ev_MU_20260401_filing_000110465926038249"
+        "ev_MU_20260401_news1",
+        "ev_MU_20260401_news5"
       ]
     },
     {
@@ -1347,12 +1351,14 @@
       "pct_change": 11.059,
       "close": 640.2,
       "direction": "up",
-      "headline": "MU surges 11.1% despite customer NVIDIA dip",
-      "explanation": "Micron jumped 11.06% to $640.20 with trading activity reaching 2.51 times the 30-day average. No company-specific news was provided to explain the gain, which decoupled from customer NVIDIA as it fell 1.00%.",
-      "confidence": "low",
+      "headline": "Micron leaps 11.1% on memory price increases",
+      "explanation": "Micron surged 11.06% to $640.20 on elevated volume, while customer Nvidia dropped 1.00%. The rally was propelled by severe memory supply shortages, prompting dramatic price hikes on critical products that boosted gross margins. The surge pushed Micron's market capitalization past $700 billion for the first time.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MU_20260505_price",
-        "ev_MU_20260505_peer_NVDA"
+        "ev_MU_20260505_peer_NVDA",
+        "ev_MU_20260505_news0",
+        "ev_MU_20260505_news2"
       ]
     },
     {
@@ -1360,12 +1366,14 @@
       "pct_change": 15.493,
       "close": 746.81,
       "direction": "up",
-      "headline": "MU advances 15.5% on elevated volume",
-      "explanation": "Micron rose 15.49% to $746.81 on 2.54 times average volume, extending its recent surge. No company-specific news was provided for the move, though customer NVIDIA also traded higher by 1.75%.",
-      "confidence": "low",
+      "headline": "Micron rallies 15.5% on AI memory supercycle thesis",
+      "explanation": "Micron climbed 15.49% to $746.81, notably outpacing customer Nvidia's 1.75% advance. The move was fueled by an AI memory supercycle narrative amid overwhelming demand and restricted industry supply. Peer memory makers SanDisk and Western Digital also surged alongside Micron during the rally.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MU_20260508_price",
-        "ev_MU_20260508_peer_NVDA"
+        "ev_MU_20260508_peer_NVDA",
+        "ev_MU_20260508_news4",
+        "ev_MU_20260508_news5"
       ]
     },
     {
@@ -1373,12 +1381,17 @@
       "pct_change": 19.292,
       "close": 895.88,
       "direction": "up",
-      "headline": "MU gains 19.3% in sharp upward breakout",
-      "explanation": "Micron advanced 19.29% to close at $895.88 on volume 2.99 times its 30-day average. The rally was distinct to Micron, as customer NVIDIA slipped 0.22%, but no company-specific news was cited.",
-      "confidence": "low",
+      "headline": "Micron tops $1T valuation with 19.3% surge",
+      "explanation": "Micron surged 19.29% to $895.88, while customer Nvidia edged down 0.22%. Continued surges in AI infrastructure memory pricing and enhanced long-term agreements propelled the stock. The move pushed Micron's market valuation above $1 trillion in its strongest trading session since 2011.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MU_20260526_price",
-        "ev_MU_20260526_peer_NVDA"
+        "ev_MU_20260526_peer_NVDA",
+        "ev_MU_20260526_news0",
+        "ev_MU_20260526_news2",
+        "ev_MU_20260526_news3",
+        "ev_MU_20260526_news6",
+        "ev_MU_20260526_news7"
       ]
     },
     {
@@ -1386,12 +1399,15 @@
       "pct_change": -7.741,
       "close": 996.0,
       "direction": "down",
-      "headline": "MU slides 7.7% while customer NVIDIA gains",
-      "explanation": "Micron dropped 7.74% to $996.00 on volume 2.14 times average after trading above $1079. No company-specific news explained the pullback, which was company-specific as customer NVIDIA rose 1.82%.",
-      "confidence": "low",
+      "headline": "Micron falls 7.7% on pricing ceiling warnings",
+      "explanation": "Micron declined 7.74% to $996.00, contrasting with customer Nvidia's 1.82% gain. The drop was triggered by analyst warnings that memory-chip prices might be approaching an early peak. Micron was also pressured by a broader AI semiconductor selloff following weak results from Broadcom.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MU_20260604_price",
-        "ev_MU_20260604_peer_NVDA"
+        "ev_MU_20260604_peer_NVDA",
+        "ev_MU_20260604_news1",
+        "ev_MU_20260604_news2",
+        "ev_MU_20260604_news5"
       ]
     },
     {
@@ -1399,12 +1415,15 @@
       "pct_change": -13.252,
       "close": 864.01,
       "direction": "down",
-      "headline": "MU falls 13.3% in shared downturn with NVIDIA",
-      "explanation": "Micron declined 13.25% to $864.01 on heavy volume 3.01 times its normal level. No company-specific catalyst was provided, and the loss was shared with customer NVIDIA, which dropped 6.20% the same day.",
-      "confidence": "low",
+      "headline": "Micron slides 13.3% as chip selloff deepens",
+      "explanation": "Micron dropped 13.25% to $864.01, sliding in tandem with customer Nvidia, which dropped 6.20%. Broad global chip market weakness following the Broadcom earnings overhang and an unexpected jobs report weighed heavily on semiconductor names. The downturn persisted despite news that Micron had qualified to supply high-bandwidth memory for Nvidia's next-generation platform.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MU_20260605_price",
-        "ev_MU_20260605_peer_NVDA"
+        "ev_MU_20260605_peer_NVDA",
+        "ev_MU_20260605_news0",
+        "ev_MU_20260605_news2",
+        "ev_MU_20260605_news4"
       ]
     },
     {
@@ -1412,13 +1431,15 @@
       "pct_change": 11.66,
       "close": 995.87,
       "direction": "up",
-      "headline": "MU rebounds 11.7% following recent 8-K filing",
-      "explanation": "Micron climbed 11.66% to $995.87 on 2.32 times average volume, two days after submitting a Form 8-K filing on June 9. Customer NVIDIA also moved higher, rising 2.22% on the session.",
-      "confidence": "medium",
+      "headline": "Micron rebounds 11.7% on pricing forecasts",
+      "explanation": "Micron shares bounced 11.66% to $995.87, advancing alongside customer Nvidia's 2.22% rise. The rebound was supported by forecasts that DRAM and NAND prices could triple by the end of 2026, alongside bullish analyst coverage from Wolfe Research. Broader chip stocks also rallied as market-wide geopolitical tensions eased.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MU_20260611_price",
         "ev_MU_20260611_peer_NVDA",
-        "ev_MU_20260611_filing_000110465926071845"
+        "ev_MU_20260611_news0",
+        "ev_MU_20260611_news1",
+        "ev_MU_20260611_news3"
       ]
     },
     {
@@ -1426,12 +1447,15 @@
       "pct_change": -13.176,
       "close": 1051.77,
       "direction": "down",
-      "headline": "MU sheds 13.2% as customer NVIDIA retreats",
-      "explanation": "Micron sank 13.18% to $1051.77 on volume 2.35 times its 30-day average. The downward move was shared with customer NVIDIA, which shed 4.13%, with no company-specific news provided in the evidence.",
-      "confidence": "low",
+      "headline": "Micron slides 13.2% as SK Hynix slows HBM plans",
+      "explanation": "Micron retreated 13.18% to $1,051.77, while customer Nvidia fell 4.13%. A report that South Korean competitor SK Hynix was slowing its HBM capacity expansion rattled investor sentiment across memory chipmakers. The slump was shared with Asian peers Samsung and SK Hynix ahead of Micron's scheduled earnings report.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MU_20260623_price",
-        "ev_MU_20260623_peer_NVDA"
+        "ev_MU_20260623_peer_NVDA",
+        "ev_MU_20260623_news1",
+        "ev_MU_20260623_news4",
+        "ev_MU_20260623_news6"
       ]
     },
     {
@@ -1439,14 +1463,15 @@
       "pct_change": 15.741,
       "close": 1213.5601,
       "direction": "up",
-      "headline": "MU jumps 15.7% after 10-Q and 8-K filings",
-      "explanation": "Micron rallied 15.74% to close at $1213.56 on 3.20 times average volume. The jump was supported by a Form 10-Q filed the same day alongside an 8-K filed on June 24, while customer NVIDIA fell 1.64%.",
+      "headline": "Micron rallies 15.7% on blowout Q3 earnings",
+      "explanation": "Micron jumped 15.74% to $1,213.56 even as customer Nvidia slipped 1.64%. The company reported fiscal Q3 revenue up 346% year-over-year to $41.46 billion and net profits of $28.24 billion, alongside next-quarter sales guidance of $50 billion. Management reported locking in $100 billion in contracts with persistent supply shortages.",
       "confidence": "high",
       "citation_ids": [
         "ev_MU_20260625_price",
         "ev_MU_20260625_peer_NVDA",
         "ev_MU_20260625_filing_000072312526000015",
-        "ev_MU_20260625_filing_000072312526000013"
+        "ev_MU_20260625_news0",
+        "ev_MU_20260625_news1"
       ]
     },
     {
@@ -1454,12 +1479,15 @@
       "pct_change": -8.85,
       "close": 820.53,
       "direction": "down",
-      "headline": "MU tumbles 8.9% on 2.4x average volume",
-      "explanation": "Micron decreased 8.85% to $820.53 with trading volume reaching 2.38 times normal levels. There was no company-specific news to account for the drop, which occurred while customer NVIDIA gained 0.25%.",
-      "confidence": "low",
+      "headline": "Micron drops 8.9% in memory group selloff",
+      "explanation": "Micron dropped 8.85% to $820.53, diverging from customer Nvidia's 0.25% gain. The decline was part of a sharp pullback across memory names, including SanDisk and Western Digital, spurred by industry-wide pricing concerns tied to China's CXMT. Investors also exercised caution ahead of major tech earnings reports.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MU_20260728_price",
-        "ev_MU_20260728_peer_NVDA"
+        "ev_MU_20260728_peer_NVDA",
+        "ev_MU_20260728_news5",
+        "ev_MU_20260728_news6",
+        "ev_MU_20260728_news7"
       ]
     },
     {
@@ -1467,12 +1495,14 @@
       "pct_change": 18.357,
       "close": 874.66,
       "direction": "up",
-      "headline": "MU surges 18.4% alongside customer NVIDIA",
-      "explanation": "Micron climbed 18.36% to finish at $874.66 on volume 2.46 times its 30-day average. No company-specific news was reported, though customer NVIDIA also traded up, gaining 2.65% the same day.",
-      "confidence": "low",
+      "headline": "Micron surges 18.4% on prolonged shortage warnings",
+      "explanation": "Micron rose 18.36% to $874.66, accompanied by a 2.65% increase in customer Nvidia. The jump was powered by Samsung warning that memory capacity shortages could persist through 2028, reinforcing expectations of sustained elevated pricing. Apple also validated the shortage by noting that rising memory component costs continued to pressure its own margins.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MU_20260730_price",
-        "ev_MU_20260730_peer_NVDA"
+        "ev_MU_20260730_peer_NVDA",
+        "ev_MU_20260730_news2",
+        "ev_MU_20260730_news4"
       ]
     }
   ],
@@ -1507,6 +1537,86 @@
         "subject_pct_change": -9.915,
         "relationship": "customer"
       }
+    },
+    "ev_MU_20260330_news0": {
+      "id": "ev_MU_20260330_news0",
+      "kind": "news",
+      "title": "Dow Jones Futures: Nasdaq Falls After Trump, Powell Comments; Micron, Nvidia, Palantir, Tesla Are Key Losers",
+      "detail": "Reported by DowJones. Dow Jones Futures: Nasdaq Falls After Trump, Powell Comments; Micron, Nvidia, Palantir, Tesla Are Key Losers",
+      "source": "DowJones (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b155c8f1356e430663879928ef9d69cf57dd5a1aad9024d235383ebd40aaa02e",
+      "occurred_on": "2026-03-30",
+      "numbers": {}
+    },
+    "ev_MU_20260330_news1": {
+      "id": "ev_MU_20260330_news1",
+      "kind": "news",
+      "title": "Stock Market Today, March 30: Micron Technology Falls on TurboQuant Shock",
+      "detail": "Reported by Yahoo. Today, March 30, 2026, investors are weighing record AI-fueled growth against a new, memory-efficient algorithm.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5490e7c936c19619609178bef9ff94c5f8418d304ae6fce2be568c1e20c1500c",
+      "occurred_on": "2026-03-30",
+      "numbers": {}
+    },
+    "ev_MU_20260330_news2": {
+      "id": "ev_MU_20260330_news2",
+      "kind": "news",
+      "title": "Micron Technology, Fannie Mae, Bullfrog AI, ServiceNow And AMC: Why These 5 Stocks Are On Investors' Radars Today",
+      "detail": "Reported by Benzinga. Major U.S. indexes closed Monday on a mixed note, with the Dow Jones Industrial Average rising 0.1% to 45,216.14, while the S&amp;P 500 fell 0.39% to 6,343.72.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d63000fc546f0d62616e373507c4dbc4a74bebd583dd689918b3a6c15b22dab8",
+      "occurred_on": "2026-03-30",
+      "numbers": {}
+    },
+    "ev_MU_20260330_news3": {
+      "id": "ev_MU_20260330_news3",
+      "kind": "news",
+      "title": "Micron Stock Drops Nearly 10% as Post-Earnings Slump Deepens",
+      "detail": "Reported by Yahoo. Shares in Micron Technology, the largest American maker of memory chips, fell 9.9% on Monday, compounding losses after investors digested the memory company\u2019s blowout earnings report earlier this month.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=84e5206bd9fefce785f28d73f798cad0411ed6390901fffe3da36c720c2b4188",
+      "occurred_on": "2026-03-30",
+      "numbers": {}
+    },
+    "ev_MU_20260330_news4": {
+      "id": "ev_MU_20260330_news4",
+      "kind": "news",
+      "title": "Micron Stock Cools Off \u2014 Is MU Now Too Cheap to Ignore?",
+      "detail": "Reported by Yahoo. Despite the decline, Micron\u2019s underlying growth outlook remains strong. Analysts expect Micron\u2019s earnings to increase sharply in the coming years.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0be399e39822d9f5f930d05199321e4a24b197773879af7e6804df77610621e9",
+      "occurred_on": "2026-03-30",
+      "numbers": {}
+    },
+    "ev_MU_20260330_news5": {
+      "id": "ev_MU_20260330_news5",
+      "kind": "news",
+      "title": "Google Just Announced Really Bad News for Micron and Sandisk",
+      "detail": "Reported by Yahoo. One tech executive described this latest innovation as \"Google's DeepSeek\" moment.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3218ce27eed076076b27a4f274843ffe2068feede1f472f9c7f4e95a0648d070",
+      "occurred_on": "2026-03-30",
+      "numbers": {}
+    },
+    "ev_MU_20260330_news6": {
+      "id": "ev_MU_20260330_news6",
+      "kind": "news",
+      "title": "Micron Just Gave Incredible News to Investors of This AI Infrastructure Stock That Has Tripled in a Year",
+      "detail": "Reported by Yahoo. Micron Technology is going to spend more money to meet the strong demand for memory chips, which is great news for this equipment supplier.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=316174741edf59d483b8406c73e135ff46558d408160f98c0b93291bf43b2940",
+      "occurred_on": "2026-03-30",
+      "numbers": {}
+    },
+    "ev_MU_20260330_news7": {
+      "id": "ev_MU_20260330_news7",
+      "kind": "news",
+      "title": "Why Micron Stock Dropped Again Today",
+      "detail": "Reported by Yahoo. Micron stock rocketed on HBM demand. But how long can this last?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3252642e86095e5d53777cbbeea895f2f1dceb8719c8b7ab640d8e6685304b10",
+      "occurred_on": "2026-03-30",
+      "numbers": {}
     },
     "ev_MU_20260401_price": {
       "id": "ev_MU_20260401_price",
@@ -1549,6 +1659,86 @@
       "occurred_on": "2026-04-01",
       "numbers": {}
     },
+    "ev_MU_20260401_news0": {
+      "id": "ev_MU_20260401_news0",
+      "kind": "news",
+      "title": "Why Micron Stock Skyrocketed Today",
+      "detail": "Reported by Yahoo. After facing some bearish pressures, Micron stock just had a huge bullish day on the market.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3f5b580915082a92ace626c9983213c85a8c47c27727fa85e11331d68e06628d",
+      "occurred_on": "2026-04-01",
+      "numbers": {}
+    },
+    "ev_MU_20260401_news1": {
+      "id": "ev_MU_20260401_news1",
+      "kind": "news",
+      "title": "Micron, Sandisk Soar on Strong Day for Chipmakers",
+      "detail": "Reported by Yahoo. The S&P 500\u2019s performance on Wednesday has been led by some of the biggest makers of the infrastructure needed for artificial intelligence. Shares of the largest U.S. memory-chip maker, Micron Technology, and flash memory maker Sandisk jumped about 9% in afternoon trading.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=881f3da4ad3b7cc682a6cc37f32b87a26fc5716b5cdeaf84e0b80ee613eb5a73",
+      "occurred_on": "2026-04-01",
+      "numbers": {}
+    },
+    "ev_MU_20260401_news2": {
+      "id": "ev_MU_20260401_news2",
+      "kind": "news",
+      "title": "Micron Revenue Smashes Expectations, but Wall Street Yawns",
+      "detail": "Reported by Yahoo. When companies beat revenue and earnings expectations as much as Micron Technologies did in its most recent quarter, the market often heaps on praise for stellar results. Not this time, though.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c414e7dd16de71a8f72829aa4e54a6afaecf12f65796419fb382c91897ed09d0",
+      "occurred_on": "2026-04-01",
+      "numbers": {}
+    },
+    "ev_MU_20260401_news3": {
+      "id": "ev_MU_20260401_news3",
+      "kind": "news",
+      "title": "Micron Technology (MU): Billionaire Ray Dalio Is Loading Up on This Chip Stock",
+      "detail": "Reported by Yahoo. Micron Technology, Inc. (NASDAQ:MU) is one of the 15 Best Stocks to Buy According to Billionaire Ray Dalio. Micron Technology, Inc. (NASDAQ:MU) is one of the favorite chip stocks of Ray Dalio. It has featured in the 13F portfolio of Bridgewater Associates, with minor exceptions, since late 2011. The latest holding is a new one, [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a11cf858bc851dc21723da8b7efdf1e573bd9a05c73e36b19a726d10445266e5",
+      "occurred_on": "2026-04-01",
+      "numbers": {}
+    },
+    "ev_MU_20260401_news4": {
+      "id": "ev_MU_20260401_news4",
+      "kind": "news",
+      "title": "Crisis of Memory: Citi Just Cut Its Micron Stock Price Target by 16%",
+      "detail": "Reported by Yahoo. Memory prices are softening after Google figured out a way to make memory usage more efficient. Is this the death knell for MU stock, or will it end up being a long-term winner?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a127c887f2bca64a520c6e86e9df4c7edc35a77e47c255d51c6a35cb52d93919",
+      "occurred_on": "2026-04-01",
+      "numbers": {}
+    },
+    "ev_MU_20260401_news5": {
+      "id": "ev_MU_20260401_news5",
+      "kind": "news",
+      "title": "Micron, Other Memory Stocks Are Leading the Rally. Markets Are Back in Risk-On Mode.",
+      "detail": "Reported by Yahoo. Micron Technology  and its memory and data-storage peers led the market higher on Wednesday.  Investors are rotating back to momentum stocks after a brutal March.  Micron shares, which are leading the  rose by 11%.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=55a936b8973227a253bedc1bf5d3dc22714741a369fa7b0dc00d04aa07ad5014",
+      "occurred_on": "2026-04-01",
+      "numbers": {}
+    },
+    "ev_MU_20260401_news6": {
+      "id": "ev_MU_20260401_news6",
+      "kind": "news",
+      "title": "Analysts Bullish on Micron Technology\u00a0(MU) Amid Robust AI Demand",
+      "detail": "Reported by Yahoo. Micron Technology, Inc. (NASDAQ:MU) earns a spot on our list of 8 Best AI Infrastructure Stocks to Invest in. As of March 30, 2026, 94% of the covering analysts maintain bullish ratings on Micron Technology, Inc. (NASDAQ:MU), indicating that analyst sentiment remains robust. A 53.97% upside is implied by the consensus price target of $550.00. [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4f23b24f5168070aee7c5581cc37bf03303f9dd7b5f666c821c6197e669568ae",
+      "occurred_on": "2026-04-01",
+      "numbers": {}
+    },
+    "ev_MU_20260401_news7": {
+      "id": "ev_MU_20260401_news7",
+      "kind": "news",
+      "title": "Strong Analyst Sentiment on Micron Technology (MU) Following Better-Than-Expected Fiscal Q2 2026 Results",
+      "detail": "Reported by Yahoo. Micron Technology, Inc. (NASDAQ:MU) is among our picks on the list titled billionaire portfolio: 7 cheap stocks top billionaires are accumulating. Micron Technology, Inc. (NASDAQ:MU) is receiving strong confidence from Wall Street as of March 27, 2026, with a majority of covering analysts remaining bullish on the stock. Based on the $555 consensus price target, [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e34c533521e4faf7a69a7f83310b370fc51a09f21e2693a9fd686a359ca5ecdc",
+      "occurred_on": "2026-04-01",
+      "numbers": {}
+    },
     "ev_MU_20260505_price": {
       "id": "ev_MU_20260505_price",
       "kind": "price",
@@ -1579,6 +1769,86 @@
         "subject_pct_change": 11.059,
         "relationship": "customer"
       }
+    },
+    "ev_MU_20260505_news0": {
+      "id": "ev_MU_20260505_news0",
+      "kind": "news",
+      "title": "Still Time to Pay Up for Micron & Sandisk Stock?",
+      "detail": "Reported by Yahoo. Amid severe supply shortages, Micron and Sandisk have raised prices dramatically on critical memory products, fueling a stunning surge in their gross margins.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1a327a222eca0eb8f5c8608b878af716b7332787f530c0f87a0683657e1261e8",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_MU_20260505_news1": {
+      "id": "ev_MU_20260505_news1",
+      "kind": "news",
+      "title": "AMD, Super Micro Computer, Intel, Arista Networks And Micron Technology: Why These 5 Stocks Are On Investors' Radars Today",
+      "detail": "Reported by Benzinga. Major U.S. indices ended Tuesday higher, with the\u00a0Dow Jones Industrial Average\u00a0climbing 0.73% to 49,298.25.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d685f98a7963c818e69db0fb92f317306fa1006954859166822ce19ad6ad74bd",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_MU_20260505_news2": {
+      "id": "ev_MU_20260505_news2",
+      "kind": "news",
+      "title": "Micron Surpasses $700 Billion Market Cap for the First Time. The Stock Is Surging.",
+      "detail": "Reported by Yahoo. Micron Technology stock surges and closes with a market cap above $700 billion for the first time on record. Memory stocks may not be cyclical this time, a new report says.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=af50e2a104d07bec1c52acc223b3392ac41715d451d023207e235992f682ef78",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_MU_20260505_news3": {
+      "id": "ev_MU_20260505_news3",
+      "kind": "news",
+      "title": "Micron stock is surging, hitting a new intraday record high. Why?",
+      "detail": "Reported by Yahoo. The semiconductor sector (SOXX) has seen a lot of momentum this year.  Yahoo Finance Senior Business Reporter Ines Ferr\u00e9 zooms in on Micron (MU) in particular, highlighting the factors driving the stock's recent gains.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=28e6ee2aa9ab50830a43b339c120f673fe2d73d61becafa2dacd42ec74be55e0",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_MU_20260505_news4": {
+      "id": "ev_MU_20260505_news4",
+      "kind": "news",
+      "title": "AMD, Intel and Micron Lead Chip Stocks Rally on U.S--Iran Ceasefire Optimism",
+      "detail": "Reported by Yahoo. Semiconductor Stocks Surge on AI Demand and Risk-On Wave",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=685184ef657e229668944ad0feca48bd969dad44528cb4c7deb6b94eb0f4f7d2",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_MU_20260505_news5": {
+      "id": "ev_MU_20260505_news5",
+      "kind": "news",
+      "title": "Apple CEO has stark message for Micron stock investors",
+      "detail": "Reported by Yahoo. It\u2019s unusual for Apple (AAPL) to signal anything about its suppliers, but Tim Cook broke from that pattern, a move that has clear implications for Micron Technology (MU) investors. For perspective, Micron has ridden a tidal wave of AI memory demand over the past several quarters, a trend ...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ebbd92caa26c988c407e1e3563a72037fd01357263bd2515d03c036561d52c38",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_MU_20260505_news6": {
+      "id": "ev_MU_20260505_news6",
+      "kind": "news",
+      "title": "Micron Technology Huge, Unusual Put Option Activity - a Bullish Signal as MU Rises 12%",
+      "detail": "Reported by Yahoo. Micron Technology stock has been on a tear. It's up 100% since a recent trough on March 30. It's up 12% today, and put option premiums in MU are sky high with unusual options activity, a bullish signal.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3f6d2d60b269d5d068cef3588627f8a2dcd64b79dad045bab50350c30ff463a6",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_MU_20260505_news7": {
+      "id": "ev_MU_20260505_news7",
+      "kind": "news",
+      "title": "Stock Market Today: Dow Climbs, Nasdaq Leaps As Techs Charge Up; Micron Booms (Live Coverage)",
+      "detail": "Reported by Yahoo. The Dow Jones index rose Tuesday amid rising U.S.-Iran tensions. Palantir stock sold off on earnings.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d3d114767f534b40686d2373a6ab0168d842941a9038f59cdf038fc145c2ca8c",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
     },
     "ev_MU_20260508_price": {
       "id": "ev_MU_20260508_price",
@@ -1611,6 +1881,86 @@
         "relationship": "customer"
       }
     },
+    "ev_MU_20260508_news0": {
+      "id": "ev_MU_20260508_news0",
+      "kind": "news",
+      "title": "This new AI trade is leaving Nvidia and Micron in the dust",
+      "detail": "Reported by Yahoo. Western Digital and Seagate have overtaken Nividia and Micron since the ChatGPT launch.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fdb9863a5b444ad8b6f55dda05446099137fa47b2e76c6d656d9c358421b652a",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_MU_20260508_news1": {
+      "id": "ev_MU_20260508_news1",
+      "kind": "news",
+      "title": "Why Micron Technology Stock Popped Today",
+      "detail": "Reported by Yahoo. Micron surges after Bernstein sticks to bullish $510 target amid price surge fears",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=02f4fbbeda3987d8100938fc7f3b63198d4b8d5c4f3e837811319765af189ce1",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_MU_20260508_news2": {
+      "id": "ev_MU_20260508_news2",
+      "kind": "news",
+      "title": "Kevin Simpson writes covered calls on Intel and Micron",
+      "detail": "Reported by CNBC. Kevin Simpson, Capital Wealth Planning founder and CIO, joins CNBC\u2019s \u201cClosing Bell\u201d to detail his covered call strategy with Intel and Micron.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=08912207e49dee1b9cf509957efaa2abe794099867c65b6862bf4a13d9069d87",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_MU_20260508_news3": {
+      "id": "ev_MU_20260508_news3",
+      "kind": "news",
+      "title": "Micron (MU) is an Incredible Growth Stock: 3 Reasons Why",
+      "detail": "Reported by Yahoo. Micron (MU) could produce exceptional returns because of its solid growth attributes.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=015d34bbcb6a379ffdc7214201aa2d39e5a8fe7d86e5c4ec664b944e066a3fb5",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_MU_20260508_news4": {
+      "id": "ev_MU_20260508_news4",
+      "kind": "news",
+      "title": "Memory Stocks Continue to Surge. What\u2019s Driving Micron and Sandisk Higher.",
+      "detail": "Reported by Yahoo. Micron Technology  and  Sandisk  stock continued their historic rally this week, thanks to a flurry of headlines signaling overwhelming demand and limited supply for memory.  Micron, the memory chip maker, jumped 11% Friday, putting it on pace to end the week up 32%.  Sandisk  which specializes in flash memory, rose 12% Friday.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=97d82b0a753739bb47505bc469bde5ce385d912a64b922a0d2a462a63f157028",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_MU_20260508_news5": {
+      "id": "ev_MU_20260508_news5",
+      "kind": "news",
+      "title": "Micron Rockets 11%, SanDisk Rallies 11%, Western Digital Up 3% on AI Memory Supercycle Bull Case",
+      "detail": "Reported by Yahoo. Memory and storage stocks are surging in mid-morning Friday trading as the AI memory supercycle thesis goes fully mainstream. Micron Technology (NASDAQ:MU) stock is up 11%, SanDisk (NASDAQ:SNDK) stock is also up 11%, and Western Digital (NASDAQ:WDC) stock is up 3%. The synchronized move extends a parabolic stretch for the group. Micron stock has climbed ... Micron Rockets 11%, SanDisk Rallies 11%, Western Digital Up 3% on AI Memory Supercycle Bull Case",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1378b5b25c8bd6763ac8dadc18f9a1299e009b5688710832e565c559b39cdcd1",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_MU_20260508_news6": {
+      "id": "ev_MU_20260508_news6",
+      "kind": "news",
+      "title": "Micron's monster run hits seventh straight record high",
+      "detail": "Reported by Yahoo. Micron's AI memory rally is still running hot.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d98f20611812f4d2278abcef917f683a1f0e10c8243e44c82cbd976773d1dc16",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_MU_20260508_news7": {
+      "id": "ev_MU_20260508_news7",
+      "kind": "news",
+      "title": "Micron\u2019s monster run hits 7th straight record high",
+      "detail": "Reported by Yahoo. Micron's AI memory rally is still running hot.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=138b284eb9ae02a5bafd9a14327c35d6996f4c8c51fffaba3c55b939183ccb36",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
     "ev_MU_20260526_price": {
       "id": "ev_MU_20260526_price",
       "kind": "price",
@@ -1641,6 +1991,86 @@
         "subject_pct_change": 19.292,
         "relationship": "customer"
       }
+    },
+    "ev_MU_20260526_news0": {
+      "id": "ev_MU_20260526_news0",
+      "kind": "news",
+      "title": "Micron Stock Is 'Too Cheap,' Says Ross Gerber, While Jim Cramer Calls Trillion-Dollar Club Move A 'New Era'",
+      "detail": "Reported by Benzinga. MU hit a $1 trillion valuation as Cramer called it a new era for chip stocks and Ross Gerber said the AI-driven rally still has room to run.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=78b49dce950cad1d1b180ab1c7115b46a568de0a910128ee0be74afbff1a3d3a",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_MU_20260526_news1": {
+      "id": "ev_MU_20260526_news1",
+      "kind": "news",
+      "title": "Micron Technology, Zscaler, Redwire, Intuitive Machines And AMD: Why These 5 Stocks Are On Investors' Radars Today",
+      "detail": "Reported by Benzinga. MU, ZS, RDW, LUNR, AMD were among the stocks seen trending on Tuesday, May 26, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9aa750c77354d06035476b1021d4de377cc56755451cb0319243ab96917bf927",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_MU_20260526_news2": {
+      "id": "ev_MU_20260526_news2",
+      "kind": "news",
+      "title": "Dow Jones Futures: S&P 500, Nasdaq Hit Highs, Micron Tops $1 Trillion; 5 AI Stocks In Buy Areas",
+      "detail": "Reported by Yahoo. The S&P 500, Nasdaq and Russell 2000 hit new highs as Micron surged to top a $1 trillion market cap. Caterpillar, Viavi flashed buy signals.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4a4d3aa081d9de5d9b64b3587162e1e835490eb7037e1a074e16cb35598adf3a",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_MU_20260526_news3": {
+      "id": "ev_MU_20260526_news3",
+      "kind": "news",
+      "title": "Memory chip prices to remain high as Micron surges, expert says",
+      "detail": "Reported by Yahoo. STORY: \"As this ongoing buildout of artificial intelligence infrastructure has happened,\" prices for memory chips have risen, Stucky said.Equating the hike in memory chip prices to the rise of oil prices, Stucky said, \"this would be the equivalent of oil markets moving from $60 a barrel to north of $300 a barrel.\"",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ca7edae87efee20c64fb99c896022cafadfb21ebe1a299208b0e1536aaf41b92",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_MU_20260526_news4": {
+      "id": "ev_MU_20260526_news4",
+      "kind": "news",
+      "title": "Nasdaq, S&P 500 Log New Peaks as Micron Drives Tech Rally",
+      "detail": "Reported by Yahoo. The Nasdaq Composite and the S&P 500 reached new peaks on Tuesday, driven a Micron Technology (MU) l",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b49024872fc28428dc5c7979eeda7a19ba0e79728e40e9c15fceb187c8eee9a4",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_MU_20260526_news5": {
+      "id": "ev_MU_20260526_news5",
+      "kind": "news",
+      "title": "Stock Market Today: Nasdaq, Micron Close At New Highs; This Airline Teams Up With Musk's Starlink (Live Coverage)",
+      "detail": "Reported by Yahoo. Stock Market Today: The Dow Jones index sinks Tuesday. S&P 500 and small caps reach new levels. Tesla nears a buy point.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d1ab630aa865450e09756a647755ca8166471a93c367470a4a131b9901a8a798",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_MU_20260526_news6": {
+      "id": "ev_MU_20260526_news6",
+      "kind": "news",
+      "title": "Micron's valuation hits $1T, nearly tied with Eli Lilly & Berkshire",
+      "detail": "Reported by Yahoo. Micron (MU) is having its best trading day since 2011, on track to close at a valuation of $1 trillion, which would make its market cap nearly tied with those of Eli Lilly (LLY) and Berkshire Hathaway (BRK-B, BRK-A). Yahoo Finance Markets and Data Editor Jared Blikre takes a closer look at Micron's market action in the video above.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f1d88ce0dd2b7e6cf82d0136e081f23d0fe5bbb4cdb2328cdf5f10452b709278",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_MU_20260526_news7": {
+      "id": "ev_MU_20260526_news7",
+      "kind": "news",
+      "title": "Micron Poised to Benefit From 'Enhanced' Long-Term Deals, UBS Says",
+      "detail": "Reported by Yahoo. Micron Technology's (MU) valuation should get a further boost from long-term agreements in the memor",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cad5c88b6fbe36f41558778e52c9c023d3a7e6ce188619f0661038e5381d92e8",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
     },
     "ev_MU_20260604_price": {
       "id": "ev_MU_20260604_price",
@@ -1673,6 +2103,86 @@
         "relationship": "customer"
       }
     },
+    "ev_MU_20260604_news0": {
+      "id": "ev_MU_20260604_news0",
+      "kind": "news",
+      "title": "Morgan Stanley makes bold new call on Micron stock",
+      "detail": "Reported by Yahoo. Investors in Micron Technology (MU) stock have laughed all the way to the bank over the past year, especially those who bought into the AI memory story early. Putting the rally in context, Micron stock has gained almost 100% in the past month alone and over 350% over the past six months, ...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=50bf8d25f95c3fc3afda3f086fb30922dbfc5d6aedf0dc03bcf006a35108be20",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_MU_20260604_news1": {
+      "id": "ev_MU_20260604_news1",
+      "kind": "news",
+      "title": "What's Going On With Micron Stock Today",
+      "detail": "Reported by Yahoo. Micron Slumps as AI Chip Selloff Sparks Sector-Wide Panic After Broadcom Shock",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=032d26d12d9913e3ff6c8ba85de13fd8fa9ff9f6a6981436db26ec7cb5b27582",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_MU_20260604_news2": {
+      "id": "ev_MU_20260604_news2",
+      "kind": "news",
+      "title": "Why Is Micron Stock Falling Today? A New Warning Points to an Early Peak.",
+      "detail": "Reported by Yahoo. The semiconductor stock was falling Thursday, with one analyst predicting memory-chip prices might be approaching a ceiling.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9130c146a8c9795e38e4cae8ac0f2c75c6c2f4f0068f0f8f79ca76b1258bfac5",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_MU_20260604_news3": {
+      "id": "ev_MU_20260604_news3",
+      "kind": "news",
+      "title": "Investor Turned $258K to $3M This Year Using This Micron ETF",
+      "detail": "Reported by Yahoo. A screenshot circulating on r/MU_Stock shows a brokerage account went from $258,506.22 in buying power to $2,971,054.95, a 823.97% year-to-date gain, on a single trade. The poster went \u201call in on 2x margin\u201d on Micron at $120 and funded it with a HELOC. The cleaner ETF wrapper for that trade is Direxion Daily MU Bull ... Investor Turned $258K to $3M This Year Using This Micron ETF",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=04be6060df33ca5b2e7b4685f7ef5b4b5117d2aa94e03587dbd72d501d7f95bd",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_MU_20260604_news4": {
+      "id": "ev_MU_20260604_news4",
+      "kind": "news",
+      "title": "Micron vs. Nvidia: Does the Memory Giant Deserve a \"Magnificent Seven\" Valuation?",
+      "detail": "Reported by Yahoo. Profits are soaring, for now. That does not guarantee they will in the future.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4715c41a4a4db3357ff60b5fcf7a5392095108bc9c7d956983ea1633a3b13da6",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_MU_20260604_news5": {
+      "id": "ev_MU_20260604_news5",
+      "kind": "news",
+      "title": "Why Micron Stock Crashed Today",
+      "detail": "Reported by Yahoo. Everyone hates Broadcom stock today, and Micron is getting caught in the storm.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e530b8dfacda875e9450cf63f3cad24b9594593577a60495098e6d1c2ee28bd5",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_MU_20260604_news6": {
+      "id": "ev_MU_20260604_news6",
+      "kind": "news",
+      "title": "Got $10,000? TSM vs Micron: The Better Buy in 2026",
+      "detail": "Reported by Yahoo. Taiwan Semiconductor Manufacturing (NYSE:TSM) and Micron Technology (NASDAQ:MU) sit at two different floors of the same AI building. TSMC fabricates the logic chips that power Nvidia, AMD, and Apple. Micron supplies the HBM memory those accelerators cannot run without. Both just delivered blowout numbers, and the contrast between a foundry behemoth and a pure-play memory ... Got $10,000? TSM vs Micron: The Better Buy in 2026",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1180c4834feaef219f3caabd04d1cb2c55f55583a36e3809038637dd76a74cbf",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_MU_20260604_news7": {
+      "id": "ev_MU_20260604_news7",
+      "kind": "news",
+      "title": "Micron Technology (MU) Is One Of The Best AI Infrastructure Stocks, According To Hedge Funds",
+      "detail": "Reported by Yahoo. On the back of strong confidence from hedge funds and Wall Street, Micron Technology, Inc. (NASDAQ:MU) is one of the best AI infrastructure stocks, with upside potential of upto 80.2% (street-high). Micron Technology, Inc. (NASDAQ:MU) continues to draw increasingly bullish analyst views ahead of its earnings report later this month, as demand across the memory [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cf4e3e012b71eb3f377d9d946b6fb2a125f49479542ec6551edb681e91f8dd9a",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
     "ev_MU_20260605_price": {
       "id": "ev_MU_20260605_price",
       "kind": "price",
@@ -1703,6 +2213,86 @@
         "subject_pct_change": -13.252,
         "relationship": "customer"
       }
+    },
+    "ev_MU_20260605_news0": {
+      "id": "ev_MU_20260605_news0",
+      "kind": "news",
+      "title": "Intel and Micron Shares Plummet, What You Need To Know",
+      "detail": "Reported by Yahoo. A number of stocks fell in the morning session after the AVGO earnings overhang and the stronger-than-expected jobs report combined to drive one of the broadest global chip selloff of the year.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=347cfbe0691ad80e952582545fbcbad10c9e7a6ed131abe7845e6470377cd3d5",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_MU_20260605_news1": {
+      "id": "ev_MU_20260605_news1",
+      "kind": "news",
+      "title": "Is Micron (MU) One of the Best Cheap Stocks to Buy for Beginners?",
+      "detail": "Reported by Yahoo. Micron Technology, Inc. (NASDAQ:MU) is one of the best cheap stocks to buy for beginners. On June 3, Morgan Stanley lifted the price target on Micron Technology, Inc. (NASDAQ:MU) to $1,050 from $520, maintaining an Overweight rating on the shares and stating that there is \u201cno quick fix to the memory shortage\u201d that is going to [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ced526c3615d5fc93af1973642474a9d155b9521c6bd1dd1275cefeac9e2f5d0",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_MU_20260605_news2": {
+      "id": "ev_MU_20260605_news2",
+      "kind": "news",
+      "title": "Micron Stock Falls Again Even After Getting Memory-Chip Approval From Nvidia",
+      "detail": "Reported by Yahoo. Micron stock fell again Friday even after confirmation it has qualified to supply the latest high-bandwidth memory to Nvidia.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=dac6d9e1b2be3683c65956f6e86ab042f3f7a6071e497063727dab42bf49ea06",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_MU_20260605_news3": {
+      "id": "ev_MU_20260605_news3",
+      "kind": "news",
+      "title": "Why 1 Veteran Analyst Doubled Her Micron Stock Price Target for 2026",
+      "detail": "Reported by Yahoo. Wall Street is turning increasingly bullish on Micron after record earnings, strong guidance, and growing AI data-center demand.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=476d42cc6678253cda8ed9796dd05107ab280ff1c45ad9ebfef1f347a72247be",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_MU_20260605_news4": {
+      "id": "ev_MU_20260605_news4",
+      "kind": "news",
+      "title": "Nvidia Certifies Samsung, SK Hynix, Micron for HBM4 Supply",
+      "detail": "Reported by Yahoo. Vera Rubin is in full production, with deliveries set for the third quarter.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=02b6f6bd572dffa376f544149fc4d96b0d0ed51ef3c3a1f9eb2980179783309c",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_MU_20260605_news5": {
+      "id": "ev_MU_20260605_news5",
+      "kind": "news",
+      "title": "Micron Nears Earnings as AI Memory Demand Remains Strong",
+      "detail": "Reported by Yahoo. Analysts remain bullish, but the stock's rally has raised expectations.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=43dc45ef2fb3bc0dae67b891f7f106bd1756b5700aa1df5185a9f3bb7122c8c4",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_MU_20260605_news6": {
+      "id": "ev_MU_20260605_news6",
+      "kind": "news",
+      "title": "Micron Stock's Outperformance Masks This Sector's Pain. How To Trade The K-Shaped Market.",
+      "detail": "Reported by Yahoo. Micron stock's surge to all-time highs hides a key weakness in this important sector of the broader economy. How to trade the K-shaped market.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a43979b97173308393ce52407ec3472551ef343ac1a2755f18d4998b3bed59c3",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_MU_20260605_news7": {
+      "id": "ev_MU_20260605_news7",
+      "kind": "news",
+      "title": "Good News for NVIDIA, Amazon, and Micron Investors: New Research Shows Trillion-Dollar Stocks May 10X",
+      "detail": "Reported by Yahoo. The All-In podcast (hosts Chamath Palihapitiya, Jason Calacanis, David Sacks, and David Friedberg) recently hosted Coatue\u2019s Thomas Laffont, surfacing an idea they called the \u201c10X paradox.\u201d The takeaway carries direct implications for shareholders of NVIDIA (NASDAQ:NVDA), Amazon (NASDAQ:AMZN), and Micron Technology (NASDAQ:MU). The thesis defies the law of large numbers. Companies like NVIDIA that have ... Good News for NVIDIA, Amazon, and Micron Investors: New Research Shows Trillion-Dollar Stoc",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b56526e95debaada3edfcb8eaf6620a1ad9c95ac5e116d9a80c4446fead32afa",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
     },
     "ev_MU_20260611_price": {
       "id": "ev_MU_20260611_price",
@@ -1745,6 +2335,86 @@
       "occurred_on": "2026-06-09",
       "numbers": {}
     },
+    "ev_MU_20260611_news0": {
+      "id": "ev_MU_20260611_news0",
+      "kind": "news",
+      "title": "Stock Market Today, June 11: Micron, Intel, and Nvidia Lead Rebound and SpaceX IPO Approaches",
+      "detail": "Reported by Yahoo. Today, June 11, 2026, markets recovered on revived peace talk hopes, and chips helped power the S&P 500 and Nasdaq.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=56a90d6476295a9b2b4ada1a185ef3007ac59628a695021c5424bd77b34db6d7",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_MU_20260611_news1": {
+      "id": "ev_MU_20260611_news1",
+      "kind": "news",
+      "title": "Why Micron Stock Bounced Back Today",
+      "detail": "Reported by Yahoo. DRAM and NAND prices could both triple through the end of 2026 -- then keep rising.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c190c5033f0cf03517eb3afd77fec631a356a82f49a5e4bbbd30f79a46742176",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_MU_20260611_news2": {
+      "id": "ev_MU_20260611_news2",
+      "kind": "news",
+      "title": "Beyond Micron: 2 AI Stocks That Could Deliver Explosive Returns",
+      "detail": "Reported by Yahoo. MRVL and SNDK are emerging as AI growth plays alongside MU, driven by strong demand, rising revenues and expanding AI infrastructure roles.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9b0d8ad5ed37580fb1f6cddbdb9726a2814fcfa98f6a9979e16f268fd29f8222",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_MU_20260611_news3": {
+      "id": "ev_MU_20260611_news3",
+      "kind": "news",
+      "title": "Micron Is Already Up 223% This Year. Wolfe Research Sees More Upside. Brilliant Setup, or Recipe for Disaster",
+      "detail": "Reported by Yahoo. Shares of Micron Technology (NASDAQ:MU) are up 5% in midday trading on Thursday, June 11, changing hands near $939. The move extends a historic run that has the memory giant up 223% year to date, with the stock having more than tripled in 2026. A fresh catalyst is a price target hike from Wolfe Research. ... Micron Is Already Up 223% This Year. Wolfe Research Sees More Upside. Brilliant Setup, or Recipe for Disaster",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d35626fee48ae7c6582f0b784530a83a65ed7508a646a7bfcc42516286fde43b",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_MU_20260611_news4": {
+      "id": "ev_MU_20260611_news4",
+      "kind": "news",
+      "title": "Micron Technology, Inc. (MU) Is A Top AI Stock In Ken Griffin\u2019s Portfolio",
+      "detail": "Reported by Yahoo. Micron Technology, Inc. (NASDAQ:MU) is one of the 13 Best Stocks to Invest In According to Billionaire Ken Griffin. Memory chip manufacturer Micron Technology, Inc. (NASDAQ:MU)\u2019s shares are among the top performers in the market. They are up by 671% over the past year and by 171% year-to-date. Morgan Stanley discussed the firm on June [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=534b4b530c89adc60025f138179b107c75d0327458bcdf94009600a0e183e846",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_MU_20260611_news5": {
+      "id": "ev_MU_20260611_news5",
+      "kind": "news",
+      "title": "Marvell vs. Micron: One Stands to Gain More From AI Demand",
+      "detail": "Reported by Yahoo. Marvell Technology (NASDAQ:MRVL) and Micron Technology (NASDAQ:MU) both just delivered AI-fueled earnings reports, yet they sit on opposite sides of the data center stack. Marvell sells the custom silicon and optics that stitch AI clusters together. Micron sells the memory those clusters cannot run without. Their latest results show how AI spending is rewarding very ... Marvell vs. Micron: One Stands to Gain More From AI Demand",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7305686160a0d75ee121eb66d2acf66a9875643cff5703ce8dec2188358ac467",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_MU_20260611_news6": {
+      "id": "ev_MU_20260611_news6",
+      "kind": "news",
+      "title": "Retail Is Cashing Out Of Micron, AMD, AI Stocks Ahead Of SpaceX IPO",
+      "detail": "Reported by Yahoo. Retail investors are liquidating some of the biggest winners in the AI trade to raise cash for Friday\u2019s SpaceX (SPCX) IPO, and the selling pressure is landing hardest on semiconductors. MU stock is moving. See the chart and price action here. Data from Vanda Research shows individual investors net sold equities for three consecutive days through Wednesday \u2014 the first such stretch since March 2020, according to CNBC. On Monday alone, retail pulled the most capital from individual stocks since Nov",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=396ac9530b1a27f43fc9aac5da987f1cf0f88287683848b9d0e530d24641e655",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_MU_20260611_news7": {
+      "id": "ev_MU_20260611_news7",
+      "kind": "news",
+      "title": "A Good Idea? Retail Traders Are Selling Micron, Qualcomm, Broadcom To Rotate Into The Space X IPO",
+      "detail": "Reported by Benzinga. Elon Musk\u2019s SpaceX hasn\u2019t started trading yet, and it is already pulling cash out of the chip stocks retail traders spent the spring chasing.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=518824cbef6c2616f6ccadd92b23b730087739807d1db7ccd6ee0e6a8e956e88",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
     "ev_MU_20260623_price": {
       "id": "ev_MU_20260623_price",
       "kind": "price",
@@ -1775,6 +2445,86 @@
         "subject_pct_change": -13.176,
         "relationship": "customer"
       }
+    },
+    "ev_MU_20260623_news0": {
+      "id": "ev_MU_20260623_news0",
+      "kind": "news",
+      "title": "Dow Jones Futures Fall After Nasdaq Breaks Support; FedEx, Cerebras Tumble Late With Micron Due",
+      "detail": "Reported by Yahoo. The Nasdaq broke key support Tuesday as AI stocks sold off, even as SpaceX reversed higher. FedEx and AI chip IPO Cerebras reported late. Micron earnings loom.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8df1722b1118d85b5e02a3945d11ac70cd9b6fb138c5776bea8e3c848a62befc",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_MU_20260623_news1": {
+      "id": "ev_MU_20260623_news1",
+      "kind": "news",
+      "title": "Why Micron (MU) Shares Are Getting Obliterated Today",
+      "detail": "Reported by Yahoo. Shares of memory chips maker Micron (NASDAQ:MU) fell 13.6% in the afternoon session after a report that South Korea's SK Hynix is slowing its high-bandwidth memory (HBM) expansion rattled the AI-chip complex.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=67d3449c9ea14ff67b411736209a5152e0f0ce5c490c9750e8948dfb841aa311",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_MU_20260623_news2": {
+      "id": "ev_MU_20260623_news2",
+      "kind": "news",
+      "title": "Stock market today: S&P 500, Nasdaq hit pause after tech rout with Micron in focus",
+      "detail": "Reported by Yahoo. Investors are braced for Micron earnings for clues to whether AI optimism has overrun.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4041d28e6b1e8afa3a0fa5ece8c5eeb776c2de8686626257c12c18e01013ae6b",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_MU_20260623_news3": {
+      "id": "ev_MU_20260623_news3",
+      "kind": "news",
+      "title": "Micron earnings, US new home sales: What to Watch",
+      "detail": "Reported by Yahoo. Asking for a Trend Host Josh Lipton previews several of the biggest stories to come tomorrow, Wednesday, June 24, including US new home sales data and earnings results from Micron Technology (MU) and Trip.com (TCOM).",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=506ddee3523c57e12d8714f5cda44a13dc46e05f36e423974d4e024b1df9820e",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_MU_20260623_news4": {
+      "id": "ev_MU_20260623_news4",
+      "kind": "news",
+      "title": "A Bad Omen for Micron? Stock Suffers Worst Day in More Than a Year Ahead of Earnings.",
+      "detail": "Reported by Yahoo. Micron stock is dropping after SK Hynix and Samsung stocks tumbled Tuesday on the KOSPI index as the tech selloff gathers pace.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=36121c91118d2c9f151c8304d0d1bd16b47e8c54ad7c2afe0dfef0d530c254f3",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_MU_20260623_news5": {
+      "id": "ev_MU_20260623_news5",
+      "kind": "news",
+      "title": "Dow Jones Futures Rise After Nasdaq Breaks Support; FedEx, Cerebras Tumble Late With Micron Due",
+      "detail": "Reported by Yahoo. The Nasdaq broke key support Tuesday as AI stocks sold off, even as SpaceX reversed higher. FedEx and AI chip IPO Cerebras reported late. Micron earnings loom.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1a366c879029c742124a44835692a40d9f21eeee5c31af94f5ff76e1230166e9",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_MU_20260623_news6": {
+      "id": "ev_MU_20260623_news6",
+      "kind": "news",
+      "title": "Stock Market Today, June 23: Micron Falls as South Korea-Led Memory Selloff Raises Earnings Stakes",
+      "detail": "Reported by Yahoo. Micron\u2019s Anthropic agreement keeps the AI-memory story in view, with earnings set to show whether HBM demand, pricing, and margins can support expectations after the pullback.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7f170ea5e364e59672d495f0c3843f9f56a4a5bd5050d892fee68b952372d844",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_MU_20260623_news7": {
+      "id": "ev_MU_20260623_news7",
+      "kind": "news",
+      "title": "Top Analyst Reports for Micron Technology, Coca-Cola & Arista Networks",
+      "detail": "Reported by Yahoo. MU, KO and ANET headline Zacks' latest analyst reports, with AI demand, pricing gains and networking expansion driving the outlook.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9b04461df4acc3bdfc997e4551603d849229a8b24f484ec97611a04cbccab70b",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
     },
     "ev_MU_20260625_price": {
       "id": "ev_MU_20260625_price",
@@ -1827,6 +2577,86 @@
       "occurred_on": "2026-06-24",
       "numbers": {}
     },
+    "ev_MU_20260625_news0": {
+      "id": "ev_MU_20260625_news0",
+      "kind": "news",
+      "title": "Why Is Micron (MU) Stock Soaring Today",
+      "detail": "Reported by Yahoo. Shares of memory chips maker Micron (NASDAQ:MU) jumped 17.1% in the afternoon session after the company reported outstanding second quarter (fiscal Q3 2026) earnings results, guided to $50 billion in sales for the next quarter, locked in $100 billion of contracts, and said it can't even see when supply catches up.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0931afe143fd359527dbf952ccdbfe495694136b9ad357c8cfb433b4c8dc287e",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_MU_20260625_news1": {
+      "id": "ev_MU_20260625_news1",
+      "kind": "news",
+      "title": "Does Micron pay dividends? Its yield and payouts explained",
+      "detail": "Reported by Yahoo. Micron Technology\u2019s (MU) fiscal third-quarter 2026 earnings report delivered results you rarely see from a company of its size. The trillion-dollar semiconductor\u2019s revenue surged 346% year-over-year to $41.46 billion, profits soared 1,215% to $28.24 billion, and, according to the company, its ...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b4dc62e3a92098dc83a812c7ebb5d65bee371e7f0f88098883200b78f3aa6cd2",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_MU_20260625_news2": {
+      "id": "ev_MU_20260625_news2",
+      "kind": "news",
+      "title": "Micron's Blowout Earnings Could Be Great News for Nvidia Investors",
+      "detail": "Reported by Yahoo. What does a sold-out memory supplier really tell you about the staying power of the AI chip boom?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=377368ac310fe7c4b3c4a35ba37c61db77464def3516e65b30ecdcb3d72315e4",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_MU_20260625_news3": {
+      "id": "ev_MU_20260625_news3",
+      "kind": "news",
+      "title": "SNDK Stock: Citigroup Sees SanDisk As Top Beneficiary Of Strong Micron Earnings",
+      "detail": "Reported by Yahoo. Citigroup highlighted SanDisk as a prime beneficiary of the insatiable global demand for artificial intelligence memory and storage infrastructure.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=56bb193255ceb3b661b909c8bce9c6ccdde87cb9f34840ccb8ea780cd23ef64f",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_MU_20260625_news4": {
+      "id": "ev_MU_20260625_news4",
+      "kind": "news",
+      "title": "S&P 500 Ends Flat As Apple Weakness Offsets Micron Gains, Nasdaq 100 And Dow Post Modest Gains \u2014 MSFT, QCOM, SPCX, BMBL, SONO In Focus",
+      "detail": "Reported by Yahoo. icron stock soared 16% on strong Q3 earnings, while Apple slipped after increasing prices of Macs and iPads.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3a7b1279ff5920a78bf77a2a4506e50d4a179bd02b04a7c955961da69d80a73f",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_MU_20260625_news5": {
+      "id": "ev_MU_20260625_news5",
+      "kind": "news",
+      "title": "Dow Jones Futures: Mixed Market Signals As Micron's Gain Is Apple's Pain",
+      "detail": "Reported by Yahoo. The Nasdaq reversed lower again while the Dow came off record highs. Micron soared but Apple led other tech titans lower.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8f0ea89e5ffb21ff7580afbb7d42b5bc56647c16987198ac6197cc685eb50219",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_MU_20260625_news6": {
+      "id": "ev_MU_20260625_news6",
+      "kind": "news",
+      "title": "Update: US Equity Indexes Mixed as Micron Rally Fails to Lift Tech, Apple Drops After Product Price-Hike Reports",
+      "detail": "Reported by Yahoo. (Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b4613df39675f9bbeeb17e358dfc2040220c0392f8f79ed649661aaa6ddb66af",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_MU_20260625_news7": {
+      "id": "ev_MU_20260625_news7",
+      "kind": "news",
+      "title": "Stock Market Today, June 25: Micron Surges, Apple Falls, and Inflation Data Weighs on Stocks",
+      "detail": "Reported by Yahoo. On June 25, 2026, investors weighed fresh inflation signals and the two sides of high memory chip costs as markets diverged.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c52f6e8d2fdcc74bb8b685db425ebb1efaf83276c1307ef0d9f938b50242cef0",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
     "ev_MU_20260728_price": {
       "id": "ev_MU_20260728_price",
       "kind": "price",
@@ -1858,6 +2688,86 @@
         "relationship": "customer"
       }
     },
+    "ev_MU_20260728_news0": {
+      "id": "ev_MU_20260728_news0",
+      "kind": "news",
+      "title": "Sk Hynix, Bloom Energy, Seagate, Micron Technology and Visa: Why These 5 Stocks Are on Investors' Radars Today",
+      "detail": "Reported by Benzinga. SKHY, BE, STX, MU, V were among the stocks seen trending on Tuesday, July 28, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=46bc9613048660ff385b24e301faf0aee2ccc8f723813bd3bc4c6328a8166dd8",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_MU_20260728_news1": {
+      "id": "ev_MU_20260728_news1",
+      "kind": "news",
+      "title": "Micron Stock Is Leading a Brutal New Chip Slump",
+      "detail": "Reported by Yahoo. FEATURE   Micron stock was among the sharpest fallers Tuesday after being spared the worst of the selling in the previous session. That\u2019s not a great sign. Shares of the memory chip maker closed down 8.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=66dd4df31daa62c74480f92356b1ef2b1ab7581035895e3e39ea471684b9a242",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_MU_20260728_news2": {
+      "id": "ev_MU_20260728_news2",
+      "kind": "news",
+      "title": "Why Micron Stock Just Dropped Again",
+      "detail": "Reported by Yahoo. Micron stock tumbled 9% as a perfect storm hit the chip sector. Here's what you need to know.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=61e9c7d98729ee3ed9ff235eb6a8a212b81d35c90ac046240ebf3f0a78ee1fc7",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_MU_20260728_news3": {
+      "id": "ev_MU_20260728_news3",
+      "kind": "news",
+      "title": "Sandisk vs. Micron: Which Memory Stock Is the Better Buy for the Second Half of 2026?",
+      "detail": "Reported by Yahoo. Sandisk and Micron have emerged as leading beneficiaries of the artificial intelligence (AI) memory boom.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e23efda3224f1f3e88913fe0b6e690f9cc80b2293de3ee773335ee0fc9bf6788",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_MU_20260728_news4": {
+      "id": "ev_MU_20260728_news4",
+      "kind": "news",
+      "title": "CME launches 23-hour single-stock futures to trade stocks like SpaceX, Micron",
+      "detail": "Reported by Yahoo. Scott Melker discusses how CME (CME) has launched 23-hour single-stock futures for trading shares of SpaceX (SPCX), Micron Technology (MU), and other stocks. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7763ad0fc93308225741437d48ced364217989ece74fb9fa1cd1ea3f8b0a0aa0",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_MU_20260728_news5": {
+      "id": "ev_MU_20260728_news5",
+      "kind": "news",
+      "title": "Micron Stock Dives As Semiconductor Sell-Off Gains Steam",
+      "detail": "Reported by Yahoo. Micron Technology stock plunged on Tuesday as semiconductor stocks broadly continued to sell off.  In morning trades on the stock market today, Micron fell more than 11% to 796.46.  It was among the worst performers on the Philadelphia semiconductor index, known as SOX.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cd526da74c10eaaeaa1578a74754eda4ef1072fa255da084bbe17137b1df0ddb",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_MU_20260728_news6": {
+      "id": "ev_MU_20260728_news6",
+      "kind": "news",
+      "title": "Buy or Sell the Memory Plunge? SanDisk Sinks 9%, Micron Drops 7%, Western Digital Falls 8%",
+      "detail": "Reported by Yahoo. Memory stocks are cratering for the second straight session with no company-specific bombshell to blame, and Big Tech earnings due Wednesday could either end the pain fast or send the group into a deeper spiral.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4c0bc49a3938499c817294c15bd4c930bc135699e21db755f427beceea482151",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_MU_20260728_news7": {
+      "id": "ev_MU_20260728_news7",
+      "kind": "news",
+      "title": "QUICK SPARK: Micron, SK Hynix And Memory Stocks Wipe Out More Than $2 Trillion Since June Highs",
+      "detail": "Reported by Benzinga. Micron, SK Hynix, Samsung and other memory stocks have erased over $2 trillion since June highs as China&#39;s CXMT IPO fuels pricing fears.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=286fbd83f01aa8086d03ea4d51f68b1a4ece1fe68423254cae6ad6ef1efc8953",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
     "ev_MU_20260730_price": {
       "id": "ev_MU_20260730_price",
       "kind": "price",
@@ -1888,6 +2798,86 @@
         "subject_pct_change": 18.357,
         "relationship": "customer"
       }
+    },
+    "ev_MU_20260730_news0": {
+      "id": "ev_MU_20260730_news0",
+      "kind": "news",
+      "title": "AI Chip Selloff Creates Buying Opportunity in Nvidia and Micron Stock",
+      "detail": "Reported by Yahoo. Despite the recent selloff among chip stocks, the long-term demand drivers supporting advanced GPUs and AI memory solutions remain firmly in place.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7a55d115c89baed569de5e80ab818226a0c9062beb2bc73aa6a65e3033f85a66",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MU_20260730_news1": {
+      "id": "ev_MU_20260730_news1",
+      "kind": "news",
+      "title": "Micron Technology (MU) Stock Gets Fair Value Bump As AI Demand And Contracts Draw Praise",
+      "detail": "Reported by Yahoo. Micron Technology\u2019s fair value estimate has shifted from about US$1,457.68 to roughly US$1,507.38, signaling a modest reset in how analysts are framing the stock. This move lines up with Street research that highlights contract changes, product mix and AI driven demand as key parts of the current story, alongside a mix of bullish and more neutral views. As you read on, you will see how this evolving narrative fits together and what signals to watch next. Stay updated as the Fair Value for...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fa016b0934c70d86225adad83357ffdea69ad05ef1e72aca4cc18239e84284b7",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MU_20260730_news2": {
+      "id": "ev_MU_20260730_news2",
+      "kind": "news",
+      "title": "Memory Headwinds Aren't Going Away, Apple Says; Micron Stock Heads Higher",
+      "detail": "Reported by Yahoo. Apple CEO Tim Cook says memory costs are likely to keep rising.  Apple paid significantly more for memory in the June quarter than in the March quarter, Cook said on the earnings call.  Cook's comments on Thursday signal that Apple doesn't expect a slowdown in these headwinds for some time.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=035549a0f1b022166d3d3f9dbe8dfa074e6e6ca7eb458231dac0ea2b11fdae7e",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MU_20260730_news3": {
+      "id": "ev_MU_20260730_news3",
+      "kind": "news",
+      "title": "Are Micron\u2019s (MU) New Auto AI Deals Quietly Redefining Its Competitive Moat?",
+      "detail": "Reported by Yahoo. In mid-July 2026, Micron Technology said it had completed multi\u2011year Strategic Customer Agreements with major automotive ecosystem suppliers including Qualcomm, Visteon, HARMAN, JOYNEXT, DENSO, Astemo and Hyundai Mobis to secure long-term access to advanced memory and storage for AI\u2011enabled vehicles. These agreements give Micron and its partners clearer visibility on future technology and supply needs, supporting investment decisions as automotive platforms adopt more complex AI workloads...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7cc813c49789472426ba3b3ad673bc72f3ee7372399f2d66b16de6d4b2f1c8aa",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MU_20260730_news4": {
+      "id": "ev_MU_20260730_news4",
+      "kind": "news",
+      "title": "Micron Stock Surges 14.9% as Samsung Warns Shortage Through 2028",
+      "detail": "Reported by Yahoo. Samsung's memory-supply warning strengthened expectations that tight industry capacity could continue supporting chip prices.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=28679758eeaf3c88c4c6eedabfd24206b4d2671c011e41f801f1fdf7481b4302",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MU_20260730_news5": {
+      "id": "ev_MU_20260730_news5",
+      "kind": "news",
+      "title": "Micron Stock Gets Validation From Unexpected Source",
+      "detail": "Reported by Yahoo. One rival's results rapidly changed the market's outlook.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9d90c600b34b690b7b4e38f1807cd21c7c940b3db8267cbecc1c2128f511338e",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MU_20260730_news6": {
+      "id": "ev_MU_20260730_news6",
+      "kind": "news",
+      "title": "Micron & 2 Profitable Stocks to Buy Before August for Big Upside",
+      "detail": "Reported by Yahoo. Profitable stocks MU, NVIDIA and TD SYNNEX combine strong net income ratios with earnings growth. See why they stand out before August.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6f8610522866b77633db1b8343045bc27bb2327f48306f9723912da2edae7a20",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MU_20260730_news7": {
+      "id": "ev_MU_20260730_news7",
+      "kind": "news",
+      "title": "Sandisk, Micron, Apple, SpaceX, Samsung, Microsoft, Meta, and More Stocks That Explain Today\u2019s Market",
+      "detail": "Reported by Yahoo. Investors were weighing a batch of Big Tech earnings reports and data that showed inflation softening in June.  Microsoft  advanced 17% after the software giant reported strong fiscal fourth-quarter results and said its capital expenditures guidance for the year remained the same, easing fears about overspending on artificial intelligence.  Meta Platforms  dropped 9% after the Facebook parent missed Wall Street\u2019s second-quarter earnings target and failed to get investors to buy in on its AI spending plans.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a8a12797e027f923778beac396d1be3010e4c4f3f75451ab0373d7f0983fbaed",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
     },
     "ev_MU_fund_revenue": {
       "id": "ev_MU_fund_revenue",
@@ -1995,13 +2985,18 @@
       }
     }
   },
-  "arc": "Between late March and late July 2026, Micron experienced dramatic volatility, rising from $321.80 to a peak of $1213.56 before retreating to $874.66. While regulatory disclosures\u2014notably an early April 8-K and late June 10-Q and 8-K filings\u2014marked key upside inflections, the majority of the double-digit swings occurred without company-specific news. Micron frequently decoupled from its customer NVIDIA, experiencing significantly amplified swings during shared moves and sharp independent runs that highlight elevated idiosyncratic price action.",
+  "arc": "Between late March and late July 2026, Micron demonstrated exceptional volatility alongside a massive overall upward re-rating, rising from $321.80 to peak above $1,200. The broader story was defined by an aggressive AI memory supercycle where overwhelming demand for high-bandwidth memory outstripped supply, allowing Micron to raise prices sharply, push quarterly revenue to $41.46 billion, and briefly join the $1 trillion valuation club. However, this parabolic ascent was interspersed with violent multi-day drawdowns driven by algorithm-induced demand fears, Broadcom-led sector pullbacks, and concerns over peer expansion and supply normalization. The period illustrated that despite record profitability and long-term supply shortages validated by peers like Samsung and customers like Apple, memory stocks remain hypersensitive to shifts in pricing expectations and industry capex cycles.",
   "arc_citation_ids": [
     "ev_MU_20260330_price",
-    "ev_MU_20260401_filing_000110465926038249",
+    "ev_MU_20260330_news1",
+    "ev_MU_20260505_news0",
+    "ev_MU_20260508_news5",
+    "ev_MU_20260526_news0",
+    "ev_MU_20260604_news1",
     "ev_MU_20260625_price",
-    "ev_MU_20260625_filing_000072312526000015",
-    "ev_MU_20260730_price"
+    "ev_MU_20260625_news1",
+    "ev_MU_20260730_news2",
+    "ev_MU_20260730_news4"
   ],
   "warnings": []
 }

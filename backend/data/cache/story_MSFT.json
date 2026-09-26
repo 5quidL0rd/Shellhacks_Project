@@ -1,7 +1,7 @@
 {
   "symbol": "MSFT",
   "company_name": "Microsoft Corporation",
-  "generated_at": "2026-09-26T12:38:01.915139+00:00",
+  "generated_at": "2026-09-26T12:48:33.988187+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,11 +1320,14 @@
       "pct_change": -3.966,
       "close": 415.75,
       "direction": "down",
-      "headline": "MSFT Drops 3.97% While Most Peers Gain",
-      "explanation": "Microsoft shares declined 3.97% to $415.75 on 1.8 times average volume with no company-specific news in the record. The drop was largely company-specific, as competitor Intel gained 2.31%, supplier AMD rose 0.62%, and competitor Apple added 0.10%, though supplier and competitor Nvidia slipped 1.41%.",
-      "confidence": "low",
+      "headline": "Voluntary Buyouts Offered Amid AI Spending Pressures",
+      "explanation": "Microsoft dropped 3.97% to $415.75 on volume 1.75 times its 30-day average following reports that it was offering voluntary retirement and buyouts to around 7% of its workforce to offset heavy AI spending. The decline was largely company-specific, as competitor AAPL was nearly flat (+0.10%), supplier AMD gained 0.62%, and competitor INTC rose 2.31%, though supplier and competitor NVDA fell 1.41%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260423_price",
+        "ev_MSFT_20260423_news2",
+        "ev_MSFT_20260423_news4",
+        "ev_MSFT_20260423_news6",
         "ev_MSFT_20260423_peer_AAPL",
         "ev_MSFT_20260423_peer_AMD",
         "ev_MSFT_20260423_peer_INTC",
@@ -1336,13 +1339,16 @@
       "pct_change": -3.93,
       "close": 407.78,
       "direction": "down",
-      "headline": "MSFT Falls 3.93% Following 10-Q and 8-K Filings",
-      "explanation": "Microsoft dropped 3.93% to close at $407.78 on 3.25 times average volume following its quarterly 10-Q and 8-K filings on April 29. Supplier and competitor Nvidia shared in the decline with a 4.63% loss, while supplier AMD rallied 5.16% and competitor Apple edged up 0.44%.",
+      "headline": "Capital Spending Forecast Dampens Record Q3 Results",
+      "explanation": "Shares slipped 3.93% to $407.78 on 3.25 times average volume following Q3 results and filings detailing over $190 billion in planned AI and cloud capital expenditures for 2026. Despite reporting an AI business run rate above $37 billion, elevated spending raised worries over free cash flow. Supplier and competitor NVDA dropped 4.63% alongside Microsoft, while supplier AMD advanced 5.16% and competitor AAPL edged up 0.44%.",
       "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260430_price",
-        "ev_MSFT_20260430_filing_000119312526191507",
         "ev_MSFT_20260430_filing_000119312526191457",
+        "ev_MSFT_20260430_filing_000119312526191507",
+        "ev_MSFT_20260430_news2",
+        "ev_MSFT_20260430_news3",
+        "ev_MSFT_20260430_news4",
         "ev_MSFT_20260430_peer_AAPL",
         "ev_MSFT_20260430_peer_AMD",
         "ev_MSFT_20260430_peer_INTC",
@@ -1354,12 +1360,13 @@
       "pct_change": 3.051,
       "close": 421.92,
       "direction": "up",
-      "headline": "MSFT Rebounds 3.05% Following 8-K Filing",
-      "explanation": "Microsoft climbed 3.05% to $421.92 on 2.3 times average volume after submitting an 8-K filing on May 14. The advance diverged from key semiconductor partners, as supplier and competitor Nvidia fell 4.42%, supplier AMD dropped 5.69%, and competitor Intel slid 6.18%.",
-      "confidence": "medium",
+      "headline": "Pershing Square Discloses Stake, Lifting Shares",
+      "explanation": "Microsoft climbed 3.05% to $421.92 on 2.33 times normal volume after Pershing Square Capital Management revealed a major new core position in the company in its 13F filing. The move was company-specific, decoupling from hardware peers as competitor INTC sank 6.18%, supplier AMD declined 5.69%, and supplier and competitor NVDA lost 4.42%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260515_price",
-        "ev_MSFT_20260515_filing_000119312526224155",
+        "ev_MSFT_20260515_news1",
+        "ev_MSFT_20260515_news3",
         "ev_MSFT_20260515_peer_AAPL",
         "ev_MSFT_20260515_peer_AMD",
         "ev_MSFT_20260515_peer_INTC",
@@ -1371,11 +1378,14 @@
       "pct_change": 5.445,
       "close": 450.24,
       "direction": "up",
-      "headline": "MSFT Advances 5.45% on High Volume",
-      "explanation": "Microsoft shares jumped 5.45% to $450.24 on 3.65 times normal trading volume. No company news accompanied the move, but the advance was company-specific as peers retreated, including competitor Intel down 5.14% and supplier and competitor Nvidia down 1.45%.",
-      "confidence": "low",
+      "headline": "AI PC Teaser and Copilot Super App Spur 5.4% Rally",
+      "explanation": "Shares jumped 5.45% to $450.24 on 3.65 times average volume driven by excitement surrounding a new Copilot unified super app and teasers of next-generation Windows PCs powered by Nvidia ARM chips. The rally stood out from connected companies, as competitor AAPL slipped 0.14%, supplier AMD dipped 0.38%, supplier and competitor NVDA shed 1.45%, and competitor INTC fell 5.14%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260529_price",
+        "ev_MSFT_20260529_news0",
+        "ev_MSFT_20260529_news1",
+        "ev_MSFT_20260529_news7",
         "ev_MSFT_20260529_peer_AAPL",
         "ev_MSFT_20260529_peer_AMD",
         "ev_MSFT_20260529_peer_INTC",
@@ -1387,11 +1397,14 @@
       "pct_change": -4.171,
       "close": 441.31,
       "direction": "down",
-      "headline": "MSFT Pulls Back 4.17% to $441.31",
-      "explanation": "Microsoft fell 4.17% to $441.31 on 1.7 times 30-day average volume without company-specific news. Competitor Apple and supplier AMD rose 2.90% and 2.24% respectively, while competitor Intel slipped 1.28% and supplier and competitor Nvidia declined 0.69%.",
-      "confidence": "low",
+      "headline": "Shares Pull Back 4.2% After Hitting 3-Month High",
+      "explanation": "Microsoft dropped 4.17% to close at $441.31 on volume 1.70 times its 30-day average, retracing recent gains despite positive Build conference product announcements. The pullback was company-specific, as competitor AAPL rose 2.90% and supplier AMD gained 2.24%, while supplier and competitor NVDA fell 0.69% and competitor INTC slipped 1.28%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_MSFT_20260602_price",
+        "ev_MSFT_20260602_news5",
+        "ev_MSFT_20260602_news6",
+        "ev_MSFT_20260602_news7",
         "ev_MSFT_20260602_peer_AAPL",
         "ev_MSFT_20260602_peer_AMD",
         "ev_MSFT_20260602_peer_INTC",
@@ -1403,11 +1416,14 @@
       "pct_change": -3.788,
       "close": 378.91,
       "direction": "down",
-      "headline": "MSFT Falls 3.79% to $378.91",
-      "explanation": "Microsoft dropped 3.79% to $378.91 on 1.92 times average volume with no corporate disclosures provided. The loss was shared in part with competitor Apple, which slipped 1.10%, and supplier and competitor Nvidia, down 1.33%, while competitor Intel gained 3.46%.",
-      "confidence": "low",
+      "headline": "Failed Oracle Cloud Deal Reports Drive 3.8% Slump",
+      "explanation": "The stock declined 3.79% to $378.91 on 1.92 times average volume following reports that Microsoft walked away from a potential $3 billion cloud capacity lease agreement with Oracle. While competitor AAPL slipped 1.10% and supplier and competitor NVDA fell 1.33%, supplier AMD rose 1.02% and competitor INTC rallied 3.46%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260617_price",
+        "ev_MSFT_20260617_news0",
+        "ev_MSFT_20260617_news2",
+        "ev_MSFT_20260617_news5",
         "ev_MSFT_20260617_peer_AAPL",
         "ev_MSFT_20260617_peer_AMD",
         "ev_MSFT_20260617_peer_INTC",
@@ -1419,11 +1435,14 @@
       "pct_change": -3.179,
       "close": 367.34,
       "direction": "down",
-      "headline": "MSFT Drops 3.18% on Elevated Volume",
-      "explanation": "Microsoft shares declined 3.18% to close at $367.34 on 2.07 times average volume. No company news accompanied the move, while connected hardware peers moved higher, including competitor Intel gaining 5.19% and supplier AMD rising 2.65%.",
-      "confidence": "low",
+      "headline": "Big Tech AI CapEx Concerns Pull Shares Down 3.2%",
+      "explanation": "Microsoft fell 3.18% to $367.34 on 2.07 times average volume as broader market anxieties resurfaced around hyperscaler AI infrastructure spending despite signing a 20-year power agreement with Chevron for Project Kilby. Supplier and competitor NVDA fell 0.97% and competitor AAPL dipped 0.34%, whereas supplier AMD gained 2.65% and competitor INTC surged 5.19%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260622_price",
+        "ev_MSFT_20260622_news0",
+        "ev_MSFT_20260622_news5",
+        "ev_MSFT_20260622_news6",
         "ev_MSFT_20260622_peer_AAPL",
         "ev_MSFT_20260622_peer_AMD",
         "ev_MSFT_20260622_peer_INTC",
@@ -1435,11 +1454,14 @@
       "pct_change": 5.708,
       "close": 372.97,
       "direction": "up",
-      "headline": "MSFT Surges 5.71% on 8.5x Average Volume",
-      "explanation": "Microsoft gained 5.71% to $372.97 on heavy trading volume reaching 8.53 times the 30-day average. The rally was shared with competitor Apple, which gained 3.14%, whereas semiconductor peers declined, led by competitor Intel down 3.42% and supplier AMD down 2.06%.",
-      "confidence": "low",
+      "headline": "Shares Rebound 5.7% as Software Sentiment Recovers",
+      "explanation": "Microsoft advanced 5.71% to $372.97 on heavy volume 8.53 times its 30-day average, leading a software rebound following weeks of steep multiple compression. Competitor AAPL moved in tandem with a 3.14% gain, while chipmakers declined, with supplier AMD dropping 2.06%, supplier and competitor NVDA slipping 1.64%, and competitor INTC down 3.42%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_MSFT_20260626_price",
+        "ev_MSFT_20260626_news1",
+        "ev_MSFT_20260626_news4",
+        "ev_MSFT_20260626_news7",
         "ev_MSFT_20260626_peer_AAPL",
         "ev_MSFT_20260626_peer_AMD",
         "ev_MSFT_20260626_peer_INTC",
@@ -1451,11 +1473,13 @@
       "pct_change": 3.019,
       "close": 384.28,
       "direction": "up",
-      "headline": "MSFT Gains 3.02% to $384.28",
-      "explanation": "Microsoft rose 3.02% to close at $384.28 on 2.2 times average volume without company announcements. Competitor Apple also gained 1.74%, while silicon partners sold off sharply, with competitor Intel dropping 9.03% and supplier AMD sliding 6.89%.",
-      "confidence": "low",
+      "headline": "Enterprise AI Suite Launch and Software Inflows Lift Stock",
+      "explanation": "The stock gained 3.02% to close at $384.28 on 2.20 times average volume, supported by continued rotation into software and the formal launch partnership with Insight Enterprises for the Microsoft 365 E7 Frontier Suite. Competitor AAPL also gained 1.74%, whereas semiconductor peers declined significantly as supplier AMD dropped 6.89%, competitor INTC plunged 9.03%, and supplier and competitor NVDA shed 1.25%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260701_price",
+        "ev_MSFT_20260701_news0",
+        "ev_MSFT_20260701_news6",
         "ev_MSFT_20260701_peer_AAPL",
         "ev_MSFT_20260701_peer_AMD",
         "ev_MSFT_20260701_peer_INTC",
@@ -1467,13 +1491,16 @@
       "pct_change": 15.507,
       "close": 451.1,
       "direction": "up",
-      "headline": "MSFT Surges 15.51% Following Annual Filings",
-      "explanation": "Microsoft jumped 15.51% to $451.10 on 5.05 times average volume following its 10-K and 8-K filings on July 29. Significant strength was shared across its semiconductor partners, with supplier AMD surging 13.00%, competitor Intel advancing 11.30%, and supplier and competitor Nvidia rising 2.65%.",
+      "headline": "Q4 Results Beat and Strong Outlook Spark 15.5% Surge",
+      "explanation": "Microsoft leaped 15.51% to $451.10 on 5.05 times average volume after reporting blockbuster fiscal fourth-quarter results and guidance that alleviated spending fears. The massive beat lifted hardware peers, with supplier AMD surging 13.00%, competitor INTC jumping 11.30%, and supplier and competitor NVDA rising 2.65%, while competitor AAPL fell 1.41%.",
       "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260730_price",
-        "ev_MSFT_20260730_filing_000119312526323660",
         "ev_MSFT_20260730_filing_000119312526323632",
+        "ev_MSFT_20260730_filing_000119312526323660",
+        "ev_MSFT_20260730_news1",
+        "ev_MSFT_20260730_news2",
+        "ev_MSFT_20260730_news4",
         "ev_MSFT_20260730_peer_AAPL",
         "ev_MSFT_20260730_peer_AMD",
         "ev_MSFT_20260730_peer_INTC",
@@ -1485,13 +1512,16 @@
       "pct_change": 3.019,
       "close": 464.72,
       "direction": "up",
-      "headline": "MSFT Extends Rally 3.02% to $464.72",
-      "explanation": "Microsoft added another 3.02% to $464.72 on 2.79 times average volume in continued trading after its July 29 annual report. Supplier and competitor Nvidia also gained 2.93%, while competitor Apple dropped 7.35% and supplier AMD declined 1.90%.",
-      "confidence": "medium",
+      "headline": "Post-Earnings Momentum Pushes Stock Up Another 3.0%",
+      "explanation": "Shares climbed 3.02% to $464.72 on 2.79 times average volume as analysts digested Azure reaching a $100 billion milestone and Copilot surpassing 30 million paid seats. The continued advance was largely company-specific, as competitor AAPL plunged 7.35%, supplier AMD retreated 1.90%, and competitor INTC dipped 1.02%, though supplier and competitor NVDA gained 2.93%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260731_price",
-        "ev_MSFT_20260731_filing_000119312526323660",
         "ev_MSFT_20260731_filing_000119312526323632",
+        "ev_MSFT_20260731_filing_000119312526323660",
+        "ev_MSFT_20260731_news1",
+        "ev_MSFT_20260731_news4",
+        "ev_MSFT_20260731_news5",
         "ev_MSFT_20260731_peer_AAPL",
         "ev_MSFT_20260731_peer_AMD",
         "ev_MSFT_20260731_peer_INTC",
@@ -1503,11 +1533,14 @@
       "pct_change": 4.934,
       "close": 487.65,
       "direction": "up",
-      "headline": "MSFT Climbs 4.93% to Reach $487.65",
-      "explanation": "Microsoft closed up 4.93% at $487.65 on 3.06 times average volume. The upward move was accompanied by gains in supplier and competitor Nvidia (+2.93%), supplier AMD (+1.78%), and competitor Intel (+0.89%), while competitor Apple declined 1.78%.",
-      "confidence": "low",
+      "headline": "Azure Growth Strength Extends Rally by 4.9%",
+      "explanation": "Microsoft rose 4.93% to $487.65 on 3.06 times average volume, extending its post-earnings run as investors embraced evidence that aggressive AI infrastructure capital investments are generating solid cloud returns. Connected peers also advanced, with supplier and competitor NVDA rising 2.93%, supplier AMD up 1.78%, and competitor INTC edging up 0.89%, while competitor AAPL fell 1.78%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_MSFT_20260803_price",
+        "ev_MSFT_20260803_news3",
+        "ev_MSFT_20260803_news4",
+        "ev_MSFT_20260803_news7",
         "ev_MSFT_20260803_peer_AAPL",
         "ev_MSFT_20260803_peer_AMD",
         "ev_MSFT_20260803_peer_INTC",
@@ -1588,6 +1621,86 @@
         "subject_pct_change": -3.966,
         "relationship": "supplier and competitor"
       }
+    },
+    "ev_MSFT_20260423_news0": {
+      "id": "ev_MSFT_20260423_news0",
+      "kind": "news",
+      "title": "Prediction: Microsoft's April 29 Earnings Will Be the Most Important Tech Event of 2026",
+      "detail": "Reported by Yahoo. Microsoft has the scale to answer many key questions across an entire sector.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8465bb9cf10f7e9fc124aaa5198c11d94ffcb4e02d4a3dcdbc780d923307a8a7",
+      "occurred_on": "2026-04-23",
+      "numbers": {}
+    },
+    "ev_MSFT_20260423_news1": {
+      "id": "ev_MSFT_20260423_news1",
+      "kind": "news",
+      "title": "Why Microsoft Stock Sank Today",
+      "detail": "Reported by Yahoo. Microsoft stock just saw another round of substantial sell-offs.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=11b26381ad47cbb6ecfab0f52217d0a7745d1a7ec722349d139ebda855ffe556",
+      "occurred_on": "2026-04-23",
+      "numbers": {}
+    },
+    "ev_MSFT_20260423_news2": {
+      "id": "ev_MSFT_20260423_news2",
+      "kind": "news",
+      "title": "Microsoft and Meta announce sweeping layoffs as they spend big on AI",
+      "detail": "Reported by Yahoo. Meta said it would cut 10% of it employees while Microsoft will offer voluntary retirement to about 7% of workers",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d1e9ea9a87e6cb431197a31990636bef2eaf4969eb34309f80d045d9e1592976",
+      "occurred_on": "2026-04-23",
+      "numbers": {}
+    },
+    "ev_MSFT_20260423_news3": {
+      "id": "ev_MSFT_20260423_news3",
+      "kind": "news",
+      "title": "Why Microsoft passed on the AI company being bought by SpaceX",
+      "detail": "Reported by Yahoo. SpaceX (SPAX.PVT) is buying Cursor, an artificial intelligence (AI) startup, for $60 billion. Sources say that Microsoft (MSFT) was looking at buying Cursor first. Yahoo Finance Tech Editor Dan Howley outlines the latest.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d4a65b8defb8cb72b0f94fb224029bef448de29e6b3cf8da569f07927e2fffa9",
+      "occurred_on": "2026-04-23",
+      "numbers": {}
+    },
+    "ev_MSFT_20260423_news4": {
+      "id": "ev_MSFT_20260423_news4",
+      "kind": "news",
+      "title": "Why Microsoft is offering its first voluntary employee buyout",
+      "detail": "Reported by Yahoo. Microsoft (MSFT) is planning its first-ever voluntary employee buyout for up to 7% of its US workforce. Yahoo Finance Tech Editor Dan Howley discusses the news in the video above.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fe22bca947d3db2f7d4a30aab5496387d15d8ef2e5c2ed95b79b26aacc35a743",
+      "occurred_on": "2026-04-23",
+      "numbers": {}
+    },
+    "ev_MSFT_20260423_news5": {
+      "id": "ev_MSFT_20260423_news5",
+      "kind": "news",
+      "title": "Microsoft is Making History by Offering Voluntary Retirement",
+      "detail": "Reported by Yahoo. For the first time in its 51-year history, Microsoft is offering its employees a soft landing rather than a hard exit.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a9b6def90a51be4e5e19ccfee30699ebae6b20e533cf82deceeb5965091bd3bf",
+      "occurred_on": "2026-04-23",
+      "numbers": {}
+    },
+    "ev_MSFT_20260423_news6": {
+      "id": "ev_MSFT_20260423_news6",
+      "kind": "news",
+      "title": "Meta slashes 8,000 jobs, or 10% of its workforce, as Microsoft offers buyouts",
+      "detail": "Reported by Yahoo. Meta is laying off about 8,000 workers, or about 10% of its workforce, the company said Thursday as it continues to ramp up spending on artificial intelligence infrastructure and highly paid AI-expert hires.  Also Thursday, Microsoft said it was offering voluntary buyouts to thousands of its U.S. employees.  While an alternative to the sudden layoffs removing tech workers from peers like Meta and Oracle, the savings are likely tied to a similar industry upheaval that is requiring huge spending on the costs of artificial intelligence.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3d6da973d54e841b9a09575db91287a191c79b98f82f3b5547817dc291958eb0",
+      "occurred_on": "2026-04-23",
+      "numbers": {}
+    },
+    "ev_MSFT_20260423_news7": {
+      "id": "ev_MSFT_20260423_news7",
+      "kind": "news",
+      "title": "Jim Cramer Reveals His Big U Turn on Microsoft (MSFT)",
+      "detail": "Reported by Yahoo. We recently shared Jim Cramer Rubbished Circular AI Deals & Commented On These 18 Stocks. Microsoft Corp (NASDAQ:MSFT) is one of the stocks discussed by Jim Cramer. Software giant Microsoft Corp (NASDAQ:MSFT)\u2019s shares have struggled lately, as while they are up by 18% over the past year, they are down by 9.9% year-to-date. However, over [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=816d056652aebede3792d915c5ae682dbf1b4b49b5b7f060f85c8f458eb60ba7",
+      "occurred_on": "2026-04-23",
+      "numbers": {}
     },
     "ev_MSFT_20260430_price": {
       "id": "ev_MSFT_20260430_price",
@@ -1682,6 +1795,86 @@
       "occurred_on": "2026-04-29",
       "numbers": {}
     },
+    "ev_MSFT_20260430_news0": {
+      "id": "ev_MSFT_20260430_news0",
+      "kind": "news",
+      "title": "Microsoft's CEO Satya Nadella Signals AI Boom Must Prove Its Value \u2014 and Healthcare Could be the Ultimate Test Case",
+      "detail": "Reported by Yahoo. The global community should move past the \"admiration\" of artificial intelligence as a technology and focus on delivering practical uses, with healthcare being the most immediate frontier where the technology can be applied, according to Microsoft (NASDAQ:MSFT) CEO Satya Nadella....",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0b1efb5dd8940933fa9c0a92190ee2b2c4b693a1c47d07b61aeb1e4153d37742",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260430_news1": {
+      "id": "ev_MSFT_20260430_news1",
+      "kind": "news",
+      "title": "Microsoft (MSFT) \u2013 Among the 10 Innovative Dividend Stocks to Buy Right Now",
+      "detail": "Reported by Yahoo. Microsoft Corporation (NASDAQ:MSFT) is included among the 10 Innovative Dividend Stocks to Buy Right Now. On April 28, BMO Capital Markets lowered its price recommendation on Microsoft Corporation (NASDAQ:MSFT) to $505 from $575. It reiterated an Outperform rating ahead of the company\u2019s Q1 results. The firm pointed to ongoing investor concerns around software. It said [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3d47a5c50a806c128b7aed86a6ffb9783de1f415e9e01e1e132e59030b91db29",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260430_news2": {
+      "id": "ev_MSFT_20260430_news2",
+      "kind": "news",
+      "title": "Microsoft's Aggressive Capex Plans Could Keep Free Cash Flow Under Pressure, Truist Says",
+      "detail": "Reported by Yahoo. Microsoft's (MSFT) aggressive capital expenditure plans to take advantage of the strong demand for a",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=006f8bde6f859de5b5e68886c4a397e2ad9b6bf9b9ce058fcf64836a13c57137",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260430_news3": {
+      "id": "ev_MSFT_20260430_news3",
+      "kind": "news",
+      "title": "Microsoft slips despite strong earnings and outlook",
+      "detail": "Reported by Yahoo. AI growth strong but spending weighs on sentiment",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=151e0598856b9984d3afa6e0ae0645befe7cfb9bd4ca76b517fd0c0c149a8dc6",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260430_news4": {
+      "id": "ev_MSFT_20260430_news4",
+      "kind": "news",
+      "title": "Microsoft\u2019s AI-Fueled Record Quarter Reframes Long-Term Investment Trade Offs",
+      "detail": "Reported by Yahoo. Microsoft reported record Q3 earnings, driven by cloud and AI services including Copilot. The company highlighted an AI business run rate above $37b and more than 20 million paid Copilot seats. Management outlined over $190b of planned AI and cloud capital spending for 2026. A revised OpenAI partnership removed exclusivity while keeping long term IP access and revenue arrangements. NasdaqGS:MSFT is trading at $424.46, with the share price up 14.7% over the past 30 days and 2.1% over the...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e3fce9e4660f216333a2593b901a22d94172e38b9d73caf16fffbad7aa67327a",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260430_news5": {
+      "id": "ev_MSFT_20260430_news5",
+      "kind": "news",
+      "title": "Dow Jumps 700 Points as Caterpillar Soars, Meta and Microsoft Drag Nasdaq",
+      "detail": "Reported by Yahoo. Strong Dow Rally Masks Tech Weakness as Meta, Microsoft Slide",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=076c0538cd463d8a67daefd8afed3982e609f51c8ae59896cfe1cdd11fa55b19",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260430_news6": {
+      "id": "ev_MSFT_20260430_news6",
+      "kind": "news",
+      "title": "Amazon, Microsoft, Alphabet Ride AI Surge as Cloud Growth Explodes",
+      "detail": "Reported by Yahoo. Microsoft Azure, Google Cloud, AWS Power Massive AI-Driven Growth",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b3654c705f47bff00ec236b13099f53c47275de300c0c3c262f33f3e34771b56",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260430_news7": {
+      "id": "ev_MSFT_20260430_news7",
+      "kind": "news",
+      "title": "\"Magnificent Seven\" Companies Microsoft, Amazon, Alphabet, and Meta Just Reported Earnings. Here Are the Winners and Losers",
+      "detail": "Reported by Yahoo. The market is reacting very differently to all four of these earnings reports.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7a3e6cbee473d089ba9343de9c16647bf75406f9a0c5fe03ab400e8066c8b473",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
     "ev_MSFT_20260515_price": {
       "id": "ev_MSFT_20260515_price",
       "kind": "price",
@@ -1765,6 +1958,86 @@
       "occurred_on": "2026-05-14",
       "numbers": {}
     },
+    "ev_MSFT_20260515_news0": {
+      "id": "ev_MSFT_20260515_news0",
+      "kind": "news",
+      "title": "Bill Gates\u2019 Foundation Sells the Last of Its Microsoft Stock",
+      "detail": "Reported by Yahoo. The charity foundation of  Microsoft  founder Bill Gates no longer owns Microsoft stock.  On Friday, the charity\u2019s endowment, the Gates Foundation Trust, disclosed the sale of its remaining 7.7 million shares, a stake worth $3.2 billion at current prices.  The sales came during the first quarter, according to a filing with the Securities and Exchange Commission.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=53a0c31120cb26c717772c28bbadfc01af75dd11f89d02c9057b204fb1783197",
+      "occurred_on": "2026-05-15",
+      "numbers": {}
+    },
+    "ev_MSFT_20260515_news1": {
+      "id": "ev_MSFT_20260515_news1",
+      "kind": "news",
+      "title": "Pershing Square Snapped Up Microsoft Shares, Exited Hilton, Slashed Alphabet Stake in First Quarter",
+      "detail": "Reported by Yahoo. Pershing Square Capital Management, the hedge fund run by billionaire Bill Ackman, added  Microsoft  as a core holding during the first quarter of 2026, betting that the software giant will be a winner in the artificial-intelligence race.  Pershing Square held 11 U.S.-listed equity positions with a disclosed market value of about $13.71 billion by the end of the first quarter, according to the fund\u2019s latest 13F filing, which was submitted to the Securities and Exchange Commission on Friday.  The top holding was  Brookfield  , valued at roughly $2.42 billion; followed by  Amazon  valued at $2.3",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f8b198802ddfcc6fda12534d8d60bc8b78e0a59102635d7b481021bddb9095e9",
+      "occurred_on": "2026-05-15",
+      "numbers": {}
+    },
+    "ev_MSFT_20260515_news2": {
+      "id": "ev_MSFT_20260515_news2",
+      "kind": "news",
+      "title": "Chase Coleman's Significant Reduction in Microsoft Corp: A 4.85% Portfolio Impact",
+      "detail": "Reported by Yahoo. Insights from Chase Coleman (Trades, Portfolio)'s First Quarter 2026 13F Filing",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fa58d3b3d30e9e7e5d32bb8910e8881094d1b971259fb087b9ab538ec99a9e23",
+      "occurred_on": "2026-05-15",
+      "numbers": {}
+    },
+    "ev_MSFT_20260515_news3": {
+      "id": "ev_MSFT_20260515_news3",
+      "kind": "news",
+      "title": "Bill Ackman is Pretty Sure He Just Bought Microsoft at a 26% Discount",
+      "detail": "Reported by Yahoo. Ackman thinks the market is wrong about Microsoft's AI positioning, and we\u2019ll give you three guesses about who he thinks is right\u2026",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6de71d76d15b84a86463f154461d5457c29e53f23dc9292837de112108845f6c",
+      "occurred_on": "2026-05-15",
+      "numbers": {}
+    },
+    "ev_MSFT_20260515_news4": {
+      "id": "ev_MSFT_20260515_news4",
+      "kind": "news",
+      "title": "Final Trade: ALL, ROSS, MSFT, ULTA",
+      "detail": "Reported by CNBC. The final trades of the day with CNBC's Melissa Lee and the 'Fast Money' traders.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f3afe8b672795410168a28a929bc744ba4cb0e1d6b47e9a3486354489ccddec9",
+      "occurred_on": "2026-05-15",
+      "numbers": {}
+    },
+    "ev_MSFT_20260515_news5": {
+      "id": "ev_MSFT_20260515_news5",
+      "kind": "news",
+      "title": "Microsoft vs Palantir: Two AI Plays, One Winner",
+      "detail": "Reported by Yahoo. Microsoft (NASDAQ:MSFT) and Palantir (NASDAQ:PLTR) both delivered AI-fueled earnings beats this season, yet the businesses behind those tickers operate at completely different altitudes. Microsoft is the hyperscaler renting out the picks and shovels. Palantir is the operating layer that sits on top of enterprise and government data. Comparing them right now exposes how Wall Street ... Microsoft vs Palantir: Two AI Plays, One Winner",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4f572a47a64797e4c8a023f5d7f49264aa984fa67c58cc6f02eeb580748c3459",
+      "occurred_on": "2026-05-15",
+      "numbers": {}
+    },
+    "ev_MSFT_20260515_news6": {
+      "id": "ev_MSFT_20260515_news6",
+      "kind": "news",
+      "title": "Lone Pine Capital dissolves share stake in Microsoft, Amazon, reports in Alphabet",
+      "detail": "Reported by Finnhub. Lone Pine Capital: Lone Pine Capital LLC dissolves share stake in Microsoft Corp - SEC FILING Lone Pine Capital LLC dissolves share stake in Amazon.com Inc - SEC FILING Lone Pine Capital LLC...",
+      "source": "Finnhub (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f40b63b20e383d408b82ec195f467edc2c160efd50269f80f08329fe7656a9ef",
+      "occurred_on": "2026-05-15",
+      "numbers": {}
+    },
+    "ev_MSFT_20260515_news7": {
+      "id": "ev_MSFT_20260515_news7",
+      "kind": "news",
+      "title": "Third Point reports share stake in Meta, dissolves in Alibaba, Microsoft",
+      "detail": "Reported by Finnhub. Third Point: Third Point LLC dissolves share stake in Microsoft - SEC filing Third Point LLC dissolves share stake in Alibaba Group - SEC filing Third Point LLC reports share stake of 90,000...",
+      "source": "Finnhub (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=11b49c00abf90797e2351461e5c6055de02f4e9b460088d63bb0513f5a70c709",
+      "occurred_on": "2026-05-15",
+      "numbers": {}
+    },
     "ev_MSFT_20260529_price": {
       "id": "ev_MSFT_20260529_price",
       "kind": "price",
@@ -1837,6 +2110,86 @@
         "subject_pct_change": 5.445,
         "relationship": "supplier and competitor"
       }
+    },
+    "ev_MSFT_20260529_news0": {
+      "id": "ev_MSFT_20260529_news0",
+      "kind": "news",
+      "title": "MSFT Stock Records Best Month In A Year: AI PC Tease With NVDA And A Super App For Copilot Are Aiding The Stock",
+      "detail": "Reported by Yahoo. Microsoft and Nvidia teased on X a new generation of Windows PCs powered by NVIDIA ARM-based chips.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5f133dad893742a81526e4c22382ebaebd3dfa43b91bb7797cf7353f0cdc1cf8",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260529_news1": {
+      "id": "ev_MSFT_20260529_news1",
+      "kind": "news",
+      "title": "Stock Market Today, May 29: Microsoft Rises as $37 Billion AI Run Rate Highlights Cloud Growth",
+      "detail": "Reported by Yahoo. The $37 billion AI run rate gives Microsoft a clearer monetization benchmark, while in-house models could help manage the cost of serving AI demand across Azure and Microsoft 365.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=50cda74a204b144cb43ce6f1b31003ccdb0e897ff19d982b45da90aa16db8f0d",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260529_news2": {
+      "id": "ev_MSFT_20260529_news2",
+      "kind": "news",
+      "title": "Assessing Microsoft (MSFT) Valuation As Shares Show Mixed Returns And AI Narratives Collide",
+      "detail": "Reported by Yahoo. Microsoft stock: recent move puts performance in focus Microsoft (MSFT) shares have been active recently, with the stock edging up about 3.5% over the past day and around 1.9% over the past week, bringing its current price to US$426.99. See our latest analysis for Microsoft. That latest move comes after a mixed stretch, with the share price return up 8.72% over 90 days but down 9.72% year to date, while the 5 year total shareholder return of 81.08% points to momentum that has built over a...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=aa797a68a1f7903805e659f49423f0d94ecd516338f54177e95174636a1f78fd",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260529_news3": {
+      "id": "ev_MSFT_20260529_news3",
+      "kind": "news",
+      "title": "One Reason I Can\u2019t Stop Buying Microsoft Stock",
+      "detail": "Reported by Yahoo. I keep hitting the buy button on Microsoft (NASDAQ:MSFT) because the stock has gotten cheaper while the business has gotten stronger. The shares are down 13.06% year to date and down 7.24% over the past year, sitting at $418.57. Meanwhile, the company just told me its AI business is running at a $37 billion annualized ... One Reason I Can\u2019t Stop Buying Microsoft Stock",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d35768bb757bd8ea15c08bf09c98c5d0b37a817bfcabaf1c4392ff0f9e872d01",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260529_news4": {
+      "id": "ev_MSFT_20260529_news4",
+      "kind": "news",
+      "title": "Microsoft Stock Might Be the New \u201cBig Steal\u201d of the Mag 7",
+      "detail": "Reported by Yahoo. The market is getting overheated, and, with that, some new correction predictions are bound to come flowing in. But under the red-hot S&P 500 are some terrific individual \u201cgifts\u201d that I think ought to be on value investors\u2019 radars. Of course, going through the screener is bound to yield a list of intriguing names that ... Microsoft Stock Might Be the New \u201cBig Steal\u201d of the Mag 7",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f99a81a8913306f670eb7ae516f854d1f2217ae969b445d79b6b7889cbfbdb55",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260529_news5": {
+      "id": "ev_MSFT_20260529_news5",
+      "kind": "news",
+      "title": "Why Is Microsoft (MSFT) Up 4.7% Since Last Earnings Report?",
+      "detail": "Reported by Yahoo. Microsoft (MSFT) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a1e5d1535568dd6a7da6f202e5d9a4259f0007f1f668d993c47e3c0328e3a7ab",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260529_news6": {
+      "id": "ev_MSFT_20260529_news6",
+      "kind": "news",
+      "title": "Buy Or Sell Microsoft Stock At $425?",
+      "detail": "Reported by Yahoo. Microsoft (MSFT) stock has declined roughly 12% over the last six months and currently trades around $425, well off its October 2025 peak of $542. Investors are worried, and the concern is legitimate: rising capital expenditure is compressing near-term returns. But does that make the stock a sell? We don't think so. Here is why.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=96b58e5fc97a511dbc7d6cf6aafa5baa369b9f7c17818fd5bc44a424184be9e9",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260529_news7": {
+      "id": "ev_MSFT_20260529_news7",
+      "kind": "news",
+      "title": "'Microsoft Is Building A Super App That Combines Coding, Chat, And Other Copilot AI Tools' - Fortune",
+      "detail": "Reported by Benzinga. https://fortune.com/2026/05/29/microsoft-working-on-super-app/",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b38fbc0b27734396a3442098353dec9e3d3db5a90237abd7c6dd732eff7ae0ef",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
     },
     "ev_MSFT_20260602_price": {
       "id": "ev_MSFT_20260602_price",
@@ -1911,6 +2264,86 @@
         "relationship": "supplier and competitor"
       }
     },
+    "ev_MSFT_20260602_news0": {
+      "id": "ev_MSFT_20260602_news0",
+      "kind": "news",
+      "title": "Dan Ives Says \u2018Market Is Mispricing\u2019 MSFT Stock \u2014 Here\u2019s Why",
+      "detail": "Reported by Yahoo. Wedbush\u2019s Dan Ives stays bullish on Microsoft, Alphabet and the broader AI trade, calling current market sentiment an underestimation of the next phase of Big Tech growth.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fb1cd8f50778992339eb56e9f973cd86468e66e2dc092fce12a543b086282215",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_MSFT_20260602_news1": {
+      "id": "ev_MSFT_20260602_news1",
+      "kind": "news",
+      "title": "Billionaire Bill Gates' Foundation Dumped Microsoft but Loaded Up on This Dividend Champion",
+      "detail": "Reported by Yahoo. The Microsoft founder's foundation recently added this healthcare stock to its portfolio.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e07f0929c58530caadc3d04d5fb2a730d99850ed5afe36d09ba6d1ebabfec6ef",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_MSFT_20260602_news2": {
+      "id": "ev_MSFT_20260602_news2",
+      "kind": "news",
+      "title": "S&P 500, Nasdaq, Dow Rise To Record Highs As Strong Tech Gains Outpower US-Iran War Uncertainty \u2014 MSFT, UBER, MRVL, HPE, MSTR Stocks In Focus",
+      "detail": "Reported by Yahoo. President Donald Trump denied reports that communications between the United States and Iran had stalled, calling the claims \u201cfake news.\u201d",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1e7730865a36db6b8900b0e5dd536acc558d7c42f948ffe1bbdb7a40a51c0603",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_MSFT_20260602_news3": {
+      "id": "ev_MSFT_20260602_news3",
+      "kind": "news",
+      "title": "Dun & Bradstreet Brings Verified Business Data into Microsoft 365 Copilot",
+      "detail": "Reported by Yahoo. Dun & Bradstreet today announced the availability of Graph Connector in Microsoft 365 Copilot, giving developers and enterprises no\u2011cost access to a curated sample of verified business data from the D&B Commercial Graph to support AI\u2011powered workflows.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f12cb2b3e2e49f7b497c883d19c296afc845d8e4306c2b3b86115af283c7c603",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_MSFT_20260602_news4": {
+      "id": "ev_MSFT_20260602_news4",
+      "kind": "news",
+      "title": "Jim Cramer Is Glad Microsoft (MSFT) Is Up",
+      "detail": "Reported by Yahoo. We recently published Jim Cramer Warned About Market Manipulation & Discussed These 22 Stocks. Microsoft Corporation (NASDAQ:MSFT) is one of the stocks discussed by Jim Cramer. Software giant Microsoft Corporation (NASDAQ:MSFT)\u2019s shares are down by 2.2% over the past year and by 4.8% year-to-date. Recently, RBC Capital reiterated a Buy rating and a $640 share [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=462aa2f594202e26e80efc9c92c781375c1dcc0850c24e7bdb5e84cff745a73d",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_MSFT_20260602_news5": {
+      "id": "ev_MSFT_20260602_news5",
+      "kind": "news",
+      "title": "Microsoft Stock Just Hit a 3-Month High. Investors Can Thank a \u2018New Era of PC.\u2019",
+      "detail": "Reported by Yahoo. Microsoft stock just hit a three-month high, and its upcoming AI-powered Windows PCs running on Nvidia chips could give investors another reason to pay attention.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f183ae39c6c9efe7141eacbbcad2a85a39782c5663ebaca1228b375e1b016eb9",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_MSFT_20260602_news6": {
+      "id": "ev_MSFT_20260602_news6",
+      "kind": "news",
+      "title": "Microsoft Build: MSFT Partners With NVDA On AI Hardware Push, Launches New Models And  Quantum Chip",
+      "detail": "Reported by Yahoo. Microsoft has partnered with Nvidia to power next-generation AI across Windows devices, launched seven AI models, an autonomous \"Scout\" personal agent and a major breakthrough in quantum computing.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7dbb0d6a7ac1a2c7925234aa84eb797b0bed22548aa14372295e6b01e755bd8d",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_MSFT_20260602_news7": {
+      "id": "ev_MSFT_20260602_news7",
+      "kind": "news",
+      "title": "Why Microsoft Stock Is Sinking Today",
+      "detail": "Reported by Yahoo. Could a new executive order from President Trump derail Microsoft's AI momentum?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8892ca06a9866832b1eced8ecaf8c4b11d5229bd81caa36c486d471a49fe8f04",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
     "ev_MSFT_20260617_price": {
       "id": "ev_MSFT_20260617_price",
       "kind": "price",
@@ -1983,6 +2416,86 @@
         "subject_pct_change": -3.788,
         "relationship": "supplier and competitor"
       }
+    },
+    "ev_MSFT_20260617_news0": {
+      "id": "ev_MSFT_20260617_news0",
+      "kind": "news",
+      "title": "Why Microsoft Stock Slumped Today",
+      "detail": "Reported by Yahoo. It apparently fell short in an attempt to lease cloud capacity from a peer.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=adf22b08e61cc114c15eab2ddb25b7a439e3009dbfe07bb8a42e45a22abecd87",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_MSFT_20260617_news1": {
+      "id": "ev_MSFT_20260617_news1",
+      "kind": "news",
+      "title": "Microsoft (MSFT) Falls More Steeply Than Broader Market: What Investors Need to Know",
+      "detail": "Reported by Yahoo. In the latest trading session, Microsoft (MSFT) closed at $378.86, marking a -3.8% move from the previous day.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7a707c482afa9c2015b163a92b60e33174b95b4f0c136a49e8417efecdf9dc6b",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_MSFT_20260617_news2": {
+      "id": "ev_MSFT_20260617_news2",
+      "kind": "news",
+      "title": "Oracle Disputes Report on Failed Microsoft Cloud Deal",
+      "detail": "Reported by Yahoo. Oracle said details in a report about failed cloud deal talks with Microsoft were inaccurate.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=781c8e9551d52d8d307aaf6337f0e30cac65079b6a0f9e8c7e904daccf5493f5",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_MSFT_20260617_news3": {
+      "id": "ev_MSFT_20260617_news3",
+      "kind": "news",
+      "title": "Microsoft CoPilot Flirts with DeepSeek Squeezing Out Frontier Labs",
+      "detail": "Reported by Yahoo. Microsoft moved Copilot Cowork to usage-based pricing this week and floated DeepSeek and other open-source models as a cheaper swap for OpenAI and Anthropic.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8fe4172930f8ee90b6d80faa712e543a5c1d1eab23eb68916f84f95e20214f4f",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_MSFT_20260617_news4": {
+      "id": "ev_MSFT_20260617_news4",
+      "kind": "news",
+      "title": "Microsoft Just Became Irresistibly Attractive, But Only Because The Bears Were Right",
+      "detail": "Reported by SeekingAlpha. Microsoft (MSFT) rated Strong Buy: revised OpenAI deal boosts free cash flow, supports Azure growth, and implies $525\u00e2\u0080\u0093$584 upside\u00e2\u0080\u0094read now.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d95b4f8c1dd29a90a67d6c8bb1a22e3541dee45ec5435f258158b8ddffdfaa5e",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_MSFT_20260617_news5": {
+      "id": "ev_MSFT_20260617_news5",
+      "kind": "news",
+      "title": "Microsoft Walks Away From Potential $3 Billion Oracle Deal, Stock Dips",
+      "detail": "Reported by Yahoo. Microsoft Halts Oracle Data Center Talks in Major Security-Driven Split",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=546263b0354f0d9f2844e3fbcc91d18622a6c9dc5da7acf8dc83412af55dcc53",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_MSFT_20260617_news6": {
+      "id": "ev_MSFT_20260617_news6",
+      "kind": "news",
+      "title": "Microsoft dips below 200-day moving average: Buy, hold, or sell?",
+      "detail": "Reported by Yahoo. Opening Bid's Stock of the day: Microsoft has slipped below its 200-day moving average. Yahoo Finance Executive Editor Brian Sozzi is joined by Crossmark Global Investments Chief Market Strategist Victoria Fernandez and Yahoo Finance Markets & Data Editor Jared Blikre to break down what's driving the weakness in the tech giant and how to play it going forward.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=de7e7cb204ec92f8a549c1237c1904654720ef67ec417a108e0ac2c08facbef6",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_MSFT_20260617_news7": {
+      "id": "ev_MSFT_20260617_news7",
+      "kind": "news",
+      "title": "Is It Time to Sell Microsoft Stock? Why This Analyst Is Warning Investors to Exit.",
+      "detail": "Reported by Yahoo. Rather than buy the tech dip, one analyst argues current shareholders should wait for the next rally to sell Microsoft stock.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f40151d28e32f2eb799b46ec5e5d53a5cc0fd74d92b5f2d1b72dc95972b54ecf",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
     },
     "ev_MSFT_20260622_price": {
       "id": "ev_MSFT_20260622_price",
@@ -2057,6 +2570,86 @@
         "relationship": "supplier and competitor"
       }
     },
+    "ev_MSFT_20260622_news0": {
+      "id": "ev_MSFT_20260622_news0",
+      "kind": "news",
+      "title": "Microsoft and Chevron plan one of the largest gas-powered data center projects in US",
+      "detail": "Reported by Yahoo. Microsoft inked a 20-year power purchase agreement with Chevron, locking in decades of carbon emissions from a new natural gas power plant.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f86dc224ba61de11b07d21e7a485b6f2f890b1c3dfd8afdbf8b1c29fe8d8c1e2",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_MSFT_20260622_news1": {
+      "id": "ev_MSFT_20260622_news1",
+      "kind": "news",
+      "title": "Chevron is Building a Massive Power Plant to Support a Microsoft AI Data Center. Here's What it Means for the Energy Stock.",
+      "detail": "Reported by Yahoo. Chevron is capitalizing on the AI power megatrend.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9f161f55c383691feed104a7cf427b284be9c9215bd91b6403feb6505d47ece5",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_MSFT_20260622_news2": {
+      "id": "ev_MSFT_20260622_news2",
+      "kind": "news",
+      "title": "Can Investing in Microsoft Stock Double Your Money?",
+      "detail": "Reported by Yahoo. The tech giant has been struggling this year, but its growth has remained solid, particularly in artificial intelligence.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3ecaedbc93c978c390b3f3876852cd6fd1f48f4d6d7c73118755f2f362dd44fe",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_MSFT_20260622_news3": {
+      "id": "ev_MSFT_20260622_news3",
+      "kind": "news",
+      "title": "Microsoft Turns to Natural Gas to Power Its Biggest Data Center",
+      "detail": "Reported by Yahoo. Chevron will supply natural gas for Project Kilby's 2.7 GW load under a 20-year agreement",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1b289f3b89d5d600d90632682d7bddffa940f1ea70ad9ef4a6d115054b0e8055",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_MSFT_20260622_news4": {
+      "id": "ev_MSFT_20260622_news4",
+      "kind": "news",
+      "title": "Chevron and Microsoft Strike 20-Year Gas Deal for AI Data Centers",
+      "detail": "Reported by Yahoo. The agreement puts the oil giant on track to produce steady cash flows for years, insulating it from the boom-and-bust nature of oil and gas.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0107b5ea2dc64d13ad76e07681600436ae558689c73be4f0c0534bd4680d0fef",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_MSFT_20260622_news5": {
+      "id": "ev_MSFT_20260622_news5",
+      "kind": "news",
+      "title": "Microsoft Signs 20-Year Power Deal With Chevron Showing How Far AI\u2019s Energy Needs Have Grown",
+      "detail": "Reported by Yahoo. CNBC\u2019s Brian Sullivan walked viewers through a landmark energy agreement that paints the picture for how much electricity the AI buildout actually needs. Chevron has signed a 20-year power purchase agreement with Microsoft to supply natural-gas-fired electricity to a Microsoft data center in far west Texas, about an hour southwest of Odessa. According to Sullivan, ... Microsoft Signs 20-Year Power Deal With Chevron Showing How Far AI\u2019s Energy Needs Have Grown",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2bdbcbd246b28aca6d86af9f32478ae8c143e5885664d5dbccc937aea2f49398",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_MSFT_20260622_news6": {
+      "id": "ev_MSFT_20260622_news6",
+      "kind": "news",
+      "title": "GOOGL, MSFT Plunge Up To 6% On Monday: What Is Going On With AI Hyperscalers?",
+      "detail": "Reported by Benzinga. AI CapEx fears have Big Tech sliding, but David Katz is using the selloff to buy more. Find out why he&#39;s bullish on hyperscalers and cautious on chips.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=946db6f4858af8562fbcea329ad49433eeb063526298fd05a9d78d85bb436cab",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_MSFT_20260622_news7": {
+      "id": "ev_MSFT_20260622_news7",
+      "kind": "news",
+      "title": "Stock Market Today: Dow Up As Bessent Makes Iran Move; Microsoft Falls After Nadella Says This (Live Coverage)",
+      "detail": "Reported by Yahoo. The Dow Jones index rises as Treasury Secretary Scott Bessent makes an Iran move. Microsoft falls on the stock market today. SpaceX skids.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f803f5ff3cd9fe096d287ff9054cb7284ce01182381750b0de013b1f7055bdb2",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
     "ev_MSFT_20260626_price": {
       "id": "ev_MSFT_20260626_price",
       "kind": "price",
@@ -2130,6 +2723,86 @@
         "relationship": "supplier and competitor"
       }
     },
+    "ev_MSFT_20260626_news0": {
+      "id": "ev_MSFT_20260626_news0",
+      "kind": "news",
+      "title": "Why Microsoft Stock Rose Today",
+      "detail": "Reported by Yahoo. Is the AI software play about to come back in vogue?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5c0cba36e550092025fba199124e550ec045d06966930426745f9863c57da35a",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_MSFT_20260626_news1": {
+      "id": "ev_MSFT_20260626_news1",
+      "kind": "news",
+      "title": "Microsoft Has Fallen 25% This Year: What Could Push MSFT Back to $500?",
+      "detail": "Reported by Yahoo. Microsoft (NASDAQ:MSFT) stock is rebounding sharply Friday afternoon, with shares up 5% to $371 as the broader memory and semiconductor tape stabilizes. The bounce offers a rare bright spot in what has been a punishing stretch for one of the market\u2019s most widely held names. The recovery comes against a brutal backdrop as MSFT stock ... Microsoft Has Fallen 25% This Year: What Could Push MSFT Back to $500?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=057ec1e658dd365102853f3d5fc37f8264aa2596135791d16bd820e44dbb0ea8",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_MSFT_20260626_news2": {
+      "id": "ev_MSFT_20260626_news2",
+      "kind": "news",
+      "title": "Microsoft (MSFT) Stock After Recent Slide Is The Current Valuation An Opportunity?",
+      "detail": "Reported by Yahoo. How Recent Moves Shape Microsoft\u2019s Valuation Story Recent months have given investors plenty of reasons to recheck what they think Microsoft is worth, especially if you are asking whether the current share price lines up with the company\u2019s underlying fundamentals. Microsoft\u2019s share price closed at US$352.83, with the stock down 7.0% over the past week, 15.2% over the past month, and 25.4% year to date, while still showing gains over the last 3 and 5 years at 7.8% and 35.4%...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=15d412988b6857117b3cd9a71385d95fae231c76f4887c3fca87efccf8606029",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_MSFT_20260626_news3": {
+      "id": "ev_MSFT_20260626_news3",
+      "kind": "news",
+      "title": "Microsoft Just Made Commvault a Native Azure Service. Here Is How to Play CVLT Stock.",
+      "detail": "Reported by Yahoo. Commvault Systems is partnering with Microsoft in a multiyear agreement while Thoma Bravo looks for a potential takeover.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2963d5193d81b8ee0016c256d6fa27fddf3ff9084915c67baafb1716fa7be254",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_MSFT_20260626_news4": {
+      "id": "ev_MSFT_20260626_news4",
+      "kind": "news",
+      "title": "Microsoft and Amazon Lead Tech Spending Survey",
+      "detail": "Reported by Yahoo. CIOs expect stronger software and cloud spending.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7171d9ece3c8257feabd6b8a7818b4d02400b30121b5c7e2407f38aebd628206",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_MSFT_20260626_news5": {
+      "id": "ev_MSFT_20260626_news5",
+      "kind": "news",
+      "title": "Chamath Says Alphabet, Meta and Microsoft Aren\u2019t Bleeding Cash \u2014 They\u2019re Building Moats",
+      "detail": "Reported by Yahoo. Investors have spent much of the past year debating whether Big Tech\u2019s massive artificial intelligence spending spree is getting out of hand. Chamath Palihapitiya thinks they\u2019re asking the wrong question. In a post on X, the venture capitalist argued that...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=831a4ab6884f22ec97dfd4f4016b0ec0e18a4234e67600371bcdfd70140b8c78",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_MSFT_20260626_news6": {
+      "id": "ev_MSFT_20260626_news6",
+      "kind": "news",
+      "title": "Wedbush Issues Bold Call on Beaten-Down Nvidia and Microsoft Stocks",
+      "detail": "Reported by Yahoo. 'Magnificent 7' Stocks Are Under Pressure. Wedbush Sees Upside",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=871519cde70b5ac0a561aad0935e98ce20f294131830d494fadd00848bf87d8e",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_MSFT_20260626_news7": {
+      "id": "ev_MSFT_20260626_news7",
+      "kind": "news",
+      "title": "Stock Market Today: Dow Index Turns Higher After Soft Start; Microsoft Leads Software Rally (Live Coverage)",
+      "detail": "Reported by Yahoo. Stock Market Today: The Dow Jones index fell, while the Nasdaq dived amid a global tech sell-off. Micron, Nvidia and Sandisk tumbled.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=90bd28733e5ef80c8a935e8d94e10549b8f7b6097d0b2eee76fa93e99311b186",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
     "ev_MSFT_20260701_price": {
       "id": "ev_MSFT_20260701_price",
       "kind": "price",
@@ -2202,6 +2875,86 @@
         "subject_pct_change": 3.019,
         "relationship": "supplier and competitor"
       }
+    },
+    "ev_MSFT_20260701_news0": {
+      "id": "ev_MSFT_20260701_news0",
+      "kind": "news",
+      "title": "Why Microsoft Stock Surged Today",
+      "detail": "Reported by Yahoo. Microsoft is regaining some ground as investors pivot back into AI software stocks.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=893f2cb40b482085faeff7b8187de3151bd656cb09fe3d7bdee5b90bdea2ee4c",
+      "occurred_on": "2026-07-01",
+      "numbers": {}
+    },
+    "ev_MSFT_20260701_news1": {
+      "id": "ev_MSFT_20260701_news1",
+      "kind": "news",
+      "title": "Is Microsoft Corporation (MSFT) One of the Most Promising Future Stocks to Buy Right Now?",
+      "detail": "Reported by Yahoo. Microsoft Corporation (NASDAQ:MSFT) is one of the most promising future stocks to buy right now. Reuters reported on June 26 that Italy\u2019s antitrust authority announced on Friday the opening of an investigation into Microsoft Corporation (NASDAQ:MSFT) concerning the alleged unfair commercial practices associated with the \u200bprice hike of its \u201cMicrosoft 365\u201d \u200bsubscription. The regulator stated that [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=11c1679b2f0df4ae9421313b88b786d864637d15971181bde5248a77c59c18f5",
+      "occurred_on": "2026-07-01",
+      "numbers": {}
+    },
+    "ev_MSFT_20260701_news2": {
+      "id": "ev_MSFT_20260701_news2",
+      "kind": "news",
+      "title": "Chevron Corporation (CVX) Partners with Microsoft to Power Texas Data Center",
+      "detail": "Reported by Yahoo. Chevron Corporation (NYSE:CVX) is one of the best energy dividend stocks to invest in now. On June 22, Chevron Corp (NYSE:CVX) entered into a strategic partnership with Microsoft to develop a co-located facility. The facility is to provide natural gas-fired power for the software giant\u2019s data center in Texas. The Co-located facility, dubbed Project Kilby, [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f3eadb4f63a7f9524193168406b4d6bc0f47a3fc66fc990dc378cd0833557bb1",
+      "occurred_on": "2026-07-01",
+      "numbers": {}
+    },
+    "ev_MSFT_20260701_news3": {
+      "id": "ev_MSFT_20260701_news3",
+      "kind": "news",
+      "title": "Microsoft Plans Fresh Job Cuts",
+      "detail": "Reported by Yahoo. Layoffs could affect fewer than 2.5% of employees, according to reports.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b8528f0d274ea999abead4c952458fd59d114ec8e347ea6943e04a114fb4eea3",
+      "occurred_on": "2026-07-01",
+      "numbers": {}
+    },
+    "ev_MSFT_20260701_news4": {
+      "id": "ev_MSFT_20260701_news4",
+      "kind": "news",
+      "title": "Chevron (CVX) Just Signed A 20 Year Microsoft AI Data Center Power Deal",
+      "detail": "Reported by Yahoo. Chevron and Microsoft have signed a 20 year deal for Chevron to supply electricity to a large AI focused data center in Texas tied to Project Kilby. Chevron is also reviewing additional U.S. data center power projects that would use its natural gas resources. The move signals an expansion of Chevron's role in supplying power to tech infrastructure as AI related electricity demand grows. Chevron, traded as NYSE:CVX, is stepping directly into the data center power business with this long term...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1f4bdea0838cf878216e6bc59b1915de11fbff1f03628ddf47d7b72f8ba0b004",
+      "occurred_on": "2026-07-01",
+      "numbers": {}
+    },
+    "ev_MSFT_20260701_news5": {
+      "id": "ev_MSFT_20260701_news5",
+      "kind": "news",
+      "title": "Forget Apple: Why Microsoft Is a Far Better Value Today",
+      "detail": "Reported by Yahoo. Microsoft's stock looks far cheaper than Apple's.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c72ddd78f2fc8184518c5e866989eb5b9b701c4a87848d974d3e23bf9e3d94e1",
+      "occurred_on": "2026-07-01",
+      "numbers": {}
+    },
+    "ev_MSFT_20260701_news6": {
+      "id": "ev_MSFT_20260701_news6",
+      "kind": "news",
+      "title": "Insight to Offer Microsoft 365 E7 AI-Powered Frontier Suite to Market, Leading by Example with Its Own Enterprise-Wide Deployment",
+      "detail": "Reported by Yahoo. CHANDLER, Ariz., July 01, 2026--Insight Enterprises (NASDAQ: NSIT) today announced it has signed an agreement to formalize its role as a launch partner for Microsoft 365 E7, Microsoft\u2019s Frontier Suite that combines advanced productivity and security with artificial intelligence (AI) built for work and capabilities to manage and secure AI agents. As one of the first enterprises to deploy Microsoft\u2019s Frontier Suite across its own 14,000+ employee global enterprise, Insight will be client zero for",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=be22e478aa098fff4c23e7383a3ec35bc5ee0c784887698cb467cde1dc0cc0ff",
+      "occurred_on": "2026-07-01",
+      "numbers": {}
+    },
+    "ev_MSFT_20260701_news7": {
+      "id": "ev_MSFT_20260701_news7",
+      "kind": "news",
+      "title": "JMP Securities Reaffirms Bullish Outlook on Microsoft Corporation (MSFT) Following Copilot Cowork Launch",
+      "detail": "Reported by Yahoo. Microsoft Corporation (NASDAQ:MSFT) ranks among the AI stocks beyond NVIDIA that could surge in 2026. Following Microsoft Corporation (NASDAQ:MSFT)\u2019s product announcements, JMP Securities reaffirmed its Market Outperform rating and $550 price target for the company\u2019s shares on June 23. On June 16, Microsoft Corporation (NASDAQ:MSFT) stated that Copilot Cowork will be available globally and billed [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0175b269c380d5c689bd83058e88c5325e3f259be9b0308401bfacfc218b2cf3",
+      "occurred_on": "2026-07-01",
+      "numbers": {}
     },
     "ev_MSFT_20260730_price": {
       "id": "ev_MSFT_20260730_price",
@@ -2294,6 +3047,86 @@
       "source": "SEC EDGAR",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm",
       "occurred_on": "2026-07-29",
+      "numbers": {}
+    },
+    "ev_MSFT_20260730_news0": {
+      "id": "ev_MSFT_20260730_news0",
+      "kind": "news",
+      "title": "Review & Preview: Microsoft\u2019s $450 Billion Cushion",
+      "detail": "Reported by Yahoo. Massive single-day market cap gains prove once again that a few heavyweights can carry the entire market on their back.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=085f697de09f2e0ac3059e84d9736a4fa59b4aeca63953b228681c1c13a1d328",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260730_news1": {
+      "id": "ev_MSFT_20260730_news1",
+      "kind": "news",
+      "title": "Microsoft Q4 Earnings Crush Expectations: Time to Buy MSFT Stock?",
+      "detail": "Reported by Yahoo. Microsoft (MSFT) stock spiked 15% in Thursday's trading session after delivering blockbuster results for its fiscal fourth quarter yesterday evening.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=88181d45e4b261c801b805d8e539ca6e29c91cbd55bcbea3d61eb154726ea1ac",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260730_news2": {
+      "id": "ev_MSFT_20260730_news2",
+      "kind": "news",
+      "title": "Wall Street ends sharply higher, lifted by soaring Microsoft",
+      "detail": "Reported by Yahoo. STORY: U.S. stocks ended sharply higher on Thursday, with the Dow gaining more than one percent, the S&P 500 climbing one-and-two-thirds percent and the Nasdaq rallying more than two-and-three-quarters percent.:: MicrosoftShares of Microsoft soared more than 15% to log their biggest daily percentage gain in 18 years, after the tech giant gave a stellar forecast that eased fears about massive spending on AI infrastructure.That boosted overall market sentiment, says Mary Ann Bartels, chief investment strategist at Sanctuary Wealth.\u201cI think the real focus is on Microsoft and their earnings report",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5f6d5cebcdd9c02ead7fd0f8025f6cc9d6172e18159f87d8c4ccc34b359b5239",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260730_news3": {
+      "id": "ev_MSFT_20260730_news3",
+      "kind": "news",
+      "title": "Will Deeper AtHoc\u2013Microsoft Integration Change BlackBerry's (TSX:BB) Secure Software Narrative?",
+      "detail": "Reported by Yahoo. BlackBerry recently enhanced its BlackBerry AtHoc critical event response platform by deepening integrations with Microsoft Teams and Microsoft Entra ID, embedding emergency communications into tools employees already use. This move highlights BlackBerry\u2019s push to make its secure communications and incident response capabilities more central to everyday enterprise workflows, potentially reinforcing its role in high-stakes security settings. We\u2019ll now examine how the upgraded AtHoc\u2013Microsoft...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fcd4cc0043b5bc6c75a796d041e8ad0685ce0404b52cb2e7d5da71494d07b5d4",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260730_news4": {
+      "id": "ev_MSFT_20260730_news4",
+      "kind": "news",
+      "title": "S&P 500, Nasdaq End Best Day In A Month On Support From Microsoft Gains, AI Stocks  \u2014 ORCL, GOOGL, MSFT, BE, TSLA Stock In Focus",
+      "detail": "Reported by Yahoo. Microsoft stock records best day since 2008 on strong cloud revenue.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a84c2dc6fba19f0398e704ebca872d7715e76d02e02007dab3d62c04e361d7a6",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260730_news5": {
+      "id": "ev_MSFT_20260730_news5",
+      "kind": "news",
+      "title": "Microsoft Crushes Earnings as AI Investment Proves Lucrative",
+      "detail": "Reported by Yahoo. Microsoft has finally cleared the cloud growth hurdle that's been impacting sentiment over recent periods, with shares popping as a result. Multi-year share underperformance and sound valuation offer a compelling opportunity for investors looking for a strong mega-cap tech option.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7584e214773e27fb5872ec136849dd837a412d0e72c37ac235db5c6619511d89",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260730_news6": {
+      "id": "ev_MSFT_20260730_news6",
+      "kind": "news",
+      "title": "Meta, Microsoft, and the AI Capex Divide",
+      "detail": "Reported by Yahoo. The latest Big Tech earnings brought plenty of fireworks \u2014and the conflicting reactions from  Meta Platforms  and  Microsoft  shed light on just what the  is worried about right now.  Both Microsoft and Meta are spending well over a hundred billion dollars this year on capital expenditures for new artificial-intelligence data centers.  On that front, Microsoft and Meta had very different things to say.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fc5ca4b7db778521c5db7eb4648f9cd820bb8526fb5f8efbd4ee003e2fb6c925",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_MSFT_20260730_news7": {
+      "id": "ev_MSFT_20260730_news7",
+      "kind": "news",
+      "title": "How Microsoft Helped End Tesla\u2019s 6-Day Losing Streak",
+      "detail": "Reported by Yahoo. Coming into Thursday trading, Tesla stock had dropped for six straight days, losing 21% over that span.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=977e39f88d4415e3b63f31fae540ba87a389b9440753fb5e7a739774cedb8019",
+      "occurred_on": "2026-07-30",
       "numbers": {}
     },
     "ev_MSFT_20260731_price": {
@@ -2389,6 +3222,86 @@
       "occurred_on": "2026-07-29",
       "numbers": {}
     },
+    "ev_MSFT_20260731_news0": {
+      "id": "ev_MSFT_20260731_news0",
+      "kind": "news",
+      "title": "Top Analyst Reports for Microsoft, Palo Alto Networks & American Express",
+      "detail": "Reported by Yahoo. Microsoft rides AI, Copilot and Azure growth, but can expanding cloud demand and capacity challenges shape its next phase?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=05c7ae4fb41773fe01cf10657261a5f6e648120da088da6963ed32991c579eab",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_MSFT_20260731_news1": {
+      "id": "ev_MSFT_20260731_news1",
+      "kind": "news",
+      "title": "Microsoft Stock Rises Again After Record $450 Billion Gain",
+      "detail": "Reported by Yahoo. Microsoft extended its advance after Azure guidance and a $50 billion quarterly investment plan drove a historic rally.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c4ce163012e72fb5f4a6ef3bf4294710e381358cd54ac0cb9ee9598bdc014fa7",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_MSFT_20260731_news2": {
+      "id": "ev_MSFT_20260731_news2",
+      "kind": "news",
+      "title": "Here's why Microsoft stock is soaring",
+      "detail": "Reported by Yahoo. Microsoft shares continued to rise on Friday, after surging 15% a day earlier.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=af7d61f73b0c4ec50125bf1d373e94d5b2941ce5ee4ce48a5121781010352bc3",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_MSFT_20260731_news3": {
+      "id": "ev_MSFT_20260731_news3",
+      "kind": "news",
+      "title": "Accenture vs. Microsoft: What Diverging Revenue Growth Paths Tell Investors",
+      "detail": "Reported by Yahoo. Microsoft's revenue nearly quintupled Accenture's in the latest quarter, a gap that has only widened over two years.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d2d433d997ba2ac31cef7c7e369b5b9f52645008cf08020f24d36b1271f36e5e",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_MSFT_20260731_news4": {
+      "id": "ev_MSFT_20260731_news4",
+      "kind": "news",
+      "title": "Microsoft's $450 billion one-day surge tops Turkey's entire stock market as Azure hits $100B milestone",
+      "detail": "Reported by Yahoo. Microsoft added $450 billion in market value in a single day after posting $90 billion in quarterly revenue.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=edac6b451eca0e5ebdb2549e8e5fff3523855b84110997881da824d4b5372a5d",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_MSFT_20260731_news5": {
+      "id": "ev_MSFT_20260731_news5",
+      "kind": "news",
+      "title": "Microsoft's Copilot Just Crossed 30 Million Paid Seats as CEO Satya Nadella Unveiled Unified App: 'Major Step Forward'",
+      "detail": "Reported by Yahoo. Microsoft Corp. CEO Satya Nadella said Copilot is rapidly evolving from a chat assistant into autonomous AI agents with more than double the seat additions quarter-over-quarter. Copilot Seats Top 30 Million During the company\u2019s fourth quarter earnings call on Wednesday,...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f93830ad188a72f24b2a7fab0db2e4dd56b5654159aa1cd4ed99e8ca669334de",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_MSFT_20260731_news6": {
+      "id": "ev_MSFT_20260731_news6",
+      "kind": "news",
+      "title": "These 3 Dividend ETFs Own Nvidia and Microsoft and Still Pay Up to 8 Percent",
+      "detail": "Reported by Yahoo. Owning Nvidia and Microsoft while collecting a fat dividend income used to mean picking one or the other. A new generation of ETFs rewrites that tradeoff in three very different ways, and the mechanics behind each one matter before you buy.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=666f398b3c9903163793a2fb36e4591fd07d0216f6c1860a3081546801102cd9",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_MSFT_20260731_news7": {
+      "id": "ev_MSFT_20260731_news7",
+      "kind": "news",
+      "title": "Microsoft Copilot Lawsuit Deadline Is August 11: Will Investors Get Money Back?",
+      "detail": "Reported by Yahoo. Microsoft faces an August 11 Copilot lawsuit deadline, days after the biggest one-day market cap gain in US history.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a3401a8f046bb0644ffb232982db44326b5e52193862cc9d005b4c7b5c164d9c",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
     "ev_MSFT_20260803_price": {
       "id": "ev_MSFT_20260803_price",
       "kind": "price",
@@ -2461,6 +3374,86 @@
         "subject_pct_change": 4.934,
         "relationship": "supplier and competitor"
       }
+    },
+    "ev_MSFT_20260803_news0": {
+      "id": "ev_MSFT_20260803_news0",
+      "kind": "news",
+      "title": "What Wall Street Pushed Microsoft To Explain",
+      "detail": "Reported by Yahoo. Microsoft's growth story is undeniable, but its latest earnings call revealed the one question that truly matters: who is paying for the large AI buildout, and what happens if they stop.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ccc38fb40c7d5c21847da538b1b51db3178dbcb456f20051f81d1fb3ad24413f",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_MSFT_20260803_news1": {
+      "id": "ev_MSFT_20260803_news1",
+      "kind": "news",
+      "title": "Bill Ackman's Pershing Square Owns Amazon, Microsoft, and Meta Platforms. Here's the Best Buy of the Bunch in August.",
+      "detail": "Reported by Yahoo. Ackman isn't leaving this opportunity on the table, and retail investors shouldn't, either.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=aa6401c94b8b7d68d4ff5b21e51d1787b259a9a0cee3a6ef3ebdf6ce3d335980",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_MSFT_20260803_news2": {
+      "id": "ev_MSFT_20260803_news2",
+      "kind": "news",
+      "title": "Prediction: Within 18 Months, Microsoft Will Be More Valuable Than Apple",
+      "detail": "Reported by Yahoo. Apple has been a much hotter stock than Microsoft over the past year, but things could change drastically in the not-too-distant future.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=366bc5ab9073685b180315ae97452cd684d15f2aeef74660b6bf70928c6dff05",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_MSFT_20260803_news3": {
+      "id": "ev_MSFT_20260803_news3",
+      "kind": "news",
+      "title": "Microsoft Stock Breaks Out Into Buy Zone. Here's Why.",
+      "detail": "Reported by Yahoo. Microsoft stock broke out of a cup base on Monday following its beat-and-raise earnings report last week.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=487b35677c999e18b1e0a06003a9bb2becbe0fd7960b76824ce5e590d4e0e9dc",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_MSFT_20260803_news4": {
+      "id": "ev_MSFT_20260803_news4",
+      "kind": "news",
+      "title": "Microsoft Stock Jumps 4.9% as Azure Rally Hits New Gear",
+      "detail": "Reported by Yahoo. Microsoft extended its historic earnings rally after Azure growth exceeded expectations and strengthened confidence in its AI spending.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f41e53e3661e5a3034a1f81aa0decdf086d7db9e3a98decce592449577844ac7",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_MSFT_20260803_news5": {
+      "id": "ev_MSFT_20260803_news5",
+      "kind": "news",
+      "title": "Why Microsoft, Amazon, & other Big Tech stocks are soaring post-earnings",
+      "detail": "Reported by Yahoo. Big Tech stocks are soaring after the companies reported earnings last week, namely Microsoft (MSFT) and Amazon (AMZN). Yahoo Finance Technology Editor Dan Howley takes a closer look.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=af1bae78270a3bc99debf43042742c93760583115cc989e55be89379042cd4e2",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_MSFT_20260803_news6": {
+      "id": "ev_MSFT_20260803_news6",
+      "kind": "news",
+      "title": "Why Amazon Looks Better Than Microsoft After Each Jumped 15% Post Earnings",
+      "detail": "Reported by Yahoo. Both Amazon and Microsoft crushed earnings and surged on identical catalysts, but the businesses underneath those matching gains point in very different directions for what comes next.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e0aa7d736db0d44597ca14a0d11b6fadf8fa19f334427d88969686d6d2f71480",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_MSFT_20260803_news7": {
+      "id": "ev_MSFT_20260803_news7",
+      "kind": "news",
+      "title": "Microsoft Just Proved that AI Spending Can Pay Off. Here's How the Company Separates Itself From Other AI Stocks.",
+      "detail": "Reported by Yahoo. Microsoft spent about $175 billion this year, mostly for AI. It just showed shareholders that it can make good on its AI investments.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b032c49beda7a2438cff12dde40bf436374882f07ce8f43811ccf0663049ddc2",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
     },
     "ev_MSFT_fund_revenue": {
       "id": "ev_MSFT_fund_revenue",
@@ -2538,18 +3531,21 @@
       }
     }
   },
-  "arc": "Between April and August 2026, Microsoft underwent a sharp round-trip before staging a powerful multi-day breakout. After retreating from $415.75 in late April following quarterly filings to a cycle low of $367.34 in late June, the stock stabilized and reversed course. The decisive catalyst arrived with its July 29 annual 10-K and 8-K filings, which sparked a 15.51% single-day surge on July 30 on more than 5 times normal volume alongside massive rallies in supplier AMD and competitor Intel. Continued momentum carried Microsoft through July 31 and August 3 to finish at $487.65, demonstrating that its primary valuation resets during this period were tied to its formal SEC reporting cycles rather than broader peer moves.",
+  "arc": "Between late April and early August 2026, Microsoft's market narrative underwent a dramatic transition from acute anxiety over AI capital spending to full vindication of its cloud infrastructure investments. In April and June, aggressive capital expenditure plans\u2014exceeding $190 billion in annual run rates\u2014workforce buyouts, and power supply challenges weighed on sentiment, pushing the stock from $432 down to a low near $352. However, the release of blockbuster fourth-quarter fiscal results in late July demonstrated robust monetization, highlighted by Azure reaching a $100 billion milestone and Copilot paid seats exceeding 30 million, sparking a 15.5% single-day surge that carried shares to $487.65 by early August.",
   "arc_citation_ids": [
     "ev_MSFT_20260423_price",
-    "ev_MSFT_20260430_price",
-    "ev_MSFT_20260430_filing_000119312526191507",
-    "ev_MSFT_20260622_price",
-    "ev_MSFT_20260730_filing_000119312526323660",
+    "ev_MSFT_20260423_news2",
+    "ev_MSFT_20260430_news2",
+    "ev_MSFT_20260430_news4",
+    "ev_MSFT_20260622_news0",
+    "ev_MSFT_20260626_price",
     "ev_MSFT_20260730_price",
-    "ev_MSFT_20260730_peer_AMD",
-    "ev_MSFT_20260730_peer_INTC",
-    "ev_MSFT_20260731_price",
-    "ev_MSFT_20260803_price"
+    "ev_MSFT_20260730_news1",
+    "ev_MSFT_20260730_news2",
+    "ev_MSFT_20260731_news4",
+    "ev_MSFT_20260731_news5",
+    "ev_MSFT_20260803_price",
+    "ev_MSFT_20260803_news7"
   ],
   "warnings": []
 }

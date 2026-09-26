@@ -1,7 +1,7 @@
 {
   "symbol": "AAPL",
   "company_name": "Apple Inc.",
-  "generated_at": "2026-09-26T12:37:00.792285+00:00",
+  "generated_at": "2026-09-26T12:46:34.078058+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,15 +1320,16 @@
       "pct_change": 3.239,
       "close": 280.14,
       "direction": "up",
-      "headline": "Shares Rise 3.24% Following 8-K and 10-Q Filings",
-      "explanation": "Apple gained 3.24% to close at $280.14 on 1.9x average volume following an 8-K filed on April 30 and a 10-Q filed on May 1. The upward move was partly shared with competitor INTC, which advanced 5.44%, while supplier QCOM moved in the opposite direction, declining 1.43%.",
+      "headline": "Apple jumps on record earnings and $100B buyback",
+      "explanation": "Apple gained 3.24% to close at $280.14 on 1.9 times its average volume following record quarterly results, upbeat guidance, and a $100 billion share buyback announcement. The move was primarily company-specific, with connected peers like customer Alphabet up just 0.23% and supplier TSMC up 0.41%, even as competitor Intel advanced 5.44%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260501_price",
-        "ev_AAPL_20260501_filing_000032019326000011",
-        "ev_AAPL_20260501_filing_000032019326000013",
-        "ev_AAPL_20260501_peer_INTC",
-        "ev_AAPL_20260501_peer_QCOM"
+        "ev_AAPL_20260501_news1",
+        "ev_AAPL_20260501_news3",
+        "ev_AAPL_20260501_peer_GOOGL",
+        "ev_AAPL_20260501_peer_TSM",
+        "ev_AAPL_20260501_peer_INTC"
       ]
     },
     {
@@ -1336,14 +1337,16 @@
       "pct_change": -3.645,
       "close": 290.55,
       "direction": "down",
-      "headline": "Shares Drop 3.65% Amid Broad Tech Pullback",
-      "explanation": "No company-specific news accompanied Apple's 3.65% drop from $301.54 to $290.55. The decline was shared with peer companies, including supplier QCOM, which fell 5.67%, and competitors INTC and MSFT, which lost 2.13% and 2.02%, respectively.",
-      "confidence": "low",
+      "headline": "Apple falls as WWDC and Siri AI disappoint",
+      "explanation": "Apple dropped 3.65% to $290.55 after unveiling its WWDC updates, with investors questioning device upgrade cycles and noting the AI announcements fell short of high expectations. Competitors Intel and Microsoft also dropped 2.13% and 2.02% respectively, while supplier Qualcomm dropped 5.67%, reflecting broader sector softness alongside Apple's event reaction.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260609_price",
-        "ev_AAPL_20260609_peer_QCOM",
+        "ev_AAPL_20260609_news3",
+        "ev_AAPL_20260609_news7",
         "ev_AAPL_20260609_peer_INTC",
-        "ev_AAPL_20260609_peer_MSFT"
+        "ev_AAPL_20260609_peer_MSFT",
+        "ev_AAPL_20260609_peer_QCOM"
       ]
     },
     {
@@ -1351,14 +1354,16 @@
       "pct_change": -6.118,
       "close": 275.15,
       "direction": "down",
-      "headline": "Stock Drops 6.12% Without Company-Specific News",
-      "explanation": "No company-specific news accompanied Apple's 6.12% drop to $275.15 on 2.6x its typical volume. The decline was shared with competitor MSFT, which declined 3.46%, and supplier CRUS, which fell 2.34%, though supplier QCOM moved the other way with a 3.79% gain.",
-      "confidence": "low",
+      "headline": "Apple sinks 6.12% after mid-cycle product price hikes",
+      "explanation": "Shares fell 6.12% to $275.15 on 2.6 times average volume after Apple raised prices across Macs, iPads, and accessories to offset surging AI-driven memory chip costs. The steep drop was distinct from peers like supplier Qualcomm, which gained 3.79%, and competitor Intel, which rose 0.93%, as the market reacted to margin pressures and demand concerns.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260625_price",
-        "ev_AAPL_20260625_peer_MSFT",
-        "ev_AAPL_20260625_peer_CRUS",
-        "ev_AAPL_20260625_peer_QCOM"
+        "ev_AAPL_20260625_news1",
+        "ev_AAPL_20260625_news2",
+        "ev_AAPL_20260625_news3",
+        "ev_AAPL_20260625_peer_QCOM",
+        "ev_AAPL_20260625_peer_INTC"
       ]
     },
     {
@@ -1366,14 +1371,15 @@
       "pct_change": 3.136,
       "close": 283.78,
       "direction": "up",
-      "headline": "Shares Rebound 3.14% on Heavy Trading Volume",
-      "explanation": "Apple rebounded 3.14% to $283.78 on volume reaching 6.3x its 30-day average without any company-specific news. The gain was shared with competitor MSFT, which climbed 5.71%, while suppliers QCOM and CRUS fell 7.57% and 4.86%, respectively.",
-      "confidence": "low",
+      "headline": "Apple rebounds 3.14% on technical bounce",
+      "explanation": "Apple rebounded 3.14% to $283.78 on massive volume of 6.3 times normal, regaining ground from technical support near the $275 level following the prior session's price-hike sell-off. The rebound occurred despite negative headline news of its Vision Pro hardware lead defecting to OpenAI, and diverged from suppliers Cirrus Logic and Qualcomm, which slid 4.86% and 7.57% respectively.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_AAPL_20260626_price",
-        "ev_AAPL_20260626_peer_MSFT",
-        "ev_AAPL_20260626_peer_QCOM",
-        "ev_AAPL_20260626_peer_CRUS"
+        "ev_AAPL_20260626_news2",
+        "ev_AAPL_20260626_news3",
+        "ev_AAPL_20260626_peer_CRUS",
+        "ev_AAPL_20260626_peer_QCOM"
       ]
     },
     {
@@ -1381,12 +1387,15 @@
       "pct_change": 4.841,
       "close": 308.63,
       "direction": "up",
-      "headline": "Apple Gains 4.84% Diverging from Suppliers",
-      "explanation": "Apple rose 4.84% to finish at $308.63 with no company-specific news released. The move was company-specific, as competitor MSFT rose only 1.62% while suppliers QCOM and TSM dropped 3.12% and 2.27%, respectively.",
-      "confidence": "low",
+      "headline": "Apple climbs 4.84% on foldable iPhone targets",
+      "explanation": "Shares rose 4.84% to $308.63 following reports that Apple expanded production plans for its upcoming foldable iPhone to roughly 10 million units and prepared an aggressive five-model lineup. The advance was company-specific, as suppliers Cirrus Logic, Qualcomm, and TSMC fell between 0.12% and 3.12%, while competitor Intel dropped 5.25%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260702_price",
-        "ev_AAPL_20260702_peer_MSFT",
+        "ev_AAPL_20260702_news0",
+        "ev_AAPL_20260702_news4",
+        "ev_AAPL_20260702_peer_CRUS",
+        "ev_AAPL_20260702_peer_INTC",
         "ev_AAPL_20260702_peer_QCOM",
         "ev_AAPL_20260702_peer_TSM"
       ]
@@ -1396,14 +1405,17 @@
       "pct_change": 4.014,
       "close": 327.5,
       "direction": "up",
-      "headline": "Stock Advances 4.01% Alongside Tech Peers",
-      "explanation": "Apple climbed 4.01% from $314.86 to $327.50 without company-specific news. The advance was shared with customer GOOGL, which rose 3.17%, and competitor MSFT, which added 2.78%, while competitor INTC dropped 4.43%.",
-      "confidence": "low",
+      "headline": "Apple hits record high on China AI regulatory approval",
+      "explanation": "Apple surged 4.01% to a new all-time high of $327.50 after Chinese regulators approved Apple Intelligence in the country via integration with Alibaba's Qwen model. While competitor Microsoft and customer Alphabet also posted gains of 2.78% and 3.17%, Apple outperformed its suppliers TSMC and Qualcomm, which were slightly negative.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260715_price",
+        "ev_AAPL_20260715_news0",
+        "ev_AAPL_20260715_news4",
         "ev_AAPL_20260715_peer_GOOGL",
         "ev_AAPL_20260715_peer_MSFT",
-        "ev_AAPL_20260715_peer_INTC"
+        "ev_AAPL_20260715_peer_TSM",
+        "ev_AAPL_20260715_peer_QCOM"
       ]
     },
     {
@@ -1411,14 +1423,16 @@
       "pct_change": 3.532,
       "close": 333.02,
       "direction": "up",
-      "headline": "Shares Gain 3.53% as Chip Peers Diverge",
-      "explanation": "No company-specific news was reported as Apple rose 3.53% to close at $333.02. The gain was company-specific relative to semiconductor peers, as suppliers TSM and QCOM retreated 2.93% and 2.42%, and competitor INTC slumped 7.89%.",
-      "confidence": "low",
+      "headline": "Apple gains 3.53% on capital-light AI strategy",
+      "explanation": "Apple rose 3.53% to $333.02 as market sentiment favored its anti-capex AI approach heading into earnings, treating the stock as a hedge against heavy infrastructure spending by tech peers. The gain was distinct to Apple, with competitor Intel dropping 7.89% and suppliers TSMC and Qualcomm retreating 2.93% and 2.42%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260724_price",
+        "ev_AAPL_20260724_news4",
+        "ev_AAPL_20260724_news7",
+        "ev_AAPL_20260724_peer_INTC",
         "ev_AAPL_20260724_peer_TSM",
-        "ev_AAPL_20260724_peer_QCOM",
-        "ev_AAPL_20260724_peer_INTC"
+        "ev_AAPL_20260724_peer_QCOM"
       ]
     },
     {
@@ -1426,13 +1440,14 @@
       "pct_change": -7.354,
       "close": 308.91,
       "direction": "down",
-      "headline": "Stock Drops 7.35% Following 8-K and 10-Q Filings",
-      "explanation": "Apple plunged 7.35% to $308.91 on 3.2x normal volume following its July 30 8-K and July 31 10-Q filings. The drop was company-specific, occurring while customer GOOGL gained 6.73% and competitor MSFT climbed 3.02%.",
+      "headline": "Apple drops 7.35% on weak guidance from chip shortages",
+      "explanation": "Apple slid 7.35% to $308.91 on 3.2 times average volume after its fiscal third-quarter report included weaker-than-expected sales guidance caused by AI-driven component shortages. The plunge was sharply company-specific, occurring while customer Alphabet and competitor Microsoft rose 6.73% and 3.02% respectively on strong cloud results.",
       "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260731_price",
-        "ev_AAPL_20260731_filing_000032019326000018",
-        "ev_AAPL_20260731_filing_000032019326000020",
+        "ev_AAPL_20260731_news3",
+        "ev_AAPL_20260731_news4",
+        "ev_AAPL_20260731_news7",
         "ev_AAPL_20260731_peer_GOOGL",
         "ev_AAPL_20260731_peer_MSFT"
       ]
@@ -1442,11 +1457,13 @@
       "pct_change": 3.561,
       "close": 326.57,
       "direction": "up",
-      "headline": "Apple Climbs 3.56% as Supplier CRUS Surges",
-      "explanation": "Apple rose 3.56% to $326.57 without company-specific announcements. The rally was shared with supplier CRUS, which jumped 5.20%, even as competitor INTC declined 5.57% and supplier TSM dropped 1.68%.",
-      "confidence": "low",
+      "headline": "Apple rises 3.56% following iPhone Duo launch",
+      "explanation": "Apple shares climbed 3.56% to $326.57 as analysts projected strong demand for the newly announced $1,999 foldable iPhone Duo against rival Samsung. The move was accompanied by supplier Cirrus Logic jumping 5.20%, while competitor Intel fell 5.57% and supplier TSMC shed 1.68%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260910_price",
+        "ev_AAPL_20260910_news1",
+        "ev_AAPL_20260910_news3",
         "ev_AAPL_20260910_peer_CRUS",
         "ev_AAPL_20260910_peer_INTC",
         "ev_AAPL_20260910_peer_TSM"
@@ -1575,6 +1592,86 @@
       "occurred_on": "2026-04-30",
       "numbers": {}
     },
+    "ev_AAPL_20260501_news0": {
+      "id": "ev_AAPL_20260501_news0",
+      "kind": "news",
+      "title": "Replit\u2019s Amjad Masad on the Cursor deal, fighting Apple, and why he\u2019d rather not sell",
+      "detail": "Reported by Yahoo. At TechCrunch's sold-out StrictlyVC event in San Francisco on Thursday night, we covered a lot of ground in a short time, beginning with the question everyone in the industry is asking right now: in a world where rival Cursor is reportedly in talks to be acquired by SpaceX for $60 billion, is Replit also bound to sell?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ea6583cbcf8380c6cd9733e956faaffc053bf001cd1d9dcc70554eec51386719",
+      "occurred_on": "2026-05-01",
+      "numbers": {}
+    },
+    "ev_AAPL_20260501_news1": {
+      "id": "ev_AAPL_20260501_news1",
+      "kind": "news",
+      "title": "Stock Market Today, May 1: Apple Jumps After Record Quarter and $100 Billion Share Buyback",
+      "detail": "Reported by Yahoo. Record quarterly profits, upbeat guidance, and an enormous buyback are reshaping the risk\u2013reward profile for investors, today, May 1, 2026.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5f42ee6fcd537eb648e34d62c1eb8f939379e36f81f10410d6b8ccfb5e47c359",
+      "occurred_on": "2026-05-01",
+      "numbers": {}
+    },
+    "ev_AAPL_20260501_news2": {
+      "id": "ev_AAPL_20260501_news2",
+      "kind": "news",
+      "title": "Dow Jones Futures: Stock Market Hits Highs After Bullish Pause; Apple, Broadcom In Buy Zones",
+      "detail": "Reported by Yahoo. The stock market rebounded late last week after a short pause. The S&P 500 and Nasdaq are at highs while Apple and Broadcom are in buy zones.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=080e6e53474c3897c8498173cea024db874e717fa70f9a57030caf345fcae93d",
+      "occurred_on": "2026-05-01",
+      "numbers": {}
+    },
+    "ev_AAPL_20260501_news3": {
+      "id": "ev_AAPL_20260501_news3",
+      "kind": "news",
+      "title": "Why Apple Stock is Jumping on Friday",
+      "detail": "Reported by Yahoo. Apple Stock Rises After Earnings Beat. Strong iPhone Demand Is Driving Growth.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=065fcacb55224c3cba781a507acfeb27a882448f0bef1d374dd8d426e762a8a6",
+      "occurred_on": "2026-05-01",
+      "numbers": {}
+    },
+    "ev_AAPL_20260501_news4": {
+      "id": "ev_AAPL_20260501_news4",
+      "kind": "news",
+      "title": "Apple Stock Surged After Earnings. 3 Concerns Lurking Beneath the Surface.",
+      "detail": "Reported by Yahoo. \u201cWe believe memory costs will drive an increasing impact on our business,\u201d CEO Tim Cook said Thursday night.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d9c907e48d74b63dc8f9fcafb30a4ed28fde8caef86323748985abd61d4938a2",
+      "occurred_on": "2026-05-01",
+      "numbers": {}
+    },
+    "ev_AAPL_20260501_news5": {
+      "id": "ev_AAPL_20260501_news5",
+      "kind": "news",
+      "title": "Apple Warns the Memory Shortage Is Getting Worse. Experts Say It Could Drive Up Prices",
+      "detail": "Reported by Yahoo. Apple CEO Tim Cook on Thursday warned headwinds from an AI-driven memory supply crunch are only getting stronger.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a3a39c01dff50d6d95bba4f4d3e5b6f583e946d1b18ad89d7e78689368d979b7",
+      "occurred_on": "2026-05-01",
+      "numbers": {}
+    },
+    "ev_AAPL_20260501_news6": {
+      "id": "ev_AAPL_20260501_news6",
+      "kind": "news",
+      "title": "3 Takeaways From Apple Earnings. The Stock Is Surging.",
+      "detail": "Reported by Yahoo. \u201cWe believe memory costs will drive an increasing impact on our business,\u201d CEO Tim Cook said Thursday night.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=dc2ebbe581413f4b3e71ce72ec6cc9b2cfc76f6d084c55076bedc8199a301ad0",
+      "occurred_on": "2026-05-01",
+      "numbers": {}
+    },
+    "ev_AAPL_20260501_news7": {
+      "id": "ev_AAPL_20260501_news7",
+      "kind": "news",
+      "title": "Equity Markets Mostly Rise Intraday as Apple Helps Lift Tech",
+      "detail": "Reported by Yahoo. US benchmark equity indexes were mostly higher intraday as a post-earnings rally in Apple (AAPL) sha",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ab744fc327255ad19bfaa8b40196b6b88cd1b81432ed62fdaae12995f18181b5",
+      "occurred_on": "2026-05-01",
+      "numbers": {}
+    },
     "ev_AAPL_20260609_price": {
       "id": "ev_AAPL_20260609_price",
       "kind": "price",
@@ -1675,6 +1772,86 @@
         "subject_pct_change": -3.645,
         "relationship": "supplier"
       }
+    },
+    "ev_AAPL_20260609_news0": {
+      "id": "ev_AAPL_20260609_news0",
+      "kind": "news",
+      "title": "Apple Will Run Advanced AI Model on Nvidia GPUs via Google Cloud, Ditching Private Infrastructure",
+      "detail": "Reported by Yahoo. Apple (NASDAQ:AAPL), the most vertically integrated company in tech, is turning to Nvidia and Google Cloud to power its most advanced AI workloads. According to CNBC\u2019s MacKenzie Sigalos, Apple software chief Craig Federighi confirmed that the company\u2019s new frontier language model, FM Cloud Pro, will run on Nvidia GPUs hosted in Google Cloud for agentic ... Apple Will Run Advanced AI Model on Nvidia GPUs via Google Cloud, Ditching Private Infrastructure",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cc12af87a5b85d6fe4ec0d2e74fad694d929a4b2b57912d81dd677ea4064aef0",
+      "occurred_on": "2026-06-09",
+      "numbers": {}
+    },
+    "ev_AAPL_20260609_news1": {
+      "id": "ev_AAPL_20260609_news1",
+      "kind": "news",
+      "title": "Apple Just Joined the AI Revolution. Investors Could Be in for a Windfall, According to Several Wall Street Analysts.",
+      "detail": "Reported by Yahoo. Many believed the AI boom had passed Apple by. The company was just biding its time.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5ffc12bdd254d6f66026b62b6bcf9511f64c7faf5cb82a729cbeecfc9cde222f",
+      "occurred_on": "2026-06-09",
+      "numbers": {}
+    },
+    "ev_AAPL_20260609_news2": {
+      "id": "ev_AAPL_20260609_news2",
+      "kind": "news",
+      "title": "S&P 500, Nasdaq End Lower As Investors Take Breather From AI And Chips \u2014 AAPL, ASTS, APLD, RIVN, ZVRA In Focus",
+      "detail": "Reported by Yahoo. President Donald Trump claims a deal with Iran is just \u201ctwo or three days\u201d away.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=34a7d68cf886e3ee6dc68de76f007d35624f2425aacbabea652c73d586e84ecb",
+      "occurred_on": "2026-06-09",
+      "numbers": {}
+    },
+    "ev_AAPL_20260609_news3": {
+      "id": "ev_AAPL_20260609_news3",
+      "kind": "news",
+      "title": "Stock Market Today, June 9: Apple Falls as Siri AI Update Raises iPhone Upgrade Questions",
+      "detail": "Reported by Yahoo. Apple still needs to show that Siri AI can become a reason to buy a new iPhone, with older-device limits and EU delays shaping the early rollout.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=86a5b5323f902cb27188c45f9d70d86898bada13092e4fbfce56406a6e08fffd",
+      "occurred_on": "2026-06-09",
+      "numbers": {}
+    },
+    "ev_AAPL_20260609_news4": {
+      "id": "ev_AAPL_20260609_news4",
+      "kind": "news",
+      "title": "Apple Kicks Off WWDC. How to Play AAPL Stock Here.",
+      "detail": "Reported by Yahoo. Apple just headed into WWDC 2026 with record earnings, rising AI expectations, and growing pressure to deliver on Apple Intelligence.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1973ac2656a78a0f33c3b2359db5c30c1ecb75fa5d677f9e0e7f7787dcfb952c",
+      "occurred_on": "2026-06-09",
+      "numbers": {}
+    },
+    "ev_AAPL_20260609_news5": {
+      "id": "ev_AAPL_20260609_news5",
+      "kind": "news",
+      "title": "Apple's iOS 27 Reveals New Clues About $2,000 Foldable iPhone",
+      "detail": "Reported by Yahoo. Software references and new features suggest Apple is preparing support for a foldable iPhone expected in September.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c4c61d1da8b861213aab3830975355daaebe6d4f3d5afb146445bbc47f574368",
+      "occurred_on": "2026-06-09",
+      "numbers": {}
+    },
+    "ev_AAPL_20260609_news6": {
+      "id": "ev_AAPL_20260609_news6",
+      "kind": "news",
+      "title": "Morgan Stanley Revises Apple Stock Price Target on WWDC Catalyst",
+      "detail": "Reported by Yahoo. Morgan Stanley Raises Target as AI Push Gains Momentum",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a6716e51191f85906d86b16b52b16b71374467ba6ed76333d35b904bb8aa50eb",
+      "occurred_on": "2026-06-09",
+      "numbers": {}
+    },
+    "ev_AAPL_20260609_news7": {
+      "id": "ev_AAPL_20260609_news7",
+      "kind": "news",
+      "title": "Apple Left WWDC With More to Prove, Again. Where the Stock Goes From Here.",
+      "detail": "Reported by Yahoo. \u201cGiven the level of optimism into this event, we think the announcement came in a bit shy of expectations,\u201d writes TD Cowen analyst Krish Sankar.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cdf34e510cca50ade4de84e5c021672ffab3e587da515b5504e7006f67fedbb6",
+      "occurred_on": "2026-06-09",
+      "numbers": {}
     },
     "ev_AAPL_20260625_price": {
       "id": "ev_AAPL_20260625_price",
@@ -1777,6 +1954,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_AAPL_20260625_news0": {
+      "id": "ev_AAPL_20260625_news0",
+      "kind": "news",
+      "title": "Review & Preview: Even Apple Has a Budget",
+      "detail": "Reported by Yahoo. A mixed session on Wall Street uncovers a deeper anxiety\u2014what happens if tech giants decide the AI boom is getting too expensive? Plus, a look at today\u2019s inflation data.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b660ad41527a960686e8d5f928a829092155bf74875a998f08e7bb49297f91a4",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AAPL_20260625_news1": {
+      "id": "ev_AAPL_20260625_news1",
+      "kind": "news",
+      "title": "Apple raises iPad and MacBook prices, blaming cost of chips amid AI boom",
+      "detail": "Reported by Yahoo. Company says it cannot shield customers from memory and storage chip costs \u2013 and iPhone hikes could be next",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ba1a53a179e6fe1453638c3f28899acc4ad9ede080da50d823b9b916e0f7e96b",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AAPL_20260625_news2": {
+      "id": "ev_AAPL_20260625_news2",
+      "kind": "news",
+      "title": "Apple (AAPL) Stock Trades Down, Here Is Why",
+      "detail": "Reported by Yahoo. Shares of iPhone and iPad maker Apple (NASDAQ:AAPL) fell 5.2% in the afternoon session after it officially raised prices across Macs, iPads, home devices and the Vision Pro, a rare mid-cycle hike that the market read as confirmation that memory-cost inflation is squeezing its margins.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e1b5e9e28554c4c6c84e15604bd7e3dc0b3685624c33561cac94ce60b692725a",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AAPL_20260625_news3": {
+      "id": "ev_AAPL_20260625_news3",
+      "kind": "news",
+      "title": "Stock Market Today, June 25: Apple Drops After Raising Device Prices to Offset Higher Memory Costs",
+      "detail": "Reported by Yahoo. On June 25, 2026, Apple\u2019s price hikes across Macs and iPads put investor focus on margins and consumer demand.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5a6fc8b30df7a9885f548a8b0cf272bb75902ab6e74acc46abf7281e5d8ce55d",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AAPL_20260625_news4": {
+      "id": "ev_AAPL_20260625_news4",
+      "kind": "news",
+      "title": "S&P 500 Ends Flat As Apple Weakness Offsets Micron Gains, Nasdaq 100 And Dow Post Modest Gains \u2014 MSFT, QCOM, SPCX, BMBL, SONO In Focus",
+      "detail": "Reported by Yahoo. icron stock soared 16% on strong Q3 earnings, while Apple slipped after increasing prices of Macs and iPads.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3a7b1279ff5920a78bf77a2a4506e50d4a179bd02b04a7c955961da69d80a73f",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AAPL_20260625_news5": {
+      "id": "ev_AAPL_20260625_news5",
+      "kind": "news",
+      "title": "Dow Jones Futures: Mixed Market Signals As Micron's Gain Is Apple's Pain",
+      "detail": "Reported by Yahoo. The Nasdaq reversed lower again while the Dow came off record highs. Micron soared but Apple led other tech titans lower.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8f0ea89e5ffb21ff7580afbb7d42b5bc56647c16987198ac6197cc685eb50219",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AAPL_20260625_news6": {
+      "id": "ev_AAPL_20260625_news6",
+      "kind": "news",
+      "title": "Apple (AAPL) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "detail": "Reported by Yahoo. Apple (AAPL) reached $275.15 at the closing of the latest trading day, reflecting a -6.12% change compared to its last close.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=51445d2fcc9040f91c357218fad7330584569b061680003ba65d0b86ed2664d9",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AAPL_20260625_news7": {
+      "id": "ev_AAPL_20260625_news7",
+      "kind": "news",
+      "title": "Update: US Equity Indexes Mixed as Micron Rally Fails to Lift Tech, Apple Drops After Product Price-Hike Reports",
+      "detail": "Reported by Yahoo. (Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b4613df39675f9bbeeb17e358dfc2040220c0392f8f79ed649661aaa6ddb66af",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
     "ev_AAPL_20260626_price": {
       "id": "ev_AAPL_20260626_price",
       "kind": "price",
@@ -1877,6 +2134,86 @@
         "subject_pct_change": 3.136,
         "relationship": "supplier"
       }
+    },
+    "ev_AAPL_20260626_news0": {
+      "id": "ev_AAPL_20260626_news0",
+      "kind": "news",
+      "title": "Apple Vision Pro Hardware Chief Reportedly Jumps To OpenAI As Sam Altman's AI Device Ambitions Gather Momentum",
+      "detail": "Reported by Benzinga. Paul Meade is leaving Apple to join OpenAI&#39;s hardware division, adding to the AI company&#39;s growing roster of former Apple executives.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=444e311f3d16ec8ec0e379c4ca262468333a94a673112e9fc64169f660765d31",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_AAPL_20260626_news1": {
+      "id": "ev_AAPL_20260626_news1",
+      "kind": "news",
+      "title": "S&P 500, Nasdaq End Week Lower As Investors Rotate Out Of Tech, AI Plays \u2014 ON, AAPL, SLS, INFQ, NKE in Focus",
+      "detail": "Reported by Yahoo. The Dow Jones ended its third consecutive week higher amid cooling oil prices and strength in pharma and materials stocks.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4feee06a415ef9bfb21c2f6485283f458e0db5b094997ad8b2624b604c8a72a6",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_AAPL_20260626_news2": {
+      "id": "ev_AAPL_20260626_news2",
+      "kind": "news",
+      "title": "Stock Of The Day: Is The Apple Sell-Off Over?",
+      "detail": "Reported by Yahoo. Apple Inc. (NASDAQ:AAPL) is trading higher on Friday. It has dropped about 12% since the beginning of June. But the sell-off may be over. The shares are oversold and at support \u2014 and these can be bullish dynamics. This is why Apple is the Stock of the Day. \u2022 What\u2019s driving AAPL shares up today? In February and again in April, Apple ran into resistance at the $275 level. People who sold there thought they made a smart decision when the price dropped afterward. But when the resistance broke, and t",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0eae4e947b04acdb8d9e6439e8be8e9b99defc02f10f4fa2144a98a3064965ab",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_AAPL_20260626_news3": {
+      "id": "ev_AAPL_20260626_news3",
+      "kind": "news",
+      "title": "Apple\u2019s Vision Pro hardware chief defects to OpenAI",
+      "detail": "Reported by Yahoo. Apple Inc. is losing a pillar of its spatial computing ambitions to OpenAI. Paul Meade, the Vice President overseeing the Vision Pro headset and Apple\u2019s upcoming smart glasses, is departing the tech giant. Meade will exit Apple by next week to spearhead OpenAI\u2019s burgeoning hardware division, according to a Bloomberg report. At OpenAI, he is tasked with bringing a new family of AI-native devices to life. Neither company has officially commented on the move. Meade isn\u2019t just a manager; he\u2019s an arc",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=84012dcc120dfaf041d6275df9339c61d7193c7c12c40abf25c18c6106865850",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_AAPL_20260626_news4": {
+      "id": "ev_AAPL_20260626_news4",
+      "kind": "news",
+      "title": "EXCLUSIVE: Ron Johnson Bares His Feelings on Apple Stores, Steve Jobs and JCPenney",
+      "detail": "Reported by Yahoo. Johnson's upcoming book, \"Shop Different,\" covers his challenges and successes at Target and Apple, and marks the first time he expounds on his truncated tenure at JCPenney.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0c1fdf215b38fd3a8023e5d1c598b5dd50f33f2ceca66c4a501226a0e871858f",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_AAPL_20260626_news5": {
+      "id": "ev_AAPL_20260626_news5",
+      "kind": "news",
+      "title": "Apple\u2019s Vision Pro and Smart Glasses Chief to Join OpenAI",
+      "detail": "Reported by Yahoo. (Bloomberg) -- Apple Inc.\u2019s top executive in charge of the Vision Pro headset and the company\u2019s smart glasses efforts is leaving for OpenAI, continuing a streak of high-profile defections to rivals in the artificial intelligence and hardware sectors.Most Read from BloombergLutnick Delayed Canada Bridge Debut to Seek Bigger Cut of Toll RevenueIndonesia Opens Door to Dirty Money to Fund Prabowo\u2019s PlansApple Shares Sink After Price Hikes Hit iPads and MacsOman Tells Allies Ships Going Through Hormu",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b518a901364f46e4437f7933ee3932ca8bac28f7d0b01a27cb46e98b0d1ee298",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_AAPL_20260626_news6": {
+      "id": "ev_AAPL_20260626_news6",
+      "kind": "news",
+      "title": "Apple hardware exec exits for OpenAI",
+      "detail": "Reported by CNBC. CNBC's MacKenzie Sigalos reports on the latest Apple hardware veteran to join OpenAI, as the ChatGPT maker builds out its AI device ambitions.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9d0bc68655cf14555d0a74e006c9ba2c484a704335edeed6bb02617167e18842",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_AAPL_20260626_news7": {
+      "id": "ev_AAPL_20260626_news7",
+      "kind": "news",
+      "title": "Apple Suffers Worst Drop in Over a Year",
+      "detail": "Reported by Yahoo. Investors react to sweeping MacBook and iPad price hikes.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1c6b303ab709f725376a53a966a5f60b1038283111034c892f7d57ff93ca23cc",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
     },
     "ev_AAPL_20260702_price": {
       "id": "ev_AAPL_20260702_price",
@@ -1979,6 +2316,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_AAPL_20260702_news0": {
+      "id": "ev_AAPL_20260702_news0",
+      "kind": "news",
+      "title": "Why Apple (AAPL) Stock Is Trading Up Today",
+      "detail": "Reported by Yahoo. Shares of iPhone and iPad maker Apple (NASDAQ:AAPL) jumped 4.1% in the morning session after reports it plans an aggressive launch of at least five new iPhone models and has increased production targets for its first foldable device.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=eb218eaff31fc1edafb4b762a078cba1636369de9f41174cd4432164af9d73e1",
+      "occurred_on": "2026-07-02",
+      "numbers": {}
+    },
+    "ev_AAPL_20260702_news1": {
+      "id": "ev_AAPL_20260702_news1",
+      "kind": "news",
+      "title": "Dow Jones Futures: Dow Hits High But AI Tumbles; Apple, Robinhood Are Buys As Tesla, Sandisk Dive",
+      "detail": "Reported by Yahoo. The stock market had strong weekly gains, but it didn't feel that way with Sandisk and other AI plays selling off Thursday.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=00d99cf43ca34d8c0a02ba974d1fd52012fa46be6d172bb7ebb2a6d6a0a34310",
+      "occurred_on": "2026-07-02",
+      "numbers": {}
+    },
+    "ev_AAPL_20260702_news2": {
+      "id": "ev_AAPL_20260702_news2",
+      "kind": "news",
+      "title": "Apple, Rivian, Tesla, CrowdStrike And SanDisk: Why These 5 Stocks Are On Investors' Radars Today",
+      "detail": "Reported by Benzinga. AAPL, RIVN, TSLA, CRWD, SNDK were among the trending stocks on Thursday, July 2, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=61ceea2b3ffb5f4b71a3ea873f1203c1b9b1043cb70e54c4e240f03381d84aa4",
+      "occurred_on": "2026-07-02",
+      "numbers": {}
+    },
+    "ev_AAPL_20260702_news3": {
+      "id": "ev_AAPL_20260702_news3",
+      "kind": "news",
+      "title": "Apple's Foldable iPhone Push Gets Bigger",
+      "detail": "Reported by Yahoo. Suppliers reportedly preparing higher production volume.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=dd11190206e578b637c5fdea0eb41a7e725da5633623bf3dc11eae3dd6e9da0a",
+      "occurred_on": "2026-07-02",
+      "numbers": {}
+    },
+    "ev_AAPL_20260702_news4": {
+      "id": "ev_AAPL_20260702_news4",
+      "kind": "news",
+      "title": "Apple Eyes Foldable iPhone Production Boost",
+      "detail": "Reported by Yahoo. The company raised foldable iPhone production plans to about 10 million units.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=322bc1989d41ff2e17acad42b984eb17c70e2250119774f909432e8bd3ba07bc",
+      "occurred_on": "2026-07-02",
+      "numbers": {}
+    },
+    "ev_AAPL_20260702_news5": {
+      "id": "ev_AAPL_20260702_news5",
+      "kind": "news",
+      "title": "Apple's Foldable iPhone Saves the S&P 500 From a Chip-Fueled Rout",
+      "detail": "Reported by Yahoo. A weak jobs report met a strong Apple rally on Thursday. Here's why the major indexes couldn't agree on a direction.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c8ea87e15da556ccaf8a7612dc6db725bd94bebbb8ef0e24ef735bd2672f37d0",
+      "occurred_on": "2026-07-02",
+      "numbers": {}
+    },
+    "ev_AAPL_20260702_news6": {
+      "id": "ev_AAPL_20260702_news6",
+      "kind": "news",
+      "title": "Will a Foldable iPhone Be the Catalyst to Drive Apple Shares to $400?",
+      "detail": "Reported by Yahoo. Our 24/7 Wall St. Price Target for Apple (NASDAQ:AAPL) is $336.98 over the next 12 months, pointing to 9.4% upside from the current $308.30. We rate shares a BUY with high (90%) confidence. A foldable iPhone is a real positive catalyst, and we treat $400 as a 2029 to 2030 story on realistic timing. 24/7 ... Will a Foldable iPhone Be the Catalyst to Drive Apple Shares to $400?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c027653da20a4bc206198076249fe5e1bb32098944acbde9e901327ef666acbb",
+      "occurred_on": "2026-07-02",
+      "numbers": {}
+    },
+    "ev_AAPL_20260702_news7": {
+      "id": "ev_AAPL_20260702_news7",
+      "kind": "news",
+      "title": "How Apple\u2019s AI-Driven Memory Costs and Pricing Shifts Will Impact Apple (AAPL) Investors",
+      "detail": "Reported by Yahoo. In recent weeks, Apple has raised prices across much of its Mac, iPad, and home-device lineup as soaring AI-driven memory chip costs squeeze hardware margins, while also exploring memory supply deals with Chinese chipmakers CXMT and YMTC that sit on a Pentagon blacklist. This combination of higher device pricing and politically sensitive supplier diversification highlights how Apple is balancing profitability, supply security, and reputational risk in the face of a prolonged global memory...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e61aefd2610ed381e540f4822607c1ad83f3bf000e9ead86af327b61bfcc5de0",
+      "occurred_on": "2026-07-02",
+      "numbers": {}
+    },
     "ev_AAPL_20260715_price": {
       "id": "ev_AAPL_20260715_price",
       "kind": "price",
@@ -2080,6 +2497,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_AAPL_20260715_news0": {
+      "id": "ev_AAPL_20260715_news0",
+      "kind": "news",
+      "title": "Why Apple (AAPL) Stock Is Up Today",
+      "detail": "Reported by Yahoo. Shares of iPhone and iPad maker Apple (NASDAQ:AAPL) jumped 4.2% in the afternoon session after the company secured regulatory approval to launch Apple Intelligence in China by integrating Alibaba's Qwen AI model.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0be136a1a173532881eee524a6d79a3353c6da221ed8d635ef4539bded10f584",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AAPL_20260715_news1": {
+      "id": "ev_AAPL_20260715_news1",
+      "kind": "news",
+      "title": "AST SpaceMobile, PayPal Holdings, Apple, Micron Technology and SanDisk: Why These 5 Stocks Are on Investors' Radars Today",
+      "detail": "Reported by Benzinga. Major U.S. indices closed higher on Wednesday, with the Dow Jones Industrial Average rising 0.29% to 52,658.64.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5338e66c577788d4ab505bd4b3828c47e3b5ba8da40c215eef0c47c7d2fb1984",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AAPL_20260715_news2": {
+      "id": "ev_AAPL_20260715_news2",
+      "kind": "news",
+      "title": "S&P 500, Dow Edge Higher As Bank Earnings Offset Middle East Oil Concerns \u2014 AAPL, SKHY, ASML, PYPL In Focus",
+      "detail": "Reported by Yahoo. Cooler-than-expected producer prices contributed to hopes for easing inflation on Wednesday.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=502ff3ba7a1da5727ca18db679a449153c64145e7214677d098a0f43a18ec5af",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AAPL_20260715_news3": {
+      "id": "ev_AAPL_20260715_news3",
+      "kind": "news",
+      "title": "Dow Jones Futures: Apple, Google Mask Dell, Sandisk, Micron Sell-Off; J.B. Hunt Jumps Late",
+      "detail": "Reported by Yahoo. Dell, Sandisk and Micron led an AI sell-off, masked by megacaps such as Apple. SpaceX undercut its IPO price. Taiwan Semi, GE Aerospace earnings are due.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f220e9facc2363eb8164f139ca63e5a11e986e0afc6208750c48026f358ffcc4",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AAPL_20260715_news4": {
+      "id": "ev_AAPL_20260715_news4",
+      "kind": "news",
+      "title": "Apple Stock Closes at a New High. Earnings Could Change Everything.",
+      "detail": "Reported by Yahoo. Apple shares rose 4% to $327.50, a new all-time closing high.  The Cyberspace Administration of China on Wednesday included Apple\u2019s generative artificial intelligence on a list of newly approved providers.  Evercore ISI analyst Amit Daryanani wrote that the update clears the biggest regulatory hurdle for Apple Intelligence\u2014the company\u2019s AI software\u2014in the world\u2019s largest smartphone market.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c340b3ab5aa212d5fb2e793db14f4926a4ab7e924c5f5c9c31de05c1bf902472",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AAPL_20260715_news5": {
+      "id": "ev_AAPL_20260715_news5",
+      "kind": "news",
+      "title": "Apple Could Buy an AI Chip Company. Its Hot Stock Just Set a Fresh Record High",
+      "detail": "Reported by Yahoo. Apple shares climbed to a fresh record Wednesday, in the wake of reports the iPhone maker is considering buying an AI chip company to fuel its AI ambitions.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=94a9caabb003c296e770608fc548a22dd676ea445a2097befe678334613ba20d",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AAPL_20260715_news6": {
+      "id": "ev_AAPL_20260715_news6",
+      "kind": "news",
+      "title": "Hardware Bears Are Wrong and That\u2019s Why I Keep Buying Apple on Repeat",
+      "detail": "Reported by Yahoo. Every quarter the bears declare the iPhone cycle dead, and every quarter Apple proves them wrong. Here is why one investor keeps adding to the position anyway, and what the skeptics keep getting wrong about the business.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8ae37e30e46a99296cc6cb74538d8fc5d0d58ffe84f0df7c77a23e55defbc55f",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AAPL_20260715_news7": {
+      "id": "ev_AAPL_20260715_news7",
+      "kind": "news",
+      "title": "What rising memory chip prices could mean for Apple's iPhones",
+      "detail": "Reported by Yahoo. US stocks (^GSPC, ^DJI, ^IXIC) managed to close Wednesday's session higher despite a new sell-off appearing across the semiconductor industry. Baird tech strategist Ted Mortonson explains what rising memory chip costs could mean for tech consumers and companies like iPhone maker Apple (AAPL).",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a50ee7613e3f1b9681cc7f900881145fe87c5e45f773d7fc3229ff864250d97b",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
     "ev_AAPL_20260724_price": {
       "id": "ev_AAPL_20260724_price",
       "kind": "price",
@@ -2180,6 +2677,86 @@
         "subject_pct_change": 3.532,
         "relationship": "supplier"
       }
+    },
+    "ev_AAPL_20260724_news0": {
+      "id": "ev_AAPL_20260724_news0",
+      "kind": "news",
+      "title": "Visa and Apple: Cash-Generating Machines",
+      "detail": "Reported by Yahoo. For those seeking cash-generators, both Visa (V) and Apple (AAPL) fit the criteria nicely, with each also soon to report quarterly results.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fb1cc3a721ed10244cb3ebb64b8e7266209394062f2d75d919d575de2932f34f",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_AAPL_20260724_news1": {
+      "id": "ev_AAPL_20260724_news1",
+      "kind": "news",
+      "title": "Dow Jones Futures: Apple Earnings, Iran News, Fed Meeting Loom As AI Stocks Sell Off",
+      "detail": "Reported by Yahoo. Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Apple, Microsoft, Meta Platforms, Amazon.com headline a massive earnings wave. The Federal Reserve meets, with a rate hike a possibility.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=95418f4b57a5f09da2bb4319facd56354d920e90f88081375aa3b22fd17492a9",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_AAPL_20260724_news2": {
+      "id": "ev_AAPL_20260724_news2",
+      "kind": "news",
+      "title": "Rotation Hits Magnificent 7: How Strong Ratings Sparked Apple Stock Swing Trade",
+      "detail": "Reported by Yahoo. With a highest possible IBD Composite Rating of 99, here's why Apple is back on top of our swing trading setup list in the megacap universe.  Like for many tech stocks, June was a rough month for Apple.  On July 2, Apple bounced strongly from its 50-day line and overcame resistance around 300 (1).",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=aa83f550a10bcf260504bd44f7b7ac4dd8552a16443bbb140b0f2b63e1bb5a7c",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_AAPL_20260724_news3": {
+      "id": "ev_AAPL_20260724_news3",
+      "kind": "news",
+      "title": "Like It or Not, Apple Built a Perfect Mousetrap, So I Keep on Buying",
+      "detail": "Reported by Yahoo. Apple has built something most companies only dream about: a product ecosystem so sticky that billions of users choose to pay more rather than walk away. Here is why one investor keeps loading up, and what it would actually take to stop.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=102d066ee1fd447d18fef621f3dd2991ad67e0d6e7d7703d69099b49866e41d1",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_AAPL_20260724_news4": {
+      "id": "ev_AAPL_20260724_news4",
+      "kind": "news",
+      "title": "Apple becomes the Mag7 hedge against hyperscaler spending",
+      "detail": "Reported by CNBC. CNBC's MacKenzie Sigalos reports on why investors are rewarding Apple\u2019s anti-capex AI strategy as its Big Tech peers pour more cash into infrastructure.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=16094f8ce1b61d33f07d67646f528f7adf532b029838f18a2d4a12267569709e",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_AAPL_20260724_news5": {
+      "id": "ev_AAPL_20260724_news5",
+      "kind": "news",
+      "title": "Tim Cook\u2019s final Apple earnings report puts pricing power to the test",
+      "detail": "Reported by CNBC. CNBC's MacKenzie Sigalos reports on whether higher device and services prices can offset slower unit growth, rising costs, and a demanding valuation.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=45803fd19359e5c967ff9f1ce5096b06224b584f8bd9dcbfe2c0d46470cb3d45",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_AAPL_20260724_news6": {
+      "id": "ev_AAPL_20260724_news6",
+      "kind": "news",
+      "title": "Needham's Laura Martin: Apple is 'betting the farm' it doesn't need its own AI model",
+      "detail": "Reported by CNBC. Laura Martin, Needham, joins 'Closing Bell' to talk what she is looking ahead to when it comes to Apple's earnings next week.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0d402bb46dca6be2f160be6a522e7512fb9774e664c27b57cee2f16e803ced90",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_AAPL_20260724_news7": {
+      "id": "ev_AAPL_20260724_news7",
+      "kind": "news",
+      "title": "Apple\u2019s anti-capex AI strategy pays off as shares lead the Mag7",
+      "detail": "Reported by CNBC. CNBC's MacKenzie Sigalos reports on how Apple is using outside AI models and its device network to avoid Big Tech\u2019s spending binge while preserving cash for shareholders.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2dc7ea719209fce4c92421dc18efa32b828b183e54a791db6ef2913341020fb2",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
     },
     "ev_AAPL_20260731_price": {
       "id": "ev_AAPL_20260731_price",
@@ -2302,6 +2879,86 @@
       "occurred_on": "2026-07-30",
       "numbers": {}
     },
+    "ev_AAPL_20260731_news0": {
+      "id": "ev_AAPL_20260731_news0",
+      "kind": "news",
+      "title": "Apple vs. HP: The $5 Trillion Giant, or the Stock That Pays 15x the Dividend.",
+      "detail": "Reported by Yahoo. One dominates in size and growth, but the other trades at a lower valuation and higher yield. Discover which is the better dividend stock.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1d41029df309d2a09752cb96d02583ae9e6b10b07cf244b2523a907c7042856f",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AAPL_20260731_news1": {
+      "id": "ev_AAPL_20260731_news1",
+      "kind": "news",
+      "title": "Nvidia Is Back on Top as Most Valuable Company After Apple Stumbles",
+      "detail": "Reported by Yahoo. Nvidia stock rose after Amazon raised its capital expenditure forecast and played down competition between its custom AI chips and Nvidia\u2019s processors.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cc26378807776e3bf1748f34f49abacd66660e2e6d14d287a34083b0dc9ef347",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AAPL_20260731_news2": {
+      "id": "ev_AAPL_20260731_news2",
+      "kind": "news",
+      "title": "This Analyst Just Downgraded Apple Stock. Here's Why.",
+      "detail": "Reported by Yahoo. Apple stock sinks as muted guidance makes GF Securities downgrade it to 'Hold.' Here\u2019s what the investment firm said in its research note today.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=830e0c26e638120b6f6b5007841bcd8bd202e8d9cb1898c33f04c840f0f0ebbe",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AAPL_20260731_news3": {
+      "id": "ev_AAPL_20260731_news3",
+      "kind": "news",
+      "title": "Market Talk: Apple sinks, Amazon soars in split verdict on AI winners",
+      "detail": "Reported by Yahoo. STORY: :: Recorded on July 31:: Lisa Bernhard, Reuters:: Dean Smith, Portfolio Manager, FolioBeyondShares of Apple tumbled as much as 10% on Friday after a disappointing forecast showed that the iPhone maker was struggling to secure enough components as the AI-driven data center boom strains global supply chains.The drop, if sustained, would erase nearly $500 billion from Apple's market capitalization and return the crown of the world's most valuable company to AI chip giant Nvidia, days after reclaiming it.Meanwhile, shares of Amazon soared as much as 15% after the tech giant's solid cloud sa",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=da81e4262f472bf567b18b8fa6d62a30848cf9a5425716f72685131dfaec40bf",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AAPL_20260731_news4": {
+      "id": "ev_AAPL_20260731_news4",
+      "kind": "news",
+      "title": "Apple Stock Tumbles, Wiping Out $359 Billion in Value",
+      "detail": "Reported by Yahoo. Apple stock tumbled 7.4% to $308.91 on Friday after its fiscal third-quarter earnings report left investors disappointed. The drop wiped out $359 billion in value, bringing Apple's market capitalization to $4.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e5f988e3e01a408db0b3f96b829fa17210ffb5e47ee7263e6f147f16b5c20920",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AAPL_20260731_news5": {
+      "id": "ev_AAPL_20260731_news5",
+      "kind": "news",
+      "title": "Apple's Supply Woes Likely to Continue Into Fiscal 2027, UBS Says",
+      "detail": "Reported by Yahoo. Apple's (AAPL) supply chain-related concerns could persist into fiscal 2027, UBS Securities said, af",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6c35c2cd546bbafb5fc0cd3c0874aab0e3d3773841f3cd35d35accff38efda07",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AAPL_20260731_news6": {
+      "id": "ev_AAPL_20260731_news6",
+      "kind": "news",
+      "title": "Apple Stock Plunges 9.3% as Supply Shortages Weaken Forecast",
+      "detail": "Reported by Yahoo. AI-driven component shortages limited Apple's growth outlook and threatened to erase approximately $500 billion in market value.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f4f83f057bbf61fc065fbd058e1af71f1aab17b9e1982167a60f0a249fa76be4",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AAPL_20260731_news7": {
+      "id": "ev_AAPL_20260731_news7",
+      "kind": "news",
+      "title": "Apple Forecasts Slowing Growth Due To Chip Shortages",
+      "detail": "Reported by Yahoo. Apple stock fell Friday after the consumer electronics giant missed views with its September-quarter sales outlook.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9555e59071c3db455376c8eb28d79a313361203ab2aa558bd1c1569be686e3ee",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
     "ev_AAPL_20260910_price": {
       "id": "ev_AAPL_20260910_price",
       "kind": "price",
@@ -2402,6 +3059,86 @@
         "subject_pct_change": 3.561,
         "relationship": "supplier"
       }
+    },
+    "ev_AAPL_20260910_news0": {
+      "id": "ev_AAPL_20260910_news0",
+      "kind": "news",
+      "title": "Tech Millionaires Are Pooling Seven-Figure Nvidia and Apple Stakes Into Exchange Funds to Diversify Without Selling a Share. The Seven-Year Lockup Is the Price",
+      "detail": "Reported by Yahoo. A retired Apple engineer sits on a $1.95 million gain and a tax bill that would make your eyes water, and her advisor has a perfectly legal way to dodge it entirely. The catch involves signing away access to your money for seven years.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8921289cb1f7b10eb6ba4514047370ed7900e7c9bf6eb93c33fce00878e367cc",
+      "occurred_on": "2026-09-10",
+      "numbers": {}
+    },
+    "ev_AAPL_20260910_news1": {
+      "id": "ev_AAPL_20260910_news1",
+      "kind": "news",
+      "title": "Wall Street analysts predict Apple iPhone Duo will be a top seller, despite being heavy and costing up to $3,200",
+      "detail": "Reported by Yahoo. Priced up to $3,200 and heavier than past models, Apple's new foldable iPhone Duo is still expected to be a hit \u2014 with one analyst predicting Apple could grab 40% of the foldable phone market by 2027.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5d3182b09eddfbfd7937bafba6d262af76f10491ae4e3c71117c2a86bce74c3e",
+      "occurred_on": "2026-09-10",
+      "numbers": {}
+    },
+    "ev_AAPL_20260910_news2": {
+      "id": "ev_AAPL_20260910_news2",
+      "kind": "news",
+      "title": "Apple is Testing its Loyalty in India with 40% Price Hike",
+      "detail": "Reported by Yahoo. And hoping its urban affluent will not mind it",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4c63345092adc1146fe9d5e09adf3fc8d4e33cfbfb6ef4b47f39ccb4fc8b0481",
+      "occurred_on": "2026-09-10",
+      "numbers": {}
+    },
+    "ev_AAPL_20260910_news3": {
+      "id": "ev_AAPL_20260910_news3",
+      "kind": "news",
+      "title": "Apple Jumps as $1,999 Foldable Forces Samsung Onto Defense",
+      "detail": "Reported by Yahoo. The Duo costs just 5.3% more than Samsung's flagship foldable, positioning Apple to chase scale--not merely prestige.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b16b18f703f3d0005e4fafe9d0cb00cce682565fdbf67917317207cdbfe89ab3",
+      "occurred_on": "2026-09-10",
+      "numbers": {}
+    },
+    "ev_AAPL_20260910_news4": {
+      "id": "ev_AAPL_20260910_news4",
+      "kind": "news",
+      "title": "Rogers to Offer iPhone Duo, iPhone 18 Pro, iPhone 18 Pro Max, Apple Watch Series 12, and Apple Watch Ultra 4",
+      "detail": "Reported by Yahoo. Apple Watch Series 12 and Apple Watch Ultra 4 are available to pre-order now, iPhone 18 Pro and iPhone 18 Pro Max are available to pre-order starting on Saturday, September 12, and iPhone Duo is available to pre-order starting on Friday, October 16TORONTO, Sept. 10, 2026 (GLOBE NEWSWIRE) -- Rogers will offer the latest Apple lineup, including iPhone Duo, iPhone 18 Pro, iPhone 18 Pro Max, Apple Watch Series 12, and Apple Watch Ultra 4. Rogers customers can experience the latest iPhone lineup with",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=13212fc05d6c15e34e802b79e5dd3a568bdbeb3dc18a4abf9d252c7d5d5947db",
+      "occurred_on": "2026-09-10",
+      "numbers": {}
+    },
+    "ev_AAPL_20260910_news5": {
+      "id": "ev_AAPL_20260910_news5",
+      "kind": "news",
+      "title": "Why hardware will attract buyers to Apple's new lineup over AI features",
+      "detail": "Reported by Yahoo. Yahoo Finance Technology Editor Dan Howley joins Market Domination host Josh Lipton to report on Apple's (AAPL) latest lineup of products, including Siri AI and the iPhone Duo, and why buyers may be driven to buy new products for the hardware features rather than the AI integration.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=de5bdc240768cd3beebc324f2c1f3704e8a329573e824e7e614954dea297dcdd",
+      "occurred_on": "2026-09-10",
+      "numbers": {}
+    },
+    "ev_AAPL_20260910_news6": {
+      "id": "ev_AAPL_20260910_news6",
+      "kind": "news",
+      "title": "He Built Products at Beats, Apple and LVMH. Here\u2019s How He Ended Up at a $1.5 Billion Startup That\u2019s Making Your Data Safer.",
+      "detail": "Reported by Yahoo. Ian Rogers shares his biggest lesson from building Apple Music.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=344d20f1d993131acd48aa41e6e8a0f28d551cc6ab3df19818aa659e4a02e2a5",
+      "occurred_on": "2026-09-10",
+      "numbers": {}
+    },
+    "ev_AAPL_20260910_news7": {
+      "id": "ev_AAPL_20260910_news7",
+      "kind": "news",
+      "title": "AT&T CEO drops a hot take on the new Apple iPhone Duo",
+      "detail": "Reported by Yahoo. The CEO of one of Apple\u2019s biggest carrier partners did not mince words.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b0fb1df122f34b7374a82f7dfd6ff7925b5f80c018ef848a1b7f62fa015a54ff",
+      "occurred_on": "2026-09-10",
+      "numbers": {}
     },
     "ev_AAPL_fund_revenue": {
       "id": "ev_AAPL_fund_revenue",
@@ -2509,17 +3246,17 @@
       }
     }
   },
-  "arc": "Between May and September 2026, Apple traded between a low of $275.15 and a high of $333.02, marked by high volatility around official regulatory disclosure periods. The two most pronounced company-specific catalysts were its quarterly reporting periods: an 8-K and 10-Q filing cycle around May 1 that lifted shares 3.24% to $280.14, and another filing cycle around July 31 that triggered a sharp 7.35% pullback to $308.91 on heavy volume. Outside of these filing windows, Apple demonstrated frequent divergence from its semiconductor supply chain partners such as TSM and QCOM, often rallying on days when chip suppliers declined, while intermittently moving in tandem with large platform peers like Microsoft and Alphabet.",
+  "arc": "Between May and September 2026, Apple traded within an aggressive multi-month tug-of-war between strong hardware demand initiatives and the severe supply-chain friction of the broader AI cycle. The company opened the period strong with record earnings and a $100 billion buyback, but quickly faced headwinds as AI-driven component and memory shortages forced rare mid-cycle hardware price hikes on Macs and iPads, culminating in a 7.35% post-earnings plunge on July 31 due to component-constrained guidance. Nevertheless, Apple steadily built resilience by maintaining a low-capex AI model, securing regulatory clearance for Apple Intelligence in China, and unveiling the flagship foldable iPhone Duo, enabling the stock to recover back toward the $326 level.",
   "arc_citation_ids": [
-    "ev_AAPL_20260501_price",
-    "ev_AAPL_20260501_filing_000032019326000011",
-    "ev_AAPL_20260501_filing_000032019326000013",
-    "ev_AAPL_20260625_price",
-    "ev_AAPL_20260724_price",
+    "ev_AAPL_20260501_news1",
+    "ev_AAPL_20260625_news1",
+    "ev_AAPL_20260625_news2",
+    "ev_AAPL_20260715_news0",
+    "ev_AAPL_20260724_news4",
     "ev_AAPL_20260731_price",
-    "ev_AAPL_20260731_filing_000032019326000018",
-    "ev_AAPL_20260731_filing_000032019326000020",
-    "ev_AAPL_20260910_price"
+    "ev_AAPL_20260731_news3",
+    "ev_AAPL_20260910_price",
+    "ev_AAPL_20260910_news3"
   ],
   "warnings": []
 }

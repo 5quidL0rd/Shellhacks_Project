@@ -23,11 +23,11 @@ All limits below were checked on 2026-09-26 and verified by actually calling eac
 
 **Correction (2026-09-26): Finnhub's free tier does honor the date range; it caps each request at about 250 articles and returns the newest ones in that range.** Requesting 180 days of NVDA news returned 248 articles, all from the previous three days, because 250 NVDA articles only span about three days. A request for a past week (NVDA, 2026-06-01 to 06-07) returns about 250 articles from the end of that week. Less-covered companies fit the whole window in one request: Cirrus Logic's 180-day request returned 128 articles going back to March.
 
-**The fix, not yet built:** in `news_for_move()`, request news for each move's own dates (the move day and the day before) instead of one 180-day request. That is about 12 requests per company, well inside 60 per minute, and cached. Until then, the notes below describe the current behavior.
+**Fixed (2026-09-26):** `news_for_move()` now also requests news for each move's own dates (the move day and the day before), about 12 extra requests per company, paced under 60 per minute. Past windows are cached for good. Articles are ranked so those naming the company in the headline come first, since a two-day window for a heavily covered stock holds ~250 articles, many of them market roundups. Across the 13 stories, low-confidence explanations fell from 108 to 7 and news citations rose from 22 to 336. The notes below describe how moves without news are still handled.
 
 There is no historical news source in the stack. That was a deliberate scope decision: GDELT was built, tested and working (it correctly found the CNBC earnings story behind NVDA's +8.74% day) but was removed as too much operational hassle for this project — its 1-request-per-5-seconds limit and frequent 429s made a full rebuild take upwards of half an hour.
 
-**What this costs today.** Moves covered by the ~250 newest articles get news citations (a few days for heavily covered companies, months for less-covered ones). Older moves are explained from:
+**When no news explains a move**, it is explained from:
 
 - **SEC filings** — an 8-K or 10-Q within 2 days of the move. This covers earnings days, which are the largest and most interesting moves anyway, at `high` confidence.
 - **Connected-company moves** — whether its suppliers, customers, and competitors (from the knowledge graph, `backend/app/connections.py`) moved the same day, which distinguishes "this company had a bad day" from "its whole supply chain had a bad day."

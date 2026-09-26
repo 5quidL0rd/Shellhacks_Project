@@ -61,7 +61,7 @@ Interactive graph of the user's holdings and their connections. When news hits a
 
 Opens when the user taps any stock. Shows a price chart with markers on major moves, each labeled with a short, cited explanation of the cause.
 
-Each explanation is written by an LLM from evidence gathered first: the price move itself, how connected companies (suppliers, customers, competitors from the graph) moved the same day, SEC filings near the date, news, quarterly results, and industry data. The LLM may cite only that evidence. When nothing explains a move, it says "cause unverified" instead of guessing. Finnhub's free tier returns about 250 articles per request, so a single request for six months only covers the last few days for heavily covered companies; older moves are currently explained mainly from filings and connected-company moves. Requesting news for each move's own dates (planned) removes this gap.
+Each explanation is written by an LLM from evidence gathered first: the price move itself, how connected companies (suppliers, customers, competitors from the graph) moved the same day, SEC filings near the date, news, quarterly results, and industry data. The LLM may cite only that evidence. When nothing explains a move, it says "cause unverified" instead of guessing. News is requested for each move's own dates, because Finnhub's free tier returns only about 250 articles per request.
 
 ### 5. Research a New Investment
 

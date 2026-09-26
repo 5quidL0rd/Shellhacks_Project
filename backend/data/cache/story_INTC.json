@@ -1,7 +1,7 @@
 {
   "symbol": "INTC",
   "company_name": "Intel Corporation",
-  "generated_at": "2026-09-26T12:31:09.918373+00:00",
+  "generated_at": "2026-09-26T12:49:01.013980+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,14 +1320,16 @@
       "pct_change": 11.416,
       "close": 58.95,
       "direction": "up",
-      "headline": "Intel climbs 11.4% amid broader chip rally",
-      "explanation": "Intel rose 11.42% to close at $58.95 on 1.8x average volume following an 8-K filing. The gain was shared with industry peers and suppliers, including equipment supplier ASML (+8.77%) and competitor AMD (+4.64%).",
-      "confidence": "medium",
+      "headline": "Intel Jumps 11.4% on Musk Terafab and Apollo Deal",
+      "explanation": "Intel surged 11.42% to close at $58.95 on 1.8x average volume following news that it is joining Elon Musk's Terafab AI chip project. Investor sentiment was also supported by Intel repurchasing Apollo's 49% stake in the Fab 34 Ireland joint venture for $14.2 billion to regain full ownership. The rally was largely company-specific, outpacing peers like competitor AMD (+4.64%) and supplier ASML (+8.77%).",
+      "confidence": "high",
       "citation_ids": [
         "ev_INTC_20260408_price",
-        "ev_INTC_20260408_filing_000005086326000072",
-        "ev_INTC_20260408_peer_ASML",
-        "ev_INTC_20260408_peer_AMD"
+        "ev_INTC_20260408_news0",
+        "ev_INTC_20260408_news3",
+        "ev_INTC_20260408_news4",
+        "ev_INTC_20260408_peer_AMD",
+        "ev_INTC_20260408_peer_ASML"
       ]
     },
     {
@@ -1335,15 +1337,16 @@
       "pct_change": 23.6,
       "close": 82.54,
       "direction": "up",
-      "headline": "Intel surges 23.6% following Q1 10-Q filing",
-      "explanation": "Intel surged 23.60% to $82.54 with trading volume at 2.8x its 30-day average following the filing of its Form 10-Q and Form 8-K. Competitors also posted substantial moves, with AMD advancing 13.91% and QCOM gaining 11.12%.",
+      "headline": "Intel Soars 23.6% on Q1 Beat and Strong Guidance",
+      "explanation": "Intel climbed 23.60% to $82.54 with volume 2.8x its 30-day average after delivering a Q1 earnings beat, reporting revenue up 7.2% year-over-year to $13.58 billion and non-GAAP EPS of $0.29. Next-quarter revenue guidance midpoint of $14.3 billion surpassed analyst projections by 9.2%. Competitor AMD also rose 13.91% after an analyst upgrade tied to Intel's report, while competitor AAPL dipped 0.87%.",
       "confidence": "high",
       "citation_ids": [
         "ev_INTC_20260424_price",
-        "ev_INTC_20260424_filing_000005086326000079",
-        "ev_INTC_20260424_filing_000005086326000083",
+        "ev_INTC_20260424_news0",
+        "ev_INTC_20260424_news2",
+        "ev_INTC_20260424_news3",
         "ev_INTC_20260424_peer_AMD",
-        "ev_INTC_20260424_peer_QCOM"
+        "ev_INTC_20260424_peer_AAPL"
       ]
     },
     {
@@ -1351,14 +1354,15 @@
       "pct_change": 12.104,
       "close": 94.75,
       "direction": "up",
-      "headline": "Intel gains 12.1% on company-specific strength",
-      "explanation": "Intel jumped 12.10% to $94.75 on 2.3x normal volume without company-specific news in the record. The advance was largely company-specific, as competitor AMD rose a more moderate 4.30% while peers NVDA (-1.84%) and MSFT (-1.12%) declined.",
-      "confidence": "low",
+      "headline": "Intel Rallies 12.1% on Google Packaging Report",
+      "explanation": "Intel gained 12.10% to reach $94.75 on 2.3x normal volume, driven by renewed optimism around its foundry turnaround under CEO Lip-Bu Tan. A report stated that Alphabet plans to adopt Intel's EMIB packaging technology for next-generation TPU chips, alongside reports of severe industrywide CPU shortages. Intel outperformed its broader peer group, including competitor NVDA which declined 1.84% and competitor AMD which gained 4.30%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_INTC_20260429_price",
+        "ev_INTC_20260429_news2",
+        "ev_INTC_20260429_news6",
         "ev_INTC_20260429_peer_AMD",
-        "ev_INTC_20260429_peer_NVDA",
-        "ev_INTC_20260429_peer_MSFT"
+        "ev_INTC_20260429_peer_NVDA"
       ]
     },
     {
@@ -1366,14 +1370,14 @@
       "pct_change": 12.915,
       "close": 108.15,
       "direction": "up",
-      "headline": "Intel advances 12.9% across mixed peer group",
-      "explanation": "Intel shares rose 12.91% to cross $100 and reach $108.15 on 1.9x average volume with no specific filings or announcements. Peer performance was mixed: competitor QCOM rose 10.79% and supplier ASML gained 4.09%, while supplier and competitor TSM dropped 1.79%.",
-      "confidence": "low",
+      "headline": "Intel Surges 12.9% on Potential Apple Supply Talks",
+      "explanation": "Intel gained 12.91% to $108.15 on 1.9x average volume after reports revealed preliminary discussions with Apple regarding manufacturing chips at Intel's U.S. facilities. The prospective deal positions Intel Foundry as an alternative domestic supplier to TSMC, prompting TSMC shares to slide 1.79% while competitor QCOM rallied 10.79%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_INTC_20260505_price",
-        "ev_INTC_20260505_peer_QCOM",
-        "ev_INTC_20260505_peer_ASML",
-        "ev_INTC_20260505_peer_TSM"
+        "ev_INTC_20260505_news1",
+        "ev_INTC_20260505_peer_TSM",
+        "ev_INTC_20260505_peer_QCOM"
       ]
     },
     {
@@ -1381,13 +1385,14 @@
       "pct_change": 13.957,
       "close": 124.92,
       "direction": "up",
-      "headline": "Intel rises 14.0% alongside competitor AMD",
-      "explanation": "Intel climbed 13.96% to finish at $124.92 on 2.2x normal volume with no company news provided. The rally was shared with competitor AMD (+11.44%) and competitor QCOM (+8.17%), while supplier and competitor TSM slid 0.60%.",
-      "confidence": "low",
+      "headline": "Intel Advances 14.0% on Preliminary Apple Deal",
+      "explanation": "Intel surged 13.96% to $124.92 on 2.2x normal volume after reports confirmed a preliminary chipmaking agreement between Apple and Intel, backed by White House support. The move was company-specific upside compared to competitor and supplier TSM, which fell 0.60%, though competitor AMD gained 11.44% amid broader CPU enthusiasm.",
+      "confidence": "high",
       "citation_ids": [
         "ev_INTC_20260508_price",
+        "ev_INTC_20260508_news0",
+        "ev_INTC_20260508_news1",
         "ev_INTC_20260508_peer_AMD",
-        "ev_INTC_20260508_peer_QCOM",
         "ev_INTC_20260508_peer_TSM"
       ]
     },
@@ -1396,14 +1401,17 @@
       "pct_change": -5.137,
       "close": 114.68,
       "direction": "down",
-      "headline": "Intel pulls back 5.1% in company-specific drop",
-      "explanation": "Intel dropped 5.14% to $114.68 on 1.9x average volume with no company-specific news reported. The move was company-specific, as competitor MSFT rose 5.45% and competitor AVGO advanced 4.73%, while competitor AMD fell just 0.38%.",
+      "headline": "Intel Pulls Back 5.1% in Company-Specific Dip",
+      "explanation": "Intel dropped 5.14% to $114.68 on 1.9x average volume without negative company-specific news, despite announcing a $3.3 billion substrate plant investment in India. The retreat came as peers displayed mixed trading, with competitors AVGO (+4.73%) and MSFT (+5.45%) gaining while GOOGL declined 2.51% and TSM fell 1.51%.",
       "confidence": "low",
       "citation_ids": [
         "ev_INTC_20260529_price",
-        "ev_INTC_20260529_peer_MSFT",
+        "ev_INTC_20260529_news1",
+        "ev_INTC_20260529_news5",
         "ev_INTC_20260529_peer_AVGO",
-        "ev_INTC_20260529_peer_AMD"
+        "ev_INTC_20260529_peer_MSFT",
+        "ev_INTC_20260529_peer_GOOGL",
+        "ev_INTC_20260529_peer_TSM"
       ]
     },
     {
@@ -1411,15 +1419,16 @@
       "pct_change": 11.193,
       "close": 110.27,
       "direction": "up",
-      "headline": "Intel rebounds 11.2% alongside ASML and AMD",
-      "explanation": "Intel jumped 11.19% to $110.27 with volume at 1.3x average despite no company-specific catalysts. Supplier ASML (+6.54%) and competitor AMD (+5.13%) also advanced, whereas competitors AAPL (-1.89%) and GOOGL (-1.42%) declined.",
-      "confidence": "low",
+      "headline": "Intel Rallies 11.2% on Google 3M TPU Foundry Order",
+      "explanation": "Intel climbed 11.19% to $110.27 on reports that Alphabet committed to ordering over 3 million custom AI TPUs from Intel Foundry for 2028 production. In addition, Cadence expanded its collaboration with Intel Foundry for 14A process optimization. Intel led semiconductor peers, outpacing competitor AMD (+5.13%) and supplier ASML (+6.54%).",
+      "confidence": "high",
       "citation_ids": [
         "ev_INTC_20260608_price",
-        "ev_INTC_20260608_peer_ASML",
+        "ev_INTC_20260608_news1",
+        "ev_INTC_20260608_news3",
+        "ev_INTC_20260608_news4",
         "ev_INTC_20260608_peer_AMD",
-        "ev_INTC_20260608_peer_AAPL",
-        "ev_INTC_20260608_peer_GOOGL"
+        "ev_INTC_20260608_peer_ASML"
       ]
     },
     {
@@ -1427,14 +1436,15 @@
       "pct_change": 9.268,
       "close": 116.96,
       "direction": "up",
-      "headline": "Intel rises 9.3% in broader semiconductor push",
-      "explanation": "Intel shares climbed 9.27% to close at $116.96 on 1.9x typical trading volume without fresh company disclosures. The advance was shared across the sector, including supplier ASML (+9.53%), competitor AMD (+7.97%), and competitor QCOM (+6.15%).",
-      "confidence": "low",
+      "headline": "Intel Advances 9.3% After Bank of America Upgrade",
+      "explanation": "Intel shares rose 9.27% to close at $116.96 after Bank of America issued a rare double upgrade from Underperform to Buy, lifting its price objective from $96 to $135. The upgrade cited improving CPU demand and growing confidence in the contract manufacturing business, with semiconductor peer ASML gaining 9.53% and competitor AMD up 7.97%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_INTC_20260611_price",
-        "ev_INTC_20260611_peer_ASML",
+        "ev_INTC_20260611_news1",
+        "ev_INTC_20260611_news5",
         "ev_INTC_20260611_peer_AMD",
-        "ev_INTC_20260611_peer_QCOM"
+        "ev_INTC_20260611_peer_ASML"
       ]
     },
     {
@@ -1442,14 +1452,16 @@
       "pct_change": 10.644,
       "close": 133.99,
       "direction": "up",
-      "headline": "Intel rallies 10.6% on broad industry strength",
-      "explanation": "Intel gained 10.64% to hit $133.99 on 2.3x normal volume with no company-specific updates. Strength was shared across the supply chain, as supplier and competitor TSM added 6.93%, competitor QCOM rose 6.17%, and competitor AMD climbed 4.86%.",
-      "confidence": "low",
+      "headline": "Intel Rises 10.6% on Executive Hire and Apple Buzz",
+      "explanation": "Intel surged 10.64% to $133.99 with volume 2.3x normal after appointing former SK Hynix CEO Seok-Hee Lee to lead its foundry advanced packaging business. Momentum was further amplified by public comments from President Trump touting Intel's domestic chipmaking pact with Apple. Peers also advanced, with supplier and competitor TSM rising 6.93% and competitor QCOM gaining 6.17%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_INTC_20260618_price",
+        "ev_INTC_20260618_news0",
+        "ev_INTC_20260618_news1",
+        "ev_INTC_20260618_news4",
         "ev_INTC_20260618_peer_TSM",
-        "ev_INTC_20260618_peer_QCOM",
-        "ev_INTC_20260618_peer_AMD"
+        "ev_INTC_20260618_peer_QCOM"
       ]
     },
     {
@@ -1457,14 +1469,16 @@
       "pct_change": -9.664,
       "close": 110.39,
       "direction": "down",
-      "headline": "Intel slides 9.7% alongside AMD and TSM",
-      "explanation": "Intel dropped 9.66% to $110.39 on 1.4x 30-day average volume in the absence of corporate news. The sell-off was shared with competitor AMD (-6.51%), supplier ASML (-4.26%), and supplier and competitor TSM (-4.25%).",
-      "confidence": "low",
+      "headline": "Intel Drops 9.7% Amid Broader Chip Selloff",
+      "explanation": "Intel tumbled 9.66% to $110.39 despite receiving a Street-high $200 price target from HSBC. The selloff was shared across the semiconductor space, sparked by Samsung Electronics earnings triggering concerns over AI chip valuations; competitor AMD sank 6.51% and supplier ASML declined 4.26%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_INTC_20260707_price",
+        "ev_INTC_20260707_news0",
+        "ev_INTC_20260707_news2",
+        "ev_INTC_20260707_news3",
         "ev_INTC_20260707_peer_AMD",
-        "ev_INTC_20260707_peer_ASML",
-        "ev_INTC_20260707_peer_TSM"
+        "ev_INTC_20260707_peer_ASML"
       ]
     },
     {
@@ -1472,13 +1486,14 @@
       "pct_change": -7.892,
       "close": 92.32,
       "direction": "down",
-      "headline": "Intel falls 7.9% after Q2 10-Q filing",
-      "explanation": "Intel shares decreased 7.89% to $92.32 on 1.8x typical volume following Form 8-K and 10-Q filings. The drop exceeded declines among peers, though competitor AMD fell 3.29% and supplier and competitor TSM dipped 2.93%.",
+      "headline": "Intel Drops 7.9% Post-Earnings on Capex Concerns",
+      "explanation": "Intel dropped 7.89% to $92.32 following its Q2 financial results, reversing initial premarket strength as investors focused on escalating capital expenditure plans required for its foundry buildout. While revenue grew 25% and beat forecasts by $1.7 billion, spending worries weighed heavily. The retreat outpaced peers, as competitor AMD dipped 3.29% and supplier TSM dropped 2.93%.",
       "confidence": "high",
       "citation_ids": [
         "ev_INTC_20260724_price",
-        "ev_INTC_20260724_filing_000005086326000157",
-        "ev_INTC_20260724_filing_000005086326000155",
+        "ev_INTC_20260724_news1",
+        "ev_INTC_20260724_news2",
+        "ev_INTC_20260724_news4",
         "ev_INTC_20260724_peer_AMD",
         "ev_INTC_20260724_peer_TSM"
       ]
@@ -1488,12 +1503,13 @@
       "pct_change": 12.136,
       "close": 121.78,
       "direction": "up",
-      "headline": "Intel jumps 12.1% on AI CPU demand rally",
-      "explanation": "Intel gained 12.14% to $121.78 on 1.9x normal volume as enthusiasm around Meta's Muse AI agent fueled expectations for CPU demand. The rally lifted peer chipmakers as well, with competitor AMD jumping 9.95% to cross a $1 trillion market cap and competitor QCOM rising 9.29%.",
+      "headline": "Intel Gains 12.1% on AI Agent CPU Demand Wave",
+      "explanation": "Intel jumped 12.14% to $121.78 on 1.9x average volume, lifted by optimism surrounding CPU compute demand fueled by Meta's Muse AI agent. The surge was part of an industrywide rally in processing silicon, with competitor AMD jumping 9.95% and competitor QCOM advancing 9.29%.",
       "confidence": "high",
       "citation_ids": [
         "ev_INTC_20260921_price",
-        "ev_INTC_20260921_news4",
+        "ev_INTC_20260921_news2",
+        "ev_INTC_20260921_news5",
         "ev_INTC_20260921_peer_AMD",
         "ev_INTC_20260921_peer_QCOM"
       ]
@@ -1664,6 +1680,86 @@
       "detail": "8-K",
       "source": "SEC EDGAR",
       "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000072/intc-20260408.htm",
+      "occurred_on": "2026-04-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260408_news0": {
+      "id": "ev_INTC_20260408_news0",
+      "kind": "news",
+      "title": "Stock Market Today, April 8: Intel Surges After Joining Elon Musk Terafab AI Chip Project",
+      "detail": "Reported by Yahoo. Today, April 8, 2026, investors are weighing how Intel\u2019s role in Elon Musk\u2019s Terafab effort reshapes its AI and foundry ambitions.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=aca3fd03c7cc2faee3dc33e980c932f79995f23525c598fcb453ac38568fecfd",
+      "occurred_on": "2026-04-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260408_news1": {
+      "id": "ev_INTC_20260408_news1",
+      "kind": "news",
+      "title": "Stocks to Watch Recap: Levi Strauss, Intel, Blue Owl",
+      "detail": "Reported by Yahoo. \u2197\ufe0f Levi Strauss (LEVI): Shares jumped 11% after the apparel maker said its turnaround is working, and upgraded its guidance. \u2198\ufe0f Blue Owl (OWL): One of its biggest private-credit funds was downgraded by ratings company Moody's because of investors asking to pull out a big share of their money.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e6886c5c87b53615178d6855e925727bf0aaecab6325ddc0f24913ee373defc3",
+      "occurred_on": "2026-04-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260408_news2": {
+      "id": "ev_INTC_20260408_news2",
+      "kind": "news",
+      "title": "Why Is Intel Stock Jumping Today",
+      "detail": "Reported by Yahoo. Intel Jumps on Supply Fix: Lynx Hikes Target to $70, Sees Strong Demand Ahead",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7b2c1f121cfd53156ce5b151e11817ca046187fe7f555df06f5fd48fdfff7a50",
+      "occurred_on": "2026-04-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260408_news3": {
+      "id": "ev_INTC_20260408_news3",
+      "kind": "news",
+      "title": "Intel Repurchases Apollo's 49% Stake In Fab 34 Ireland Joint Venture For $14.2B, Gains Full Ownership",
+      "detail": "Reported by Benzinga. On April 8, 2026, Intel Corporation (&#34;Intel&#34;) repurchased from Apollo-managed funds and affiliates their 49% equity interest in the parties&#39; joint venture related to Intel&#39;s Fab 34 in Ireland. The $14.2 billion",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c39b64415647f9ff35b85123f4d787659dbbc6d76d0eee240750016238ac5654",
+      "occurred_on": "2026-04-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260408_news4": {
+      "id": "ev_INTC_20260408_news4",
+      "kind": "news",
+      "title": "Intel stock soars 9% after joining Musk\u2019s high-stakes Terafab, Wedbush flags funding risks",
+      "detail": "Reported by Yahoo. Intel Corp (NASDAQ:INTC, XETRA:INL) shares climbed 9.1% Wednesday after the chipmaker announced it is joining Elon Musk\u2019s Terafab project, but analysts caution that the deal\u2019s long-term benefits depend heavily on how the partnership is structured. Wedbush analysts said the collaboration makes...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=18ec9c9fb0e53a20985caeea8daabd91943b0e52cdf0dddc749badfbeae6f23e",
+      "occurred_on": "2026-04-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260408_news5": {
+      "id": "ev_INTC_20260408_news5",
+      "kind": "news",
+      "title": "Intel Jumps 8%: The TeraFab Excitement Is Real, but Is the Valuation Stretched?",
+      "detail": "Reported by Yahoo. Intel (NASDAQ:INTC) stock is surging 8% in Wednesday morning trading, moving from $52.91 to $57. It\u2019s the second consecutive session of sharp gains, as the TeraFab partnership narrative pulls in buyers across retail and institutional desks. This move builds on a remarkable run. Intel stock is up 54% year-to-date. The central question for investors is ... Intel Jumps 8%: The TeraFab Excitement Is Real, but Is the Valuation Stretched?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=714d83c984904c8ccb3c9f995d2873f2a9b2bcf51360fd53efd36c1df420eb82",
+      "occurred_on": "2026-04-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260408_news6": {
+      "id": "ev_INTC_20260408_news6",
+      "kind": "news",
+      "title": "Tesla Gains on Intel Terafab Partnership",
+      "detail": "Reported by Yahoo. Chip collaboration boosts sentiment despite mixed delivery outlook.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=865845423c57c0d278a76a6aba08a7c0f99cf95dfe1d7a4e62b649bf88bfce92",
+      "occurred_on": "2026-04-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260408_news7": {
+      "id": "ev_INTC_20260408_news7",
+      "kind": "news",
+      "title": "Intel Joins Musk's Terafab Targeting 1 Terawatt Annual Compute Capacity",
+      "detail": "Reported by Yahoo. Chipmaker partners with Tesla, SpaceX and xAI to refactor fab technology for large-scale AI, robotics and space computing output",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8f6fa21b98b18b08472c889d5d976af140cc002b81be580e80aa8a1ecada0ccd",
       "occurred_on": "2026-04-08",
       "numbers": {}
     },
@@ -1854,6 +1950,86 @@
       "occurred_on": "2026-04-23",
       "numbers": {}
     },
+    "ev_INTC_20260424_news0": {
+      "id": "ev_INTC_20260424_news0",
+      "kind": "news",
+      "title": "Bank of America resets Intel stock price target after earnings",
+      "detail": "Reported by Yahoo. Intel (INTC) stock is up about 123% year to date, at the time of writing, Friday morning, April 24, according to Yahoo Finance. Meanwhile, the SPDR S&P 500 index (SPY) is up about 4% in the same period. Following the Q1 earnings report on April 23, the stock is soaring 22% and trading near $82, ...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=40cad2479658cc11a356eb6386f539149940c371a1337546dde887571f390dbe",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260424_news1": {
+      "id": "ev_INTC_20260424_news1",
+      "kind": "news",
+      "title": "Stock Market Today, April 24: Intel Surges After Q1 Earnings Beat Expectations",
+      "detail": "Reported by Yahoo. AI-fueled earnings strength and fresh government backing put this chip giant at the center of the market\u2019s focus, today, April 24, 2026.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4f999dbb38b3018e961d0b69a6e7792cc32559f1249c7683dcfcc2673186a760",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260424_news2": {
+      "id": "ev_INTC_20260424_news2",
+      "kind": "news",
+      "title": "INTC Q1 Deep Dive: AI Demand and Advanced Manufacturing Propel Intel\u2019s Outlook",
+      "detail": "Reported by Yahoo. Computer processor maker Intel (NASDAQ:INTC) reported Q1 CY2026 results beating Wall Street\u2019s revenue expectations, with sales up 7.2% year on year to $13.58 billion. On top of that, next quarter\u2019s revenue guidance ($14.3 billion at the midpoint) was surprisingly good and 9.2% above what analysts were expecting. Its non-GAAP profit of $0.29 per share was significantly above analysts\u2019 consensus estimates.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=869752a4b629e54c427c4a4e8f31be1f1ab512230d00c8bf2dce42ff9a3ee589",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260424_news3": {
+      "id": "ev_INTC_20260424_news3",
+      "kind": "news",
+      "title": "Anything Intel Can Do, Advanced Micro Devices Might Be Able to Do Better",
+      "detail": "Reported by Yahoo. D.A. Davidson upgrades Advanced Micro Devices stock to Buy from Neutral following a blockbuster earnings report from rival Intel.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=13d3e6ef7b0671cbb547828b3a3d291e5107213d80bc84df1fa51c02b4e79492",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260424_news4": {
+      "id": "ev_INTC_20260424_news4",
+      "kind": "news",
+      "title": "Intel Stock Surges 24% to Record High on Earnings. AI Will Have to Drive It Higher.",
+      "detail": "Reported by Yahoo. Intel shares were up sharply in premarket trading Friday after the chip maker reported strong first-quarter results.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b398bb8e004fd6da7c3ad9418f6e8b40b782ded2b4f24d61a092e027c653171c",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260424_news5": {
+      "id": "ev_INTC_20260424_news5",
+      "kind": "news",
+      "title": "An Intel Skeptic on Reasons to Doubt the Stock\u2019s Huge Rally",
+      "detail": "Reported by Yahoo. Intel still runs the risk of missing the AI boom, just as it missed the mobile revolution before it.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bedf9458432e5839b28f3e283d27a5b1fbc706274f825f50fedbfef040714c89",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260424_news6": {
+      "id": "ev_INTC_20260424_news6",
+      "kind": "news",
+      "title": "Nasdaq, S&P 500 Touch All-Time Highs as Intel Lifts Tech, Stage Set for Iran Peace Talks This Weekend",
+      "detail": "Reported by Yahoo. The Nasdaq Composite and the S&P 500 hit records on Friday as Intel's (INTC) blowout Q1 results galv",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5322933bcbf57271dec18968a69156fea460975982e40e6f5fe4c6337dcac6fb",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260424_news7": {
+      "id": "ev_INTC_20260424_news7",
+      "kind": "news",
+      "title": "Nvidia Rallies. Why Intel, Hyperscalers May Be The Reason.",
+      "detail": "Reported by Yahoo. Nvidia stock rallied Friday, boosted by Intel's upbeat quarterly report and ahead of much-anticipated reports from AI giants.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9fca48a6ad85e34a64dd2b40b4193c49d58410168fa346186c2f94e8e3eaf11e",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
     "ev_INTC_20260429_price": {
       "id": "ev_INTC_20260429_price",
       "kind": "price",
@@ -2010,6 +2186,86 @@
         "subject_pct_change": 12.104,
         "relationship": "supplier and competitor"
       }
+    },
+    "ev_INTC_20260429_news0": {
+      "id": "ev_INTC_20260429_news0",
+      "kind": "news",
+      "title": "Intel Stock Is Up 115% in April. How to Play It With Options Now.",
+      "detail": "Reported by Yahoo. Options strategies offer ways to participate in future upside for hot stocks\u2014and protect yourself from a potential selloff.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=eb25a47ad70f00d1dfabb5161cfe9141a5e1530f994ccd340d32130b17e106b5",
+      "occurred_on": "2026-04-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260429_news1": {
+      "id": "ev_INTC_20260429_news1",
+      "kind": "news",
+      "title": "Intel Stock Is Soaring. Why Wall Street Is Turning Bullish Again",
+      "detail": "Reported by Yahoo. Intel Stock Surges. Analysts See AI Demand Powering the Turnaround",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fe3d61bb471dc667bf97b7fac1d102d63691bd0b67882fc7782dad4a4fbcc6d8",
+      "occurred_on": "2026-04-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260429_news2": {
+      "id": "ev_INTC_20260429_news2",
+      "kind": "news",
+      "title": "Intel Is Up Another 10%. Why the Struggling Foundry Business Is Lifting Shares.",
+      "detail": "Reported by Yahoo. Shares are up again on Wednesday, and potential improvement in the money-losing foundry business is helping.  The stock started from a low point with investors unsure whether the new CEO, Lip-Bu Tan, could turn things around.  Wccftech reported that  Alphabet  will use Intel\u2019s EMIB technology for its next-generation TPU chip.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0ccd45e1f8d623d4509a2979d1187e02ffb04099c1b5e42dbfa7a01b170f6fa3",
+      "occurred_on": "2026-04-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260429_news3": {
+      "id": "ev_INTC_20260429_news3",
+      "kind": "news",
+      "title": "Intel Is Now up 150% YTD. What\u2019s Prompting the Melt-Up?",
+      "detail": "Reported by Yahoo. Shares of Intel (NASDAQ:INTC) are up about 10% in midday trading Wednesday, changing hands near $93 after closing Tuesday at $84.52. The pop extends Intel\u2019s year-to-date (YTD) gain to roughly 150%, one of the most impressive turnarounds in U.S. mega-cap history. The numbers around the rally are striking. INTC stock began 2026 at $36.90 and ... Intel Is Now up 150% YTD. What\u2019s Prompting the Melt-Up?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=718085340d3dea23c44d15f9462c0d8869d07ac1b3f699b5a99cd4ab646d15eb",
+      "occurred_on": "2026-04-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260429_news4": {
+      "id": "ev_INTC_20260429_news4",
+      "kind": "news",
+      "title": "AMD Is Better Positioned Than Intel To Profit From Agentic AI (Rating Upgrades)",
+      "detail": "Reported by SeekingAlpha. AMD is Upgraded to a Buy, while Intel is raised to Hold, reflecting shifting CPU demand in AI infrastructure. Read more on AMD and INTC stock here.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=79bbddbe94f33cf33de5061d5dd579601a5bd340f037d483022d45d8fec4f5a5",
+      "occurred_on": "2026-04-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260429_news5": {
+      "id": "ev_INTC_20260429_news5",
+      "kind": "news",
+      "title": "Bet on These ETFs as Intel Stock Soars Following Q1 Earnings Beat",
+      "detail": "Reported by Yahoo. INTC stock jumps 24% after Q1 earnings beat, as AI-driven growth and product launches fuel momentum, making semiconductor ETFs an attractive play.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c9e5e3e8a460df1dbd0ff18d1832f81601bbe3667dc24575c57b205316f4539c",
+      "occurred_on": "2026-04-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260429_news6": {
+      "id": "ev_INTC_20260429_news6",
+      "kind": "news",
+      "title": "CPU Shortage Is So Bad, Even Intel\u2019s \u2018Scrap\u2019 Is Turning Into Gold",
+      "detail": "Reported by Yahoo. Global tech markets rarely run in straight lines, but every so often demand gets so distorted that the rules themselves start bending. That\u2019s what we\u2019re seeing in CPUs today. From cloud providers scaling AI workloads to enterprises refreshing aging server fleets, demand for processing power has outpaced the industry\u2019s ability to supply it in clean, ... CPU Shortage Is So Bad, Even Intel\u2019s \u2018Scrap\u2019 Is Turning Into Gold",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=dde04a1b68627b0ac5162a46a577bc334cb7ee57438753a2b9c371025a4a3f44",
+      "occurred_on": "2026-04-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260429_news7": {
+      "id": "ev_INTC_20260429_news7",
+      "kind": "news",
+      "title": "Intel CEO Lip-Bu Tan Just Delivered Phenomenal News to Shareholders",
+      "detail": "Reported by Yahoo. The chipmaker's multiyear turnaround plan is beginning to pay off, and its long-time strengths are becoming more valuable.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b69e86aaaebbce6d7a5b55804876c7c9c6bf695e764492c949f7966cd6f977cb",
+      "occurred_on": "2026-04-29",
+      "numbers": {}
     },
     "ev_INTC_20260505_price": {
       "id": "ev_INTC_20260505_price",
@@ -2168,6 +2424,86 @@
         "relationship": "supplier and competitor"
       }
     },
+    "ev_INTC_20260505_news0": {
+      "id": "ev_INTC_20260505_news0",
+      "kind": "news",
+      "title": "Intel Joined Elon Musk's Terafab. Will This Catalyst Cement the Stock's Turnaround?",
+      "detail": "Reported by Yahoo. The chipmaker's shares reached historic heights after the Terafab announcement.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=45372f1c6471c238c56f91b36f9bc61f94cd5798ec6e67765a33996726afa758",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_INTC_20260505_news1": {
+      "id": "ev_INTC_20260505_news1",
+      "kind": "news",
+      "title": "Apple Talks Put Intel Foundry Ambitions And Investor Hopes In Focus",
+      "detail": "Reported by Yahoo. Apple is in early talks with Intel about using Intel's U.S. facilities to manufacture chips. The discussions focus on Apple potentially adding Intel as a supplementary or alternative supplier to TSMC. The talks are described as preliminary, with no formal agreement announced. For investors watching NasdaqGS:INTC, these discussions come at a time when the stock is trading at $108.18, following very large 1 year returns and a 174.7% return year to date. The share price move has been...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fbd96ec92d8076fb22a6e519d78cf905220a5edb4d4ab306462f7e5d09e61b92",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_INTC_20260505_news2": {
+      "id": "ev_INTC_20260505_news2",
+      "kind": "news",
+      "title": "AMD, Super Micro Computer, Intel, Arista Networks And Micron Technology: Why These 5 Stocks Are On Investors' Radars Today",
+      "detail": "Reported by Benzinga. Major U.S. indices ended Tuesday higher, with the\u00a0Dow Jones Industrial Average\u00a0climbing 0.73% to 49,298.25.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d685f98a7963c818e69db0fb92f317306fa1006954859166822ce19ad6ad74bd",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_INTC_20260505_news3": {
+      "id": "ev_INTC_20260505_news3",
+      "kind": "news",
+      "title": "Why Intel Stock Skyrocketed to Record Highs Today",
+      "detail": "Reported by Yahoo. The semiconductor leader could be on the verge of a game-changing chip supply deal.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7f60bb69a14dc6a23acd8c2b498eb6a094929a9ef459db90e64c2745029d6907",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_INTC_20260505_news4": {
+      "id": "ev_INTC_20260505_news4",
+      "kind": "news",
+      "title": "Stock Market Today: Nasdaq, S&P 500 End At Record Highs As Techs Rise; Intel Shares Surge (Live Coverage)",
+      "detail": "Reported by Yahoo. The Dow Jones index rose Tuesday amid rising U.S.-Iran tensions. Palantir stock sold off on earnings.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3216d5676f2ff3dbcc80c0df3991987a0dbda623d7729c6b529496ea98e98dca",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_INTC_20260505_news5": {
+      "id": "ev_INTC_20260505_news5",
+      "kind": "news",
+      "title": "Intel Corporation to Participate in Upcoming Investor Conferences",
+      "detail": "Reported by Yahoo. SANTA CLARA, Calif., May 05, 2026--Intel Corporation to Participate in Upcoming Investor Conferences",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9494dde3d368093003ee5134e3f22707352364a177c11e89b28aca7458d74ea9",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_INTC_20260505_news6": {
+      "id": "ev_INTC_20260505_news6",
+      "kind": "news",
+      "title": "S&P 500 and Dow Jones Climb; Intel's 14% Surge Steals the Show",
+      "detail": "Reported by Yahoo. What's driving the Nasdaq's 1.3% gain today? It's a new twist in the long-running AI boom. Here's how the ripple effects are lifting the entire market.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b9c32f2e1cc131a1eb999f8e8a830e4517178dc4676b249c6aa607cffa47daf7",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_INTC_20260505_news7": {
+      "id": "ev_INTC_20260505_news7",
+      "kind": "news",
+      "title": "AMD, Intel and Micron Lead Chip Stocks Rally on U.S--Iran Ceasefire Optimism",
+      "detail": "Reported by Yahoo. Semiconductor Stocks Surge on AI Demand and Risk-On Wave",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=685184ef657e229668944ad0feca48bd969dad44528cb4c7deb6b94eb0f4f7d2",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
     "ev_INTC_20260508_price": {
       "id": "ev_INTC_20260508_price",
       "kind": "price",
@@ -2324,6 +2660,86 @@
         "subject_pct_change": 13.957,
         "relationship": "supplier and competitor"
       }
+    },
+    "ev_INTC_20260508_news0": {
+      "id": "ev_INTC_20260508_news0",
+      "kind": "news",
+      "title": "Intel Apple Chip Deal Puts Foundry Ambitions And Risks In Focus",
+      "detail": "Reported by Yahoo. Intel (NasdaqGS:INTC) and Apple reached a preliminary agreement for Intel to manufacture chips for Apple. The agreement marks a breakthrough for Intel's foundry effort and involves active support from the White House. The deal highlights U.S. based chipmaking as an alternative to supply chains centered on Taiwan Semiconductor Manufacturing. Intel, traded as NasdaqGS:INTC, has been working to build a contract chip manufacturing business alongside its own processor lines. Apple is one of the...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ef7e441b3159ee4b611333a8a7c2b5bc2d44f4621dacc92aba1f11c0283b9ff7",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260508_news1": {
+      "id": "ev_INTC_20260508_news1",
+      "kind": "news",
+      "title": "Apple reaches chipmaking deal with Intel, pushing its stock to new record",
+      "detail": "Reported by Yahoo. Intel has sold a new customer on its domestic foundry push, the latest lifeline for a venture that engineered massive losses in the one-time semiconductor giant and led many industry analysts to believe that it would be abandoned or spun off. After months of speculation, the WSJ reported Friday ...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c9bc486ff4e8ecdcb150deca9b8a39aeb8ac8ea38ec64f906161217cb8e1e8f3",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260508_news2": {
+      "id": "ev_INTC_20260508_news2",
+      "kind": "news",
+      "title": "In Rush to Buy CPUs, Intel Won\u2019t Be the Only Winner",
+      "detail": "Reported by Yahoo. The rise of AI agents is swinging attention back to the main brain of data-center computing, the CPU.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3c0b295b29393d34fe9a241ba2fe11f3e2cb0a9493d8e4540362b44cc11930e9",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260508_news3": {
+      "id": "ev_INTC_20260508_news3",
+      "kind": "news",
+      "title": "Intel Stock Hits All-Time High After Preliminary Chip Deal With Apple",
+      "detail": "Reported by Yahoo. A preliminary Apple-Intel manufacturing agreement\u2014backed by a White House push\u2014sent Intel stock above $130 on Friday.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cbeaa9addef234f7b80e73ffc2bb7a2dee3312457e06b18c004c48076efd9f95",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260508_news4": {
+      "id": "ev_INTC_20260508_news4",
+      "kind": "news",
+      "title": "Intel\u2019s comeback story is even wilder than it seems",
+      "detail": "Reported by Yahoo. Intel's stock has risen a stunning 490% over the past year, a bet by Wall Street that may be running well ahead of the company's actual turnaround.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8140a8de32b5602a6d827dc4b5e7184fae5ac9a8eaaf67f11e7443b1513cbe58",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260508_news5": {
+      "id": "ev_INTC_20260508_news5",
+      "kind": "news",
+      "title": "Intel, Apple reach preliminary chip manufacturing deal",
+      "detail": "Reported by Yahoo. The U.S. government's 10% stake in Intel played a key role in bringing Apple to the table, with talks spanning more than a year",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3d80a1bb15254cf22586b1347f56467b01b8fcd6527a25d3b662547db1a51f7f",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260508_news6": {
+      "id": "ev_INTC_20260508_news6",
+      "kind": "news",
+      "title": "Apple May Become an Intel Customer Again. What This Means for Both Companies.",
+      "detail": "Reported by Yahoo. On Friday The Wall Street Journal cited sources who said that  Apple  and  Intel  had reached a preliminary agreement for Intel to manufacture chips for the iPhone-maker.  Intel stock was up 16% in midday trading on the news; it has risen 246% this year.  Apple uses  Taiwan Semiconductor Manufacturing  to make its Apple Silicon chips that run all its devices.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=861ffa14b70df50d70a2ea2da3c33e4c7bf64603b2cbdd789d0180eac3e7454c",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260508_news7": {
+      "id": "ev_INTC_20260508_news7",
+      "kind": "news",
+      "title": "Intel Could Be Moving Closer to an Apple Partnership\u2014and Its Stock Is Racing Higher",
+      "detail": "Reported by Yahoo. Shares of Intel jumped in Friday trading, pushed higher by reports that the company was moving closer to landing a deal to make chips for a Magnificent 7 client.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=006efe50cbccf0bb0e671309e98771eb9c00b42b71a9d97c3b954fd8c25fa540",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
     },
     "ev_INTC_20260529_price": {
       "id": "ev_INTC_20260529_price",
@@ -2482,6 +2898,86 @@
         "relationship": "supplier and competitor"
       }
     },
+    "ev_INTC_20260529_news0": {
+      "id": "ev_INTC_20260529_news0",
+      "kind": "news",
+      "title": "Jim Cramer Says Dell's Blowout Quarter Could Mark A Turning Point For AI Stocks Like Nvidia And Intel: 'I Wonder If...'",
+      "detail": "Reported by Benzinga. Cramer said Dell&#39;s blowout earnings could mark a turning point for AI stocks as investors turn to Nvidia&#39;s Computex event.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=951a54c84a08cbe4a338c3d5c0f3c26919412ce71b6a7240cf331cab61a3de37",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260529_news1": {
+      "id": "ev_INTC_20260529_news1",
+      "kind": "news",
+      "title": "Intel (INTC) Stock Dips While Market Gains: Key Facts",
+      "detail": "Reported by Yahoo. Intel (INTC) concluded the recent trading session at $114.65, signifying a -5.16% move from its prior day's close.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b600f42fbf7c5fe2fa6354182df65a0c9df13973e820ca15c74ae592dd764c6d",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260529_news2": {
+      "id": "ev_INTC_20260529_news2",
+      "kind": "news",
+      "title": "This Sleeping Semiconductor Giant Will Be the Biggest Winner of the AI Inference Era (Hint: It's Not Intel)",
+      "detail": "Reported by Yahoo. Qualcomm may have made a big breakthrough in AI chips by landing a deal with a major company.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=014103cbdcf0b43bcbb10ba5e831484fb7ef819156a9612dfcf4f94441b19480",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260529_news3": {
+      "id": "ev_INTC_20260529_news3",
+      "kind": "news",
+      "title": "Can Intel's New Arc G Series for Gaming Expansion Drive Future Growth?",
+      "detail": "Reported by Yahoo. INTC rolls out Arc G-Series chips for handheld gamers, touting Arc B390 graphics, XeSS 3 boosts and battery efficiency as partners line up new devices.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=016a14f3dc9f1c9f5df06e1c3a147ce28e6fa92b8ffc13a25f5fc3b3bb1d1147",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260529_news4": {
+      "id": "ev_INTC_20260529_news4",
+      "kind": "news",
+      "title": "Dell Is The New Intel",
+      "detail": "Reported by SeekingAlpha. Dell Technologies Inc. is emerging as a central player in the AI buildout, driving a re-rating of its stock. Click here to read more on the DELL stock.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=293f65d1c0e633d406a6102bfaca7a4d053c1645dceca9da5a62bb0d9050a119",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260529_news5": {
+      "id": "ev_INTC_20260529_news5",
+      "kind": "news",
+      "title": "Intel, 3DGS to set up $3.3 billion substrate plant in India's Odisha state",
+      "detail": "Reported by Yahoo. U.S. chipmaker Intel and 3DGS Inc. \u200cUSA will invest about $3.3 billion \u200cto set up a substrate manufacturing plant \u200bin the eastern Indian state of Odisha, the Indian government said on Friday.  \u2022 Substrates \u2060are the bedrock material on which elements of a semiconductor device \u200bare attached.  \u2022 \u200bNew Delhi \u200bhas pledged billions \u200cof dollars in subsidies to attract semiconductor plants and related manufacturing as a part of Prime Minister Narendra Modi's wider push to build \u200cmore products locally.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=699bf18fa50b251bce506c1096dce9ffe706808bd97ea0699eaa4d095b00969a",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260529_news6": {
+      "id": "ev_INTC_20260529_news6",
+      "kind": "news",
+      "title": "This Tech Stock Joins Intel, Cisco Smashing Dot-Com Records",
+      "detail": "Reported by Yahoo. After  Intel Cisco  and  Corning  earlier this year, data storage company  NetApp  is the latest tech stalwart set to finally surpass its 2000 record high.  \u201cThroughout our history, NetApp has ridden wave after wave of change in the IT ocean,\u201d the company\u2019s history page reads.  True to its word, NetApp is now riding the AI wave.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=282112f2fc2a2c933243c3cc6f113cbe6d12152cd3682bf36747a9918cbdef58",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_INTC_20260529_news7": {
+      "id": "ev_INTC_20260529_news7",
+      "kind": "news",
+      "title": "Taiwan's MediaTek says it supports both TSMC and Intel's advanced packaging\u00a0technologies",
+      "detail": "Reported by Yahoo. Taiwan chip designer MediaTek said on Friday it supports both TSMC's and Intel's \u200cadvanced packaging technologies, allowing customers to choose between the \u200ctwo approaches.  CoWoS, or Chip-on-Wafer-on-Substrate, is TSMC's advanced packaging technology widely used for artificial intelligence chips, including those designed \u200cby Nvidia.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a10ab93cfbe50ee8cdd053fb58090c88aa5537dc824b30b05b3b02c07d8a2ae1",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
     "ev_INTC_20260608_price": {
       "id": "ev_INTC_20260608_price",
       "kind": "price",
@@ -2638,6 +3134,86 @@
         "subject_pct_change": 11.193,
         "relationship": "supplier and competitor"
       }
+    },
+    "ev_INTC_20260608_news0": {
+      "id": "ev_INTC_20260608_news0",
+      "kind": "news",
+      "title": "S&P 500 and Nasdaq Gain As Chipmaker Stocks Revive, While Israel-Iran Ceasefire Aids Sentiment \u2014 AAPL, INTC, AAL, PSKY, CBRS In Focus",
+      "detail": "Reported by Yahoo. Iran and Israel to pause strikes but warn of retaliation if ceasefire breached.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6d9c34d73c55086b1936cfc7277d1417b8ca89f1a54e2997c49d1edfde553fb6",
+      "occurred_on": "2026-06-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260608_news1": {
+      "id": "ev_INTC_20260608_news1",
+      "kind": "news",
+      "title": "Stock Market Today, June 8: Intel Surges on Reported Google AI Chip Foundry Order",
+      "detail": "Reported by Yahoo. The rally gives Intel a foundry boost, with investors watching the reported Google demand and proof that 18A can scale into real revenue.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3c83d1e00d3bfc3daac4d5a4dc8fad04791cddb75f9a83a45464a0b3fba82890",
+      "occurred_on": "2026-06-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260608_news2": {
+      "id": "ev_INTC_20260608_news2",
+      "kind": "news",
+      "title": "Stock Market Today, June 8: Marvell, Intel, and Micron Lead Tech Stock Rebound",
+      "detail": "Reported by Yahoo. Marvell\u2019s leap into the S&P 500 caps a sharp AI-chip rebound that helped steady U.S. stocks, today, June 8, 2026.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=57fe35c4c3017c208681335866fcc352b9e1db1be78fadae9687ee42123b91ef",
+      "occurred_on": "2026-06-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260608_news3": {
+      "id": "ev_INTC_20260608_news3",
+      "kind": "news",
+      "title": "Alphabet Intel Chip Pact Reshapes AI Supply Chain And Investor Outlook",
+      "detail": "Reported by Yahoo. Alphabet plans to use Intel to manufacture over 3 million custom AI chips in 2028. The move shifts a portion of Alphabet\u2019s Tensor Processing Unit production away from TSMC due to capacity constraints. This is the first time Alphabet will rely on Intel as a contract manufacturer for its proprietary AI hardware. The agreement reshapes parts of the global semiconductor supply chain and highlights rising competition in AI chip sourcing. Alphabet, trading as NasdaqGS:GOOGL, is committing...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e7b7d142be4eaa92459e36ccae93f4b733c40637783033388ed141cb11afd15c",
+      "occurred_on": "2026-06-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260608_news4": {
+      "id": "ev_INTC_20260608_news4",
+      "kind": "news",
+      "title": "Cadence Announces Collaboration with Intel Foundry to Accelerate Intel 14A Process Optimization for HPC and Mobile Designs",
+      "detail": "Reported by Yahoo. SAN JOSE, Calif., June 08, 2026--Cadence (Nasdaq: CDNS) today announced an expanded collaboration with Intel Foundry to advance Design Technology Co-Optimization (DTCO) targeting Intel\u2019s next-generation process technologies, beginning with Intel 14A. The new multi-year agreement combines Cadence\u2019s agentic AI-driven EDA and Design IP solutions with Intel\u2019s process innovation and advanced design expertise.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9c3093b9faa88bdb2f97d5f27af4767bbb6726a09d39797907896163aaac29fc",
+      "occurred_on": "2026-06-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260608_news5": {
+      "id": "ev_INTC_20260608_news5",
+      "kind": "news",
+      "title": "Intel Is Today\u2019s Top S&P 500 Stock. These Are the Reasons Why.",
+      "detail": "Reported by Yahoo. Intel stock leads the S&P 500 higher after sinking 11% on Friday. The AI trade is picking up momentum again after last week\u2019s selloff.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=84c496cfd4f90255d6aa3bd17cc38dd9c70a40b7e9a6caa992a9b98ab658bb83",
+      "occurred_on": "2026-06-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260608_news6": {
+      "id": "ev_INTC_20260608_news6",
+      "kind": "news",
+      "title": "Google Orders 3 Million TPUs From Intel",
+      "detail": "Reported by Yahoo. Intel's foundry business is gaining traction after years of setbacks",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=88e2e7b1c531655d7a5cfca4ec251289d2f98d8249949d8a690e64e2b9f6d9ca",
+      "occurred_on": "2026-06-08",
+      "numbers": {}
+    },
+    "ev_INTC_20260608_news7": {
+      "id": "ev_INTC_20260608_news7",
+      "kind": "news",
+      "title": "Intel Leads Chip Rally on AI Foundry Hopes",
+      "detail": "Reported by Yahoo. Google TPU Order May Signal Foundry Momentum Ahead",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=30d795d11c08772144407112b4c4f7d7efbdba8a469a7f18d920ebb7bc949faf",
+      "occurred_on": "2026-06-08",
+      "numbers": {}
     },
     "ev_INTC_20260611_price": {
       "id": "ev_INTC_20260611_price",
@@ -2796,6 +3372,86 @@
         "relationship": "supplier and competitor"
       }
     },
+    "ev_INTC_20260611_news0": {
+      "id": "ev_INTC_20260611_news0",
+      "kind": "news",
+      "title": "S&P 500, Nasdaq, Dow End Higher After Trump Signals Iran Deal Coming Soon \u2014 ADBE, INTC, AMC, GOOGL, ORCL In Focus",
+      "detail": "Reported by Yahoo. President Donald Trump called off the strikes on Iran on Thursday and said the U.S. is going to sign a deal with Tehran soon.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6a36c740aff5f6ea0867c24a6c5202f8b36bea6f4b23cd4e683c19d82c52cc88",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_INTC_20260611_news1": {
+      "id": "ev_INTC_20260611_news1",
+      "kind": "news",
+      "title": "Why Is Intel (INTC) Stock Rocketing Higher Today",
+      "detail": "Reported by Yahoo. Shares of computer processor maker Intel (NASDAQ:INTC) jumped 5.1% in the morning session after Bank of America issued a rare double upgrade that gave sell-side backing to the foundry story investors had been bidding up.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=899d143eef31baa208fd75207ded93932cfc5a21543a5bb3aff3458ebbafe1e3",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_INTC_20260611_news2": {
+      "id": "ev_INTC_20260611_news2",
+      "kind": "news",
+      "title": "Stock Market Today, June 11: Micron, Intel, and Nvidia Lead Rebound and SpaceX IPO Approaches",
+      "detail": "Reported by Yahoo. Today, June 11, 2026, markets recovered on revived peace talk hopes, and chips helped power the S&P 500 and Nasdaq.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=56a90d6476295a9b2b4ada1a185ef3007ac59628a695021c5424bd77b34db6d7",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_INTC_20260611_news3": {
+      "id": "ev_INTC_20260611_news3",
+      "kind": "news",
+      "title": "Intel Just Got a Rare Double Upgrade From Bank of America. The Stock Is Surging",
+      "detail": "Reported by Yahoo. Intel shares rallied Thursday after the chipmaker got a big vote of confidence from Bank of America.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=186899557b75ebd836ea3c60b758fa27465627d12697f3e8aa43f1def7d878a9",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_INTC_20260611_news4": {
+      "id": "ev_INTC_20260611_news4",
+      "kind": "news",
+      "title": "Intel Stock And The Hyperscaler's Tell",
+      "detail": "Reported by Yahoo. Before Intel shares took flight, a critical vote of confidence from one of the world\u2019s biggest chip buyers was hiding in the fine print of an earnings call.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=186ba1cd3ab1fd07bcbd5ee9afbb4f76b4611c500debd899176c9167fdabe74e",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_INTC_20260611_news5": {
+      "id": "ev_INTC_20260611_news5",
+      "kind": "news",
+      "title": "Intel scores double upgrade from Bank of America as CPU, foundry outlook brightens",
+      "detail": "Reported by Yahoo. Intel Corp (NASDAQ:INTC, XETRA:INL) scored a double upgrade to Buy from Underperform by Bank of America, which raised its price objective to $135 from $96 on higher confidence in the chipmaker's ability to capitalize on growing opportunities in central processing units and contract...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=634f706f7e08fe6906df58e5f4bb60cf3e1acae90e6d22094bc261996cdc53db",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_INTC_20260611_news6": {
+      "id": "ev_INTC_20260611_news6",
+      "kind": "news",
+      "title": "How Oracle, KLA, Intel, EchoStar, and More Stocks Explain Today\u2019s Market",
+      "detail": "Reported by Yahoo. Oracle stock falls, leading decliners among S&P 500 components. Intel, Sandisk, and Micron rise as tech stocks recover following a brutal selloff.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e067cafc725de764aa90d70f87efc38d3460fd654920f1089b6907829db26b2e",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_INTC_20260611_news7": {
+      "id": "ev_INTC_20260611_news7",
+      "kind": "news",
+      "title": "Huge Insider Selling Hits Intel Stock",
+      "detail": "Reported by Yahoo. Intel Executive Sells Shares as Turnaround Story Hits Critical Crossroads",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=31304d67ce0ba86617ebc687bbdedb15b06f6d5f8559dff0b13a871acb4728b0",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
     "ev_INTC_20260618_price": {
       "id": "ev_INTC_20260618_price",
       "kind": "price",
@@ -2953,6 +3609,86 @@
         "relationship": "supplier and competitor"
       }
     },
+    "ev_INTC_20260618_news0": {
+      "id": "ev_INTC_20260618_news0",
+      "kind": "news",
+      "title": "Intel Hires Former SK Hynix CEO Seok-Hee Lee To Lead Advanced Packaging Push As Apple Partnership Fuels Foundry Revival",
+      "detail": "Reported by Benzinga. Intel tapped former SK Hynix CEO Seok-Hee Lee to lead advanced packaging as it pushes to revive its foundry business.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c17a507480bc7927affe8e6db0e9ee03c5c1e5d7d2ece7a19d41d92c21414914",
+      "occurred_on": "2026-06-18",
+      "numbers": {}
+    },
+    "ev_INTC_20260618_news1": {
+      "id": "ev_INTC_20260618_news1",
+      "kind": "news",
+      "title": "Intel taps industry veteran Seok-Hee Lee to lead foundry packaging push",
+      "detail": "Reported by Yahoo. Intel on Thursday named Seok-Hee Lee executive vice president of its contract chip-manufacturing division \u200cas it sharpens focus on its advanced packaging business.  The \u200cAmerican chipmaker has been trying to reinvigorate its manufacturing business under CEO \u200bLip-Bu Tan, after missing out on the AI boom.  The appointment follows President Donald Trump's announcement earlier in the day that Apple had agreed to work with Intel to design and manufacture \u200cits chips in the \u2060U.S. in a boost to the chipmaker's contract manufacturing business.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=14e7bdce9b2634190cf160684edac3262f709baa77fe3ede1727a65bb7c36aba",
+      "occurred_on": "2026-06-18",
+      "numbers": {}
+    },
+    "ev_INTC_20260618_news2": {
+      "id": "ev_INTC_20260618_news2",
+      "kind": "news",
+      "title": "Intel shares surge after Trump touts deal with Apple",
+      "detail": "Reported by Yahoo. Intel shares surged 11% Thursday, continuing their meteoric rise after President Trump said that the company had secured a deal to supply chips to Apple.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=16b479d9033b5b06b7cf6de2f8f94cd663bae133a52b52d41fc9bdbe479e2725",
+      "occurred_on": "2026-06-18",
+      "numbers": {}
+    },
+    "ev_INTC_20260618_news3": {
+      "id": "ev_INTC_20260618_news3",
+      "kind": "news",
+      "title": "Intel Announces Leadership Appointment at Intel Foundry to Accelerate Development and Manufacturing",
+      "detail": "Reported by Yahoo. SANTA CLARA, Calif., June 18, 2026--Intel Announces Leadership Appointment at Intel Foundry to Accelerate Development and Manufacturing",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9f55915abb50f308ee3926c78e8304006fcb403469abf1e8faf7eec778e4f3bb",
+      "occurred_on": "2026-06-18",
+      "numbers": {}
+    },
+    "ev_INTC_20260618_news4": {
+      "id": "ev_INTC_20260618_news4",
+      "kind": "news",
+      "title": "Why Is Intel (INTC) Stock Rocketing Higher Today",
+      "detail": "Reported by Yahoo. Shares of computer processor maker Intel (NASDAQ:INTC) jumped 10.4% in the afternoon session after President Trump posted on Truth Social that \"Apple agreed to work with Intel to design and build its Chips in America.\"",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=23a810ac1148cd41c33e8e100a3a44cd734adedace7e37788cf9b54c83310e85",
+      "occurred_on": "2026-06-18",
+      "numbers": {}
+    },
+    "ev_INTC_20260618_news5": {
+      "id": "ev_INTC_20260618_news5",
+      "kind": "news",
+      "title": "Stocks Rally on Middle East Peace, Apple-Intel Deal: Stock Market Today",
+      "detail": "Reported by Yahoo. Investors, traders and speculators set aside their worries about interest rates to celebrate peace in the Middle East and AAPL-INTC again.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9c50431478dbb417bc0edcc87647f46799b1730b8904b995e19e3391bf8b6eee",
+      "occurred_on": "2026-06-18",
+      "numbers": {}
+    },
+    "ev_INTC_20260618_news6": {
+      "id": "ev_INTC_20260618_news6",
+      "kind": "news",
+      "title": "Intel Soars After Trump Says It Will Make Chips in America",
+      "detail": "Reported by Yahoo. Intel's up over 10% as Trump touts a new deal to produce chips in the U.S. with Apple.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e24d75b09e00a5ba7bb1f8c068f489e0dc8c28cd6c7fe5162b2afb3f1a442755",
+      "occurred_on": "2026-06-18",
+      "numbers": {}
+    },
+    "ev_INTC_20260618_news7": {
+      "id": "ev_INTC_20260618_news7",
+      "kind": "news",
+      "title": "Trump Just Sent Intel Stock Soaring. Here's Why.",
+      "detail": "Reported by Yahoo. Intel stock rallies as President Donald Trump says Apple has partnered with its foundry division to make chips domestically. But Wall Street remains cautious on INTC shares.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ff6ace10b5f8f3c12f33be70f6ddf3655ed128fd0fde48fd6007b6057901ef6b",
+      "occurred_on": "2026-06-18",
+      "numbers": {}
+    },
     "ev_INTC_20260707_price": {
       "id": "ev_INTC_20260707_price",
       "kind": "price",
@@ -3109,6 +3845,86 @@
         "subject_pct_change": -9.664,
         "relationship": "supplier and competitor"
       }
+    },
+    "ev_INTC_20260707_news0": {
+      "id": "ev_INTC_20260707_news0",
+      "kind": "news",
+      "title": "HSBC Just Issued Wall Street\u2019s Boldest Call on Intel Stock",
+      "detail": "Reported by Yahoo. HSBC's Street-high $200 price target highlights growing confidence that Intel's AI server CPUs and foundry business could drive earnings well beyond current consensus.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9dd7cba8276c6660c45fa8eecf43ed871d658074e41bd80d7979a1138a5036a1",
+      "occurred_on": "2026-07-07",
+      "numbers": {}
+    },
+    "ev_INTC_20260707_news1": {
+      "id": "ev_INTC_20260707_news1",
+      "kind": "news",
+      "title": "Intel, Micron, SpaceX, GE Vernova, Caterpillar, and More Stocks That Explain Today\u2019s Market",
+      "detail": "Reported by Yahoo. AI stocks fall with South Korean memory-chip maker Samsung Electronics setting the tone for the broader market.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ef11a5a3b4817e14114eb078498a838374c625f3c645224655ea99208a1d38c4",
+      "occurred_on": "2026-07-07",
+      "numbers": {}
+    },
+    "ev_INTC_20260707_news2": {
+      "id": "ev_INTC_20260707_news2",
+      "kind": "news",
+      "title": "Intel Stock Tumbles as Samsung's Record Profit Sparks Fresh AI Fears",
+      "detail": "Reported by Yahoo. Intel Stock Drops as Investors Reassess the AI Chip Rally",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b78e7719e36b2b06198220bf4ff305c78929b3a98bfb69e0ad967b6485c3a0d3",
+      "occurred_on": "2026-07-07",
+      "numbers": {}
+    },
+    "ev_INTC_20260707_news3": {
+      "id": "ev_INTC_20260707_news3",
+      "kind": "news",
+      "title": "Intel and Applied Materials Dive 10%, AMD Craters 8% as Samsung Earnings Trigger Chip Selloff",
+      "detail": "Reported by Yahoo. Shares of Intel (NASDAQ:INTC) are down 10% in Tuesday morning trading to $110, while Advanced Micro Devices (NASDAQ:AMD) stock is off 8% to $508. The moves cap a sharp reversal after both names rallied Monday. The declines are part of a broader chip selloff triggered by Samsung Electronics\u2019 quarterly report. Equipment maker Applied Materials (NASDAQ:AMAT) ... Intel and Applied Materials Dive 10%, AMD Craters 8% as Samsung Earnings Trigger Chip Selloff",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3fbe4618440689acf8046b8f81174c591a69e42853069a14c5dc8f0f1ede0e9e",
+      "occurred_on": "2026-07-07",
+      "numbers": {}
+    },
+    "ev_INTC_20260707_news4": {
+      "id": "ev_INTC_20260707_news4",
+      "kind": "news",
+      "title": "Intel\u2019s Turnaround Story Is Likely to Get Better and Support INTC Stock Upside",
+      "detail": "Reported by Yahoo. Intel just got a new Street-high price target of $200 from HSBC.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5949052be95b8337c7aeadfe9918581d1db4239551e09307189f34c836a23a71",
+      "occurred_on": "2026-07-07",
+      "numbers": {}
+    },
+    "ev_INTC_20260707_news5": {
+      "id": "ev_INTC_20260707_news5",
+      "kind": "news",
+      "title": "Intel, Micron, SpaceX, Rivian, and More Stocks That Explain Today\u2019s Market",
+      "detail": "Reported by Yahoo. AI stocks fall with South Korean memory-chip maker Samsung Electronics setting the tone for the broader market.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e2334506189b80ac56fdbf4fc23f9e6b5aefc2a67f12f9de9d68a7c07a40d132",
+      "occurred_on": "2026-07-07",
+      "numbers": {}
+    },
+    "ev_INTC_20260707_news6": {
+      "id": "ev_INTC_20260707_news6",
+      "kind": "news",
+      "title": "Intel's $500 Billion Question: Where Are Foundry Proof Points?",
+      "detail": "Reported by Yahoo. Intel\u2019s (INTC) stock has climbed more than 5x over the past 12 months, moving from roughly $19 to a recent range near $120 currently. Intel has added close to $500 billion to its market cap - not a small number.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d196ba711e29af4a83ba95bc66de16fa0014d2f35b7c6d3ba2f3e7cec7c25e39",
+      "occurred_on": "2026-07-07",
+      "numbers": {}
+    },
+    "ev_INTC_20260707_news7": {
+      "id": "ev_INTC_20260707_news7",
+      "kind": "news",
+      "title": "Jim Cramer\u2019s Take: GEV, CAT, INTC Still Have Room \u2014 But Today Is A Punisher",
+      "detail": "Reported by Benzinga. &#34;Mad Money&#34; host Jim Cramer notes Tuesday&#39;s brutal rotation for INTC, GEV, CAT as uptrends remain intact long-term.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f3f9b00806f67d1ccbd7d5cb1c4ff919246724df2e4eb16834382985865b8891",
+      "occurred_on": "2026-07-07",
+      "numbers": {}
     },
     "ev_INTC_20260724_price": {
       "id": "ev_INTC_20260724_price",
@@ -3287,6 +4103,86 @@
       "occurred_on": "2026-07-23",
       "numbers": {}
     },
+    "ev_INTC_20260724_news0": {
+      "id": "ev_INTC_20260724_news0",
+      "kind": "news",
+      "title": "S&P 500, Dow, Nasdaq End Second Week Lower Over Elevated Oil Prices, Chipmaker Rout \u2014 PSKY, UBER, QCOM, VZ, INTC In Focus",
+      "detail": "Reported by Yahoo. Oil prices, however, eased on Friday amid hopes that Pakistan could help mediate talks between the U.S. and Iran.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9d39ef88fff0779779505f0099fb88676c495a3940dddf2d545be623974b8100",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260724_news1": {
+      "id": "ev_INTC_20260724_news1",
+      "kind": "news",
+      "title": "Stock Market Today, July 24: Intel Reverses Gains on Foundry and AI Spending Concerns",
+      "detail": "Reported by Yahoo. Today, July 24, 2026, shares fell almost 8% as strong premarket momentum evaporated as investors refocused on increasing capex plans.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9c74e2107dc40d86f2244222818bf07a996672de6caa99aecd496f8985f11d53",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260724_news2": {
+      "id": "ev_INTC_20260724_news2",
+      "kind": "news",
+      "title": "Intel Just Posted Its Fastest Revenue Growth in More Than 15 Years, but the Stock Is Falling. Here's What's Going On.",
+      "detail": "Reported by Yahoo. A 25% growth rate from a company that was barely growing a year ago. Investors took notice after hours. But then they changed their minds.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9bb003d8e7927cbf29ada2ab1fad8198a03da446a25aff7f32519175adf2b7f5",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260724_news3": {
+      "id": "ev_INTC_20260724_news3",
+      "kind": "news",
+      "title": "Top Research Reports for Intel, Dell & Progressive",
+      "detail": "Reported by Yahoo. Intel's AI infrastructure push, Dell's AI server boom and Progressive's premium growth highlight the latest top research reports and key opportunities.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=aa477c48974e2f0236534d33f165343be425d2f66f7253911d690884b8f6f176",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260724_news4": {
+      "id": "ev_INTC_20260724_news4",
+      "kind": "news",
+      "title": "Intel Beat Earnings by $1.7 Billion and Fell 11% as Cramer Turned Bullish",
+      "detail": "Reported by Yahoo. Intel beat forecasts by $1.7B and still lost 11%. Oil, rates, and chip selling explain it better. What has Jim Cramer got to do with it?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f17974741a96a51b75669930326b0b600e8ca0817afcac4c5521f4cee1c1ddca",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260724_news5": {
+      "id": "ev_INTC_20260724_news5",
+      "kind": "news",
+      "title": "INTC Stock Set To End Fifth Week Lower \u2014 Intel And Lens Technology Partner To Advance Semiconductor Packaging",
+      "detail": "Reported by Yahoo. Intel Corporation and Lens Technology have entered a strategic partnership to develop glass substrate-based semiconductor packaging.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cf49fd325354f4a4d69d85d90ef7b2f0809c28a5b31cdfb8039fb10888cbf693",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260724_news6": {
+      "id": "ev_INTC_20260724_news6",
+      "kind": "news",
+      "title": "Intel Wins Over Analysts, But Not Everyone Is Buying",
+      "detail": "Reported by Yahoo. Strong earnings revive optimism without ending long-term concerns",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=688b1a42efdee92d99edd1667846e8cbca11909b8f62d229e8711f6ca943d8c4",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
+    "ev_INTC_20260724_news7": {
+      "id": "ev_INTC_20260724_news7",
+      "kind": "news",
+      "title": "Why Did Intel Stock Drop Friday?",
+      "detail": "Reported by Yahoo. Intel had a terrific Q2. Why aren't investors happier about it?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=47257e57b38a2e25a4198bf1f2f1ac5d4ecdbaa96dfb4a8b4b16d42a41549136",
+      "occurred_on": "2026-07-24",
+      "numbers": {}
+    },
     "ev_INTC_20260921_price": {
       "id": "ev_INTC_20260921_price",
       "kind": "price",
@@ -3447,16 +4343,6 @@
     "ev_INTC_20260921_news0": {
       "id": "ev_INTC_20260921_news0",
       "kind": "news",
-      "title": "Trump, Xi Meet on S&P 500's Best Day Since Early August: Will Markets Stay Bullish?",
-      "detail": "Reported by Yahoo. Trump and Xi meet in Washington as the S&P 500 posts its best day since Aug. 4, driven by a rally in AI stocks.",
-      "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=6965103b0fad8640ba1f5676336f1fb3908796c357668417d195d3cb9c56d230",
-      "occurred_on": "2026-09-21",
-      "numbers": {}
-    },
-    "ev_INTC_20260921_news1": {
-      "id": "ev_INTC_20260921_news1",
-      "kind": "news",
       "title": "Meta Platforms, Greenland Mines, Intel, AMD and GameStop: Why These 5 Stocks Are on Investors' Radars Today",
       "detail": "Reported by Benzinga. META, GRML, INTC, AMD, GME were among the stocks seen trending on Monday, Sept. 21, 2026.",
       "source": "Benzinga (via Finnhub company news)",
@@ -3464,8 +4350,8 @@
       "occurred_on": "2026-09-21",
       "numbers": {}
     },
-    "ev_INTC_20260921_news2": {
-      "id": "ev_INTC_20260921_news2",
+    "ev_INTC_20260921_news1": {
+      "id": "ev_INTC_20260921_news1",
       "kind": "news",
       "title": "Dow Jones Futures: Falling Oil Prices, Yields Spark Market Rally; AMD, Intel, Micron, Nvidia, Sandisk Are Key Movers",
       "detail": "Reported by Yahoo. Dow Jones Futures: Falling oil prices and yields sparked a stock market rally. AMD, Intel, Micron, Nvidia and Sandisk are key movers.",
@@ -3474,18 +4360,8 @@
       "occurred_on": "2026-09-21",
       "numbers": {}
     },
-    "ev_INTC_20260921_news3": {
-      "id": "ev_INTC_20260921_news3",
-      "kind": "news",
-      "title": "Update: Communication Services, Tech Heavyweights Push US Equity Indexes Higher as Crude Oil Slides With Treasury Yields",
-      "detail": "Reported by Yahoo. (Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
-      "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=8c9d7afe8453a5109358537a6d992fe1cc1160596d21bd8c4ceeec4c4616f090",
-      "occurred_on": "2026-09-21",
-      "numbers": {}
-    },
-    "ev_INTC_20260921_news4": {
-      "id": "ev_INTC_20260921_news4",
+    "ev_INTC_20260921_news2": {
+      "id": "ev_INTC_20260921_news2",
       "kind": "news",
       "title": "Meta\u2019s Muse AI Agent Triggers Intel, Chip Stock Rally. AMD Hits $1T Market Cap.",
       "detail": "Reported by Yahoo. Intel,  Advanced Micro Devices  and  Arm Holdings  soared Monday as investors got excited about the potential growth of central-processing units.  The trigger looks to be the popularity of  Meta Platforms\u2019  Muse artificial-intelligence agent.  The rally pushed AMD to close with a market valuation above $1 trillion, making it the 14th U.S. company to reach that mark.",
@@ -3494,33 +4370,53 @@
       "occurred_on": "2026-09-21",
       "numbers": {}
     },
+    "ev_INTC_20260921_news3": {
+      "id": "ev_INTC_20260921_news3",
+      "kind": "news",
+      "title": "Intel's CEO Just Gave Micron Technology Investors Great News",
+      "detail": "Reported by Yahoo. Memory prices could continue to rise next year.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1dda7270cfc8bd93e3e9c4c195f17681dc9577e5fec7b4a70c4f4518b1f96881",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_INTC_20260921_news4": {
+      "id": "ev_INTC_20260921_news4",
+      "kind": "news",
+      "title": "Intel Stock Soars as AI Spending Fears Fade",
+      "detail": "Reported by Yahoo. Intel Jumps After Fresh AI Optimism Sparks Semiconductor Rally",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=39696fe534e8f1e298e67fc58e6197f64ac536a4c9fae5d9cbdd89208fa82a27",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
     "ev_INTC_20260921_news5": {
       "id": "ev_INTC_20260921_news5",
       "kind": "news",
-      "title": "Update: Nasdaq Composite Rallies to Record as AI Trade Lifts Chipmakers",
-      "detail": "Reported by Yahoo. (Updates with market moves at the end of the day, and other changes, if any.) The Nasdaq Composit",
+      "title": "Nvidia\u2019s AI CPU Push Threatens Intel and AMD",
+      "detail": "Reported by Yahoo. Meta's new AI agent rocketed to the top of the App Store in just ten days, and the computing resources it consumes behind the scenes reveal a quiet battle reshaping which semiconductor companies actually profit from the agentic AI boom.",
       "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=5b2444036bd7402a5e9562b33e49739d5298a8459744db05f669ae85c9e2e2c9",
+      "url": "https://finnhub.io/api/news?id=ea371383d1e4a887ec59164310a9ab39e004ba95222885b79c5c3fb31d83150a",
       "occurred_on": "2026-09-21",
       "numbers": {}
     },
     "ev_INTC_20260921_news6": {
       "id": "ev_INTC_20260921_news6",
       "kind": "news",
-      "title": "NVIDIA Or Micron: Which Gets Paid More Safely For The AI Shortage?",
-      "detail": "Reported by Yahoo. If you own NVIDIA (NVDA) or Micron Technology (MU), you own the same idea: AI data centers want more chips and memory than the industry can supply. The two split from there. NVIDIA is putting its own balance sheet behind some of its biggest buyers. Micron's buyers are posting cash deposits to secure its memory, so the money flows in opposite directions.",
+      "title": "Broadcom vs. Intel: Which Semiconductor Stock Is a Better Buy in 2026?",
+      "detail": "Reported by Yahoo. Broadcom's AI revenue roadmap is secured for years, backed by commitments from the world's tech giants. Intel's turnaround is making progress, but the foundry business still needs to prove it can win at commercial scale.",
       "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=ef3bfcf8c1c19773033f33386d60055f91601912d3a8bd7d6b25e6f17fac7f7a",
+      "url": "https://finnhub.io/api/news?id=9e3941c220cd1e05e8f3128e72dba98fa530770d6372dc7f4a0e10e0b65a93e2",
       "occurred_on": "2026-09-21",
       "numbers": {}
     },
     "ev_INTC_20260921_news7": {
       "id": "ev_INTC_20260921_news7",
       "kind": "news",
-      "title": "US Equity Markets Higher as Tech, Communication Stocks Rise Amid Drop in Government Bond Yields, Crude Oil Prices",
-      "detail": "Reported by Yahoo. US equity indexes were higher Monday as communication services and technology stocks rose after long",
+      "title": "AMD, Intel, Meta, Warner Bros., Moderna, Grail, Strategy, and More Stocks That Explain Today\u2019s Market",
+      "detail": "Reported by Yahoo. Advanced Micro Devices is on pace for its first record high since June 30, and a $1 trillion market cap.",
       "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=852a39d871c2877d482ceaeffd0ee727fd3562fbd3a591e2ba5e2e8db553a3b9",
+      "url": "https://finnhub.io/api/news?id=6fbcbb5a7e6ea682df56383563517132a922b15f4fba981055d207ca7cc46039",
       "occurred_on": "2026-09-21",
       "numbers": {}
     },
@@ -3630,16 +4526,19 @@
       }
     }
   },
-  "arc": "Between April and September 2026, Intel experienced sharp volatility driven by earnings reports and broader semiconductor sentiment, more than doubling from $52.91 to peaks above $133 before settling at $121.78. Strong upward momentum in late April was anchored by quarterly reporting, followed by a series of high-volume rallies in May and June that closely tracked movements in peers like AMD, ASML, and Qualcomm. A July contraction tied to second-quarter filings temporarily reversed these gains, but positive sentiment resurfaced in September as industry-wide demand drivers, including Meta's Muse AI agent, revitalized CPU interest across the chip sector.",
+  "arc": "Between April and September 2026, Intel experienced a major valuation re-rating driven by the dual catalysts of foundry contract wins and reviving CPU demand for artificial intelligence workloads. The stock's dramatic climb from $52.91 in early April to above $133 in mid-June was powered by commercial validation of Intel Foundry, highlighted by Elon Musk's Terafab initiative, preliminary manufacturing agreements with Apple, and a 3-million-unit TPU order from Alphabet. Although strong operational progress was affirmed by blowout Q1 and Q2 revenue beats, the summer brought volatility as sector-wide earnings jitters and investor anxiety over elevated foundry capital expenditures triggered sharp pullbacks in July. By late September, renewed enthusiasm around CPU utilization for agentic AI applications helped the stock recover back to $121.78, establishing Intel Foundry as a viable domestic alternative to TSMC while underscoring that heavy infrastructure investment remains a persistent source of sentiment swings.",
   "arc_citation_ids": [
     "ev_INTC_20260408_price",
-    "ev_INTC_20260424_price",
-    "ev_INTC_20260424_filing_000005086326000079",
+    "ev_INTC_20260408_news0",
+    "ev_INTC_20260424_news2",
+    "ev_INTC_20260508_news0",
+    "ev_INTC_20260608_news3",
     "ev_INTC_20260618_price",
-    "ev_INTC_20260724_price",
-    "ev_INTC_20260724_filing_000005086326000157",
+    "ev_INTC_20260707_news3",
+    "ev_INTC_20260724_news1",
+    "ev_INTC_20260724_news2",
     "ev_INTC_20260921_price",
-    "ev_INTC_20260921_news4"
+    "ev_INTC_20260921_news2"
   ],
   "warnings": []
 }

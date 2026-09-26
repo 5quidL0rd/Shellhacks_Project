@@ -1,6 +1,9 @@
 """Build a full Story for one symbol, end to end."""
 from __future__ import annotations
 
+import re
+from datetime import date, timedelta
+
 from ..cache import load, save
 from ..connections import connections
 from ..config import STORY_LOOKBACK_DAYS
@@ -16,19 +19,40 @@ def _story_key(symbol: str) -> str:
     return f"story_{symbol}"
 
 
-def news_for_move(move_date: str, finnhub_news: list[dict]) -> list[dict]:
-    """News evidence for one move date.
+def _mentions(company, text: str) -> bool:
+    names = [company.symbol, company.name.split(",")[0], *company.aliases]
+    return any(re.search(rf"\b{re.escape(n)}\b", text, re.IGNORECASE) for n in names if len(n) > 2)
 
-    Finnhub is the only news source. Its free tier returns roughly the last
-    three days regardless of the date range requested, so older moves get no
-    news here and are explained from price, peer and SEC filing evidence
-    instead - or reported as unexplained. Adding a historical news provider is
-    the single change that would most improve explanation quality; this
-    function is the seam for it.
+
+def rank_news(company, items: list[dict]) -> list[dict]:
+    """Articles that name the company in the headline first, then in the
+    summary, then the rest; newest first within each group. A two-day window
+    for a heavily covered stock holds ~250 articles, many of them market
+    roundups, and only the first few become evidence."""
+    def score(item: dict) -> int:
+        if _mentions(company, item["headline"]):
+            return 2
+        return 1 if _mentions(company, item.get("summary", "")) else 0
+    return sorted(items, key=lambda i: (score(i), i["published_at"]), reverse=True)
+
+
+def news_for_move(company, move_date: str, recent_news: list[dict]) -> list[dict]:
+    """News evidence for one move: the move day and the day before.
+
+    Finnhub's free tier caps each request at ~250 articles, so the single
+    recent-news request only reaches back a few days for heavily covered
+    stocks. A request for the move's own dates reaches older moves. If that
+    request fails, the move falls back to whatever recent news covers it.
     """
+    lo = (date.fromisoformat(move_date) - timedelta(days=1)).isoformat()
+    candidates = news.news_near(recent_news, move_date, window_days=1)
+    try:
+        candidates += news.news_between(company.symbol, lo, move_date)
+    except Exception:
+        pass
     seen_urls: set[str] = set()
     merged: list[dict] = []
-    for item in news.news_near(finnhub_news, move_date, window_days=1):
+    for item in rank_news(company, candidates):
         if item["url"] in seen_urls:
             continue
         seen_urls.add(item["url"])
@@ -86,7 +110,7 @@ def build_story(
     evidence_by_move = {
         move["date"]: ev.bundle_for_move(
             symbol, move,
-            news_for_move(move["date"], all_news),
+            news_for_move(company, move["date"], all_news),
             all_filings,
         )
         for move in moves

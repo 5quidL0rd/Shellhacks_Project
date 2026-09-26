@@ -13,7 +13,7 @@ Current scope: **13 companies** (listed in [data/companies.json](data/companies.
 | Area (plans.md) | Status | Notes |
 |---|---|---|
 | **Knowledge graph** for the Connection Map | Done for 13 companies | Built from SEC filings, loaded in Neo4j AuraDB and mirrored in Snowflake |
-| **Story Mode** (why each price move happened) | Done for all 13 companies | 153 explained moves, 752 citations, none broken; served by the API |
+| **Story Mode** (why each price move happened) | Done for all 13 companies | 153 explained moves, 113 at high confidence; every citation verified; served by the API |
 | **Snowflake** (sponsor track) | Connected and loaded | Graph, stories, prices, and news are in Snowflake |
 | **Backend API** (FastAPI) | Partly done | Story, universe, and graph endpoints work; feed and research are not started |
 | **Frontend** | Not started | |
@@ -142,15 +142,14 @@ Never commit `.env`, the private key, or any token.
 
 ### High priority (affects the demo)
 1. **Lock the company list (Step 1).** Pick the 30–50 companies and build the sample demo portfolio. Everything else scales from this list.
-2. **Improve Story Mode explanations.** 108 of 153 moves are low confidence because they have no news behind them. Finnhub's free tier caps each request at ~250 articles, and Story Mode makes one 180-day request, which for heavily covered companies only reaches back a few days. Requesting news for each move's own dates fixes this (tested: a past week of NVDA news returns ~250 articles from that week). The change is in `news_for_move()` in `backend/app/story/build.py`, then rebuild all stories. This is the biggest risk to the demo's "understand a recent drop" moment.
+2. **Tighten two Story Mode prompt rules** before the next rebuild. Explanations now have news behind them (low confidence fell from 108 to 7 of 153 moves), but Gemini sometimes rates "high" on thin evidence (TSMC's July 1 drop cites one general article), and sometimes calls a move "shared" when connected companies moved far less (AMD +9.95% vs peers around +2%).
 3. **Start the frontend.** App shell, portfolio entry, Connection Map (react-force-graph or Cytoscape.js), and Story Mode chart (TradingView Lightweight Charts), built against fake data first and then the real endpoints.
 4. **Build the What Changed feed.** Rank news by relevance: owned company, then connected company, then same sector. The `NEWS` and `GRAPH_EDGES` tables already hold what the ranking needs.
 
 ### Medium priority
 5. **Scale the knowledge graph to the full list.** For each company: add it to `data/companies.json`, run the three `kg` commands, hand-check the JSON, re-export, and reload Snowflake.
 6. **Fill `FUNDAMENTALS`** with revenue growth, profit margin, debt-to-equity, volatility, and market cap for the radar shape in Research a New Investment.
-7. **Tighten one prompt rule.** Gemini sometimes calls a move "shared across the sector" when connected companies moved far less (AMD +9.95% vs peers around +2%). Only call it shared when the moves are similar in size.
-8. **Decide on the Snowflake Cortex test.** Cortex could write Story Mode labels inside Snowflake, the strongest angle for the sponsor prize. The Snowflake owner is waiting for an explicit go-ahead since it uses credits.
+7. **Decide on the Snowflake Cortex test.** Cortex could write Story Mode labels inside Snowflake, the strongest angle for the sponsor prize. The Snowflake owner is waiting for an explicit go-ahead since it uses credits.
 
 ### Decisions the team still owes
 - **The two general-knowledge graph edges** (TSMC supplies Apple; Nvidia supplies Microsoft): keep them, clearly marked as manual, or show only what filings state.

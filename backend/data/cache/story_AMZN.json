@@ -1,7 +1,7 @@
 {
   "symbol": "AMZN",
   "company_name": "Amazon.com, Inc.",
-  "generated_at": "2026-09-26T12:33:06.874186+00:00",
+  "generated_at": "2026-09-26T12:52:07.109390+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,14 +1320,16 @@
       "pct_change": 3.806,
       "close": 249.02,
       "direction": "up",
-      "headline": "AMZN Rises 3.8% Alongside 8-K Filing",
-      "explanation": "Amazon gained 3.81% to close at $249.02 on 2.1x average volume on the day it filed a Form 8-K. The upward move was shared with competitor NVDA, which rose 3.80%, while competitor INTC fell 2.10%.",
-      "confidence": "medium",
+      "headline": "Amazon acquires Globalstar for $11.6B",
+      "explanation": "Amazon shares rose 3.81% to $249.02 on more than double their normal volume following an agreement to acquire satellite operator Globalstar for $11.6 billion to accelerate its direct-to-device internet and cloud services. The move was accompanied by competitor NVDA rising 3.80%, while competitor INTC dropped 2.10%. The acquisition will also support Apple's emergency satellite services.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AMZN_20260414_price",
-        "ev_AMZN_20260414_peer_INTC",
         "ev_AMZN_20260414_peer_NVDA",
-        "ev_AMZN_20260414_filing_000110465926042880"
+        "ev_AMZN_20260414_peer_INTC",
+        "ev_AMZN_20260414_news0",
+        "ev_AMZN_20260414_news1",
+        "ev_AMZN_20260414_news2"
       ]
     },
     {
@@ -1335,13 +1337,15 @@
       "pct_change": 3.493,
       "close": 263.99,
       "direction": "up",
-      "headline": "AMZN Advances 3.5% as Competitors Rally",
-      "explanation": "Amazon rose 3.49% to $263.99 on 1.6x average volume without company-specific news. The advance was shared with competitors INTC and NVDA, which jumped 23.60% and 4.32%, respectively.",
-      "confidence": "low",
+      "headline": "Shares gain 3.49% amid broad tech strength",
+      "explanation": "Amazon advanced 3.49% to $263.99 alongside strong gains in peer technology stocks, including competitors INTC (+23.60%) and NVDA (+4.32%). The advance was supported by the 27% Nasdaq debut pop of Amazon-backed nuclear energy firm X-Energy and an analyst price target increase to $285 ahead of upcoming earnings.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_AMZN_20260424_price",
         "ev_AMZN_20260424_peer_INTC",
-        "ev_AMZN_20260424_peer_NVDA"
+        "ev_AMZN_20260424_peer_NVDA",
+        "ev_AMZN_20260424_news0",
+        "ev_AMZN_20260424_news3"
       ]
     },
     {
@@ -1349,13 +1353,15 @@
       "pct_change": -3.466,
       "close": 261.26,
       "direction": "down",
-      "headline": "AMZN Falls 3.5% to $261.26",
-      "explanation": "Amazon fell 3.47% to close at $261.26 on 1.6x average volume with no company-specific news reported. The decline was shared with competitor INTC, which fell 4.67%, while competitor NVDA rose 6.26%.",
-      "confidence": "low",
+      "headline": "AMZN drops 3.47% on satellite delay and EU scrutiny",
+      "explanation": "Amazon fell 3.47% to $261.26 as reports revealed Blue Origin rocket testing setbacks that could delay Project Kuiper satellite deployments, alongside European Union proposals that could curb US cloud providers. Competitor INTC also declined, dropping 4.67%, whereas competitor NVDA climbed 6.26%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_AMZN_20260601_price",
         "ev_AMZN_20260601_peer_INTC",
-        "ev_AMZN_20260601_peer_NVDA"
+        "ev_AMZN_20260601_peer_NVDA",
+        "ev_AMZN_20260601_news3",
+        "ev_AMZN_20260601_news5"
       ]
     },
     {
@@ -1363,13 +1369,15 @@
       "pct_change": -3.058,
       "close": 246.03,
       "direction": "down",
-      "headline": "AMZN Drops 3.1% in Peer Semiconductor Pullback",
-      "explanation": "Amazon fell 3.06% to $246.03 on 1.6x average volume without any company-specific announcements. The retreat was shared with competitors INTC and NVDA, which dropped 11.28% and 6.20%, respectively.",
-      "confidence": "low",
+      "headline": "Shares drop 3.06% in tech pullback and cost concerns",
+      "explanation": "Amazon decreased 3.06% to $246.03, participating in a shared decline with competitors NVDA (-6.20%) and INTC (-11.28%). Company-specific headwinds included reports of rising shipping costs ahead of Prime Day and pushback from internal engineers over aggressive AI capital expenditures during ongoing job cuts.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_AMZN_20260605_price",
+        "ev_AMZN_20260605_peer_NVDA",
         "ev_AMZN_20260605_peer_INTC",
-        "ev_AMZN_20260605_peer_NVDA"
+        "ev_AMZN_20260605_news2",
+        "ev_AMZN_20260605_news7"
       ]
     },
     {
@@ -1377,13 +1385,15 @@
       "pct_change": -3.455,
       "close": 237.5,
       "direction": "down",
-      "headline": "AMZN Declines 3.5% to $237.50",
-      "explanation": "Amazon dropped 3.46% to $237.50 on 1.3x average volume in the absence of company news. Competitor NVDA also moved lower by 1.33%, whereas competitor INTC gained 3.46%.",
+      "headline": "AMZN falls 3.46% despite data center investment",
+      "explanation": "Amazon shares declined 3.46% to $237.50 on volume 1.3x the 30-day average. No negative company-specific news accompanied the move, which occurred despite positive announcements including a planned $10 billion data center campus in Missouri and a successful satellite launch. The move was company-specific, as competitor INTC rose 3.46% while competitor NVDA fell 1.33%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AMZN_20260617_price",
         "ev_AMZN_20260617_peer_INTC",
-        "ev_AMZN_20260617_peer_NVDA"
+        "ev_AMZN_20260617_peer_NVDA",
+        "ev_AMZN_20260617_news5",
+        "ev_AMZN_20260617_news6"
       ]
     },
     {
@@ -1391,13 +1401,15 @@
       "pct_change": -4.747,
       "close": 232.79,
       "direction": "down",
-      "headline": "AMZN Drops 4.7% on Elevated Volume",
-      "explanation": "Shares fell 4.75% to $232.79 on 2.0x average volume with no news released. Competitor NVDA also dipped 0.97%, while competitor INTC moved opposite, climbing 5.19%.",
-      "confidence": "low",
+      "headline": "Stock slides 4.75% as tech sells off before Prime Day",
+      "explanation": "Amazon lost 4.75% to close at $232.79 on double its normal trading volume amid a broad tech sell-off and media reports highlighting cautious consumer spending power heading into Prime Day. Competitor NVDA slipped 0.97%, while competitor INTC defied the trend with a 5.19% gain.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_AMZN_20260622_price",
+        "ev_AMZN_20260622_peer_NVDA",
         "ev_AMZN_20260622_peer_INTC",
-        "ev_AMZN_20260622_peer_NVDA"
+        "ev_AMZN_20260622_news0",
+        "ev_AMZN_20260622_news5"
       ]
     },
     {
@@ -1405,13 +1417,14 @@
       "pct_change": -3.099,
       "close": 227.01,
       "direction": "down",
-      "headline": "AMZN Slips 3.1% to $227.01",
-      "explanation": "Amazon fell 3.10% to $227.01 on 2.3x average volume with no company-specific evidence provided. Competitor NVDA also dropped 1.64%, while competitor INTC rose 0.93%.",
-      "confidence": "low",
+      "headline": "Shares slide 3.10% on hyperscaler weakness",
+      "explanation": "Amazon fell 3.10% to $227.01 on 2.28x its 30-day average volume as the stock broke beneath its 200-day moving average during a broader downturn for cloud hyperscalers. Competitor NVDA dropped 1.64%, while competitor INTC gained 0.93%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_AMZN_20260625_price",
+        "ev_AMZN_20260625_peer_NVDA",
         "ev_AMZN_20260625_peer_INTC",
-        "ev_AMZN_20260625_peer_NVDA"
+        "ev_AMZN_20260625_news4"
       ]
     },
     {
@@ -1419,13 +1432,15 @@
       "pct_change": 3.018,
       "close": 254.96,
       "direction": "up",
-      "headline": "AMZN Rebounds 3.0% to $254.96",
-      "explanation": "Amazon gained 3.02% to $254.96 on 1.3x average volume without new filings or news. The advance was company-specific, as competitor NVDA rose only 0.33% and competitor INTC fell 4.43%.",
-      "confidence": "low",
+      "headline": "Amazon adds 3.02% as CEO cites strong AI chip demand",
+      "explanation": "Amazon gained 3.02% to reach $254.96 after CEO Andy Jassy reported booming demand for its internal AI chips. The move was company-specific, taking place alongside a key leadership succession announcement at AWS, while competitor INTC fell 4.43% and competitor NVDA was relatively flat at +0.33%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AMZN_20260715_price",
+        "ev_AMZN_20260715_peer_NVDA",
         "ev_AMZN_20260715_peer_INTC",
-        "ev_AMZN_20260715_peer_NVDA"
+        "ev_AMZN_20260715_news4",
+        "ev_AMZN_20260715_news5"
       ]
     },
     {
@@ -1433,14 +1448,17 @@
       "pct_change": 3.905,
       "close": 235.5,
       "direction": "up",
-      "headline": "AMZN Rises 3.9% Ahead of Quarterly Report",
-      "explanation": "Amazon gained 3.90% to $235.50 on 3.0x average volume as it filed a Form 8-K. The rise was shared with competitors INTC and NVDA, which rose 11.30% and 2.65%, respectively.",
-      "confidence": "medium",
+      "headline": "AMZN rises 3.90% ahead of Q2 earnings beat",
+      "explanation": "Amazon rose 3.90% to $235.50 on 3.0x average volume, moving higher alongside competitors INTC (+11.30%) and NVDA (+2.65%). Following the market close, the company released Q2 revenue of $200.6 billion, up 20% year over year, with AWS cloud growth reaccelerating to 37% and both AI cloud and chip lines topping $25 billion run rates.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AMZN_20260730_price",
         "ev_AMZN_20260730_peer_INTC",
         "ev_AMZN_20260730_peer_NVDA",
-        "ev_AMZN_20260730_filing_000101872426000024"
+        "ev_AMZN_20260730_filing_000101872426000024",
+        "ev_AMZN_20260730_news1",
+        "ev_AMZN_20260730_news2",
+        "ev_AMZN_20260730_news3"
       ]
     },
     {
@@ -1448,15 +1466,17 @@
       "pct_change": 15.321,
       "close": 271.58,
       "direction": "up",
-      "headline": "AMZN Surges 15.3% Following 10-Q and 8-K",
-      "explanation": "Amazon surged 15.32% to $271.58 on 3.8x average volume following the submission of its Form 10-Q and Form 8-K filings. The gain was company-specific, as competitor NVDA rose 2.93% while competitor INTC fell 1.02%.",
+      "headline": "Stock surges 15.32% on blowout AWS growth",
+      "explanation": "Amazon surged 15.32% to $271.58 on 3.8x normal volume after its Q2 report soothed investor worries concerning hyperscaler capital expenditures. The company's 37% AWS expansion drove widespread analyst target hikes, contrasting sharply with competitor Apple's post-earnings drop, while competitor NVDA rose 2.93% and competitor INTC slipped 1.02%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AMZN_20260731_price",
-        "ev_AMZN_20260731_peer_INTC",
         "ev_AMZN_20260731_peer_NVDA",
+        "ev_AMZN_20260731_peer_INTC",
         "ev_AMZN_20260731_filing_000101872426000026",
-        "ev_AMZN_20260731_filing_000101872426000024"
+        "ev_AMZN_20260731_news0",
+        "ev_AMZN_20260731_news3",
+        "ev_AMZN_20260731_news5"
       ]
     },
     {
@@ -1464,13 +1484,15 @@
       "pct_change": 4.581,
       "close": 284.02,
       "direction": "up",
-      "headline": "AMZN Extends Surge by 4.6% to $284.02",
-      "explanation": "Amazon climbed 4.58% to $284.02 on 2.7x average volume in a continuation of post-filing momentum without new catalysts. Competitors also advanced, with NVDA up 2.93% and INTC up 0.89%.",
-      "confidence": "low",
+      "headline": "Amazon rises 4.58%, topping $3 trillion market cap",
+      "explanation": "Amazon gained another 4.58% to reach $284.02, pushing the company beyond a $3 trillion market valuation on 2.7x average volume. The rally followed continued post-earnings momentum across cloud hyperscalers, with competitors NVDA and INTC also recording advances of 2.93% and 0.89%, respectively.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AMZN_20260803_price",
+        "ev_AMZN_20260803_peer_NVDA",
         "ev_AMZN_20260803_peer_INTC",
-        "ev_AMZN_20260803_peer_NVDA"
+        "ev_AMZN_20260803_news1",
+        "ev_AMZN_20260803_news7"
       ]
     },
     {
@@ -1478,13 +1500,16 @@
       "pct_change": 3.969,
       "close": 266.43,
       "direction": "up",
-      "headline": "AMZN Climbs 4.0% Against Competitor Drops",
-      "explanation": "Amazon gained 3.97% to $266.43 on 1.4x average volume with no company-specific news. The advance was company-specific, contrasting with drops in competitors NVDA (-4.58%) and INTC (-2.85%).",
-      "confidence": "low",
+      "headline": "AMZN advances 3.97% on AWS AI and chip momentum",
+      "explanation": "Amazon gained 3.97% to close at $266.43 on 1.45x average volume. The move was company-specific, as chip competitors NVDA (-4.58%) and INTC (-2.85%) declined sharply. Trading was supported by positive analyst commentary emphasizing Amazon's proprietary custom silicon initiatives and long-term AWS revenue momentum.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_AMZN_20260828_price",
+        "ev_AMZN_20260828_peer_NVDA",
         "ev_AMZN_20260828_peer_INTC",
-        "ev_AMZN_20260828_peer_NVDA"
+        "ev_AMZN_20260828_news0",
+        "ev_AMZN_20260828_news3",
+        "ev_AMZN_20260828_news4"
       ]
     }
   ],
@@ -1544,6 +1569,86 @@
       "occurred_on": "2026-04-14",
       "numbers": {}
     },
+    "ev_AMZN_20260414_news0": {
+      "id": "ev_AMZN_20260414_news0",
+      "kind": "news",
+      "title": "Amazon-Globalstar Deal Is Poised to Boost Apple\u2019s Satellite Ambitions",
+      "detail": "Reported by Yahoo. (Bloomberg) -- Amazon.com Inc.\u2019s takeover of Globalstar Inc. is poised to benefit one of the company\u2019s biggest rivals in hardware devices: Apple Inc.The $11.6 billion deal, announced Tuesday, will provide Amazon with a network of satellites \u2014 jump-starting a push to offer internet service directly to devices. The online retailer also pledged to start supporting Apple\u2019s emergency messaging service with its Leo satellite system, filling a role currently held by Globalstar. If the deal goes through",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d87d551bbe1530907f9265c429c4bfb6806cb1e946214bbc5a7942101e9d7519",
+      "occurred_on": "2026-04-14",
+      "numbers": {}
+    },
+    "ev_AMZN_20260414_news1": {
+      "id": "ev_AMZN_20260414_news1",
+      "kind": "news",
+      "title": "Stock Market Today, April 14: Amazon Rises After $11.6 Billion Globalstar Deal Fuels Satellite Internet Ambitions",
+      "detail": "Reported by Yahoo. With a SpaceX IPO pending, Amazon's Globalstar move spotlights its push to fuse satellite connectivity with AI-powered cloud services, today, April 14, 2026.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1ad98bab07e198c2bfeb914c8e95961a139301f2c1c025f6c9b942e88d412e28",
+      "occurred_on": "2026-04-14",
+      "numbers": {}
+    },
+    "ev_AMZN_20260414_news2": {
+      "id": "ev_AMZN_20260414_news2",
+      "kind": "news",
+      "title": "Amazon Buys Globalstar for $11.6 Billion to Take On Starlink",
+      "detail": "Reported by Yahoo. The Bezos-Musk space war just got a new front, and Apple might want to start paying attention",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c4537422b90eae7a99fc48b76f6f8fa136dc86066aef54c2dc1a1e0a3aac6096",
+      "occurred_on": "2026-04-14",
+      "numbers": {}
+    },
+    "ev_AMZN_20260414_news3": {
+      "id": "ev_AMZN_20260414_news3",
+      "kind": "news",
+      "title": "Amazon Faces Tough Questions After Worker Death",
+      "detail": "Reported by Yahoo. Safety concerns resurface after incident",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6ea7e4862dba23b771616ed599407d56142072958490ea8ebd7062a02ec7675b",
+      "occurred_on": "2026-04-14",
+      "numbers": {}
+    },
+    "ev_AMZN_20260414_news4": {
+      "id": "ev_AMZN_20260414_news4",
+      "kind": "news",
+      "title": "Amazon (AMZN) Stock Is Up, What You Need To Know",
+      "detail": "Reported by Yahoo. Shares of cloud computing and online retail behemoth Amazon (NASDAQ:AMZN) jumped 3.6% in the afternoon session after the company announced it agreed to acquire satellite service provider Globalstar.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0f38f0f9685fd7bff3043e3910f280aaecd63b5d3a5c4ba81c867bd91469085d",
+      "occurred_on": "2026-04-14",
+      "numbers": {}
+    },
+    "ev_AMZN_20260414_news5": {
+      "id": "ev_AMZN_20260414_news5",
+      "kind": "news",
+      "title": "Dow Jones E-Commerce Giant Amazon, Alphabet Eye New Buy Points",
+      "detail": "Reported by Yahoo. Dow Jones retail giant Amazon and Alphabet are approaching new buy points as the stock market continues to rally.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=73042079f0a85a4acc6af5affca3be369a45c641bf587053c7e09b261e1322a2",
+      "occurred_on": "2026-04-14",
+      "numbers": {}
+    },
+    "ev_AMZN_20260414_news6": {
+      "id": "ev_AMZN_20260414_news6",
+      "kind": "news",
+      "title": "Amazon Stock Pops on Double Satellite Win",
+      "detail": "Reported by Yahoo. Amazon Agrees to Buy Globalstar, Expands Apple Satellite Tie-Up",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d304da2e6cc546d4f3ef90fbe3009aec97e2cb5babddff8c6f320a41fb6fdfea",
+      "occurred_on": "2026-04-14",
+      "numbers": {}
+    },
+    "ev_AMZN_20260414_news7": {
+      "id": "ev_AMZN_20260414_news7",
+      "kind": "news",
+      "title": "Why Amazon Stock Just Popped",
+      "detail": "Reported by Yahoo. Investors love the idea of Amazon powering Apple's DTC iPhones.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6fa5407d4c92b1896d86f50465b65ec5e6cc6dc398c6b35984fd5bbc285184c7",
+      "occurred_on": "2026-04-14",
+      "numbers": {}
+    },
     "ev_AMZN_20260424_price": {
       "id": "ev_AMZN_20260424_price",
       "kind": "price",
@@ -1588,6 +1693,86 @@
         "subject_pct_change": 3.493,
         "relationship": "competitor"
       }
+    },
+    "ev_AMZN_20260424_news0": {
+      "id": "ev_AMZN_20260424_news0",
+      "kind": "news",
+      "title": "Amazon-backed X-Energy surges 27% in Nasdaq debut",
+      "detail": "Reported by Yahoo. Shares of X-Energy, a nuclear energy company, closed their first day of trading at $29.20, 27% above the IPO share price of $23. X-Energy is the first major advanced nuclear developer to reach public markets via a traditional IPO. The company\u2019s path to its Friday debut on the Nasdaq included a SPAC merger agreement with an Ares-backed blank-check firm that was not consummated. The company, which develops nuclear reactors and new nuclear cooling technologies, raised $1.02 billion in proceeds from",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=35fb04dc2ef33415b0fac4191ad711beb53dd5422c52f067790e20a7a6c84eff",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMZN_20260424_news1": {
+      "id": "ev_AMZN_20260424_news1",
+      "kind": "news",
+      "title": "Dow Jones Futures: Apple, Amazon, Google Lead Earnings Wave For AI-Led Stock Market",
+      "detail": "Reported by Yahoo. The stock market is at highs but results and spending plans for Apple, Amazon, Google and more will be key for the AI-led rally",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c9d21eb957c793049697fc8e6c67ff6c0fafdc7040780d576bd69dd3071b9870",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMZN_20260424_news2": {
+      "id": "ev_AMZN_20260424_news2",
+      "kind": "news",
+      "title": "Amazon loses $150M after drones hit its data centers \u2014 and insurance won\u2019t cover their losses. What it means for you",
+      "detail": "Reported by Yahoo. As cloud infrastructure becomes critical to everyday life, tensions as far away as Bahrain and the United Arab Emirates could ripple into higher costs and weaker protections for consumers.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cf6fac86fc976af672b5604880c8fa6de041b06dcc162d6e18c6e0305ad8e818",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMZN_20260424_news3": {
+      "id": "ev_AMZN_20260424_news3",
+      "kind": "news",
+      "title": "Truist is Bullish on Amazon.com, Inc. (AMZN)",
+      "detail": "Reported by Yahoo. Amazon.com, Inc. (NASDAQ:AMZN) is one of the 10 Best Performing Dow Stocks So Far in 2026. On April 17, 2026, Truist lifted its target price for Amazon.com, Inc. (NASDAQ:AMZN) to $285 from $280. The analysts kept their Buy rating before Q1 earnings. Truist expects its AWS business to grow faster than the expansion in e-commerce [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f3fc8f2e00ed2ba4b4e0c7afe9b7b3ce8b0013762399acfbaa334a03e45dd261",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMZN_20260424_news4": {
+      "id": "ev_AMZN_20260424_news4",
+      "kind": "news",
+      "title": "Options Action: Bullish bets on Amazon",
+      "detail": "Reported by CNBC. 'Fast Money' trader Mike Khouw talks the options moves around Amazon.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ee1b042332f2ee1a2f49f554c557d59388eb0de5f95916f723329b6155e1a8a6",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMZN_20260424_news5": {
+      "id": "ev_AMZN_20260424_news5",
+      "kind": "news",
+      "title": "Amazon Reports Earnings on Wednesday\u2014Here's How Much the Stock Is Expected to Move",
+      "detail": "Reported by Yahoo. Amazon is set to report earnings after the closing bell on Wednesday, with the stock seen potentially rallying to new record highs following the report.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cbbab7e46599465d81955d1aa30c48331e7272dccff3cacb145e2dff2138834a",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMZN_20260424_news6": {
+      "id": "ev_AMZN_20260424_news6",
+      "kind": "news",
+      "title": "Amazon and Anthropic Struck a New $5 Billion Deal, but Which Company Gains the Most from Their Partnership?",
+      "detail": "Reported by Yahoo. One has a more immediate need while the other can play the long game.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=86f3a223fa1ad524b0b4cbf7b291959fa08e64a83e7c8aa0af60dd07faa29873",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMZN_20260424_news7": {
+      "id": "ev_AMZN_20260424_news7",
+      "kind": "news",
+      "title": "Amazon's Unconventional Path to Profitability: What It Meant for Shareholders",
+      "detail": "Reported by Yahoo. The company did not focus on GAAP profitability to the delight of long-term shareholders.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f4f7b3c4596cfceebbef93ecd83d1808157bcefd93d5c700cf62d66b1c58809c",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
     },
     "ev_AMZN_20260601_price": {
       "id": "ev_AMZN_20260601_price",
@@ -1634,6 +1819,86 @@
         "relationship": "competitor"
       }
     },
+    "ev_AMZN_20260601_news0": {
+      "id": "ev_AMZN_20260601_news0",
+      "kind": "news",
+      "title": "Mediator finds Amazon caused first-contract impasse at YVR2, recommends binding path to agreement",
+      "detail": "Reported by Yahoo. An independent mediator has found that Amazon was responsible for the breakdown of first-contract bargaining at YVR2, its only unionized fulfillment centre in British Columbia. The mediator sided with the union and recommended the dispute be resolved through binding mediation-arbitration.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d47faa5bd99cc15f106b541b57d13ac350dccfca0e4403e3aa352c7cdf607b7f",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_AMZN_20260601_news1": {
+      "id": "ev_AMZN_20260601_news1",
+      "kind": "news",
+      "title": "Amazon (AMZN) Ranks Among Stocks Most Bought by Hedge Funds in Q1 2026",
+      "detail": "Reported by Yahoo. Amazon.com, Inc. (NASDAQ:AMZN) is one of the 12 Stocks Most Bought by Hedge Funds in Q1 2026. On May 27, UBS reiterated its Buy rating on Amazon.com, Inc. (NASDAQ:AMZN) with a price target of $333. The research firm updated its methodology for estimating AWS segment revenue after previously overestimating its Q1 2026 forecast. UBS now [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3132f918e7e34eec310fa7dbcf5a02bb6eefc01c671c338c02729fc0335f688a",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_AMZN_20260601_news2": {
+      "id": "ev_AMZN_20260601_news2",
+      "kind": "news",
+      "title": "Amazon.com, Inc. (AMZN): The Best Stock in the Jeff Bezos Stock Portfolio",
+      "detail": "Reported by Yahoo. We just covered the Jeff Bezos Stock Portfolio: Top 10 Stock Picks and Amazon.com, Inc. (NASDAQ:AMZN) ranks 1st on this list. Jeff Bezos\u2019s relationship with Amazon.com, Inc. (NASDAQ:AMZN) is foundational; he is the architect, founder, and long-time cultural leader of the global e-commerce and cloud computing titan. Bezos started the company in 1994 as an [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0b08f7c4090df119398e6b5ad833e5b55256c22bbe8607323b254b74b81df0a3",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_AMZN_20260601_news3": {
+      "id": "ev_AMZN_20260601_news3",
+      "kind": "news",
+      "title": "Market Chatter: Amazon, Microsoft, Google May Face Curbs Under EU Cloud Proposal",
+      "detail": "Reported by Yahoo. Amazon.com (AMZN), Microsoft (MSFT) and Alphabet's (GOOG, GOOGL) Google may be excluded from critica",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ed4845d6e657ef99ebc3bbbf7328366a3aebed14efadd2accfd3ddeafb7858f9",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_AMZN_20260601_news4": {
+      "id": "ev_AMZN_20260601_news4",
+      "kind": "news",
+      "title": "Amazon\u2019s satellite internet project seen as significant revenue opportunity by Bank of America",
+      "detail": "Reported by Yahoo. Amazon.com Inc (NASDAQ:AMZN)\u2019s low Earth orbit (LEO) satellite initiative is approaching a key operational milestone as deployment activity accelerates and commercial service moves closer to launch, according to research from Bank of America. The firm wrote that Amazon\u2019s satellite project is...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=70126005bd7d578cc5e239642bbd4e172fdf83f9b0e1f3f235c18a7bcf51397f",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_AMZN_20260601_news5": {
+      "id": "ev_AMZN_20260601_news5",
+      "kind": "news",
+      "title": "Blue Origin Setback Tests Amazon Kuiper Ambitions And Airline Connectivity Plans",
+      "detail": "Reported by Yahoo. Blue Origin's New Glenn rocket recently exploded during testing, creating new delays for Amazon.com's Project Kuiper satellite rollout. The setback raises questions about the pace and reliability of Amazon's satellite deployments compared with competitors in global broadband. At the same time, Amazon's satellite broadband unit, Amazon Leo, has secured key airline deals, including Delta Air Lines choosing it for in flight Wi Fi over SpaceX's Starlink. For investors watching NasdaqGS:AMZN at...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=48fe43aee0496d252c389c321d583340c969bbe17cdd9eed306763ed2b3816d4",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_AMZN_20260601_news6": {
+      "id": "ev_AMZN_20260601_news6",
+      "kind": "news",
+      "title": "BlockchAIn Appoints Former Vantage / HP Data Center Leader Nicholas Ukachi to Join Amazon Veteran-Led Team Advancing AI Data Center Construction Execution",
+      "detail": "Reported by Yahoo. Ukachi Joins Construction Team Led by Amazon Veteran, Bringing Over 16 Years of Data Center Project Management Experience - Including Hyperscale Programs at Vantage Data Centers and Enterprise Builds at HP Appointment Supports 9-to-12-Month AI Data Center Delivery Timeline as BlockchAIn Builds Toward Market Re-Rating NEW YORK, June 01, 2026 (GLOBE NEWSWIRE) -- BlockchAIn Digital Infrastructure, Inc. (NYSE American: AIB) (\u201cBlockchAIn\u201d or the \u201cCompany\u201d), a developer and operator of digital infrast",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4d7ce92e50001e027f1d352002e1cdc2ea839f98b7f512e22f0c5ab196f906e6",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_AMZN_20260601_news7": {
+      "id": "ev_AMZN_20260601_news7",
+      "kind": "news",
+      "title": "Meta, Alphabet, Amazon, and Microsoft are getting hooked on debt to fuel AI boom",
+      "detail": "Reported by Yahoo. Debt is becoming a big tool in the Big Tech arsenal.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5b6578e5c00acd5276ebc966b3ae007ab46b1a1d6b5bccc0d906e9cc2a2217df",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
     "ev_AMZN_20260605_price": {
       "id": "ev_AMZN_20260605_price",
       "kind": "price",
@@ -1678,6 +1943,86 @@
         "subject_pct_change": -3.058,
         "relationship": "competitor"
       }
+    },
+    "ev_AMZN_20260605_news0": {
+      "id": "ev_AMZN_20260605_news0",
+      "kind": "news",
+      "title": "Amazon (AMZN) Falls More Steeply Than Broader Market: What Investors Need to Know",
+      "detail": "Reported by Yahoo. The latest trading day saw Amazon (AMZN) settling at $246.03, representing a -3.06% change from its previous close.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=00f67f82b2aa50bb865725a278ac41e1dcb2308faa9fe164b280ee647fda195b",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_AMZN_20260605_news1": {
+      "id": "ev_AMZN_20260605_news1",
+      "kind": "news",
+      "title": "Good News for NVIDIA, Amazon, and Micron Investors: New Research Shows Trillion-Dollar Stocks May 10X",
+      "detail": "Reported by Yahoo. The All-In podcast (hosts Chamath Palihapitiya, Jason Calacanis, David Sacks, and David Friedberg) recently hosted Coatue\u2019s Thomas Laffont, surfacing an idea they called the \u201c10X paradox.\u201d The takeaway carries direct implications for shareholders of NVIDIA (NASDAQ:NVDA), Amazon (NASDAQ:AMZN), and Micron Technology (NASDAQ:MU). The thesis defies the law of large numbers. Companies like NVIDIA that have ... Good News for NVIDIA, Amazon, and Micron Investors: New Research Shows Trillion-Dollar Stoc",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b56526e95debaada3edfcb8eaf6620a1ad9c95ac5e116d9a80c4446fead32afa",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_AMZN_20260605_news2": {
+      "id": "ev_AMZN_20260605_news2",
+      "kind": "news",
+      "title": "Iran war raises shipping costs ahead of Amazon Prime Day, complicating the summer sales event",
+      "detail": "Reported by Yahoo. Amazon is facing rising costs to ship goods around the world as the company moves Prime Day up to June.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c74dc56789efc994279fdd22b316a58a0124ea8ca819ae9a084776fe094df335",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_AMZN_20260605_news3": {
+      "id": "ev_AMZN_20260605_news3",
+      "kind": "news",
+      "title": "Amazon, Microsoft employees demand urgent answers from big tech",
+      "detail": "Reported by Yahoo. The four largest technology companies in the world are collectively making approximately $725 billion on capital expenditures in 2026, the overwhelming majority on AI infrastructure. In the same period, those same companies have laid off tens of thousands of workers. Meta's CEO told staff directly ...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9a9082e1b3824e63704c6ed76581bbe65c4eb236e83660fef5870295483c9ef9",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_AMZN_20260605_news4": {
+      "id": "ev_AMZN_20260605_news4",
+      "kind": "news",
+      "title": "Billionaire Investor Bill Ackman: Buying Microsoft, Meta, and Amazon Today Could Be Like Adding Buffett\u2019s Berkshire Hathaway 25 Years Ago",
+      "detail": "Reported by Yahoo. Billionaire investor Bill Ackman of Pershing Square has laid out one of the more provocative big-cap calls of this AI cycle. On the All-In Podcast, he argued that today\u2019s mega-cap incumbents are being treated the way the market treated Warren Buffett\u2019s empire, Berkshire Hathaway, at the peak of the dot-com bubble: as yesterday\u2019s story while ... Billionaire Investor Bill Ackman: Buying Microsoft, Meta, and Amazon Today Could Be Like Adding Buffett\u2019s Berkshire Hathaway 25 Years Ago",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b53d2c2599d59cdafbc6511efe72e4e98652b0eea119474ee4dcdb69ed43f8cd",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_AMZN_20260605_news5": {
+      "id": "ev_AMZN_20260605_news5",
+      "kind": "news",
+      "title": "Top Midday Stories: Lululemon Down After Fiscal Q1 Results; Amazon Engineers Criticize AI Spending; Hoffman to Exit Microsoft Board",
+      "detail": "Reported by Yahoo. All three major US stock indexes were down late Friday morning following a better-than-expected May",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7f48e71b216b162771c9ece94c9f704736181c28ac4101e2d2782283227c290d",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_AMZN_20260605_news6": {
+      "id": "ev_AMZN_20260605_news6",
+      "kind": "news",
+      "title": "Best Media Spend Strategies for Amazon Prime Day",
+      "detail": "Reported by Yahoo. Measured's latest report looks at what is most effective for driving conversions this year.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=07765e71971ea9569c901d9b71baa312e0c13984c9a14f91c9346f1305f23dff",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_AMZN_20260605_news7": {
+      "id": "ev_AMZN_20260605_news7",
+      "kind": "news",
+      "title": "Update: Market Chatter: Amazon Engineers Criticize Corporate Spending on AI While Cutting Jobs",
+      "detail": "Reported by Yahoo. (Updates with Amazon's response in the fourth paragraph.) Amazon (AMZN) software engineers suppor",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f66330fd484b31bd5d14dbcd59811949f388054d19081dbb7600acf5ca530375",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
     },
     "ev_AMZN_20260617_price": {
       "id": "ev_AMZN_20260617_price",
@@ -1724,6 +2069,86 @@
         "relationship": "competitor"
       }
     },
+    "ev_AMZN_20260617_news0": {
+      "id": "ev_AMZN_20260617_news0",
+      "kind": "news",
+      "title": "Why Amazon (AMZN) Dipped More Than Broader Market Today",
+      "detail": "Reported by Yahoo. Amazon (AMZN) closed at $237.5 in the latest trading session, marking a -3.46% move from the prior day.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0e4e89ca3437f0367060ab0cb8761f06493c702873bae99e1e28b0f08e7b1f26",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AMZN_20260617_news1": {
+      "id": "ev_AMZN_20260617_news1",
+      "kind": "news",
+      "title": "SpaceX Is Now Worth More Than Amazon. Here's My Prediction For What Comes Next.",
+      "detail": "Reported by Yahoo. The space IPO is quickly climbing the ranks of the world's top market caps.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8d23abd667c708b3ac5fc1e06a70dce3624af911b2aeaf7278d54100c8f5cc36",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AMZN_20260617_news2": {
+      "id": "ev_AMZN_20260617_news2",
+      "kind": "news",
+      "title": "Allbirds rebrands as Smartbird in AI pivot, hires Amazon alum as CEO",
+      "detail": "Reported by Yahoo. STORY: Another AI company is off and running... and, this time, it's coming from former sneaker brand Allbirds.Allbirds on Wednesday officially changed its name to Smartbird, cementing its months-long transformation from shoe maker to AI infrastructure firm and sending its shares up as much as 75%.:: ArchiveThe move comes after the company in April said it was shifting its focus to offer cloud computing capacity and AI services, leading to a more than five-fold jump in its shares.\u00a0The newly-named Smartbird on Wednesday also announced the appointment of former Amazon executive Nadia Carlsten as",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=00ac0f18029cd5cfcc5018d898d7b524b9291717b61dc16277da84fba6fc4820",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AMZN_20260617_news3": {
+      "id": "ev_AMZN_20260617_news3",
+      "kind": "news",
+      "title": "World model maker Odyssey nabs $1.45B valuation backed by Amazon and other big names",
+      "detail": "Reported by Yahoo. World models are the next big thing in AI beyond LLMs and, with this round, Odyssey has cemented itself as one of the startups to watch.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2bec32ad9421470b6269ac15a8859f3085b443f1c37b3b4a2eb74513bfdee0fd",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AMZN_20260617_news4": {
+      "id": "ev_AMZN_20260617_news4",
+      "kind": "news",
+      "title": "If You Invested $1000 In Amazon.com Stock 20 Years Ago, You Would Have This Much Today",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2bf21c2227a6988c354db15850feda9bbe629170eedf53f19dc780e1f28a4ecf",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AMZN_20260617_news5": {
+      "id": "ev_AMZN_20260617_news5",
+      "kind": "news",
+      "title": "Amazon plans $10B Missouri data center campus",
+      "detail": "Reported by Yahoo. In addition to the construction of the facility, the tech giant will improve nearby roads and water infrastructure in the state.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f7d8537439336b8573d385beef84f55888f05071c645575cca909616369b34fb",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AMZN_20260617_news6": {
+      "id": "ev_AMZN_20260617_news6",
+      "kind": "news",
+      "title": "The New Ariane 6 with 4 P160C Boosters Successfully Launches Amazon LEO Satellites",
+      "detail": "Reported by Yahoo. COLLEFERRO, IT / ACCESS Newswire / June 17, 2026 / Avio's new P160C solid rocket boosters successfully powered Ariane 6 flight VA269, enabling the launcher to deploy 36 Amazon Leo satellites into low Earth orbit and marking a major step forward in ...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f7abc73eb6e3b940d94c4408df36b0f60f3e357c426ebfbece93654d5c5cb14d",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AMZN_20260617_news7": {
+      "id": "ev_AMZN_20260617_news7",
+      "kind": "news",
+      "title": "CrowdStrike Advances AI and Cloud Security Operations on AWS",
+      "detail": "Reported by Yahoo. AUSTIN, Texas & NEW YORK, June 17, 2026--AWS Summit New York -- CrowdStrike (NASDAQ: CRWD), in collaboration with Amazon Web Services (AWS), today announced new AI, cloud, and Next-Gen SIEM innovations that help organizations securely build, deploy, and operate AI applications and cloud workloads on AWS.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a4ceb16298ae67a9d7ea5d1275145e278ec6decfd6add73d0d8c0643763ffa52",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
     "ev_AMZN_20260622_price": {
       "id": "ev_AMZN_20260622_price",
       "kind": "price",
@@ -1768,6 +2193,86 @@
         "subject_pct_change": -4.747,
         "relationship": "competitor"
       }
+    },
+    "ev_AMZN_20260622_news0": {
+      "id": "ev_AMZN_20260622_news0",
+      "kind": "news",
+      "title": "Dow Jones Futures: Tech Stocks Tumble As SpaceX Plunges; Amazon, Alphabet, Nvidia Sell Off",
+      "detail": "Reported by Yahoo. Dow Jones Futures: The tech-heavy Nasdaq composite sold off Monday as SpaceX stock plunged. Amazon, Alphabet and Nvidia logged heavy losses.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1ed29dddf604cdae46d801701ecd45101459d1bb7f8061d058b2a14dd327f982",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AMZN_20260622_news1": {
+      "id": "ev_AMZN_20260622_news1",
+      "kind": "news",
+      "title": "Amazon (AMZN) Teams Up With ArcelorMittal To Bring AI Into Steel Plants",
+      "detail": "Reported by Yahoo. Amazon Web Services and ArcelorMittal have agreed to work together on AI and cloud-powered automation across global steel plants. The collaboration targets safety, energy efficiency, and asset reliability in heavy industrial operations. The announcement adds a large industrial partner to Amazon Web Services, extending its reach beyond traditional IT customers. Amazon.com, traded as NasdaqGS:AMZN, is adding this industrial automation push on top of a long track record in cloud computing and...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9f42b1425aa1bbf9a4defdb36e55264c3cddecfc3e8fdd209ac82edabc23ed64",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AMZN_20260622_news2": {
+      "id": "ev_AMZN_20260622_news2",
+      "kind": "news",
+      "title": "Amazon Prime Day to spark online spending frenzy as Walmart, Target lean into deal days",
+      "detail": "Reported by Yahoo. Amazon Prime Days kick off on Tuesday. Walmart, Target, and Best Buy are competing for a piece of the pie.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d6202cf2db1f1c88baebf4bcf6c016e9ce1b72ff89fc46e96b3f5316e0ff93cc",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AMZN_20260622_news3": {
+      "id": "ev_AMZN_20260622_news3",
+      "kind": "news",
+      "title": "Prime Day Could Generate $15.7 Billion as Amazon Targets 60.3% Share",
+      "detail": "Reported by Yahoo. eMarketer forecasts Amazon's four-day event could deliver $15.7 billion in US sales and its highest share since 2019.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fcf82983ff11a13ea2e27b927dbb4d55d85690c6fc30739205559d64145ebf2c",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AMZN_20260622_news4": {
+      "id": "ev_AMZN_20260622_news4",
+      "kind": "news",
+      "title": "Where Will Amazon Stock Be In 2 Years?",
+      "detail": "Reported by Yahoo. Amazon (NASDAQ:AMZN) just posted a blowout quarter Q1 2026 EPS of $2.78 beat consensus by 60.69%, AWS reaccelerated to 28% growth, the fastest in 15 quarters, and chips business crossed a $20 billion annual run rate growing triple digits. Yet shares trade at $244.39, flat for the year. Can this stock reach $400 by 2028, ... Where Will Amazon Stock Be In 2 Years?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6338c2a40477b71bfd41554b67328a999c19a03d30b24ebfc90d8feaafafa32d",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AMZN_20260622_news5": {
+      "id": "ev_AMZN_20260622_news5",
+      "kind": "news",
+      "title": "Amazon Prime Day to gauge US consumer strain as focus shifts to basics",
+      "detail": "Reported by Yahoo. STORY: This week's Amazon Prime Day - which is actually a four-day shopping blitz - will be a litmus test for the spending power of American consumers, who have been squeezed by elevated inflation driven by high gas prices.:: Amazon.comWith that in mind, what shoppers buy will be just as important as how much they spend.This year, Amazon is featuring deals on groceries, household goods, travel and school items over carefree splurges on bigger-ticket items.Or, as the CEO of small business lender Cardiff put it, quote, \"People just don't have the cash right now. Prime Day isn't going to be about",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d80a732755aad9cd2ab21ce03fa14fc1a9320c520fc696496b569eeade7f4241",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AMZN_20260622_news6": {
+      "id": "ev_AMZN_20260622_news6",
+      "kind": "news",
+      "title": "Prime Day Is Almost Here. It\u2019s a Test of Amazon\u2019s AI Strategy.",
+      "detail": "Reported by Yahoo. Amazon.com\u2019s  upcoming Prime Day will be a litmus test for the kind of boost agentic shopping tools can have on the e-commerce company moving forward.  Prime Day is a sales event for  Amazon  Prime members.  This year, Prime Day will run from June 23 to June 26, giving members four days to check out deals on a laundry list of items, including clothes, electronics, beauty products, and more.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ff42e5d9c3df69c721388813b130ac2b5acc6771e0956ecd6a6ee9bd12a9449d",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AMZN_20260622_news7": {
+      "id": "ev_AMZN_20260622_news7",
+      "kind": "news",
+      "title": "Amazon Ditches Movie About OpenAI Firing Sam Altman: \u2018Better Served If It Were Released By A Different Studio\u2019",
+      "detail": "Reported by Benzinga. A film about Sam Altman and OpenAI is now looking for a new partner as Amazon moves on.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8734b75dab43b0deadd9faa11ac1cad5a4092ee1094b9fc3b518c54b11322ac3",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
     },
     "ev_AMZN_20260625_price": {
       "id": "ev_AMZN_20260625_price",
@@ -1814,6 +2319,86 @@
         "relationship": "competitor"
       }
     },
+    "ev_AMZN_20260625_news0": {
+      "id": "ev_AMZN_20260625_news0",
+      "kind": "news",
+      "title": "Amazon (AMZN) Suffers a Larger Drop Than the General Market: Key Insights",
+      "detail": "Reported by Yahoo. In the most recent trading session, Amazon (AMZN) closed at $227.01, indicating a -3.1% shift from the previous trading day.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ae65d4891a310b640e223cc5df39c43286739137f210f9694b1c6bb387099a68",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AMZN_20260625_news1": {
+      "id": "ev_AMZN_20260625_news1",
+      "kind": "news",
+      "title": "Amazon's Next Big Move Into Big-Box Retail Could Be a Smart Move",
+      "detail": "Reported by Yahoo. The e-commerce giant's new store concept includes a feature that could make a key difference to sales.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6d147aceb7b31f84f331289667a4f63a2076e7e39d457b570a9ac6b0194ed7aa",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AMZN_20260625_news2": {
+      "id": "ev_AMZN_20260625_news2",
+      "kind": "news",
+      "title": "OpenAI, Amazon, Anthropic, others team up to prep workers for AI upheaval",
+      "detail": "Reported by Yahoo. A new nonprofit group has raised more than $500 million and will initially partner with state governments to develop retraining programs",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b7bdb3dec9665128b593719752f69f48c5524a244ee75e7a6c0b2a2aa350bce5",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AMZN_20260625_news3": {
+      "id": "ev_AMZN_20260625_news3",
+      "kind": "news",
+      "title": "The Secret Chipmaker Inside Amazon Stock",
+      "detail": "Reported by Yahoo. Market concerns over Amazon's substantial AI spending may overlook the powerful proprietary technology being built to drive it.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8028bf81aa7341747a548025e1d4047869d3cc7e15a1c33652feb8ca05a0c6fd",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AMZN_20260625_news4": {
+      "id": "ev_AMZN_20260625_news4",
+      "kind": "news",
+      "title": "Amazon Stock Slips Below Key Level. Why It's A Rough Day For Cloud Hyperscaler Stocks.",
+      "detail": "Reported by Yahoo. Amazon stock broke below its 200-day line as it continued a slump that has wiped out its rally from April.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f277aa4479daae2e566e11e0fd3a1e70d9788bef1b0675800bf8787874ba480c",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AMZN_20260625_news5": {
+      "id": "ev_AMZN_20260625_news5",
+      "kind": "news",
+      "title": "A U.S. Cloud Giant Lands at SWI Group\u2019s European Hyperscale Campus \u2014 and the Paper Trail Reads Amazon",
+      "detail": "Reported by Yahoo. AiOnX has let its entire Dublin-area campus before it is even finished. The investor behind it, Max-Herv\u00e9 George, has been quietly assembling Europe\u2019s scarcest data center assets since 2019. The wait is starting to pay.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=743c1b616425c473ce5ca6e5fcae7c9838efa6dfa9b6d2b2ee4b7dd8b2191f8f",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AMZN_20260625_news6": {
+      "id": "ev_AMZN_20260625_news6",
+      "kind": "news",
+      "title": "Amazon Expands Cloud and Logistics in India",
+      "detail": "Reported by Yahoo. Company ramps up AI, cloud and logistics investment.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3b61b137146646d4d83b9ad719bc524480e34cc9bdb198caf86c65dfecf19a00",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_AMZN_20260625_news7": {
+      "id": "ev_AMZN_20260625_news7",
+      "kind": "news",
+      "title": "Amazon Pledges $48B to Scale AI Infrastructure in India: What's Ahead?",
+      "detail": "Reported by Yahoo. AMZN boosts its India commitment to $48B by 2030, expanding AI, cloud and logistics infrastructure as rivals race for the same growth market.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bb738b118ed435247ccf941d5fe9c345f84589b3c3a8fcd47ab032789e3b7668",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
     "ev_AMZN_20260715_price": {
       "id": "ev_AMZN_20260715_price",
       "kind": "price",
@@ -1858,6 +2443,86 @@
         "subject_pct_change": 3.018,
         "relationship": "competitor"
       }
+    },
+    "ev_AMZN_20260715_news0": {
+      "id": "ev_AMZN_20260715_news0",
+      "kind": "news",
+      "title": "ELVA Stock Clocks Best Day In Over 13 Years As Amazon Deal Ignites Rally \u2014 Wall Street Eyes Further Jump",
+      "detail": "Reported by Yahoo. Roth Capital analyst Craig Irwin advised investors to evaluate Electrovaya\u2019s Amazon pact in the context of Ford Motor Co.\u2019s (F) energy storage system agreement with EDF.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a201819327e454409716a27cb38cf3b6b9f9582251fd87af50513b481a636936",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AMZN_20260715_news1": {
+      "id": "ev_AMZN_20260715_news1",
+      "kind": "news",
+      "title": "AMZN Stock Is Cheaper Than WMT And GOOGL \u2014 Why Jefferies Calls Amazon A Top Pick Among Hyperscalers",
+      "detail": "Reported by Yahoo. The brokerage says Amazon offers a more attractive way to gain exposure to AI infrastructure and retail than two of its biggest rivals.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4a2e58835ea081aa7debadb059136d2c394ccca4825b4c32d54f4d12f1a68cbd",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AMZN_20260715_news2": {
+      "id": "ev_AMZN_20260715_news2",
+      "kind": "news",
+      "title": "Better Artificial Intelligence (AI) Stock: Amazon vs. Alphabet",
+      "detail": "Reported by Yahoo. They are two of the biggest names in AI computing right now.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7f20df742dfbe65a8976922aeda96e9cad1fc50c31d351bc7f7dd806112eff3b",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AMZN_20260715_news3": {
+      "id": "ev_AMZN_20260715_news3",
+      "kind": "news",
+      "title": "Amazon strikes a deal that could get it a chunk of a Canadian battery company in the future",
+      "detail": "Reported by Yahoo. Electrovaya gave Amazon options to buy over 20% of its shares, but they only vest as Amazon purchases more products",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5530644ab1d3d58c3502192757632f5353fae3b4f8cefc6f43d610cb07c881c6",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AMZN_20260715_news4": {
+      "id": "ev_AMZN_20260715_news4",
+      "kind": "news",
+      "title": "Amazon Stock Rises After CEO Says AI Chip Demand Is Booming",
+      "detail": "Reported by Yahoo. Amazon AI Chip Demand Is Booming, CEO Andy Jassy Says",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6b8a98be62c146113d3fa13a689b69f56f7c87b889ed895aa552135613eb3b96",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AMZN_20260715_news5": {
+      "id": "ev_AMZN_20260715_news5",
+      "kind": "news",
+      "title": "AMZN Stock Rallies Over 3% \u2014 Amazon Reshuffles AWS Leadership As Veteran Dave Brown Exits, Dave Treadwell Takes Over",
+      "detail": "Reported by Yahoo. The cloud giant named a veteran Amazon executive to oversee a key AWS division following the departure of a long-serving leader.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=00401ed33d9fc18da5f01790f84e1d303b4842be63e4749264958a26c56570b0",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AMZN_20260715_news6": {
+      "id": "ev_AMZN_20260715_news6",
+      "kind": "news",
+      "title": "Amazon to launch S.Africa satellite internet as Starlink awaits licence",
+      "detail": "Reported by Yahoo. Amazon said Wednesday it will launch satellite internet services in South Africa, entering a market where rival Elon Musk's Starlink has struggled to secure regulatory approval.Under the deal, Herotel -- South Africa's largest fixed internet service provider -- will use Amazon Leo's technology to offer a new service called Evry, slated for launch commercially in 2027.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2288c054039cdfd0fdec57a77160892de1ec79807f7e036752877851a00be122",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
+    },
+    "ev_AMZN_20260715_news7": {
+      "id": "ev_AMZN_20260715_news7",
+      "kind": "news",
+      "title": "Amazon AWS executive and CEO advisor Dave Brown to leave after 19 years",
+      "detail": "Reported by Yahoo. Amazon veteran Dave \u200cBrown, a senior vice \u200cpresident in Amazon Web Services and member \u200bof the elite internal group advising CEO Andy Jassy, is leaving the company after 19 years. He \u200cis leaving \u2060for another job, according to a memo from \u2060AWS CEO Matt Garman, who did not provide specifics. He \u200bwas most \u200brecently leading \u200bcompute and machine \u200clearning services.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fa80649b6eeafed7cd05d586a4fdd3cef781eaddaf8ee286d558d8981c632e95",
+      "occurred_on": "2026-07-15",
+      "numbers": {}
     },
     "ev_AMZN_20260730_price": {
       "id": "ev_AMZN_20260730_price",
@@ -1911,6 +2576,86 @@
       "detail": "8-K",
       "source": "SEC EDGAR",
       "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260730.htm",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMZN_20260730_news0": {
+      "id": "ev_AMZN_20260730_news0",
+      "kind": "news",
+      "title": "Everyone Wants to Build the Best AI Model. Amazon Wants Something More Valuable.",
+      "detail": "Reported by Yahoo. Everyone is debating which AI company will build the best AI model. But that may be the wrong question for investors to focus on.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9ee1769f7520ef116150e9e2ce4af3f915c48cd8365f421ffe6b70a8ebbfac19",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMZN_20260730_news1": {
+      "id": "ev_AMZN_20260730_news1",
+      "kind": "news",
+      "title": "AMZN Stock Soars 7% After-Hours \u2014 Amazon\u2019s Q2 AWS Grows At Fastest Pace In Five Years, Boosts 2026 Capex To $220B",
+      "detail": "Reported by Yahoo. Revenue for the second quarter ending June 2026 reached $201 billion, above expectations of $197 billion.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1c93efdae9540022fe8b0b63c3bdadbf4dc1658470c4dde980ff2b76f1fc4072",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMZN_20260730_news2": {
+      "id": "ev_AMZN_20260730_news2",
+      "kind": "news",
+      "title": "Amazon.com Q2 Earnings Call Highlights",
+      "detail": "Reported by Yahoo. Amazon.com (NASDAQ:AMZN) reported second-quarter revenue of $200.6 billion, up 20% year over year excluding foreign-exchange effects, while operating income rose 43% to $27.5 billion. CEO Andy Jassy highlighted accelerating growth at Amazon Web Services, expansion in faster retail delivery and groce",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9ec482ddc6977b5049fb6d014fa532ff72dd6753f6fd6ef087073a8dd246840f",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMZN_20260730_news3": {
+      "id": "ev_AMZN_20260730_news3",
+      "kind": "news",
+      "title": "Amazon beats expectations with cloud and AI growth",
+      "detail": "Reported by Yahoo. Amazon beat analysts' expectations on Thursday when it reported growth in overall revenue and sales, particularly in its cloud, artificial intelligence and chips divisions.\u00a0The company meanwhile said that two of its AI-related divisions grew by \"triple-digit percentages\" -- its AI cloud and chips businesses each \"exceeded\" $25 billion annual revenue run rates, a measure of recurring sales.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c95b89850a559e4a00fed1f6f8edeb65f91ce9a1b65423b1400d38993faa41f9",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMZN_20260730_news4": {
+      "id": "ev_AMZN_20260730_news4",
+      "kind": "news",
+      "title": "Amazon Stock Pops 9.5% After-Hours as AWS Fuels Earnings Beat: Jim Cramer Calls it 'Astonishing'",
+      "detail": "Reported by Benzinga. Amazon shares jumped after an earnings beat as investors hailed AWS profitability as proof AI investments are starting to pay off.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bc30621a3bd537b6793d5cfca5e525f2525700dd44e3a7035ebc83a719cbeb65",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMZN_20260730_news5": {
+      "id": "ev_AMZN_20260730_news5",
+      "kind": "news",
+      "title": "Amazon & Apple Beat Earnings, Head Separate Ways",
+      "detail": "Reported by Yahoo. Despite plenty of uncertainty on some of the bigger economic issues, Q2 earnings season rolls along quite successfully to this point.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c99dd5bf7f8a0c42fe94a3cf8bd6c0838820bd3b9e92e4f69a4754b64ece8729",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMZN_20260730_news6": {
+      "id": "ev_AMZN_20260730_news6",
+      "kind": "news",
+      "title": "Amazon (AMZN) Reports Q2 Earnings: What Key Metrics Have to Say",
+      "detail": "Reported by Yahoo. Although the revenue and EPS for Amazon (AMZN) give a sense of how its business performed in the quarter ended June 2026, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bee5e651848cb4d78d6fc8f1332807572f9cdfc3cdaf47fc2a8592ca0aa88fc0",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMZN_20260730_news7": {
+      "id": "ev_AMZN_20260730_news7",
+      "kind": "news",
+      "title": "Amazon Gains in Postmarket After Earnings Report",
+      "detail": "Reported by Yahoo. Amazon 2Q earnings beat Wall Street estimates Tuesday, sending stocks climbing in after hours trading. The company reporter its 5th straight quarter of cloud share growth, the 37% increase being the fastest for Amazon since the end of 2021. Bloomberg Intelligence Senior Analyst for E-Commerce Poonam Goyal, and Bloomberg Intelligence Senior Technology Analyst Anurag Rana break down the earnings numbers as they roll in.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=306b4c9b325e9e1b461956de1af1fd703a68a28616fc8e6f1d84ad2d80fd079e",
       "occurred_on": "2026-07-30",
       "numbers": {}
     },
@@ -1979,6 +2724,86 @@
       "occurred_on": "2026-07-30",
       "numbers": {}
     },
+    "ev_AMZN_20260731_news0": {
+      "id": "ev_AMZN_20260731_news0",
+      "kind": "news",
+      "title": "Wall Street ends higher as Amazon soothes AI jitters",
+      "detail": "Reported by Yahoo. STORY: Wall Street ended higher on Friday, with the Dow adding more than half a percent, the S&P 500 gaining seven-tenths of a percent and the Nasdaq climbing one percent.:: AmazonAmazon surged more than 15% after the tech giant posted its biggest quarterly revenue growth in over four years. Its results, along with a similar report from Microsoft this week, alleviated investor concerns about potential overspending on AI data centers.Meanwhile, shares of Apple tumbled more than 7% after a disappointing forecast showed that the iPhone maker was struggling to secure enough components, as the AI-d",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2cdfba985ab69b52b6fb7b2365ed75fc4b6928e6d12af7f4f10486ee0a60ebf0",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AMZN_20260731_news1": {
+      "id": "ev_AMZN_20260731_news1",
+      "kind": "news",
+      "title": "US Indices End Week Higher As Amazon Earnings Lift Sentiment, But Nasdaq Logs Worst Month In Over A Year \u2014 PSKY, BABA, RDDT, RIVN, AMZN In Focus",
+      "detail": "Reported by Yahoo. The benchmark 10-year Treasury yield topped 4.7% on the day, its highest level since January 2025.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8ff0a2677bdd341d72a63925b1f58372c64ec153fadcdc8794bd723a30164ff6",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AMZN_20260731_news2": {
+      "id": "ev_AMZN_20260731_news2",
+      "kind": "news",
+      "title": "Update: Wall Street Gains Amid Amazon Rally as July Ends Mostly Lower",
+      "detail": "Reported by Yahoo. (Updates with market moves at the end of the day, along with weekly and monthly index changes.) U",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=691dfb911085f847ab57db8b984d0f2b76070f61f31b92f2e0f69079af0b8dab",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AMZN_20260731_news3": {
+      "id": "ev_AMZN_20260731_news3",
+      "kind": "news",
+      "title": "Market Talk: Apple sinks, Amazon soars in split verdict on AI winners",
+      "detail": "Reported by Yahoo. STORY: :: Recorded on July 31:: Lisa Bernhard, Reuters:: Dean Smith, Portfolio Manager, FolioBeyondShares of Apple tumbled as much as 10% on Friday after a disappointing forecast showed that the iPhone maker was struggling to secure enough components as the AI-driven data center boom strains global supply chains.The drop, if sustained, would erase nearly $500 billion from Apple's market capitalization and return the crown of the world's most valuable company to AI chip giant Nvidia, days after reclaiming it.Meanwhile, shares of Amazon soared as much as 15% after the tech giant's solid cloud sa",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=da81e4262f472bf567b18b8fa6d62a30848cf9a5425716f72685131dfaec40bf",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AMZN_20260731_news4": {
+      "id": "ev_AMZN_20260731_news4",
+      "kind": "news",
+      "title": "Stocks Finish Higher as Amazon Leads Megacaps Higher",
+      "detail": "Reported by Yahoo. The S&P 500 Index ($SPX ) (SPY ) on Friday closed up +0.70%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +0.53%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +0.60%. September E-mini S&P futures (ESU26 ) rose +0.69%, and September E-mini Nasdaq futures...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7dc70b3f1e077f79b2f8e0af5d0b3d30a3e6e0b1e55f287e8f985662f0e5dc0e",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AMZN_20260731_news5": {
+      "id": "ev_AMZN_20260731_news5",
+      "kind": "news",
+      "title": "Wall Street Rushes to Raise Amazon Targets After 15% Post-Earnings Stock Surge",
+      "detail": "Reported by Yahoo. Analysts raised Amazon price targets to as high as $400 after AWS growth of 37% drove a 15% single day surge.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=60d4d094283ede79c45a1d11aa619e5e927ac8f6d59cc93fd85545bf0770089e",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AMZN_20260731_news6": {
+      "id": "ev_AMZN_20260731_news6",
+      "kind": "news",
+      "title": "The $600 Million Reason Amazon Stock Is Up Today",
+      "detail": "Reported by Yahoo. Amazon stock rallies as the company receives tariff refunds worth $600 million. TD Cowen analysts recommend buying AMZN shares following solid Q2 earnings.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=07aaa7bfdb73edaa29a4d3feb81a811ad2f333832ca3d1e4ee697829f9ebd46a",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
+    "ev_AMZN_20260731_news7": {
+      "id": "ev_AMZN_20260731_news7",
+      "kind": "news",
+      "title": "Update: US Equity Indexes Rise as Amazon's Results Boost Consumer Discretionary, Crude Oil Trades Off Session Highs",
+      "detail": "Reported by Yahoo. (Updates with index/price moves and macroeconomic data from the first paragraph.) US equity index",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=18a9ad6b6d002472793f879c2db697710e13dc2db5e044267dd8afdac3eddf1c",
+      "occurred_on": "2026-07-31",
+      "numbers": {}
+    },
     "ev_AMZN_20260803_price": {
       "id": "ev_AMZN_20260803_price",
       "kind": "price",
@@ -2024,6 +2849,86 @@
         "relationship": "competitor"
       }
     },
+    "ev_AMZN_20260803_news0": {
+      "id": "ev_AMZN_20260803_news0",
+      "kind": "news",
+      "title": "Bill Ackman's Pershing Square Owns Amazon, Microsoft, and Meta Platforms. Here's the Best Buy of the Bunch in August.",
+      "detail": "Reported by Yahoo. Ackman isn't leaving this opportunity on the table, and retail investors shouldn't, either.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=aa6401c94b8b7d68d4ff5b21e51d1787b259a9a0cee3a6ef3ebdf6ce3d335980",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_AMZN_20260803_news1": {
+      "id": "ev_AMZN_20260803_news1",
+      "kind": "news",
+      "title": "Amazon Just Surpassed $3 Trillion Market Cap. What Comes Next for AMZN Stock.",
+      "detail": "Reported by Yahoo. Amazon has achieved the $3 trillion market cap milestone, but options pricing suggests AMZN shares will rip higher from here in the second half of 2026.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=97bac7f5cab912a4856dbacaf2810c0271cbbcf7fccfbf270726505cde7a4ef4",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_AMZN_20260803_news2": {
+      "id": "ev_AMZN_20260803_news2",
+      "kind": "news",
+      "title": "Stock Market Today: Dow Rises To Record As Amazon Jumps; This Cathie Wood Trade Nets $2.9 Mil (Live Coverage)",
+      "detail": "Reported by Yahoo. Stock Market Today: The Dow Jones index pops as oil stocks lag amid Trump Iran moves. Amazon clears a milestone. A Cathie Wood trade pays off.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a8910cf117021c61cc69007c4b44c3c275bc9664317da9ec3d5425c05a034996",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_AMZN_20260803_news3": {
+      "id": "ev_AMZN_20260803_news3",
+      "kind": "news",
+      "title": "Top Research Reports for Amazon, Marvell & Starbucks",
+      "detail": "Reported by Yahoo. Amazon, Marvell and Starbucks lead today's featured research reports, highlighting AI, growth trends and key opportunities and risks.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3f231fb0754dcef3f53539197539aba7ecf9fd6ca6848ff7424b606918926ce7",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_AMZN_20260803_news4": {
+      "id": "ev_AMZN_20260803_news4",
+      "kind": "news",
+      "title": "Amazon, Apple, Boeing, Micron, Bristol Myers, GameStop, SpaceX, and More Stocks That Explain Today\u2019s Market",
+      "detail": "Reported by Yahoo. FEATURE  Stocks rallied Monday. The hit a record after President Donald Trump said he would restart talks with Iran, which bolstered investors\u2019 hopes of a cease-fire in the Middle East.  Micron advanced 0.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ab20f4d034e6ad3ae5839919a1f51203b54604f3fd7be93648ca2f25746f1111",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_AMZN_20260803_news5": {
+      "id": "ev_AMZN_20260803_news5",
+      "kind": "news",
+      "title": "Amazon Stock Hits Record on Stunning Signal",
+      "detail": "Reported by Yahoo. The new valuation raises expectations for Amazon's AI returns",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c9da59b25d27b4ddda5866780a0cab872d6c37811a8ad0f554fed68e56ccd947",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_AMZN_20260803_news6": {
+      "id": "ev_AMZN_20260803_news6",
+      "kind": "news",
+      "title": "Amazon Crosses $1T Valuation, Boeing Has Biggest Gain Since December | Closing Bell",
+      "detail": "Reported by Yahoo. Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Tim Stenovec.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2a6849ce79b0f236e5f98cc4b39c3b8cb1371d57ee7cded8b253f291bcd78eed",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
+    "ev_AMZN_20260803_news7": {
+      "id": "ev_AMZN_20260803_news7",
+      "kind": "news",
+      "title": "Amazon Stock Breaks Out To $3 Trillion Milestone. Why Cloud Giants Are Rallying.",
+      "detail": "Reported by Yahoo. Amazon stock soared Monday as investors digested a strong Q2 earnings season for cloud hyperscalers AWS, Google and Microsoft.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c6b799e621f257013cbe9c4e7b85fca6421b0c6398e72ba37fee7fa14440e6c0",
+      "occurred_on": "2026-08-03",
+      "numbers": {}
+    },
     "ev_AMZN_20260828_price": {
       "id": "ev_AMZN_20260828_price",
       "kind": "price",
@@ -2068,6 +2973,86 @@
         "subject_pct_change": 3.969,
         "relationship": "competitor"
       }
+    },
+    "ev_AMZN_20260828_news0": {
+      "id": "ev_AMZN_20260828_news0",
+      "kind": "news",
+      "title": "Stocks making the biggest moves midday: Amazon, Marvell, PayPal, Salesforce & more",
+      "detail": "Reported by CNBC. Here are some of the companies making headlines in midday trading.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=81ed8112d0d786c6c71f2d7e405990e49b82117bcb36da65ede80eaa70e96465",
+      "occurred_on": "2026-08-28",
+      "numbers": {}
+    },
+    "ev_AMZN_20260828_news1": {
+      "id": "ev_AMZN_20260828_news1",
+      "kind": "news",
+      "title": "Amazon Still Holds A Massive Upside Potential",
+      "detail": "Reported by SeekingAlpha. Amazon might see a re-acceleration in its earnings growth in the next few years as the higher-growth segment increases in the mix. See why AMZN stock is a buy.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1570b815d9443f33ee25c024445c6488158bda1b9cc18c1ccc45b441284c31f4",
+      "occurred_on": "2026-08-28",
+      "numbers": {}
+    },
+    "ev_AMZN_20260828_news2": {
+      "id": "ev_AMZN_20260828_news2",
+      "kind": "news",
+      "title": "Performance Comparison: Amazon.com And Competitors In Broadline Retail Industry",
+      "detail": "Reported by Benzinga. In today&#39;s rapidly changing and fiercely competitive business landscape, it is essential for investors and industry enthusiasts to thoroughly analyze companies. In this article, we will conduct a comprehensive",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4b9ece611cc806e1bb748f9ccc87644447c833efe1627b2dbff537f033858949",
+      "occurred_on": "2026-08-28",
+      "numbers": {}
+    },
+    "ev_AMZN_20260828_news3": {
+      "id": "ev_AMZN_20260828_news3",
+      "kind": "news",
+      "title": "Inside Amazon's Stock Drop: Why Analysts Remain High on AWS AI Momentum",
+      "detail": "Reported by Benzinga. Amazon stock fell nearly 2% despite bullish analyst forecasts predicting AWS revenue will top $335 billion behind surging AI cloud demand.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bfb37d827fe69738d87787f11dc3d1ffc7cec2c664465d6f6308c5cbe02d1b17",
+      "occurred_on": "2026-08-27",
+      "numbers": {}
+    },
+    "ev_AMZN_20260828_news4": {
+      "id": "ev_AMZN_20260828_news4",
+      "kind": "news",
+      "title": "Nvidia Still Dominates AI Chips. Meta, Google and Amazon Still Want Their Own.",
+      "detail": "Reported by Benzinga. Nvidia still leads AI chips, but Meta, Google and Amazon are accelerating custom silicon to power the next phase of AI.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2e272984feb9232e73f13727e9a9559361f0b926708f1593b7bc7baa59c59c06",
+      "occurred_on": "2026-08-27",
+      "numbers": {}
+    },
+    "ev_AMZN_20260828_news5": {
+      "id": "ev_AMZN_20260828_news5",
+      "kind": "news",
+      "title": "Industry Comparison: Evaluating Amazon.com Against Competitors In Broadline Retail Industry",
+      "detail": "Reported by Benzinga. In today&#39;s rapidly evolving and fiercely competitive business landscape, it is crucial for investors and industry analysts to conduct comprehensive company evaluations. In this article, we will undertake an in-depth",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=90d45cc6f6462ade2100fdf24a4d7a3db69cc77e7576e33d1c296ad85a9315c9",
+      "occurred_on": "2026-08-27",
+      "numbers": {}
+    },
+    "ev_AMZN_20260828_news6": {
+      "id": "ev_AMZN_20260828_news6",
+      "kind": "news",
+      "title": "AI Stocks Enter a High-Stakes Earnings Gauntlet",
+      "detail": "Reported by ChartMill. AI earnings week: Amazon, Salesforce, AMD, Palantir, Snowflake report. Results will test if AI stock rally is backed by profits.",
+      "source": "ChartMill (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a55a04d5b30dd8970e2a9e574d09c90f5e0125ae17f03079c65646e6e33f86a2",
+      "occurred_on": "2026-08-28",
+      "numbers": {}
+    },
+    "ev_AMZN_20260828_news7": {
+      "id": "ev_AMZN_20260828_news7",
+      "kind": "news",
+      "title": "Nvidia Delivered - The Margin Guide Is The Catch",
+      "detail": "Reported by SeekingAlpha. Nvidia Corporation Q2 review: 106% revenue growth, attractive valuation, and hyperscaler AI capex (AWS 2M GPUs). Click for this earnings update of NVDA stock.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=99d505a9e667e5d57ef94f0a1e1775bdc344c40277e01f16b33fb6fec01ebf53",
+      "occurred_on": "2026-08-27",
+      "numbers": {}
     },
     "ev_AMZN_fund_revenue": {
       "id": "ev_AMZN_fund_revenue",
@@ -2129,14 +3114,15 @@
       }
     }
   },
-  "arc": "Between April and August 2026, Amazon moved through a notable drawdown before staging a sharp quarterly filing-driven recovery. After climbing to $263.99 in late April, AMZN experienced multiple sharp retreats throughout June with no company-specific news, bottoming at $227.01 alongside mixed behavior across competitors INTC and NVDA. The decisive turning point arrived at the end of July, when Amazon filed a Form 8-K and Form 10-Q, driving a single-day 15.32% surge on 3.8x average volume and propelling the stock to a period high of $284.02 in early August.",
+  "arc": "Between April and August 2026, Amazon moved from ambitious infrastructure investments through a mid-year valuation trough before staging a historic post-earnings breakout. In April, the stock climbed on aggressive strategic bets, highlighted by its $11.6 billion purchase of Globalstar to establish direct satellite connectivity. However, through June, market unease surrounding aggressive AI capital expenditures, retail shipping costs, and cloud hyperscaler fatigue dragged the stock from roughly $264 to a low of $227.01. This sentiment shifted radically in late July when Amazon reported Q2 results featuring a 20% rise in quarterly revenue to $200.6 billion, 37% AWS growth, and annualized AI and proprietary chip run rates exceeding $25 billion each. The blowout report eliminated fears of unmonetized AI spending, sparking a 15.32% single-day surge that carried Amazon past a $3 trillion market capitalization by early August.",
   "arc_citation_ids": [
-    "ev_AMZN_20260424_price",
+    "ev_AMZN_20260414_news1",
+    "ev_AMZN_20260605_news3",
     "ev_AMZN_20260625_price",
+    "ev_AMZN_20260730_news2",
+    "ev_AMZN_20260730_news3",
     "ev_AMZN_20260731_price",
-    "ev_AMZN_20260731_filing_000101872426000026",
-    "ev_AMZN_20260731_filing_000101872426000024",
-    "ev_AMZN_20260803_price"
+    "ev_AMZN_20260803_news1"
   ],
   "warnings": []
 }

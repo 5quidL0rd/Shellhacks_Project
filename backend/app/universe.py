@@ -18,10 +18,12 @@ class Company:
     name: str
     cik: str  # zero-padded to 10 digits, the form data.sec.gov wants
     sector: str
+    aliases: tuple[str, ...] = ()  # other names the company goes by, e.g. "Google"
 
 
 COMPANIES: dict[str, Company] = {
-    c["ticker"]: Company(c["ticker"], c["name"], f"{int(c['cik']):010d}", c["sector"])
+    c["ticker"]: Company(c["ticker"], c["name"], f"{int(c['cik']):010d}", c["sector"],
+                         tuple(c.get("aliases", ())))
     for c in json.loads(COMPANIES_FILE.read_text())["companies"]
 }
 

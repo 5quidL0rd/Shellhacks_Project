@@ -1,7 +1,7 @@
 {
   "symbol": "ASML",
   "company_name": "ASML Holding N.V.",
-  "generated_at": "2026-09-26T12:32:23.396162+00:00",
+  "generated_at": "2026-09-26T12:51:03.387598+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,11 +1320,12 @@
       "pct_change": -3.128,
       "close": 1317.23,
       "direction": "down",
-      "headline": "ASML drops 3.1% divergent from customer Intel",
-      "explanation": "ASML fell 3.13% to $1317.23 on 1.5 times average volume with no company-specific news reported. The drop was largely company-specific, as customer Intel rose 4.89% while customer TSMC slipped 0.72%.",
-      "confidence": "low",
+      "headline": "Proposed US Export Curbs on China Tool Sales",
+      "explanation": "ASML dropped 3.13% to $1317.23 on 1.5x average volume following news that US lawmakers introduced draft bipartisan legislation aimed at restricting semiconductor manufacturing tool exports to China. The drop was company-specific, as customer INTC rose 4.89% while customer TSM dipped only 0.72%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_ASML_20260402_price",
+        "ev_ASML_20260402_news4",
         "ev_ASML_20260402_peer_INTC",
         "ev_ASML_20260402_peer_TSM"
       ]
@@ -1334,12 +1335,14 @@
       "pct_change": -4.788,
       "close": 1410.83,
       "direction": "down",
-      "headline": "ASML declines 4.8% following 6-K filing",
-      "explanation": "ASML fell 4.79% to $1410.83 on 2.1 times average volume after filing a Form 6-K on April 15. The retreat was shared in part with customer TSMC, which dropped 3.13%, while customer Intel gained 5.48%.",
-      "confidence": "medium",
+      "headline": "Soft Q2 Outlook Offsets Q1 Earnings Beat",
+      "explanation": "ASML shares declined 4.79% to $1410.83 on heavy volume of 2.1x the 30-day average despite reporting Q1 EPS of EUR 7.15 on EUR 8.77 billion in sales and lifting its full-year 2026 sales view. Investor sentiment was weighed down by a softer-than-expected Q2 outlook. The decline was mixed relative to customers, as customer INTC rose 5.48% while customer TSM slid 3.13%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_ASML_20260416_price",
-        "ev_ASML_20260416_filing_000162828026025147",
+        "ev_ASML_20260416_news2",
+        "ev_ASML_20260416_news4",
+        "ev_ASML_20260416_news5",
         "ev_ASML_20260416_peer_INTC",
         "ev_ASML_20260416_peer_TSM"
       ]
@@ -1349,11 +1352,12 @@
       "pct_change": 3.987,
       "close": 1581.58,
       "direction": "up",
-      "headline": "ASML climbs 4.0% in company-specific advance",
-      "explanation": "ASML advanced 3.99% to $1581.58 on 1.4 times normal volume without company-specific news disclosures. The rise was company-specific, as customer TSMC rose just 0.63% and customer Intel fell 0.27%.",
-      "confidence": "low",
+      "headline": "Apple-Intel Foundry Talks Spotlight Lithography",
+      "explanation": "ASML climbed 3.99% to $1581.58 amid reports that potential foundry agreements between Apple and Intel could drive multi-billion euro orders for advanced lithography systems. The advance was company-specific, with customer INTC slipping 0.27% and customer TSM gaining only 0.63%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_ASML_20260513_price",
+        "ev_ASML_20260513_news5",
         "ev_ASML_20260513_peer_INTC",
         "ev_ASML_20260513_peer_TSM"
       ]
@@ -1363,11 +1367,13 @@
       "pct_change": 4.716,
       "close": 1705.37,
       "direction": "up",
-      "headline": "ASML rises 4.7% to $1705.37",
-      "explanation": "ASML gained 4.72% to finish at $1705.37 on 1.2 times average volume without company-specific announcements. It shared positive momentum with customer TSMC, which rose 2.54%, whereas customer Intel fell 1.28%.",
-      "confidence": "low",
+      "headline": "Tata Fab Partnership and Share Buybacks",
+      "explanation": "ASML climbed 4.72% to $1705.37 as the company confirmed ongoing share repurchases and announced a partnership with Tata Electronics to supply advanced lithography tools for India's first front-end fab. The move outpaced customer peers, as customer INTC declined 1.28% and customer TSM rose 2.54%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_ASML_20260602_price",
+        "ev_ASML_20260602_news1",
+        "ev_ASML_20260602_news2",
         "ev_ASML_20260602_peer_INTC",
         "ev_ASML_20260602_peer_TSM"
       ]
@@ -1377,11 +1383,13 @@
       "pct_change": -6.585,
       "close": 1641.74,
       "direction": "down",
-      "headline": "ASML falls 6.6% in broad customer selloff",
-      "explanation": "ASML dropped 6.58% to $1641.74 on volume 2.2 times its 30-day average with no company-specific news. The drop was shared with its primary customers, as TSMC lost 6.69% and Intel dropped 11.28%.",
-      "confidence": "low",
+      "headline": "Broad Semiconductor Retracement Pulls Shares Down",
+      "explanation": "ASML fell 6.58% to $1641.74 on 2.2x average volume, retreating after recently setting record market capitalization highs. The sell-off was shared across connected semiconductor names, with customer INTC dropping 11.28% and customer TSM falling 6.69%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_ASML_20260605_price",
+        "ev_ASML_20260605_news3",
+        "ev_ASML_20260605_news6",
         "ev_ASML_20260605_peer_INTC",
         "ev_ASML_20260605_peer_TSM"
       ]
@@ -1391,11 +1399,14 @@
       "pct_change": 9.531,
       "close": 1899.48,
       "direction": "up",
-      "headline": "ASML surges 9.5% tracking customer rally",
-      "explanation": "ASML climbed 9.53% to $1899.48 on 2.4 times average volume without company-specific news releases. The surge was shared across its customer network, as Intel jumped 9.27% and TSMC rose 3.01%.",
-      "confidence": "low",
+      "headline": "Musk Pitches Terafab Project at ASML Event",
+      "explanation": "ASML shares surged 9.53% to $1899.48 on 2.4x average volume after Elon Musk made a virtual appearance at ASML's tech conference to pitch the Terafab chipmaking initiative for Tesla and SpaceX. The rally was shared across the sector as customer INTC jumped 9.27% and customer TSM advanced 3.01%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_ASML_20260611_price",
+        "ev_ASML_20260611_news0",
+        "ev_ASML_20260611_news4",
+        "ev_ASML_20260611_news5",
         "ev_ASML_20260611_peer_INTC",
         "ev_ASML_20260611_peer_TSM"
       ]
@@ -1405,11 +1416,14 @@
       "pct_change": 3.311,
       "close": 1929.6801,
       "direction": "up",
-      "headline": "ASML advances 3.3% as customers climb",
-      "explanation": "ASML gained 3.31% to close at $1929.68 on 1.9 times normal volume without fresh corporate news. Upward momentum was shared with customers Intel and TSMC, which gained 10.64% and 6.93% on the day.",
-      "confidence": "low",
+      "headline": "AI Fab Momentum and Intel 18A-P Progress",
+      "explanation": "ASML gained 3.31% to $1929.68 following commentary on massive Terafab tool demand and progress on Intel's 18A-P manufacturing node entering risk production. The upward move was shared with customers, as customer INTC rose 10.64% and customer TSM gained 6.93%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_ASML_20260618_price",
+        "ev_ASML_20260618_news2",
+        "ev_ASML_20260618_news6",
+        "ev_ASML_20260618_news7",
         "ev_ASML_20260618_peer_INTC",
         "ev_ASML_20260618_peer_TSM"
       ]
@@ -1419,11 +1433,14 @@
       "pct_change": 4.448,
       "close": 1841.1801,
       "direction": "up",
-      "headline": "ASML rebounds 4.4% on high volume",
-      "explanation": "ASML rose 4.45% to $1841.18 on 1.8 times average volume in the absence of specific corporate news. The gain was largely company-specific, contrasting with customer TSMC's 1.32% decline while customer Intel rose 0.93%.",
-      "confidence": "low",
+      "headline": "Dutch Lobbying on Curbs and Analyst Upgrade",
+      "explanation": "ASML rose 4.45% to $1841.18 after reports revealed Dutch officials were actively lobbying the US against further export restrictions on ASML sales, alongside a BofA price target increase to $2,345. The move was company-specific, while customer INTC rose 0.93% and customer TSM declined 1.32%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_ASML_20260625_price",
+        "ev_ASML_20260625_news0",
+        "ev_ASML_20260625_news2",
+        "ev_ASML_20260625_news5",
         "ev_ASML_20260625_peer_INTC",
         "ev_ASML_20260625_peer_TSM"
       ]
@@ -1433,11 +1450,13 @@
       "pct_change": 3.593,
       "close": 1801.51,
       "direction": "up",
-      "headline": "ASML climbs 3.6% alongside Intel and TSMC",
-      "explanation": "ASML rose 3.59% to $1801.51 on 1.4 times normal volume without direct corporate updates. The move was shared with customers Intel and TSMC, which advanced 8.64% and 5.55%, respectively.",
-      "confidence": "low",
+      "headline": "Raised Revenue Guidance Sparks Sector Rally",
+      "explanation": "ASML added 3.59% to $1801.51 on upbeat sentiment surrounding raised 2026 revenue guidance and sustained AI-driven EUV tool demand. The advance was shared across its customer base, with customer INTC rising 8.64% and customer TSM advancing 5.55%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_ASML_20260721_price",
+        "ev_ASML_20260721_news1",
+        "ev_ASML_20260721_news4",
         "ev_ASML_20260721_peer_INTC",
         "ev_ASML_20260721_peer_TSM"
       ]
@@ -1447,11 +1466,14 @@
       "pct_change": -5.795,
       "close": 1655.26,
       "direction": "down",
-      "headline": "ASML drops 5.8% outstripping peer declines",
-      "explanation": "ASML slid 5.79% to $1655.26 on elevated volume of 2.7 times average without company-specific news. The sharp drop was mostly company-specific, far outpacing mild decreases of 0.70% at customer Intel and 1.07% at customer TSMC.",
-      "confidence": "low",
+      "headline": "Reports of Domestic Chinese DUV Competition",
+      "explanation": "ASML plunged 5.80% to $1655.26 on elevated volume of 2.7x average following reports that a Chinese state-backed firm started mass-producing immersion deep ultraviolet lithography systems. The decline was largely company-specific, as customer INTC fell 0.70% and customer TSM fell 1.07%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_ASML_20260727_price",
+        "ev_ASML_20260727_news1",
+        "ev_ASML_20260727_news2",
+        "ev_ASML_20260727_news3",
         "ev_ASML_20260727_peer_INTC",
         "ev_ASML_20260727_peer_TSM"
       ]
@@ -1461,11 +1483,12 @@
       "pct_change": 6.497,
       "close": 1651.4399,
       "direction": "up",
-      "headline": "ASML rises 6.5% alongside customer rally",
-      "explanation": "ASML rallied 6.50% to $1651.44 on 1.8 times 30-day average volume with no company-specific announcements. The rally was shared with customer Intel, which surged 11.30%, and customer TSMC, which gained 7.64%.",
-      "confidence": "low",
+      "headline": "Rebound as China DUV Threat Appears Contained",
+      "explanation": "ASML rebounded 6.50% to $1651.44 after analysts and reports suggested the company's technology lead and upcoming 30% advanced DUV capacity expansion limit near-term competitive fallout. The gain was shared with connected firms as customer INTC rallied 11.30% and customer TSM gained 7.64%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_ASML_20260730_price",
+        "ev_ASML_20260730_news1",
         "ev_ASML_20260730_peer_INTC",
         "ev_ASML_20260730_peer_TSM"
       ]
@@ -1475,15 +1498,16 @@
       "pct_change": 3.083,
       "close": 1679.92,
       "direction": "up",
-      "headline": "ASML gains 3.1% on installed base sales surge",
-      "explanation": "ASML advanced 3.08% to $1679.92 on twice its average volume as reports highlighted a 31.8% surge in Installed Base Management revenue. Reports also noted delivery demand testing throughput on 110 EUV machines. The gain was company-specific, as customer TSMC gained 1.02% and customer Intel fell 0.18%.",
-      "confidence": "high",
+      "headline": "Fleet Upgrades and EUV Deployment Drive Gain",
+      "explanation": "ASML rose 3.08% to $1679.92 on 2.0x average volume, supported by a 31.8% surge in Installed Base Management sales and continued deployment of High-NA EUV lithography tools across major partners. The move was company-specific, as customer INTC declined 0.18% and customer TSM rose 1.02%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_ASML_20260918_price",
-        "ev_ASML_20260918_peer_INTC",
-        "ev_ASML_20260918_peer_TSM",
+        "ev_ASML_20260918_news1",
         "ev_ASML_20260918_news3",
-        "ev_ASML_20260918_news5"
+        "ev_ASML_20260918_news7",
+        "ev_ASML_20260918_peer_INTC",
+        "ev_ASML_20260918_peer_TSM"
       ]
     }
   ],
@@ -1532,6 +1556,86 @@
         "subject_pct_change": -3.128,
         "relationship": "customer"
       }
+    },
+    "ev_ASML_20260402_news0": {
+      "id": "ev_ASML_20260402_news0",
+      "kind": "news",
+      "title": "ASML (ASML) Stock Slides as Market Rises: Facts to Know Before You Trade",
+      "detail": "Reported by Yahoo. The latest trading day saw ASML (ASML) settling at $1, representing a -3.13% change from its previous close.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5434f1c0669b96bbe45243d023026345dba4d730c88233d0c253e135b1258e1e",
+      "occurred_on": "2026-04-02",
+      "numbers": {}
+    },
+    "ev_ASML_20260402_news1": {
+      "id": "ev_ASML_20260402_news1",
+      "kind": "news",
+      "title": "RWE deepens co-operation with ASML",
+      "detail": "Reported by Yahoo. RWE is expanding its collaboration with ASML to cover around 130 MW of in-stalled renewable capacity and extended until 2038.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=295a574ee266355e397b848ce6e7539203df9528a516660218f5173db12b3d86",
+      "occurred_on": "2026-04-02",
+      "numbers": {}
+    },
+    "ev_ASML_20260402_news2": {
+      "id": "ev_ASML_20260402_news2",
+      "kind": "news",
+      "title": "Here is What to Know Beyond Why ASML Holding N.V. (ASML) is a Trending Stock",
+      "detail": "Reported by Yahoo. ASML (ASML) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1c6f7c9452cb4049f528dcf96d94fcf5573c707a3e9535f0b573598e374b7c59",
+      "occurred_on": "2026-04-02",
+      "numbers": {}
+    },
+    "ev_ASML_20260402_news3": {
+      "id": "ev_ASML_20260402_news3",
+      "kind": "news",
+      "title": "ASML Holding (NASDAQ:ASML) Passes the Caviar Cruise Quality Investing Screen",
+      "detail": "Reported by ChartMill. ASML exemplifies quality investing with robust growth, exceptional capital returns, and a strong financial position, making it a premier long-term holding candidate.",
+      "source": "ChartMill (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=78a92d08826044f6b9df3677d2466d55df52e3d7ee4d20f5752e968809a176a1",
+      "occurred_on": "2026-04-02",
+      "numbers": {}
+    },
+    "ev_ASML_20260402_news4": {
+      "id": "ev_ASML_20260402_news4",
+      "kind": "news",
+      "title": "US Lawmakers Propose Crackdown on Sales of Chip Tools to China",
+      "detail": "Reported by Yahoo. (Bloomberg) -- US lawmakers unveiled legislation that seeks to crack down on exports of chipmaking tools to China, especially from allies including the Netherlands and Japan, in a bipartisan effort to help Washington further constrain Beijing\u2019s technology ambitions.The draft bill, introduced in the House on Thursday, would strengthen existing restrictions on semiconductor manufacturing equipment sales from firms like ASML Holding NV and Tokyo Electron Ltd. A companion version is expected to be r",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=443d9f29da94bb01b2b8b0f14633a7f472743ff3df89b123bd47bef8075a7e31",
+      "occurred_on": "2026-04-02",
+      "numbers": {}
+    },
+    "ev_ASML_20260402_news5": {
+      "id": "ev_ASML_20260402_news5",
+      "kind": "news",
+      "title": "Can Global Memory Chip Shortage Drive Applied Materials' Growth?",
+      "detail": "Reported by Yahoo. AMAT rides on AI-driven chip demand and memory shortages into 2026, but can high-margin innovations offset consumer electronics weakness?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4f6f5f5100ef970e5524c127ed2aacfb36b11108e2b8e12537f4f063eff0035a",
+      "occurred_on": "2026-04-02",
+      "numbers": {}
+    },
+    "ev_ASML_20260402_news6": {
+      "id": "ev_ASML_20260402_news6",
+      "kind": "news",
+      "title": "Stocks to Watch Thursday: Apple, Exxon, Delta Air Lines",
+      "detail": "Reported by Yahoo. \u2198\ufe0f Apple (AAPL), Nvidia (NVDA), Tesla (TSLA): The three tech stocks were the most heavily traded S&P 500 components before the U.S. bell. All fell. \u2198\ufe0f Delta Air Lines (DAL), United Airlines (UAL): Both airline stocks were down more than 3% premarket on the prospect of a longer-lasting war.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5673c31be5fa814ec210e2a38c56cb53d85a1306a67077fc8ae6bc2be635663a",
+      "occurred_on": "2026-04-02",
+      "numbers": {}
+    },
+    "ev_ASML_20260402_news7": {
+      "id": "ev_ASML_20260402_news7",
+      "kind": "news",
+      "title": "Shares of semiconductor companies are trading higher amid optimism that the Middle East conflict will come to a swifter conclusion, which may help assuage concerns about inflation and higher rates affecting demand.",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b61a13714fbf1c66db20dfa441f75f735503d4fed4cc01b813a4726c8a080d49",
+      "occurred_on": "2026-04-01",
+      "numbers": {}
     },
     "ev_ASML_20260416_price": {
       "id": "ev_ASML_20260416_price",
@@ -1588,6 +1692,86 @@
       "occurred_on": "2026-04-15",
       "numbers": {}
     },
+    "ev_ASML_20260416_news0": {
+      "id": "ev_ASML_20260416_news0",
+      "kind": "news",
+      "title": "ASML Falls Post-Earnings, Chip-Making Expansion Anchors Outlook",
+      "detail": "Reported by Yahoo. ASML saw some moderate selling after its latest earnings report, but the all-important chip equipment maker still has big-time tailwinds on its side.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c645717d315dc36f5a29dcb7386a89eb40f1da5f82f7834bf5512766a0d38d46",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_ASML_20260416_news1": {
+      "id": "ev_ASML_20260416_news1",
+      "kind": "news",
+      "title": "ASML Premium Shrinks To Decade Low As Shares Rise 36% YTD",
+      "detail": "Reported by Yahoo. Chip-equipment leader now trades near parity with US peers despite monopoly position and raised sales guidance",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d652d58113bc145e50c7485538d10dafd10e5f4c27512644975a842a0bd05a3e",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_ASML_20260416_news2": {
+      "id": "ev_ASML_20260416_news2",
+      "kind": "news",
+      "title": "Should You Buy the ASML Stock Dip?",
+      "detail": "Reported by Yahoo. ASML stock sinks as soft Q2 guidance weighed on the firm\u2019s strong first-quarter results. Here\u2019s why long-term investors should consider buying the post-earnings dip in ASML shares.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cceb9db82be1fe80cf55cf7348d58dbf4b8064ecc297d2bb561ff107237ea9b0",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_ASML_20260416_news3": {
+      "id": "ev_ASML_20260416_news3",
+      "kind": "news",
+      "title": "ASML Q1 2026 Earnings Update",
+      "detail": "Reported by SeekingAlpha. I find it quite remarkable how quickly ASML was able to expand the capacity despite having a maze-like supply chain. ASML increased the revenue guidance. Read more here.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fb34793d754cfc5e313f958e95422ab17cd43b1ac0338c447aae7b23b3f9239b",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_ASML_20260416_news4": {
+      "id": "ev_ASML_20260416_news4",
+      "kind": "news",
+      "title": "ASML EUV Demand Outpacing Supply, Pointing to Strong Growth in 2027, RBC Says",
+      "detail": "Reported by Yahoo. ASML's (ASML) Q2 outlook fell short of consensus, but demand for extreme ultraviolet systems is exce",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=883a3ea3cbac68ab87afb64cbd9865575f7c44edaeb91dc8159ea8bacbed5aad",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_ASML_20260416_news5": {
+      "id": "ev_ASML_20260416_news5",
+      "kind": "news",
+      "title": "ASML Holding Q1 Earnings Beat Estimates, Revenues Rise Y/Y",
+      "detail": "Reported by Yahoo. ASML Q1 EPS rises 19% to EUR 7.15, and sales grow 13% to EUR 8.77B as EUV demand holds firm, prompting a higher 2026 revenue outlook.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=340c632a2dc236b7734ad94fab071541daaadd2941ffe9089f661ef1902c5e6b",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_ASML_20260416_news6": {
+      "id": "ev_ASML_20260416_news6",
+      "kind": "news",
+      "title": "ASML Trades At Decade-Low Premium Despite 36% Rally",
+      "detail": "Reported by Yahoo. Valuation gap versus US peers narrows to 17%, with shares briefly falling 4.2% after raised guidance",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1756ae38a970a95135d4003138a056e63dd19e46acc262220e52797c0b50b123",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_ASML_20260416_news7": {
+      "id": "ev_ASML_20260416_news7",
+      "kind": "news",
+      "title": "ASML Beats Q1 Expectations, Sets Sights On 2027 Growth Despite Q2 Dip",
+      "detail": "Reported by Benzinga. ASML reported strong Q1 results, raised guidance for 2026. Analyst maintains Outperform rating and raises price target.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=596ab967273dd53f369e0cd2fbdcf9ffb9d939933745c7024565c8ed3bda2c3a",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
     "ev_ASML_20260513_price": {
       "id": "ev_ASML_20260513_price",
       "kind": "price",
@@ -1632,6 +1816,86 @@
         "subject_pct_change": 3.987,
         "relationship": "customer"
       }
+    },
+    "ev_ASML_20260513_news0": {
+      "id": "ev_ASML_20260513_news0",
+      "kind": "news",
+      "title": "ASML Holding Trades Above 50-Day SMA: What Should Investors Know?",
+      "detail": "Reported by Yahoo. ASML trades above its 50-day SMA as AI-driven chip demand supports strong guidance and a solid order backlog, despite a premium valuation.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cf28b5e9f287b64fc2a150a7310eeb5c5ec38916a5eb336b87c67654cb09c6d0",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_ASML_20260513_news1": {
+      "id": "ev_ASML_20260513_news1",
+      "kind": "news",
+      "title": "ASML Holding N.V. (ASML) Pushing for Europe Technology Leadership Amid Soaring AI Opportunities",
+      "detail": "Reported by Yahoo. ASML Holding NV (NASDAQ:ASML) is one of the best AI stocks to buy for 2026, according to billionaire David Tepper. On May 5, together with six other technology companies headquartered in Europe, ASML Holding NV (NASDAQ:ASML) cosigned a piece calling for swift government action across Europe. In the opinion piece, the technology companies urge governments [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=788da94d1305afb275fc27a53eca8cc0ac22495eccca05f7681fd5d2ce818bda",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_ASML_20260513_news2": {
+      "id": "ev_ASML_20260513_news2",
+      "kind": "news",
+      "title": "Jim Cramer on ASML: \u201cLet\u2019s Just Hope for a Down Day and Get In\u201d",
+      "detail": "Reported by Yahoo. ASML Holding N.V. (NASDAQ:ASML) was among Jim Cramer\u2019s stock calls on Mad Money as he discussed how semiconductor and AI infrastructure stocks are driving the market higher. Answering a caller\u2019s question about the stock, Cramer said: Jeez, you know, now, this is the great problem right now. That stock\u2019s been straight up ever since it [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=70ed1e1ea8efaada22e47a223a924f208536f8119477ca684769dd7aa226a697",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_ASML_20260513_news3": {
+      "id": "ev_ASML_20260513_news3",
+      "kind": "news",
+      "title": "What Makes ASML Holding N.V. (ASML) a Strong Bet?",
+      "detail": "Reported by Yahoo. Weitz Investment Management, an investment management firm, released its \u201cLarge Cap Equity Fund\u201d first-quarter 2026 investor letter. A copy of the letter can be downloaded here. The Fund\u2019s Institutional Class returned -12.04% in the quarter, compared to -4.22% for the Bloomberg U.S. 1000 Index. Despite recent performance challenges, the Fund maintains a positive outlook on [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=37dd18b59713ef6537bab67d3c9f2d4e1b857b4a53323e9766f72fb19181870d",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_ASML_20260513_news4": {
+      "id": "ev_ASML_20260513_news4",
+      "kind": "news",
+      "title": "Why ASML (ASML) Remains a Key Bottleneck Play in the AI Chip Buildout",
+      "detail": "Reported by Yahoo. ASML Holding N.V. (NASDAQ:ASML) is one of the best AI enabler stocks to buy now. ASML Holding N.V. (NASDAQ:ASML) is one of the cleaner \u201cpicks and shovels\u201d names in AI because its machines sit upstream of the most advanced chips used in AI accelerators, high-bandwidth memory, and leading-edge processors. The latest signal came on April [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d4d6ace6c643ee339698166cc2b97f4939c4b46371e63b009ad0786f6fa22403",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_ASML_20260513_news5": {
+      "id": "ev_ASML_20260513_news5",
+      "kind": "news",
+      "title": "Apple Intel Foundry Talks Put ASML At Center Of Chip Shift",
+      "detail": "Reported by Yahoo. Apple and Intel are reported to be working on a foundry agreement that could trigger a multi billion euro order for ENXTAM:ASML lithography systems. The potential order focuses on next generation chip manufacturing capacity at a time when TSMC is delaying adoption of ASML's latest High-NA EUV systems. This development reinforces ASML's monopoly position in advanced lithography equipment as Western tech companies diversify their manufacturing partnerships. For readers tracking ENXTAM:ASML,...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c4f8474ec8b602dcdbfeb05346483b11e1e4f1023b39b541ab9987a971f666dd",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_ASML_20260513_news6": {
+      "id": "ev_ASML_20260513_news6",
+      "kind": "news",
+      "title": "Truly Unique AI Powerhouse Etches Buy Zone. Now Comes This Test.",
+      "detail": "Reported by Yahoo. ASML is the sole provider of EUV lithography machines vital to advanced AI chips from Nvidia and more. ASML stock is testing a breakout to a record high.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f8d2d6602688f3d5346ebcd6214debe885e97bf85b595e20be327d2ddbe25317",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_ASML_20260513_news7": {
+      "id": "ev_ASML_20260513_news7",
+      "kind": "news",
+      "title": "Nvidia Defies the Decline in Chip Stocks",
+      "detail": "Reported by Yahoo. Stocks of most chip companies were getting hit, besides Nvidia. Texas Instruments, Samsung Electronics, ASML stocks were all down more than 2%, while shares of Taiwan Semiconductor Manufacturing were down 1.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ffdb3d9649ca8a5e64e005c8e2367302ec25319fa54ef44e9481fcd7681ce878",
+      "occurred_on": "2026-05-12",
+      "numbers": {}
     },
     "ev_ASML_20260602_price": {
       "id": "ev_ASML_20260602_price",
@@ -1678,6 +1942,86 @@
         "relationship": "customer"
       }
     },
+    "ev_ASML_20260602_news0": {
+      "id": "ev_ASML_20260602_news0",
+      "kind": "news",
+      "title": "Nikon: The ASML Angle Has Limits",
+      "detail": "Reported by SeekingAlpha. Nikon (NINOF) pivots to lithography and 3D printing as FY2027 recovery begins. FY2026 marked a trough with significant losses. See more here.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=952969c8719af262c242049cd18cafa17a2f43d9dcdfe36f26070e8b9fb2093d",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_ASML_20260602_news1": {
+      "id": "ev_ASML_20260602_news1",
+      "kind": "news",
+      "title": "ASML And Tata Electronics Expand India Chip Ambitions And Investor Story",
+      "detail": "Reported by Yahoo. ASML Holding and Tata Electronics have agreed to collaborate on building India\u2019s first front end semiconductor fabrication plant. The project will use ASML\u2019s advanced lithography equipment to support local chip production in India. The partnership also focuses on workforce development and expanding the regional semiconductor supply chain. ASML Holding (ENXTAM:ASML), trading at about \u20ac1,384.8 per share, is a central player in high end chip production, and this move into India adds another...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=055438eeb6c83347af4d673cbf509000ba28aeb86576c80122c534ba3a8bd247",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_ASML_20260602_news2": {
+      "id": "ev_ASML_20260602_news2",
+      "kind": "news",
+      "title": "ASML reports transactions under its current share buyback program",
+      "detail": "Reported by Yahoo. ASML reports transactions under its current share buyback program VELDHOVEN, the Netherlands \u2013 ASML Holding N.V. (ASML) reports the following transactions, conducted under ASML's current share buyback program. DateTotal repurchased sharesWeighted average priceTotal repurchased value25-May-2611,118\u20ac1,427.62\u20ac15,872,23126-May-2611,303\u20ac1,404.22\u20ac15,871,90027-May-2611,337\u20ac1,400.05\u20ac15,872,37628-May-2611,489\u20ac1,381.49\u20ac15,871,98129-May-2611,320\u20ac1,402.12\u20ac15,872,014 ASML\u2019s current share buyback program was",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d69726881f97226a85ce66be844df18b7d1b2ef678d9097236695360dba619b9",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_ASML_20260602_news3": {
+      "id": "ev_ASML_20260602_news3",
+      "kind": "news",
+      "title": "ASML: What If The Semiconductor Market Matures In 2050?",
+      "detail": "Reported by SeekingAlpha. ASML stock analysis: lithography leadership, cyclical revenue, AI-driven growth, rising margins, and buybacks\u00e2\u0080\u0094see the long-term outlook and key risks now.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4e385781bb59dd376d5cca90dae34c3e51c628318a8fa9a682590ac2a223dfc9",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_ASML_20260602_news4": {
+      "id": "ev_ASML_20260602_news4",
+      "kind": "news",
+      "title": "ASML: I Called The Supercycle - Here's What Comes Next",
+      "detail": "Reported by SeekingAlpha. ASML has rebounded 152% from 2025 lows, driven by surging AI infrastructure demand and memory chip shortages. Learn why ASML stock is a hold.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2c0fcc9949e73042b503a924dcbff5fd0fde2c9a328de2f33619cc341dbe5ee3",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_ASML_20260602_news5": {
+      "id": "ev_ASML_20260602_news5",
+      "kind": "news",
+      "title": "ASML's Ride Won't Last Forever",
+      "detail": "Reported by SeekingAlpha. ASML Holding\u00e2\u0080\u0099s post-2025 surge prompts a partial share sale as a 44x forward P/E signals overvaluation. Read why ASML stock is a hold.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fa093da008fa8850edee2876a5ff44b9242c6795704c0214bd49691b9b3b3013",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_ASML_20260602_news6": {
+      "id": "ev_ASML_20260602_news6",
+      "kind": "news",
+      "title": "\u2018We\u2019re in the First or Second Inning\u2019 of AI Revolution, Says Top Analyst",
+      "detail": "Reported by Yahoo. Jordi Visser of Weiss Multi-Strategy Advisers is leaning hard into the AI buildout, telling Anthony Pompliano on The Pomp Podcast that \u201cthe AI generational situation is still in the first or second inning.\u201d Visser said he holds 15 to 20 international semiconductor and chemical companies in his AI thematic portfolio, naming ASML Holding (NASDAQ:ASML), Soitec, ... \u2018We\u2019re in the First or Second Inning\u2019 of AI Revolution, Says Top Analyst",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e14846f2992f2a565a3ee00ee42ed00cebf62df3a6ed2f32acbd28d21f69dfb3",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_ASML_20260602_news7": {
+      "id": "ev_ASML_20260602_news7",
+      "kind": "news",
+      "title": "Stock Indexes Post New Record Highs Amid AI Enthusiasm",
+      "detail": "Reported by Yahoo. The S&P 500 Index ($SPX ) (SPY ) on Tuesday closed up +0.13%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +0.45%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +0.48%. June E-mini S&P futures (ESM26 ) rose +0.14%, and June E-mini Nasdaq futures...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=96cb56dea8cd225ccd9fa9fa537bf8f06353dc30d772de14741f4d863c9c2f5f",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
     "ev_ASML_20260605_price": {
       "id": "ev_ASML_20260605_price",
       "kind": "price",
@@ -1722,6 +2066,86 @@
         "subject_pct_change": -6.585,
         "relationship": "customer"
       }
+    },
+    "ev_ASML_20260605_news0": {
+      "id": "ev_ASML_20260605_news0",
+      "kind": "news",
+      "title": "$1k in ASML Smashed The S&P at Every Milestone",
+      "detail": "Reported by Yahoo. Ten years ago, ASML (NASDAQ:ASML) was a respected Dutch equipment maker quietly perfecting a technology most investors had never heard of: extreme ultraviolet lithography. Today, it is the sole supplier of EUV machines required to print transistors smaller than 7 nanometers, and every cutting-edge chip from TSMC, Samsung, and Intel runs through its tools. The ... $1k in ASML Smashed The S&P at Every Milestone",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d0a0260483a8d6209c9d955c38f52e091ef62244cef50413cba4ea5b33bbac18",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_ASML_20260605_news1": {
+      "id": "ev_ASML_20260605_news1",
+      "kind": "news",
+      "title": "Here's How Much You Would Have Made Owning ASML Holding Stock In The Last 15 Years",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=65dbb673bef696c56d1d399f2308a2132effdcb991839fbc03d6ea9f907f0385",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_ASML_20260605_news2": {
+      "id": "ev_ASML_20260605_news2",
+      "kind": "news",
+      "title": "ASML CEO says EU Commission should not try to direct 'strategic projects'",
+      "detail": "Reported by Yahoo. The CEO of top European tech \u200cfirm ASML on Friday welcomed most \u200cproposals made by the EU Commission this week \u200bto improve Europe's tech sovereignty but cautioned against plans for its involvement in steering or monitoring \"strategic projects\" eligible for state \u200caid.  Such projects \"fundamentally \u2060need to respond to the needs of industry\" and are better \u2060off left to firms to propose, Christopher Fouquet said in a LinkedIn post.  Fouquet\u2019s remarks are among the first from a leading figure in European industry to the package, which is \u200cthe centrepiece of Brussels\u2019 \u200bplan to close the \u200bbloc\u2019s tec",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6584fc303073335db712f93a77efad3de3cdbb23cdf4383146b0bddea11f7b46",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_ASML_20260605_news3": {
+      "id": "ev_ASML_20260605_news3",
+      "kind": "news",
+      "title": "ASML, European Chip Stocks Slide, Tracking U.S. and Asian Peers",
+      "detail": "Reported by Yahoo. European chip stocks slide in early trade, tracking falls for tech stocks in Asia and the U.S. The semiconductor-heavy AEX index edged down 0.4%, as Europe's most valuable company ASML dropped 3.2%. Also in Amsterdam, ASM International and BE Semiconductor slid 4.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cda4e0b22908cdbeb4f05a7d595a2a0e427ad60a52dcdf6c2979af4a68d6029e",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
+    },
+    "ev_ASML_20260605_news4": {
+      "id": "ev_ASML_20260605_news4",
+      "kind": "news",
+      "title": "ASML Stock Is Hot, But Please Don\u2019t Go Too Overweight on Chip Stocks",
+      "detail": "Reported by Yahoo. ASML Holdings (ASML) is a global leader in advanced semiconductor manufacturing systems, recently reaching an all-time high of $1,743.27. ASML demonstrates robust technical momentum. Shares are up 133% over the past 52 weeks. Despite strong performance, some analysts consider ASML overvalued and suggest diversification via ETFs like the iShares Semiconductor...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7e6cf6047aa2cdbd9ec575ed2f7ad263c5170d1da88fa4dc0d495dd8c492fc6a",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_ASML_20260605_news5": {
+      "id": "ev_ASML_20260605_news5",
+      "kind": "news",
+      "title": "Assessing ASML Holding (ENXTAM:ASML) Valuation After Strong Short Term Share Price Momentum",
+      "detail": "Reported by Yahoo. Recent performance snapshot and context for ASML Holding With no single headline event driving ASML Holding (ENXTAM:ASML) today, attention is on how the stock\u2019s recent performance lines up with the company\u2019s size, profitability, and role in global semiconductor equipment. The stock is priced at \u20ac1,485.20, with a market value of about \u20ac571.5b. Recent returns show gains of 1.6% over the past day, 7.9% over the past week, and about 25% over the past month and past 3 months. See our latest...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=698727ba0250cee3344244b69cdecbdd1a24af898d374428e508176d078ad6e0",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_ASML_20260605_news6": {
+      "id": "ev_ASML_20260605_news6",
+      "kind": "news",
+      "title": "ASML Becomes Biggest Company in European History",
+      "detail": "Reported by Yahoo. A share price rally pushed ASML's market cap to $668 billion on Wednesday, beating a European record set by Novo Nordisk in June 2024.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b3a4a0a4a8947aea870f18f8352a49488961067c0e9b0f8c15dbb7aa50bd550b",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_ASML_20260605_news7": {
+      "id": "ev_ASML_20260605_news7",
+      "kind": "news",
+      "title": "'Elon Musk Will Pitch SpaceX's Terafab Chip Moonshot To Employees At Europe's Biggest Tech Company' - Business Insider",
+      "detail": "Reported by Benzinga. https://www.businessinsider.com/elon-musk-pitch-spacex-terafab-chip-moonshot-asml-employees-2026-6",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1a0e3f41eb3773b4333beb01da48d0c8d84c1186bcd69d07052371a1658961da",
+      "occurred_on": "2026-06-05",
+      "numbers": {}
     },
     "ev_ASML_20260611_price": {
       "id": "ev_ASML_20260611_price",
@@ -1768,6 +2192,86 @@
         "relationship": "customer"
       }
     },
+    "ev_ASML_20260611_news0": {
+      "id": "ev_ASML_20260611_news0",
+      "kind": "news",
+      "title": "Elon Musk addresses ASML employees on Terafab chip plant",
+      "detail": "Reported by Yahoo. Musk joined ASML's annual employee tech conference virtually as SpaceX prepares to go public in what would be the largest IPO on record",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3b5b90728c36e8bf17fcd28de81059458dc07704460a53a92f8d074e90a039e6",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_ASML_20260611_news1": {
+      "id": "ev_ASML_20260611_news1",
+      "kind": "news",
+      "title": "Why ASML Holding Stock Popped Today",
+      "detail": "Reported by Yahoo. Oracle is raising cash, and much of it may end up flowing to ASML.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b983f2fd9c67f6d5c0771ff18286f3d53e1fffaa6cb3603f6638968c784b94b5",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_ASML_20260611_news2": {
+      "id": "ev_ASML_20260611_news2",
+      "kind": "news",
+      "title": "Musk To Pitch Terafab Semiconductor Factory To ASML Ahead Of SpaceX IPO",
+      "detail": "Reported by Yahoo. Elon Musk will attend an ASML event on Thursday to discuss his plans for the Terafab semiconductor factory.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cf600bb0a25d50b1fc8dbbc2c9ae90480a2585ec9fddae108101b1189f69676e",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_ASML_20260611_news3": {
+      "id": "ev_ASML_20260611_news3",
+      "kind": "news",
+      "title": "Musk's Terafab Plans Put ASML In Investor Spotlight",
+      "detail": "Reported by Yahoo. Musk is expected to discuss a chip venture tied to Tesla, SpaceX, and ASML's lithography systems.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=35da2ac8b95d2321ff005786f84a4c4a6f4122ae705e1dd9f84174316322214b",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_ASML_20260611_news4": {
+      "id": "ev_ASML_20260611_news4",
+      "kind": "news",
+      "title": "Musk to Address ASML Event as SpaceX IPO Nears and Terafab Plans Advance (SPCX)",
+      "detail": "Reported by Yahoo. Elon Musk is set to make a virtual appearance at a technology event hosted by semiconductor equipment leader ASML on Thursday, where he is expected to discuss Terafab, his proposed large-scale semiconductor manufacturing project designed to supply chips for Tesla (NASDAQ:TSLA) and SpaceX (NASDAQ:SPCX). The appearance comes as investors await the pricing of SpaceX\u2019s initial public offering, which is expected later on Thursday and could become the largest IPO ever completed.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=eee9c469eaf0f22df4f56670148e353bb3aa065a53ec02b732b5260cea9de25d",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_ASML_20260611_news5": {
+      "id": "ev_ASML_20260611_news5",
+      "kind": "news",
+      "title": "Musk to speak at chip tool giant ASML event ahead of SpaceX IPO",
+      "detail": "Reported by Yahoo. Elon Musk is expected to appear virtually at an event by computer chip \u200cequipment giant ASML on Thursday to discuss Terafab, his \u200cplan for a massive chipmaking plant to supply Tesla and IPO-bound SpaceX.  The pricing of \u200bthe initial public offering of Musk's SpaceX, potentially the largest ever, is expected later on Thursday.  \"Musk will share his vision on AI, robotics, space, and semiconductor manufacturing,\" an ASML spokesperson said in a statement.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a6929b40f08e717906c039e2e7043883acc853a60967e7872875a2c2745aeebc",
+      "occurred_on": "2026-06-11",
+      "numbers": {}
+    },
+    "ev_ASML_20260611_news6": {
+      "id": "ev_ASML_20260611_news6",
+      "kind": "news",
+      "title": "ASML Surges 64%, Yet Trades At Cheapest Relative Valuation In A Decade",
+      "detail": "Reported by Yahoo. Investors question pricing power, tool adoption, and capacity growth despite ASML's central role in advanced chipmaking.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3aa3782cbc8f6e690a6af2fce58b13e5a68d01f6f2e6ea6092c1260741860e5d",
+      "occurred_on": "2026-06-10",
+      "numbers": {}
+    },
+    "ev_ASML_20260611_news7": {
+      "id": "ev_ASML_20260611_news7",
+      "kind": "news",
+      "title": "ASML Delays 1,700 Planned Job Cuts After Union Agreement",
+      "detail": "Reported by Yahoo. Employees affected by the restructuring could have until May 2027 to secure new roles.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4bcbff737555d5e1cf77dda9988867a002e3c04131751e0f0b13d4ac16ed59d4",
+      "occurred_on": "2026-06-10",
+      "numbers": {}
+    },
     "ev_ASML_20260618_price": {
       "id": "ev_ASML_20260618_price",
       "kind": "price",
@@ -1812,6 +2316,86 @@
         "subject_pct_change": 3.311,
         "relationship": "customer"
       }
+    },
+    "ev_ASML_20260618_news0": {
+      "id": "ev_ASML_20260618_news0",
+      "kind": "news",
+      "title": "ASML Holding N.V. (ASML) is Attracting Investor Attention: Here is What You Should Know",
+      "detail": "Reported by Yahoo. ASML (ASML) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=dd9c3a6a0c03be3cadb40645dcbf0f20e562988582bb7b5417893d62eced654f",
+      "occurred_on": "2026-06-18",
+      "numbers": {}
+    },
+    "ev_ASML_20260618_news1": {
+      "id": "ev_ASML_20260618_news1",
+      "kind": "news",
+      "title": "Here\u2019s Why ASML Holding N.V. (ASML) Is Among the Stocks with Best Earnings Growth for the Next 3 Years",
+      "detail": "Reported by Yahoo. ASML Holding N.V. (NASDAQ:ASML) is among the stocks with the best earnings growth for the next 3 years. On June 4, Barclays lifted the price target on ASML Holding N.V. (NASDAQ:ASML) to EUR 1,900 from EUR 1,575 and reaffirmed an Overweight rating. The analyst believes that the company\u2019s demand continues to expand, saying that hiring [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=558bba66eadb164d333f7834ff33c87a4b15993e8f17899d230155b4f324d3d1",
+      "occurred_on": "2026-06-18",
+      "numbers": {}
+    },
+    "ev_ASML_20260618_news2": {
+      "id": "ev_ASML_20260618_news2",
+      "kind": "news",
+      "title": "ASML CEO Flags Terafab Opportunity as AI Demand Stays Enormous",
+      "detail": "Reported by Yahoo. ASML says Musk's Terafab could be a major fab project, provided supply constraints are managed.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=670e1eaa71e8d08b9fe7b5bbafba341b9677741f349e064d3f6caab52a4bbb6d",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_ASML_20260618_news3": {
+      "id": "ev_ASML_20260618_news3",
+      "kind": "news",
+      "title": "Applied Materials, ASML, Lam Hit Record Highs, Lead Chip Gear Stocks Rally",
+      "detail": "Reported by Yahoo. Shares of several leading semiconductor equipment firms, including ASML, hit record highs on Wednesday.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c76089cd3ec3890d1c0da037471d099d07a9dbf1e683f92198f7f6b52a8e73a5",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_ASML_20260618_news4": {
+      "id": "ev_ASML_20260618_news4",
+      "kind": "news",
+      "title": "Why Is ASML Stock Up Again Today?",
+      "detail": "Reported by Yahoo. SpaceX is an AI company, and when AI companies do well, so does ASML.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a58c771f28672eedc2a80971a6fd5638846258337b200b6aebd473ae5f6d77af",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_ASML_20260618_news5": {
+      "id": "ev_ASML_20260618_news5",
+      "kind": "news",
+      "title": "Is ASML (ASML) The Best Undervalued AI Stock?",
+      "detail": "Reported by Yahoo. We just covered Billionaire Dan Loeb Pivots to AI and Sells Old Economy Stocks: His Top 7 AI Picks. ASML Holding (NASDAQ:ASML) ranks #6 (see Billionaire Dan Loeb\u2019s Top 5 AI Stock Picks). Billionaire Dan Loeb\u2019s Stake: 12,000 Shares Valued at Approximately $15.85 Million (NEW position) ASML Holding (NASDAQ:ASML) makes the machines used to print [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=24f533c5f31fc6c94d5bce94898f74d7164b34f4749fb4edb39937a7ef4f49fd",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_ASML_20260618_news6": {
+      "id": "ev_ASML_20260618_news6",
+      "kind": "news",
+      "title": "ASML hits 52-week high as Intel 18A-P enters risk production",
+      "detail": "Reported by Yahoo. The 18A-P node is an improvement on Intel\u2019s flagship 18A process, offering either 9% higher performance at the same power level or 18% lower power consumption at equivalent performance, along with 20\u201340% better thermal resistance. Crucially, Intel says the new node is fully design-rule compatible with 18A, meaning existing chip designs can migrate to 18A-P without modification, a feature that could meaningfully lower the barrier for prospective foundry customers.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ae938e62ce9b25258bd6c005e21ae7cec94e667bd3433a73cc0cc737662a6b24",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_ASML_20260618_news7": {
+      "id": "ev_ASML_20260618_news7",
+      "kind": "news",
+      "title": "ASML (NasdaqGS:ASML) Stock Is Back In Focus As Musk Eyes Its EUV Tools",
+      "detail": "Reported by Yahoo. Elon Musk has engaged with ASML Holding regarding access to its extreme ultraviolet lithography systems for the Terafab chipmaking initiative. The discussions focus on securing critical tools needed to produce advanced chips for AI focused data center and infrastructure build outs. ASML remains the only supplier of EUV machines, placing the company at the center of potential new AI chip capacity plans. ASML Holding (NasdaqGS:ASML) is drawing fresh attention as Musk explores its EUV...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6bbf1ff17c7143a9f6c68849c02e44e25e41bb530d3ae7cc6b515f965c5b0489",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
     },
     "ev_ASML_20260625_price": {
       "id": "ev_ASML_20260625_price",
@@ -1858,6 +2442,86 @@
         "relationship": "customer"
       }
     },
+    "ev_ASML_20260625_news0": {
+      "id": "ev_ASML_20260625_news0",
+      "kind": "news",
+      "title": "ASML Holding (ASML): The Best All-Time High Stock with Legs to Rally Further",
+      "detail": "Reported by Yahoo. ASML Holding N.V. (NASDAQ:ASML) is one of the 10 All-Time High Stocks with Legs to Rally Further. On June 22, 2026, BofA raised its price target on ASML Holding N.V. (NASDAQ:ASML) to $2,345 from $2,268 and maintained a Buy rating. The firm increased its calendar 2027 and 2028 EPS estimates by 1% and 5%, respectively, [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3218f9f092d3dce2c511b64566bad6b078bbf5f6cf28950c7d94baa70dfbaa5b",
+      "occurred_on": "2026-06-24",
+      "numbers": {}
+    },
+    "ev_ASML_20260625_news1": {
+      "id": "ev_ASML_20260625_news1",
+      "kind": "news",
+      "title": "ASML Holding N.V. (ASML) Is One Of Billionaire David Tepper\u2019s Longest Held AI Stocks",
+      "detail": "Reported by Yahoo. We recently published David Tepper Stock Portfolio: 10 Long-Term Stock Picks. ASML Holding N.V. (NASDAQ:ASML) is one of the long-term stock picks. ASML Holding N.V. (NASDAQ:ASML) is one of the most important firms in the world due to its ability to make advanced chip manufacturing machines. It has been present in Appaloosa Management\u2019s 13F holdings [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5538ab1983fbf3286cfc1ab51720dae3a364451ec9e2dca77aa176f85fdf3ccd",
+      "occurred_on": "2026-06-24",
+      "numbers": {}
+    },
+    "ev_ASML_20260625_news2": {
+      "id": "ev_ASML_20260625_news2",
+      "kind": "news",
+      "title": "ASML Faces New China Risk as 19% Sales Market Comes Under Pressure",
+      "detail": "Reported by Yahoo. Dutch officials are lobbying Washington against export curbs that could further restrict ASML equipment sales to China.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=091a9318e40fe39bf7dd7b871d065c297f2e108cdfafe42a68ef381eae66edde",
+      "occurred_on": "2026-06-24",
+      "numbers": {}
+    },
+    "ev_ASML_20260625_news3": {
+      "id": "ev_ASML_20260625_news3",
+      "kind": "news",
+      "title": "ASML: Peak Euphoria Risk Has Risen Sharply",
+      "detail": "Reported by SeekingAlpha. ASML Holding N.V. leads wafer fab equipment on strong EUV demand, but 45x forward P/E hints at peak sentiment. Click for this ASML stock update.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b25ddea267ca2f39dd991894e9f99af1c7fd07278d3a671cc8991807945810fb",
+      "occurred_on": "2026-06-24",
+      "numbers": {}
+    },
+    "ev_ASML_20260625_news4": {
+      "id": "ev_ASML_20260625_news4",
+      "kind": "news",
+      "title": "ASML\u2019s Chip Dominance Runs Into New Silicon Boundaries",
+      "detail": "Reported by Yahoo. ASML stock fell as China export-control risks grew, but AI chip demand, Western fab spending and EUV dominance still support its long-term case.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d6c5e1593aa9ec4236a8ea7ce68bdd9c841cd06f05a9fead723bfbee3b1fc6bb",
+      "occurred_on": "2026-06-24",
+      "numbers": {}
+    },
+    "ev_ASML_20260625_news5": {
+      "id": "ev_ASML_20260625_news5",
+      "kind": "news",
+      "title": "Reported Earlier: 'Netherlands Lobbies US to Drop Chip Curbs Targeting ASML Sales' - Bloomberg",
+      "detail": "Reported by Benzinga. https://www.bloomberg.com/news/articles/2026-06-24/netherlands-lobbies-us-to-drop-chip-curbs-targeting-asml-sales",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=22ff2b46d525fac9bf6041ffa81b123b2d08d9da0fced87417dbd1084269cf08",
+      "occurred_on": "2026-06-24",
+      "numbers": {}
+    },
+    "ev_ASML_20260625_news6": {
+      "id": "ev_ASML_20260625_news6",
+      "kind": "news",
+      "title": "Micron Earnings Could Decide Whether ASML's AI Boom Has Years Left To Run, Says Analyst",
+      "detail": "Reported by Benzinga. Shay Boloor said Micron&#39;s earnings could boost ASML if persistent AI-driven memory shortages support years of semiconductor spending.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8333bbd1a3354df98b42be0f00d9730c46f50516dad4c57bddb60387c7a3ff43",
+      "occurred_on": "2026-06-24",
+      "numbers": {}
+    },
+    "ev_ASML_20260625_news7": {
+      "id": "ev_ASML_20260625_news7",
+      "kind": "news",
+      "title": "ASML (ENXTAM:ASML) Faces New AI Supply Chain Rules As Dutch Join Pax Silica",
+      "detail": "Reported by Yahoo. The Netherlands has joined the Pax Silica group of U.S.-aligned countries to coordinate AI-related supply chains. This move comes while diplomatic tensions continue over export controls on ASML Holding's advanced equipment sales to China. The decision places ASML at the center of closer Western policy coordination on critical semiconductor and AI infrastructure. ASML Holding (ENXTAM:ASML) sits at the heart of high end chip manufacturing, which makes any policy shift around AI supply chains...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e29d1ae9177fe7bfc4d6c22725c13430527caee617e60ae4d7e1fe6649f64070",
+      "occurred_on": "2026-06-24",
+      "numbers": {}
+    },
     "ev_ASML_20260721_price": {
       "id": "ev_ASML_20260721_price",
       "kind": "price",
@@ -1902,6 +2566,86 @@
         "subject_pct_change": 3.593,
         "relationship": "customer"
       }
+    },
+    "ev_ASML_20260721_news0": {
+      "id": "ev_ASML_20260721_news0",
+      "kind": "news",
+      "title": "Why ASML Stock Jumped 86% in the First Half of 2026",
+      "detail": "Reported by Yahoo. ASML finally caught a tailwind from the AI boom.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ed0cc11123ea9c600d60503bf4d14a6ac370a2a392a6cc56a988bf538785f1d6",
+      "occurred_on": "2026-07-21",
+      "numbers": {}
+    },
+    "ev_ASML_20260721_news1": {
+      "id": "ev_ASML_20260721_news1",
+      "kind": "news",
+      "title": "Wedbush Believes Increased Guidance From ASML Bodes Well for SK Hynix. How to Play SKHY Stock Here.",
+      "detail": "Reported by Yahoo. Analysts believe the raised revenue outlook is good news for memory chipmakers.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=29876288241a78a09c3c1db0c88d2f76425dc6131c45e6542ddde2c590a8172d",
+      "occurred_on": "2026-07-21",
+      "numbers": {}
+    },
+    "ev_ASML_20260721_news2": {
+      "id": "ev_ASML_20260721_news2",
+      "kind": "news",
+      "title": "Micron Stock Is Near Bear-Market Territory. Here\u2019s Why ASML\u2019s Guidance Says Buy the Dip.",
+      "detail": "Reported by Yahoo. Micron shares have fallen sharply despite explosive growth in its data center and cloud memory businesses.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0def40dd4a6c2e8758f290f491592659ddc073077c7927a0f2fec3c743fd6ca1",
+      "occurred_on": "2026-07-21",
+      "numbers": {}
+    },
+    "ev_ASML_20260721_news3": {
+      "id": "ev_ASML_20260721_news3",
+      "kind": "news",
+      "title": "1 Massive Reason to Buy ASML Stock Following Its Blowout Earnings Report",
+      "detail": "Reported by Yahoo. ASML's results make it clear that the company is benefiting big time from the heavy investments in AI infrastructure.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5cb31bb7489643f18539715e6ef4543e023a9233ec1f8ab6c044109a4bfdaa31",
+      "occurred_on": "2026-07-21",
+      "numbers": {}
+    },
+    "ev_ASML_20260721_news4": {
+      "id": "ev_ASML_20260721_news4",
+      "kind": "news",
+      "title": "ASML's \u20ac13 Billion Memory Bet Isn't A Cycle - It's A Ratchet",
+      "detail": "Reported by SeekingAlpha. ASML Holding N.V. stock stays a Strong Buy after a 77% rally: strong Q2 results, higher 2026 guidance, and AI-driven EUV demand. Click for more on ASML.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e70e8bb719a58ab62a0af32873b98d586fd065b8bef563c9ee1c0e3d815ad600",
+      "occurred_on": "2026-07-21",
+      "numbers": {}
+    },
+    "ev_ASML_20260721_news5": {
+      "id": "ev_ASML_20260721_news5",
+      "kind": "news",
+      "title": "Is ASML Extremely Overvalued or a Bargain at 45x Forward Earnings?",
+      "detail": "Reported by Yahoo. In recent years, ASML Holding N.V. (NASDAQ:ASML), the exclusive supplier of commercial extreme ultraviolet (EUV) and High-NA lithography machines, has found itself at the center of geopolitical, technological, and financial pressures swirling around the world. The Netherlands-based corporation enjoys a monopoly on the systems required to build fast processors. This unique position, coupled with the [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a00eea58cf912410c4069d40640ec0d07c01dc5dda536047284400108af79dc3",
+      "occurred_on": "2026-07-20",
+      "numbers": {}
+    },
+    "ev_ASML_20260721_news6": {
+      "id": "ev_ASML_20260721_news6",
+      "kind": "news",
+      "title": "Chip giant ASML to offer \u20ac20,000 bonus to retain staff through 2030",
+      "detail": "Reported by Yahoo. Investing.com -- ASML Holding NV, the world\u2019s largest manufacturer of chip-making equipment, plans to provide employees with a \u20ac20,000 ($22,838) bonus to encourage them to stay with the company from 2027 through 2030.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=dfa56a67b79597d7d52938f04f9bbc23c236dd8009005e254408c71c3864c95a",
+      "occurred_on": "2026-07-20",
+      "numbers": {}
+    },
+    "ev_ASML_20260721_news7": {
+      "id": "ev_ASML_20260721_news7",
+      "kind": "news",
+      "title": "ASML to offer employees \u20ac20,000 retention bonus for staying in 2027-2030",
+      "detail": "Reported by Yahoo. ASML, the largest maker of equipment used to \u200cmanufacture computer chips, intends to offer \u200cemployees a bonus worth \u20ac20,000 ($22,838.00) if they remain with \u200bthe company between 2027 and 2030. The company confirmed the plan, first reported in Eindhovens Dagblad, on Monday in an emailed statement. ASML \u200csaid terms \u2060of the conditional stock grant from January 1, 2027 are still \u2060being finalized, but it would be offered to \"all eligible employees.\"",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=141bd0e78cfda2af362394ffd40311a14c2a64e808c70bd621ab3a465f7e6f86",
+      "occurred_on": "2026-07-20",
+      "numbers": {}
     },
     "ev_ASML_20260727_price": {
       "id": "ev_ASML_20260727_price",
@@ -1948,6 +2692,86 @@
         "relationship": "customer"
       }
     },
+    "ev_ASML_20260727_news0": {
+      "id": "ev_ASML_20260727_news0",
+      "kind": "news",
+      "title": "Dow Ends Higher On Support From Weak Oil, But AI Concerns Weigh On Nasdaq, S&P 500 \u2014 ASML, MSFT, NVDA, AMZN, PSKY In Focus",
+      "detail": "Reported by Yahoo. China has begun developing deep ultraviolet lithography machines used to build semiconductors, according to media reports.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1d9e152e8bfd7f2c6ff693f3b9c7c40ac059a9e59351b2b6e4a459aedae81410",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_ASML_20260727_news1": {
+      "id": "ev_ASML_20260727_news1",
+      "kind": "news",
+      "title": "ASML Stock Tumbles 6% As Investors Weigh China Risk \u2014 But Wall Street And Retail Investors Dismiss Selloff",
+      "detail": "Reported by Yahoo. A Shanghai-based company aims to supply tools to domestic chipmakers as China seeks greater semiconductor self-reliance, according to a report in The Information.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=db7725f022198954938c0c77cac44f423bc6c9813c2b6c2f8a92ad93f164021e",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_ASML_20260727_news2": {
+      "id": "ev_ASML_20260727_news2",
+      "kind": "news",
+      "title": "ASML Stock Falls on Reports of Chinese DUV Competition",
+      "detail": "Reported by Yahoo. ASML stock sinks on reports of rising Chinese DUV competition. Here\u2019s why ASML shares are worth buying on the dip.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3f9126131473300621e4a887087e52b1417f37b58db3446baa1486523c1984b8",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_ASML_20260727_news3": {
+      "id": "ev_ASML_20260727_news3",
+      "kind": "news",
+      "title": "Can ASML Holding (ENXTAM:ASML) Justify Its Valuation On China DUV Competition?",
+      "detail": "Reported by Yahoo. ASML Holding (ENXTAM:ASML) dropped sharply after reports that a state backed Chinese company has begun mass producing immersion deep ultraviolet lithography tools. This development raises questions about future demand for ASML\u2019s older generation DUV systems in China. See our latest analysis for ASML Holding. At around \u20ac1,429.8, ASML Holding\u2019s share price has fallen 8.52% over the last day and 9.40% over the past month. However, the 90 day share price return of 22.02% and 1 year total...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=51588fc78766b3394390f51f13465f80f6bd8cfa779ece0ee2a0a044a284ad6b",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_ASML_20260727_news4": {
+      "id": "ev_ASML_20260727_news4",
+      "kind": "news",
+      "title": "Why ASML Holdings Plunged Today",
+      "detail": "Reported by Yahoo. Rumors of a new China-made DUV system caused a sell-off of the high-flying semiconductor king.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fc912ff86692a278c38e537d94b1575bfd2ab5b2058adc07469dba770fbb6f86",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_ASML_20260727_news5": {
+      "id": "ev_ASML_20260727_news5",
+      "kind": "news",
+      "title": "Why J.P. Morgan Says the ASML Stock Selloff Is \u2018Disproportionate\u2019",
+      "detail": "Reported by Yahoo. The company still holds a significant edge in production capabilities compared with Chinese counterparts, an analyst says.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e6891f4a72a56bfe00f95ff30a8eef029383c42483d0f32bcb57e0288cb2e436",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_ASML_20260727_news6": {
+      "id": "ev_ASML_20260727_news6",
+      "kind": "news",
+      "title": "CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, and More Stocks That Explain Today\u2019s Market",
+      "detail": "Reported by Yahoo. FEATURE  Chip stocks were selling off and weighing on major indexes following reports that a state-backed Chinese company has begun mass producing chip-making machines.  Those same semiconductor companies, and many artificial-intelligence names, also were under pressure Monday after Chinese memory chip maker ChangXin Memory Technologies \u2019(CXMT) massive trading debut.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fb4e0e67202d63abf3bf672c37570cee1e18fa07cd890ee77d878b44d7dd0ad1",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_ASML_20260727_news7": {
+      "id": "ev_ASML_20260727_news7",
+      "kind": "news",
+      "title": "Why Is ASML Stock Falling Today?",
+      "detail": "Reported by Yahoo. According to a report by The Information, a Chinese state-backed firm has started producing one of the semiconductor industry's most critical manufacturing tools and plans to deliver the systems to domestic chipmakers.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=282c0ded8a809333e272ea9a801e5050aa748db922aeedd9df6edba06409e3ff",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
     "ev_ASML_20260730_price": {
       "id": "ev_ASML_20260730_price",
       "kind": "price",
@@ -1992,6 +2816,86 @@
         "subject_pct_change": 6.497,
         "relationship": "customer"
       }
+    },
+    "ev_ASML_20260730_news0": {
+      "id": "ev_ASML_20260730_news0",
+      "kind": "news",
+      "title": "ASML and 21 More Stocks to Consider Buying Out of the AI Wreckage",
+      "detail": "Reported by Yahoo. It\u2019s a vibes market and it doesn\u2019t matter how good earnings or guidance is for many companies, writes Mizuho analyst Jordan Klein.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b8639cecaafb02a66d1464db7a809916cb8b2de031c0f5a0195e38ecd253516d",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_ASML_20260730_news1": {
+      "id": "ev_ASML_20260730_news1",
+      "kind": "news",
+      "title": "ASML Stock Rebounds 6.8% as China Threat Looks Less Immediate",
+      "detail": "Reported by Yahoo. ASML's technological lead and plans for 30% more advanced DUV capacity may limit China's near-term competitive impact.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a6ebc75a06875306b6a54f757bfee497357be140acec1e7c2452596f5154a823",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_ASML_20260730_news2": {
+      "id": "ev_ASML_20260730_news2",
+      "kind": "news",
+      "title": "ASML, Lam Research, and a Ton of Other Stocks to Buy Right Now",
+      "detail": "Reported by Yahoo. It\u2019s a vibes market and it doesn\u2019t matter how good earnings or guidance is for many companies, writes Mizuho analyst Jordan Klein.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e3c388fdd010112fb0ced8fa811f809c0c11fde2239fcc53370a1f3400476ad9",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_ASML_20260730_news3": {
+      "id": "ev_ASML_20260730_news3",
+      "kind": "news",
+      "title": "ASML vs. TSM: Which AI Chip Stock Is the Better Buy Now?",
+      "detail": "Reported by Yahoo. Taiwan Semiconductor has an edge over ASML on valuation, price gains and analyst sentiment even as both benefit from rising AI-chip demand.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=23f777cdc405cb3930d85861f0febb3d30d4399f12a8c573e7fd71a2edbb4113",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_ASML_20260730_news4": {
+      "id": "ev_ASML_20260730_news4",
+      "kind": "news",
+      "title": "ASML's EUV Machines Are Becoming More Valuable Than Ever. Here's Why.",
+      "detail": "Reported by Yahoo. The Dutch semiconductor equipment maker has unmatched pricing power.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1f2f17e1626f99f3ccae2aa1245467ef5a3a2cf9e39c17e2efcfd7d618d35f3b",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_ASML_20260730_news5": {
+      "id": "ev_ASML_20260730_news5",
+      "kind": "news",
+      "title": "ASML Holding (ASML) Looks Fully Valued After A 12% Pullback",
+      "detail": "Reported by Yahoo. ASML Holding (NasdaqGS:ASML) has drawn investor attention after recent share price pressure, with the stock down about 12% over the past month and 12% over the past 3 months. That short term weakness contrasts with its longer term returns. See our latest analysis for ASML Holding. The recent 1 day share price decline of 4.37% and 7 day fall of 12.13% add to the 30 day drop of 11.79%, yet ASML Holding still shows stronger momentum over longer horizons, with a 36.02% year to date share price...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9bbfc051c40fbf6660e88634f2046fc00e52bc68e20c295598fd531a7f9644ec",
+      "occurred_on": "2026-07-29",
+      "numbers": {}
+    },
+    "ev_ASML_20260730_news6": {
+      "id": "ev_ASML_20260730_news6",
+      "kind": "news",
+      "title": "Has ASML Holding (ENXTAM:ASML) Priced In Too Much AI Demand?",
+      "detail": "Reported by Yahoo. ASML Holding has delivered a 124.3% share price gain over the past year, yet its broader valuation checks still lean cautious, which leaves investors weighing a strong track record of returns against a stock that does not screen as a straightforward bargain. Over the last 12 months ASML Holding is up 124.3%, which puts fresh focus on whether recent enthusiasm is already reflected in the share price. Strong demand linked to advanced chipmaking tools and AI related spending can support...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=63e2e0e4d2ea27e98f1378e94cc4762200f77904ab1549d22ce0f42d77775a06",
+      "occurred_on": "2026-07-29",
+      "numbers": {}
+    },
+    "ev_ASML_20260730_news7": {
+      "id": "ev_ASML_20260730_news7",
+      "kind": "news",
+      "title": "Threat Out of China Creeps Up on ASML: Is the Dip in the Stock Worth Buying?",
+      "detail": "Reported by Yahoo. ASML shares fell after it was reported that a Chinese company is set to ship homegrown DUV machines.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ce1668b0481c5b5317ab968a935bd5a76f00c20e49e82a076fe334291feff499",
+      "occurred_on": "2026-07-29",
+      "numbers": {}
     },
     "ev_ASML_20260918_price": {
       "id": "ev_ASML_20260918_price",
@@ -2051,26 +2955,6 @@
     "ev_ASML_20260918_news1": {
       "id": "ev_ASML_20260918_news1",
       "kind": "news",
-      "title": "2 Stocks Breaking Out Post-FOMC With One Thing in Common",
-      "detail": "Reported by Yahoo. AMD shares rose more than 6% and Intel surged nearly 8% on Thursday, Sept. 18, after the Fed's rate decision, as investors rotated back into AI-chip stocks beyond NVIDIA.",
-      "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=721e5bb8ae02e9759b3c5918718bbe29d889da6d9bc9f5d7118c0a2bc0e4e851",
-      "occurred_on": "2026-09-18",
-      "numbers": {}
-    },
-    "ev_ASML_20260918_news2": {
-      "id": "ev_ASML_20260918_news2",
-      "kind": "news",
-      "title": "Eisman Says Buy Micron And SK Hynix. \u201cIn This Knife Fight You Want To Be The One Selling The Knives\u201d",
-      "detail": "Reported by Yahoo. Steve Eisman thinks the real winners of the AI arms race are not the chip designers everyone is fighting over but the suppliers equipping both sides of the battle. Five stocks have already lapped Nvidia in 2026, and Eisman ranks them by who survives if the whole AI ecosystem cracks.",
-      "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=41937090b1ce9c149b104eac41a6437685222983f3c3dc7e86d4a4af88d840ff",
-      "occurred_on": "2026-09-18",
-      "numbers": {}
-    },
-    "ev_ASML_20260918_news3": {
-      "id": "ev_ASML_20260918_news3",
-      "kind": "news",
       "title": "ASML Rides on Strength in Installed Base Business: Will it Sustain?",
       "detail": "Reported by Yahoo. ASML's Installed Base Management sales surge 31.8%, fueled by upgrades and a growing EUV fleet, but sustaining growth hinges on customer demand.",
       "source": "Yahoo (via Finnhub company news)",
@@ -2078,8 +2962,8 @@
       "occurred_on": "2026-09-18",
       "numbers": {}
     },
-    "ev_ASML_20260918_news4": {
-      "id": "ev_ASML_20260918_news4",
+    "ev_ASML_20260918_news2": {
+      "id": "ev_ASML_20260918_news2",
       "kind": "news",
       "title": "Forget the AI Bubble: VanEck\u2019s Nick Frasse Explains How MU, SK Hynix, ASML, and TSMC Control the Pace of 'Token Factories'",
       "detail": "Reported by Benzinga. VanEck\u2019s Nick Frasse breaks down AI bottlenecks, &#39;token factories&#39;, and why MU, SK Hynix, ASML, and TSMC control the data center buildout.",
@@ -2088,8 +2972,8 @@
       "occurred_on": "2026-09-18",
       "numbers": {}
     },
-    "ev_ASML_20260918_news5": {
-      "id": "ev_ASML_20260918_news5",
+    "ev_ASML_20260918_news3": {
+      "id": "ev_ASML_20260918_news3",
       "kind": "news",
       "title": "ASML Gains 1.5% as 110 EUV Machines Test Assembly Speed",
       "detail": "Reported by Yahoo. AI demand has moved ASML's constraint from customer interest to manufacturing throughput.",
@@ -2098,8 +2982,8 @@
       "occurred_on": "2026-09-17",
       "numbers": {}
     },
-    "ev_ASML_20260918_news6": {
-      "id": "ev_ASML_20260918_news6",
+    "ev_ASML_20260918_news4": {
+      "id": "ev_ASML_20260918_news4",
       "kind": "news",
       "title": "Chasing ASML\u2019s Dominance: Canon and Nikon Are Doing Something The Market Misses",
       "detail": "Reported by Yahoo. ASML just dominated another quarter, but Canon and Nikon are quietly carving out a position in chip manufacturing that Wall Street's models barely account for, and one memory giant is already betting on it.",
@@ -2108,13 +2992,33 @@
       "occurred_on": "2026-09-17",
       "numbers": {}
     },
-    "ev_ASML_20260918_news7": {
-      "id": "ev_ASML_20260918_news7",
+    "ev_ASML_20260918_news5": {
+      "id": "ev_ASML_20260918_news5",
       "kind": "news",
       "title": "ASML Holding N.V. (ASML) is Attracting Investor Attention: Here is What You Should Know",
       "detail": "Reported by Yahoo. Zacks.com users have recently been watching ASML (ASML) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
       "source": "Yahoo (via Finnhub company news)",
       "url": "https://finnhub.io/api/news?id=7fee8f6d3f9edb0248a6c1eb6f1d4572cd4637e77971de4dc6c30e8faecf622d",
+      "occurred_on": "2026-09-17",
+      "numbers": {}
+    },
+    "ev_ASML_20260918_news6": {
+      "id": "ev_ASML_20260918_news6",
+      "kind": "news",
+      "title": "ASML Showcases Holistic Lithography Solutions At SEMICON India 2026 To Support Growing Local Semiconductor Ecosystem",
+      "detail": "Reported by Benzinga. ASML, one of the world&#39;s leading semiconductor equipment manufacturing companies, is showcasing its holistic lithography solutions at SEMICON India and reaffirms its support for customers and collaboration with",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5027dd2384182dd8d9db7e1420dd9eb302ff4c234c262f43a1d8f955ba1fc24a",
+      "occurred_on": "2026-09-17",
+      "numbers": {}
+    },
+    "ev_ASML_20260918_news7": {
+      "id": "ev_ASML_20260918_news7",
+      "kind": "news",
+      "title": "Samsung Electronics (KOSE:A005930) Deepens AI Push In Chip Manufacturing",
+      "detail": "Reported by Yahoo. Samsung Electronics (KOSE:A005930) agreed a new collaboration with Mistral AI to deploy advanced on-premises AI models in chip manufacturing. The company expanded its partnership with ASML to include High NA EUV lithography for future memory and logic production lines. Samsung plans to use these AI and High NA EUV tools to support precision, security and efficiency in its semiconductor operations. The expanded AI work with Mistral AI and the closer ASML High NA EUV collaboration deserves...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bcbd6356a63021d910807b3a857e3383cd19a79e2d87eeb6d712bd4c3fa5ff83",
       "occurred_on": "2026-09-17",
       "numbers": {}
     },
@@ -2149,16 +3053,19 @@
       }
     }
   },
-  "arc": "Between April and September 2026, ASML experienced substantial appreciation, lifting from $1317.23 in early April to $1679.92 by mid-September despite sharp cyclical swings. Throughout June and July, the stock exhibited intense volatility that closely mirrored synchronous double-digit and mid-single-digit swings at its key EUV lithography customers, Intel and TSMC, rather than company-specific announcements. By September, company-specific drivers came to the forefront, highlighted by a 31.8% growth rate in Installed Base Management revenues and high manufacturing throughput demands on 110 EUV units to support AI infrastructure buildouts.",
+  "arc": "From April through September 2026, ASML experienced strong price appreciation from $1317.23 to $1679.92, reaching highs above $1900.00 along the way. The primary catalyst driving the rally was massive global demand for advanced EUV and High-NA lithography tools to support artificial intelligence chip manufacturing, reinforced by raised 2026 guidance, expanded partnerships in India, and potential multi-billion euro foundry projects like Terafab. These gains faced repeated friction from geopolitical and competitive headwinds, notably US export restriction proposals and emerging Chinese competition in older-generation DUV tools. However, strong installed base management and an irreplaceable monopoly over extreme ultraviolet lithography consistently helped the stock absorb these drawdowns.",
   "arc_citation_ids": [
     "ev_ASML_20260402_price",
-    "ev_ASML_20260605_price",
-    "ev_ASML_20260611_price",
-    "ev_ASML_20260727_price",
-    "ev_ASML_20260730_price",
+    "ev_ASML_20260402_news4",
+    "ev_ASML_20260416_news5",
+    "ev_ASML_20260602_news1",
+    "ev_ASML_20260611_news4",
+    "ev_ASML_20260618_price",
+    "ev_ASML_20260721_news4",
+    "ev_ASML_20260727_news1",
+    "ev_ASML_20260730_news1",
     "ev_ASML_20260918_price",
-    "ev_ASML_20260918_news3",
-    "ev_ASML_20260918_news5"
+    "ev_ASML_20260918_news1"
   ],
   "warnings": []
 }

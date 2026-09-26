@@ -1,7 +1,7 @@
 {
   "symbol": "TSM",
   "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
-  "generated_at": "2026-09-26T12:37:46.712871+00:00",
+  "generated_at": "2026-09-26T12:48:02.859132+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,15 +1320,15 @@
       "pct_change": -6.223,
       "close": 326.11,
       "direction": "down",
-      "headline": "TSM drops 6.2% alongside chip peers",
-      "explanation": "TSM fell 6.22% on 1.5 times average volume following a 6-K filing the prior day. The decline was broadly shared across connected semiconductor companies, with supplier ASML down 4.62% and customers AMD and INTC sliding 7.49% and 6.53%, respectively.",
-      "confidence": "medium",
+      "headline": "TSM drops 6.2% on broad chip selloff",
+      "explanation": "TSM fell 6.22% to $326.11 on 1.5 times its average volume. The decline was shared across the semiconductor sector amid macroeconomic pressures and Middle East tensions, with customer AMD down 7.49%, customer and competitor INTC falling 6.53%, and supplier ASML dropping 4.62%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_TSM_20260326_price",
-        "ev_TSM_20260326_filing_000104617926000126",
-        "ev_TSM_20260326_peer_ASML",
         "ev_TSM_20260326_peer_AMD",
-        "ev_TSM_20260326_peer_INTC"
+        "ev_TSM_20260326_peer_INTC",
+        "ev_TSM_20260326_peer_ASML",
+        "ev_TSM_20260326_news4"
       ]
     },
     {
@@ -1336,14 +1336,15 @@
       "pct_change": 6.777,
       "close": 337.95,
       "direction": "up",
-      "headline": "TSM gains 6.8% in broad semiconductor rally",
-      "explanation": "TSM rose 6.78% to close at $337.95 on 1.9 times normal trading volume. No company-specific news was provided, and the move was shared across its ecosystem as supplier ASML gained 5.33% while customers INTC and NVDA climbed 7.14% and 5.59%.",
-      "confidence": "low",
+      "headline": "TSM gains 6.8% on Japan factory nod and rally",
+      "explanation": "TSM advanced 6.78% to close at $337.95 on 1.9 times normal volume after winning approval for a $5.26 billion 3nm chip plant in Japan. The rise coincided with a broader semiconductor relief rally as supplier ASML gained 5.33% and customer NVDA rose 5.59%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_TSM_20260331_price",
+        "ev_TSM_20260331_news0",
         "ev_TSM_20260331_peer_ASML",
-        "ev_TSM_20260331_peer_INTC",
-        "ev_TSM_20260331_peer_NVDA"
+        "ev_TSM_20260331_peer_NVDA",
+        "ev_TSM_20260331_news7"
       ]
     },
     {
@@ -1351,17 +1352,16 @@
       "pct_change": -3.132,
       "close": 363.35,
       "direction": "down",
-      "headline": "TSM falls 3.1% following annual filing",
-      "explanation": "TSM declined 3.13% to $363.35 on heavy volume of 2.7 times the 30-day average after releasing two 6-K reports and its annual 20-F filing. The move was company-specific, as customer and competitor INTC rose 5.48% and customer AMD gained 7.80%, though supplier ASML dropped 4.79%.",
+      "headline": "TSM dips 3.1% despite record Q1 results",
+      "explanation": "TSM fell 3.13% to $363.35 on heavy volume of 2.72 times the average following the release of its Q1 financial results. Even though the company reported record revenue, 66.2% margins, and strong Q2 guidance, the pullback was company-specific as customers like AMD gained 7.80% and customer and competitor INTC rose 5.48%.",
       "confidence": "high",
       "citation_ids": [
         "ev_TSM_20260416_price",
-        "ev_TSM_20260416_filing_000162828026025362",
-        "ev_TSM_20260416_filing_000104617926000201",
-        "ev_TSM_20260416_filing_000104617926000199",
-        "ev_TSM_20260416_peer_INTC",
+        "ev_TSM_20260416_news1",
+        "ev_TSM_20260416_news2",
+        "ev_TSM_20260416_news5",
         "ev_TSM_20260416_peer_AMD",
-        "ev_TSM_20260416_peer_ASML"
+        "ev_TSM_20260416_peer_INTC"
       ]
     },
     {
@@ -1369,14 +1369,15 @@
       "pct_change": 5.26,
       "close": 387.44,
       "direction": "up",
-      "headline": "TSM rises 5.3% as key customers advance",
-      "explanation": "TSM climbed 5.26% to $387.44 on 1.7 times its 30-day average volume with no company-specific filings. The advance aligned with gains among major customers, including AMD rising 6.67% and AVGO up 5.09%, while supplier ASML dipped 1.05%.",
-      "confidence": "low",
+      "headline": "TSM climbs 5.3% as analysts raise targets",
+      "explanation": "TSM rose 5.26% to $387.44 on 1.68 times normal volume as Barclays raised its price target from $450 to $470 and reports highlighted strong AI order flows. Several major customers gained in tandem, with AMD rising 6.67% and AVGO up 5.09%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_TSM_20260422_price",
+        "ev_TSM_20260422_news1",
+        "ev_TSM_20260422_news6",
         "ev_TSM_20260422_peer_AMD",
-        "ev_TSM_20260422_peer_AVGO",
-        "ev_TSM_20260422_peer_ASML"
+        "ev_TSM_20260422_peer_AVGO"
       ]
     },
     {
@@ -1384,14 +1385,16 @@
       "pct_change": 5.174,
       "close": 402.46,
       "direction": "up",
-      "headline": "TSM adds 5.2% following 6-K filing",
-      "explanation": "TSM gained 5.17% to close at $402.46 on 2.2 times average volume after filing a 6-K. The upward momentum was shared across the sector, with customer QCOM surging 11.12% and customer and competitor INTC jumping 23.60%.",
-      "confidence": "medium",
+      "headline": "TSM reaches $402.46 on regulatory flow and EUV news",
+      "explanation": "TSM gained 5.17% to $402.46 on 2.22 times average volume as regulators raised institutional holding caps and reports emerged that TSM will delay adoption of costly High-NA EUV tools to preserve margins. The strength occurred alongside massive customer rallies, including customer and competitor INTC jumping 23.60% and customer AMD advancing 13.91%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_TSM_20260424_price",
-        "ev_TSM_20260424_filing_000104617926000205",
-        "ev_TSM_20260424_peer_QCOM",
-        "ev_TSM_20260424_peer_INTC"
+        "ev_TSM_20260424_news2",
+        "ev_TSM_20260424_news3",
+        "ev_TSM_20260424_news4",
+        "ev_TSM_20260424_peer_INTC",
+        "ev_TSM_20260424_peer_AMD"
       ]
     },
     {
@@ -1399,16 +1402,15 @@
       "pct_change": 4.482,
       "close": 417.72,
       "direction": "up",
-      "headline": "TSM gains 4.5% after dual 6-K reports",
-      "explanation": "TSM rose 4.48% to $417.72 on 1.9 times normal volume following two 6-K filings submitted two days earlier. Performance across its network was mixed, with customer AVGO up 5.52% while customer QCOM slid 6.14% and customer and competitor INTC fell 3.62%.",
-      "confidence": "medium",
+      "headline": "TSM rises 4.5% on $1.5T 2030 industry projection",
+      "explanation": "TSM gained 4.48% to close at $417.72 on 1.91 times normal volume after forecasting that AI demand would drive the semiconductor industry to $1.5 trillion by 2030. The move was largely company-specific against mixed customer peers, though customers AVGO and NVDA advanced 5.52% and 4.39% respectively.",
+      "confidence": "high",
       "citation_ids": [
         "ev_TSM_20260514_price",
-        "ev_TSM_20260514_filing_000104617926000275",
-        "ev_TSM_20260514_filing_000104617926000274",
+        "ev_TSM_20260514_news0",
+        "ev_TSM_20260514_news1",
         "ev_TSM_20260514_peer_AVGO",
-        "ev_TSM_20260514_peer_QCOM",
-        "ev_TSM_20260514_peer_INTC"
+        "ev_TSM_20260514_peer_NVDA"
       ]
     },
     {
@@ -1416,13 +1418,15 @@
       "pct_change": 4.106,
       "close": 435.63,
       "direction": "up",
-      "headline": "TSM gains 4.1% despite mixed customer moves",
-      "explanation": "TSM climbed 4.11% to $435.63 on 1.9 times 30-day average volume without any company-specific news. The advance was largely company-specific, as customer NVDA advanced 6.26% but customers AAPL and QCOM dropped 1.84% and 8.78%, respectively.",
-      "confidence": "low",
+      "headline": "TSM adds 4.1% on 3nm price hike reports",
+      "explanation": "TSM rose 4.11% to $435.63 on 1.86 times average volume amid reports of a planned 15% price increase for 3nm chips in 2026 and an expanded manufacturing collaboration with customer NVDA. Customer NVDA gained 6.26%, while other connected peers such as customer QCOM fell 8.78% and customer and competitor INTC fell 4.67%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_TSM_20260601_price",
+        "ev_TSM_20260601_news1",
+        "ev_TSM_20260601_news3",
         "ev_TSM_20260601_peer_NVDA",
-        "ev_TSM_20260601_peer_AAPL",
+        "ev_TSM_20260601_peer_INTC",
         "ev_TSM_20260601_peer_QCOM"
       ]
     },
@@ -1431,12 +1435,13 @@
       "pct_change": 6.935,
       "close": 462.12,
       "direction": "up",
-      "headline": "TSM surges 6.9% in broad semiconductor rally",
-      "explanation": "TSM rose 6.93% to $462.12 on elevated trading volume of 2.7 times its 30-day average. The gain was part of an industry-wide rise, with supplier ASML moving up 3.31% and customers INTC and QCOM advancing 10.64% and 6.17%, respectively.",
-      "confidence": "low",
+      "headline": "TSM surges 6.9% on U.S. packaging deal and earnings optimism",
+      "explanation": "TSM shares rose 6.93% to $462.12 on 2.66 times average volume following news of a massive U.S. chip packaging partnership with Amkor Technology. The move was shared across the sector, with customer and competitor INTC jumping 10.64% and customer QCOM gaining 6.17%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_TSM_20260618_price",
-        "ev_TSM_20260618_peer_ASML",
+        "ev_TSM_20260618_news0",
+        "ev_TSM_20260618_news5",
         "ev_TSM_20260618_peer_INTC",
         "ev_TSM_20260618_peer_QCOM"
       ]
@@ -1446,14 +1451,14 @@
       "pct_change": 5.262,
       "close": 455.1,
       "direction": "up",
-      "headline": "TSM advances 5.3% with supplier ASML",
-      "explanation": "TSM gained 5.26% to close at $455.10 on 1.5 times average volume with no new company disclosures. The move was shared with supplier ASML, which rose 4.93%, and customer AMD, which gained 3.43%, while customer AAPL was down 0.72%.",
-      "confidence": "low",
+      "headline": "TSM rebounds 5.3% amid broader semi optimism",
+      "explanation": "TSM rose 5.26% to $455.10 on 1.53 times average volume alongside positive sentiment regarding multi-year AI semiconductor infrastructure demand. The move was shared by several peers, including supplier ASML rising 4.93% and customer AMD climbing 3.43%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_TSM_20260629_price",
+        "ev_TSM_20260629_news1",
         "ev_TSM_20260629_peer_ASML",
-        "ev_TSM_20260629_peer_AMD",
-        "ev_TSM_20260629_peer_AAPL"
+        "ev_TSM_20260629_peer_AMD"
       ]
     },
     {
@@ -1461,13 +1466,14 @@
       "pct_change": -6.981,
       "close": 444.23,
       "direction": "down",
-      "headline": "TSM slides 7.0% alongside peers and suppliers",
-      "explanation": "TSM fell 6.98% to $444.23 on 1.9 times normal volume in the absence of fresh company announcements. The drop mirrored wide losses across its network, including supplier ASML sliding 7.36% and customers INTC and AMD dropping 9.03% and 6.89%.",
-      "confidence": "low",
+      "headline": "TSM drops 7.0% in broad tech sector pullback",
+      "explanation": "TSM fell 6.98% to $444.23 on 1.91 times average volume during a broad tech rotation out of semiconductor leaders. The drop was shared by key partners, with customer and competitor INTC down 9.03%, supplier ASML down 7.36%, and customer AMD falling 6.89%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_TSM_20260701_price",
-        "ev_TSM_20260701_peer_ASML",
+        "ev_TSM_20260701_news0",
         "ev_TSM_20260701_peer_INTC",
+        "ev_TSM_20260701_peer_ASML",
         "ev_TSM_20260701_peer_AMD"
       ]
     },
@@ -1476,14 +1482,15 @@
       "pct_change": 5.546,
       "close": 424.61,
       "direction": "up",
-      "headline": "TSM rebounds 5.5% with semiconductor peers",
-      "explanation": "TSM gained 5.55% to finish at $424.61 on 1.9 times average volume without company filings. Connected firms rallied alongside it, including customer and competitor INTC rising 8.64%, customer AMD up 8.11%, and supplier ASML climbing 3.59%.",
-      "confidence": "low",
+      "headline": "TSM rises 5.5% on planned 2027 foundry price hikes",
+      "explanation": "TSM advanced 5.55% to $424.61 on 1.87 times average volume following reports that it plans to raise chipmaking prices by up to 10% in 2027. Connected peers moved higher in tandem, led by customer and competitor INTC up 8.64% and customer AMD up 8.11%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_TSM_20260721_price",
+        "ev_TSM_20260721_news1",
+        "ev_TSM_20260721_news2",
         "ev_TSM_20260721_peer_INTC",
-        "ev_TSM_20260721_peer_AMD",
-        "ev_TSM_20260721_peer_ASML"
+        "ev_TSM_20260721_peer_AMD"
       ]
     },
     {
@@ -1491,14 +1498,15 @@
       "pct_change": 7.644,
       "close": 403.31,
       "direction": "up",
-      "headline": "TSM gains 7.6% alongside AMD and Intel",
-      "explanation": "TSM jumped 7.64% to $403.31 on 1.8 times 30-day average volume with no company-specific updates provided. The upward surge was shared across major supply chain partners, as supplier ASML rose 6.50% while customers AMD and INTC jumped 13.00% and 11.30%.",
-      "confidence": "low",
+      "headline": "TSM jumps 7.6% on AI packaging tech report",
+      "explanation": "TSM rose 7.64% to $403.31 on 1.8 times normal volume following reports that it developed new advanced AI chip packaging technology to counter competition. The gain was shared widely across the industry, with customer AMD gaining 13.00% and customer and competitor INTC rising 11.30%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_TSM_20260730_price",
-        "ev_TSM_20260730_peer_ASML",
+        "ev_TSM_20260730_news1",
         "ev_TSM_20260730_peer_AMD",
-        "ev_TSM_20260730_peer_INTC"
+        "ev_TSM_20260730_peer_INTC",
+        "ev_TSM_20260730_peer_ASML"
       ]
     }
   ],
@@ -1642,6 +1650,86 @@
       "occurred_on": "2026-03-25",
       "numbers": {}
     },
+    "ev_TSM_20260326_news0": {
+      "id": "ev_TSM_20260326_news0",
+      "kind": "news",
+      "title": "Tracking Philippe Laffont's $40B Coatue Management Portfolio - Q4 2025 Update",
+      "detail": "Reported by SeekingAlpha. Coatue Management's Q4 2025 13F portfolio declined to $39.96B, with GOOGL, TSM, MSFT, META, and AMZN comprising ~32% of holdings. View the full analysis here.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=461a3e1a84cdb0ea849dac716dfa6f82a26da04e32d28eafc086789c5712de41",
+      "occurred_on": "2026-03-26",
+      "numbers": {}
+    },
+    "ev_TSM_20260326_news1": {
+      "id": "ev_TSM_20260326_news1",
+      "kind": "news",
+      "title": "Virtus SGA Global Growth Fund: Q4 2025 Buys, Sells, And Standouts",
+      "detail": "Reported by SeekingAlpha. Virtus SGA's Q4 report highlights gains in Alphabet and TSMC alongside shifts in Microsoft and MercadoLibre. Read the full analysis for more details.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=05b8817579c1b53f8518bc9415f131a859b0f212d8cdd41f7978320587610054",
+      "occurred_on": "2026-03-26",
+      "numbers": {}
+    },
+    "ev_TSM_20260326_news2": {
+      "id": "ev_TSM_20260326_news2",
+      "kind": "news",
+      "title": "Cathie Wood Going Cold On Big Tech? Ark Sells Nvidia, AMD, Meta And Google Stock \u2014 AI Darlings Get The Dump",
+      "detail": "Reported by Benzinga. Cathie Wood dumps tens of millions in major holdings spanning AI and big on Thursday, March 26, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d3eb207ca68507d5484dd2f1ac5f61be4279bc02e66fef599e09d89c91bd5b06",
+      "occurred_on": "2026-03-26",
+      "numbers": {}
+    },
+    "ev_TSM_20260326_news3": {
+      "id": "ev_TSM_20260326_news3",
+      "kind": "news",
+      "title": "Nvidia: The Market Stopped Believing",
+      "detail": "Reported by SeekingAlpha. NVIDIA is still growing at an extraordinary rate, but the stock has gone nowhere for six months. Learn why NVDA is a Buy.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d78b30145008bcbe17b3b128bb475f32580481637ffe3460fc59170274efea28",
+      "occurred_on": "2026-03-26",
+      "numbers": {}
+    },
+    "ev_TSM_20260326_news4": {
+      "id": "ev_TSM_20260326_news4",
+      "kind": "news",
+      "title": "Shares of semiconductor companies are trading lower amid overall market weakness stemming from the Middle East conflict, with global demand for compute capacity under threat from inflation and borrowing costs.",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f7943675fffbf48664ac102cb2129e3a2ef0f0697fca1020fc598e23844f39b0",
+      "occurred_on": "2026-03-26",
+      "numbers": {}
+    },
+    "ev_TSM_20260326_news5": {
+      "id": "ev_TSM_20260326_news5",
+      "kind": "news",
+      "title": "Apple Taps Bosch, TDK For US iPhone Parts As Domestic Spending Surges",
+      "detail": "Reported by Benzinga. Apple (AAPL) is expanding its U.S. manufacturing with Bosch, TDK and Cirrus Logic. Discover how a $600B commitment is bringing iPhone sensor production to America.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e6f5e49b823fe2f445420bd481bac9ae36acd4026591993a111b53c3b8abac89",
+      "occurred_on": "2026-03-26",
+      "numbers": {}
+    },
+    "ev_TSM_20260326_news6": {
+      "id": "ev_TSM_20260326_news6",
+      "kind": "news",
+      "title": "Virtus SGA International Growth Q4 2025 Portfolio Activity And Performance",
+      "detail": "Reported by SeekingAlpha. Fast Retailing was a top contributor during the quarter, driven by strong execution across its global operations.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=546660a64c66f51b88c3f5fe9de0a8dcdc0f565566c95fa6abd1944f96c2164a",
+      "occurred_on": "2026-03-26",
+      "numbers": {}
+    },
+    "ev_TSM_20260326_news7": {
+      "id": "ev_TSM_20260326_news7",
+      "kind": "news",
+      "title": "The State Of AI Infrastructure: Demand, Costs, And Custom Silicon",
+      "detail": "Reported by SeekingAlpha. Global growth in data center systems investment has accelerated from 5% at an annual rate in the 10 years ended 2022 to 30% in the last 3 years.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=da0f23027d9291ae1fc8c0665115887168159ba4a29464b4db91a5f1e9010c67",
+      "occurred_on": "2026-03-26",
+      "numbers": {}
+    },
     "ev_TSM_20260331_price": {
       "id": "ev_TSM_20260331_price",
       "kind": "price",
@@ -1770,6 +1858,86 @@
         "subject_pct_change": 6.777,
         "relationship": "customer"
       }
+    },
+    "ev_TSM_20260331_news0": {
+      "id": "ev_TSM_20260331_news0",
+      "kind": "news",
+      "title": "Taiwan Semiconductor Wins Approval For Ultra-Efficient AI Chip Mega-Factory In Japan",
+      "detail": "Reported by Benzinga. TSMC (TSM) secured approval to bring its advanced 3nm chip process to Japan. Discover how this $5.26B investment is shifting the AI supply chain away from Taiwan.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=73d7d4a7aa083ed695fc1081e303909e9b2f76d94287886985d5ba0d31e3124b",
+      "occurred_on": "2026-03-31",
+      "numbers": {}
+    },
+    "ev_TSM_20260331_news1": {
+      "id": "ev_TSM_20260331_news1",
+      "kind": "news",
+      "title": "TSMC's Supply Squeeze Through 2028 Could Be This Chipmaker's Big Break As AI Demand From Nvidia, Apple Surges",
+      "detail": "Reported by Benzinga. Samsung benefit from a 2nm supply crunch at TSMC, as surging demand from firms like Nvidia position it as the only viable alternative.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3a677a56d7974a5d4bc6ec749c368ee90ebe45bed8f42b18a8c520061c179ecd",
+      "occurred_on": "2026-03-31",
+      "numbers": {}
+    },
+    "ev_TSM_20260331_news2": {
+      "id": "ev_TSM_20260331_news2",
+      "kind": "news",
+      "title": "Taiwan Semiconductor shares are trading lower. A Form 4 filing showed its Vice President Lin Shyue-Shyh purchased 2,000 shares at an average price of $55.63.",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=785480475463eacd39aac304e60b3bd0ee2ebefb1b9cc2cd470177db4481ff8c",
+      "occurred_on": "2026-03-30",
+      "numbers": {}
+    },
+    "ev_TSM_20260331_news3": {
+      "id": "ev_TSM_20260331_news3",
+      "kind": "news",
+      "title": "Taiwan Semiconductor Anchors Explosive $320 Billion Chip Boom In 2025",
+      "detail": "Reported by Benzinga. Taiwan Semiconductor leads a $320B AI chip boom, anchoring the new &#34;Foundry 2.0&#34; era in global chip manufacturing.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=dbfeac0a366e491a488f3190fae05cd18c6fdbc8a1e392f837fc3646f70fe04e",
+      "occurred_on": "2026-03-30",
+      "numbers": {}
+    },
+    "ev_TSM_20260331_news4": {
+      "id": "ev_TSM_20260331_news4",
+      "kind": "news",
+      "title": "Why Nvidia And Tesla Are Suddenly Knocking On Samsung's Door",
+      "detail": "Reported by Benzinga. As TSMC capacity sells out through 2028, Samsung Foundry emerges as a vital second source for Nvidia and Tesla&#39;s 2nm chip needs.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=256e8362474a7cfec44f02e53e7dd35e310f025dc0545c9af74fb384bf30e106",
+      "occurred_on": "2026-03-30",
+      "numbers": {}
+    },
+    "ev_TSM_20260331_news5": {
+      "id": "ev_TSM_20260331_news5",
+      "kind": "news",
+      "title": "Lam Research: Poised For Growth, Looking Past Short-Term Turbulence",
+      "detail": "Reported by SeekingAlpha. Lam Research stands as a critical enabler in the AI-driven semiconductor boom. Click here to find out why I rate LRCX stock a Buy.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d6d02a46ea880ece5002fbede7cb9b7109828826804723b44eb269c504cf1a27",
+      "occurred_on": "2026-03-31",
+      "numbers": {}
+    },
+    "ev_TSM_20260331_news6": {
+      "id": "ev_TSM_20260331_news6",
+      "kind": "news",
+      "title": "The Cure For FOMO With Tech Contrarians",
+      "detail": "Reported by SeekingAlpha. Sara Awad from Tech Contrarians\u00c2\u00a0explains tech dynamics, geopolitical factors and increased investor scrutiny.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fd6312b8b9a89df49d936c712ddbb4c07e41605a2c06459b92d587ac4165d22b",
+      "occurred_on": "2026-03-31",
+      "numbers": {}
+    },
+    "ev_TSM_20260331_news7": {
+      "id": "ev_TSM_20260331_news7",
+      "kind": "news",
+      "title": "Tech Stocks Rise On Iran De-Escalation Hopes",
+      "detail": "Reported by Benzinga. Market sentiment lifts as Trump hints at de-escalation with Iran. U.S. tech and chip sectors jump 2-3% in a broad Tuesday recovery.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d23370aa52709b8cf9a6f8c3851e7d8e3226fe55c17b48a17c2143f6a5c90e01",
+      "occurred_on": "2026-03-31",
+      "numbers": {}
     },
     "ev_TSM_20260416_price": {
       "id": "ev_TSM_20260416_price",
@@ -1930,6 +2098,86 @@
       "occurred_on": "2026-04-16",
       "numbers": {}
     },
+    "ev_TSM_20260416_news0": {
+      "id": "ev_TSM_20260416_news0",
+      "kind": "news",
+      "title": "AMD Rips Higher As TSMC's Blowout Guide Lights Up The Stock",
+      "detail": "Reported by Benzinga. AMD stock is ripping higher following TSMC&#39;s blowout report and a price target raise from Bernstein.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fcebab073f1e59226af14873282fd416b5d91b2412a88824e74a8a9dd37e6093",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_TSM_20260416_news1": {
+      "id": "ev_TSM_20260416_news1",
+      "kind": "news",
+      "title": "Taiwan Semiconductor Manufacturing shares are trading lower. The company reported its Q1 financial results.",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c04aefa658347a8a1b48de626553c198106fc3c84613676b41df570201f998bd",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_TSM_20260416_news2": {
+      "id": "ev_TSM_20260416_news2",
+      "kind": "news",
+      "title": "TSMC: The Ultimate AI Growth Engine",
+      "detail": "Reported by SeekingAlpha. TSMC posted record Q1 \u00e2\u0080\u009926 revenue and 66.2% margins as AI data center demand surges. Click for this updated look at TSM stock following the latest earnings.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ef6d5dc23e955f628bc33a707f93c3a9147b4637382cf3cfc8f40c27bb08bcee",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_TSM_20260416_news3": {
+      "id": "ev_TSM_20260416_news3",
+      "kind": "news",
+      "title": "Stock Market Today: Futures Climb After Record Day For S&P 500, Nasdaq On Growing Hopes Of Iran Deal\u2014 Allbirds, TSMC, PepsiCo In Focus (UPDATED)",
+      "detail": "Reported by Benzinga. (Editor\u2019s note: The future prices of benchmark tracking ETFs, the economic data and the headline were updated in the story.)",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=641b9c55234357ffac2ac6274bf08e796395c434c3a98963289a8c2fd04dc6ba",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_TSM_20260416_news4": {
+      "id": "ev_TSM_20260416_news4",
+      "kind": "news",
+      "title": "Taiwan Semiconductor: Exceptional Business, Stretched Valuation",
+      "detail": "Reported by SeekingAlpha. Taiwan Semiconductor reported their Q1 2026 financials today, which beat on both lines, underscoring strong momentum. See why TSM stock is a hold.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=43a464b0e14f6da5fdf84e2d5d13bc7548565f227c6ac58e4bce3d1ab92ca252",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_TSM_20260416_news5": {
+      "id": "ev_TSM_20260416_news5",
+      "kind": "news",
+      "title": "NVIDIA Supplier Taiwan Semiconductor Is Winning The AI Chip War \u2014 And The CEO Just Told Intel, Tesla Why",
+      "detail": "Reported by Benzinga. Taiwan Semiconductor forecasts Q2 revenue up to $40.2B, surpassing analyst goals. The chip giant sees a multi-year AI growth cycle.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a2e9c7bda787cc11df533fbe5dba38e54204a18beb7e071b62708047c5bd051d",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_TSM_20260416_news6": {
+      "id": "ev_TSM_20260416_news6",
+      "kind": "news",
+      "title": "UPDATE: AI demand drives chipmaker TSMC's net profit to fresh record",
+      "detail": "Reported by Fintel.",
+      "source": "Fintel (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=02c59f5218bb5fb0947c369ad48a17a7268a9c3a2b7e1bd40aba49bccc6cdb00",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_TSM_20260416_news7": {
+      "id": "ev_TSM_20260416_news7",
+      "kind": "news",
+      "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM) Q1 2026 Earnings Call Transcript",
+      "detail": "Reported by SeekingAlpha. Taiwan Semiconductor Manufacturing Company Limited (TSM) Q1 2026 Earnings Call April 16, 2026 2:00 AM EDTCompany ParticipantsJeff Su - Director of Investor...",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f0da65f1370bbe8282adb1a5b3c4bc328edc09a72a2cdc36dfcffe157b1213a3",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
     "ev_TSM_20260422_price": {
       "id": "ev_TSM_20260422_price",
       "kind": "price",
@@ -2058,6 +2306,86 @@
         "subject_pct_change": 5.26,
         "relationship": "customer"
       }
+    },
+    "ev_TSM_20260422_news0": {
+      "id": "ev_TSM_20260422_news0",
+      "kind": "news",
+      "title": "Watching Taiwan Semiconductor Manufacturing; Hearing Investor Business Daily SwingTrader Buys Stock",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c40972f88a0e3e53ff75b83ac165547f24dce13af7affd4fa8d4a1578982f784",
+      "occurred_on": "2026-04-22",
+      "numbers": {}
+    },
+    "ev_TSM_20260422_news1": {
+      "id": "ev_TSM_20260422_news1",
+      "kind": "news",
+      "title": "Barclays Maintains Overweight on Taiwan Semiconductor, Raises Price Target to $470",
+      "detail": "Reported by Benzinga. Barclays  analyst Simon Coles   maintains Taiwan Semiconductor (NYSE:TSM) with a Overweight and raises the price target from $450 to $470.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6406194bf8096792a6e10c7753af3d8ce4b0b6ef26edf572cc90151aec7869dc",
+      "occurred_on": "2026-04-22",
+      "numbers": {}
+    },
+    "ev_TSM_20260422_news2": {
+      "id": "ev_TSM_20260422_news2",
+      "kind": "news",
+      "title": "Taiwan Semiconductor: The AI Boom Is Broadening, And That Matters",
+      "detail": "Reported by SeekingAlpha. TSM stock is up 60% since a Buy call. See revenue/EPS growth, discounted FWD PEG vs peers, and why its value still looks strong\u00e2\u0080\u0094read now.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e22bd6671a4ee695daa57c1af1f11894ad0c3f02e0f28b77810f0d880bad0b2f",
+      "occurred_on": "2026-04-22",
+      "numbers": {}
+    },
+    "ev_TSM_20260422_news3": {
+      "id": "ev_TSM_20260422_news3",
+      "kind": "news",
+      "title": "This House of Representative Just Bought Up To $15K In Taiwan Semiconductor Stock",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0854ffd3813f9dd3ceb7f766a07a63a67d92999ac7faff416f4ead60645ab8a2",
+      "occurred_on": "2026-04-21",
+      "numbers": {}
+    },
+    "ev_TSM_20260422_news4": {
+      "id": "ev_TSM_20260422_news4",
+      "kind": "news",
+      "title": "TSMC: The Market Is Pricing A Foundry Like A Cyclical. It Is Not One.",
+      "detail": "Reported by SeekingAlpha. TSMC stock analysis: AI foundry dominance, 3nm growth and Q1 revenue surge.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6e573ee2789c48f9a4a2f21a220655670a3c5114a510e034ed991d62180a1318",
+      "occurred_on": "2026-04-21",
+      "numbers": {}
+    },
+    "ev_TSM_20260422_news5": {
+      "id": "ev_TSM_20260422_news5",
+      "kind": "news",
+      "title": "Taiwan Semiconductor Expands At Full Speed To Feed The AI Gold Rush",
+      "detail": "Reported by Benzinga. Facing massive AI demand, Taiwan Semiconductor plans a $56B expansion. Can TSM meet the supply gap? Read the latest on its global strategy.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=786e75903b338797c0d76652024c3717197a9710d8dd1cfc62a089b936045590",
+      "occurred_on": "2026-04-21",
+      "numbers": {}
+    },
+    "ev_TSM_20260422_news6": {
+      "id": "ev_TSM_20260422_news6",
+      "kind": "news",
+      "title": "Order Flows Show Continued Strength In Technology and Semiconductor Sectors",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=371329396a8686251a7c117aa4f9c785c468982ea39f9fd0e46bcf92447794de",
+      "occurred_on": "2026-04-22",
+      "numbers": {}
+    },
+    "ev_TSM_20260422_news7": {
+      "id": "ev_TSM_20260422_news7",
+      "kind": "news",
+      "title": "Alger Focus Equity Fund Q1 2026 Portfolio Update",
+      "detail": "Reported by SeekingAlpha. Class A shares of the Alger Focus Equity Fund outperformed the Russell 1000 Growth Index during the first quarter of 2026. Read more here.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c5411f4571273074ebaa7c06e4c7b5f7718a19166634e82f681e52d8fb13dd3c",
+      "occurred_on": "2026-04-22",
+      "numbers": {}
     },
     "ev_TSM_20260424_price": {
       "id": "ev_TSM_20260424_price",
@@ -2195,6 +2523,86 @@
       "detail": "6-K",
       "source": "SEC EDGAR",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000205/tsm-monthend6kx20260424.htm",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_TSM_20260424_news0": {
+      "id": "ev_TSM_20260424_news0",
+      "kind": "news",
+      "title": "TSMC: The Vital Cog Of The AI Revolution Is Sending A Powerful Growth Signal",
+      "detail": "Reported by SeekingAlpha. Buy Taiwan Semiconductor Manufacturing Company Limited: strong Q1 growth, record margins & AI-driven demand. Click here to find out why TSM is a Buy.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f88bfd21c32ba915a6af2c09125b693d2fbdafacc6503588573e9b98903a9fe5",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_TSM_20260424_news1": {
+      "id": "ev_TSM_20260424_news1",
+      "kind": "news",
+      "title": "TSMC Q1 Earnings Call: What It Means For SMH",
+      "detail": "Reported by SeekingAlpha. TSMC reported record Q1 2026 revenue of $35.9B, up 40.6% year over year, with net income surging 58.3%.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4861b27187eb945c7d16ae49d657960c12c3ae8c29470ddc7b7b02949a15ac48",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_TSM_20260424_news2": {
+      "id": "ev_TSM_20260424_news2",
+      "kind": "news",
+      "title": "Taiwan Semiconductor Stock Hits 52-Week High - Here's Why",
+      "detail": "Reported by Benzinga. Taiwan Semiconductor (TSM) surges to record highs as regulators raise holding caps. Get the latest analysis on inflows and outlook.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c3b7daf3a3621799c7e53af29b40966d443d9af45c10f973a7daae1e4f96a2cd",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_TSM_20260424_news3": {
+      "id": "ev_TSM_20260424_news3",
+      "kind": "news",
+      "title": "Taiwan Semiconductor Snub Wipes $16 Billion Off ASML",
+      "detail": "Reported by Benzinga. ASML shares fall after TSMC delays adoption of High-NA EUV machines. Analysts weigh in on demand impact and the stock&#39;s technical outlook.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=49abaf92011a82441bb089fc326fa272878afe0cfd233681faaf1ca603f256fe",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_TSM_20260424_news4": {
+      "id": "ev_TSM_20260424_news4",
+      "kind": "news",
+      "title": "Taiwan Semiconductor Sees No Immediate Need For ASML's Priciest Gear",
+      "detail": "Reported by Benzinga. Taiwan Semiconductor advances A13 roadmap, scales AI packaging, and maintains cost discipline by leveraging existing EUV tools",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4c5e4414b88891d8fa5ea72afeac16450e3a5e10be2f3999032d89fe54dcea2e",
+      "occurred_on": "2026-04-23",
+      "numbers": {}
+    },
+    "ev_TSM_20260424_news5": {
+      "id": "ev_TSM_20260424_news5",
+      "kind": "news",
+      "title": "Taiwan Semi Shares Rise Over 3% After Key Trading Signal",
+      "detail": "Reported by Benzinga. A key trading signal flashed for Taiwan Semi shares at a price of $395.74, after which TSM rose over 3% to an intraday high.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=05a3d5ab8ab3b511c3b77eb2a9b5225ba6887c9c6fbe667d7c5a30cd32c89218",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_TSM_20260424_news6": {
+      "id": "ev_TSM_20260424_news6",
+      "kind": "news",
+      "title": "10 Information Technology Stocks Whale Activity In Today's Session",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=92e92e6d22b6169c62d0a696e2cf4b30252df0d2dbc3d8b3e686a88e472148fe",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_TSM_20260424_news7": {
+      "id": "ev_TSM_20260424_news7",
+      "kind": "news",
+      "title": "Intel, Micron, AMD: 5 Dot-Com-Era Red Flags Just Reappeared In The Market",
+      "detail": "Reported by Benzinga. Five semiconductor signals just fired together for the first time since the dot-com bubble. Every stock on the list is already above consensus targets.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=75c0544c20c4998683d3e29bbf487261b52926eeddcfb5e51c11b23fdd06758f",
       "occurred_on": "2026-04-24",
       "numbers": {}
     },
@@ -2347,6 +2755,86 @@
       "occurred_on": "2026-05-12",
       "numbers": {}
     },
+    "ev_TSM_20260514_news0": {
+      "id": "ev_TSM_20260514_news0",
+      "kind": "news",
+      "title": "AI Replaces Smartphones As Chip Industry's Biggest Growth Machine: Taiwan Semiconductor",
+      "detail": "Reported by Benzinga. Taiwan Semiconductor predicts AI will drive the semiconductor market to $1.5T by 2030, overtaking smartphones as the primary growth engine.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e86f1735977c0ec0914cb23f77fa7fbd7b33d90632030dd334bab4ea940ebcb6",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_TSM_20260514_news1": {
+      "id": "ev_TSM_20260514_news1",
+      "kind": "news",
+      "title": "Taiwan Semiconductor Sees Global Chip Market Hitting $1.5 Trillion By 2030 Amid AI Boom",
+      "detail": "Reported by Benzinga. Taiwan Semiconductor raised its long-term market outlook to $1.5 trillion by 2030 as surging AI demand drives massive chip manufacturing.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4012fc5f7d0fc27cf1b847283e7073737b4b62f68ea98355e69ba7e1ebac8acd",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_TSM_20260514_news2": {
+      "id": "ev_TSM_20260514_news2",
+      "kind": "news",
+      "title": "If You Invested $100 In Taiwan Semiconductor Stock 10 Years Ago, You Would Have This Much Today",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5947011d93cd49ca3f0dadba002bf7442eeb3e1d04d995e7fa39bc5c3aa20b0c",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_TSM_20260514_news3": {
+      "id": "ev_TSM_20260514_news3",
+      "kind": "news",
+      "title": "Taiwan Semiconductor Pumps Billions Into Next-Gen Chips, Arizona Growth And Bigger Payouts",
+      "detail": "Reported by Benzinga. Taiwan Semiconductor accelerates AI production with $31.28B in new spending. Explore global expansion and $20B boost to Arizona operations.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=45d9e51674d485440f234a0b33a876b70e1e5f4a274134907cd4aaf0a9fa72eb",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_TSM_20260514_news4": {
+      "id": "ev_TSM_20260514_news4",
+      "kind": "news",
+      "title": "Shares of companies within the broader tech sector are trading lower amid overall market weakness stemming from the Middle East conflict.",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d7ab25720fd914b2aab211f3e02ea17f5e99718c891d527bee358d3eb35b1d97",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_TSM_20260514_news5": {
+      "id": "ev_TSM_20260514_news5",
+      "kind": "news",
+      "title": "Cerebras CEO Warns US Chip Manufacturing Catch-Up Could Take 15 Years",
+      "detail": "Reported by Benzinga. Nvidia rival Cerebras (CBRS) goes public at $185/share. CEO Andrew Feldman says the IPO will fund the next phase of massive AI expansion.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a6b9cf900e68aa73e53993e3f6e13e6606a2acbc1e11e948f365529f85df17ad",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_TSM_20260514_news6": {
+      "id": "ev_TSM_20260514_news6",
+      "kind": "news",
+      "title": "Why Is Intel Stock Falling Thursday?",
+      "detail": "Reported by Benzinga. Intel (INTC) shares fall as investors take profits, but a new Apple foundry deal and domestic expansion signal massive long-term growth.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8f5ac1956bc12d543c230eda327caf4edafe306ed1b4c1c602218b256bc7ec1d",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_TSM_20260514_news7": {
+      "id": "ev_TSM_20260514_news7",
+      "kind": "news",
+      "title": "Analysts Say Agentic AI Will Power One-Third Of Smartphones Within Two Years",
+      "detail": "Reported by Benzinga. Qualcomm and MediaTek battle for Agentic AI dominance. See how the Dimensity 9400 and Snapdragon 8 Elite are reshaping the premium market.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3fd571e69f20574497aa77c871464d8c941be514ddedd6cbff24dc11a68473c9",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
     "ev_TSM_20260601_price": {
       "id": "ev_TSM_20260601_price",
       "kind": "price",
@@ -2475,6 +2963,86 @@
         "subject_pct_change": 4.106,
         "relationship": "customer"
       }
+    },
+    "ev_TSM_20260601_news0": {
+      "id": "ev_TSM_20260601_news0",
+      "kind": "news",
+      "title": "Hyperscalers Are Trying To Replace Nvidia's GPUs - TSMC Gets The Upside Either Way",
+      "detail": "Reported by SeekingAlpha. TSMC stock outlook: AI chip race boosts demand as Google, Nvidia, AMD & Intel drive orders. Read the full analysis here.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3783867596100064d80db35e3ba4cbb1119baf0973012bb0e29711e5e8baf19b",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_TSM_20260601_news1": {
+      "id": "ev_TSM_20260601_news1",
+      "kind": "news",
+      "title": "TSMC's Price Hike Is Bad For Nvidia Margins \u2014 And Potentially Great For Nvidia Stock",
+      "detail": "Reported by Benzinga. TSMC is reportedly considering a 15% increase in 3nm chip prices in 2026 and a further hike in 2027. While higher costs could pressure Nvidia margins, the move may signal AI demand remains stronger than supply.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=483638a4766bdbccc491a46b1a9eb9572b319d728fa006bb78e775ee258193f3",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_TSM_20260601_news2": {
+      "id": "ev_TSM_20260601_news2",
+      "kind": "news",
+      "title": "What's Going On With Taiwan Semiconductor Stock Monday?",
+      "detail": "Reported by Benzinga. Taiwan Semiconductor maintains a strong bullish trend, trading well above its 200-day SMA. Check out the key technical levels.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c4110566b3cf68ceb988d3e3e113194d699a6b0dafee78b7a845eb940ab16d8f",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_TSM_20260601_news3": {
+      "id": "ev_TSM_20260601_news3",
+      "kind": "news",
+      "title": "TSMC Uses NVIDIA AI Technology to Speed Up Chip Design and Manufacturing",
+      "detail": "Reported by Benzinga. NVIDIA GTC Taipei -- NVIDIA today announced that TSMC, the world&#39;s leading semiconductor company, is using NVIDIA accelerated computing and AI to advance semiconductor design and manufacturing.As chips move to more",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=30ca252a731914eeb4ecf9aa11e6b5847b0ae3b6796f3797837f496322fd7f92",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_TSM_20260601_news4": {
+      "id": "ev_TSM_20260601_news4",
+      "kind": "news",
+      "title": "Assessing Taiwan Semiconductor Manufacturing\u2019s Valuation After Strong Recent Share Price Momentum",
+      "detail": "Reported by Yahoo. TSMC\u2019s recent performance snapshot Taiwan Semiconductor Manufacturing (NYSE:TSM) has quietly posted sizable gains over the past year, with the stock up 5.2% over the past month and 13.4% over the past 3 months, while one day performance has been weaker. See our latest analysis for Taiwan Semiconductor Manufacturing. The share price is now at US$418.45. Despite a 1 day decline of 1.51%, the 30 day share price return of 5.23% and year to date share price return of 30.93% sit alongside a very...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=36971408ad0fb6242d8635bd931023f4481bf6a8a9bc0eb8fe8cc3f6a64645c0",
+      "occurred_on": "2026-05-31",
+      "numbers": {}
+    },
+    "ev_TSM_20260601_news5": {
+      "id": "ev_TSM_20260601_news5",
+      "kind": "news",
+      "title": "Nvidia's AI PC Chip Unveiling Spotlights 3 Stock Beneficiaries And Structural Risk For Intel",
+      "detail": "Reported by Benzinga. Nvidia&#39;s RTX Spark AI PC chip targets Intel and AMD. Here&#39;s how investors should position around Dell, TSMC, MediaTek, and Microsoft.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8314c9d0f5f7e97281adc365b91f26798f735124af8d510b63de51404822e790",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_TSM_20260601_news6": {
+      "id": "ev_TSM_20260601_news6",
+      "kind": "news",
+      "title": "Wolfe Research sees AI workloads expanding CPU market by 30% through 2028",
+      "detail": "Reported by Yahoo. AI expected to drive a new phase of CPU demandWolfe Research believes the rise of agentic artificial intelligence and orchestration computing will create a significant expansion in processor demand, projecting that the total addressable CPU market will grow by approximately 30% by 2028. The firm argues that access to manufacturing capacity at Taiwan Semiconductor Manufacturing Company is likely to be a more important factor in determining competitive success than raw chip performance over the ne",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bfc7d413af83d9c17582901e139e031e7bab22b7d6ec0587926a360552db7554",
+      "occurred_on": "2026-05-31",
+      "numbers": {}
+    },
+    "ev_TSM_20260601_news7": {
+      "id": "ev_TSM_20260601_news7",
+      "kind": "news",
+      "title": "CDT May 2026 - 1999 Called, They Want Their Stock Market Back",
+      "detail": "Reported by SeekingAlpha. The pre-2026 AI phenom was sparked by the introduction of ChatGPT. The post-May 2026 era is different. We may also be simultaneously mimicking the Pets.com phase with the SpaceX IPO.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5218fb5e4e7333f9d200efd80332d9b7f76b76ecea3334d7b2f1e38f8a4e7a38",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
     },
     "ev_TSM_20260618_price": {
       "id": "ev_TSM_20260618_price",
@@ -2605,6 +3173,86 @@
         "relationship": "customer"
       }
     },
+    "ev_TSM_20260618_news0": {
+      "id": "ev_TSM_20260618_news0",
+      "kind": "news",
+      "title": "Taiwan Semiconductor: Not Expensive When You Run The Numbers On AI Demand",
+      "detail": "Reported by SeekingAlpha. Taiwan Semiconductor is up 47% in 6 months on real earnings growth, not hype. Read here for a detailed investment analysis of TSM stock.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6089d6906338fa312fa91408e740c75698c869a69c0a171c5735f7945e659cce",
+      "occurred_on": "2026-06-18",
+      "numbers": {}
+    },
+    "ev_TSM_20260618_news1": {
+      "id": "ev_TSM_20260618_news1",
+      "kind": "news",
+      "title": "$100 Invested In Taiwan Semiconductor 5 Years Ago Would Be Worth This Much Today",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=607f2f4a03089bd1d89a65defc79c95e611812ac7caea8f10df3938d4f5b1b68",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_TSM_20260618_news2": {
+      "id": "ev_TSM_20260618_news2",
+      "kind": "news",
+      "title": "TSMC: Why Premium Multiples Don't Matter For The King Of Foundries",
+      "detail": "Reported by SeekingAlpha. TSM stock outlook: AI-driven revenue/EPS growth, rising 2026 forecast, strong FCF and $106B cash.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d74b4fa85102d98a52ba4fca1126929b166eab402d136c483129ff93ae7c0aa8",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_TSM_20260618_news3": {
+      "id": "ev_TSM_20260618_news3",
+      "kind": "news",
+      "title": "Taiwan Semiconductor Knocked Down To No. 7 Globally After SpaceX's Record-Breaking IPO",
+      "detail": "Reported by Benzinga. Taiwan Semiconductor slips to 7th in global market value after SpaceX&#39;s IPO, but strong tech momentum keeps the chipmaker rising.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=29201128bc6bbf345ac01fa81a49fe699a909a78847e57e8c67f8c36717724bf",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_TSM_20260618_news4": {
+      "id": "ev_TSM_20260618_news4",
+      "kind": "news",
+      "title": "EXCLUSIVE: Google And Meta May Have The Most To Lose In The AI\u2011Agent Era, Says Founder Who Rejected OpenAI",
+      "detail": "Reported by Benzinga. Google, Meta, Uber and Airbnb face disruption from AI agents, while Nvidia, TSMC and Qualcomm remain the safest AI investments, says AGI founder who rejected OpenAI",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b93b8b64b265fd3825ec60c0d5d6acfab9a7b467dd118df7783b8d3a8f892d87",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_TSM_20260618_news5": {
+      "id": "ev_TSM_20260618_news5",
+      "kind": "news",
+      "title": "Why Is Amkor Technology Stock Soaring Wednesday?",
+      "detail": "Reported by Benzinga. Amkor (AMKR) stock surges after announcing a massive U.S. chip packaging deal with Taiwan Semiconductor. Get the full details here.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=eb1f5f591da14fb292951fc3e24d5b3210a90b05ff1b4ad48253fa03c4b41dca",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_TSM_20260618_news6": {
+      "id": "ev_TSM_20260618_news6",
+      "kind": "news",
+      "title": "Intel's Next Move Could Be Bigger Than Today's Pop",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d42f342669fc0ab2e7715d48d1a961b05b0ad180a3093eb9a53699da85f6d8be",
+      "occurred_on": "2026-06-18",
+      "numbers": {}
+    },
+    "ev_TSM_20260618_news7": {
+      "id": "ev_TSM_20260618_news7",
+      "kind": "news",
+      "title": "Why Is Intel Stock Soaring Thursday?",
+      "detail": "Reported by Benzinga. Intel stock surges 8% on Trump&#39;s announcement that Apple, NVIDIA, and Tesla will build chips domestically with Intel. Read the details.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c669e3756f9f0842252ed7490d6a52e1e675c79e1cca2e9158f09a8e2596655c",
+      "occurred_on": "2026-06-18",
+      "numbers": {}
+    },
     "ev_TSM_20260629_price": {
       "id": "ev_TSM_20260629_price",
       "kind": "price",
@@ -2733,6 +3381,26 @@
         "subject_pct_change": 5.262,
         "relationship": "customer"
       }
+    },
+    "ev_TSM_20260629_news0": {
+      "id": "ev_TSM_20260629_news0",
+      "kind": "news",
+      "title": "Samsung, SK Hynix To Build Four New Chip Plants As South Korea Unveils $520 Billion AI Push",
+      "detail": "Reported by Benzinga. Samsung, SK Hynix to build new chip fabs under South Korea&#39;s $520 billion AI semiconductor initiative to boost production.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=29f308af332235dcc41a72ffd62ef42873cc33e807e9709f5ff028e89b83bac7",
+      "occurred_on": "2026-06-29",
+      "numbers": {}
+    },
+    "ev_TSM_20260629_news1": {
+      "id": "ev_TSM_20260629_news1",
+      "kind": "news",
+      "title": "Semis Outlook: The Best Days Are Likely Far From Over",
+      "detail": "Reported by SeekingAlpha. Semiconductor stocks surge as AI infrastructure drives broad gains beyond Nvidia. Here's what investors need to consider.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c0140b3bcc4fcfb4b183820bdad5a08917e2828a5776fd8adcc7d13b4a10aa9d",
+      "occurred_on": "2026-06-28",
+      "numbers": {}
     },
     "ev_TSM_20260701_price": {
       "id": "ev_TSM_20260701_price",
@@ -2863,6 +3531,86 @@
         "relationship": "customer"
       }
     },
+    "ev_TSM_20260701_news0": {
+      "id": "ev_TSM_20260701_news0",
+      "kind": "news",
+      "title": "What's Going on With Taiwan Semiconductor Stock Wednesday?",
+      "detail": "Reported by Benzinga. Taiwan Semiconductor drops 6% during a market tech rotation, but core moving averages show $TSM&#39;s bullish setup is still healthy.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=05f0c0c215ea852a821c413bdee40deaf4703662e6585f07384cc24b7eb02a9a",
+      "occurred_on": "2026-07-01",
+      "numbers": {}
+    },
+    "ev_TSM_20260701_news1": {
+      "id": "ev_TSM_20260701_news1",
+      "kind": "news",
+      "title": "Taiwan Semiconductor Manufacturing Company Limited - Depositary Receipt (TSM) Price Target Increased by 13.92% to 496.82",
+      "detail": "Reported by Fintel.",
+      "source": "Fintel (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=814ed8921ccf99bbd2f9fa4d3f34ae1e58107263fc2d187cce2ca1623523b91f",
+      "occurred_on": "2026-06-30",
+      "numbers": {}
+    },
+    "ev_TSM_20260701_news2": {
+      "id": "ev_TSM_20260701_news2",
+      "kind": "news",
+      "title": "Bullish Move: BorZen Tien Shows Confidence, Acquires $152K In Taiwan Semiconductor Stock",
+      "detail": "Reported by Benzinga. BorZen Tien, VP at Taiwan Semiconductor (NYSE:TSM), disclosed an insider purchase on June 30, based on a new SEC filing.\nWhat Happened: A Form 4 filing from the U.S. Securities and Exchange Commission on Tuesday showed",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8f716e10dd28b4c10e6dee77b846e255b3c462487a4411a1aec31ee70c0f2110",
+      "occurred_on": "2026-06-30",
+      "numbers": {}
+    },
+    "ev_TSM_20260701_news3": {
+      "id": "ev_TSM_20260701_news3",
+      "kind": "news",
+      "title": "What's Going On With Taiwan Semiconductor Stock Tuesday?",
+      "detail": "Reported by Benzinga. Analysts lift price targets for Taiwan Semiconductor (TSM) stock, citing massive AI chip demand. Get the full market breakdown.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5aec703f9857327394690c8c07a5636feccba01139b867dce0db4aec43b5c3cc",
+      "occurred_on": "2026-06-30",
+      "numbers": {}
+    },
+    "ev_TSM_20260701_news4": {
+      "id": "ev_TSM_20260701_news4",
+      "kind": "news",
+      "title": "The Physical Limits Of AI: Where Scarcity Is Creating Opportunity",
+      "detail": "Reported by SeekingAlpha. AI demand is boosting pricing power across chips, memory and data centers. Click here to read our most recent analysis.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7cf29672f19229ad8415ba8c58e8dc297f257b3716355deef670be27aec05ede",
+      "occurred_on": "2026-07-01",
+      "numbers": {}
+    },
+    "ev_TSM_20260701_news5": {
+      "id": "ev_TSM_20260701_news5",
+      "kind": "news",
+      "title": "Undercovered Dozen: Sivers Semiconductors, Energy Transfer, Alibaba And More",
+      "detail": "Reported by SeekingAlpha. Explore 12 lesser-covered stocks from the previous seven days. We hope this provides ideas and inspires discussion among the community.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=874384f156d641fef6da273e5314bf6e49a4c16013f2bf55abac5b79bb1ec690",
+      "occurred_on": "2026-07-01",
+      "numbers": {}
+    },
+    "ev_TSM_20260701_news6": {
+      "id": "ev_TSM_20260701_news6",
+      "kind": "news",
+      "title": "AMD: Market Has Completely Misread The AI CPU Supercycle",
+      "detail": "Reported by SeekingAlpha. AMD EPYC is poised for the AI CPU supercycle, powering inference and agentic AI with strong TCO and efficiency\u00e2\u0080\u0094alongside Instinct & Helios. Click for this update.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ba67d929daa6328f1dfb043b73e7a2cf006a2ef796e7938df792030c9671b0f8",
+      "occurred_on": "2026-07-01",
+      "numbers": {}
+    },
+    "ev_TSM_20260701_news7": {
+      "id": "ev_TSM_20260701_news7",
+      "kind": "news",
+      "title": "6 Market Experts Sound Off On AI, Tech, Hot IPOs, And Top Stocks For 2026",
+      "detail": "Reported by SeekingAlpha. With questions swirling on AI and tech stocks, hot IPOs, Fed policy, and ongoing tensions in the Middle East, where is an investor to turn? Six experts share their advice and recommendations",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=29b6799feaf609f5f08307ce4b1b9a0bf0fe0f2c24a6c19a609429fd6e1f61f8",
+      "occurred_on": "2026-07-01",
+      "numbers": {}
+    },
     "ev_TSM_20260721_price": {
       "id": "ev_TSM_20260721_price",
       "kind": "price",
@@ -2991,6 +3739,86 @@
         "subject_pct_change": 5.546,
         "relationship": "customer"
       }
+    },
+    "ev_TSM_20260721_news0": {
+      "id": "ev_TSM_20260721_news0",
+      "kind": "news",
+      "title": "Positive Signal: ShyueShyh Lin Shows Faith, Buying $215K In Taiwan Semiconductor Stock",
+      "detail": "Reported by Benzinga. ShyueShyh Lin, VP at Taiwan Semiconductor (NYSE:TSM), disclosed an insider purchase on July 21, based on a new SEC filing.\nWhat Happened: In a recent Form 4 filing with the U.S. Securities and Exchange Commission on",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=64c1bbe8fb4fe947cd7995faa16aa9eb1c65bf45ed1fdc78d26da44056982ce9",
+      "occurred_on": "2026-07-21",
+      "numbers": {}
+    },
+    "ev_TSM_20260721_news1": {
+      "id": "ev_TSM_20260721_news1",
+      "kind": "news",
+      "title": "Brace for Pricier Chips: Taiwan Semiconductor Reportedly Plans up to 10% Price Hike",
+      "detail": "Reported by Benzinga. Taiwan Semiconductor stock gains premarket on 2027 price hike plans and tech rally. Here is the technical picture and analyst outlook.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b335fb1cc299e6e9101cb4f479d9bb373bab3475d08f687090173442598d0e38",
+      "occurred_on": "2026-07-21",
+      "numbers": {}
+    },
+    "ev_TSM_20260721_news2": {
+      "id": "ev_TSM_20260721_news2",
+      "kind": "news",
+      "title": "Nikkei Reported Earlier, TSMC To Raise Chipmaking Prices By Up To 10% From 2027",
+      "detail": "Reported by Benzinga. https://asia.nikkei.com/business/technology/exclusive-tsmc-to-raise-chipmaking-prices-by-up-to-10-from-2027",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=779ebb15c024790540492267764d03ba086c85960ad85081a435e099ec727385",
+      "occurred_on": "2026-07-21",
+      "numbers": {}
+    },
+    "ev_TSM_20260721_news3": {
+      "id": "ev_TSM_20260721_news3",
+      "kind": "news",
+      "title": "TSMC Beat, The Stock Fell Anyway: Here's What Got Priced In",
+      "detail": "Reported by SeekingAlpha. TSMC beat Q2 estimates and raised its outlook, but capex, margins and valuation pressure the stock.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=abf5fcb41944ddf3a68f61fe7074b9448a552c3a0d47bc2d2770a4006a3b23ae",
+      "occurred_on": "2026-07-20",
+      "numbers": {}
+    },
+    "ev_TSM_20260721_news4": {
+      "id": "ev_TSM_20260721_news4",
+      "kind": "news",
+      "title": "Taiwan Semiconductor-SP ADR (NYSE:TSM) Shows High Growth Stock Strength by Passing All Eight Rules of the Navellier Screen",
+      "detail": "Reported by ChartMill. Louis Navellier\u2019s eight-rule growth strategy identifies stocks with strong momentum in earnings, sales, and efficiency. Applying these rules to a stock screen reveals Taiwan Semiconductor (TSM), which excels in all criteria from positive revisions to high ROE, making it a standout momentum pick.",
+      "source": "ChartMill (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=408bee5ac13ee64d4f34ecf76e8690831f648598c9536145ee2926bf2c1f9537",
+      "occurred_on": "2026-07-20",
+      "numbers": {}
+    },
+    "ev_TSM_20260721_news5": {
+      "id": "ev_TSM_20260721_news5",
+      "kind": "news",
+      "title": "Intel's Most Overlooked Edge Over TSMC Starts With Pat Gelsinger's 'Great Depression' Warning",
+      "detail": "Reported by Benzinga. Pat Gelsinger says Taiwan&#39;s energy vulnerability highlights Intel&#39;s overlooked advantage over TSMC: its manufacturing footprint.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d8a3946e570e8d04e5bcf40f1c32e3e6812a97cc9ab5098db9525a83d5f10939",
+      "occurred_on": "2026-07-20",
+      "numbers": {}
+    },
+    "ev_TSM_20260721_news6": {
+      "id": "ev_TSM_20260721_news6",
+      "kind": "news",
+      "title": "TSMC: Unfolding CapEx Boom",
+      "detail": "Reported by SeekingAlpha. Taiwan Semiconductor Manufacturing Company delivered record Q2 revenues of $40.2 billion, driven by surging AI-optimized chip demand. Learn more about TSM stock here.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d579ce549640c21cb2ab3e35ea0fe3fdf453c8ffdaaeef3ae9e4dc9560be8213",
+      "occurred_on": "2026-07-20",
+      "numbers": {}
+    },
+    "ev_TSM_20260721_news7": {
+      "id": "ev_TSM_20260721_news7",
+      "kind": "news",
+      "title": "What's Going on With Taiwan Semiconductor Stock Monday?",
+      "detail": "Reported by Benzinga. Driven by the AI megatrend, Taiwan Semiconductor accelerates its Arizona expansion with strong yields. Track TSM stock price action.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1f3a94fcd6f17d8c12687296a9f7ccc84f92da3c732157550d4103c5147d93a8",
+      "occurred_on": "2026-07-20",
+      "numbers": {}
     },
     "ev_TSM_20260730_price": {
       "id": "ev_TSM_20260730_price",
@@ -3121,6 +3949,86 @@
         "relationship": "customer"
       }
     },
+    "ev_TSM_20260730_news0": {
+      "id": "ev_TSM_20260730_news0",
+      "kind": "news",
+      "title": "BorZen Tien's Recent Buy: Acquires $73K In Taiwan Semiconductor Stock",
+      "detail": "Reported by Benzinga. On July 30, BorZen Tien, VP at Taiwan Semiconductor (NYSE:TSM) executed a significant insider buy, as disclosed in the latest SEC filing.\nWhat Happened: Tien&#39;s recent purchase of 1,015 shares of Taiwan",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=018c48edc6866de8a9432cb1519f2e767fd820139c4d77114a4cbc91a50e61ed",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_TSM_20260730_news1": {
+      "id": "ev_TSM_20260730_news1",
+      "kind": "news",
+      "title": "'TSMC Develops AI Chip Packaging Tech to Counter Intel' - The Information",
+      "detail": "Reported by Benzinga. https://www.theinformation.com/articles/tsmc-develops-ai-chip-packaging-tech-counter-intel",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e8486b2a3b0326df9f49cb8a6a1d6322e7bd34ee2ed0b2512e09da4621f90385",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_TSM_20260730_news2": {
+      "id": "ev_TSM_20260730_news2",
+      "kind": "news",
+      "title": "Cathie Wood Keeps Buying the Dip on SpaceX, Adds $20 Million of TSMC as Chip Stocks Slide",
+      "detail": "Reported by Benzinga. Cathie Wood&#39;s Ark Invest bought $14.5 million of SpaceX and $20.1 million of TSMC Wednesday, July 29, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1131fe1c1a6f1492ca7310e49c3c7a4cb5b7642766fb74d209b4796d5926bcaa",
+      "occurred_on": "2026-07-29",
+      "numbers": {}
+    },
+    "ev_TSM_20260730_news3": {
+      "id": "ev_TSM_20260730_news3",
+      "kind": "news",
+      "title": "Intel: AI Bubble Hysteria Is Not For Bulls",
+      "detail": "Reported by SeekingAlpha. Hubbell Incorporated earns a Buy: advanced packaging (EMIB\u00e2\u0080\u0091T, glass substrates) powers AI upside. Click for more on INTC and see why I bullish.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cab8cd908ec4ce377fc48b1be6932206528c9d3e9fd6266e9f7a851ab5e014af",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_TSM_20260730_news4": {
+      "id": "ev_TSM_20260730_news4",
+      "kind": "news",
+      "title": "QUICK SPARK: Cathie Wood's Birthday Present to Ethereum? A Bitmine Trim",
+      "detail": "Reported by Benzinga. Cathie Wood&#39;s Ark Invest trimmed its largest corporate Ethereum treasury holding, Bitmine, along with Bullish, Robinhood and Block.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0cfbc26c5adbfcf7a766dce9b68f36e64efdd4e01377f0f3f814581d62c49f96",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_TSM_20260730_news5": {
+      "id": "ev_TSM_20260730_news5",
+      "kind": "news",
+      "title": "Microsoft's AI Pivot Could Be Bigger Win for AI Infrastructure ETFs Than OpenAI Bets",
+      "detail": "Reported by Benzinga. Microsoft\u2019s multi-model AI strategy can benefit AI infrastructure, cloud computing and semiconductor ETFs.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e662dbe0eb6681be5f96c7f3e541bbd12fd115aeae314cfe2a5fda80fc26c788",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_TSM_20260730_news6": {
+      "id": "ev_TSM_20260730_news6",
+      "kind": "news",
+      "title": "SK hynix: Damn The Torpedoes, Full Steam Ahead",
+      "detail": "Reported by SeekingAlpha. SK hynix Inc. looks undervalued in the AI trade: 500%+ EPS growth, 60%+ margins, 5x P/E. Click for this updated look at SKHY stock following earnings.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e3ea37c26b3d072be639d608ae9363968bfe34c144798c166faaa1e7042a1df6",
+      "occurred_on": "2026-07-29",
+      "numbers": {}
+    },
+    "ev_TSM_20260730_news7": {
+      "id": "ev_TSM_20260730_news7",
+      "kind": "news",
+      "title": "Nvidia's Ongoing Dominance: Reasons To Keep Buying",
+      "detail": "Reported by SeekingAlpha. Discover why Nvidia Corporation is a strong AI buy: industry-leading margins, dominant market share, and system-level architecture edge. Click for an NVDA update.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cd4bccf4dd8a31db1bce2497a7af1d6250bfc05b50f6b2af66d3ae8d5dfae3ea",
+      "occurred_on": "2026-07-29",
+      "numbers": {}
+    },
     "ev_TSM_sector_IPG3344S": {
       "id": "ev_TSM_sector_IPG3344S",
       "kind": "sector",
@@ -3152,16 +4060,16 @@
       }
     }
   },
-  "arc": "Between late March and late July 2026, TSM appreciated significantly from $326.11 to over $400, propelled by frequent shared moves across the broader semiconductor ecosystem rather than isolated catalysts. While specific corporate filings\u2014such as Form 6-K releases and an annual Form 20-F\u2014punctuated sessions in late March, mid-April, and mid-May, the majority of large swings mirrored synchronous moves in major customers like AMD and INTC and equipment supplier ASML. Investors should recognize that TSM traded heavily in tandem with aggregate hardware supply chain sentiment, experiencing coordinated rallies and sharp sector-wide pullbacks.",
+  "arc": "Between late March and late July 2026, TSM experienced strong upward momentum underpinned by unprecedented demand for AI accelerator fabrication, aggressive international capacity expansion, and exceptional pricing leverage. While macroeconomic headwinds and geopolitical tensions periodically triggered industry-wide selloffs, TSM consistently demonstrated pricing power through planned 10% to 15% rate increases on leading-edge 3nm and future nodes. Despite occasional post-earnings digestion and periodic tech rotations shared with key customers like AMD and INTC, TSM capitalized on sold-out advanced foundry capacity and new packaging developments to anchor the broader semiconductor market expansion.",
   "arc_citation_ids": [
-    "ev_TSM_20260326_price",
-    "ev_TSM_20260326_peer_AMD",
-    "ev_TSM_20260416_filing_000162828026025362",
-    "ev_TSM_20260424_filing_000104617926000205",
-    "ev_TSM_20260701_price",
-    "ev_TSM_20260701_peer_ASML",
-    "ev_TSM_20260730_price",
-    "ev_TSM_20260730_peer_INTC"
+    "ev_TSM_20260326_news4",
+    "ev_TSM_20260331_news0",
+    "ev_TSM_20260331_news1",
+    "ev_TSM_20260416_news2",
+    "ev_TSM_20260514_news1",
+    "ev_TSM_20260601_news1",
+    "ev_TSM_20260721_news1",
+    "ev_TSM_20260730_news1"
   ],
   "warnings": []
 }

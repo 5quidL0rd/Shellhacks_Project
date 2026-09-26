@@ -1,7 +1,7 @@
 {
   "symbol": "NVDA",
   "company_name": "NVIDIA Corporation",
-  "generated_at": "2026-09-26T12:37:14.808060+00:00",
+  "generated_at": "2026-09-26T12:46:59.060645+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,15 +1320,16 @@
       "pct_change": 4.323,
       "close": 208.27,
       "direction": "up",
-      "headline": "NVDA gains 4.32% in broad semiconductor rally",
-      "explanation": "No company-specific news accompanied the gain to $208.27 on 1.78x average volume. The move was shared across the sector, with competitors INTC surging 23.60%, AMD rising 13.91%, and QCOM climbing 11.12%, while supplier TSM advanced 5.17%.",
-      "confidence": "low",
+      "headline": "Nvidia Rallies 4.3% in Broad Semiconductor Surge",
+      "explanation": "Nvidia rose 4.32% to $208.27 on 1.8x its 30-day average volume, participating in a widespread rally across chipmakers. Gains were shared with competitors INTC (+23.60%), AMD (+13.91%), and QCOM (+11.12%), driven by positive quarterly reporting from Intel and broad AI hardware optimism.",
+      "confidence": "high",
       "citation_ids": [
         "ev_NVDA_20260424_price",
-        "ev_NVDA_20260424_peer_AMD",
         "ev_NVDA_20260424_peer_INTC",
+        "ev_NVDA_20260424_peer_AMD",
         "ev_NVDA_20260424_peer_QCOM",
-        "ev_NVDA_20260424_peer_TSM"
+        "ev_NVDA_20260424_news1",
+        "ev_NVDA_20260424_news5"
       ]
     },
     {
@@ -1336,15 +1337,16 @@
       "pct_change": 4.004,
       "close": 216.61,
       "direction": "up",
-      "headline": "NVDA climbs 4.00% following Form 8-K filing",
-      "explanation": "NVIDIA rose 4.00% to close at $216.61 on 1.55x average volume following an 8-K filing. The advance was company-specific, as competitors AMD fell 3.79% and AVGO slipped 1.08%, though supplier MU gained 5.61%.",
+      "headline": "Stock Hits Record $216.61 Ahead of Tech Earnings",
+      "explanation": "Nvidia gained 4.00% to close at a new high of $216.61, lifting its market valuation past $5 trillion. The advance was largely company-specific, as competitor AMD dropped 3.79% and AVGO fell 1.08%, though supplier MU also gained 5.61% as investors positioned ahead of big-tech earnings.",
       "confidence": "medium",
       "citation_ids": [
         "ev_NVDA_20260427_price",
-        "ev_NVDA_20260427_filing_000104581026000026",
         "ev_NVDA_20260427_peer_AMD",
         "ev_NVDA_20260427_peer_AVGO",
-        "ev_NVDA_20260427_peer_MU"
+        "ev_NVDA_20260427_peer_MU",
+        "ev_NVDA_20260427_news2",
+        "ev_NVDA_20260427_news4"
       ]
     },
     {
@@ -1352,14 +1354,16 @@
       "pct_change": -4.626,
       "close": 199.57,
       "direction": "down",
-      "headline": "NVDA drops 4.63% while competitors rally",
-      "explanation": "No company news was provided for the decline to $199.57 on 1.87x typical volume. The selloff was company-specific and diverged from competitors QCOM and GOOGL, which surged 15.12% and 9.96% respectively, though customer and competitor MSFT also declined 3.93%.",
-      "confidence": "low",
+      "headline": "Shares Drop 4.6% as Big Tech Earnings Underwhelm",
+      "explanation": "Nvidia declined 4.63% to $199.57 on 1.9x average volume following a round of tech earnings reports and reports of stalling AI chip shipments to China. The drop was company-specific, diverging from competitors GOOGL (+9.96%) and AMD (+5.16%), though customer and competitor MSFT also declined 3.93%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_NVDA_20260430_price",
-        "ev_NVDA_20260430_peer_QCOM",
         "ev_NVDA_20260430_peer_GOOGL",
-        "ev_NVDA_20260430_peer_MSFT"
+        "ev_NVDA_20260430_peer_AMD",
+        "ev_NVDA_20260430_peer_MSFT",
+        "ev_NVDA_20260430_news0",
+        "ev_NVDA_20260430_news7"
       ]
     },
     {
@@ -1367,13 +1371,16 @@
       "pct_change": 4.388,
       "close": 235.74,
       "direction": "up",
-      "headline": "NVDA rises 4.39% alongside supplier TSM",
-      "explanation": "No company-specific announcements were reported as the stock rose 4.39% to $235.74 on 1.50x average volume. The upward move was shared with supplier TSM and competitor AVGO, which advanced 4.48% and 5.52% respectively, even as competitor QCOM dropped 6.14%.",
-      "confidence": "low",
+      "headline": "Stock Gains 4.4% on China H200 Approval Reports",
+      "explanation": "Nvidia climbed 4.39% to close at $235.74 amid reports that the U.S. government approved sales of its H200 AI chips to major Chinese tech firms and an analyst price target raise to $275. Supplier TSM gained 4.48% alongside Nvidia, while competitors INTC (-3.62%) and QCOM (-6.14%) fell.",
+      "confidence": "high",
       "citation_ids": [
         "ev_NVDA_20260514_price",
+        "ev_NVDA_20260514_news0",
+        "ev_NVDA_20260514_news3",
+        "ev_NVDA_20260514_news5",
         "ev_NVDA_20260514_peer_TSM",
-        "ev_NVDA_20260514_peer_AVGO",
+        "ev_NVDA_20260514_peer_INTC",
         "ev_NVDA_20260514_peer_QCOM"
       ]
     },
@@ -1382,15 +1389,19 @@
       "pct_change": 6.261,
       "close": 224.36,
       "direction": "up",
-      "headline": "NVDA advances 6.26% with supplier strength",
-      "explanation": "Shares jumped 6.26% to $224.36 with volume reaching 1.76x the 30-day average without company filings or news. Key suppliers MU and TSM also moved higher, up 6.64% and 4.11% respectively, while competitors QCOM and INTC dropped 8.78% and 4.67%.",
-      "confidence": "low",
+      "headline": "Nvidia Advances 6.3% on PC AI Platform Reveal",
+      "explanation": "Nvidia shares jumped 6.26% to $224.36 after unveiling the RTX Spark platform and Vera data center processors at GTC Taipei to target AI-enabled PCs. The gain was company-specific as competitors INTC (-4.67%), AMZN (-3.47%), and AMD (-1.16%) fell, while suppliers MU (+6.64%) and TSM (+4.11%) moved higher.",
+      "confidence": "high",
       "citation_ids": [
         "ev_NVDA_20260601_price",
+        "ev_NVDA_20260601_news0",
+        "ev_NVDA_20260601_news5",
+        "ev_NVDA_20260601_news7",
+        "ev_NVDA_20260601_peer_INTC",
+        "ev_NVDA_20260601_peer_AMZN",
+        "ev_NVDA_20260601_peer_AMD",
         "ev_NVDA_20260601_peer_MU",
-        "ev_NVDA_20260601_peer_TSM",
-        "ev_NVDA_20260601_peer_QCOM",
-        "ev_NVDA_20260601_peer_INTC"
+        "ev_NVDA_20260601_peer_TSM"
       ]
     },
     {
@@ -1398,15 +1409,16 @@
       "pct_change": -3.622,
       "close": 214.75,
       "direction": "down",
-      "headline": "NVDA falls 3.62% as hardware peers gain",
-      "explanation": "No company developments accompanied the pullback to $214.75 on 1.33x average volume. The drop was company-specific relative to competitors INTC and AMD, which rose 4.43% and 4.02%, though supplier TSM and customer MSFT fell 2.24% and 3.17%.",
+      "headline": "Nvidia Pulls Back 3.6% Despite PC Expansion News",
+      "explanation": "Nvidia retreated 3.62% to $214.75, showing weakness that was company-specific against competitors AMD (+4.02%), INTC (+4.43%), and QCOM (+3.81%). The pullback occurred even as press coverage continued around its RTX Spark PC chips and supplier SK Hynix secured major HBM4 orders.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260603_price",
-        "ev_NVDA_20260603_peer_INTC",
         "ev_NVDA_20260603_peer_AMD",
-        "ev_NVDA_20260603_peer_TSM",
-        "ev_NVDA_20260603_peer_MSFT"
+        "ev_NVDA_20260603_peer_INTC",
+        "ev_NVDA_20260603_peer_QCOM",
+        "ev_NVDA_20260603_news1",
+        "ev_NVDA_20260603_news6"
       ]
     },
     {
@@ -1414,15 +1426,16 @@
       "pct_change": 3.651,
       "close": 204.12,
       "direction": "up",
-      "headline": "NVDA gains 3.65% to $204.12",
-      "explanation": "No company-specific news explained the 3.65% increase on 1.22x typical volume. Competitor AVGO also advanced 4.83% and supplier MU added 1.11%, whereas competitors GOOGL and MSFT declined 1.39% and 1.41%.",
-      "confidence": "low",
+      "headline": "Shares Rise 3.7% Following Enterprise AI Launch",
+      "explanation": "Nvidia gained 3.65% to $204.12 as the company launched NemoClaw with LangChain to lower enterprise AI agent costs. The move was company-specific, with competitor AVGO also advancing 4.83%, while customer and competitor MSFT fell 1.41% and competitor GOOGL slipped 1.39% amid macro geopolitical friction.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_NVDA_20260708_price",
+        "ev_NVDA_20260708_news2",
+        "ev_NVDA_20260708_news7",
         "ev_NVDA_20260708_peer_AVGO",
-        "ev_NVDA_20260708_peer_MU",
-        "ev_NVDA_20260708_peer_GOOGL",
-        "ev_NVDA_20260708_peer_MSFT"
+        "ev_NVDA_20260708_peer_MSFT",
+        "ev_NVDA_20260708_peer_GOOGL"
       ]
     },
     {
@@ -1430,14 +1443,16 @@
       "pct_change": 4.034,
       "close": 210.96,
       "direction": "up",
-      "headline": "NVDA moves up 4.03% to $210.96",
-      "explanation": "NVIDIA gained 4.03% with no company-specific catalysts identified. The upward move was largely company-specific, as competitor AMD was up 2.04% but competitor INTC fell 2.40% and supplier MU dropped 1.24%.",
-      "confidence": "low",
+      "headline": "Stock Adds 4.0% as Cloud Provider Chip Rumors Ease",
+      "explanation": "Nvidia advanced 4.03% to $210.96 on reports that new internal chips from hyperscalers like Meta would not replace Nvidia GPUs, alongside positive commentary on its Vera CPU rollout. The advance was company-specific, outperforming competitors INTC (-2.40%) and QCOM (-1.02%) as well as supplier TSM (-0.65%).",
+      "confidence": "high",
       "citation_ids": [
         "ev_NVDA_20260710_price",
-        "ev_NVDA_20260710_peer_AMD",
+        "ev_NVDA_20260710_news3",
+        "ev_NVDA_20260710_news4",
         "ev_NVDA_20260710_peer_INTC",
-        "ev_NVDA_20260710_peer_MU"
+        "ev_NVDA_20260710_peer_QCOM",
+        "ev_NVDA_20260710_peer_TSM"
       ]
     },
     {
@@ -1445,14 +1460,17 @@
       "pct_change": -4.994,
       "close": 196.51,
       "direction": "down",
-      "headline": "NVDA slides 4.99% alongside peer AMD",
-      "explanation": "Shares declined 4.99% to $196.51 on 1.28x average volume with no company-specific updates. The move was shared with competitor AMD, which dropped 5.17%, and supplier MU, which dropped 2.25%, even as competitor GOOGL rose 2.13%.",
-      "confidence": "low",
+      "headline": "Shares Drop 5.0% on AI Tech Sector Caution",
+      "explanation": "Nvidia shed 4.99% to close at $196.51 as broader market concerns over AI valuations and semiconductor export equipment weighed on key tech names. Competitor AMD mirrored the weakness with a 5.17% drop and supplier MU fell 2.25%, even as competitor GOOGL rose 2.13% and customer and competitor MSFT rose 1.94%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_NVDA_20260727_price",
         "ev_NVDA_20260727_peer_AMD",
         "ev_NVDA_20260727_peer_MU",
-        "ev_NVDA_20260727_peer_GOOGL"
+        "ev_NVDA_20260727_peer_GOOGL",
+        "ev_NVDA_20260727_peer_MSFT",
+        "ev_NVDA_20260727_news1",
+        "ev_NVDA_20260727_news2"
       ]
     },
     {
@@ -1460,14 +1478,17 @@
       "pct_change": 3.435,
       "close": 219.22,
       "direction": "up",
-      "headline": "NVDA advances 3.44% despite competitor losses",
-      "explanation": "No company announcements were reported as the stock rose 3.44% to $219.22 on 1.31x average volume. The gain was company-specific, bucking sharp losses from competitors AMD, GOOGL, and QCOM, which fell 7.04%, 4.03%, and 3.16% respectively.",
-      "confidence": "low",
+      "headline": "Stock Rises 3.4% on Major SpaceX Contract Win",
+      "explanation": "Nvidia climbed 3.44% to $219.22 on news that SpaceX selected Nvidia hardware over competitor solutions for its AI infrastructure buildout. The gain was highly company-specific, as competitor AMD slid 7.04%, competitor GOOGL dropped 4.03%, and customer and competitor MSFT declined 1.09%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_NVDA_20260805_price",
+        "ev_NVDA_20260805_news0",
+        "ev_NVDA_20260805_news3",
+        "ev_NVDA_20260805_news5",
         "ev_NVDA_20260805_peer_AMD",
         "ev_NVDA_20260805_peer_GOOGL",
-        "ev_NVDA_20260805_peer_QCOM"
+        "ev_NVDA_20260805_peer_MSFT"
       ]
     },
     {
@@ -1475,16 +1496,18 @@
       "pct_change": 8.738,
       "close": 227.98,
       "direction": "up",
-      "headline": "NVDA jumps 8.74% following 10-Q and 8-K filings",
-      "explanation": "NVIDIA surged 8.74% to $227.98 on heavy volume of 2.48x its 30-day average following the filing of its Form 10-Q and Form 8-K the prior day. Competitors AVGO and INTC also rose 4.49% and 4.36%, while competitor AMD slipped 0.89%.",
+      "headline": "Nvidia Surges 8.7% After Upbeat Quarterly Filing",
+      "explanation": "Nvidia shares jumped 8.74% to $227.98 on 2.5x normal trading volume following its quarterly 10-Q and 8-K filings and strong forward sales guidance. The company-specific surge drew analyst price target increases, while competitors moved modestly, including AMD (-0.89%) and INTC (+4.36%).",
       "confidence": "high",
       "citation_ids": [
         "ev_NVDA_20260827_price",
         "ev_NVDA_20260827_filing_000104581026000075",
         "ev_NVDA_20260827_filing_000104581026000073",
-        "ev_NVDA_20260827_peer_AVGO",
-        "ev_NVDA_20260827_peer_INTC",
-        "ev_NVDA_20260827_peer_AMD"
+        "ev_NVDA_20260827_news0",
+        "ev_NVDA_20260827_news2",
+        "ev_NVDA_20260827_news7",
+        "ev_NVDA_20260827_peer_AMD",
+        "ev_NVDA_20260827_peer_INTC"
       ]
     },
     {
@@ -1492,16 +1515,17 @@
       "pct_change": -4.575,
       "close": 217.55,
       "direction": "down",
-      "headline": "NVDA pulls back 4.58% following post-filing rally",
-      "explanation": "After the previous session's surge following its Form 10-Q and 8-K filings, NVIDIA fell 4.58% to $217.55 on 1.62x average volume. The pullback was shared with hardware peers, as competitor INTC declined 2.85% and suppliers TSM and MU fell 2.29% and 0.27%.",
+      "headline": "Nvidia Drops 4.6% in Post-Earnings Retracement",
+      "explanation": "Nvidia fell 4.58% to $217.55 on 1.6x average volume, giving back part of the prior day's earnings surge despite continued positive commentary on its long-term revenue potential. Competitors AMD (-2.33%) and INTC (-2.85%) and supplier TSM (-2.29%) also lost ground, while AMZN rose 3.97%.",
       "confidence": "medium",
       "citation_ids": [
         "ev_NVDA_20260828_price",
-        "ev_NVDA_20260828_filing_000104581026000075",
-        "ev_NVDA_20260828_filing_000104581026000073",
+        "ev_NVDA_20260828_news0",
+        "ev_NVDA_20260828_news7",
+        "ev_NVDA_20260828_peer_AMD",
         "ev_NVDA_20260828_peer_INTC",
         "ev_NVDA_20260828_peer_TSM",
-        "ev_NVDA_20260828_peer_MU"
+        "ev_NVDA_20260828_peer_AMZN"
       ]
     }
   ],
@@ -1648,6 +1672,86 @@
         "subject_pct_change": 4.323,
         "relationship": "supplier"
       }
+    },
+    "ev_NVDA_20260424_news0": {
+      "id": "ev_NVDA_20260424_news0",
+      "kind": "news",
+      "title": "Stock Market Today, April 24: Nvidia Surges on Soaring AI Chip Demand",
+      "detail": "Reported by Yahoo. On April 24, 2026, investors weighed soaring AI chip demand, sector-wide rallies, and sky-high growth hopes around this market heavyweight.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9f01164dcafb3f28b61a81837fa03f02f66f295dcc89a0451429f664a6d8b4c9",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_NVDA_20260424_news1": {
+      "id": "ev_NVDA_20260424_news1",
+      "kind": "news",
+      "title": "Nvidia Rallies. Why Intel, Hyperscalers May Be The Reason.",
+      "detail": "Reported by Yahoo. Nvidia stock rallied Friday, boosted by Intel's upbeat quarterly report and ahead of much-anticipated reports from AI giants.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9fca48a6ad85e34a64dd2b40b4193c49d58410168fa346186c2f94e8e3eaf11e",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_NVDA_20260424_news2": {
+      "id": "ev_NVDA_20260424_news2",
+      "kind": "news",
+      "title": "Nvidia Stock Finally Closed at a Record High. Why It\u2019s Getting a Massive Boost From Intel.",
+      "detail": "Reported by Yahoo. Nvidia stock was surging Friday, with shares of the artificial-intelligence giant briefly climbing past $210.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b64f5015a67a0616796a6f0f4931f15dd3fc89215bc54e858a9b6d81695411a7",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_NVDA_20260424_news3": {
+      "id": "ev_NVDA_20260424_news3",
+      "kind": "news",
+      "title": "NVIDIA (NVDA) Partners With Oklo, LANL to Develop Nuclear-Powered AI Factories",
+      "detail": "Reported by Yahoo. NVIDIA Corporation (NASDAQ:NVDA) is one of the best NASDAQ growth stocks to buy and hold forever. On April 23, NVIDIA entered into a strategic agreement with Oklo Inc. and Los Alamos National Laboratory/LANL to integrate its AI and accelerated computing infrastructure with advanced nuclear technology. The collaboration focuses on developing nuclear-powered AI factories, combining NVIDIA\u2019s [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4f0641ddf87c01bc104e041bd4722e8bbe47040a81d2e75555188a688829ff03",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_NVDA_20260424_news4": {
+      "id": "ev_NVDA_20260424_news4",
+      "kind": "news",
+      "title": "Nvidia market cap back above $5T, Alphabet to invest $40B in Anthropic",
+      "detail": "Reported by Yahoo. Yahoo Finance Anchor Josh Lipton tracks today's top moving stocks and biggest market stories in this Market Minute, including Bloomberg's reports that Alphabet (GOOG, GOOGL) plans to invest $40 billion into Anthropic (ANTH.PVT) and Nvidia's (NVDA) market cap crossing back above $5 trillion. Stay up to date on the latest market action, minute-by-minute, with\u00a0Yahoo Finance's Market Minute.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1cf90fd93a4ab6e0839f132b3bf417da30dc8a5e961c5b94990427c4472be351",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_NVDA_20260424_news5": {
+      "id": "ev_NVDA_20260424_news5",
+      "kind": "news",
+      "title": "Nvidia, Intel and AMD Lead Chip Stocks as AI Wave Lifts Sector",
+      "detail": "Reported by Yahoo. Nvidia, AMD Lead Semiconductor Rally as AI Frenzy Accelerates",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b82dcb13c4068576da4c283de187ab86859d1fa65b1d51087170834db36d1dff",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_NVDA_20260424_news6": {
+      "id": "ev_NVDA_20260424_news6",
+      "kind": "news",
+      "title": "Cadence\u2019s Expanded AI Alliances With TSMC, NVIDIA and Google Might Change The Case For Investing In Cadence Design Systems (CDNS)",
+      "detail": "Reported by Yahoo. In April 2026, Cadence Design Systems expanded its long-running collaboration with TSMC and deepened alliances with NVIDIA and Google to bring agentic AI, advanced IP, and certified design flows to leading-edge nodes such as N3, N2, A16, and A14 for AI and high-performance computing chips. These moves position Cadence\u2019s AI agents and cloud-ready design stack at the center of next-generation semiconductor and digital-twin workflows across major ecosystem partners. Next, we will examine how...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1b1f7ba6b265f33e5fda91562395dd4ba9cc50ceb8d6bfbbb3211ec389c873f1",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_NVDA_20260424_news7": {
+      "id": "ev_NVDA_20260424_news7",
+      "kind": "news",
+      "title": "Nvidia stock on track for record close, pushing market cap over $5 trillion once again",
+      "detail": "Reported by Yahoo. Nvidia was on pace for a record-high close as the AI leader and most valuable company in the world crossed the $5 trillion valuation mark again.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ac93bf33a4511a2e4c63b2fae7b0fae0ef3c967e357d50262adc590b06e0d816",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
     },
     "ev_NVDA_20260427_price": {
       "id": "ev_NVDA_20260427_price",
@@ -1802,6 +1906,86 @@
       "occurred_on": "2026-04-27",
       "numbers": {}
     },
+    "ev_NVDA_20260427_news0": {
+      "id": "ev_NVDA_20260427_news0",
+      "kind": "news",
+      "title": "Here's What I Think Is Going On With Nvidia Stock",
+      "detail": "Reported by Yahoo. Can Nvidia's stock price recovery last?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1afe9089833b616d85fe130ae234e78c1163f63d3304a75571b4e07bb44540c6",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260427_news1": {
+      "id": "ev_NVDA_20260427_news1",
+      "kind": "news",
+      "title": "Nvidia\u2019s (NVDA) Explosive Run May See Limits Going Forward, Warns JPMorgan",
+      "detail": "Reported by Yahoo. Chipmaker Nvidia (NVDA) has seen a strong rally recently, but not everyone on Wall Street believes it can keep going at the same pace. Indeed, JPMorgan (JPM) strategist Mislav Matejka said he still likes semiconductor stocks and remains positive on the group, but he also warned that the market may not behave the same way it did last year. While Nvidia surged about 120% over a six-month stretch in 2025 after a weak first quarter, Matejka believes that the conditions for another similar run are no",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=015f1f30a6e92106228476299b80349b9c32a684daf7916ac4dfdfa149b9579e",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260427_news2": {
+      "id": "ev_NVDA_20260427_news2",
+      "kind": "news",
+      "title": "Nvidia Stock Just Hit a New All-Time High, Pushing Its Market Cap Above $5 Trillion. Is It Too Late to Buy the Stock?",
+      "detail": "Reported by Yahoo. The AI chipmaker has rebounded from its recent correction, but is there additional upside ahead?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a2890562989f05b2669f139efbd76f29815ab792102aaddf4030d80fec2c48a5",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260427_news3": {
+      "id": "ev_NVDA_20260427_news3",
+      "kind": "news",
+      "title": "Nvidia's Next AI Superchip Needs A New Kind of Memory \u2014 And One Company Controls It",
+      "detail": "Reported by Yahoo. The spotlight is on Nvidia Corp\u2018s next-gen Vera Rubin platform\u2014but the real story isn't the GPU. It's the memory. And right now, that story runs straight through SK Hynix and a $13 billion bet that could decide how fast AI actually scales. HBM4 Bottleneck Is Real Vera Rubin, unveiled at GTC 2026, isn't just another chip upgrade\u2014it's an architectural leap. But it comes with a catch: it requires next-gen HBM4 memory running at speeds north of 10Gb/s. That's not optional. Without it, the performanc",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4b4921cecb4df2b7017430a7f2c8d9ea3268591015340acff60072bf68cf9cf1",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260427_news4": {
+      "id": "ev_NVDA_20260427_news4",
+      "kind": "news",
+      "title": "Nvidia Just Jumped to a Record High\u2014Why This Could Be a Make-or-Break Week for the Stock",
+      "detail": "Reported by Yahoo. Nvidia shares climbed to new highs Monday, amid a broader rally in AI-related stocks ahead of earnings from some of America's biggest tech companies.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e4f528424c4c1a65de952b770c55f770ccfbe35da150d0884027f4bf71859b67",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260427_news5": {
+      "id": "ev_NVDA_20260427_news5",
+      "kind": "news",
+      "title": "Joby Aviation, Celestica, Snap, Rambus, And Nvidia: Why These 5 Stocks Are On Investors' Radars Today",
+      "detail": "Reported by Benzinga. U.S. stocks finished Monday on a mixed note, with the Dow Jones Industrial Average slipping 0.1% to 49,167.79.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8afe1b3e3a618ae33df5e46bb75f0782262d426c7627881083a0f5125b225570",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260427_news6": {
+      "id": "ev_NVDA_20260427_news6",
+      "kind": "news",
+      "title": "Dow Jones Futures: Nasdaq, S&P 500 Set More Record Highs; Micron, Nvidia, Sandisk, Alphabet Are Big Winners",
+      "detail": "Reported by Yahoo. Dow Jones Futures: The Nasdaq and S&P 500 set more record highs Monday. Micron, Sandisk, Nvidia and Alphabet were big winners.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=87d70db51a52a302d617a4b463111b1f370f6ec785754bf7f72fe2c0198c5b39",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260427_news7": {
+      "id": "ev_NVDA_20260427_news7",
+      "kind": "news",
+      "title": "Arista Stock Rebounds After Losing Meta, Oracle Deals To Nvidia",
+      "detail": "Reported by Yahoo. With on earnings on deck for next week, AI networking powerhouse Arista stock shakes off a bad Nvidia headline and teases top of buy range.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4b8978524763478de6ea4cf91c4a3bc2db65f8e0346cca2c45324cfd75bf3bd0",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
     "ev_NVDA_20260430_price": {
       "id": "ev_NVDA_20260430_price",
       "kind": "price",
@@ -1944,6 +2128,86 @@
         "subject_pct_change": -4.626,
         "relationship": "supplier"
       }
+    },
+    "ev_NVDA_20260430_news0": {
+      "id": "ev_NVDA_20260430_news0",
+      "kind": "news",
+      "title": "Is NVIDIA Corporation (NVDA) Among the Best Data Center Hardware Stocks?",
+      "detail": "Reported by Yahoo. NVIDIA Corporation (NASDAQ:NVDA) is one of the 7 Best Data Center Hardware Stocks to Invest in. Reuters on April 22 cited Commerce Department Secretary Howard Lutnick reporting that NVIDIA Corporation (NASDAQ:NVDA) has not sold its H200 AI chips to Chinese enterprises. Lutnick stated, \u201cWe have not sold them chips as of yet,\u201d attributing the delay [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d2933d5906168e48b39794a8fb10ada60d4f2c204e91980565045889f6a61b64",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_NVDA_20260430_news1": {
+      "id": "ev_NVDA_20260430_news1",
+      "kind": "news",
+      "title": "Everyone's Wondering What's Next for Nvidia. This News From Amazon and Alphabet Offers Us an Idea That's Strikingly Clear",
+      "detail": "Reported by Yahoo. A trend has been gaining momentum at Amazon and Alphabet.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5dbaaa55ef25b89c54dfcdfe927f7e97bd64eb6450a17f4ccccb18507a75ef37",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_NVDA_20260430_news2": {
+      "id": "ev_NVDA_20260430_news2",
+      "kind": "news",
+      "title": "Nvidia vs. Intel: Diverging Paths in Quarterly Revenue",
+      "detail": "Reported by Yahoo. Nvidia has posted eight consecutive quarters of rising revenue, while Intel's figures have remained largely flat. Explore the financial trends shaping each chip company.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=da8eb559ca0c3613521e1ab6d1079060d80492bc29881135d404f4ec14416c54",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_NVDA_20260430_news3": {
+      "id": "ev_NVDA_20260430_news3",
+      "kind": "news",
+      "title": "Huawei's AI chip sales surge as Nvidia stalls in China - FT",
+      "detail": "Reported by Finnhub. Huawei's AI chip sales surge as Nvidia stalls in China - FT...",
+      "source": "Finnhub (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cd04b3a19f4618bf460e21ce0b0b060091cddd10a4a7409ffa9ed475626226b2",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_NVDA_20260430_news4": {
+      "id": "ev_NVDA_20260430_news4",
+      "kind": "news",
+      "title": "From Intel to Nvidia, Tech CEOs Are Embracing Quantum. Why It Matters.",
+      "detail": "Reported by Yahoo. Intel  CEO Lip-Bu Tan became the latest technocrat to embrace quantum computing on Thursday as privately held PsiQuantum announced he would be joining the company\u2019s board.  It\u2019s a big step for someone who has previously cited quantum computing as a strategic priority.  Back in February, Tan described quantum as \u201canother big area coming up is around the corner\u201d in relation to how large amounts of data are processed.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=292646ff73f8f309ef6b8c160546bcad60a05bdbfaee0be0b12cdace7e32ff4d",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_NVDA_20260430_news5": {
+      "id": "ev_NVDA_20260430_news5",
+      "kind": "news",
+      "title": "Everyone\u2019s Talking About NVIDIA. Smart Money Is Watching CrowdStrike Instead",
+      "detail": "Reported by Yahoo. NVIDIA (NASDAQ:NVDA) is up 96.1% over the past year and just crossed a $5.26 trillion market cap on the same agentic AI thesis Evercore and Wedbush keep recycling around Microsoft (NASDAQ:MSFT)\u2019s 50-day moving average. But here\u2019s what you should actually be watching. The case against chasing NVIDIA at this level is straightforward. The stock trades ... Everyone\u2019s Talking About NVIDIA. Smart Money Is Watching CrowdStrike Instead",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8d9c0b148ced880ffb4f2e5c56f41698d03577a2c36e90b73c499f8016c9487f",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_NVDA_20260430_news6": {
+      "id": "ev_NVDA_20260430_news6",
+      "kind": "news",
+      "title": "How Nvidia beat Apple to become the defining stock of the AI boom",
+      "detail": "Reported by Yahoo. The \"Magnificent Seven\" rose to fame with Apple on top. But Nvidia quickly became the leader of the group.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=597c61190e4542c6b1ee1bbd55176103a881232461c54266d29642bcb785268a",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_NVDA_20260430_news7": {
+      "id": "ev_NVDA_20260430_news7",
+      "kind": "news",
+      "title": "Nvidia stock falls, Hertz & Uber partner on robotaxis",
+      "detail": "Reported by Yahoo. Yahoo Finance anchor Josh Lipton tracks Thursday's top moving stocks and biggest market stories. Nvidia (NVDA) stock is moving lower after Wednesday's round of Big Tech earnings. Hertz (HTZ) stock is surging after the company announced its partnership with Uber (UBER) on autonomous robotaxis.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=53b9f2869d5c58657b0484a84a79cd8d9752a8011e827037fefee57ab62f0b61",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
     },
     "ev_NVDA_20260514_price": {
       "id": "ev_NVDA_20260514_price",
@@ -2088,6 +2352,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_NVDA_20260514_news0": {
+      "id": "ev_NVDA_20260514_news0",
+      "kind": "news",
+      "title": "Nvidia Stock Soars as UBS Sees Massive AI Demand Surge Ahead",
+      "detail": "Reported by Yahoo. Nvidia Gets New $275 Target as Blackwell Demand Stays Red Hot",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=86f45879f0bf6bc7f31a263fa00f0bfb2aa0b7a8856f30edb802634da91ba687",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_NVDA_20260514_news1": {
+      "id": "ev_NVDA_20260514_news1",
+      "kind": "news",
+      "title": "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, and Apple in the $4 Trillion Club",
+      "detail": "Reported by Yahoo. Artificial intelligence could be Amazon's ticket into the ultra-exclusive $4 trillion club.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ac2ee7888f2b4467580040c0fd8eb362aa408e7d0a5984ef91286410485098e8",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_NVDA_20260514_news2": {
+      "id": "ev_NVDA_20260514_news2",
+      "kind": "news",
+      "title": "Will Nvidia Stock Keep Surging on China Optimism Or is the Cerebras IPO a New Risk?",
+      "detail": "Reported by Yahoo. Nvidia (NVDA) has spent the last three years dominating the artificial intelligence boom, but a new innovative player entered the public markets on Thursday in Cerebras Corporation (CBRS).",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=92599af91d29f14118786dc294e5f555c5fe6036dbba77d4ca215b66d7fa5c71",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_NVDA_20260514_news3": {
+      "id": "ev_NVDA_20260514_news3",
+      "kind": "news",
+      "title": "Nvidia Beijing Visit And H200 Approval Keep China Risk In Focus",
+      "detail": "Reported by Yahoo. Nvidia CEO Jensen Huang was added at the last minute to President Trump's high-level delegation to Beijing. The U.S. government approved Nvidia's H200 AI chip sales to major Chinese tech firms, while actual deliveries remain on hold due to Beijing restrictions. The moves come against ongoing U.S. China tensions over AI technology and export controls. Nvidia (NasdaqGS:NVDA) sits at the center of this latest round of AI hardware diplomacy, with its H200 chips now cleared by the U.S. side for...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=00316cb472ac50ef97d52587a76b5eec0078c1613e57851241e4fbbcc29981f4",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_NVDA_20260514_news4": {
+      "id": "ev_NVDA_20260514_news4",
+      "kind": "news",
+      "title": "Dow Jones Futures: Stocks Power Up As Nvidia Runs, Cerebras IPO Soars; Trump-Xi Summit Continues",
+      "detail": "Reported by Yahoo. The stock market hit highs as Nvidia led and AI chip IPO Cerebras soared in its debut, while Broadcom and Taiwan Semiconductor flashed buy signals. The Trump-Xi summit continues.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=62e76c7446e60cfe99a305ac5331ccd29c0b9f640647eaaa544eb78af9a11f66",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_NVDA_20260514_news5": {
+      "id": "ev_NVDA_20260514_news5",
+      "kind": "news",
+      "title": "Tokyo stocks open higher on AI, tech gains after report on Nvidia",
+      "detail": "Reported by Finnhub. Tokyo stocks opened higher Friday as a report on U.S. approval of Nvidia Corp. chip sales to Chinese companies sparked buying of artificial intelligence and chip-related shares.\t\t\t\t\t\t\t\tIn the first...",
+      "source": "Finnhub (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=15dcc251a15fab03fa80b15c2a07f2bf41106274ed45ee3de9e906cb7e40fe03",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_NVDA_20260514_news6": {
+      "id": "ev_NVDA_20260514_news6",
+      "kind": "news",
+      "title": "NVIDIA is Up 20% in a Month. Could the May 20 Earnings Report Knock It Right Back Down?",
+      "detail": "Reported by Yahoo. Shares of NVIDIA (NASDAQ:NVDA) are trading at $236 in Thursday afternoon action, up 4.5% on the session. The move extends a rally that has lifted the chipmaker 20% over the past month and 27% year to date. NVIDIA\u2019s market cap now sits near $5.71 trillion, the largest in the world. The one-year return has reached ... NVIDIA is Up 20% in a Month. Could the May 20 Earnings Report Knock It Right Back Down?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=38e213c9b58ab6a4afc8effd9a372a1dc3e1f9849641b68520179bb981a5ca22",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_NVDA_20260514_news7": {
+      "id": "ev_NVDA_20260514_news7",
+      "kind": "news",
+      "title": "Jim Cramer Shares How OnlyFans Is Doing Well Than NVIDIA (NVDA)",
+      "detail": "Reported by Yahoo. We recently published Jim Cramer Revealed His Big AI Investing Fear & Discussed These 20 Stocks. NVIDIA Corporation (NASDAQ:NVDA) is one of the stocks discussed by Jim Cramer. Even though its shares have remained lackluster in 2026, Cramer is nevertheless one of NVIDIA Corporation (NASDAQ:NVDA)\u2019s biggest fans. The stock is up by 78% over the [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=772a0eb5b0f71d6fe6293f9dfbff6f6bbc5bb2582c9d652a46d40ec797901913",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
     "ev_NVDA_20260601_price": {
       "id": "ev_NVDA_20260601_price",
       "kind": "price",
@@ -2230,6 +2574,86 @@
         "subject_pct_change": 6.261,
         "relationship": "supplier"
       }
+    },
+    "ev_NVDA_20260601_news0": {
+      "id": "ev_NVDA_20260601_news0",
+      "kind": "news",
+      "title": "Nvidia sends PC makers a message they can't ignore",
+      "detail": "Reported by Yahoo. Nvidia (NVDA) believes the next battle will take place somewhere altogether different. At GTC Taipei, the firm unveiledRTX Spark, a new Windows platform designed for artificial intelligence agents. Rather than just helping users work faster, Nvidia envisions computers that can also reason through ...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=33fda6a7db15464928eb21b852b1aad79aa6836391602afaf7136559d245724d",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_NVDA_20260601_news1": {
+      "id": "ev_NVDA_20260601_news1",
+      "kind": "news",
+      "title": "Cathie Wood Sells $56.2 Million Worth Of AMD Shares Again, But Loads Up On $67.3 Million Worth Of Nvidia Stock Amid PC Chip Buzz",
+      "detail": "Reported by Benzinga. Ark Invest sold roughly $56M in AMD shares while snapping up nearly $46M in Nvidia and $13M in Cerebras stock on Monday, June 1, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a99938e5cc5957a916a8a5f017493572bdec1027f099b0cb04a998198bc77cbf",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_NVDA_20260601_news2": {
+      "id": "ev_NVDA_20260601_news2",
+      "kind": "news",
+      "title": "Tigress Financial Lifts NVIDIA (NVDA) Price Target, Keeps Strong Buy Rating",
+      "detail": "Reported by Yahoo. NVIDIA Corporation (NASDAQ:NVDA) is one of the 12 Stocks Most Bought by Hedge Funds in Q1 2026. On May 27, Tigress Financial Partners increased its price target on NVIDIA Corporation (NASDAQ:NVDA) from $360 to $425 and kept a Strong Buy rating on the stock. The research firm pointed to the company\u2019s full-stack technology leadership and [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ce9df12882d028f3af8f4c502598d5c976ec5ae3bb8717af03d4bfd3234fcae8",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_NVDA_20260601_news3": {
+      "id": "ev_NVDA_20260601_news3",
+      "kind": "news",
+      "title": "Nvidia's Jensen Huang Just Announced Something Big",
+      "detail": "Reported by Yahoo. Nvidia is about to greatly expand its revenue opportunity.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a981a8a89729b978539eb2b1b4814c1fa11413198a9e469177c5ee3b97972952",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_NVDA_20260601_news4": {
+      "id": "ev_NVDA_20260601_news4",
+      "kind": "news",
+      "title": "Dow Jones Futures: Broadcom, Micron, Nvidia, Sandisk, Tesla Are Big Movers; AI Stock Credo Plunges On Earnings",
+      "detail": "Reported by Yahoo. Dow Jones Futures: Broadcom, Micron, Nvidia and Sandisk were big winners Monday. Credo plunged on earnings late.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0c24c1221187f6c33058e8507e8abd8839a3badc97dd7972e420c8816795e239",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_NVDA_20260601_news5": {
+      "id": "ev_NVDA_20260601_news5",
+      "kind": "news",
+      "title": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
+      "detail": "Reported by Yahoo. If Nvidia has cracked a way to bring AI agents easily, safely and usefully to the masses, it could \u2014 and should \u2014 be big.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=42f253f7f1fb1fcb15aea90790ba44c55f4f5df27cdcd73814e37cc8a4526103",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_NVDA_20260601_news6": {
+      "id": "ev_NVDA_20260601_news6",
+      "kind": "news",
+      "title": "Stock Market Today, June 1: CoreWeave Surges on Nvidia Vera Rubin NVL72 Deployment",
+      "detail": "Reported by Yahoo. On June 1, 2026, CoreWeave\u2019s industry-first rollout of Nvidia\u2019s Vera Rubin NVL72 sharpened focus on its AI data center ambitions.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bd54c46050b97d7286a260a24b1d923c6028b5ea4b4894f69d5cb461b6e71996",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_NVDA_20260601_news7": {
+      "id": "ev_NVDA_20260601_news7",
+      "kind": "news",
+      "title": "Arm\u2019s Role Widens In AI PCs And Data Centers With Nvidia",
+      "detail": "Reported by Yahoo. Nvidia has introduced the RTX Spark Superchip and Vera data center processor, both built on Arm architecture. The products target AI focused PCs and data centers and are set to be deployed through partners such as Dell and Lenovo. Arm Holdings (NasdaqGS:ARM) reports substantial customer interest in its AGI CPUs, with demand described as doubling. The announcement highlights an expansion of Arm\u2019s role from IP licensing into deeper hardware partnerships across AI computing. Arm sits at the...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9fbb8cbb602ac04dc0a98f24f06e4808623836b4f3f34535879ef9635b4dd2eb",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
     },
     "ev_NVDA_20260603_price": {
       "id": "ev_NVDA_20260603_price",
@@ -2374,6 +2798,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_NVDA_20260603_news0": {
+      "id": "ev_NVDA_20260603_news0",
+      "kind": "news",
+      "title": "'Big Short' Star Steve Eisman Warns SpaceX Will Be A 'Retail Cult Stock' With A 'Crazy' Valuation Compared To NVDA",
+      "detail": "Reported by Yahoo. \u201cBig Short\u201d investor Steve Eisman said this week that SpaceX\u2019s expected IPO valuation is \u201ckind of crazy,\u201d and the only way to justify it is for the stock to become a \u201cretail cult stock.\u201d SpaceX is expected to debut June...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=eca4cc9f61e4c7f2b18f39eb4f782a17f819b6a8c09c725b693bc7db0792c569",
+      "occurred_on": "2026-06-03",
+      "numbers": {}
+    },
+    "ev_NVDA_20260603_news1": {
+      "id": "ev_NVDA_20260603_news1",
+      "kind": "news",
+      "title": "SK Hynix\u2019s Trillion Won AI Bet With Nvidia Reshapes Growth Outlook",
+      "detail": "Reported by Yahoo. SK hynix (KOSE:A000660) has reached a $1t market capitalization. The company has secured major HBM4 supply orders from Nvidia. SK hynix is investing in significant new fabrication capacity to support HBM and DRAM production. SK hynix, a key DRAM and NAND producer, is now firmly at the center of the AI hardware supply chain as HBM4 becomes a core component for advanced accelerators. The new orders from Nvidia highlight how critical HBM has become for high performance computing, while long...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1063c3c810366f02e6363029d7d077a61e63edabd87943efb3d417c5f971fd2b",
+      "occurred_on": "2026-06-03",
+      "numbers": {}
+    },
+    "ev_NVDA_20260603_news2": {
+      "id": "ev_NVDA_20260603_news2",
+      "kind": "news",
+      "title": "Senator Sells Up To $500K In Nvidia Stock: You Won't Believe How Much He Paid",
+      "detail": "Reported by Benzinga. A senator sold up to $500,000 in Nvidia stock recently. A look at the trading activity shows the shares were bought back in 2018 or 2019.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=426dcc66c383779ea58cdbe37f2a93bc6ed2476ddf4ef14e9541130fe5fb2330",
+      "occurred_on": "2026-06-03",
+      "numbers": {}
+    },
+    "ev_NVDA_20260603_news3": {
+      "id": "ev_NVDA_20260603_news3",
+      "kind": "news",
+      "title": "Mysterious traders rush to AI stock after NVIDIA CEO\u2019s $1T call",
+      "detail": "Reported by Yahoo. NVIDIA Corp. (Nasdaq: NVDA) CEO Jensen Huang recently made a surprising prediction when he called Marvell Technology (Nasdaq: MRVL) the next trillion-dollar company. The billionaire tech tycoon made the remark during a keynote presentation with Marvell CEO Matthew Murphy at ...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=04bf386ae99da1d5839f53eecd28bda8e5b4849972c532fdf36d58ff41695e74",
+      "occurred_on": "2026-06-03",
+      "numbers": {}
+    },
+    "ev_NVDA_20260603_news4": {
+      "id": "ev_NVDA_20260603_news4",
+      "kind": "news",
+      "title": "Navitas Semiconductor Has the Nvidia Seal of Approval. The Stock Is Surging.",
+      "detail": "Reported by Yahoo. Navitas is showing off one of its power-delivery boards at Nvidia\u2019s MGX ecosystem showcase in Taiwan this week.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=65666736f63ae819d12f518a15537f8ee3a7e00627dc1184e8909a853939d6b3",
+      "occurred_on": "2026-06-03",
+      "numbers": {}
+    },
+    "ev_NVDA_20260603_news5": {
+      "id": "ev_NVDA_20260603_news5",
+      "kind": "news",
+      "title": "Tech ETFs to Buy as NVIDIA Sets Foot Into PC Market via New AI Chip",
+      "detail": "Reported by Yahoo. Tech ETFs with heavy exposure to NVDA gain attention, as the company enters the PC market with its RTX Spark AI superchip.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4d02457ed8eb915bc04d25ae4e4208078a4c98346b00fe7ea6891e1c0f03cef3",
+      "occurred_on": "2026-06-03",
+      "numbers": {}
+    },
+    "ev_NVDA_20260603_news6": {
+      "id": "ev_NVDA_20260603_news6",
+      "kind": "news",
+      "title": "Nvidia Shakes Up PC Market With Its Surprise Entry",
+      "detail": "Reported by Yahoo. Nvidia looks to revamp the personal computer industry this fall by supplying AI-enabled PC chips for hardware vendors.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=67c8e7b5f1d73a8c11f5a796ed99f6db38a17dfd4573becc004a1050114cd03b",
+      "occurred_on": "2026-06-03",
+      "numbers": {}
+    },
+    "ev_NVDA_20260603_news7": {
+      "id": "ev_NVDA_20260603_news7",
+      "kind": "news",
+      "title": "Marvell Stock Jumps Again -- Nvidia CEO Floats Trillion-Dollar Future",
+      "detail": "Reported by Yahoo. Marvell Surges as Evercore Backs AI Growth Story",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c8d2bce267fe6f4eec3d1fad32d1471c7ceac4b8ba13d6c694c26e41c115d85f",
+      "occurred_on": "2026-06-03",
+      "numbers": {}
+    },
     "ev_NVDA_20260708_price": {
       "id": "ev_NVDA_20260708_price",
       "kind": "price",
@@ -2516,6 +3020,86 @@
         "subject_pct_change": 3.651,
         "relationship": "supplier"
       }
+    },
+    "ev_NVDA_20260708_news0": {
+      "id": "ev_NVDA_20260708_news0",
+      "kind": "news",
+      "title": "Nvidia\u2019s CEO Just Predicted a New Blue-Collar Millionaire Class. Here Are 5 Stocks Worth Watching.",
+      "detail": "Reported by Yahoo. NVIDIA (NASDAQ:NVDA) CEO Jensen Huang has a way of turning things to gold. He has spent much of 2026 explaining that the AI buildout needs hands, not just chips. On a recent The Shawn Ryan Show podcast, the host put trade guru Mike Rowe on the spot: \u201cJensen Huang keeps saying the tradesman is going ... Nvidia\u2019s CEO Just Predicted a New Blue-Collar Millionaire Class. Here Are 5 Stocks Worth Watching.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=abfc64ce8fc333f13d06a7578d5aa2b2ef002b7679001ad3a0b0c67cc158ca9f",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_NVDA_20260708_news1": {
+      "id": "ev_NVDA_20260708_news1",
+      "kind": "news",
+      "title": "The Latest Selloff Is the Perfect Buying Opportunity for Nvidia and Broadcom",
+      "detail": "Reported by Yahoo. The market is giving investors a gift by putting these two stocks on sale.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=846d16911b22bfc5aa08399d8cce93635158dc660d8b3b8149b3034f2ef739c7",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_NVDA_20260708_news2": {
+      "id": "ev_NVDA_20260708_news2",
+      "kind": "news",
+      "title": "Nvidia (NVDA) Launches NemoClaw With LangChain For Lower Cost Enterprise AI Agents",
+      "detail": "Reported by Yahoo. LangChain and NVIDIA have introduced NemoClaw for the LangChain Deep Agents blueprint, using Nemotron 3 Ultra and NVIDIA OpenShell to build enterprise AI agents. The collaboration is designed for large customers that want customizable, production-ready AI agents with lower inference costs. Global partners such as EY are involved to support deployment and integration for enterprise clients. NVIDIA (NasdaqGS:NVDA) continues to add to its AI software stack with NemoClaw, reinforcing its role...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b6d34f9419e5f92bf22a3746f5de0f6f88733ab6d0231b2d95dac6ca2038a343",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_NVDA_20260708_news3": {
+      "id": "ev_NVDA_20260708_news3",
+      "kind": "news",
+      "title": "Dow Ends Lower To Record Worst Day In Nearly A Month As US-Iran Jitters Push Oil Prices \u2014 TSLA, NVDA, BE, AAPL, WBD  In Focus",
+      "detail": "Reported by Yahoo. President Donald Trump said a ceasefire with Iran may be over, and \"it will get much worse\" if Iran continues to bomb ships.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7c74e8f0211ea4220db73f846015c9534c0a956ddd5a3db4b83aef0ed7345f41",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_NVDA_20260708_news4": {
+      "id": "ev_NVDA_20260708_news4",
+      "kind": "news",
+      "title": "Dow Jones Futures: Oil Spikes On Iran News, But Nvidia, Valero, Dell Rise; SpaceX Hits New Low",
+      "detail": "Reported by Yahoo. The Dow Jones slid with most stocks as oil prices jumped. The Nasdaq rose as Nvidia, Dell and AI plays bounced. SpaceX hit a new low.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=278c70057720c2ca03bfe9a4b5ebfa753bdb376ba58d46b567e240abec53057f",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_NVDA_20260708_news5": {
+      "id": "ev_NVDA_20260708_news5",
+      "kind": "news",
+      "title": "Nvidia, Alibaba, Levi Strauss, MDA Space and Broadcom: Why These 5 Stocks Are on Investors' Radars Today",
+      "detail": "Reported by Benzinga. NVDA, BABA, LEVI, MDA, AVGO were among the stocks seen trending among investors on Wednesday, July 8, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=012ebd542441f5554e013041996831f946db017fdb53cb9b8b3b76ac5a8f2add",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_NVDA_20260708_news6": {
+      "id": "ev_NVDA_20260708_news6",
+      "kind": "news",
+      "title": "Alphabet's Artificial Intelligence (AI) Spending Spree Is Great News for Nvidia",
+      "detail": "Reported by Yahoo. The AI tailwind isn't over yet.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c9f3e0e9a39b82aa80067f86462751ace977a07ab867db9e60f35a9c24c1114a",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_NVDA_20260708_news7": {
+      "id": "ev_NVDA_20260708_news7",
+      "kind": "news",
+      "title": "Nvidia, Chip Stocks Rally Despite U.S.-Iran War Flare-Up",
+      "detail": "Reported by Yahoo. Nvidia stock and shares of other semiconductor companies rose on Wednesday even as the U.S.-Iran conflict dominated the headlines.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c72bd88621ed74069355e51208813df4429399e61ba6fb3898fd3e4c9412ace1",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
     },
     "ev_NVDA_20260710_price": {
       "id": "ev_NVDA_20260710_price",
@@ -2660,6 +3244,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_NVDA_20260710_news0": {
+      "id": "ev_NVDA_20260710_news0",
+      "kind": "news",
+      "title": "Missed Nvidia\u2019s Run? SMH Holders Made 113% Over 12 Months Anyway",
+      "detail": "Reported by Yahoo. Every investor who skipped Nvidia this year assumes they left money on the table, but one overlooked semiconductor fund quietly tells a very different story about who actually won the AI trade.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=43070e9f681c65a1fb220e0b2e4cc3ab5cc094ea65d7b1b067d6083066b6d002",
+      "occurred_on": "2026-07-10",
+      "numbers": {}
+    },
+    "ev_NVDA_20260710_news1": {
+      "id": "ev_NVDA_20260710_news1",
+      "kind": "news",
+      "title": "Apple vs. Nvidia: One Is Growing 10x Faster and Trades Cheaper. The Better AI Dividend Stock Is Clear.",
+      "detail": "Reported by Yahoo. Apple offers stability through its ecosystem, while NVIDIA leads AI growth. Which tech giant offers the better opportunity today?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ab5d817ddbb6d5b4802fdadaae0f8b975146c525a1487d8aa7400552b0406d69",
+      "occurred_on": "2026-07-10",
+      "numbers": {}
+    },
+    "ev_NVDA_20260710_news2": {
+      "id": "ev_NVDA_20260710_news2",
+      "kind": "news",
+      "title": "Dow Jones Futures: Big Earnings Due As Market Sets Up; Nvidia, Micron, Sandisk, Robinhood, SpaceX In Focus",
+      "detail": "Reported by Yahoo. Taiwan Semi, Goldman and GE Aerospace are big earnings due with the market improving. Nvidia, Sandisk, Micron, Robinhood are near buy points.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=804458c656317444f84af53785a1dbd2bf7d3b9c05cf9e59e3bdc22d5c6c27f9",
+      "occurred_on": "2026-07-10",
+      "numbers": {}
+    },
+    "ev_NVDA_20260710_news3": {
+      "id": "ev_NVDA_20260710_news3",
+      "kind": "news",
+      "title": "What's Going On With Nvidia Stock Friday",
+      "detail": "Reported by Yahoo. Nvidia Stock Rises as Meta's New AI Chip Won't Replace Its GPUs",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=09b9d76297a57f198651c5e76b58fd186ce8f20706912668ba7f3c7d95cb0b92",
+      "occurred_on": "2026-07-10",
+      "numbers": {}
+    },
+    "ev_NVDA_20260710_news4": {
+      "id": "ev_NVDA_20260710_news4",
+      "kind": "news",
+      "title": "Nvidia Vera CPU Expands Market Reach",
+      "detail": "Reported by Yahoo. Wedbush sees opportunities in general-purpose computing and networking.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=172c0e9a42650d1eb43a9f2eeef65c0d4b871875248a58e5687404ffcbc031f4",
+      "occurred_on": "2026-07-10",
+      "numbers": {}
+    },
+    "ev_NVDA_20260710_news5": {
+      "id": "ev_NVDA_20260710_news5",
+      "kind": "news",
+      "title": "Citi sends strong signal to Nvidia investors amid rumors",
+      "detail": "Reported by Yahoo. Nvidia stock hit an all-time high on May 14, 2026. Since then, it has lost roughly $1 trillion in market value. The stock is down about 16% from that peak, trading around $204, while the broader market has mostly moved higher. For investors who bought in during the spring run-up, it has been a ...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7bdfe577ebe7f189c1d868a3b1429a23730dd3489b3518c5313ee28838485ee3",
+      "occurred_on": "2026-07-10",
+      "numbers": {}
+    },
+    "ev_NVDA_20260710_news6": {
+      "id": "ev_NVDA_20260710_news6",
+      "kind": "news",
+      "title": "Nvidia Supplier Plans U.S. Facility",
+      "detail": "Reported by Yahoo. King Yuan Electronics could invest up to $1.4 billion as chip production expands closer to U.S. customers.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=32fe47e50ad1ee02162ba41bf82450dd7f58b747cebbbf0b1ee780ee6b5ce7ae",
+      "occurred_on": "2026-07-10",
+      "numbers": {}
+    },
+    "ev_NVDA_20260710_news7": {
+      "id": "ev_NVDA_20260710_news7",
+      "kind": "news",
+      "title": "Jim Cramer Says NVIDIA Is the Most Proprietary Chip Company in History, and the Market Is Getting Its Valuation Wrong",
+      "detail": "Reported by Yahoo. Jim Cramer is furious that investors keep dumping one of the most proprietary chip companies ever built while rewarding a commodity memory stock with a higher forward multiple. The numbers behind his argument are harder to dismiss than you might expect.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cbb9ff1a37ebb451f9321da5a9e210b96a0de28209848ea15fadaa1d1fc1e5bf",
+      "occurred_on": "2026-07-10",
+      "numbers": {}
+    },
     "ev_NVDA_20260727_price": {
       "id": "ev_NVDA_20260727_price",
       "kind": "price",
@@ -2803,6 +3467,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_NVDA_20260727_news0": {
+      "id": "ev_NVDA_20260727_news0",
+      "kind": "news",
+      "title": "IBM (IBM) Joins Nvidia And Microsoft In Open Secure AI Alliance",
+      "detail": "Reported by Yahoo. International Business Machines (NYSE:IBM) has joined Nvidia, Microsoft, Palantir and others to launch the Open Secure AI Alliance. The alliance aims to promote open source AI development and improve cybersecurity across AI systems. The announcement positions IBM as a founding member of an industry group focused on transparency and trust in AI. International Business Machines enters this alliance with a mixed recent share price record. NYSE:IBM closed at $216.28, with the stock down 20.4%...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=dadc105db50a440e57e3c11a5ebf59f8e1a97eb0c788e4d2c473b4bf89fce698",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260727_news1": {
+      "id": "ev_NVDA_20260727_news1",
+      "kind": "news",
+      "title": "Dow Ends Higher On Support From Weak Oil, But AI Concerns Weigh On Nasdaq, S&P 500 \u2014 ASML, MSFT, NVDA, AMZN, PSKY In Focus",
+      "detail": "Reported by Yahoo. China has begun developing deep ultraviolet lithography machines used to build semiconductors, according to media reports.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1d9e152e8bfd7f2c6ff693f3b9c7c40ac059a9e59351b2b6e4a459aedae81410",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260727_news2": {
+      "id": "ev_NVDA_20260727_news2",
+      "kind": "news",
+      "title": "Dow Jones Futures: U.S.-Iran Peace Hopes Send Oil Prices Plunging; Nvidia, Micron, Sandisk, SpaceX, Tesla Sell Off",
+      "detail": "Reported by Yahoo. Dow Jones Futures: Oil prices plunged Monday amid U.S.-Iran peace hopes. Nvidia, Micron, Sandisk, SpaceX and Tesla sold off.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a43926d9a68a52073dcddcf158a0bf171391b0c4de69f022e0ad01acdb4845b9",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260727_news3": {
+      "id": "ev_NVDA_20260727_news3",
+      "kind": "news",
+      "title": "Nvidia (NVDA) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "detail": "Reported by Yahoo. In the closing of the recent trading day, Nvidia (NVDA) stood at $196.51, denoting a -4.99% move from the preceding trading day.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=282f4f2d0a15011301e55ac116513e412987ee40f9c183d4329e5348c35da73a",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260727_news4": {
+      "id": "ev_NVDA_20260727_news4",
+      "kind": "news",
+      "title": "Nvidia, Applied Digital, Celestica, T3 Defense Corp. and SanDisk: Why These Stocks Are on Investors' Radars Today",
+      "detail": "Reported by Benzinga. NVDA, APLD, CLS, DFNS, SNDK were among the stocks seen trending among investors on Monday, July 27, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=437dd23f2e1089b410a3533fbf152edb9b6396db738f0f57c015a0a294c867fe",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260727_news5": {
+      "id": "ev_NVDA_20260727_news5",
+      "kind": "news",
+      "title": "Nvidia Invests in Ilya Sutskever's AI Startup",
+      "detail": "Reported by Yahoo. Chip giant invests in Safe Superintelligence and supplies Vera Rubin systems",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0d526587c69f63215525dc4ad0f9717025e8bd7112871da5e357e89d71555baf",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260727_news6": {
+      "id": "ev_NVDA_20260727_news6",
+      "kind": "news",
+      "title": "NVIDIA vs. Snowflake: Which AI-Driven Stock Is a Better Buy in 2026?",
+      "detail": "Reported by Yahoo. NVIDIA's 55% net margin and $96.7B free cash flow contrast sharply with Snowflake's $1.3B net loss, but valuation gaps tell a different story.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e6055170484aa85f59e53fb659e49bccd27866eb245352a53d75c28c18ef8676",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260727_news7": {
+      "id": "ev_NVDA_20260727_news7",
+      "kind": "news",
+      "title": "NVIDIA Pursues $750 Billion in New AI Deals Despite Financing Scrutiny",
+      "detail": "Reported by Yahoo. SK Group partnership and OpenAI discussions deepen NVIDIA's role in funding global AI infrastructure.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e7777109769b68857021b63b29e2b3799c5b1d4852123fc6fcb8be32ec00ee6f",
+      "occurred_on": "2026-07-27",
+      "numbers": {}
+    },
     "ev_NVDA_20260805_price": {
       "id": "ev_NVDA_20260805_price",
       "kind": "price",
@@ -2945,6 +3689,86 @@
         "subject_pct_change": 3.435,
         "relationship": "supplier"
       }
+    },
+    "ev_NVDA_20260805_news0": {
+      "id": "ev_NVDA_20260805_news0",
+      "kind": "news",
+      "title": "Cathie Wood Buys $17.6 Million of Nvidia Stock as SpaceX's GPU Bet Fuels Optimism, Dumps Palantir Stock as Michael Burry's Short Bet Lingers",
+      "detail": "Reported by Benzinga. Ark Invest bought SpaceX shares despite a post-earnings selloff while adding to its Nvidia stake on Wednesday, Aug. 5, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=db380bf6ff9526e8c0eb50db4bddb5377e3802474cb49de52ba7c3f1c45e421b",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_NVDA_20260805_news1": {
+      "id": "ev_NVDA_20260805_news1",
+      "kind": "news",
+      "title": "AI Trailblazers Nvidia, Palantir, Alphabet, and Meta Are Shaking Wall Street to Its Core With This $3.4 Billion Warning",
+      "detail": "Reported by Yahoo. The people who know these AI pioneers best are sending a worrisome message.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=36f36226d4d7300e5be9c0851dc939386f3d64e913f98d529956256b8fab1dd6",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_NVDA_20260805_news2": {
+      "id": "ev_NVDA_20260805_news2",
+      "kind": "news",
+      "title": "Dow Jones Futures: Nvidia Lifts Dow, But Google, SpaceX Skid; Sandisk, Western Digital Lead Earnings Losers Late",
+      "detail": "Reported by Yahoo. The Dow Jones hit a new high thanks to Nvidia, but Google, SpaceX and AMD weighed on the Nasdaq. Sandisk, Western Digital fell late.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f546d76ca0972300cdacdeef05978febf17dd27de394c36934129764360b28f7",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_NVDA_20260805_news3": {
+      "id": "ev_NVDA_20260805_news3",
+      "kind": "news",
+      "title": "Nvidia Stock Is the Only Magnificent 7 Name in the Green",
+      "detail": "Reported by Yahoo. Nvidia stock was seeing solid gains on Wednesday, though you wouldn't guess it by taking a look at major index moves. The AI chip maker was up 4.3% and was the only Magnificent Seven name in the green on Wednesday afternoon.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e8220bcaa71a2d1bccfc6f382b152d4219d5ebf991de2db94affdd5d619c7aa7",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_NVDA_20260805_news4": {
+      "id": "ev_NVDA_20260805_news4",
+      "kind": "news",
+      "title": "Micron (MU) Has More to Gain Than Nvidia (NVDA) Has to Lose From Samsung\u2019s 2028 Warning",
+      "detail": "Reported by Yahoo. Samsung said on July 30 that memory shortages could worsen in 2027 and persist through 2028. The warning strengthened the pricing outlook for Micron Technology, Inc. (NASDAQ:MU) while exposing a potential supply constraint for NVIDIA Corporation (NASDAQ:NVDA). Micron shares jumped 18.4% that day as Samsung\u2019s report revived confidence in the memory cycle. Samsung has signed [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=02e925c783ae9bb799bde06879d9047e5c6bb3ca72dcb5ab18d1c7b71da6ec5b",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_NVDA_20260805_news5": {
+      "id": "ev_NVDA_20260805_news5",
+      "kind": "news",
+      "title": "Nvidia Just Won a Major SpaceX AI Deal. Stock Jumps as AMD Sinks",
+      "detail": "Reported by Yahoo. Nvidia Stock Rises as SpaceX Picks It Over AMD for AI Infrastructure",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=942de0347c20ef7b7c90228449f973050a6e380adb50fec9c10c304eb60a7729",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_NVDA_20260805_news6": {
+      "id": "ev_NVDA_20260805_news6",
+      "kind": "news",
+      "title": "This Is Nvidia CEO Jensen Huang's Favorite Biotech Stock -- and You've Probably Never Heard of It",
+      "detail": "Reported by Yahoo. Generate Biomedicines focuses on AI-enabled drug discovery.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5a45fde2af96800187cc1ec7f154f1beaf09c3ee96cdd40d48e7a860ba80c1eb",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_NVDA_20260805_news7": {
+      "id": "ev_NVDA_20260805_news7",
+      "kind": "news",
+      "title": "Nvidia\u2019s Next AI Gold Rush Is Here, And It Already Controls 92% Of It",
+      "detail": "Reported by Benzinga. Nvidia powers 92% of sovereign AI models, highlighting how governments are becoming the next major buyers of AI infrastructure.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=eb2a561dfbde37922b4c035a2aad699dcd3d6a1f668009be6a139022a1d72e4c",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
     },
     "ev_NVDA_20260827_price": {
       "id": "ev_NVDA_20260827_price",
@@ -3107,6 +3931,86 @@
       "source": "SEC EDGAR",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm",
       "occurred_on": "2026-08-26",
+      "numbers": {}
+    },
+    "ev_NVDA_20260827_news0": {
+      "id": "ev_NVDA_20260827_news0",
+      "kind": "news",
+      "title": "Trump Praises Nvidia CEO Jensen Huang On 'Incredible Numbers,' Calls Micron One Of The World's 'Hottest' Companies",
+      "detail": "Reported by Benzinga. Trump celebrated Nvidia&#39;s robust revenue guidance and Micron&#39;s new $10 billion research investment as proof his policies are working.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ec143c6fea078f1810347ee11835fc54e0b37a1a2d9c66118ab33cc22a1721a5",
+      "occurred_on": "2026-08-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260827_news1": {
+      "id": "ev_NVDA_20260827_news1",
+      "kind": "news",
+      "title": "Here\u2019s How Much You Would Have Made Owning NVIDIA Stock In The Last 10 Years",
+      "detail": "Reported by Benzinga. NVIDIA (NASDAQ:NVDA) has outperformed the market over the past 10 years by 51.4% on an annualized basis producing an average annual return of 64.9%. Currently, NVIDIA has a market capitalization of $5.48 trillion.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5e97a56f9b9120f5b7861253ceb07b034c45537905296b431c30874cf7744151",
+      "occurred_on": "2026-08-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260827_news2": {
+      "id": "ev_NVDA_20260827_news2",
+      "kind": "news",
+      "title": "Jim Cramer says Nvidia and Salesforce earnings upended two bear narratives",
+      "detail": "Reported by CNBC. CNBC\u2019s Jim Cramer said strong earnings from Nvidia and Salesforce shattered two major bear cases that had weighed on the tech stocks.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fa03217ed7ae3070a82acd79910cfd171e6616de6ef14f8348f45bbf700b5920",
+      "occurred_on": "2026-08-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260827_news3": {
+      "id": "ev_NVDA_20260827_news3",
+      "kind": "news",
+      "title": "Nvidia: The 'Coiled Spring' Poised To Jump",
+      "detail": "Reported by SeekingAlpha. Nvidia Corporation is deeply undervalued with massive AI growth ahead. See the P/E, PEG, demand-supply outlook & price targets ($300-$400). Click for an NVDA stock update.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2cc4a9c1f698b781123b0ae14a5b20f2743779d7e68ec543de2f90442810e647",
+      "occurred_on": "2026-08-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260827_news4": {
+      "id": "ev_NVDA_20260827_news4",
+      "kind": "news",
+      "title": "'Nvidia Pauses Revenue-Sharing Deals With AI Cloud Companies'- WSJ Exclusive",
+      "detail": "Reported by Benzinga. https://www.wsj.com/tech/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-9c71454e",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=731111f8aff20850adcf14c32e81a0478ba9f24a502fed0d15a7882c68ec6bb8",
+      "occurred_on": "2026-08-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260827_news5": {
+      "id": "ev_NVDA_20260827_news5",
+      "kind": "news",
+      "title": "Jensen Huang Passes Mark Zuckerberg, Larry Ellison: Here\u2019s How Much Nvidia CEO is Worth",
+      "detail": "Reported by Benzinga. Jensen Huang adds to his net worth on Thursday with Nvidia stock soaring 8.7% on the day.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bc255aaf5f3cdaad1e522d9586b1b9a95e4a3092cafe735f3958819c318f8c63",
+      "occurred_on": "2026-08-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260827_news6": {
+      "id": "ev_NVDA_20260827_news6",
+      "kind": "news",
+      "title": "Nvidia At $1 Trillion In Annual Sales? Raymond James Says It\u2019s Possible By 2029",
+      "detail": "Reported by Benzinga. Raymond James says Nvidia could reach $1 trillion in annual sales by fiscal 2029 as AI demand stays strong and supply constraints ease.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0c2467d3feeb9057d2fe11727abcffbb50f99c3c1511349fd7e6e5a865c4d9ff",
+      "occurred_on": "2026-08-27",
+      "numbers": {}
+    },
+    "ev_NVDA_20260827_news7": {
+      "id": "ev_NVDA_20260827_news7",
+      "kind": "news",
+      "title": "Citigroup Maintains Buy on NVIDIA, Raises Price Target to $315",
+      "detail": "Reported by Benzinga. Citigroup  analyst Atif Malik   maintains NVIDIA (NASDAQ:NVDA) with a Buy and raises the price target from $300 to $315.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b3d8cda28498ab32a27e814d7df93bf8c1b2ff21c2a28ea1e656550ffb003bd1",
+      "occurred_on": "2026-08-27",
       "numbers": {}
     },
     "ev_NVDA_20260828_price": {
@@ -3272,6 +4176,86 @@
       "occurred_on": "2026-08-26",
       "numbers": {}
     },
+    "ev_NVDA_20260828_news0": {
+      "id": "ev_NVDA_20260828_news0",
+      "kind": "news",
+      "title": "Warsh Sparks Rate-Hike Bets, Nvidia Reaffirms AI Growth Story: This Week on Wall Street",
+      "detail": "Reported by Benzinga. Kevin Warsh reignites rate-hike bets, Nvidia posts its best day since April, and CrowdStrike prints the biggest gain in its history.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=226a087fb2c034cf2076b7844135dd196ce111c2eb8062283e71ffc0a6e21d87",
+      "occurred_on": "2026-08-28",
+      "numbers": {}
+    },
+    "ev_NVDA_20260828_news1": {
+      "id": "ev_NVDA_20260828_news1",
+      "kind": "news",
+      "title": "What\u2019s Hotter Than Nvidia Stock? Jensen Huang Autograph Action Heats Up: Signed Graphics Card Auction Cost",
+      "detail": "Reported by Benzinga. The market for Nvidia memorabilia and Jensen Huang autographs is heating up. Here&#39;s the latest item up for auction.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=317e31bb1db851644ff96a0e9ce62c412f57f0b678154379a99c8754373b7e66",
+      "occurred_on": "2026-08-28",
+      "numbers": {}
+    },
+    "ev_NVDA_20260828_news2": {
+      "id": "ev_NVDA_20260828_news2",
+      "kind": "news",
+      "title": "'Blue Owl Leads $2.4 Billion Iren Debt Deal to Buy Nvidia\u2019s Chips' - Bloomberg",
+      "detail": "Reported by Benzinga. https://www.bloomberg.com/news/articles/2026-08-28/blue-owl-leads-2-4-billion-iren-debt-deal-to-buy-nvidia-s-chips",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2f04ac3ec5531509638b41678f93e3c460c74838116f644663230bddf595118b",
+      "occurred_on": "2026-08-28",
+      "numbers": {}
+    },
+    "ev_NVDA_20260828_news3": {
+      "id": "ev_NVDA_20260828_news3",
+      "kind": "news",
+      "title": "Nvidia Just Validated Micron's Biggest AI Bull Case",
+      "detail": "Reported by SeekingAlpha. Micron Technology, Inc. stock dips despite rising DRAM prices; HBM4E may tighten supply. Click for this MU update.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e1beb79c3a41438a4f20b4928d8e3e9b46d4347fe67132d017c829edfa50d91f",
+      "occurred_on": "2026-08-28",
+      "numbers": {}
+    },
+    "ev_NVDA_20260828_news4": {
+      "id": "ev_NVDA_20260828_news4",
+      "kind": "news",
+      "title": "NVIDIA (NASDAQ:NVDA) Shows High-Growth Leadership and Strong Momentum",
+      "detail": "Reported by ChartMill. NVIDIA excels in CANSLIM screen with 111% EPS growth, strong sales, high ROE, and momentum\u2014though extended setup warrants patience.",
+      "source": "ChartMill (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f3bb331db396cabf04b82d32af09e0c81dccf2e90d680e84c21011e0e97cc6d5",
+      "occurred_on": "2026-08-28",
+      "numbers": {}
+    },
+    "ev_NVDA_20260828_news5": {
+      "id": "ev_NVDA_20260828_news5",
+      "kind": "news",
+      "title": "Kevin Durant Made 23,900% Profit Thanks to Nvidia, Here\u2019s the Company That Made Him More Than NBA Salary",
+      "detail": "Reported by Benzinga. NBA star Kevin Durant may have just had one of his best moves ever and it wasn&#39;t on the court. Here&#39;s how much he made from one of his investments.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4141431b468d3817c9b323acee210375da9b570a6765935d61703f4e22629ba8",
+      "occurred_on": "2026-08-28",
+      "numbers": {}
+    },
+    "ev_NVDA_20260828_news6": {
+      "id": "ev_NVDA_20260828_news6",
+      "kind": "news",
+      "title": "Nvidia Crushed Earnings: Doubling My Oracle Position",
+      "detail": "Reported by SeekingAlpha. Oracle Corporation looks like a top AI stock: strong fundamentals, AI Database 26ai, and attractive valuation. Click for this ORCL update.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=100a250bec5d579c9263b1b356a51852eeac9f63ca6ecd9eea7d5f69a58421cd",
+      "occurred_on": "2026-08-28",
+      "numbers": {}
+    },
+    "ev_NVDA_20260828_news7": {
+      "id": "ev_NVDA_20260828_news7",
+      "kind": "news",
+      "title": "Nvidia Earnings And The Ecosystem: The 70% Guide, And Everything It Sets In Motion",
+      "detail": "Reported by SeekingAlpha. Nvidia (NVDA) reported results on Wednesday, August 27. The results were solid, but the \u00e2\u0080\u009827 guide (F28) is what significantly surprised to the upside. Read more here...",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=701b2cbd572d5052bba3b972d6bd50938a4b8637e6d2ffaaddbd6ae5e100eae0",
+      "occurred_on": "2026-08-28",
+      "numbers": {}
+    },
     "ev_NVDA_fund_revenue": {
       "id": "ev_NVDA_fund_revenue",
       "kind": "fundamental",
@@ -3378,12 +4362,14 @@
       }
     }
   },
-  "arc": "Between April and August 2026, NVIDIA experienced substantial volatility while net advancing from $199.64 to $217.55. Most moves occurred without company-specific news and frequently tracked broader semiconductor trends alongside suppliers like TSM and MU and competitors such as AMD. The clearest company-specific driver arrived in late August, when NVIDIA filed its Form 10-Q and Form 8-K on August 26, propelling an 8.74% rally on August 27 that gave back 4.58% the following day.",
+  "arc": "Between late April and late August 2026, Nvidia traded in a volatile range roughly between $196 and $236 per share, repeatedly testing new highs before consolidating. The stock's primary upward catalysts were structural expansions of its AI footprint\u2014such as entry into AI PC architectures with RTX Spark, geopolitical clearance for H200 sales in China, key commercial wins like SpaceX, and a strong quarterly earnings release in late August. Conversely, pullbacks were precipitated by valuation sensitivity following sharp earnings runs, broader macro pressure, and recurring investor scrutiny over hyperscaler internal silicon and trade frictions.",
   "arc_citation_ids": [
     "ev_NVDA_20260424_price",
+    "ev_NVDA_20260514_news3",
+    "ev_NVDA_20260601_news0",
+    "ev_NVDA_20260710_news3",
+    "ev_NVDA_20260805_news5",
     "ev_NVDA_20260827_filing_000104581026000075",
-    "ev_NVDA_20260827_filing_000104581026000073",
-    "ev_NVDA_20260827_price",
     "ev_NVDA_20260828_price"
   ],
   "warnings": []

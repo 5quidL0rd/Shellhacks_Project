@@ -1,7 +1,7 @@
 {
   "symbol": "AVGO",
   "company_name": "Broadcom Inc.",
-  "generated_at": "2026-09-26T12:31:41.354621+00:00",
+  "generated_at": "2026-09-26T12:49:52.202181+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,14 +1320,14 @@
       "pct_change": 6.214,
       "close": 333.97,
       "direction": "up",
-      "headline": "Broadcom gains 6.2% following Form 8-K filing",
-      "explanation": "Broadcom shares climbed 6.21% to close at $333.97 on 1.3 times average volume following an 8-K filing on April 6. The advance was company-specific, significantly outpacing peers such as competitor AMD (+0.61%) and supplier TSM (+1.04%), though competitor INTC also rose 4.20%.",
-      "confidence": "medium",
+      "headline": "Broadcom Jumps 6.21% on Google and Anthropic AI Chip Deals",
+      "explanation": "Broadcom shares climbed 6.21% to $333.97 on heavy trading volume following the announcement of multi-year AI supply contracts with Alphabet's Google and AI startup Anthropic. The rally was largely company-specific, as competitor AMD was up just 0.61% and supplier TSM added 1.04%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AVGO_20260407_price",
-        "ev_AVGO_20260407_filing_000119312526144028",
+        "ev_AVGO_20260407_news0",
+        "ev_AVGO_20260407_news5",
         "ev_AVGO_20260407_peer_AMD",
-        "ev_AVGO_20260407_peer_INTC",
         "ev_AVGO_20260407_peer_TSM"
       ]
     },
@@ -1336,14 +1336,14 @@
       "pct_change": 4.186,
       "close": 396.72,
       "direction": "up",
-      "headline": "Broadcom rises 4.2% outpacing semiconductor peers",
-      "explanation": "Broadcom gained 4.19% to finish at $396.72 without company-specific news. The advance outpaced competitors AMD (+1.20%), NVDA (+1.20%), and INTC (+1.77%), while supplier TSM declined 1.26%.",
-      "confidence": "low",
+      "headline": "Broadcom Rises 4.19% on Expanded Meta AI Accelerator Deal",
+      "explanation": "Broadcom gained 4.19% to reach $396.72 after Meta Platforms announced an expanded custom AI chip partnership running through 2029 for custom MTIA silicon and networking hardware. The advance outpaced peers, with competitor INTC up 1.77% and supplier TSM falling 1.26%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AVGO_20260415_price",
-        "ev_AVGO_20260415_peer_AMD",
+        "ev_AVGO_20260415_news2",
+        "ev_AVGO_20260415_news3",
         "ev_AVGO_20260415_peer_INTC",
-        "ev_AVGO_20260415_peer_NVDA",
         "ev_AVGO_20260415_peer_TSM"
       ]
     },
@@ -1352,15 +1352,14 @@
       "pct_change": 5.518,
       "close": 439.79,
       "direction": "up",
-      "headline": "Broadcom climbs 5.5% alongside NVDA and TSM",
-      "explanation": "Broadcom moved up 5.52% to $439.79 despite light trading volume at 0.8 times its 30-day average. The gain was shared with supplier TSM (+4.48%) and competitor NVDA (+4.39%), while competitors QCOM and INTC fell 6.14% and 3.62%, respectively.",
-      "confidence": "low",
+      "headline": "Broadcom Rises 5.52% on Wells Fargo Price Target Hike",
+      "explanation": "Shares rose 5.52% to $439.79 after Wells Fargo raised its price target from $430 to $545, citing higher-than-expected data center AI power demand and semiconductor revenue. Connected peers also moved higher, including supplier TSM gaining 4.48% and competitor NVDA advancing 4.39%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AVGO_20260514_price",
+        "ev_AVGO_20260514_news4",
         "ev_AVGO_20260514_peer_NVDA",
-        "ev_AVGO_20260514_peer_TSM",
-        "ev_AVGO_20260514_peer_INTC",
-        "ev_AVGO_20260514_peer_QCOM"
+        "ev_AVGO_20260514_peer_TSM"
       ]
     },
     {
@@ -1368,13 +1367,14 @@
       "pct_change": 4.733,
       "close": 446.77,
       "direction": "up",
-      "headline": "Broadcom advances 4.7% as broader peers weaken",
-      "explanation": "Broadcom rose 4.73% to $446.77 on 1.6 times average volume without any company filings. The move was largely company-specific, as competitor AMD dropped 0.38%, competitor NVDA fell 1.45%, and supplier TSM fell 1.51%.",
-      "confidence": "low",
+      "headline": "Broadcom Rises 4.73% Pre-Earnings While Chip Peers Drop",
+      "explanation": "Broadcom increased 4.73% to $446.77 on 1.6x average trading volume amid strong investor interest ahead of its upcoming earnings release. The advance was company-specific, as competitor AMD dropped 0.38%, competitor INTC fell 5.14%, and supplier TSM dropped 1.51%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_AVGO_20260529_price",
+        "ev_AVGO_20260529_news3",
         "ev_AVGO_20260529_peer_AMD",
-        "ev_AVGO_20260529_peer_NVDA",
+        "ev_AVGO_20260529_peer_INTC",
         "ev_AVGO_20260529_peer_TSM"
       ]
     },
@@ -1383,14 +1383,15 @@
       "pct_change": 4.696,
       "close": 481.57,
       "direction": "up",
-      "headline": "Broadcom adds 4.7% reaching fresh peak near $482",
-      "explanation": "Broadcom climbed 4.70% to close at $481.57 with 1.5 times typical volume in the absence of specific corporate disclosures. Peer performance was mixed, with competitor QCOM up 5.17% and supplier TSM up 2.54%, while competitor NVDA slipped 0.69%.",
-      "confidence": "low",
+      "headline": "Broadcom Rallies 4.70% to Record High Before Q2 Earnings",
+      "explanation": "Shares reached an all-time closing high of $481.57, advancing 4.70% as investors continued to build positions ahead of fiscal Q2 earnings and news that Anthropic confidentially filed to go public. Gains were shared with competitor QCOM, up 5.17%, and supplier TSM, up 2.54%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AVGO_20260602_price",
+        "ev_AVGO_20260602_news2",
+        "ev_AVGO_20260602_news3",
         "ev_AVGO_20260602_peer_QCOM",
-        "ev_AVGO_20260602_peer_TSM",
-        "ev_AVGO_20260602_peer_NVDA"
+        "ev_AVGO_20260602_peer_TSM"
       ]
     },
     {
@@ -1398,15 +1399,16 @@
       "pct_change": -12.587,
       "close": 418.91,
       "direction": "down",
-      "headline": "Broadcom plunges 12.6% on 8-K and heavy volume",
-      "explanation": "Broadcom tumbled 12.59% to $418.91 on heavy volume reaching 3.1 times its 30-day average following an 8-K filing on June 3. The sharp decline was company-specific, diverging from supplier TSM (+1.89%) and competitor NVDA (+1.82%), while competitor AMD dropped 3.56%.",
-      "confidence": "medium",
+      "headline": "Broadcom Plunges 12.59% on Flat AI Revenue Guidance",
+      "explanation": "Broadcom shares sank 12.59% to $418.91 on 3.1x average volume following its earnings release, driven by disappointment over flat forward AI guidance and concerns regarding AI gross margins. While competitor AMD also dropped 3.56%, the severity was specific to Broadcom as competitor NVDA rose 1.82% and supplier TSM gained 1.89%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AVGO_20260604_price",
-        "ev_AVGO_20260604_filing_000173016826000051",
-        "ev_AVGO_20260604_peer_TSM",
+        "ev_AVGO_20260604_news3",
+        "ev_AVGO_20260604_news6",
+        "ev_AVGO_20260604_news7",
         "ev_AVGO_20260604_peer_NVDA",
-        "ev_AVGO_20260604_peer_AMD"
+        "ev_AVGO_20260604_peer_TSM"
       ]
     },
     {
@@ -1414,15 +1416,15 @@
       "pct_change": 4.298,
       "close": 392.9,
       "direction": "up",
-      "headline": "Broadcom rebounds 4.3% with mixed peer action",
-      "explanation": "Broadcom shares gained 4.30% to $392.90 on 1.6 times typical volume without company-specific news. Strength was shared with competitor INTC (+3.46%) and supplier TSM (+1.48%), though competitors NVDA (-1.33%) and QCOM (-0.51%) traded lower.",
-      "confidence": "low",
+      "headline": "Broadcom Rebounds 4.30% After JPMorgan Recommends Buying",
+      "explanation": "Broadcom gained 4.30% to close at $392.90 after JPMorgan advised investors to be aggressive buyers following the recent pullback, noting that Google's 2nm TPU roadmap remains intact. The upward move was mostly company-specific, though competitor INTC rose 3.46% and competitor NVDA fell 1.33%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AVGO_20260617_price",
+        "ev_AVGO_20260617_news0",
+        "ev_AVGO_20260617_news4",
         "ev_AVGO_20260617_peer_INTC",
-        "ev_AVGO_20260617_peer_TSM",
-        "ev_AVGO_20260617_peer_NVDA",
-        "ev_AVGO_20260617_peer_QCOM"
+        "ev_AVGO_20260617_peer_NVDA"
       ]
     },
     {
@@ -1430,14 +1432,14 @@
       "pct_change": -4.672,
       "close": 392.13,
       "direction": "down",
-      "headline": "Broadcom drops 4.7% diverging from gaining peers",
-      "explanation": "Broadcom shed 4.67% to $392.13 on average trading volume without corporate announcements. The retreat was company-specific, occurring even as competitor INTC rose 5.19%, competitor AMD jumped 2.65%, and supplier TSM gained 1.20%.",
-      "confidence": "low",
+      "headline": "Broadcom Drops 4.67% Amid Valuation and Cloud Rumors",
+      "explanation": "Shares slipped 4.67% to $392.13 as reports highlighted market caution around customer relationships, including Google rumors and rich valuation metrics following Q2 earnings. The drop was isolated from competitors AMD and INTC, which advanced 2.65% and 5.19% respectively.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_AVGO_20260622_price",
-        "ev_AVGO_20260622_peer_INTC",
+        "ev_AVGO_20260622_news5",
         "ev_AVGO_20260622_peer_AMD",
-        "ev_AVGO_20260622_peer_TSM"
+        "ev_AVGO_20260622_peer_INTC"
       ]
     },
     {
@@ -1445,15 +1447,16 @@
       "pct_change": -3.055,
       "close": 380.15,
       "direction": "down",
-      "headline": "Broadcom slips 3.1% amid broad peer selloff",
-      "explanation": "Broadcom declined 3.06% to $380.15 on 1.3 times normal volume. The drop was shared broadly across the industry, as supplier TSM fell 6.69% and competitors QCOM, INTC, and AMD declined 8.01%, 6.14%, and 5.76%, respectively.",
-      "confidence": "low",
+      "headline": "Broadcom Falls 3.06% in Broad AI Chip Sector Selloff",
+      "explanation": "Broadcom dropped 3.06% to $380.15 on news that SK Hynix would slow high-bandwidth memory expansion, creating concerns across the broader AI hardware complex. The decline was shared across the sector, with competitor QCOM falling 8.01%, competitor AMD dropping 5.76%, and supplier TSM down 6.69%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AVGO_20260623_price",
-        "ev_AVGO_20260623_peer_TSM",
+        "ev_AVGO_20260623_news1",
+        "ev_AVGO_20260623_news7",
+        "ev_AVGO_20260623_peer_AMD",
         "ev_AVGO_20260623_peer_QCOM",
-        "ev_AVGO_20260623_peer_INTC",
-        "ev_AVGO_20260623_peer_AMD"
+        "ev_AVGO_20260623_peer_TSM"
       ]
     },
     {
@@ -1461,14 +1464,15 @@
       "pct_change": 4.83,
       "close": 388.69,
       "direction": "up",
-      "headline": "Broadcom climbs 4.8% following Form 8-K filing",
-      "explanation": "Broadcom rose 4.83% to $388.69 on 1.2 times average volume after an 8-K filing dated July 6. The upward move was accompanied by competitor NVDA rising 3.65% and competitor QCOM advancing 1.96%.",
-      "confidence": "medium",
+      "headline": "Broadcom Adds 4.83% on $30B Extended Apple Deal",
+      "explanation": "Shares rose 4.83% to $388.69 after Apple announced a multi-year manufacturing and supply agreement valued at over $30 billion through 2031, including a $1.5 billion expansion of Broadcom's Colorado facility. The gain was company-specific, outpacing competitor AMD at 0.25% and competitor INTC at -0.14%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AVGO_20260708_price",
-        "ev_AVGO_20260708_filing_000119312526295589",
-        "ev_AVGO_20260708_peer_NVDA",
-        "ev_AVGO_20260708_peer_QCOM"
+        "ev_AVGO_20260708_news0",
+        "ev_AVGO_20260708_news6",
+        "ev_AVGO_20260708_peer_AMD",
+        "ev_AVGO_20260708_peer_INTC"
       ]
     },
     {
@@ -1476,13 +1480,14 @@
       "pct_change": -5.943,
       "close": 392.99,
       "direction": "down",
-      "headline": "Broadcom retreats 5.9% as AMD surges",
-      "explanation": "Broadcom shares fell 5.94% to $392.99 on slightly elevated volume without company-specific disclosures. The decline was idiosyncratic, as competitor AMD rallied 6.50% and competitor QCOM edged up 0.61%.",
-      "confidence": "low",
+      "headline": "Broadcom Slides 5.94% on AI Debt Financing Concerns",
+      "explanation": "Broadcom fell 5.94% to $392.99 after Bank of America raised concerns about AI financing vehicles potentially requiring up to $370 billion in senior debt by 2029, alongside an SEC filing showing Third Point exited its position. Broadcom diverged sharply from competitor AMD, which surged 6.50% on the day.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AVGO_20260814_price",
-        "ev_AVGO_20260814_peer_AMD",
-        "ev_AVGO_20260814_peer_QCOM"
+        "ev_AVGO_20260814_news0",
+        "ev_AVGO_20260814_news2",
+        "ev_AVGO_20260814_peer_AMD"
       ]
     },
     {
@@ -1490,14 +1495,14 @@
       "pct_change": -4.611,
       "close": 362.48,
       "direction": "down",
-      "headline": "Broadcom falls 4.6% amid peer weakness",
-      "explanation": "Broadcom dropped 4.61% to finish at $362.48 on 1.4 times normal volume. The downward pressure was shared with competitors INTC (-4.02%) and AMD (-3.71%), while supplier TSM also dipped 0.32%.",
-      "confidence": "low",
+      "headline": "Broadcom Falls 4.61% Amid Google Deal with Marvell",
+      "explanation": "Broadcom retreated 4.61% to $362.48 as rival Marvell secured a sizable AI chip agreement with Google, raising competitive threats in custom silicon workloads. The weakness was also shared by competitor INTC, which fell 4.02%, and competitor AMD, which dropped 3.71%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_AVGO_20260819_price",
-        "ev_AVGO_20260819_peer_INTC",
+        "ev_AVGO_20260819_news2",
         "ev_AVGO_20260819_peer_AMD",
-        "ev_AVGO_20260819_peer_TSM"
+        "ev_AVGO_20260819_peer_INTC"
       ]
     }
   ],
@@ -1599,6 +1604,86 @@
       "occurred_on": "2026-04-06",
       "numbers": {}
     },
+    "ev_AVGO_20260407_news0": {
+      "id": "ev_AVGO_20260407_news0",
+      "kind": "news",
+      "title": "Broadcom (AVGO) Stock Is Up, What You Need To Know",
+      "detail": "Reported by Yahoo. Shares of fabless chip and software maker Broadcom (NASDAQ:AVGO) jumped 4.1% in the afternoon session after it announced a massive five-year deal with Google to design and supply custom AI chips.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6925bc05aa4f2c52a990e73dd2111b7f773712dd7e35bce0b6e4479b9f0b6bbf",
+      "occurred_on": "2026-04-07",
+      "numbers": {}
+    },
+    "ev_AVGO_20260407_news1": {
+      "id": "ev_AVGO_20260407_news1",
+      "kind": "news",
+      "title": "Micron and Broadcom: 2 Critical AI Infrastructure Enablers",
+      "detail": "Reported by Yahoo. Interest in Micron and Broadcom remains red-hot on the back of their critical roles in the broader AI buildout. Bright growth outlooks led by favorable revisions keep them both as a Zacks Rank #1 (Strong Buy).",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3ce56d6fc4622f5a3b057c465c17a341ada3ecf0aedfdd2bc39e899bb736c263",
+      "occurred_on": "2026-04-07",
+      "numbers": {}
+    },
+    "ev_AVGO_20260407_news2": {
+      "id": "ev_AVGO_20260407_news2",
+      "kind": "news",
+      "title": "Broadcom Slips 9% - Why Smart Investors Should Buy the Dip Now",
+      "detail": "Reported by Yahoo. Broadcom's recent slump and bearish signal mask booming AI revenues, record sales, and strong margins. Could this dip be a prime long-term entry?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4447385cf5cdcb159ff58d712449ba876c91348c38b96de30b3e730046031674",
+      "occurred_on": "2026-04-07",
+      "numbers": {}
+    },
+    "ev_AVGO_20260407_news3": {
+      "id": "ev_AVGO_20260407_news3",
+      "kind": "news",
+      "title": "As Broadcom Expands AI Deals With Google and Anthropic, Should You Buy AVGO Stock?",
+      "detail": "Reported by Yahoo. Broadcom has strengthened its position in the AI hardware ecosystem through expanded partnerships with Alphabet\u2019s Google and AI startup Anthropic.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=514db0678582a9d8c5437373f7a144095461d631d43dd2fe70c500bc4cc5bdae",
+      "occurred_on": "2026-04-07",
+      "numbers": {}
+    },
+    "ev_AVGO_20260407_news4": {
+      "id": "ev_AVGO_20260407_news4",
+      "kind": "news",
+      "title": "Broadcom rises on AI deals; BofA says visibility improves with Google pact",
+      "detail": "Reported by Yahoo. Broadcom Inc (NASDAQ:AVGO, XETRA:1YD) shares has risen 5.6% by Tuesday afternoon following the announcement of key supply agreements with Google and Anthropic as investors cheered the chipmaker\u2019s expanding role in the AI accelerator market. Under the agreements, Broadcom will serve as a...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=20d8e19da5cbab5987bed1f022dd648f739ce46781e6d4f72ee8eadf7eb7c6ad",
+      "occurred_on": "2026-04-07",
+      "numbers": {}
+    },
+    "ev_AVGO_20260407_news5": {
+      "id": "ev_AVGO_20260407_news5",
+      "kind": "news",
+      "title": "Broadcom Surges 6% as AI Deals With Google and Anthropic Supercharge Revenue Visibility",
+      "detail": "Reported by Yahoo. Broadcom (NASDAQ:AVGO) shares are up 6% in midday trading on Tuesday, rising from $314.43 to nearly $333 as the company announced landmark long-term AI supply agreements with Alphabet\u2018s (NASDAQ:GOOGL) Google and AI startup Anthropic. The move is especially notable because it\u2019s happening while the broader tech sector is sliding, with the Invesco QQQ Trust (NASDAQ:QQQ) ... Broadcom Surges 6% as AI Deals With Google and Anthropic Supercharge Revenue Visibility",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c9dd9c1cfada64857bc7a2e0097d1e21a1a1040d14cd08ee8eb5b5b3ba6e5bd6",
+      "occurred_on": "2026-04-07",
+      "numbers": {}
+    },
+    "ev_AVGO_20260407_news6": {
+      "id": "ev_AVGO_20260407_news6",
+      "kind": "news",
+      "title": "Broadcom Inks Major AI Chip Deals With Google and Anthropic",
+      "detail": "Reported by Yahoo. The data center and semiconductor specialist is experiencing growing demand for custom artificial intelligence (AI) chip solutions.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8ae4416e57085d7cabed1af35421404eafd31b5762e30115df0ccf4772776270",
+      "occurred_on": "2026-04-07",
+      "numbers": {}
+    },
+    "ev_AVGO_20260407_news7": {
+      "id": "ev_AVGO_20260407_news7",
+      "kind": "news",
+      "title": "Anthropic\u00a0ups compute deal with Google and Broadcom amid skyrocketing demand",
+      "detail": "Reported by Yahoo. Anthropic bulked up its compute deal with Google and Broadcom as the company has seen its run-rate revenue surge to $30 billion.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ff1a9746ce91c104b066d1f7c0510afa5eaf58487e778c2d6380e4c6f8d76eaa",
+      "occurred_on": "2026-04-07",
+      "numbers": {}
+    },
     "ev_AVGO_20260415_price": {
       "id": "ev_AVGO_20260415_price",
       "kind": "price",
@@ -1685,6 +1770,86 @@
         "subject_pct_change": 4.186,
         "relationship": "supplier"
       }
+    },
+    "ev_AVGO_20260415_news0": {
+      "id": "ev_AVGO_20260415_news0",
+      "kind": "news",
+      "title": "Why Broadcom Stock Climbed Today",
+      "detail": "Reported by Yahoo. A blockbuster partnership should fuel the tech leader's growth.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9bdf213aba5553aee0eab4fcc71dce6dead1358acb246c71b2d56e8c0d519662",
+      "occurred_on": "2026-04-15",
+      "numbers": {}
+    },
+    "ev_AVGO_20260415_news1": {
+      "id": "ev_AVGO_20260415_news1",
+      "kind": "news",
+      "title": "Zuck\u2019s Chip Dreams are a Broadcom Goldmine",
+      "detail": "Reported by Yahoo. Meta locked in a sweeping Broadcom partnership for next-gen AI accelerators but geopolitical risk is still at play over every silicon wafer.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3a1009a72b133f230971e5e6ac81d456ba4c6cfa2bc233e7826fa890717de64c",
+      "occurred_on": "2026-04-15",
+      "numbers": {}
+    },
+    "ev_AVGO_20260415_news2": {
+      "id": "ev_AVGO_20260415_news2",
+      "kind": "news",
+      "title": "AI's Cash Splash Continues: Meta Platforms and Broadcom Expand Custom Chip Partnership",
+      "detail": "Reported by Yahoo. Hyperscalers are ramping AI infrastructure spending to record levels this year, with a string of major partnerships and funding rounds across the sector. Meta\u2019s newly expanded collaboration with Broadcom on custom MTIA chips adds another layer to that build-out, focusing on multi-generation silicon and multi-gigawatt capacity through 2029.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=65d3855c9448f9dfe2ee21359eef959d1a3be5542cbcaabb34b6438bc8e2bd39",
+      "occurred_on": "2026-04-15",
+      "numbers": {}
+    },
+    "ev_AVGO_20260415_news3": {
+      "id": "ev_AVGO_20260415_news3",
+      "kind": "news",
+      "title": "Meta Broadcom Chip Pact Recasts AI Infrastructure Risks And Opportunities",
+      "detail": "Reported by Yahoo. Meta Platforms (NasdaqGS:META) has expanded its custom AI chip partnership with Broadcom under a multiyear deal running through 2029. The agreement covers both AI chip design and networking hardware to support Meta's next generation AI workloads. As part of the expansion, Broadcom CEO Hock Tan is stepping off Meta's board and will continue in an advisor role to the company. Meta Platforms enters this new phase of its AI chip program with a share price of $662.49 and a value score of 5. Over...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d606eb6d78dd72991dfd088b0ddf712cf957d7d0e82e18a01090e3fd8f503376",
+      "occurred_on": "2026-04-15",
+      "numbers": {}
+    },
+    "ev_AVGO_20260415_news4": {
+      "id": "ev_AVGO_20260415_news4",
+      "kind": "news",
+      "title": "Broadcom Expands Meta AI Chip Deal in Win for Investors",
+      "detail": "Reported by Yahoo. The data center specialist and social media titan are joining forces to create custom AI accelerators.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=13fb78570368894c2a56a63b30d2cfc03dd7cc688dc9256d6dd5e951ae0c0e94",
+      "occurred_on": "2026-04-15",
+      "numbers": {}
+    },
+    "ev_AVGO_20260415_news5": {
+      "id": "ev_AVGO_20260415_news5",
+      "kind": "news",
+      "title": "Meta, Broadcom strike multi-year AI chip deal",
+      "detail": "Reported by Yahoo. Meta Platforms Inc (NASDAQ:META, XETRA:FB2A, SIX:FB) has expanded its partnership with Broadcom Inc (NASDAQ:AVGO, XETRA:1YD) in a multi-year agreement that will run through 2029 and include an initial commitment to deploy more than 1 gigawatt of custom silicon capacity, as the social media giant...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=00dd0a4620f8314c944f1c3d5249df334fb61076a53439e1929164299689817a",
+      "occurred_on": "2026-04-15",
+      "numbers": {}
+    },
+    "ev_AVGO_20260415_news6": {
+      "id": "ev_AVGO_20260415_news6",
+      "kind": "news",
+      "title": "Meta and Broadcom deepen AI chip partnership through 2029",
+      "detail": "Reported by CNBC. CNBC\u2019s MacKenzie Sigalos and Kristina Partsinevelos report on Meta\u2019s expanded Broadcom deal and what it signals about the company\u2019s push to build more of its own AI infrastructure.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d9caf5c64f51726b30f7b333c17a8cfd5344eb4d4da8aeb62ef463dc887ea9b0",
+      "occurred_on": "2026-04-15",
+      "numbers": {}
+    },
+    "ev_AVGO_20260415_news7": {
+      "id": "ev_AVGO_20260415_news7",
+      "kind": "news",
+      "title": "Meta Extends Broadcom Deal to Power AI Growth",
+      "detail": "Reported by Yahoo. Long-term partnership aims to support rising demand for custom AI chips",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4143c54e0a604a26298e35ad147a1ba82400638e654f1ef23d614aa1b05bc764",
+      "occurred_on": "2026-04-15",
+      "numbers": {}
     },
     "ev_AVGO_20260514_price": {
       "id": "ev_AVGO_20260514_price",
@@ -1773,6 +1938,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_AVGO_20260514_news0": {
+      "id": "ev_AVGO_20260514_news0",
+      "kind": "news",
+      "title": "Jim Cramer Makes Big Claim About Broadcom (AVGO) CEO",
+      "detail": "Reported by Yahoo. We recently published Jim Cramer Revealed His Big AI Investing Fear & Discussed These 20 Stocks. Broadcom Inc. (NASDAQ:AVGO) is one of the stocks discussed by Jim Cramer. Broadcom Inc. (NASDAQ:AVGO) is one of the largest semiconductor companies in the world. Its role in the AI market is defined through its ability to design custom [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=11ed15ba2ff15024d5d217d5919bb2105adece4e815f6a0f80b77e91ad6a2183",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_AVGO_20260514_news1": {
+      "id": "ev_AVGO_20260514_news1",
+      "kind": "news",
+      "title": "Broadcom vs. Taiwan Semiconductor: Which AI Chip Giant Is the Better Buy Right Now?",
+      "detail": "Reported by Yahoo. Both companies are critical to the AI build-out. But one's growth profile and order book make it the more compelling buy.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1ecd5600b881affd7c4ed5a47a4078682eaefcc721bbe82d9b213194cf17f964",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_AVGO_20260514_news2": {
+      "id": "ev_AVGO_20260514_news2",
+      "kind": "news",
+      "title": "Dow Jones Hits 50,000 For the First Time As Nvidia And Broadcom Power Market Indexes Higher",
+      "detail": "Reported by Yahoo. The Dow just hit 50,000 for the first time, and all three major indexes are up about 1% at midday. Here's what's driving the moves and what it means for your portfolio.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9bc9a1523f1363a6d62fde81abe5ca2f7665a0765509c1313a5cdd62d5a99703",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_AVGO_20260514_news3": {
+      "id": "ev_AVGO_20260514_news3",
+      "kind": "news",
+      "title": "Why Broadcom Stock Popped on Thursday",
+      "detail": "Reported by Yahoo. The semiconductor specialist got some love from Wall Street.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=351ef2d688bcc9e3cfa3b5f0fe452b9b128796045b5013b255e2c2c50d997834",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_AVGO_20260514_news4": {
+      "id": "ev_AVGO_20260514_news4",
+      "kind": "news",
+      "title": "Wells Fargo Just Hiked Broadcom Price Target to $545: AI Semi Revenue Running 30-40% Higher Than Expected",
+      "detail": "Reported by Yahoo. Wells Fargo just delivered one of the most dramatic large-cap semiconductor revisions of the year, raising its price target on Broadcom (NASDAQ:AVGO) to $545 from $430 while maintaining an Overweight rating. The driver is a new \u201cpluggable gigawatt-driven\u201d framework that ties AI silicon demand to physical data center power capacity, implying AI semiconductor revenue is ... Wells Fargo Just Hiked Broadcom Price Target to $545: AI Semi Revenue Running 30-40% Higher Than Expected",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d947b8d041eaa4936fa4bedde1203247874e43ede4c8ce49e765857eeb6df39f",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_AVGO_20260514_news5": {
+      "id": "ev_AVGO_20260514_news5",
+      "kind": "news",
+      "title": "As AI Revenue from Chips Swells, Broadcom Is Positioned to Accelerate Growth",
+      "detail": "Reported by Yahoo. Citi raised its price target on Broadcom and is bullish on the company ahead of earnings on June 3.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=826ae299e52b63cf3bac567847f6e9991ea10ec3fd4533ff05200cea33b2182f",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_AVGO_20260514_news6": {
+      "id": "ev_AVGO_20260514_news6",
+      "kind": "news",
+      "title": "Are Computer and Technology Stocks Lagging  Broadcom (AVGO) This Year?",
+      "detail": "Reported by Yahoo. Here is how Broadcom Inc. (AVGO) and ADTRAN Holdings (ADTN) have performed compared to their sector so far this year.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=69989940a3186ae4d755a610f642e8f0469f13abd940b03f3847a850798da6ac",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_AVGO_20260514_news7": {
+      "id": "ev_AVGO_20260514_news7",
+      "kind": "news",
+      "title": "Broadcom Surges On New Data Center Framework: Wall Street Vastly Underestimating AI Power Needs",
+      "detail": "Reported by Benzinga. Broadcom (AVGO) stock jumps 4% on a massive analyst upgrade from Wells Fargo. See how a new gigawatt data center power model proves Wall Street is missing a 40% AI revenue surge in 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=aec8f40464453871b3c8b367b9197aeecf7e47d5a39888c55da123f1a3c80036",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
     "ev_AVGO_20260529_price": {
       "id": "ev_AVGO_20260529_price",
       "kind": "price",
@@ -1860,6 +2105,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_AVGO_20260529_news0": {
+      "id": "ev_AVGO_20260529_news0",
+      "kind": "news",
+      "title": "Broadcom (AVGO) is Among Claude AI\u2019s Top Stock Picks for 2026",
+      "detail": "Reported by Yahoo. We just covered the Claude Stock Portfolio: Top 10 Stocks to Buy According to AI Chatbot. Broadcom Inc (NASDAQ:AVGO) ranks #1 (see Claude Stock Portfolio: Top 5 Stocks to Buy According to AI Chatbot). Number of Hedge Funds: 202 Broadcom Inc (NASDAQ:AVGO) is one of Claude\u2019s top AI stock picks. The reasoning is straightforward: Claude [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=caf2297b82ed24c23153c7e1b0f9c14bc37be385a9ef3fe1656f272562f8b6c1",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_AVGO_20260529_news1": {
+      "id": "ev_AVGO_20260529_news1",
+      "kind": "news",
+      "title": "Best AI Stocks to Buy in June and Hold Forever: AVGO",
+      "detail": "Reported by Yahoo. AVGO is a critical behind-the-scenes AI stock in the exclusive $1 trillion+ market-cap club that's projected to more than double its earnings and revenue between FY25 and FY27.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f7b7ac2d2ac9f268a7ad109342911674ad42a4d26884c5e52c0f478f526a2dbb",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_AVGO_20260529_news2": {
+      "id": "ev_AVGO_20260529_news2",
+      "kind": "news",
+      "title": "Options Action: Broadcom bucks chip options trend",
+      "detail": "Reported by CNBC. CNBC's Oliver Renick joins 'Fast Money' to talk options moves around Broadcom ahead of earnings.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5346050c7149df2f3c44ea1e01be7108f86c6f2699a63771fd607571af16d02a",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_AVGO_20260529_news3": {
+      "id": "ev_AVGO_20260529_news3",
+      "kind": "news",
+      "title": "Broadcom Stock, Fiber Optic Leader Ciena Lead Another AI Earnings Bonanza",
+      "detail": "Reported by Yahoo. Broadcom stock is near highs ahead of earnings, along with other hot tech stocks like Credo Technology and fiber optic leader Ciena.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5e14c28d4ab92cdaa0545d2e3f2336272f01602a45b11a9284e4d9f23b84985a",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_AVGO_20260529_news4": {
+      "id": "ev_AVGO_20260529_news4",
+      "kind": "news",
+      "title": "Strong Q1 Says Marvell Is Becoming Broadcom's Most Credible Rival",
+      "detail": "Reported by Yahoo. Marvell Technology (MRVL) is emerging as one of the most important behind-the-scenes architects of next-generation AI infrastructure. The market has noticed. The stock is up more than 2.3x year to date, and the valuation has re-rated, moving from under 10x trailing sales in early January to near 22x today. See how Marvell's price-to-sales multiple changed over time.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b9b5a3e736d1e88c26e1d967fed1abeeb8969f17b508e949618e4f096cdfdfff",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_AVGO_20260529_news5": {
+      "id": "ev_AVGO_20260529_news5",
+      "kind": "news",
+      "title": "TSM vs Broadcom: Both Nearing 52-Week High, Only One is a Buy",
+      "detail": "Reported by Yahoo. Broadcom (NASDAQ:AVGO) and Taiwan Semiconductor Manufacturing (NYSE:TSM) just reported quarters that put both stocks within striking distance of fresh 52-week highs. Broadcom designs custom AI accelerators for a handful of hyperscalers. TSMC fabricates leading-edge chips for nearly every major designer on the planet, including Broadcom itself. Their results tell the same AI story from opposite ... TSM vs Broadcom: Both Nearing 52-Week High, Only One is a Buy",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a9f74d3b357516a2b464b006d3faa7ecad228469b9186d819af30eb0a9b52659",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_AVGO_20260529_news6": {
+      "id": "ev_AVGO_20260529_news6",
+      "kind": "news",
+      "title": "Dell's 2018 Market Comeback Has Delivered Big \u2014 Here's The Full Payout, Including Broadcom Stock, Cash",
+      "detail": "Reported by Benzinga. Dell stock is soaring to new highs after recent earnings. Here&#39;s a look back at the 2018 second public debut for the company and the returns since.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4ff29fc770a88bbd59613291413cb3463946b9219b742cfa13c332d467094fa9",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
+    "ev_AVGO_20260529_news7": {
+      "id": "ev_AVGO_20260529_news7",
+      "kind": "news",
+      "title": "Broadcom Inc. (AVGO) Is a Trending Stock: Facts to Know Before Betting on It",
+      "detail": "Reported by Yahoo. Broadcom Inc. (AVGO) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4c03c760b7b6263d00a3563f2f1b9d569ae17bb94ae10cd69280f99f01678643",
+      "occurred_on": "2026-05-29",
+      "numbers": {}
+    },
     "ev_AVGO_20260602_price": {
       "id": "ev_AVGO_20260602_price",
       "kind": "price",
@@ -1946,6 +2271,86 @@
         "subject_pct_change": 4.696,
         "relationship": "supplier"
       }
+    },
+    "ev_AVGO_20260602_news0": {
+      "id": "ev_AVGO_20260602_news0",
+      "kind": "news",
+      "title": "Susquehanna resets Broadcom stock target ahead of earnings",
+      "detail": "Reported by Yahoo. Broadcom (AVGO) heads into June 3 earnings carrying a seemingly contradictory note that\u2019s worth a closer look. A notable Wall Street analyst just raised his price target on the company. However, in the same note, he lowered how much AI revenue he expects Broadcom to bring in this year. And that ...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=41549c6089d80b7b439388777693812d03e3b2e6bb6be2f8b296821a1d9e7c1d",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_AVGO_20260602_news1": {
+      "id": "ev_AVGO_20260602_news1",
+      "kind": "news",
+      "title": "Broadcom Backing Lowers Debt Costs on $36 Billion Anthropic Deal",
+      "detail": "Reported by Yahoo. (Bloomberg) -- Broadcom Inc.\u2019s promise to backstop the largest portion of a record-setting microchip financing deal for Anthropic is keeping yields for the deal in check, according to people familiar with the matter. Most Read from BloombergRussia Finance Officials Tell Putin War Spending Is UnaffordableCanada Dips Into Technical Recession for First Time Since 2020Trump to Get Audit Immunity as $1.8 Billion Fund in DoubtAndrew Left Found Guilty in Case That Spooked Short SellersAlphabet to Raise",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4ba9c3ff7a47471cfdba953caa6c54944d0ae3ad837b3fc9c2ba24facdd4ac32",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_AVGO_20260602_news2": {
+      "id": "ev_AVGO_20260602_news2",
+      "kind": "news",
+      "title": "Why Is Broadcom (AVGO) Stock Rocketing Higher Today",
+      "detail": "Reported by Yahoo. Shares of fabless chip and software maker Broadcom (NASDAQ:AVGO) jumped 5.2% in the afternoon session as investors positioned ahead of its fiscal Q2 FY2026 earnings report due after the close on June 3, amplified by independent AI catalysts as Anthropic confidentially filed to go public.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f3462ac9fca75acd5dde5ded3c8957f4183f2235fff254a8ad175c12ff447cec",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_AVGO_20260602_news3": {
+      "id": "ev_AVGO_20260602_news3",
+      "kind": "news",
+      "title": "Broadcom Stock Closes at a Record. It\u2019s Getting a Double Boost From Google and Marvell.",
+      "detail": "Reported by Yahoo. Broadcom  closed at a record on Tuesday after news from two of the biggest names in tech gave its shares a boost.  Broadcom stock finished the session up 4.7% at $481.57 \u2014 an all-time closing high, according to Dow Jones Market Data.  Shares of the Broadcom have rallied for the past four trading sessions, gaining 14%.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cef8a3a9df387e6bfff7a246db10f897da0c9ae8a28d0929e2362ef91fa5f6ff",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_AVGO_20260602_news4": {
+      "id": "ev_AVGO_20260602_news4",
+      "kind": "news",
+      "title": "Ahead of Broadcom Earnings, Here\u2019s What Barchart Data Says Comes Next for AVGO Stock",
+      "detail": "Reported by Yahoo. Broadcom stock has already had a meteoric run ahead of Q2 earnings on June 3, but options traders believe AVGO shares will push higher after the quarterly print.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1298d7aa331bcbec39d59aa0b5ffb905777391a09765c6d9304d2a8749e5ac42",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_AVGO_20260602_news5": {
+      "id": "ev_AVGO_20260602_news5",
+      "kind": "news",
+      "title": "Broadcom Stock Hit Another Record High. Why Google's Big AI Buildout Is a Boon for the Chipmaker",
+      "detail": "Reported by Yahoo. Broadcom shares climbed to a fresh high Tuesday, ahead of its earnings Wednesday.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d22666b9f9488aac689c01747b63a4ef2cfe5a869749ae15b39b9f8911216400",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_AVGO_20260602_news6": {
+      "id": "ev_AVGO_20260602_news6",
+      "kind": "news",
+      "title": "Veteran Bank Makes Big Broadcom Call Before Earnings Report",
+      "detail": "Reported by Yahoo. Broadcom Faces High-Stakes Earnings Test. Oppenheimer Says AI Could Deliver Another Beat",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=029a069e0bef1a0606bbc91cfc12e5a8b7bda363f6d4c71730376a01b95d7af8",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
+    },
+    "ev_AVGO_20260602_news7": {
+      "id": "ev_AVGO_20260602_news7",
+      "kind": "news",
+      "title": "Broadcom Stock Heads for Record Close. It\u2019s Getting a Double Boost From Google and Marvell.",
+      "detail": "Reported by Yahoo. Broadcom  was heading for a record close on Tuesday as news from two of the biggest names in tech gave its shares a boost.  Broadcom stock climbed nearly 4% to $478.20, putting it on track for a new closing high, according to Dow Jones Market Data.  Shares of the Broadcom have rallied for the past four trading sessions, gaining 13%.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9fadba436bb65bb187a2eef45f47ad4f54a91664244b6303dd04de1e9f73bb1e",
+      "occurred_on": "2026-06-02",
+      "numbers": {}
     },
     "ev_AVGO_20260604_price": {
       "id": "ev_AVGO_20260604_price",
@@ -2044,6 +2449,86 @@
       "occurred_on": "2026-06-03",
       "numbers": {}
     },
+    "ev_AVGO_20260604_news0": {
+      "id": "ev_AVGO_20260604_news0",
+      "kind": "news",
+      "title": "Will Broadcom Stock Recover After Its Guidance Disappointment, Or Should You Cut Your Losses?",
+      "detail": "Reported by Yahoo. The stock merely surrendered gains accumulated over the past week.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=265f3e61229b84a0e55f5e0ce295d4f3a755a15a85639b69506aff454ca5fe34",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_AVGO_20260604_news1": {
+      "id": "ev_AVGO_20260604_news1",
+      "kind": "news",
+      "title": "Dow Jones Futures: Techs Fall After Dow Hits High, AI Shrugs Off Broadcom, Ciena; Jobs Report Looms",
+      "detail": "Reported by Yahoo. Dow Jones futures were little changed overnight, while S&P 500 futures and Nasdaq futures fell modestly. The May jobs report is on tap before Friday's open. S&P Dow Jones Indices announced late Thursday that it won't fast track SpaceX and other upcoming megacap IPOs such as Anthropic and OpenAI into the benchmark index.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6326752a75cb20d60ea3724261f432aa54c031c1402e6cb92d216a9dbf218fc1",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_AVGO_20260604_news2": {
+      "id": "ev_AVGO_20260604_news2",
+      "kind": "news",
+      "title": "Dow Jones Hits High, AI Stocks Shrug Off Broadcom, Ciena Sell-Offs; Jobs Report Looms",
+      "detail": "Reported by Yahoo. Dow Jones futures fell slightly after hours, along with S&P 500 futures and Nasdaq futures. The May jobs report is on tap before Friday's open. The stock market saw the Dow Jones jump to a record high, aided by lower oil prices and Treasury yields.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=03d03f0f811a0bc7b709f4673c6b70577ada081168a64b2edb08d539114be0b7",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_AVGO_20260604_news3": {
+      "id": "ev_AVGO_20260604_news3",
+      "kind": "news",
+      "title": "Stock Market Today, June 4: Broadcom Shares Plunge After AI Outlook Misses High Investor Expectations",
+      "detail": "Reported by Yahoo. Today, June 4, 2026, a historic post-earnings sell-off is forcing investors to rethink AI growth assumptions across chips.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a230048aff7b24cb346406196aa761318c5bae788791ddd82a8ded395c1749c1",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_AVGO_20260604_news4": {
+      "id": "ev_AVGO_20260604_news4",
+      "kind": "news",
+      "title": "Dow Hits Record High And S&P 500 Gains As Oil Slides, While Chip Weakness Weighs On Nasdaq \u2014 AVGO, UNH, META, PINS, RUM In Focus",
+      "detail": "Reported by Yahoo. Broadcom stock fell nearly 13%, pulling the Nasdaq 100 lower.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9ab51e02126343d860a365e6449f1472c5f214e507e3ae39cb728c4834de96ac",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_AVGO_20260604_news5": {
+      "id": "ev_AVGO_20260604_news5",
+      "kind": "news",
+      "title": "Broadcom Could Be The Biggest AI Winner Nobody Is Talking About",
+      "detail": "Reported by Yahoo. The tech giant's recent sell-off is a buying opportunity.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=36f6c83ba8879735ae4c6f81cd6778f04cc24a3d87f3caf0a13f7a4eda096a0b",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_AVGO_20260604_news6": {
+      "id": "ev_AVGO_20260604_news6",
+      "kind": "news",
+      "title": "Broadcom miss sparks fears around AI margin pressure, investor says",
+      "detail": "Reported by Yahoo. STORY: Wall Street advanced on Thursday but disappointing results from Broadcom led a chip selloff that held the Nasdaq's gains in check.Broadcom's revenue expectations sent its shares tumbling and cast\u00a0a pall over the AI frenzy, which has sent chip stocks soaring so far this year.\"Traders, investors in the markets are anticipating potentially falling margins in the future because of the shift in Broadcom's business,\" said Rathbun. \"Now, this actually has implications for the rest of AI.\"Rathbun also said rising expenses tied to infrastructure, partnerships and raw materials could eventually c",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=df4540192930e8e3ce19b5b0796a60927f582b2963e1057c9e978d3a880a4a79",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
+    "ev_AVGO_20260604_news7": {
+      "id": "ev_AVGO_20260604_news7",
+      "kind": "news",
+      "title": "Wall Street Analyst: Broadcom\u2019s Flat AI Guidance Justified the Selloff, but Nvidia Remains Best-in-Class Chip Play",
+      "detail": "Reported by Yahoo. Broadcom held the line on its AI guidance for its upcoming third quarter on Wednesday night, but the stock still fell 15% on Thursday morning. That counterintuitive outcome sits at the center of KeyBanc Capital Markets analyst John Vinh\u2019s reaction on CNBC\u2019s Squawk Box, where he defended his Overweight rating on Broadcom (NASDAQ:AVGO) while reiterating ... Wall Street Analyst: Broadcom\u2019s Flat AI Guidance Justified the Selloff, but Nvidia Remains Best-in-Class Chip Play",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=268308ae0182c12922555a3c4b45c4476d116151ab965da7a3ca418a904d0b43",
+      "occurred_on": "2026-06-04",
+      "numbers": {}
+    },
     "ev_AVGO_20260617_price": {
       "id": "ev_AVGO_20260617_price",
       "kind": "price",
@@ -2130,6 +2615,86 @@
         "subject_pct_change": 4.298,
         "relationship": "supplier"
       }
+    },
+    "ev_AVGO_20260617_news0": {
+      "id": "ev_AVGO_20260617_news0",
+      "kind": "news",
+      "title": "AVGO Stock Jumps \u2014 JPMorgan Says Investors Should Be \u2018Aggressive Buyers\u2019 Of Broadcom At Current Levels",
+      "detail": "Reported by Yahoo. The Wall Street firm\u2019s checks indicate Broadcom and Google\u2019s next-generation 2nm TPU program remains on track.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ba170439eb6b658d72fec6278591e610d78f0a8d70bdc3066fe3e45df7677b5d",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AVGO_20260617_news1": {
+      "id": "ev_AVGO_20260617_news1",
+      "kind": "news",
+      "title": "What A Patient Holder Is Really Paying For Broadcom Stock",
+      "detail": "Reported by Yahoo. The chipmaker's premium price tag melts away when you look a few years out, but that discount depends on a major acceleration in growth.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=16b32042331bcae10f255486cd70f0b1426ea00361f4b29cb34d419683b35421",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AVGO_20260617_news2": {
+      "id": "ev_AVGO_20260617_news2",
+      "kind": "news",
+      "title": "Broadcom (AVGO) Stock After Recent Pullback Is The Valuation Gap Closing",
+      "detail": "Reported by Yahoo. If you are wondering whether Broadcom stock still offers value at current levels, this article will walk through what the numbers are saying about its valuation. Broadcom has recently traded around US$376.71, with returns of 1.2% over the past week, down 10.5% over the past month, up 8.4% year to date and up 51.1% over the past year, alongside a very large gain over the past five years. Recent news coverage has focused on Broadcom's role in semiconductors and related technologies, as...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7c34d7bc7116dfb19948cb5c691b7ba1a7cdde185e2daec1257096af5d772b8c",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AVGO_20260617_news3": {
+      "id": "ev_AVGO_20260617_news3",
+      "kind": "news",
+      "title": "Broadcom Stock Pops After JPMorgan Calls For Aggressive Buying",
+      "detail": "Reported by Yahoo. Broadcom Rebounds After JPMorgan Issues Strong Vote Of Confidence",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=43d764da76a92a1a45cc5318aae9e793e5dad35c48a498d06a06f531e8b86d28",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AVGO_20260617_news4": {
+      "id": "ev_AVGO_20260617_news4",
+      "kind": "news",
+      "title": "Why JPMorgan Analysts Would Be \u2018Aggressive Buyers\u2019 of Broadcom Stock",
+      "detail": "Reported by Yahoo. Broadcom stock is down this month after issuing so-so guidance. J.P. Morgan says the market continues to underestimate the semiconductor and software company.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=12888323c3e53361c64b3b2f1ec7a4ed078dbf3166c33ea8f9c1af61199d9475",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AVGO_20260617_news5": {
+      "id": "ev_AVGO_20260617_news5",
+      "kind": "news",
+      "title": "Broadcom Inc. Announces Pricing Terms of Offers to Purchase for Cash Certain of its Outstanding Debt Securities",
+      "detail": "Reported by Yahoo. Broadcom Inc. (NASDAQ: AVGO) (\"Broadcom\") today announced the pricing terms of its previously announced cash tender offers (collectively, the \"Offers\") to purchase the outstanding notes described below, in each case upon the terms and subject to the conditions set forth in the Offer to Purchase dated June 11, 2026 (the \"Offer to Purchase\") and the accompanying notice of guaranteed delivery (the \"Notice of Guaranteed Delivery\").",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=607d10bfb9170627884779eb5112df479d3d7d93a7f902e91da524df653630f0",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AVGO_20260617_news6": {
+      "id": "ev_AVGO_20260617_news6",
+      "kind": "news",
+      "title": "AVGO's Gross Margin Contracts Y/Y: Is Growth Getting Harder?",
+      "detail": "Reported by Yahoo. Broadcom's gross margin slips as semiconductor mix surges, but AI chip demand and 84% revenue growth keep momentum strong heading into the Q3 outlook.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5a3f58a9cb29b5db184db0a5f24e37650b21a949f4e749dbfe321109783f80c7",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
+    },
+    "ev_AVGO_20260617_news7": {
+      "id": "ev_AVGO_20260617_news7",
+      "kind": "news",
+      "title": "Why Broadcom Stock Is Bouncing Higher Today",
+      "detail": "Reported by Yahoo. This semiconductor specialist is poised to soar to an all-time high in one firm's opinion.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=aebc6565c9764479b63796e5477f467ced5c4be63460f6577160e372338891b4",
+      "occurred_on": "2026-06-17",
+      "numbers": {}
     },
     "ev_AVGO_20260622_price": {
       "id": "ev_AVGO_20260622_price",
@@ -2218,6 +2783,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_AVGO_20260622_news0": {
+      "id": "ev_AVGO_20260622_news0",
+      "kind": "news",
+      "title": "Broadcom's AI Revenue Is on Pace to Triple to $16 Billion in a Single Quarter, but the Stock Just Dipped 17%. Is This an Opportunity to Buy the Dip?",
+      "detail": "Reported by Yahoo. Accelerating AI chip demand may give this top chip stock a second wind.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=660a402b56dae407427945a9fa0d5908306c790678a618e2e5a4608f20669fc0",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AVGO_20260622_news1": {
+      "id": "ev_AVGO_20260622_news1",
+      "kind": "news",
+      "title": "The Market Is Panicking on Broadcom. This Is Why I Keep Buying The Stock",
+      "detail": "Reported by Yahoo. I keep clicking buy on Broadcom (NASDAQ:AVGO) because the math is too good to walk away from, even with a $39 trillion national debt clock ticking and new Fed Chairman Kevin Warsh signaling that borrowing costs are not coming back down on anyone\u2019s preferred schedule. My friends ask why I am adding to the same ... The Market Is Panicking on Broadcom. This Is Why I Keep Buying The Stock",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=560ad2b9b219c1b1c32a832905b24e086612e815643d704a1b83d3d9550f5b70",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AVGO_20260622_news2": {
+      "id": "ev_AVGO_20260622_news2",
+      "kind": "news",
+      "title": "The Real Price Of Admission For Broadcom Stock",
+      "detail": "Reported by Yahoo. The sticker price on Broadcom shares looks high, but a patient investor is effectively paying a much lower multiple once you account for the growth analysts see coming.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=43a74112acd2a275257018c496d3149a48ee601072acf3502b353bfddec739cf",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AVGO_20260622_news3": {
+      "id": "ev_AVGO_20260622_news3",
+      "kind": "news",
+      "title": "Broadcom's AI Push Boosts Semiconductor Sales: More Upside Ahead?",
+      "detail": "Reported by Yahoo. AVGO's AI chip and networking demand fuel record semiconductor sales, with strong bookings and customer commitments supporting further growth.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f34a20cd13628fadbab1fcf656b09391ecf0d0e83faf29478a8bf42800c458fb",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AVGO_20260622_news4": {
+      "id": "ev_AVGO_20260622_news4",
+      "kind": "news",
+      "title": "Got $1,000? Why Broadcom's Guidance Created the Ultimate Artificial Intelligence (AI) Buying Opportunity.",
+      "detail": "Reported by Yahoo. The market has gotten a bit irrational with Broadcom's stock.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ec286644ff724e3ff74c1e3cc8c111fa723d63bdffb54fad4e8bd212b212c153",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AVGO_20260622_news5": {
+      "id": "ev_AVGO_20260622_news5",
+      "kind": "news",
+      "title": "J.P. Morgan Fires Back at Google Rumors Threatening Broadcom Stock",
+      "detail": "Reported by Yahoo. J.P. Morgan Dismisses Google Concerns, Sees Massive Run Ahead for Broadcom",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a124e103f61349c3cbe57dfb84788d30da99891ac96467faa3d681417e6a0424",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AVGO_20260622_news6": {
+      "id": "ev_AVGO_20260622_news6",
+      "kind": "news",
+      "title": "Broadcom Inc. (AVGO) is Attracting Investor Attention: Here is What You Should Know",
+      "detail": "Reported by Yahoo. Recently, Zacks.com users have been paying close attention to Broadcom Inc. (AVGO). This makes it worthwhile to examine what the stock has in store.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9a0d70f4e33b518db47c975ed3dfd70c79586dd00f359666e4aa0c5adf645394",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
+    "ev_AVGO_20260622_news7": {
+      "id": "ev_AVGO_20260622_news7",
+      "kind": "news",
+      "title": "Better Artificial Intelligence (AI) Stock to Buy: Broadcom vs. Marvell Technology",
+      "detail": "Reported by Yahoo. Broadcom and Marvell are operating in similar spaces.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1e1566cf2de7843b81d058d5dee90ed0e05643ac3cb02f996086c3851b3b35d1",
+      "occurred_on": "2026-06-22",
+      "numbers": {}
+    },
     "ev_AVGO_20260623_price": {
       "id": "ev_AVGO_20260623_price",
       "kind": "price",
@@ -2304,6 +2949,86 @@
         "subject_pct_change": -3.055,
         "relationship": "supplier"
       }
+    },
+    "ev_AVGO_20260623_news0": {
+      "id": "ev_AVGO_20260623_news0",
+      "kind": "news",
+      "title": "Broadcom: Market's Tantrum Around The AI Guidance Is Misguided",
+      "detail": "Reported by SeekingAlpha. Broadcom (AVGO) is a strong buy: $583 price target, 53% upside.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=65194479a2d339e2fc2b6e1982fbc48c8560c924a758867d62db4e85289947ec",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_AVGO_20260623_news1": {
+      "id": "ev_AVGO_20260623_news1",
+      "kind": "news",
+      "title": "Broadcom (AVGO) Stock Trades Down, Here Is Why",
+      "detail": "Reported by Yahoo. Shares of fabless chip and software maker Broadcom (NASDAQ:AVGO) fell 2.9% in the afternoon session after a report that South Korea's SK Hynix is slowing its high-bandwidth memory (HBM) expansion rattled the AI-chip complex.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a7a3a5a681da51c1d246ace0878ff364960ec07a36dbda3344eec5ea7eac67ed",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_AVGO_20260623_news2": {
+      "id": "ev_AVGO_20260623_news2",
+      "kind": "news",
+      "title": "A Look Back at Processors and Graphics Chips Stocks\u2019 Q1 Earnings: Broadcom (NASDAQ:AVGO) Vs The Rest Of The Pack",
+      "detail": "Reported by Yahoo. As the Q1 earnings season wraps, let\u2019s dig into this quarter\u2019s best and worst performers in the processors and graphics chips industry, including Broadcom (NASDAQ:AVGO) and its peers.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=00411742d72f3268554759ce99f5a2bd3d7fb36c3e9b435f3a404817ac36717e",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_AVGO_20260623_news3": {
+      "id": "ev_AVGO_20260623_news3",
+      "kind": "news",
+      "title": "How Broadcom\u2019s (AVGO) AI XPV Platform Ties Its Custom XPUs to the Next Wave of AI Compute Demand",
+      "detail": "Reported by Yahoo. Broadcom Inc. (NASDAQ:AVGO) is one of the fastest-growing high-bandwidth memory stocks to buy. The stronger topic fit occurred on June 9, 2026, when Broadcom, Apollo, and Blackstone launched the AI XPV Platform to support more than 20 gigawatts of AI compute capacity, leveraging Broadcom\u2019s XPUs and networking solutions through 2028. The platform starts with a [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=02136537197629e27358eea02526cdec19b27e82ddef8acbdbd838956b147e92",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_AVGO_20260623_news4": {
+      "id": "ev_AVGO_20260623_news4",
+      "kind": "news",
+      "title": "Broadcom Stock Drops After Strong Earnings -- Time to Buy?",
+      "detail": "Reported by Yahoo. Its share price has plunged about 21% since second-quarter earnings were released on June 3.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ef2106fecb8bde20569b0b148e53b96710da717ee1fa2df4e645546707f52425",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_AVGO_20260623_news5": {
+      "id": "ev_AVGO_20260623_news5",
+      "kind": "news",
+      "title": "Staying Long-Term Bullish On Broadcom Despite Its Rich Valuation",
+      "detail": "Reported by SeekingAlpha. Broadcom delivered solid Q2 FY26 results, but investors expected stronger revenue and earnings growth to justify its valuation.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=66c6b152f87fa03d99a78646a22668d2f3ab42795ed9b3c994baf7c3762bf1aa",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_AVGO_20260623_news6": {
+      "id": "ev_AVGO_20260623_news6",
+      "kind": "news",
+      "title": "Great News for Broadcom Stock Investors!",
+      "detail": "Reported by Yahoo. The run the company has enjoyed in recent years may not be over.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a43e4839e2dec2b58b139abca79b54affb62837b443c25bea5910e0573752872",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
+    },
+    "ev_AVGO_20260623_news7": {
+      "id": "ev_AVGO_20260623_news7",
+      "kind": "news",
+      "title": "Nvidia, AMD, Broadcom Fall as Tech Selloff Catches Up With Chips",
+      "detail": "Reported by Yahoo. Nvidia stock was sliding amid a widespread chip-sector selloff but it was holding up better than some of its peers.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=69cb84155e9072f0487d4548774ade16889b59d0631dac8238a5e3937adb8db0",
+      "occurred_on": "2026-06-23",
+      "numbers": {}
     },
     "ev_AVGO_20260708_price": {
       "id": "ev_AVGO_20260708_price",
@@ -2402,6 +3127,86 @@
       "occurred_on": "2026-07-06",
       "numbers": {}
     },
+    "ev_AVGO_20260708_news0": {
+      "id": "ev_AVGO_20260708_news0",
+      "kind": "news",
+      "title": "Apple (AAPL) Secures Largest Ever US Chip Deal With Broadcom For $30 Billion",
+      "detail": "Reported by Yahoo. Apple (NasdaqGS:AAPL) has agreed a multi year US chip manufacturing and co development deal with Broadcom valued at more than US$30b. The agreement runs through 2031 and covers the production of over 15b custom chips for Apple products in the US. Broadcom plans a US$1.5b expansion of its Fort Collins, Colorado facilities to support the work. Apple, best known for its iPhone, Mac, and wearables ecosystem, is deepening its role in chip design and sourcing at a time when hardware and AI...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1bfc7f99a0f5407b018b7abbbea1ed57d970bdbedc013649f071fd89a934588a",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_AVGO_20260708_news1": {
+      "id": "ev_AVGO_20260708_news1",
+      "kind": "news",
+      "title": "The Latest Selloff Is the Perfect Buying Opportunity for Nvidia and Broadcom",
+      "detail": "Reported by Yahoo. The market is giving investors a gift by putting these two stocks on sale.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=846d16911b22bfc5aa08399d8cce93635158dc660d8b3b8149b3034f2ef739c7",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_AVGO_20260708_news2": {
+      "id": "ev_AVGO_20260708_news2",
+      "kind": "news",
+      "title": "Nvidia, Alibaba, Levi Strauss, MDA Space and Broadcom: Why These 5 Stocks Are on Investors' Radars Today",
+      "detail": "Reported by Benzinga. NVDA, BABA, LEVI, MDA, AVGO were among the stocks seen trending among investors on Wednesday, July 8, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=012ebd542441f5554e013041996831f946db017fdb53cb9b8b3b76ac5a8f2add",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_AVGO_20260708_news3": {
+      "id": "ev_AVGO_20260708_news3",
+      "kind": "news",
+      "title": "Broadcom stock jumps on Apple AI chip deal, while Nvidia's relative stock price drops",
+      "detail": "Reported by Yahoo. Yahoo Finance's Josh Lipton takes a closer look at some of Wednesday's trending tickers and stories, including Nvidia's (NVDA) relative stock price; Broadcom's (AVGO) and Apple's (AAPL) AI chip deal; and travel-related stocks like Carnival (CCL), United (UAL), and Delta (DAL).",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f0118fede7a2e20dcf8284193f51ccd70916a15c570d071eb54655a51d5a3d5b",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_AVGO_20260708_news4": {
+      "id": "ev_AVGO_20260708_news4",
+      "kind": "news",
+      "title": "Apple to spend $30 billion on US-made chips from Broadcom",
+      "detail": "Reported by Yahoo. STORY: ::Apple is spending $30 billion in Broadcom chips deal::Stephen Nellis/Technology Correspondent::July 8, 2026\"Apple and Broadcom on Wednesday announced a $30 billion deal that runs through 2031 for Broadcom to supply chips to Apple. Now, this isn't a completely new relationship between Apple, the maker of the iPhone and the iPad, and Broadcom, one of its longtime suppliers. In 2023, the two companies said that they had a multibillion, multiyear deal to supply chips from a factory in Fort Collins, Colorado to Apple. But what this is a major expansion of that partnership. So Apple will be",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d9d0397805658d563e9366150d08dc429c693efe56815a7e6af71173c402f718",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_AVGO_20260708_news5": {
+      "id": "ev_AVGO_20260708_news5",
+      "kind": "news",
+      "title": "Broadcom Vs. Apple: AVGO Just Locked in Apple Through 2031 Which is Why You Should Buy it Over AAPL",
+      "detail": "Reported by Yahoo. Broadcom (NASDAQ: AVGO) and Apple (NASDAQ: AAPL) both posted strong quarters, but the more interesting story sits in the contract between them. Broadcom\u2019s newly finalized custom silicon extension with Apple runs through 2031, hard-wiring roughly 20% of AVGO\u2019s annual sales to the world\u2019s largest device maker. That single fact reframes how these two NASDAQ names ... Broadcom Vs. Apple: AVGO Just Locked in Apple Through 2031 Which is Why You Should Buy it Over AAPL",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3eab41945c160e24a2037e50f403f87ed208cfac80c1111d41d83bb03ab0156c",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_AVGO_20260708_news6": {
+      "id": "ev_AVGO_20260708_news6",
+      "kind": "news",
+      "title": "Apple and Broadcom Shake Up Tech Sector With $30 Billion Deal",
+      "detail": "Reported by Yahoo. Apple  plans to invest more than $30 billion in an extended partnership with  Broadcom  to produce custom chips, it said Wednesday.  The iPhone maker said the new agreement was the largest so far under its American Manufacturing Program and would enable Broadcom to expand and modernize its manufacturing facilities in Fort Collins, Colorado, with a $1.5 billion capital expenditure investment.  Apple shares rose 1.1% to $314.17 on Wednesday while Broadcom stock advanced 5% to $389.67, reversing earlier losses.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=21208179d5b954b1a77831aa95ac1ec75b90f3be871a8626d52e5bb595492d3c",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
+    "ev_AVGO_20260708_news7": {
+      "id": "ev_AVGO_20260708_news7",
+      "kind": "news",
+      "title": "NVDA, AVGO, MU, INTC Stocks Gain: Top Wall Street Traders See No Signs Of Panic In Chips Or AI Even As Correction Territory Looms",
+      "detail": "Reported by Yahoo. A recent sell-off in high-flying chipmakers and momentum stocks is being viewed by Wall Street as an orderly unwinding of profits rather than a fundamental flaw in the artificial intelligence boom.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ca8218f6dfd5d494cad1f3e656214355692ab71fb8c1c523beae2ef749fba576",
+      "occurred_on": "2026-07-08",
+      "numbers": {}
+    },
     "ev_AVGO_20260814_price": {
       "id": "ev_AVGO_20260814_price",
       "kind": "price",
@@ -2489,6 +3294,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_AVGO_20260814_news0": {
+      "id": "ev_AVGO_20260814_news0",
+      "kind": "news",
+      "title": "Third Point Dissolves Share Stake In Broadcom",
+      "detail": "Reported by Benzinga. -SEC Filing",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f3c92b86c5a6225e89a2e74622164753aaa68c2f08b4a6c6ceb0d42bda925725",
+      "occurred_on": "2026-08-14",
+      "numbers": {}
+    },
+    "ev_AVGO_20260814_news1": {
+      "id": "ev_AVGO_20260814_news1",
+      "kind": "news",
+      "title": "Soros Fund Management Raises Share Stake In Broadcom By 6.5% To 165,246 Shares",
+      "detail": "Reported by Benzinga. - Sec Filing",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=68826d52070074b28fa5b899899a0dcd00c11438dd9bb1ebbc8e587f97484b7c",
+      "occurred_on": "2026-08-14",
+      "numbers": {}
+    },
+    "ev_AVGO_20260814_news2": {
+      "id": "ev_AVGO_20260814_news2",
+      "kind": "news",
+      "title": "Broadcom Plunges 5% as Its AI Boom Faces a $370 Billion Financing Question",
+      "detail": "Reported by Benzinga. Broadcom stock fell 6% as BofA estimated an AI chip-financing vehicle could reach $370 billion in senior debt by mid-2029.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0323c044db74e2c73b880f6470db620d32113179dc03cb01c8a8be4103d0f760",
+      "occurred_on": "2026-08-14",
+      "numbers": {}
+    },
+    "ev_AVGO_20260814_news3": {
+      "id": "ev_AVGO_20260814_news3",
+      "kind": "news",
+      "title": "Broadcom (NASDAQ:AVGO) Combines Strong Growth Fundamentals with a Bull Flag Technical Setup",
+      "detail": "Reported by ChartMill. Broadcom (AVGO) combines top growth ratings with a bull flag setup, strong profitability, and accelerating EPS/revenue\u2014worth watching for a breakout.",
+      "source": "ChartMill (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8fb4adfa4e625756eb0ecefb76a8a88ede0f943009c97f6de0894ef2e112d0c6",
+      "occurred_on": "2026-08-14",
+      "numbers": {}
+    },
+    "ev_AVGO_20260814_news4": {
+      "id": "ev_AVGO_20260814_news4",
+      "kind": "news",
+      "title": "Investigating Broadcom's Standing In Semiconductors &amp; Semiconductor Equipment Industry Compared To Competitors",
+      "detail": "Reported by Benzinga. In today&#39;s rapidly evolving and fiercely competitive business landscape, it is crucial for investors and industry analysts to conduct comprehensive company evaluations. In this article, we will undertake an in-depth",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9a9a6c7137c2967d8ce1e7825655b9a4ee1e17465afaf086c003041f2a00eb1b",
+      "occurred_on": "2026-08-14",
+      "numbers": {}
+    },
+    "ev_AVGO_20260814_news5": {
+      "id": "ev_AVGO_20260814_news5",
+      "kind": "news",
+      "title": "Broadcom: XPU Growth Trajectory Underestimated, Stock A Bargain",
+      "detail": "Reported by SeekingAlpha.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a9c46644e09772e1017bc7a5712d8bb34100b45c56d70816faaee72ccc1458dd",
+      "occurred_on": "2026-08-14",
+      "numbers": {}
+    },
+    "ev_AVGO_20260814_news6": {
+      "id": "ev_AVGO_20260814_news6",
+      "kind": "news",
+      "title": "Broadcom (AVGO) Stock Trades Near Fair Value But At A Premium On Earnings",
+      "detail": "Reported by Yahoo. Broadcom stock has delivered a very large 5 year gain yet current checks suggest it is no longer obviously cheap, with a Discounted Cash Flow (DCF) estimate close to the market price while earnings based multiples point to a richer valuation. Broadcom has returned about 8.7x over 5 years, which sets a high bar for any further upside case. Heavy investment in hyperscale AI chips and long term custom silicon agreements can support cash flow expectations, while rising competition in custom AI...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6ec21e93f8c16c8941a50ae2077740f2aa4aa9ff597c4ae3f68ab765fd13f94a",
+      "occurred_on": "2026-08-13",
+      "numbers": {}
+    },
+    "ev_AVGO_20260814_news7": {
+      "id": "ev_AVGO_20260814_news7",
+      "kind": "news",
+      "title": "Nvidia and Broadcom Deepen AI Financing Push \u2014 But Wolfe Sees Long-Term Risks",
+      "detail": "Reported by Yahoo. NVIDIA Corporation (NASDAQ:NVDA) and Broadcom Inc. (NASDAQ:AVGO), two of the world\u2019s largest chipmakers, are tapping debt and private capital markets to fund the AI infrastructure boom. These massive financial commitments coming from some of the biggest names in the market signal exceptionally-strong AI compute demand. However, one Wall Street firm, Wolfe Research, believes the same [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=af1affda3ab0620e5305d198f07acd78a5cd69117f5dd65f623a79190f60e0cf",
+      "occurred_on": "2026-08-13",
+      "numbers": {}
+    },
     "ev_AVGO_20260819_price": {
       "id": "ev_AVGO_20260819_price",
       "kind": "price",
@@ -2575,6 +3460,86 @@
         "subject_pct_change": -4.611,
         "relationship": "supplier"
       }
+    },
+    "ev_AVGO_20260819_news0": {
+      "id": "ev_AVGO_20260819_news0",
+      "kind": "news",
+      "title": "Cathie Wood Bets Big on Broadcom and Cerebras, Trims AMD Stock for Third Straight Day",
+      "detail": "Reported by Benzinga. Ark Invest bought Broadcom and Cerebras shares while trimming AMD stock on Wednesday, Aug.19, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9ce5b25155d704f744a541d88cfeefb31cf18ff9493e38ba01ecb5f654c151bb",
+      "occurred_on": "2026-08-19",
+      "numbers": {}
+    },
+    "ev_AVGO_20260819_news1": {
+      "id": "ev_AVGO_20260819_news1",
+      "kind": "news",
+      "title": "I Changed My Mind, Broadcom And Semiconductors Have Peaked For Now",
+      "detail": "Reported by SeekingAlpha. Broadcom Inc. dips 2% as charts signal a bearish semiconductor reversal and fading sentiment. Click for this AVGO stock update.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d38500d4868d52a784ea3876ea29bcfc5b7e7e37c6033d2830182a9a8390dc86",
+      "occurred_on": "2026-08-19",
+      "numbers": {}
+    },
+    "ev_AVGO_20260819_news2": {
+      "id": "ev_AVGO_20260819_news2",
+      "kind": "news",
+      "title": "Broadcom Rival Marvell Surges After Google Strikes AI Chip Deal, Gets Option to Buy $12.2B Stake",
+      "detail": "Reported by Benzinga. Marvell surges after a Google AI chip deal gives Alphabet a warrant tied to nearly 59 million shares and as much as $120 billion in revenue.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ee610846551e06b5814d7484d6a8749e30197f4ffe09530a339f56f4264a3b15",
+      "occurred_on": "2026-08-19",
+      "numbers": {}
+    },
+    "ev_AVGO_20260819_news3": {
+      "id": "ev_AVGO_20260819_news3",
+      "kind": "news",
+      "title": "Industry Comparison: Evaluating Broadcom Against Competitors In Semiconductors &amp; Semiconductor Equipment Industry",
+      "detail": "Reported by Benzinga. In today&#39;s rapidly evolving and fiercely competitive business landscape, it is crucial for investors and industry analysts to conduct comprehensive company evaluations. In this article, we will undertake an in-depth",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=66c895b62d64dee0439b63f581116edbd2c44fce2e2d06a34d6b779ec506194a",
+      "occurred_on": "2026-08-19",
+      "numbers": {}
+    },
+    "ev_AVGO_20260819_news4": {
+      "id": "ev_AVGO_20260819_news4",
+      "kind": "news",
+      "title": "Nvidia, AMD, Broadcom, Meta Slide as Bond Yields Surge: Why Tech Stocks Are Getting Hit",
+      "detail": "Reported by Benzinga. Nvidia, AMD, Broadcom and Meta fell as bond yields surged, putting pressure on high-growth tech stocks and AI names.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8be0662f56a93fc1a3eafb7348c7ea178f1847ba7757168a8bfdfcfd45768efa",
+      "occurred_on": "2026-08-18",
+      "numbers": {}
+    },
+    "ev_AVGO_20260819_news5": {
+      "id": "ev_AVGO_20260819_news5",
+      "kind": "news",
+      "title": "Competitor Analysis: Evaluating Broadcom And Competitors In Semiconductors &amp; Semiconductor Equipment Industry",
+      "detail": "Reported by Benzinga. In today&#39;s fast-paced and competitive business landscape, it is essential for investors and industry enthusiasts to thoroughly analyze companies before making investment decisions. In this article, we will conduct a",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1b21c5056a4d186b9fba9774e73719a97969f6d8eaf9340929388ae2170d0622",
+      "occurred_on": "2026-08-18",
+      "numbers": {}
+    },
+    "ev_AVGO_20260819_news6": {
+      "id": "ev_AVGO_20260819_news6",
+      "kind": "news",
+      "title": "What's going on in today's session: S&P500 movers",
+      "detail": "Reported by ChartMill. Join us in exploring the top gainers and losers within the S&P500 index in the middle of the day on Wednesday as we examine the latest happenings in today's session.",
+      "source": "ChartMill (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9d113a09f48670d436e6f2252bf1887b5a026dfadda5e1b78c4e9f01efe715bf",
+      "occurred_on": "2026-08-19",
+      "numbers": {}
+    },
+    "ev_AVGO_20260819_news7": {
+      "id": "ev_AVGO_20260819_news7",
+      "kind": "news",
+      "title": "Amtech Systems shares are trading lower after the company reported worse-than-expected Q1 financial results.",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5fe19d8d82b011548d036955326e9eec94c792a8eb80183da6279cfc3441aa8f",
+      "occurred_on": "2026-08-19",
+      "numbers": {}
     },
     "ev_AVGO_fund_revenue": {
       "id": "ev_AVGO_fund_revenue",
@@ -2682,16 +3647,17 @@
       }
     }
   },
-  "arc": "Broadcom experienced an aggressive spring expansion followed by elevated volatility and consolidation over the spring and summer of 2026. After surging from $314.43 in early April to a high of $481.57 by early June, the stock suffered a sharp 12.59% company-specific single-day drop on June 4 following an 8-K filing. Across the subsequent months, Broadcom's price swings oscillated between company-specific divergence\u2014such as its steep retreats on June 22 and August 14 despite gains in peers like INTC and AMD\u2014and shared industry-wide drawdowns on June 23 and August 19, leaving the stock consolidating in the mid-to-high $300s.",
+  "arc": "Between April and August 2026, Broadcom experienced dramatic price swings driven by the immense scale and evolving risks of the custom AI silicon market. The stock initially marched from $314.43 in early April to an all-time high of $481.57 in June, propelled by monumental hyperscaler commitments\u2014including multi-year AI accelerator agreements with Google, Anthropic, and Meta Platforms. However, the stock sharply reversed when fiscal Q2 earnings revealed flat forward AI revenue projections and margin headwinds, sparking a 12.59% single-day selloff. Although a $30 billion long-term supply extension with Apple provided a temporary catalyst in July, subsequent investor anxiety emerged over the massive debt financing required to build out multi-gigawatt AI infrastructure and mounting competition from Marvell on Google's custom chip contracts. By late August, Broadcom settled down to $362.48, demonstrating how hyperscaler custom chip dependency carries high valuation sensitivity whenever future spending growth shows signs of moderation.",
   "arc_citation_ids": [
-    "ev_AVGO_20260407_price",
-    "ev_AVGO_20260602_price",
+    "ev_AVGO_20260407_news5",
+    "ev_AVGO_20260415_news2",
+    "ev_AVGO_20260602_news3",
     "ev_AVGO_20260604_price",
-    "ev_AVGO_20260604_filing_000173016826000051",
-    "ev_AVGO_20260622_price",
-    "ev_AVGO_20260623_price",
-    "ev_AVGO_20260814_price",
-    "ev_AVGO_20260819_price"
+    "ev_AVGO_20260604_news6",
+    "ev_AVGO_20260708_news0",
+    "ev_AVGO_20260814_news2",
+    "ev_AVGO_20260819_price",
+    "ev_AVGO_20260819_news2"
   ],
   "warnings": []
 }

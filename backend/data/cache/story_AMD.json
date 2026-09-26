@@ -1,7 +1,7 @@
 {
   "symbol": "AMD",
   "company_name": "Advanced Micro Devices, Inc.",
-  "generated_at": "2026-09-26T12:37:34.533934+00:00",
+  "generated_at": "2026-09-26T12:47:37.058831+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,14 +1320,15 @@
       "pct_change": 7.255,
       "close": 220.27,
       "direction": "up",
-      "headline": "Shares rise 7.25% alongside competitor Intel",
-      "explanation": "AMD climbed 7.25% to close at $220.27 on trading volume 2.4 times its 30-day average. No company-specific news accompanied the gain; the advance was shared with competitor INTC, which rose 7.08%, while supplier TSM rose 1.31%. Customer MSFT moved slightly lower, declining 0.46%.",
-      "confidence": "low",
+      "headline": "Shares rally 7.25% on reported CPU price increases",
+      "explanation": "AMD rose 7.25% to $220.27 on heavy volume that was 2.4 times its 30-day average. The advance was driven by reports that AMD and peer chipmakers plan double-digit price increases of roughly 15% for CPUs to address supply shortages and robust data center demand. This move was shared with competitor INTC, which also gained 7.08% on the same reports.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260325_price",
         "ev_AMD_20260325_peer_INTC",
-        "ev_AMD_20260325_peer_TSM",
-        "ev_AMD_20260325_peer_MSFT"
+        "ev_AMD_20260325_news1",
+        "ev_AMD_20260325_news3",
+        "ev_AMD_20260325_news6"
       ]
     },
     {
@@ -1335,14 +1336,16 @@
       "pct_change": 7.803,
       "close": 278.26,
       "direction": "up",
-      "headline": "Shares gain 7.80% as competitor Intel advances",
-      "explanation": "AMD rose 7.80% to $278.26 on 3.1 times its 30-day average volume. No company filings or corporate announcements were provided for the day, and the move was shared with competitor INTC, which added 5.48%. In contrast, supplier TSM fell 3.13% and competitor NVDA slipped 0.26%.",
-      "confidence": "low",
+      "headline": "Stock jumps 7.80% to record high on AI momentum",
+      "explanation": "AMD gained 7.80% to close at $278.26, marking its 12th consecutive daily gain and setting a new record high on trading volume 3.15 times its average. The rally reflected expanding investor optimism regarding AI accelerator contracts and data center revenue growth. The gain was shared with competitor INTC, which rose 5.48%, whereas supplier TSM declined 3.13%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_AMD_20260416_price",
         "ev_AMD_20260416_peer_INTC",
         "ev_AMD_20260416_peer_TSM",
-        "ev_AMD_20260416_peer_NVDA"
+        "ev_AMD_20260416_news0",
+        "ev_AMD_20260416_news3",
+        "ev_AMD_20260416_news4"
       ]
     },
     {
@@ -1350,14 +1353,16 @@
       "pct_change": 6.668,
       "close": 303.46,
       "direction": "up",
-      "headline": "Shares advance 6.67% with peer Broadcom and supplier TSMC",
-      "explanation": "AMD gained 6.67% to finish at $303.46 on 2.4 times normal volume. The increase lacked company-specific reports and was shared across the supply chain, as competitor AVGO gained 5.09% and supplier TSM advanced 5.26%. Competitor INTC diverged from the group, falling 1.49%.",
-      "confidence": "low",
+      "headline": "Shares gain 6.67% amid broader AI chip demand rally",
+      "explanation": "AMD climbed 6.67% to $303.46 on trading volume 2.39 times normal levels. The rise was supported by a Wall Street price target increase from Stifel and broad-based demand for AI hardware. The move was shared across peers, with competitor AVGO advancing 5.09% and supplier TSM rising 5.26%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260422_price",
         "ev_AMD_20260422_peer_AVGO",
         "ev_AMD_20260422_peer_TSM",
-        "ev_AMD_20260422_peer_INTC"
+        "ev_AMD_20260422_news3",
+        "ev_AMD_20260422_news6",
+        "ev_AMD_20260422_news7"
       ]
     },
     {
@@ -1365,14 +1370,16 @@
       "pct_change": 13.913,
       "close": 347.81,
       "direction": "up",
-      "headline": "Shares surge 13.91% in broad semiconductor rally",
-      "explanation": "AMD gained 13.91% to $347.81 on volume 4.0 times its 30-day average. The upward move was shared across industry peers, with competitor INTC rallying 23.60%, competitor QCOM up 11.12%, and supplier TSM climbing 5.17%. No company-specific disclosures were issued to account for the jump.",
-      "confidence": "low",
+      "headline": "Stock surges 13.91% after upgrade tied to Intel results",
+      "explanation": "AMD advanced 13.91% to $347.81 on 3.97 times average trading volume. The surge followed an upgrade by D.A. Davidson to Buy with a $375 price target, spurred by strong earnings from competitor INTC that signaled accelerated CPU demand from agentic AI workloads. This sharp rise was shared with INTC, which surged 23.60%, and competitor QCOM, which gained 11.12%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260424_price",
         "ev_AMD_20260424_peer_INTC",
         "ev_AMD_20260424_peer_QCOM",
-        "ev_AMD_20260424_peer_TSM"
+        "ev_AMD_20260424_news0",
+        "ev_AMD_20260424_news6",
+        "ev_AMD_20260424_news7"
       ]
     },
     {
@@ -1380,15 +1387,14 @@
       "pct_change": -3.789,
       "close": 334.63,
       "direction": "down",
-      "headline": "Shares drop 3.79% in company-specific pullback",
-      "explanation": "AMD fell 3.79% to $334.63 on 2.5 times average volume. The decline was largely company-specific, as competitor INTC rose 2.97%, competitor NVDA climbed 4.00%, and supplier TSM gained 0.63%. Only competitor AVGO moved in the same direction, falling 1.08%.",
-      "confidence": "low",
+      "headline": "Shares drop 3.79% following ARK share sale",
+      "explanation": "AMD declined 3.79% to $334.63 on trading volume 2.46 times its 30-day average. The pullback followed reports that Cathie Wood's ARK sold substantial shares after the stock's steep multi-week run. The drop was company-specific, as competitor NVDA rose 4.00% and competitor INTC gained 2.97% on the same day.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_AMD_20260427_price",
         "ev_AMD_20260427_peer_INTC",
         "ev_AMD_20260427_peer_NVDA",
-        "ev_AMD_20260427_peer_TSM",
-        "ev_AMD_20260427_peer_AVGO"
+        "ev_AMD_20260427_news2"
       ]
     },
     {
@@ -1396,17 +1402,17 @@
       "pct_change": 18.615,
       "close": 421.39,
       "direction": "up",
-      "headline": "Shares jump 18.61% following Form 10-Q filing",
-      "explanation": "AMD jumped 18.61% to $421.39 on 4.3 times average volume following the submission of an 8-K on May 5 and a Form 10-Q on May 6. The move was accompanied by broad industry strength, as supplier TSM rose 6.36% and competitor NVDA climbed 5.77%. Competitor INTC also gained 4.49%, while competitor AVGO slipped 0.45%.",
+      "headline": "Stock leaps 18.61% on Q1 earnings beat and guidance",
+      "explanation": "AMD surged 18.61% to $421.39 on trading volume 4.27 times normal levels after filing its quarterly financial report. First-quarter results topped expectations, highlighted by a 57% jump in data center revenue and stronger-than-expected guidance for the second quarter. While competitor NVDA gained 5.77% and supplier TSM added 6.36%, AMD significantly outperformed the sector.",
       "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260506_price",
         "ev_AMD_20260506_filing_000000248826000072",
         "ev_AMD_20260506_filing_000000248826000076",
-        "ev_AMD_20260506_peer_TSM",
         "ev_AMD_20260506_peer_NVDA",
-        "ev_AMD_20260506_peer_INTC",
-        "ev_AMD_20260506_peer_AVGO"
+        "ev_AMD_20260506_peer_TSM",
+        "ev_AMD_20260506_news0",
+        "ev_AMD_20260506_news3"
       ]
     },
     {
@@ -1414,16 +1420,16 @@
       "pct_change": 11.441,
       "close": 455.19,
       "direction": "up",
-      "headline": "Shares climb 11.44% as chip competitors surge",
-      "explanation": "AMD rose 11.44% to $455.19 on 2.8 times average volume two days after filing its Form 10-Q. The advance was shared with several competitors, including INTC, which advanced 13.96%, and QCOM, which gained 8.17%. Meanwhile, supplier TSM fell 0.60% and customer MSFT dipped 1.34%.",
-      "confidence": "medium",
+      "headline": "Shares jump 11.44% on Rackspace deal and CPU demand",
+      "explanation": "AMD gained 11.44% to close at $455.19 with volume reaching 2.83 times its average. The rally was driven by an AI cloud agreement with Rackspace and rising analyst optimism around agentic AI server CPU demand. The advance was shared across the sector, with competitor INTC rising 13.96% and competitor QCOM gaining 8.17%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260508_price",
-        "ev_AMD_20260508_filing_000000248826000076",
         "ev_AMD_20260508_peer_INTC",
         "ev_AMD_20260508_peer_QCOM",
-        "ev_AMD_20260508_peer_TSM",
-        "ev_AMD_20260508_peer_MSFT"
+        "ev_AMD_20260508_news0",
+        "ev_AMD_20260508_news4",
+        "ev_AMD_20260508_news6"
       ]
     },
     {
@@ -1431,15 +1437,17 @@
       "pct_change": 7.782,
       "close": 503.89,
       "direction": "up",
-      "headline": "Shares gain 7.78% crossing $500",
-      "explanation": "AMD rose 7.78% to close at $503.89 on volume 1.9 times normal. No company news accompanied the increase, which was shared with competitor QCOM, up 4.48%, and competitor INTC, up 3.07%. Competitor NVDA and customer MSFT diverged, slipping 0.22% and 0.61%, respectively.",
-      "confidence": "low",
+      "headline": "Stock rises 7.78% past $500 on OneQode AI deployment",
+      "explanation": "AMD rose 7.78% to finish at $503.89 on volume 1.87 times its 30-day average. The move followed an agreement with OneQode to deploy AMD Instinct GPUs and Helios rack-scale systems, alongside news that next-generation AI processors entered production. While competitor QCOM rose 4.48%, competitor NVDA declined 0.22% and customer MSFT fell 0.61%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260526_price",
-        "ev_AMD_20260526_peer_QCOM",
-        "ev_AMD_20260526_peer_INTC",
+        "ev_AMD_20260526_peer_MSFT",
         "ev_AMD_20260526_peer_NVDA",
-        "ev_AMD_20260526_peer_MSFT"
+        "ev_AMD_20260526_peer_QCOM",
+        "ev_AMD_20260526_news2",
+        "ev_AMD_20260526_news5",
+        "ev_AMD_20260526_news7"
       ]
     },
     {
@@ -1447,15 +1455,16 @@
       "pct_change": -8.148,
       "close": 454.62,
       "direction": "down",
-      "headline": "Shares drop 8.15% alongside peer competitors",
-      "explanation": "AMD dropped 8.15% to $454.62 on volume 1.8 times the 30-day average. No corporate news was reported, and the drop was shared with competitors INTC, which fell 5.86%, and QCOM, which dropped 4.21%. Supplier TSM also fell 1.70%, while customer MSFT rose 1.09%.",
-      "confidence": "low",
+      "headline": "Shares fall 8.15% amid chip selloff despite power deal",
+      "explanation": "AMD dropped 8.15% to $454.62 on volume 1.77 times the average. The decline occurred despite AMD announcing a long-term AI infrastructure partnership with Core Scientific for up to 2.5 gigawatts of capacity, as broader concerns over AI infrastructure spending pressured the chip sector. The move was shared with competitors INTC, which fell 5.86%, and QCOM, which dropped 4.21%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_AMD_20260728_price",
         "ev_AMD_20260728_peer_INTC",
         "ev_AMD_20260728_peer_QCOM",
-        "ev_AMD_20260728_peer_TSM",
-        "ev_AMD_20260728_peer_MSFT"
+        "ev_AMD_20260728_news1",
+        "ev_AMD_20260728_news3",
+        "ev_AMD_20260728_news5"
       ]
     },
     {
@@ -1463,15 +1472,16 @@
       "pct_change": 12.997,
       "close": 485.39,
       "direction": "up",
-      "headline": "Shares rebound 13.00% as Microsoft and Intel jump",
-      "explanation": "AMD gained 13.00% to $485.39 on 1.8 times normal volume. The rebound was shared with customer MSFT, which jumped 15.51%, and competitor INTC, which rose 11.30%. Supplier TSM also gained 7.64%, while competitor QCOM moved in the opposite direction, declining 2.62%.",
-      "confidence": "low",
+      "headline": "Stock surges 13.00% on Core Scientific deal and upgrade",
+      "explanation": "AMD climbed 13.00% to $485.39 on 1.80 times average volume. The rebound was propelled by a price target increase from Susquehanna and renewed market appreciation for the 2.5-gigawatt Core Scientific AI data center contract. The rally was shared with customer MSFT, which jumped 15.51%, and competitor INTC, which gained 11.30%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260730_price",
-        "ev_AMD_20260730_peer_MSFT",
         "ev_AMD_20260730_peer_INTC",
-        "ev_AMD_20260730_peer_TSM",
-        "ev_AMD_20260730_peer_QCOM"
+        "ev_AMD_20260730_peer_MSFT",
+        "ev_AMD_20260730_news3",
+        "ev_AMD_20260730_news5",
+        "ev_AMD_20260730_news6"
       ]
     },
     {
@@ -1479,8 +1489,8 @@
       "pct_change": -7.044,
       "close": 482.05,
       "direction": "down",
-      "headline": "Shares retreat 7.04% after Form 10-Q filing",
-      "explanation": "AMD fell 7.04% to $482.05 on 2.4 times normal volume following an 8-K on August 4 and a Form 10-Q filing on August 5. The decline was largely company-specific, as competitor INTC rose 0.20% and competitor NVDA climbed 3.44%. Competitor QCOM dropped 3.16% and customer MSFT fell 1.09%.",
+      "headline": "Shares drop 7.04% post-Q2 earnings on high expectations",
+      "explanation": "AMD declined 7.04% to $482.05 on volume 2.41 times average following its second-quarter earnings release. Although AMD posted record quarterly revenue of $11.5 billion, the report failed to satisfy heightened market expectations, and sentiment was dampened by comments that SpaceX would use rival chips. The decline was largely company-specific, as competitor NVDA gained 3.44% and competitor INTC rose 0.20%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260805_price",
@@ -1488,8 +1498,9 @@
         "ev_AMD_20260805_filing_000000248826000123",
         "ev_AMD_20260805_peer_INTC",
         "ev_AMD_20260805_peer_NVDA",
-        "ev_AMD_20260805_peer_QCOM",
-        "ev_AMD_20260805_peer_MSFT"
+        "ev_AMD_20260805_news3",
+        "ev_AMD_20260805_news4",
+        "ev_AMD_20260805_news5"
       ]
     },
     {
@@ -1497,17 +1508,16 @@
       "pct_change": 9.95,
       "close": 615.52,
       "direction": "up",
-      "headline": "Shares gain 9.95% reaching $1 trillion valuation",
-      "explanation": "AMD climbed 9.95% to close at $615.52 on 2.2 times normal volume as reports highlighted its market cap crossing $1 trillion and expanded deployments of Instinct MI325X GPUs. The advance coincided with a broader semiconductor rally where competitor INTC gained 12.14% and competitor QCOM rose 9.29%. Supplier TSM also advanced 2.41%.",
+      "headline": "AMD rises 9.95% to top $1T market cap on AI agent surge",
+      "explanation": "AMD gained 9.95% to close at $615.52 on 2.16 times average trading volume, pushing its market capitalization past $1 trillion for the first time. The rally was initiated by market excitement over Meta's Muse AI agent, which spurred expectations for surging CPU server demand. The move was shared across peers, with competitor INTC climbing 12.14% and competitor QCOM rising 9.29%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260921_price",
-        "ev_AMD_20260921_news1",
-        "ev_AMD_20260921_news2",
-        "ev_AMD_20260921_news7",
         "ev_AMD_20260921_peer_INTC",
         "ev_AMD_20260921_peer_QCOM",
-        "ev_AMD_20260921_peer_TSM"
+        "ev_AMD_20260921_news1",
+        "ev_AMD_20260921_news4",
+        "ev_AMD_20260921_news5"
       ]
     }
   ],
@@ -1613,6 +1623,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_AMD_20260325_news0": {
+      "id": "ev_AMD_20260325_news0",
+      "kind": "news",
+      "title": "AMD: One Reason To Buy And One Reason To Be Cautious",
+      "detail": "Reported by SeekingAlpha.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7e07674ce7ce5e4488d5d7644f94d543bbb6dfd8e323cd45db4c5c4c88ec601f",
+      "occurred_on": "2026-03-25",
+      "numbers": {}
+    },
+    "ev_AMD_20260325_news1": {
+      "id": "ev_AMD_20260325_news1",
+      "kind": "news",
+      "title": "Stock Market Today, March 25: Advanced Micro Devices Rises After Reports of CPU Price Increases",
+      "detail": "Reported by Yahoo. Advanced Micro Devices rose after reports of planned CPU price increases, as AI data center demand continues to support stronger pricing.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ab7e7198e768d3784ee786b66023455b060f46260cbb981239d4f7c31cc08587",
+      "occurred_on": "2026-03-25",
+      "numbers": {}
+    },
+    "ev_AMD_20260325_news2": {
+      "id": "ev_AMD_20260325_news2",
+      "kind": "news",
+      "title": "Urban-gro, DraftKings, Sarepta Therapeutics, Destiny Tech100 And AMD: Why These 5 Stocks Are On Investors' Radars Today",
+      "detail": "Reported by Benzinga. U.S. stocks closed higher on Wednesday, with the Dow Jones Industrial Average up 0.66% at 46,429.49, the S&amp;P 500 gaining 0.5% to 6,591.90.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9e70c7db6bd322afd3b48870117e24c66828738bc1f9a20f1fd800b9c63d13c3",
+      "occurred_on": "2026-03-25",
+      "numbers": {}
+    },
+    "ev_AMD_20260325_news3": {
+      "id": "ev_AMD_20260325_news3",
+      "kind": "news",
+      "title": "Intel, AMD Stocks Jump After Reports of 15% CPU Price Increase",
+      "detail": "Reported by Yahoo. AMD, Intel Shares Rally as Chip Titans Signal Double-Digit CPU Price Hikes",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ef280070b3ccec4dd3211e401f5180404fa59b9c748944e3168bde389158a154",
+      "occurred_on": "2026-03-25",
+      "numbers": {}
+    },
+    "ev_AMD_20260325_news4": {
+      "id": "ev_AMD_20260325_news4",
+      "kind": "news",
+      "title": "Intel, AMD Supply Constraints Weigh on PC and Server Manufacturers",
+      "detail": "Reported by Yahoo. Intel and AMD constraints add to component stress for hardware makers",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9ff846c2a9e909f06e1690ee98a69e70f37a1142af9a3affe020836e022fe295",
+      "occurred_on": "2026-03-25",
+      "numbers": {}
+    },
+    "ev_AMD_20260325_news5": {
+      "id": "ev_AMD_20260325_news5",
+      "kind": "news",
+      "title": "Market Chatter: Intel, Advanced Micro Devices CPU Shortage Pressures PC, Server Makers",
+      "detail": "Reported by Yahoo. Intel (INTC) and Advanced Micro Devices (AMD) are facing a growing central processing unit supply cr",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c9002bd789ead50ab1678e78b3eb356e7f86e22bbf32fb3ab3f2a81f833b6ca3",
+      "occurred_on": "2026-03-25",
+      "numbers": {}
+    },
+    "ev_AMD_20260325_news6": {
+      "id": "ev_AMD_20260325_news6",
+      "kind": "news",
+      "title": "AMD and Intel Are Leading a Chip Stock Rally Today. Here's Why.",
+      "detail": "Reported by Yahoo. Shares of Intel and AMD surged Wednesday following a report the companies are raising chip prices.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=86d342fd8e7ccedc31e66500a334a4bc2c80150d41cd1824b4c787959fd554ee",
+      "occurred_on": "2026-03-25",
+      "numbers": {}
+    },
+    "ev_AMD_20260325_news7": {
+      "id": "ev_AMD_20260325_news7",
+      "kind": "news",
+      "title": "AMD, Intel stocks rise on possible price hikes; gold prices climb",
+      "detail": "Reported by Yahoo. Yahoo Finance anchor Josh Lipton tracks Wednesday's top moving stocks and biggest market stories.Gold (GC=F) prices are rebounding, hovering around $4,500.AMD (AMD) and Intel (INTC) stocks are surging on reports that the two chipmakers told clients price increases were on the way.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=51cbfdd6d273df3dc75b46ccec404fde686e99d41487cf697a197ae86fb797ea",
+      "occurred_on": "2026-03-25",
+      "numbers": {}
+    },
     "ev_AMD_20260416_price": {
       "id": "ev_AMD_20260416_price",
       "kind": "price",
@@ -1713,6 +1803,86 @@
         "subject_pct_change": 7.803,
         "relationship": "supplier"
       }
+    },
+    "ev_AMD_20260416_news0": {
+      "id": "ev_AMD_20260416_news0",
+      "kind": "news",
+      "title": "Stock Market Today, April 16: Advanced Micro Devices Surges on AI Demand Momentum",
+      "detail": "Reported by Yahoo. On April 16, 2026, investors weighed record AI-fueled momentum against questions about how fully it could translate into sales growth.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=554413ac8b933eeb862f4728b5a67aa52f568713870a9a143ba8ea8699e5e6b7",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_AMD_20260416_news1": {
+      "id": "ev_AMD_20260416_news1",
+      "kind": "news",
+      "title": "Netflix, AMD, Navitas Semiconductor, Abbott Labs, And Nio: Why These 5 Stocks Are On Investors' Radars Today",
+      "detail": "Reported by Benzinga. Major U.S. indices closed higher on Thursday, with the Dow Jones Industrial Average up 0.2% at 48,578.72.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f2e38da2acdca712c285ba8d5eefd8988add3bfe8fcd8eb94f963910e192473b",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_AMD_20260416_news2": {
+      "id": "ev_AMD_20260416_news2",
+      "kind": "news",
+      "title": "Dow Jones Futures: Stock Market Rally Won't Back Down, AMD Breaks Out; Netflix Dives Late",
+      "detail": "Reported by Yahoo. The stock market kept rising Thursday even with oil pries rebounding. AMD led breakouts. Netflix and Alcoa tumbled late on earnings",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=005fadffd903333260c9594a5a794cd830b10906b8150c95afff30502798f6f7",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_AMD_20260416_news3": {
+      "id": "ev_AMD_20260416_news3",
+      "kind": "news",
+      "title": "AMD Stock Closes at All-Time High in Longest Winning Streak Since 2005",
+      "detail": "Reported by Yahoo. While  Nvidia  recent winning streak was grabbing headlines,  Advanced Micro Devices  has been on a tear of its own\u2014closing at another all-time high Thursday.  AMD stock closed up 7.8% at $278.26 Thursday afternoon.  Thursday\u2019s 12th consecutive rise marks its longest winning streak since 2005.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5a7e8bb56a61e3b7e1495a40dc158e7a4534d1139a077ab12da58add2faa262b",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_AMD_20260416_news4": {
+      "id": "ev_AMD_20260416_news4",
+      "kind": "news",
+      "title": "A Look At Advanced Micro Devices (AMD) Valuation As AI Accelerator Deals And Data Center Revenue Gain Traction",
+      "detail": "Reported by Yahoo. Advanced Micro Devices (AMD) stock has been in focus as AI infrastructure spending gains support from suppliers like TSMC and ASML, while AMD secures large AI accelerator deals and reports record data center revenue. See our latest analysis for Advanced Micro Devices. The recent news around AI accelerators and data center growth has arrived during a powerful run in AMD shares, with an 11 day winning streak helping drive a 30 day share price return of 31.31% and a 1 year total shareholder...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=927c2dd8f2795ed834a2adf8ab817f2c9da67c1b3d574aaf377e4e9c41f06c5d",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_AMD_20260416_news5": {
+      "id": "ev_AMD_20260416_news5",
+      "kind": "news",
+      "title": "Stock Market Today: Chips Outperform As AMD Breaks Out; Abbott Labs Hits Multiyear Low (Live Coverage)",
+      "detail": "Reported by Yahoo. Stock Market Today: The Dow Jones index swings Thursday after an unexpected result in jobless claims data. Netflix earnings are due late.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=79a01835888f9bb4623ed5747e019eac9355e0455d5252f7e8848f99a6b3a803",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_AMD_20260416_news6": {
+      "id": "ev_AMD_20260416_news6",
+      "kind": "news",
+      "title": "Up 40% in the Past 12 Days, Should You Chase the Rally in AMD Stock?",
+      "detail": "Reported by Yahoo. AMD stock\u2019s surge highlights growing confidence in its AI story, but AMD may need continued execution to justify further upside.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=13e6ad74e7f8015c9071f9f557181596bf9b52706518f81b0908fe026933f873",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
+    },
+    "ev_AMD_20260416_news7": {
+      "id": "ev_AMD_20260416_news7",
+      "kind": "news",
+      "title": "Why Advanced Micro Devices (AMD) Stock Popped on Thursday",
+      "detail": "Reported by Yahoo. The semiconductor specialist got some (belated) love from Wall Street.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4c5053fda9d739ed9264752846f62a45e5827951df976636c598801dbef846d9",
+      "occurred_on": "2026-04-16",
+      "numbers": {}
     },
     "ev_AMD_20260422_price": {
       "id": "ev_AMD_20260422_price",
@@ -1815,6 +1985,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_AMD_20260422_news0": {
+      "id": "ev_AMD_20260422_news0",
+      "kind": "news",
+      "title": "3 AI Chipmakers With Far More Upside Than AMD",
+      "detail": "Reported by Yahoo. AMD trades at a premium despite having far slower growth than this trio.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c8afde47101489017c284c83610697298c93265655d5c5541130c61a218639cf",
+      "occurred_on": "2026-04-22",
+      "numbers": {}
+    },
+    "ev_AMD_20260422_news1": {
+      "id": "ev_AMD_20260422_news1",
+      "kind": "news",
+      "title": "This Is Why Advanced Micro Devices (AMD) Is a Top AI Stock to Own",
+      "detail": "Reported by Yahoo. Advanced Micro Devices, Inc. (NASDAQ:AMD) is one of the top S&P 500 stocks by index weight. On April 13, Bank of America touted Advanced Micro Devices, Inc. (NASDAQ:AMD) as one of the top artificial intelligence stocks to own heading into Q1 earnings. According to the investment bank, Advanced Micro Devices was one of the companies [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a6f087fe1e1f5dc5c55ed4a88778731033ccbd8b4f27c149c3aef79a34724263",
+      "occurred_on": "2026-04-22",
+      "numbers": {}
+    },
+    "ev_AMD_20260422_news2": {
+      "id": "ev_AMD_20260422_news2",
+      "kind": "news",
+      "title": "AMD Stock Just Hit New All-Time Highs. Should You Buy Shares Here?",
+      "detail": "Reported by Yahoo. Despite its recent rally, AMD's valuation remains favorable.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b28489478bc0ddb0e3ac7c4940625278a2732521979cf31886c5af96bece6ba8",
+      "occurred_on": "2026-04-22",
+      "numbers": {}
+    },
+    "ev_AMD_20260422_news3": {
+      "id": "ev_AMD_20260422_news3",
+      "kind": "news",
+      "title": "Micron, AMD and Broadcom Shares Jump as AI Chip Demand Roars Back",
+      "detail": "Reported by Yahoo. Micron, AMD, Broadcom Rally as Investors Bet on AI Growth Cycle",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a042d9837bcf5e7b7f27bd001ce30672e336eb3f903aa1a53ceda300c2e0daf4",
+      "occurred_on": "2026-04-22",
+      "numbers": {}
+    },
+    "ev_AMD_20260422_news4": {
+      "id": "ev_AMD_20260422_news4",
+      "kind": "news",
+      "title": "AMD's Gross Margin to Contract Sequentially: Is Growth Getting Harder?",
+      "detail": "Reported by Yahoo. AMD flags a 200 bps Q1 margin drop as one-time gains fade, China revenues dip and seasonal weakness hits, raising pressure despite a solid growth outlook.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=984dda5e4726a4102615542128dcad5471415abc1b34b5cce3f9b606cd29d723",
+      "occurred_on": "2026-04-22",
+      "numbers": {}
+    },
+    "ev_AMD_20260422_news5": {
+      "id": "ev_AMD_20260422_news5",
+      "kind": "news",
+      "title": "Nvidia vs. AMD: One Is a Generational Buy \u2014 The Other Is a Trap",
+      "detail": "Reported by Yahoo. Tech giant Nvidia (NASDAQ:NVDA) and Advanced Micro Devices (NASDAQ:AMD) both reported strong quarters, but Nvidia is building the AI infrastructure backbone at unprecedented scale, while AMD is a capable challenger with a long road ahead. Blackwell Carries Nvidia. EPYC and Instinct Carry AMD. Nvidia\u2019s fourth quarter revenue hit $68.13 billion, up 73.2% year over year, ... Nvidia vs. AMD: One Is a Generational Buy \u2014 The Other Is a Trap",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5fba55a8f3852ffa5375d898e3b20e9a87f1e1a688b1d077747fe161335e97c8",
+      "occurred_on": "2026-04-22",
+      "numbers": {}
+    },
+    "ev_AMD_20260422_news6": {
+      "id": "ev_AMD_20260422_news6",
+      "kind": "news",
+      "title": "Micron Soars 6%, AMD Rallies 4%, Broadcom Climbs 4% on Reignited AI Chip Demand",
+      "detail": "Reported by Yahoo. Micron Technology (NASDAQ:MU) shares are up 6% in midday trading, leading a broad-based rally across AI chip names. Advanced Micro Devices (NASDAQ:AMD) stock gained 4% and Broadcom (NASDAQ:AVGO) shares are also up 4% as investors re-embrace the AI infrastructure trade on Wednesday. The catalyst is a renewed wave of conviction around AI chip demand, with ... Micron Soars 6%, AMD Rallies 4%, Broadcom Climbs 4% on Reignited AI Chip Demand",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=53eb17934b549b967ad45c270e92006325a3d94234444c562ef4b94146351f54",
+      "occurred_on": "2026-04-22",
+      "numbers": {}
+    },
+    "ev_AMD_20260422_news7": {
+      "id": "ev_AMD_20260422_news7",
+      "kind": "news",
+      "title": "Why Stifel Just Raised Its AMD Stock Price Target by 14%",
+      "detail": "Reported by Yahoo. Stifel\u2019s 14% price target hike on AMD signals rising Wall Street conviction that the chipmaker is poised to capitalize on accelerating AI-driven demand.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4e7576c2e04938a69308c62b7f5d44f06971172a3e192bf0d864ff9b59ddbeed",
+      "occurred_on": "2026-04-22",
+      "numbers": {}
+    },
     "ev_AMD_20260424_price": {
       "id": "ev_AMD_20260424_price",
       "kind": "price",
@@ -1916,6 +2166,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_AMD_20260424_news0": {
+      "id": "ev_AMD_20260424_news0",
+      "kind": "news",
+      "title": "Anything Intel Can Do, Advanced Micro Devices Might Be Able to Do Better",
+      "detail": "Reported by Yahoo. D.A. Davidson upgrades Advanced Micro Devices stock to Buy from Neutral following a blockbuster earnings report from rival Intel.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=13d3e6ef7b0671cbb547828b3a3d291e5107213d80bc84df1fa51c02b4e79492",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMD_20260424_news1": {
+      "id": "ev_AMD_20260424_news1",
+      "kind": "news",
+      "title": "Nvidia, Intel and AMD Lead Chip Stocks as AI Wave Lifts Sector",
+      "detail": "Reported by Yahoo. Nvidia, AMD Lead Semiconductor Rally as AI Frenzy Accelerates",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b82dcb13c4068576da4c283de187ab86859d1fa65b1d51087170834db36d1dff",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMD_20260424_news2": {
+      "id": "ev_AMD_20260424_news2",
+      "kind": "news",
+      "title": "AMD Stock Is at Record Highs\u2014and Why It\u2019s Still Not Too Late to Buy",
+      "detail": "Reported by Yahoo. AMD\u2019s investment case is supported by sustained demand for high-performance CPUs, rapid expansion in AI accelerators, a solid product roadmap.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9f7a77ddce63f95611790941c79f13e7a3ae40c8ee2f55d0b47b71c8a7fc38e3",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMD_20260424_news3": {
+      "id": "ev_AMD_20260424_news3",
+      "kind": "news",
+      "title": "Why Advanced Micro Devices Stock Is Soaring Today",
+      "detail": "Reported by Yahoo. AMD Jumps on Bullish Upgrade as AI Demand Ignites Growth Outlook",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9a89204a661d15a63b9fe50229fad92b77dbb69f6195616060ccfdd045b7f701",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMD_20260424_news4": {
+      "id": "ev_AMD_20260424_news4",
+      "kind": "news",
+      "title": "AMD Gains After DA Davidson Upgrade",
+      "detail": "Reported by Yahoo. Analyst sees stronger CPU demand tied to agentic AI workloads.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2630261ca2b7c51cbe9c23b7d69de3a4341db907f877443cedc052d6197d1193",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMD_20260424_news5": {
+      "id": "ev_AMD_20260424_news5",
+      "kind": "news",
+      "title": "Advanced Micro Devices (AMD): The Best Fast Growth Stock to Invest In Now",
+      "detail": "Reported by Yahoo. Advanced Micro Devices, Inc. (NASDAQ:AMD) is one of the 10 Best Fast Growth Stocks to Invest In Now. On April 19, 2026, Stifel raised its price target on Advanced Micro Devices, Inc. (NASDAQ:AMD) to $320 from $280 and maintained a Buy rating on the shares. The firm said its processor coverage sits at \u201cdistinctly different [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4c8ff74106892ccd3ae61be67ba37709c45845121f16a0eb43c3bbf3af2a3360",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMD_20260424_news6": {
+      "id": "ev_AMD_20260424_news6",
+      "kind": "news",
+      "title": "DA Davidson Upgrades AMD to Buy With a $375 Price Target: The Big Winner of Intel Earnings?",
+      "detail": "Reported by Yahoo. An analyst firm just made the bull case for one of the year\u2019s hottest semiconductor stories. Advanced Micro Devices (NASDAQ:AMD) was upgraded to Buy from Neutral at DA Davidson, with the firm lifting its price target to $375. The revision follows Intel\u2018s (NASDAQ:INTC) blowout Q1 2026 earnings, which Barron\u2019s characterized as validating AMD\u2019s data center ... DA Davidson Upgrades AMD to Buy With a $375 Price Target: The Big Winner of Intel Earnings?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ae1aed038cd1082a00c75cfdf9ec2d0fccc5dcfa7df1da52eadfb34d5fc882e5",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
+    "ev_AMD_20260424_news7": {
+      "id": "ev_AMD_20260424_news7",
+      "kind": "news",
+      "title": "AMD stock rises 12% after Intel Q1 earnings signal CPU boom",
+      "detail": "Reported by Yahoo. Intel's better-than-expected results prompted analysts to upgrade AMD, its main CPU rival, citing surging demand from agentic AI workloads",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d0b501833f95d6bf2560ddf0cefbb2c71a3d4eaa705c3770b69c729c7241f4d7",
+      "occurred_on": "2026-04-24",
+      "numbers": {}
+    },
     "ev_AMD_20260427_price": {
       "id": "ev_AMD_20260427_price",
       "kind": "price",
@@ -2016,6 +2346,86 @@
         "subject_pct_change": -3.789,
         "relationship": "supplier"
       }
+    },
+    "ev_AMD_20260427_news0": {
+      "id": "ev_AMD_20260427_news0",
+      "kind": "news",
+      "title": "Advanced Micro Devices (AMD) Stock Sinks As Market Gains: Here's Why",
+      "detail": "Reported by Yahoo. Advanced Micro Devices (AMD) reached $334.49 at the closing of the latest trading day, reflecting a -3.83% change compared to its last close.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=896fa04caef69b60b3c17414a6b66056bab517d762f57fafe6365790b325f915",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_AMD_20260427_news1": {
+      "id": "ev_AMD_20260427_news1",
+      "kind": "news",
+      "title": "AMD Supplier Up 40% This Month Soars On Earnings Beat",
+      "detail": "Reported by Yahoo. Data center stock Sanmina trounced analyst expectations when it reported earnings on Monday, as demand for its AI hardware soars.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=709189c075baf6b25ec90ff0ac924f9a9c72e2bcf5f64d594bc6b0fdd7ad2d7e",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_AMD_20260427_news2": {
+      "id": "ev_AMD_20260427_news2",
+      "kind": "news",
+      "title": "AMD Stock Slips After Cathie Wood's ARK Dumps Millions in Shares",
+      "detail": "Reported by Yahoo. AMD Falls on Surprise ARK Sale After Massive AI-Fueled Rally",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5c66292e7af2d927b9c2f976048b9289d38f6a1598436c391f4aa5ec2957fd16",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_AMD_20260427_news3": {
+      "id": "ev_AMD_20260427_news3",
+      "kind": "news",
+      "title": "As Chip Stocks Soar, This Options Spread Trade On AMD Almost Always Makes A Profit",
+      "detail": "Reported by Yahoo. AMD stock has been gaining alongside the broader chip sector. Consider this potentially profitable options trade on AMD.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=23362611a3a9216447700169055f6956829cbedba34103c1df89b17224010118",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_AMD_20260427_news4": {
+      "id": "ev_AMD_20260427_news4",
+      "kind": "news",
+      "title": "With Intel, AMD, Nvidia, and More Rising Sharply Last Week, Have Chip Stocks Become Overvalued?",
+      "detail": "Reported by Yahoo. Can two seemingly contradicting views be true at once? That the AI boom is alive and well, and that many chip stocks are overvalued?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=af391dffc1d312cc08092ee41b1474a1af51b30985ed74d576a6a6cd64bcce67",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_AMD_20260427_news5": {
+      "id": "ev_AMD_20260427_news5",
+      "kind": "news",
+      "title": "The Market Has Always Been Late to Recognize AMD\u2019s Technology. This Means You Can Be Early.",
+      "detail": "Reported by Yahoo. Not being Wall Street's darling has its own perks. AMD still trades at a discount after 71% gains so far in April.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fac6b136a513928988586c4e431580409fd8f37100dd44f27fa12e9dc1c08d72",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_AMD_20260427_news6": {
+      "id": "ev_AMD_20260427_news6",
+      "kind": "news",
+      "title": "Forget Nvidia: Sudden CPU Shortage Can Make AMD Explode Higher",
+      "detail": "Reported by Yahoo. Nvidia (NASDAQ:NVDA) is everywhere right now because it just posted Q4 revenue of $68.13 billion, up 73.2% year-over-year, and Jensen Huang declared that \u201cthe agentic AI inflection point has arrived.\u201d The real opportunity could be elsewhere. The trade everyone is piling into has a name: NVDA. A CPU shortage is quietly reshaping data center economics, ... Forget Nvidia: Sudden CPU Shortage Can Make AMD Explode Higher",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2385cffc106c205fabc0384fd4f35dcef183fb6f0da8cff4cf8f024592e92482",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
+    },
+    "ev_AMD_20260427_news7": {
+      "id": "ev_AMD_20260427_news7",
+      "kind": "news",
+      "title": "AMD Jumps as AI Demand Lifts Outlook",
+      "detail": "Reported by Yahoo. Analysts raise targets as CPU demand tied to AI workloads accelerates.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fd13cd81edf333b338ca4ea74a5fb74881972c678227dd0ed8d550649e196aef",
+      "occurred_on": "2026-04-27",
+      "numbers": {}
     },
     "ev_AMD_20260506_price": {
       "id": "ev_AMD_20260506_price",
@@ -2138,6 +2548,86 @@
       "occurred_on": "2026-05-05",
       "numbers": {}
     },
+    "ev_AMD_20260506_news0": {
+      "id": "ev_AMD_20260506_news0",
+      "kind": "news",
+      "title": "Stock Market Today, May 6: AMD Surges After Q1 Beat and Strong Q2 Data Center Outlook",
+      "detail": "Reported by Yahoo. AMD\u2019s data center revenue jumped 57%, giving investors hard evidence of demand for server CPUs and AI accelerators as the company guided for another strong quarter.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f7d89896c6feb284e95df439087b6bfa4b85fabc7d32b16b501d5ce7e366321c",
+      "occurred_on": "2026-05-06",
+      "numbers": {}
+    },
+    "ev_AMD_20260506_news1": {
+      "id": "ev_AMD_20260506_news1",
+      "kind": "news",
+      "title": "US Equity Indexes Surge as Iran Peace Deal Expectations Rise, AMD's Q1 Boosts Chipmakers",
+      "detail": "Reported by Yahoo. US equity indexes jumped while crude oil futures sank on Wednesday amid a growing likelihood of Iran",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=90628263b0150b6b5758ab299f56c9aa4a96665eb90db0eb16e325ceda9a9e01",
+      "occurred_on": "2026-05-06",
+      "numbers": {}
+    },
+    "ev_AMD_20260506_news2": {
+      "id": "ev_AMD_20260506_news2",
+      "kind": "news",
+      "title": "US Equity Markets End Higher as Nasdaq, S&P 500 Hit Records After Reports on US-Iran Peace Deal, Upbeat AMD Results",
+      "detail": "Reported by Yahoo. US equity indexes ended higher on Wednesday, with the S&P 500 and the Nasdaq Composite reaching new",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4b64c586fd53c474369d770ad9cfd2b910c81ba63886d7a9d859bedf6ebb95c1",
+      "occurred_on": "2026-05-06",
+      "numbers": {}
+    },
+    "ev_AMD_20260506_news3": {
+      "id": "ev_AMD_20260506_news3",
+      "kind": "news",
+      "title": "AMD stock surges as the chipmaker forecasts continued AI growth",
+      "detail": "Reported by Yahoo. Advanced Micro Devices (AMD) stock surges higher on Wednesday after blowing past first quarter earnings estimates and second quarter guidance forecasts. Market Domination Host Josh Lipton and Yahoo Finance Tech Editor Dan Howley sit down to take a closer look at AMD's growth outlook as AI demand pushes chip stocks higher.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8a7e1c0c2b25e497cace25cbc10af00fa6549d4e3457ad53614378846562c093",
+      "occurred_on": "2026-05-06",
+      "numbers": {}
+    },
+    "ev_AMD_20260506_news4": {
+      "id": "ev_AMD_20260506_news4",
+      "kind": "news",
+      "title": "US Equity Indexes Jump as Iran Peace Deal Hopes Increase, AMD's Q1 Results Trigger Rally in Chipmakers",
+      "detail": "Reported by Yahoo. US equity indexes jumped ahead of Wednesday's close, with the S&P 500 and the Nasdaq Composite break",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d2c1b6be53325f88a4d5b5377a2196d5e0de82f2ec41b4bb945d196103902660",
+      "occurred_on": "2026-05-06",
+      "numbers": {}
+    },
+    "ev_AMD_20260506_news5": {
+      "id": "ev_AMD_20260506_news5",
+      "kind": "news",
+      "title": "Advanced Micro Devices Set to Command Half of Growing Server CPU Market, BofA Says",
+      "detail": "Reported by Yahoo. Advanced Micro Devices (AMD) is expected to capture about half of the total addressable market for s",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ebe03a403c5b2e46f99f676d0a95795a8f2fe4e120195c10271e953bdc8e6588",
+      "occurred_on": "2026-05-06",
+      "numbers": {}
+    },
+    "ev_AMD_20260506_news6": {
+      "id": "ev_AMD_20260506_news6",
+      "kind": "news",
+      "title": "S&P 500 and Nasdaq-100 Surge: AMD Earnings Steal the Show at Midday",
+      "detail": "Reported by Yahoo. Chip stocks are having a moment, and AMD is leading the charge. Oil prices are tanking, too. Here's what you need to know.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b4bd854604e9aee7803345babdf6d3c87cd45884d70c7d5cd3bba832a0c9b769",
+      "occurred_on": "2026-05-06",
+      "numbers": {}
+    },
+    "ev_AMD_20260506_news7": {
+      "id": "ev_AMD_20260506_news7",
+      "kind": "news",
+      "title": "Buy the Spike in AMD stock After Strong Q1 Results & Bullish Guidance?",
+      "detail": "Reported by Yahoo. Investors applauded AMD's strong Q1 report yesterday evening, with shares spiking over 20% in Wednesday morning's trading session to a new all-time high of $430.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=15aca32ada3591e84f7ef732f9d73d1dea5059efd15b3c68f343a833d1612fc9",
+      "occurred_on": "2026-05-06",
+      "numbers": {}
+    },
     "ev_AMD_20260508_price": {
       "id": "ev_AMD_20260508_price",
       "kind": "price",
@@ -2249,6 +2739,86 @@
       "occurred_on": "2026-05-06",
       "numbers": {}
     },
+    "ev_AMD_20260508_news0": {
+      "id": "ev_AMD_20260508_news0",
+      "kind": "news",
+      "title": "Stock Market Today, May 8: Rackspace Surges on AMD AI Cloud Agreement",
+      "detail": "Reported by Yahoo. Rackspace\u2019s memorandum of understanding with AMD outlines a governed AI cloud solution for regulated customers, and the company\u2019s next challenge is converting this into customer workloads and recurring managed-cloud revenue.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f9f9731a4f7160b781dc7bdc97e77c491d79ea4d229a459b2f659841cb023ba4",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_AMD_20260508_news1": {
+      "id": "ev_AMD_20260508_news1",
+      "kind": "news",
+      "title": "How Intel Stock Could Be the Biggest Winner from AMD\u2019s Explosive Earnings Win",
+      "detail": "Reported by Yahoo. Following AMD\u2019s strong earnings and upgraded server CPU outlook, Intel is seeing renewed Wall Street optimism around its foundry progress and CPU pricing power.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=63415948a2945c94022f3293d84f1c3f1f058b3cac8592e78995e7328b9e29a0",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_AMD_20260508_news2": {
+      "id": "ev_AMD_20260508_news2",
+      "kind": "news",
+      "title": "Cathie Wood Dumps More AMD Shares Despite Its Massive 108% Rally. Here's Why.",
+      "detail": "Reported by Yahoo. AMD\u2019s strong earnings momentum and growing AI partnerships have fueled a massive rally, but Cathie Wood seems to be locking in gains.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9b52100b1bec9f65947e6cc43d9f8e1b7a11a980180c581b1cffbae4a6597cd5",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_AMD_20260508_news3": {
+      "id": "ev_AMD_20260508_news3",
+      "kind": "news",
+      "title": "Meet the Super Semiconductor Stock Obliterating Nvidia, AMD, and Broadcom Right Now",
+      "detail": "Reported by Yahoo. Aehr Test Systems stock is up some 327% year to date.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5bc6843adc024c7cc358205bfa2ea4a975996d486b4cafed6d3d22daa7d970fd",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_AMD_20260508_news4": {
+      "id": "ev_AMD_20260508_news4",
+      "kind": "news",
+      "title": "As CPUs Steal the Show, AMD Stock Just Got a New Street-High Price Target",
+      "detail": "Reported by Yahoo. Agentic AI is creating a fresh opportunity for AMD, with its booming server CPU business fueling strong growth, fresh optimism, and a new Street-high price target.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c3c266ae0c1d0b88274c28d66b70a28d6a73bcffff92c00567795d8e4079bd9c",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_AMD_20260508_news5": {
+      "id": "ev_AMD_20260508_news5",
+      "kind": "news",
+      "title": "Rackspace Has Nearly Quadrupled in 2026 but a New Deal with AMD Could Keep the Gains Coming for RXT Stock",
+      "detail": "Reported by Yahoo. The AMD deal gives Rackspace a fresh AI narrative as investors hunt for overlooked cloud infrastructure plays.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=25609d0fabb68cc77ba8bab38cb77741499a98b800a4287369b73c7dc73f5d10",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_AMD_20260508_news6": {
+      "id": "ev_AMD_20260508_news6",
+      "kind": "news",
+      "title": "Wall Street sees 'changing of the guard in AI' as Intel, AMD shares soar while Nvidia lags",
+      "detail": "Reported by CNBC. Intel, AMD and Micron surged double digits this week as investors bet on CPU makers and memory companies powering the next stage of AI",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=2dd3384ba55ce2d54d0b76fcae68eb1d75f2d107a41c24b54ac00a83681f9361",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
+    "ev_AMD_20260508_news7": {
+      "id": "ev_AMD_20260508_news7",
+      "kind": "news",
+      "title": "Jim Cramer Discusses Surging Value of Intel and AMD CPUs",
+      "detail": "Reported by Yahoo. Intel Corporation (NASDAQ:INTC) was one of the stocks on Jim Cramer\u2019s radar as he highlighted AI winners to buy for 2026. Cramer highlighted the shortage in the company\u2019s products, as he stated: And then there are the new agents that do things that are powered by CPUs from AMD, Arm Holdings, Intel. Hence why the [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=dc0ef8bfd7cc37d7975e739371aeccb5517fcbedb2578c19b75dba0deb911410",
+      "occurred_on": "2026-05-08",
+      "numbers": {}
+    },
     "ev_AMD_20260526_price": {
       "id": "ev_AMD_20260526_price",
       "kind": "price",
@@ -2349,6 +2919,86 @@
         "subject_pct_change": 7.782,
         "relationship": "supplier"
       }
+    },
+    "ev_AMD_20260526_news0": {
+      "id": "ev_AMD_20260526_news0",
+      "kind": "news",
+      "title": "Cathie Wood Pours $8.5M Into Cerebras Amid Buzz Around AI Chip Upstart, Won't Stop Dumping AMD",
+      "detail": "Reported by Benzinga. On Tuesday, May 26, 2026, Ark bought $8.5M in Cerebras and shed $2.7M worth of AMD shares on Tuesday.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=81c39dcec72f0c02d348fd1385eb549c6e63c80f5288539a183fc82c197d5860",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_AMD_20260526_news1": {
+      "id": "ev_AMD_20260526_news1",
+      "kind": "news",
+      "title": "Micron Technology, Zscaler, Redwire, Intuitive Machines And AMD: Why These 5 Stocks Are On Investors' Radars Today",
+      "detail": "Reported by Benzinga. MU, ZS, RDW, LUNR, AMD were among the stocks seen trending on Tuesday, May 26, 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9aa750c77354d06035476b1021d4de377cc56755451cb0319243ab96917bf927",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_AMD_20260526_news2": {
+      "id": "ev_AMD_20260526_news2",
+      "kind": "news",
+      "title": "OneQode Deal Highlights AMD AI Expansion Beyond Hyperscaler Data Centers",
+      "detail": "Reported by Yahoo. OneQode has partnered with Advanced Micro Devices (NasdaqGS:AMD) to deploy AMD Instinct GPUs and Helios rack-scale solutions. The rollout targets global AI infrastructure needs, with a focus on high-performance compute, low latency, and sovereignty-focused workloads. This agreement extends AMD's AI data center reach beyond traditional hyperscaler customers into new regions and use cases. For investors tracking NasdaqGS:AMD, this partnership comes at a time when the stock is trading at...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8309d031ded3d820121afd1f168022be3db5be568feec8a883654bf4e8afd79f",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_AMD_20260526_news3": {
+      "id": "ev_AMD_20260526_news3",
+      "kind": "news",
+      "title": "Wall Street Is Only Just Beginning to Recognize Advanced Micro Devices\u2019 Agentic AI Upside Potential",
+      "detail": "Reported by Yahoo. While Nvidia CEO Jensen Huang enjoyed street food in China, AMD CEO Lisa Su was talking to stakeholders.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=80fcba0a77a9e107ee42385e0fa6a4cfd2abd4b9c1b27e2f2145a3d32a431c92",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_AMD_20260526_news4": {
+      "id": "ev_AMD_20260526_news4",
+      "kind": "news",
+      "title": "Nvidia has a $200 Billion Warning for AMD and Intel Stock Investors",
+      "detail": "Reported by Yahoo. Nvidia is poised to make a big dent in a fast-growing market that's currently dominated by AMD and Intel.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1b69fa90e460dbd254f4dc59b02bcce3d6813f2675522654ba142caf8ebe6b2f",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_AMD_20260526_news5": {
+      "id": "ev_AMD_20260526_news5",
+      "kind": "news",
+      "title": "AMD Stock Soars to Record High as Next-Gen AI Chip Enters Production",
+      "detail": "Reported by Yahoo. AMD Hits Fresh High After Lisa Su Signals New AI Growth Wave",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8c2599b2aa13493e0decf16c3d40e65e324c7f671b45a6fb96e33f4271b82142",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_AMD_20260526_news6": {
+      "id": "ev_AMD_20260526_news6",
+      "kind": "news",
+      "title": "Intel, AMD, and Other Momentum Stocks Look Unstoppable. Look Again.",
+      "detail": "Reported by Yahoo. A well-known momentum ETF is up 21% this year. But the smart investor knows every party eventually ends. Now isn\u2019t the time to buy.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9173e2a92a9680a137aadc58a372115d287adc688e5da86a7ebff8a7c08f7c84",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
+    },
+    "ev_AMD_20260526_news7": {
+      "id": "ev_AMD_20260526_news7",
+      "kind": "news",
+      "title": "OneQode to Deploy AMD Instinct GPUs and Plans for AMD Helios Rack-Scale Solution for Global AI Infrastructure",
+      "detail": "Reported by Yahoo. OneQode, a global provider of mission-critical digital infrastructure, today announced a collaboration with AMD to deploy AMD Instinct\u2122 GPUs, as well as announcing plans to deploy AMD Helios rack-scale solution as the platform foundation for OneQode's global AI infrastructure rollout.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bce16885d75c80a5b0cdcf0a09332b1675af8c4666be388bd6bf13e9b3030939",
+      "occurred_on": "2026-05-26",
+      "numbers": {}
     },
     "ev_AMD_20260728_price": {
       "id": "ev_AMD_20260728_price",
@@ -2451,6 +3101,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_AMD_20260728_news0": {
+      "id": "ev_AMD_20260728_news0",
+      "kind": "news",
+      "title": "Advanced Micro Devices vs. Arista Networks: Which Tech Stock Is a Better Buy in 2026?",
+      "detail": "Reported by Yahoo. AMD trades at a steeper valuation despite slower profit margins, while Arista's high customer concentration adds risk to its premium profitability.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=db78461206110b51a7b2c5018114bde5aacf54eff3cd68d9f031e8e17018a1a7",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_AMD_20260728_news1": {
+      "id": "ev_AMD_20260728_news1",
+      "kind": "news",
+      "title": "Core Scientific inks $14B deal with AMD, undisclosed neocloud",
+      "detail": "Reported by Yahoo. Core Scientific announced an AI colocation deal with AMD and an undisclosed neocloud, a 15-year agreement for 377MW for AMD plus 152MW for the neocloud for 530MW total, worth over\u2026",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6157e2f19e1d82af39355d0dbdda8ea2c15718fe5ebdeb793fcfc8873aefbf79",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_AMD_20260728_news2": {
+      "id": "ev_AMD_20260728_news2",
+      "kind": "news",
+      "title": "AMD's Core Scientific Deal Hints at AI's Next Race",
+      "detail": "Reported by Yahoo. Chipmaker secures power for Instinct GPUs as CORZ jumps 11%",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b399fa7fb4acc337ad274cf4a00cf426b6ebd5822910ca0a79bdf5f29ae38466",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_AMD_20260728_news3": {
+      "id": "ev_AMD_20260728_news3",
+      "kind": "news",
+      "title": "Core Scientific (CORZ) Is Down 7.4% After Massive Q2 Loss And AMD AI Deal - Has The Bull Case Changed?",
+      "detail": "Reported by Yahoo. In the second quarter of 2026, Core Scientific reported revenue of US$164.2 million versus US$78.63 million a year earlier, alongside a net loss of US$1.16 billion and a basic loss per share from continuing operations of US$3.32. On the same day, Core Scientific and Advanced Micro Devices announced a long-term AI infrastructure partnership that could scale up to 2.50 gigawatts of capacity, including more than 500 megawatts of U.S. infrastructure beginning in 2027 and market-priced warrants...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0622d2f1be674cec4989aa8dd306f0393c8d7739d74959f4180d3d4023f654b9",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_AMD_20260728_news4": {
+      "id": "ev_AMD_20260728_news4",
+      "kind": "news",
+      "title": "Top Analyst Reports for Alphabet, AMD & RTX",
+      "detail": "Reported by Yahoo. Alphabet's AI-driven growth across Search, Cloud and Gemini is gaining traction, but can it offset rising spending, legal risks and ad market exposure?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e379c1109c3fab0351eeb97efd084c92d0b9fd27fdc3ae49c8161e5e4cdc40fe",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_AMD_20260728_news5": {
+      "id": "ev_AMD_20260728_news5",
+      "kind": "news",
+      "title": "AI Chip Stocks Tumble as Nvidia, AMD Lead Market Selloff Over Spending Fears",
+      "detail": "Reported by Yahoo. AI Chip Stocks Under Pressure as China Competition and Funding Fears Hit Sector",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c70ae72f7f512ad8738cb2a3e40874f1e89ba2269c9f3a12af4f9266dfa6928e",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_AMD_20260728_news6": {
+      "id": "ev_AMD_20260728_news6",
+      "kind": "news",
+      "title": "What's Going On With AMD Stock Tuesday",
+      "detail": "Reported by Yahoo. AMD Partners With Core Scientific on Huge AI Data Center Push",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9d25f754697d4dc72fefec717fab9311985575fe9bd115867e396d7dda8d15d2",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
+    "ev_AMD_20260728_news7": {
+      "id": "ev_AMD_20260728_news7",
+      "kind": "news",
+      "title": "AMD Stock Falls 4% Despite 2.5-Gigawatt AI Data-Center Deal",
+      "detail": "Reported by Yahoo. Core Scientific will initially provide more than 500 megawatts of AI-ready capacity beginning in 2027.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b126ae762e7648826d66918e3a7aa8af0360a831d22a62a2a2087987c02a9e76",
+      "occurred_on": "2026-07-28",
+      "numbers": {}
+    },
     "ev_AMD_20260730_price": {
       "id": "ev_AMD_20260730_price",
       "kind": "price",
@@ -2551,6 +3281,86 @@
         "subject_pct_change": 12.997,
         "relationship": "supplier"
       }
+    },
+    "ev_AMD_20260730_news0": {
+      "id": "ev_AMD_20260730_news0",
+      "kind": "news",
+      "title": "Is AMD Stock Heading to $600 per Share?",
+      "detail": "Reported by Yahoo. AMD nearly breached this level a few weeks ago, but has sold off.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bd1bb81fae300b56bb8cdea33d8874aac4157e94630498cd378cf7dc1b3e1657",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMD_20260730_news1": {
+      "id": "ev_AMD_20260730_news1",
+      "kind": "news",
+      "title": "The Growth That Has To Land For Advanced Micro Devices Stock to Make Sense",
+      "detail": "Reported by Yahoo. The sticker shock on AMD\u2019s valuation fades once you look two years out, but the discount hinges on an aggressive growth story that deserves a closer look.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3dd50fbaf09869c639cde3a89d4be447461cd9eaa2092ab633d7ca086e21b54f",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMD_20260730_news2": {
+      "id": "ev_AMD_20260730_news2",
+      "kind": "news",
+      "title": "AMD Stock Gets Powerful Vote of Confidence",
+      "detail": "Reported by Yahoo. Server chips could become an overlooked growth engine",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d3177bd34030f4ebb20529ce672e97d7fdcf2514ab59cb94adacddcab6d62701",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMD_20260730_news3": {
+      "id": "ev_AMD_20260730_news3",
+      "kind": "news",
+      "title": "AMD Gets a Fresh Boost From Wall Street",
+      "detail": "Reported by Yahoo. Susquehanna raised its price target on AMD.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5caf7160f4f51ab393ded38fe412da3ceb5c3f61ae9ba42bce331b124aae5a31",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMD_20260730_news4": {
+      "id": "ev_AMD_20260730_news4",
+      "kind": "news",
+      "title": "AMD Stock Has Surged 364% in 5 Years. History Suggests That It Will Become a Multibagger By 2030",
+      "detail": "Reported by Yahoo. The booming demand for server CPUs and AMD's solid market share suggest that this chip designer still has multibagger potential.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=9900edafc3b0137dffef90fc4f2a42a2afb753eb6f17fff10e790967a61ed7f4",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMD_20260730_news5": {
+      "id": "ev_AMD_20260730_news5",
+      "kind": "news",
+      "title": "AMD Stock Soars 12.7% as AI Rally Revives Data-Center Bets",
+      "detail": "Reported by Yahoo. AMD's 2.5-gigawatt infrastructure agreement could expand the capacity available to customers deploying its artificial-intelligence systems.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3f709ce6c8364baf5fd864666240bddeae56b160b620b01d41fc2f72b4764360",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMD_20260730_news6": {
+      "id": "ev_AMD_20260730_news6",
+      "kind": "news",
+      "title": "Landmark AI Power Agreement Sends Huge Signal for AMD Stock",
+      "detail": "Reported by Yahoo. AMD just locked up to 2.5 gigawatts of U.S. data center capacity through Core Scientific, a deal that could reshape its AI growth story.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1ec78f0a23ad70048509dfc73a4581c755b4998fb920d37834971da1d3058a5f",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
+    },
+    "ev_AMD_20260730_news7": {
+      "id": "ev_AMD_20260730_news7",
+      "kind": "news",
+      "title": "Susquehanna Just Upped Its Price Target on AMD Stock. Here's Why.",
+      "detail": "Reported by Yahoo. AMD shares rally on a bullish note from Susquehanna analysts. Here\u2019s why the firm recommends buying AMD stock ahead of its Q2 earnings.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f0c849c023ba77527e23f89dc61d8a204a52fdefbafdcc84439108d65d3bd440",
+      "occurred_on": "2026-07-30",
+      "numbers": {}
     },
     "ev_AMD_20260805_price": {
       "id": "ev_AMD_20260805_price",
@@ -2673,6 +3483,86 @@
       "occurred_on": "2026-08-04",
       "numbers": {}
     },
+    "ev_AMD_20260805_news0": {
+      "id": "ev_AMD_20260805_news0",
+      "kind": "news",
+      "title": "$10,000 in AMDL Became $40,270 in 7 Months, but AMD\u2019s Earnings Crash Erased $9,500 in One Day",
+      "detail": "Reported by Yahoo. A leveraged AMD fund turned a modest stake into a small fortune over seven months, then a single earnings report wiped out nearly a quarter of those gains in hours. Here is what the 302% run actually cost its holders.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c064f44246d3acdfeed3c76885a062eea47be0309f4cd2298d3f896cee6512e2",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_AMD_20260805_news1": {
+      "id": "ev_AMD_20260805_news1",
+      "kind": "news",
+      "title": "Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq",
+      "detail": "Reported by Yahoo. STORY: U.S. stocks ended mixed on Wednesday, with the Dow adding about half a percent to notch another record high close, the S&P 500 slipping marginally and the tech-heavy Nasdaq dropping more than eight-tenths of a percent.The Nasdaq saw its first decline in five sessions as AMD fell 7% and SpaceX stumbled nearly 14% following the release of its quarterly earnings.SpaceX shares could face additional pressure from the expiration of the stock's post-IPO lock-up period starting on Thursday, said Shana Orczyk Sissel, founder and CEO of Banr\u00edon Capital Management.\"There will likely be a lot of fo",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3315f6067862bdc039780a80c3eab122beb4e094712dde72113979fb1c20abbd",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_AMD_20260805_news2": {
+      "id": "ev_AMD_20260805_news2",
+      "kind": "news",
+      "title": "US Equity Markets Mixed as SpaceX, AMD Shares Drop; Iran Announces Hormuz Plan",
+      "detail": "Reported by Yahoo. US equity indexes were mixed Wednesday as SpaceX (SPCX) and Advanced Micro Devices (AMD) stocks decl",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d922e783faf4ac00caa01402e80b20b96555c5df641f6d584d67eb939115efba",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_AMD_20260805_news3": {
+      "id": "ev_AMD_20260805_news3",
+      "kind": "news",
+      "title": "AMD Stock Drops 6.9% Despite Record $11.5 Billion Revenue",
+      "detail": "Reported by Yahoo. Record Data Center sales and a $13 billion outlook failed to prevent a sharp post-earnings decline.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=448128b968ed780da930fbfc0053b03086e6704baff7900d10260b92cad510ae",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_AMD_20260805_news4": {
+      "id": "ev_AMD_20260805_news4",
+      "kind": "news",
+      "title": "SpaceX, Alphabet, Nvidia, Micron, AMD, Uber, CVS, Lilly, and More Stocks That Explain Today\u2019s Market",
+      "detail": "Reported by Yahoo. SpaceX stock sinks after earnings. AMD drops after Elon Musk says his AI and space company will exclusively use Nvidia chips.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=21fb8be31f4b117b356767c095e95409cad32b2d646651192a1c1ccf094f1c80",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_AMD_20260805_news5": {
+      "id": "ev_AMD_20260805_news5",
+      "kind": "news",
+      "title": "Wall Street Doubles Down on AMD After Selloff",
+      "detail": "Reported by Yahoo. Strong guidance still failed to clear investors' elevated bar",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1bbceef3f880c53fa629d0f9c77e9bfdf9393f8888a91c470553ac12a09c9e20",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_AMD_20260805_news6": {
+      "id": "ev_AMD_20260805_news6",
+      "kind": "news",
+      "title": "DA Davidson Maintains Buy on Advanced Micro Devices, Raises Price Target to $550",
+      "detail": "Reported by Benzinga. DA Davidson  analyst Gil Luria   maintains Advanced Micro Devices (NASDAQ:AMD) with a Buy and raises the price target from $425 to $550.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=98fef1070e0826c521e37ca1bc977e59aedaccd0ea52a79f60802d36eaee6cec",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
+    "ev_AMD_20260805_news7": {
+      "id": "ev_AMD_20260805_news7",
+      "kind": "news",
+      "title": "AMD Q2 Earnings Beat Estimates, Strong Data Center Aids Revenue Growth",
+      "detail": "Reported by Yahoo. AMD's Q2 earnings beat estimates as Data Center sales more than double, margins widen and Helios AI demand tracks ahead of forecasts.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=11b00aabc8ce257f582a95a5ffb21f70c89e4b5b3b7a6b3f78ad396b29f1a0e1",
+      "occurred_on": "2026-08-05",
+      "numbers": {}
+    },
     "ev_AMD_20260921_price": {
       "id": "ev_AMD_20260921_price",
       "kind": "price",
@@ -2777,16 +3667,6 @@
     "ev_AMD_20260921_news0": {
       "id": "ev_AMD_20260921_news0",
       "kind": "news",
-      "title": "Trump, Xi Meet on S&P 500's Best Day Since Early August: Will Markets Stay Bullish?",
-      "detail": "Reported by Yahoo. Trump and Xi meet in Washington as the S&P 500 posts its best day since Aug. 4, driven by a rally in AI stocks.",
-      "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=6965103b0fad8640ba1f5676336f1fb3908796c357668417d195d3cb9c56d230",
-      "occurred_on": "2026-09-21",
-      "numbers": {}
-    },
-    "ev_AMD_20260921_news1": {
-      "id": "ev_AMD_20260921_news1",
-      "kind": "news",
       "title": "Advanced Micro Devices (AMD) Is Up 24.7% After Expanding Its Role In Regulated AI Infrastructure \u2013 Has The Bull Case Changed?",
       "detail": "Reported by Yahoo. Advanced Micro Devices has recently been at the center of a series of AI-focused developments, from powering MindWalk\u2019s OpenFold3 life-sciences workloads on Instinct MI325X GPUs to expanding ecosystem collaborations across edge AI, quantum-classical integration, and agentic AI security and infrastructure. Together, these partnerships and deployments highlight AMD\u2019s role not just as a chip supplier but as a foundational compute layer for regulated, production-grade AI systems spanning data...",
       "source": "Yahoo (via Finnhub company news)",
@@ -2794,8 +3674,8 @@
       "occurred_on": "2026-09-21",
       "numbers": {}
     },
-    "ev_AMD_20260921_news2": {
-      "id": "ev_AMD_20260921_news2",
+    "ev_AMD_20260921_news1": {
+      "id": "ev_AMD_20260921_news1",
       "kind": "news",
       "title": "Nasdaq Ends Nearly 3% Higher As AI Stocks Pop, AMD Enters $1 Trillion Club \u2014  AMD, ARM, META, AMZN, PSKY In Focus",
       "detail": "Reported by Yahoo. Advanced Micro Devices added about 10% and hit $1 trillion in market cap.",
@@ -2804,8 +3684,8 @@
       "occurred_on": "2026-09-21",
       "numbers": {}
     },
-    "ev_AMD_20260921_news3": {
-      "id": "ev_AMD_20260921_news3",
+    "ev_AMD_20260921_news2": {
+      "id": "ev_AMD_20260921_news2",
       "kind": "news",
       "title": "Meta Platforms, Greenland Mines, Intel, AMD and GameStop: Why These 5 Stocks Are on Investors' Radars Today",
       "detail": "Reported by Benzinga. META, GRML, INTC, AMD, GME were among the stocks seen trending on Monday, Sept. 21, 2026.",
@@ -2814,18 +3694,8 @@
       "occurred_on": "2026-09-21",
       "numbers": {}
     },
-    "ev_AMD_20260921_news4": {
-      "id": "ev_AMD_20260921_news4",
-      "kind": "news",
-      "title": "Stock Market Today, Sept. 21: Tech Strength Powers Nasdaq to Record Close",
-      "detail": "Reported by Yahoo. Today, Sept. 21, 2026, semiconductor stocks surged on AI demand while Bitcoin topped $87,000, offsetting energy sector weakness.",
-      "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=e47cb55db2b013246600f93235e702c47c4e8a8cf765e371861befd71a1cd2f7",
-      "occurred_on": "2026-09-21",
-      "numbers": {}
-    },
-    "ev_AMD_20260921_news5": {
-      "id": "ev_AMD_20260921_news5",
+    "ev_AMD_20260921_news3": {
+      "id": "ev_AMD_20260921_news3",
       "kind": "news",
       "title": "Dow Jones Futures: Falling Oil Prices, Yields Spark Market Rally; AMD, Intel, Micron, Nvidia, Sandisk Are Key Movers",
       "detail": "Reported by Yahoo. Dow Jones Futures: Falling oil prices and yields sparked a stock market rally. AMD, Intel, Micron, Nvidia and Sandisk are key movers.",
@@ -2834,23 +3704,43 @@
       "occurred_on": "2026-09-21",
       "numbers": {}
     },
+    "ev_AMD_20260921_news4": {
+      "id": "ev_AMD_20260921_news4",
+      "kind": "news",
+      "title": "AMD Stock Alert: Advanced Micro Devices Joins the Trillion-Dollar Club",
+      "detail": "Reported by Yahoo. AMD\u2019s market cap exceeded $1 trillion for the first time on Monday. Options sentiment suggests AMD shares could rip further up from here through the remainder of 2026.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ab9585020a69d087d3b15b37498f89cd2d8c0a7b8495df3d2acb00a1ee0b070d",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
+    "ev_AMD_20260921_news5": {
+      "id": "ev_AMD_20260921_news5",
+      "kind": "news",
+      "title": "Meta\u2019s Muse AI Agent Triggers Intel, Chip Stock Rally. AMD Hits $1T Market Cap.",
+      "detail": "Reported by Yahoo. Intel,  Advanced Micro Devices  and  Arm Holdings  soared Monday as investors got excited about the potential growth of central-processing units.  The trigger looks to be the popularity of  Meta Platforms\u2019  Muse artificial-intelligence agent.  The rally pushed AMD to close with a market valuation above $1 trillion, making it the 14th U.S. company to reach that mark.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5b4e970cb47f994900a34f398272a08e66a4fad243837548ff09fcc191d531f4",
+      "occurred_on": "2026-09-21",
+      "numbers": {}
+    },
     "ev_AMD_20260921_news6": {
       "id": "ev_AMD_20260921_news6",
       "kind": "news",
-      "title": "Update: Communication Services, Tech Heavyweights Push US Equity Indexes Higher as Crude Oil Slides With Treasury Yields",
-      "detail": "Reported by Yahoo. (Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
+      "title": "AMD Joins the $1 Trillion Market Cap Club",
+      "detail": "Reported by Yahoo. Advanced Micro Devices joined the trillion-dollar club Monday as its stock soared.",
       "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=8c9d7afe8453a5109358537a6d992fe1cc1160596d21bd8c4ceeec4c4616f090",
+      "url": "https://finnhub.io/api/news?id=c76b6cc7791416783613b6af01332f551364ab823f25a900cfc526959b4145d2",
       "occurred_on": "2026-09-21",
       "numbers": {}
     },
     "ev_AMD_20260921_news7": {
       "id": "ev_AMD_20260921_news7",
       "kind": "news",
-      "title": "AMD Stock Alert: Advanced Micro Devices Joins the Trillion-Dollar Club",
-      "detail": "Reported by Yahoo. AMD\u2019s market cap exceeded $1 trillion for the first time on Monday. Options sentiment suggests AMD shares could rip further up from here through the remainder of 2026.",
+      "title": "AMD Storms Into $1 Trillion Club as Chip Stocks Charge Higher",
+      "detail": "Reported by Yahoo. Historic Day for AMD as Stock Surge Pushes Valuation Above $1 Trillion",
       "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=ab9585020a69d087d3b15b37498f89cd2d8c0a7b8495df3d2acb00a1ee0b070d",
+      "url": "https://finnhub.io/api/news?id=01a31ed77f910d06c6288b19ecfe240b997bc7e7ca18b7e4b70889e915cdb7b7",
       "occurred_on": "2026-09-21",
       "numbers": {}
     },
@@ -2960,19 +3850,13 @@
       }
     }
   },
-  "arc": "Between late March and late September 2026, AMD staged an aggressive expansion, advancing from $205.37 to $615.52. The trajectory was punctuated by large single-day upward moves, including an 18.61% leap in May following Form 10-Q and 8-K filings, and culminations in September where AI infrastructure demand and Instinct MI325X deployments helped propel the company to a $1 trillion market cap. While AMD faced intermittent pullbacks, including a 7.04% decline after an August quarterly filing and an 8.15% drop in late July, many of its largest gains occurred alongside sharp parallel moves in key competitors like Intel and Qualcomm as well as supplier TSMC, indicating that broader semiconductor waves reinforced company-specific product milestones.",
+  "arc": "Between March and September 2026, AMD engineered a sustained ascent from $205.37 to $615.52, culminating in its entry into the $1 trillion market capitalization club. The central driver across the period was a structural surge in data center CPU and accelerator demand tied to agentic AI workloads, which enabled double-digit CPU price increases and drove a 57% surge in Q1 data center revenue alongside a record $11.5 billion top line in Q2. Significant multi-gigawatt infrastructure and hardware deployments\u2014such as agreements with Rackspace, OneQode, and Core Scientific\u2014solidified commercial adoption of AMD's Instinct GPUs and Helios platforms. Although the stock encountered intermittent setbacks from elevated earnings expectations and institutional profit-taking, the broader trajectory was defined by repeated upward price target revisions and industry-wide demand surges that AMD shared with key peers like Intel.",
   "arc_citation_ids": [
-    "ev_AMD_20260325_price",
-    "ev_AMD_20260506_price",
-    "ev_AMD_20260506_filing_000000248826000076",
-    "ev_AMD_20260728_price",
-    "ev_AMD_20260805_price",
-    "ev_AMD_20260805_filing_000000248826000123",
-    "ev_AMD_20260921_price",
-    "ev_AMD_20260921_news1",
-    "ev_AMD_20260921_news2",
-    "ev_AMD_20260921_news7",
-    "ev_AMD_20260921_peer_INTC"
+    "ev_AMD_20260325_news3",
+    "ev_AMD_20260506_news0",
+    "ev_AMD_20260728_news1",
+    "ev_AMD_20260805_news3",
+    "ev_AMD_20260921_news5"
   ],
   "warnings": []
 }

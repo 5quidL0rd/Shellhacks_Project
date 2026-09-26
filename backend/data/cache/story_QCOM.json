@@ -1,7 +1,7 @@
 {
   "symbol": "QCOM",
   "company_name": "QUALCOMM Incorporated",
-  "generated_at": "2026-09-26T12:32:00.328160+00:00",
+  "generated_at": "2026-09-26T12:50:31.885893+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,15 +1320,16 @@
       "pct_change": 15.115,
       "close": 179.58,
       "direction": "up",
-      "headline": "QCOM surges 15.1% after Q2 10-Q and 8-K filings",
-      "explanation": "Qualcomm shares jumped 15.12% to $179.58 on trading volume 4.7 times its 30-day average following the release of its quarterly 10-Q and 8-K filings the prior evening. The gain was largely company-specific, far outpacing supplier TSM (+0.57%) and customer AAPL (+0.44%), while competitors traded mixed.",
+      "headline": "Q2 Earnings Beat and Hyperscaler AI Silicon Win",
+      "explanation": "Qualcomm surged 15.12% to $179.58 on 4.7 times its average volume after posting earnings that beat analyst expectations and confirming a major hyperscaler win for custom data center silicon. The advance was company-specific, as competitor NVDA dropped 4.63% and customer AAPL rose just 0.44%, although competitor AMD gained 5.16%.",
       "confidence": "high",
       "citation_ids": [
         "ev_QCOM_20260430_price",
-        "ev_QCOM_20260430_filing_000080432826000060",
-        "ev_QCOM_20260430_filing_000080432826000061",
+        "ev_QCOM_20260430_news0",
+        "ev_QCOM_20260430_news1",
         "ev_QCOM_20260430_peer_AAPL",
-        "ev_QCOM_20260430_peer_TSM"
+        "ev_QCOM_20260430_peer_AMD",
+        "ev_QCOM_20260430_peer_NVDA"
       ]
     },
     {
@@ -1336,13 +1337,15 @@
       "pct_change": 10.791,
       "close": 186.55,
       "direction": "up",
-      "headline": "QCOM advances 10.8% alongside competitor rally",
-      "explanation": "Qualcomm rose 10.79% to close at $186.55 on 2.6 times average volume without company-specific news. The advance was shared with several competitors, notably INTC, which rallied 12.91%, and AMD, which gained 4.02%.",
-      "confidence": "low",
+      "headline": "Hyperscaler AI Win and $20B Buyback Spur Rally",
+      "explanation": "The stock rallied 10.79% to $186.55 following detailed focus on its $20 billion share repurchase authorization and custom AI infrastructure push. The gain was partly shared across the chip space, with competitor INTC jumping 12.91%, while supplier TSM declined 1.79%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_QCOM_20260505_price",
+        "ev_QCOM_20260505_news0",
+        "ev_QCOM_20260505_news3",
         "ev_QCOM_20260505_peer_INTC",
-        "ev_QCOM_20260505_peer_AMD"
+        "ev_QCOM_20260505_peer_TSM"
       ]
     },
     {
@@ -1350,13 +1353,15 @@
       "pct_change": 5.183,
       "close": 202.55,
       "direction": "up",
-      "headline": "QCOM gains 5.2% in company-specific advance",
-      "explanation": "Qualcomm climbed 5.18% to $202.55 on 3.9 times average volume despite the absence of company-specific headlines. The move was company-specific, as competitors AMD (-3.07%), AVGO (-3.03%), and INTC (-3.00%) all declined.",
-      "confidence": "low",
+      "headline": "Shares Reach 52-Week High on Buyback and Auto AI",
+      "explanation": "Qualcomm rose 5.18% to $202.55, establishing a fresh 52-week high as investors rewarded its capital return program and expanding AI partnerships outside handsets. The move was company-specific, as competitors AMD and INTC each dropped over 3.00% while customer AAPL was essentially flat at -0.02%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_QCOM_20260507_price",
+        "ev_QCOM_20260507_news0",
+        "ev_QCOM_20260507_news3",
+        "ev_QCOM_20260507_peer_AAPL",
         "ev_QCOM_20260507_peer_AMD",
-        "ev_QCOM_20260507_peer_AVGO",
         "ev_QCOM_20260507_peer_INTC"
       ]
     },
@@ -1365,13 +1370,15 @@
       "pct_change": 8.417,
       "close": 237.53,
       "direction": "up",
-      "headline": "QCOM climbs 8.4% to $237.53 on heavy volume",
-      "explanation": "Qualcomm advanced 8.42% to close at $237.53 on volume 3.5 times the 30-day average. No company-specific filings or news accompanied the move, though competitor INTC gained 3.62% while customer AAPL edged down 0.22%.",
-      "confidence": "low",
+      "headline": "Stock Reaches Record High on AI Chip Demand",
+      "explanation": "Qualcomm climbed 8.42% to close at a record $237.53 amid sustained momentum for AI and data-center chips, bolstered by a broker upgrade from Daiwa to Outperform with a $225 price target. The move outpaced the broader group, with customer AAPL down 0.22% and supplier TSM down 1.73%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_QCOM_20260511_price",
+        "ev_QCOM_20260511_news1",
+        "ev_QCOM_20260511_news7",
         "ev_QCOM_20260511_peer_AAPL",
-        "ev_QCOM_20260511_peer_INTC"
+        "ev_QCOM_20260511_peer_TSM"
       ]
     },
     {
@@ -1379,14 +1386,16 @@
       "pct_change": -11.46,
       "close": 210.31,
       "direction": "down",
-      "headline": "QCOM drops 11.5% as peer semiconductors retreat",
-      "explanation": "Qualcomm fell 11.46% to $210.31 on volume 3.0 times its 30-day average. The pullback was shared across several competitors, including INTC (-6.82%), CRUS (-4.45%), and AMD (-2.29%), in the absence of Qualcomm-specific news.",
-      "confidence": "low",
+      "headline": "Profit-Taking Triggers 11.46% Pullback from Highs",
+      "explanation": "Shares retreated 11.46% to $210.31 as profit-taking hit the semiconductor group following an overbought technical condition and circulating critical analyst commentary. Weakness was shared with competitors INTC, down 6.82%, and CRUS, down 4.45%, while customer AAPL rose 0.72%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_QCOM_20260512_price",
-        "ev_QCOM_20260512_peer_INTC",
+        "ev_QCOM_20260512_news4",
+        "ev_QCOM_20260512_news6",
+        "ev_QCOM_20260512_peer_AAPL",
         "ev_QCOM_20260512_peer_CRUS",
-        "ev_QCOM_20260512_peer_AMD"
+        "ev_QCOM_20260512_peer_INTC"
       ]
     },
     {
@@ -1394,14 +1403,15 @@
       "pct_change": -6.141,
       "close": 200.08,
       "direction": "down",
-      "headline": "QCOM drops 6.1% against broader semiconductor gains",
-      "explanation": "Qualcomm shares fell 6.14% to $200.08 on volume 1.9 times normal without company-specific news. The drop was company-specific, as supplier TSM rose 4.48% and competitors AVGO and NVDA advanced 5.52% and 4.39%, respectively.",
-      "confidence": "low",
+      "headline": "Shares Slide 6.14% Amid Inflation and Chip Selloff",
+      "explanation": "Qualcomm declined 6.14% to $200.08 as reports highlighted macro inflation concerns and sector volatility weighing on the chip group. The decline was company-specific relative to supplier TSM and competitor AVGO, which rose 4.48% and 5.52% respectively, though competitor INTC also declined 3.62%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_QCOM_20260514_price",
-        "ev_QCOM_20260514_peer_TSM",
+        "ev_QCOM_20260514_news4",
         "ev_QCOM_20260514_peer_AVGO",
-        "ev_QCOM_20260514_peer_NVDA"
+        "ev_QCOM_20260514_peer_INTC",
+        "ev_QCOM_20260514_peer_TSM"
       ]
     },
     {
@@ -1409,14 +1419,15 @@
       "pct_change": 5.382,
       "close": 213.41,
       "direction": "up",
-      "headline": "QCOM rises 5.4% to $213.41 on elevated volume",
-      "explanation": "Qualcomm gained 5.38% to finish at $213.41 on 2.2 times average volume without company news. Competitors were largely muted or lower, including INTC (-0.39%) and NVDA (-1.77%), while customer AAPL moved up 0.91%.",
-      "confidence": "low",
+      "headline": "Stellantis Auto Partnership Expansion Drives 5.38% Rise",
+      "explanation": "Qualcomm advanced 5.38% to $213.41 after announcing an expanded multi-year agreement with automaker Stellantis to deploy Snapdragon Digital Chassis across upcoming vehicle architectures. The advance was company-specific, as competitor NVDA fell 1.77% and competitor AVGO dropped 0.76%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_QCOM_20260521_price",
-        "ev_QCOM_20260521_peer_AAPL",
-        "ev_QCOM_20260521_peer_NVDA",
-        "ev_QCOM_20260521_peer_INTC"
+        "ev_QCOM_20260521_news2",
+        "ev_QCOM_20260521_news5",
+        "ev_QCOM_20260521_peer_AVGO",
+        "ev_QCOM_20260521_peer_NVDA"
       ]
     },
     {
@@ -1424,13 +1435,14 @@
       "pct_change": 11.597,
       "close": 238.16,
       "direction": "up",
-      "headline": "QCOM jumps 11.6% to $238.16 as volume expands",
-      "explanation": "Qualcomm rose 11.60% to $238.16 with trading volume 2.3 times normal. While no direct news was reported, competitor AMD also gained 3.99% and competitor CRUS rose 2.73%, while supplier TSM slipped 0.65%.",
-      "confidence": "low",
+      "headline": "Stock Jumps 11.60% on Edge and Mobile AI Momentum",
+      "explanation": "Qualcomm surged 11.60% to $238.16 as investors focused on mobile and edge devices as major upcoming beneficiaries of generative AI adoption. The sharp rise outpaced connected peers, diverging from competitor NVDA, which fell 1.90%, and supplier TSM, which fell 0.65%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_QCOM_20260522_price",
-        "ev_QCOM_20260522_peer_AMD",
-        "ev_QCOM_20260522_peer_CRUS",
+        "ev_QCOM_20260522_news0",
+        "ev_QCOM_20260522_news1",
+        "ev_QCOM_20260522_peer_NVDA",
         "ev_QCOM_20260522_peer_TSM"
       ]
     },
@@ -1439,14 +1451,15 @@
       "pct_change": -8.776,
       "close": 228.99,
       "direction": "down",
-      "headline": "QCOM falls 8.8% to $228.99 on 1.6x volume",
-      "explanation": "Qualcomm declined 8.78% to $228.99 without company-specific disclosures. The retreat was shared with competitor INTC (-4.67%) and customer AAPL (-1.84%), even as supplier TSM rose 4.11% and competitor NVDA climbed 6.26%.",
-      "confidence": "low",
+      "headline": "Nvidia Computex PC Chip Launch Sparks 8.78% Drop",
+      "explanation": "Qualcomm fell 8.78% to $228.99 after competitor NVDA unveiled its RTX Spark superchip at Computex, stoking competitive worries in the AI personal computer market. Weakness was shared with other PC chip competitors, including INTC (-4.67%) and AMD (-1.16%), while NVDA climbed 6.26%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_QCOM_20260601_price",
+        "ev_QCOM_20260601_news2",
+        "ev_QCOM_20260601_news3",
+        "ev_QCOM_20260601_peer_AMD",
         "ev_QCOM_20260601_peer_INTC",
-        "ev_QCOM_20260601_peer_AAPL",
-        "ev_QCOM_20260601_peer_TSM",
         "ev_QCOM_20260601_peer_NVDA"
       ]
     },
@@ -1455,14 +1468,15 @@
       "pct_change": 3.794,
       "close": 204.9,
       "direction": "up",
-      "headline": "QCOM gains 3.8% following Form 8-K filing",
-      "explanation": "Qualcomm rose 3.79% to $204.90 on 2.7 times normal volume after filing a Form 8-K the prior day. The gain occurred as competitor AMD added 2.47%, while customer AAPL dropped 6.12%.",
-      "confidence": "medium",
+      "headline": "Investor Day Targets Data Center AI Revenue",
+      "explanation": "Qualcomm rose 3.79% to $204.90 following its 2026 Investor Day, where management presented long-term roadmap targets including a $15 billion data center AI revenue goal and customer relationships with Microsoft and Meta. The move was company-specific, as customer AAPL slumped 6.12% and competitor NVDA dropped 1.64%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_QCOM_20260625_price",
-        "ev_QCOM_20260625_filing_000110465926077071",
+        "ev_QCOM_20260625_news0",
+        "ev_QCOM_20260625_news2",
         "ev_QCOM_20260625_peer_AAPL",
-        "ev_QCOM_20260625_peer_AMD"
+        "ev_QCOM_20260625_peer_NVDA"
       ]
     },
     {
@@ -1470,15 +1484,15 @@
       "pct_change": -7.57,
       "close": 189.39,
       "direction": "down",
-      "headline": "QCOM slides 7.6% alongside broader peer weakness",
-      "explanation": "Qualcomm lost 7.57% to close at $189.39 on 2.9 times average volume. The decline was shared across competitors CRUS (-4.86%), AVGO (-3.67%), and INTC (-3.42%), even as customer AAPL gained 3.14%.",
-      "confidence": "low",
+      "headline": "Skepticism Over AI Sales Targets Spurs 7.57% Fall",
+      "explanation": "The stock dropped 7.57% to $189.39 as market commentary questioned the feasibility of the newly announced $15 billion AI chip revenue goal by fiscal 2029. Competitors CRUS (-4.86%) and AVGO (-3.67%) also dropped, though customer AAPL moved in the opposite direction, gaining 3.14%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_QCOM_20260626_price",
-        "ev_QCOM_20260626_peer_CRUS",
+        "ev_QCOM_20260626_news2",
+        "ev_QCOM_20260626_peer_AAPL",
         "ev_QCOM_20260626_peer_AVGO",
-        "ev_QCOM_20260626_peer_INTC",
-        "ev_QCOM_20260626_peer_AAPL"
+        "ev_QCOM_20260626_peer_CRUS"
       ]
     },
     {
@@ -1486,16 +1500,16 @@
       "pct_change": -5.824,
       "close": 177.72,
       "direction": "down",
-      "headline": "QCOM slides 5.8% on Apple iPhone share loss reports",
-      "explanation": "Qualcomm fell 5.82% to $177.72 on 4.2 times average volume following reports that its component share in customer Apple's recent iPhone launch would fall materially below its previous 20% estimate. The selloff was company-specific, as supplier TSM rose 1.02% and competitors AMD and AVGO climbed 2.70% and 2.97%, respectively.",
+      "headline": "iPhone Share Reduction Concerns Drive 5.82% Slide",
+      "explanation": "Qualcomm slid 5.82% to $177.72 as market attention zeroed in on disclosures that Qualcomm's component share in the latest iPhone cycle would fall materially below prior 20% projections. The decline was company-specific, as competitor AMD rose 2.70%, competitor AVGO climbed 2.97%, and supplier TSM gained 1.02%.",
       "confidence": "high",
       "citation_ids": [
         "ev_QCOM_20260918_price",
+        "ev_QCOM_20260918_news0",
         "ev_QCOM_20260918_news1",
-        "ev_QCOM_20260918_news3",
-        "ev_QCOM_20260918_peer_TSM",
         "ev_QCOM_20260918_peer_AMD",
-        "ev_QCOM_20260918_peer_AVGO"
+        "ev_QCOM_20260918_peer_AVGO",
+        "ev_QCOM_20260918_peer_TSM"
       ]
     }
   ],
@@ -1635,6 +1649,86 @@
       "occurred_on": "2026-04-29",
       "numbers": {}
     },
+    "ev_QCOM_20260430_news0": {
+      "id": "ev_QCOM_20260430_news0",
+      "kind": "news",
+      "title": "As Qualcomm Surges on Data Center Demand, Should You Chase QCOM Stock Here?",
+      "detail": "Reported by Yahoo. Qualcomm stock is rallying as management confirms the company has secured a hyperscaler as a custom silicon client. But does that warrant buying QCOM shares despite muted Q1 earnings?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=68d671952d20794a189fbf01594b7687c9ab11a2214e2612ce4d56c6cc32705e",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_QCOM_20260430_news1": {
+      "id": "ev_QCOM_20260430_news1",
+      "kind": "news",
+      "title": "Qualcomm's 'data center win' with mystery hyperscaler: CFO explains",
+      "detail": "Reported by Yahoo. Qualcomm (QCOM) reported quarterly earnings results on Wednesday that beat Wall Street's expectations. Qualcomm CFO and COO Akash Palkhiwala joins Yahoo Finance to discuss Qualcomm's big data center announcement and what investors can expect moving forward.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a3d20bdcf7934957caf3be958e7702a283984578206cc3281bd9a4d40b3bb21f",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_QCOM_20260430_news2": {
+      "id": "ev_QCOM_20260430_news2",
+      "kind": "news",
+      "title": "Is Qualcomm Ready for Primetime? What the Technicals Say.",
+      "detail": "Reported by Yahoo. Qualcomm stock is gaining momentum after lagging the semiconductor sector, with technical signals pointing to a potential breakout.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=699a911117995447e2ab3227fbcaaa024d8bbf6c980d85a4969e661ee302d385",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_QCOM_20260430_news3": {
+      "id": "ev_QCOM_20260430_news3",
+      "kind": "news",
+      "title": "JP Morgan Maintains Neutral on Qualcomm, Raises Price Target to $160",
+      "detail": "Reported by Benzinga. JP Morgan  analyst Samik Chatterjee   maintains Qualcomm (NASDAQ:QCOM) with a Neutral and raises the price target from $140 to $160.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4539b9a56d3048d2b27f51802104ac9f927421d58dd4dac528a1359f5ae62e96",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_QCOM_20260430_news4": {
+      "id": "ev_QCOM_20260430_news4",
+      "kind": "news",
+      "title": "Qualcomm Stock Jumps. Data Center Push Offsets Soft Outlook",
+      "detail": "Reported by Yahoo. Qualcomm Soars on Breakthrough AI Push That Could Reshape Its Future",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=900c9503c3507f232b1b96694c7097add0c7ce37d5a0b4889cc9c60323e5933a",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_QCOM_20260430_news5": {
+      "id": "ev_QCOM_20260430_news5",
+      "kind": "news",
+      "title": "Qualcomm adds $15B in market value on bold outlook",
+      "detail": "Reported by Yahoo. Qualcomm Incorporated (QCOM) added roughly $15 billion in market value as investors embraced a story that reaches beyond any handset rebound. The stock jumped 12% on evidence that new growth drivers are moving into measurable execution. The stock still trades with heavy exposure to smartphone ...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=de4d38b3b76393aee1ac7ca4b1d772b21edc739a6c6953b0b91408197b8957d3",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_QCOM_20260430_news6": {
+      "id": "ev_QCOM_20260430_news6",
+      "kind": "news",
+      "title": "UBS Maintains Neutral on Qualcomm, Raises Price Target to $170",
+      "detail": "Reported by Benzinga. UBS  analyst Timothy Arcuri   maintains Qualcomm (NASDAQ:QCOM) with a Neutral and raises the price target from $150 to $170.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1ec53942e6edb6c419eb59021c6c3b9cd69b7b8ba87268b1f094e00d1edc97d2",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
+    "ev_QCOM_20260430_news7": {
+      "id": "ev_QCOM_20260430_news7",
+      "kind": "news",
+      "title": "Wall Street Lifts Qualcomm Price Target to $160 on AI Ramp: Is the Hyperscaler Catalyst Real?",
+      "detail": "Reported by Yahoo. Three Wall Street firms lifted their price targets on Qualcomm (NASDAQ:QCOM) stock to $160 on Thursday, April 30, following the chipmaker\u2019s fiscal second quarter (Q2 FY2026) report. Citi, JPMorgan, and Wells Fargo all raised their targets, yet each kept their ratings at Neutral or Equal Weight. The unanimous price target raise to $160 reflects optimism ... Wall Street Lifts Qualcomm Price Target to $160 on AI Ramp: Is the Hyperscaler Catalyst Real?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fde6842c9522abb55525f34c65394d5fe2084a6c66ba18f4e2050bc59a0730eb",
+      "occurred_on": "2026-04-30",
+      "numbers": {}
+    },
     "ev_QCOM_20260505_price": {
       "id": "ev_QCOM_20260505_price",
       "kind": "price",
@@ -1749,6 +1843,86 @@
         "subject_pct_change": 10.791,
         "relationship": "supplier"
       }
+    },
+    "ev_QCOM_20260505_news0": {
+      "id": "ev_QCOM_20260505_news0",
+      "kind": "news",
+      "title": "QUALCOMM (QCOM) Is Up 12.1% After Hyperscaler AI Win And $20 Billion Buyback Announcement - Has The Bull Case Changed?",
+      "detail": "Reported by Yahoo. In late April 2026, QUALCOMM reported Q2 results showing revenue of US$10,599 million versus US$10,979 million a year earlier, while net income rose to US$7.37 billion from US$2.81 billion and diluted EPS increased to US$6.88 from US$2.52, with automotive and IoT helping offset weaker handsets. Crucially, QUALCOMM\u2019s win of a major hyperscaler for custom data center AI silicon and a new US$20.00 billion buyback mark a meaningful shift in its business mix toward AI infrastructure and...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5ed54665a08a236863d0e62621a74a75800ce902724e27ec935b1a0b71fc60f6",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_QCOM_20260505_news1": {
+      "id": "ev_QCOM_20260505_news1",
+      "kind": "news",
+      "title": "Sanford Burnham Prebys Medical Discovery Institute receives $5 million from Qualcomm co-founder Andrew Viterbi to advance AI-powered research",
+      "detail": "Reported by Yahoo. Sanford Burnham Prebys Medical Discovery Institute today announced that Andrew Viterbi, a visionary communications pioneer and co-founder of Qualcomm Inc., has made a $5 million gift to endow the Andrew and Erna Viterbi Distinguished Chair in the Center for Data Science and Artificial Intelligence at Sanford Burnham Prebys.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4ef4ddb4afb99725e10b6f7fd275938b8ac88571ff6a21efb0e0d3f37ef3fe71",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_QCOM_20260505_news2": {
+      "id": "ev_QCOM_20260505_news2",
+      "kind": "news",
+      "title": "Cognex Launches Highest Performance Embedded AI Vision System Powered by Qualcomm",
+      "detail": "Reported by Yahoo. Cognex Corporation (NASDAQ: CGNX), the global technology leader in industrial machine vision, today announced the launch of the In-Sight\u00ae 3900 Vision System. Built on a new generation of Cognex embedded AI vision technology and powered by Qualcomm Dragonwing\u2122 platforms, the In-Sight 3900 is a fully integrated vision system that delivers industry-leading speed, accuracy, and resolution at the edge, enabling manufacturers to run demanding inspections without sacrificing throughput or simplicity.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=28d3ce0e02747758d0631ef0ddf111e7d85f8152a04ffd90159452454d465767",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_QCOM_20260505_news3": {
+      "id": "ev_QCOM_20260505_news3",
+      "kind": "news",
+      "title": "What's Going On With Qualcomm Stock Tuesday?",
+      "detail": "Reported by Benzinga. Qualcomm (QCOM) shares surge after Q2 earnings beat. CEO Amon signals AI-driven expansion into data centers and hyperscaler wins.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=537fa691843936684bc2e5976d3950bd33640264b6510f8cfb7aa6433321bcfd",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_QCOM_20260505_news4": {
+      "id": "ev_QCOM_20260505_news4",
+      "kind": "news",
+      "title": "Intel Names Qualcomm Veteran to Lead PC, Physical AI Unit",
+      "detail": "Reported by Yahoo. Alex Katouzian will oversee key client computing business",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=985bdc9b1427777cbaba7e109cd65a682e82b5f69a5329b9fdec36e0a433bcb9",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_QCOM_20260505_news5": {
+      "id": "ev_QCOM_20260505_news5",
+      "kind": "news",
+      "title": "Qualcomm: Sell Into The Hype",
+      "detail": "Reported by SeekingAlpha. Sell-rated Qualcomm (QCOM): Q2 FY26 revenue fell 3% YoY and guidance weak.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=36ab53b2d1e6a9e0e40db82159b07c017e0173c220fcc219dd2868fdf351393d",
+      "occurred_on": "2026-05-05",
+      "numbers": {}
+    },
+    "ev_QCOM_20260505_news6": {
+      "id": "ev_QCOM_20260505_news6",
+      "kind": "news",
+      "title": "Intel appoints Qualcomm executive to lead PC and physical AI business",
+      "detail": "Reported by Yahoo. Intel  said on Monday it had appointed Alex Katouzian to lead the company's \u200cPC and physical artificial intelligence unit.  The new role \u200cfor Katouzian includes the company's crucial PC business, which has \u200bbeen one of the mainstays of Intel's revenue and profit for decades.  Katouzian has worked at Qualcomm for more than 20 years and has worked extensively in the \u200ccompany's mobile chip \u2060unit, which makes processors for smartphones and other gadgets.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=18edcbd27bee3f7f17f74f82deb3d2bd523935363e659a20ccc5c5c5fc0230ff",
+      "occurred_on": "2026-05-04",
+      "numbers": {}
+    },
+    "ev_QCOM_20260505_news7": {
+      "id": "ev_QCOM_20260505_news7",
+      "kind": "news",
+      "title": "Qualcomm\u2019s AI Chips And Automotive Growth Reshape Its Investment Story",
+      "detail": "Reported by Yahoo. Qualcomm is starting shipments of custom AI silicon to a major hyperscaler data center customer, marking an entry into data center infrastructure. The company is also reporting record automotive revenues, highlighting progress in connected and assisted driving platforms. Management is emphasizing AI agents and custom silicon as shared threads across smartphones, data centers and vehicles. These developments point to NasdaqGS:QCOM extending its platform mix beyond its traditional focus on...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7048c20143bc03d0d3c6e5977632e40b0c601410afc3e040b6a6c025281cf1b6",
+      "occurred_on": "2026-05-04",
+      "numbers": {}
     },
     "ev_QCOM_20260507_price": {
       "id": "ev_QCOM_20260507_price",
@@ -1865,6 +2039,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_QCOM_20260507_news0": {
+      "id": "ev_QCOM_20260507_news0",
+      "kind": "news",
+      "title": "Qualcomm Climbs 8% as Buyback, Snap AR Partnership Power Pivot Beyond Smartphones",
+      "detail": "Reported by Yahoo. Shares of Qualcomm (NASDAQ:QCOM) gained 8% and hit $223 in midday trading on Thursday, May 7, before coughing up some of the day\u2019s gains. The move extends one of the sharpest re-rating runs in the chip group this spring. QCOM stock is now up 61% over the past month. The catalyst stack is unusually broad: ... Qualcomm Climbs 8% as Buyback, Snap AR Partnership Power Pivot Beyond Smartphones",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ef28a8923add0625b3524b1662b442f96092e8defba7ad2f89dd1368258075d9",
+      "occurred_on": "2026-05-07",
+      "numbers": {}
+    },
+    "ev_QCOM_20260507_news1": {
+      "id": "ev_QCOM_20260507_news1",
+      "kind": "news",
+      "title": "Qualcomm stock surges 15% on AI momentum trade",
+      "detail": "Reported by Yahoo. Investing.com -- Qualcomm (NASDAQ:QCOM) shares jumped 15% on Thursday morning as investors rushed to back the company as a top contender in the AI market. The stock cooled off a little later in the day, but was still up 9%.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bfd6903a6df0cade85a75fbe90a5e7edc826914a1699196a17aba92b352360fe",
+      "occurred_on": "2026-05-07",
+      "numbers": {}
+    },
+    "ev_QCOM_20260507_news2": {
+      "id": "ev_QCOM_20260507_news2",
+      "kind": "news",
+      "title": "If You Invested $1000 In Qualcomm Stock 10 Years Ago, You Would Have This Much Today",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=d0d4eead86ce99391ce8c0b60dc731a74b14c071a81c029b7dd189aa9e74ba2a",
+      "occurred_on": "2026-05-07",
+      "numbers": {}
+    },
+    "ev_QCOM_20260507_news3": {
+      "id": "ev_QCOM_20260507_news3",
+      "kind": "news",
+      "title": "Qualcomm Hits New 52-Week High: Why The AI Data Center Pivot Is Working",
+      "detail": "Reported by Benzinga. Qualcomm Inc. shares are up Thursday afternoon, hitting a 52-week high earlier as traders leaned into its upbeat AI and capital-return story.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=02fddb40168aaddc5fc2b32726c7eb7c08ca7303d1d04eb80df8814fba7c8edb",
+      "occurred_on": "2026-05-07",
+      "numbers": {}
+    },
+    "ev_QCOM_20260507_news4": {
+      "id": "ev_QCOM_20260507_news4",
+      "kind": "news",
+      "title": "Final Trades: Qualcomm, Apollo Global, Crowdstrike and the BUG",
+      "detail": "Reported by CNBC. The Investment Committee give you their top stocks to watch for the second half.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bb432ba9711967c7ff1f48b2b8d937f5b621632b179471e5f0c7d61c2f2daef1",
+      "occurred_on": "2026-05-07",
+      "numbers": {}
+    },
+    "ev_QCOM_20260507_news5": {
+      "id": "ev_QCOM_20260507_news5",
+      "kind": "news",
+      "title": "QUALCOMM Incorporated (QCOM) Slipped Over Memory-Related Supply Constraints in Q1",
+      "detail": "Reported by Yahoo. Aristotle Capital Management, LLC, an investment management company, released its \u201cValue Equity Fund\u201d first-quarter 2026 investor letter. A copy of the letter can be downloaded here. During the first quarter, the U.S. equity market declined, with the S&P 500 Index falling by 4.33%. The fixed-income sector also saw a downturn; the Bloomberg U.S. Aggregate Bond [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0d0ab480c22adfd2e636300a13af8f600c32ca983c95743aaf88cd27d8d27aa0",
+      "occurred_on": "2026-05-07",
+      "numbers": {}
+    },
+    "ev_QCOM_20260507_news6": {
+      "id": "ev_QCOM_20260507_news6",
+      "kind": "news",
+      "title": "Qualcomm Is One of the Cheapest AI Stocks in the Trump Bull Market. Here\u2019s Why That Gap May Close",
+      "detail": "Reported by Yahoo. Qualcomm trades like a legacy modem company while quietly building the cheapest exposure to AI silicon in the entire Trump bull market, and that mispricing is the core investment thesis. Qualcomm (NASDAQ:QCOM) just delivered its fourth consecutive earnings beat, confirmed a hyperscaler custom silicon program, and authorized a fresh $20 billion buyback. The market is ... Qualcomm Is One of the Cheapest AI Stocks in the Trump Bull Market. Here\u2019s Why That Gap May Close",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=dc233db4df9b1328e3d116fd51a6febc1f31c5845b069362535b2b37aac2fabd",
+      "occurred_on": "2026-05-07",
+      "numbers": {}
+    },
+    "ev_QCOM_20260507_news7": {
+      "id": "ev_QCOM_20260507_news7",
+      "kind": "news",
+      "title": "Michael Burry Compares Today's 'More Extreme' Nasdaq Surge To Dot-Com Bubble: SNDK Is 'Beating That' 1999 QCOM Record",
+      "detail": "Reported by Benzinga. Michael Burry warns the current Nasdaq rally is &#39;more extreme&#39; than 1999, as SNDK&#39;s 3,960% surge shatters QCOM&#39;s dot-com bubble record.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6b3213ec15f46843155d24349448a9d3c993e2b56d7687c2d261f254d63ba230",
+      "occurred_on": "2026-05-07",
+      "numbers": {}
+    },
     "ev_QCOM_20260511_price": {
       "id": "ev_QCOM_20260511_price",
       "kind": "price",
@@ -1979,6 +2233,86 @@
         "subject_pct_change": 8.417,
         "relationship": "supplier"
       }
+    },
+    "ev_QCOM_20260511_news0": {
+      "id": "ev_QCOM_20260511_news0",
+      "kind": "news",
+      "title": "Top Research Reports for UnitedHealth, Merck & Qualcomm",
+      "detail": "Reported by Yahoo. UnitedHealth, Merck and QUALCOMM lead Zacks' top research picks as analysts highlight growth drivers, earnings trends and key risks.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=681ebae88dcd28bbce1476b39060178735174ee83913a6e5dc9977c9aa557696",
+      "occurred_on": "2026-05-11",
+      "numbers": {}
+    },
+    "ev_QCOM_20260511_news1": {
+      "id": "ev_QCOM_20260511_news1",
+      "kind": "news",
+      "title": "Qualcomm Stock Is Rising. Why the Chip Stock Hit a Record High.",
+      "detail": "Reported by Yahoo. Qualcomm stock surged Monday, notching its first record closing high since 2024 as enthusiasm around AI chips and data-center demand continues to build.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=dcb8c9bbb8dc92e788a4b5235d86893f634b004eac108b9983d3606d3877dade",
+      "occurred_on": "2026-05-11",
+      "numbers": {}
+    },
+    "ev_QCOM_20260511_news2": {
+      "id": "ev_QCOM_20260511_news2",
+      "kind": "news",
+      "title": "Qualcomm Stock Just Doubled: Breakout or Blow-Off?",
+      "detail": "Reported by Yahoo. A series of bullish catalysts just launched Qualcomm stock to record highs.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f35baf6635e36ff05c052f9ba7563d2aefa13ef4341f681c737ea9e5a7954dc7",
+      "occurred_on": "2026-05-11",
+      "numbers": {}
+    },
+    "ev_QCOM_20260511_news3": {
+      "id": "ev_QCOM_20260511_news3",
+      "kind": "news",
+      "title": "John Hussman Exits Qualcomm Inc, Impacting Portfolio by -1.13%",
+      "detail": "Reported by Yahoo. Insights into John Hussman (Trades, Portfolio)'s Strategic Moves in Q1 2026",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=bfbb3a8032e59a316f8db1c2cd860d9e24041d1c4d9a62f1a236da419542d5b8",
+      "occurred_on": "2026-05-11",
+      "numbers": {}
+    },
+    "ev_QCOM_20260511_news4": {
+      "id": "ev_QCOM_20260511_news4",
+      "kind": "news",
+      "title": "Why Qualcomm Stock Popped Today",
+      "detail": "Reported by Yahoo. Qualcom Surges on Bold 2028 Data Center Chip Bet and AI Demand Wave",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ed29840bcf7f3568146b53c8a0215e289ca27a231c6e2add49909051ca86ea1a",
+      "occurred_on": "2026-05-11",
+      "numbers": {}
+    },
+    "ev_QCOM_20260511_news5": {
+      "id": "ev_QCOM_20260511_news5",
+      "kind": "news",
+      "title": "EXCLUSIVE: Qualcomm Stock Breaks Records As CEO Heads To China With Trump To Champion 'American Tech Leadership'",
+      "detail": "Reported by Benzinga. Qualcomm CEO Cristiano Amon is set to travel to China with President Donald Trump this week, adding another catalyst to the stock at all-time highs.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6550a4c98de759b16369d7e07e4bff7157e527d5088f03f13a86c3baa96a8507",
+      "occurred_on": "2026-05-11",
+      "numbers": {}
+    },
+    "ev_QCOM_20260511_news6": {
+      "id": "ev_QCOM_20260511_news6",
+      "kind": "news",
+      "title": "Qualcomm Stock Is Rising. The Chip Stock Is Nearing a Record High.",
+      "detail": "Reported by Yahoo. Qualcomm stock surged Monday and is on pace for its first record close since 2024 as enthusiasm around AI chips and data-center demand continues to build.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c7536fe0383ea07bc4dbc6e98cc91af53bf0f50ffd908fac4a78d46e32178430",
+      "occurred_on": "2026-05-11",
+      "numbers": {}
+    },
+    "ev_QCOM_20260511_news7": {
+      "id": "ev_QCOM_20260511_news7",
+      "kind": "news",
+      "title": "Daiwa Upgrades QUALCOMM (QCOM) to Outperform",
+      "detail": "Reported by Yahoo. QUALCOMM Incorporated (NASDAQ:QCOM) is one of the 9 Best American Semiconductor Stocks to Buy According to Analysts. On May 8, 2026, Daiwa analyst Louis Miscioscia upgraded QUALCOMM Incorporated (NASDAQ:QCOM) to Outperform from Neutral and raised the firm\u2019s price target to $225 from $140. The analyst said Qualcomm\u2019s fiscal Q2 results were mixed, with strong growth [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=ef50874bd6214451988177c905e030229e252bd6445fd474b3aadca74e358d60",
+      "occurred_on": "2026-05-11",
+      "numbers": {}
     },
     "ev_QCOM_20260512_price": {
       "id": "ev_QCOM_20260512_price",
@@ -2095,6 +2429,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_QCOM_20260512_news0": {
+      "id": "ev_QCOM_20260512_news0",
+      "kind": "news",
+      "title": "Dear Qualcomm Stock Fans, Mark Your Calendars for June 24",
+      "detail": "Reported by Yahoo. Upcoming investor day will provide a roadmap for AI-driven growth acceleration.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6d521ea4bdf79f6b3426c3131a6d760a5115619eb9de49a359a529b87fe81396",
+      "occurred_on": "2026-05-12",
+      "numbers": {}
+    },
+    "ev_QCOM_20260512_news1": {
+      "id": "ev_QCOM_20260512_news1",
+      "kind": "news",
+      "title": "Qualcomm Breakout Gains Steam After New 52-Week High",
+      "detail": "Reported by SeekingAlpha.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e535471ad357e6e1fea4c2633c9f694228c690a6af2ac93ee2369678982da5c7",
+      "occurred_on": "2026-05-12",
+      "numbers": {}
+    },
+    "ev_QCOM_20260512_news2": {
+      "id": "ev_QCOM_20260512_news2",
+      "kind": "news",
+      "title": "IBM vs. Qualcomm: Which AI Tech Stock is the Better Buy Now?",
+      "detail": "Reported by Yahoo. IBM edges Qualcomm as the better AI tech buy now, backed by hybrid-cloud demand, watsonx upgrades, cheaper valuation and steady cash flow.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f3f3b36e25c7c674b8edf7ca461ac7738f90da0efd9888d38089125e3205bc2a",
+      "occurred_on": "2026-05-12",
+      "numbers": {}
+    },
+    "ev_QCOM_20260512_news3": {
+      "id": "ev_QCOM_20260512_news3",
+      "kind": "news",
+      "title": "Stock Of The Day: Where Will The Qualcomm Reversal End?",
+      "detail": "Reported by Benzinga. Qualcomm shares became extremely overbought and are now reversing. There is a chance the selloff ends at a former resistance level.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=131012e06ea43846f92284fa774a6fb250df813c12d99a2871e3fbd23f1fd6a9",
+      "occurred_on": "2026-05-12",
+      "numbers": {}
+    },
+    "ev_QCOM_20260512_news4": {
+      "id": "ev_QCOM_20260512_news4",
+      "kind": "news",
+      "title": "Qualcomm Stock Sinks 11%: AI Momentum Hits Profit-Taking Wall Despite $20 Billion Buyback",
+      "detail": "Reported by Benzinga. Qualcomm (QCOM) shares fall more than 11% as profit-taking hits the semiconductor sector. See why an overbought RSI of 88 and macro pressure triggered the drop despite a new $20B buyback and AI growth push.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0f6e13fc9c6c9f35dbca16322e742cab2131d8c8c853f5d2721daf8a1474d095",
+      "occurred_on": "2026-05-12",
+      "numbers": {}
+    },
+    "ev_QCOM_20260512_news5": {
+      "id": "ev_QCOM_20260512_news5",
+      "kind": "news",
+      "title": "Qualcomm drops 13% as chip stocks pull back from record AI-driven rally",
+      "detail": "Reported by CNBC. The recent rally has shown a broadening of the AI trade beyond chipmaking giant Nvidia.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7597c96717547ebf13dd47c7676327ce32cc8b0d47664af5fc682798fa5670bc",
+      "occurred_on": "2026-05-12",
+      "numbers": {}
+    },
+    "ev_QCOM_20260512_news6": {
+      "id": "ev_QCOM_20260512_news6",
+      "kind": "news",
+      "title": "Watching QUALCOMM; Shares See Volume To The Downside, Traders Circulate Substack Report Authored By Tae Kim",
+      "detail": "Reported by Benzinga. https://taekim.substack.com/p/qualcomm-is-the-problem-child-of",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e352246970f5cbab56c424e4e8d8109466ca218b34b1be97841a0cffc0ee5d6f",
+      "occurred_on": "2026-05-12",
+      "numbers": {}
+    },
+    "ev_QCOM_20260512_news7": {
+      "id": "ev_QCOM_20260512_news7",
+      "kind": "news",
+      "title": "The Zacks Analyst Blog  UnitedHealth, Merck & Co., Qualcomm, EVI and Optex",
+      "detail": "Reported by Yahoo. UNH, MRK and QCOM drew focus as analysts highlighted growth drivers, pipeline strength and expanding AI and automotive opportunities.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1884d3eefd6c0da180c709223d4c0c3f36ee7a3cb50b734d67ea8881f6e14f61",
+      "occurred_on": "2026-05-12",
+      "numbers": {}
+    },
     "ev_QCOM_20260514_price": {
       "id": "ev_QCOM_20260514_price",
       "kind": "price",
@@ -2209,6 +2623,86 @@
         "subject_pct_change": -6.141,
         "relationship": "supplier"
       }
+    },
+    "ev_QCOM_20260514_news0": {
+      "id": "ev_QCOM_20260514_news0",
+      "kind": "news",
+      "title": "Why Is Qualcomm (QCOM) Stock Soaring Today",
+      "detail": "Reported by Yahoo. Shares of wireless chipmaker Qualcomm (NASDAQ:QCOM) jumped 7.6% in the afternoon session after a combination of strong fiscal second-quarter results, promising developments for its data center processors, and a favorable US-China tariff suspension fueled multiple analyst upgrades.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=cde1a4e516e20541129e93eabbb3fbead1be0825c0e79f4b3df24533dbf5c337",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
+    },
+    "ev_QCOM_20260514_news1": {
+      "id": "ev_QCOM_20260514_news1",
+      "kind": "news",
+      "title": "GF Securities Reckons Qualcomm Will Be a Hit in the CPU Server Cycle. QCOM Stock Has a Rocky Road Ahead.",
+      "detail": "Reported by Yahoo. A larger total addressablea market may be a reason for optimism when it comes to Qualcomm.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6aafbf7b1a8fc8fb2b38aed91780fa398ac5cbbff08e7ffe949e95e9c2dc141e",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_QCOM_20260514_news2": {
+      "id": "ev_QCOM_20260514_news2",
+      "kind": "news",
+      "title": "QUALCOMM Incorporated (QCOM) Eyes Smartphone Growth with New Snapdragon Platforms",
+      "detail": "Reported by Yahoo. QUALCOMM Incorporated (NASDAQ:QCOM) is one of the best AI stocks to buy for 2026, according to billionaire David Tepper. On May 7, QUALCOMM Incorporated (NASDAQ:QCOM) unveiled two new Snapdragon mobile platforms to deliver advanced capabilities for next-generation smartphones. Snapdragon 6 Gen 5 is one of the platforms that will deliver capabilities with new in-series AI-powered [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8addeba88a6776c3f4a5ee3fbf40fd8abd8f3803181cf99cbe0137ae5eda1b4f",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_QCOM_20260514_news3": {
+      "id": "ev_QCOM_20260514_news3",
+      "kind": "news",
+      "title": "Qualcomm: The Cheapest AI Winner (Rating Upgrade)",
+      "detail": "Reported by SeekingAlpha. Qualcomm is a Buy, reflecting smartphone headwinds priced in, China handset bottoming, and AI/hyperscaler custom silicon wins. Click for this QCOM stock update.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0f5b4399365369c696745b2b5487c6b77c5b2a41d59474147d3d8cb18b1aee1c",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_QCOM_20260514_news4": {
+      "id": "ev_QCOM_20260514_news4",
+      "kind": "news",
+      "title": "Qualcomm, Micron Lead Brutal Chip Selloff -- Nvidia Holds Strong",
+      "detail": "Reported by Yahoo. Qualcomm Tumbles as Inflation Shock Sparks Semiconductor Selloff",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0aad5c58ad234c639c22e5efe429b71ad6ca5165153a84b9d29523cf7958610a",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_QCOM_20260514_news5": {
+      "id": "ev_QCOM_20260514_news5",
+      "kind": "news",
+      "title": "Intel, AMD, Qualcomm Stocks Rise as AI Chip Rally Reignites",
+      "detail": "Reported by Yahoo. FEATURE   Intel stock and shares of other semiconductor companies were gaining early Wednesday. The chips rally looked set to resume after a blip the previous day.\u00a0 Intel shares were up 4% in premarket trading, while Advanced Micro Devices was rising 2.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f2b696cb0755e76b4829764a3fcbd3f0cdcb9444f7c248b45e6cb83ecd034710",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_QCOM_20260514_news6": {
+      "id": "ev_QCOM_20260514_news6",
+      "kind": "news",
+      "title": "Qualcomm and Micron Shares Skyrocket, What You Need To Know",
+      "detail": "Reported by Yahoo. A number of stocks jumped in the afternoon session after the semiconductor sector rose buoyed by robust AI-related demand and a strong global sales outlook.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=641180c5e5dc36266e2903c4f097acd3960c808562f19f39297087e519d777c3",
+      "occurred_on": "2026-05-13",
+      "numbers": {}
+    },
+    "ev_QCOM_20260514_news7": {
+      "id": "ev_QCOM_20260514_news7",
+      "kind": "news",
+      "title": "Cognex (CGNX) Launches In-Sight 3900 Embedded AI Vision System for Edge Inspections",
+      "detail": "Reported by Yahoo. Cognex Corp. (NASDAQ:CGNX) is one of the unstoppable AI stocks to buy now. On May 5, Cognex launched the In-Sight 3900, a high-performance embedded AI vision system powered by Qualcomm Dragonwing platforms. Designed for high-speed production lines in sectors like automotive and electronics, the system performs complex inspections directly at the edge without requiring an [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=30d585461dafbd85def656fb068bf3ea5a6abefae835d8dabb7a1d66af25a2ba",
+      "occurred_on": "2026-05-14",
+      "numbers": {}
     },
     "ev_QCOM_20260521_price": {
       "id": "ev_QCOM_20260521_price",
@@ -2325,6 +2819,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_QCOM_20260521_news0": {
+      "id": "ev_QCOM_20260521_news0",
+      "kind": "news",
+      "title": "Qualcomm Cofounder's Granddaughter, Now In Congress, Sells Almost $2 Million In QCOM Near Record High",
+      "detail": "Reported by Benzinga. A member of Congress sold at least $1 million in Qualcomm stock. Here&#39;s why the trade is unique.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1e256048477a6d7a78814b77af1776478089ce59bbb4667d0fcaf309655365a3",
+      "occurred_on": "2026-05-21",
+      "numbers": {}
+    },
+    "ev_QCOM_20260521_news1": {
+      "id": "ev_QCOM_20260521_news1",
+      "kind": "news",
+      "title": "Can Qualcomm's Advanced AI PC Processors Drive Long-Term Growth?",
+      "detail": "Reported by Yahoo. QCOM's Snapdragon X Elite/Plus chips bring power efficiency and NPUs as Dell, HP, Lenovo and Microsoft roll out AI PCs.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=c0a60feabbfd616390c9717a2897e8593a5491c90b16b613e598a223682add94",
+      "occurred_on": "2026-05-21",
+      "numbers": {}
+    },
+    "ev_QCOM_20260521_news2": {
+      "id": "ev_QCOM_20260521_news2",
+      "kind": "news",
+      "title": "Stellantis and Qualcomm Expand Partnership to Adopt  Snapdragon Digital Chassis Driver Assistance, Cockpit and Connectivity Platforms Across Next-Generation Vehicle Architectures",
+      "detail": "Reported by Yahoo. Stellantis and Qualcomm Expand Partnership to Adopt Snapdragon Digital Chassis Driver Assistance, Cockpit and Connectivity Platforms Across Next-Generation Vehicle Architectures Stellantis to use Qualcomm Snapdragon Digital Chassis solutions to support advanced, unified compute power across the entire vehicle, including cockpit, connectivity and advanced driver assist systemsDeepened collaboration establishes a common, scalable technology foundation across Stellantis\u2019 brands, driving cost effici",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=a1bb7fc6dab1f92b768fe6ad6e23bd3c9289069a110eb428934c112c1a5d850c",
+      "occurred_on": "2026-05-21",
+      "numbers": {}
+    },
+    "ev_QCOM_20260521_news3": {
+      "id": "ev_QCOM_20260521_news3",
+      "kind": "news",
+      "title": "What Is Going On With Qualcomm Stock On Thursday?",
+      "detail": "Reported by Benzinga. Qualcomm (QCOM) stock jumps premarket to $205.59. See how a massive 32% agentic AI smartphone boom and an historic Level 2+ driving deal with Stellantis triggered a major breakout in 2026.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=6be6c967d26182a7eb56eae98805cc9cd29cd6ea9b446676cdd7e084ebab8887",
+      "occurred_on": "2026-05-21",
+      "numbers": {}
+    },
+    "ev_QCOM_20260521_news4": {
+      "id": "ev_QCOM_20260521_news4",
+      "kind": "news",
+      "title": "Why Qualcomm (QCOM) Stock Is Trading Lower Today",
+      "detail": "Reported by Yahoo. Shares of wireless chipmaker Qualcomm (NASDAQ:QCOM) fell 4% in the afternoon session after a broader selloff hit the semiconductor sector amid valuation concerns and investor nervousness ahead of Nvidia's earnings report.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f2c958583c0ec69314e78211806f5135332b8b983c3ced7cd234a52b94f909aa",
+      "occurred_on": "2026-05-21",
+      "numbers": {}
+    },
+    "ev_QCOM_20260521_news5": {
+      "id": "ev_QCOM_20260521_news5",
+      "kind": "news",
+      "title": "Stellantis And Qualcomm Technologies Expand Multi-Year Partnership To Power Next-Generation Vehicles With Snapdragon Digital Chassis, AI-Driven Cockpit, Connectivity, And Level 2+ Autonomous Driving Platforms Across Global Stellantis Brands",
+      "detail": "Reported by Benzinga. Stellantis and Qualcomm Expand Partnership to AdoptSnapdragon Digital Chassis Driver Assistance, Cockpit and Connectivity Platforms Across Next-Generation Vehicle ArchitecturesStellantis to use Qualcomm Snapdragon",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4d956b26f0a445c369167a678b5cc7ff79534e70ca7febe6c727962b11f96348",
+      "occurred_on": "2026-05-21",
+      "numbers": {}
+    },
+    "ev_QCOM_20260521_news6": {
+      "id": "ev_QCOM_20260521_news6",
+      "kind": "news",
+      "title": "Is Qualcomm Inc. (QCOM) a Top tech Stock in Ken Fisher Portfolio on Data Center Opportunities?",
+      "detail": "Reported by Yahoo. Qualcomm Inc. (NASDAQ:QCOM) is one of the top tech stocks in billionaire Ken Fisher\u2019s portfolio. On May 5, Aletheia Capital reiterated a Hold rating on Qualcomm (NASDAQ:QCOM) in response to the company\u2019s gains in artificial intelligence business, driven by CPU and ASIC performance. While delivering fiscal second-quarter results, Qualcomm reiterated that it is in a [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e49db35c0c5b5a5fd45537dec8cf182f26f3799d43bbb00874cf352b0c14343f",
+      "occurred_on": "2026-05-21",
+      "numbers": {}
+    },
+    "ev_QCOM_20260521_news7": {
+      "id": "ev_QCOM_20260521_news7",
+      "kind": "news",
+      "title": "Qualcomm (QCOM) Valuation In Focus After Semiconductor Selloff And AI Rally Cooldown",
+      "detail": "Reported by Yahoo. QUALCOMM (QCOM) has come under pressure after a sector wide semiconductor selloff, with investors reacting to valuation concerns, profit taking after an AI fueled rally, and caution ahead of major chip earnings. See our latest analysis for QUALCOMM. That sector wide pullback comes after a sharp run up, with a 30 day share price return of 47.29% and a 1 year total shareholder return of 37.00%. This suggests momentum has been strong but is now being tested. If you are looking beyond QUALCOMM...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=76954668f61ea75a5e95e949b7a91b487b90ccf8aacb121c5be3a0eca1c67bc9",
+      "occurred_on": "2026-05-21",
+      "numbers": {}
+    },
     "ev_QCOM_20260522_price": {
       "id": "ev_QCOM_20260522_price",
       "kind": "price",
@@ -2440,6 +3014,86 @@
         "relationship": "supplier"
       }
     },
+    "ev_QCOM_20260522_news0": {
+      "id": "ev_QCOM_20260522_news0",
+      "kind": "news",
+      "title": "Qualcomm Surges 12%, Skyworks Rallies 9%, Qorvo Rises 7%: The Mobile Chip Trade Picks Smaller Winners",
+      "detail": "Reported by Yahoo. Shares of Qualcomm (NASDAQ:QCOM) are up 11% at midday Friday, with Skyworks Solutions (NASDAQ:SWKS) higher by 9% and Qorvo (NASDAQ:QRVO) tacking on 7%. The mobile and RF (radio frequency) chip trade is rallying broadly, but the bid is concentrated in the smaller, more focused names in the group. Investors are picking pure-play winners while passing ... Qualcomm Surges 12%, Skyworks Rallies 9%, Qorvo Rises 7%: The Mobile Chip Trade Picks Smaller Winners",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=31c0412f84149f3d3e31b3163ec25b2134575096fad9f5a891e0f46b7aca21c7",
+      "occurred_on": "2026-05-22",
+      "numbers": {}
+    },
+    "ev_QCOM_20260522_news1": {
+      "id": "ev_QCOM_20260522_news1",
+      "kind": "news",
+      "title": "Qualcomm's stock pop shows investors are 'waking up' to boom in AI devices",
+      "detail": "Reported by CNBC. Qualcomm is on a big run, powered by investor bullishness that the company will be at the center of a boom in AI devices.",
+      "source": "CNBC (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=287248caaddc0361798c0a8219fc47bec39c38baa3e0dbf48d2fcdf6bcfc69fb",
+      "occurred_on": "2026-05-22",
+      "numbers": {}
+    },
+    "ev_QCOM_20260522_news2": {
+      "id": "ev_QCOM_20260522_news2",
+      "kind": "news",
+      "title": "Prediction: Analysts Say Qualcomm Stock Is Set For A Massive Breakout",
+      "detail": "Reported by Yahoo. Qualcomm (NASDAQ:QCOM) has staged a remarkable comeback, recovering 51.2% from its March low of $129.39 to today\u2019s level near $195. The question now is whether the rally has legs or has run ahead of fundamentals. Our proprietary model says it still has room to run. The 24/7 Wall St. price target for Qualcomm is $268.83 ... Prediction: Analysts Say Qualcomm Stock Is Set For A Massive Breakout",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f0d366b8ec13548ec3197c1c3ddc870215cc67e24826bbaf440c2ea7b35f8b5a",
+      "occurred_on": "2026-05-22",
+      "numbers": {}
+    },
+    "ev_QCOM_20260522_news3": {
+      "id": "ev_QCOM_20260522_news3",
+      "kind": "news",
+      "title": "Melius Research Raises Qualcomm (QCOM) Price Target, Sees More Upside in AI Semiconductor Stocks",
+      "detail": "Reported by Yahoo. QUALCOMM Incorporated (NASDAQ:QCOM) is included among the 10 High Quality Stocks to Buy According to Hedge Funds. On May 18, Melius Research raised its price recommendation on QUALCOMM Incorporated (NASDAQ:QCOM) to $220 from $170. It reiterated a Hold rating on the shares. The firm said that while \u201cnothing really emerged as incrementally good from Trump going [\u2026]",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8e11d0b51514adcd8a3977ecd4beacceac64107aab738359cdd6cd8bd15e7b5a",
+      "occurred_on": "2026-05-22",
+      "numbers": {}
+    },
+    "ev_QCOM_20260522_news4": {
+      "id": "ev_QCOM_20260522_news4",
+      "kind": "news",
+      "title": "Zacks Investment Ideas feature highlights: Nvidia, Innodata, Credo Technology and Qualcomm",
+      "detail": "Reported by Yahoo. NVDA posted another record quarter, while Innodata, Credo and Qualcomm emerge as AI plays tied to edge computing and data growth.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=53ea4ec5739ff0f911afa25633f175e52e0ac6cb8b2297448f000bca26775d05",
+      "occurred_on": "2026-05-22",
+      "numbers": {}
+    },
+    "ev_QCOM_20260522_news5": {
+      "id": "ev_QCOM_20260522_news5",
+      "kind": "news",
+      "title": "Here's How Much You Would Have Made Owning Qualcomm Stock In The Last 10 Years",
+      "detail": "Reported by Benzinga.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=0880d2b8c3177adbd28f34a39a13075b156e79fce35eb1f6a03532ebc2699a03",
+      "occurred_on": "2026-05-22",
+      "numbers": {}
+    },
+    "ev_QCOM_20260522_news6": {
+      "id": "ev_QCOM_20260522_news6",
+      "kind": "news",
+      "title": "Nova, Micron, Qualcomm, Amkor, and Allegro MicroSystems Stocks Trade Up, What You Need To Know",
+      "detail": "Reported by Yahoo. A number of stocks jumped in the afternoon session after traders positioned ahead of Nvidia's fiscal Q1 earnings.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=fce3db2d13cdbf929c818d2f6f901ee75f99f9ce2e4475dcfd7b9d2edab02294",
+      "occurred_on": "2026-05-22",
+      "numbers": {}
+    },
+    "ev_QCOM_20260522_news7": {
+      "id": "ev_QCOM_20260522_news7",
+      "kind": "news",
+      "title": "Qualcomm Cofounder's Granddaughter, Now In Congress, Sells Almost $2 Million In QCOM Near Record High",
+      "detail": "Reported by Benzinga. A member of Congress sold at least $1 million in Qualcomm stock. Here&#39;s why the trade is unique.",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1e256048477a6d7a78814b77af1776478089ce59bbb4667d0fcaf309655365a3",
+      "occurred_on": "2026-05-21",
+      "numbers": {}
+    },
     "ev_QCOM_20260601_price": {
       "id": "ev_QCOM_20260601_price",
       "kind": "price",
@@ -2554,6 +3208,86 @@
         "subject_pct_change": -8.776,
         "relationship": "supplier"
       }
+    },
+    "ev_QCOM_20260601_news0": {
+      "id": "ev_QCOM_20260601_news0",
+      "kind": "news",
+      "title": "Qualcomm CEO Sees Sharp Growth in AI Demand",
+      "detail": "Reported by Yahoo. Cristiano Amon points to a 40-fold rise in AI tokens by 2030.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=31fa9dc2df2091944a248581616eb46c26e875d8b756ad80348e30d046008f46",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_QCOM_20260601_news1": {
+      "id": "ev_QCOM_20260601_news1",
+      "kind": "news",
+      "title": "How Qualcomm Cashes In On The $600 Billion AI Binge",
+      "detail": "Reported by Yahoo. Qualcomm (QCOM) is one of the most important companies in mobile computing. Its processors and cellular modems power billions of smartphones worldwide, while its licensing business generates high-margin royalty revenue from essential wireless patents. The company has also expanded its tech into automobiles, virtual reality headsets, and AI PCs.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=e21bcea6575379822e7c0daad6794774d8e92830d5141c75a4a55e8da425377a",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_QCOM_20260601_news2": {
+      "id": "ev_QCOM_20260601_news2",
+      "kind": "news",
+      "title": "NVIDIA Rallies 4% on RTX Spark Launch as Qualcomm Falls 7% on AI PC Competition Fears",
+      "detail": "Reported by Yahoo. Shares of NVIDIA (NASDAQ:NVDA) are up 4% in midday trading Monday, changing hands near $220 after the chipmaker unveiled its RTX Spark superchip at Computex 2026. The rally lifts NVDA stock well above Friday\u2019s $211 close. The opposite story is playing out at Qualcomm (NASDAQ:QCOM). QCOM stock is down 7% to roughly $234, with an ... NVIDIA Rallies 4% on RTX Spark Launch as Qualcomm Falls 7% on AI PC Competition Fears",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=59481ed2c092c550aa2959028c4f7cb41995ce3d3476469f444f7d41fbd685fe",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_QCOM_20260601_news3": {
+      "id": "ev_QCOM_20260601_news3",
+      "kind": "news",
+      "title": "Intel, AMD, Qualcomm shares slide as Nvidia crashes the PC chip market",
+      "detail": "Reported by Yahoo. Shares of Intel Corp (NASDAQ:INTC, XETRA:INL), Advanced Micro Devices Inc (NASDAQ:AMD, XETRA:AMD) and Qualcomm Inc (NASDAQ:QCOM, XETRA:QCI) fell sharply on Monday after Nvidia Corp (NASDAQ:NVDA, XETRA:NVD) unveiled a new personal computer chip at the Computex trade show in Taipei, marking a...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8751c9f138dfe2455bb189ed9b131f8c78182953692a45133e4e48625bc90a43",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_QCOM_20260601_news4": {
+      "id": "ev_QCOM_20260601_news4",
+      "kind": "news",
+      "title": "Qualcomm Stock\u2019s 60% Moment: Is This a Generational Entry Point or a Value Trap?",
+      "detail": "Reported by Yahoo. Qualcomm (NASDAQ:QCOM) stock has finally made up for lost time, joining the AI race at a critical and heated time in the boom. With shares up more than 60% in the past month, the underrated edge AI play is finally starting to get the respect it deserves. But whether the big breakout is just the ... Qualcomm Stock\u2019s 60% Moment: Is This a Generational Entry Point or a Value Trap?",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1d8aff782b91798b13b281d7de5da9b5a09860b8b1387c215e017bc9dde6e5e8",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_QCOM_20260601_news5": {
+      "id": "ev_QCOM_20260601_news5",
+      "kind": "news",
+      "title": "Can Qualcomm's Entry-Level Snapdragon PC Chip Drive Growth?",
+      "detail": "Reported by Yahoo. QCOM's new Snapdragon C Platform targets entry-level laptops with all-day battery life, built-in AI and backing from Acer, HP and Lenovo.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5c37c193c9816a5ee68a65184264f0a7b2a9f5c161a7df408567a78136126861",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_QCOM_20260601_news6": {
+      "id": "ev_QCOM_20260601_news6",
+      "kind": "news",
+      "title": "Nvidia, Intel, Qualcomm, Microsoft, and More Stocks That Explain the Market Today",
+      "detail": "Reported by Yahoo. Nvidia unveils a new PC chip, driving up shares in several computer makers and sparking a selloff for rivals Intel, AMD, and Qualcomm.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=49dfdaf85e2e6e87c0dbb86ea9a4887a0ab01e58ad9f079a3abf1c1bbae28f9b",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
+    },
+    "ev_QCOM_20260601_news7": {
+      "id": "ev_QCOM_20260601_news7",
+      "kind": "news",
+      "title": "QCOM Stock Slides Premarket: Qualcomm's Dragonfly AI Push Gets Overshadowed By Nvidia's Computex Blitz",
+      "detail": "Reported by Yahoo. CEO Cristiano Amon said future AI systems will require \"gazillions\" of tokens, while highlighting opportunities in robotics, automotive AI and AI-native 6G networks.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=31ba2bbd7e9974ebd16133079d577c5b71dab54241388de2ec7f45d7f2855834",
+      "occurred_on": "2026-06-01",
+      "numbers": {}
     },
     "ev_QCOM_20260625_price": {
       "id": "ev_QCOM_20260625_price",
@@ -2678,6 +3412,86 @@
       "source": "SEC EDGAR",
       "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926077071/tm2618522d1_8k.htm",
       "occurred_on": "2026-06-24",
+      "numbers": {}
+    },
+    "ev_QCOM_20260625_news0": {
+      "id": "ev_QCOM_20260625_news0",
+      "kind": "news",
+      "title": "Why Qualcomm (QCOM) Stock Is Up Today",
+      "detail": "Reported by Yahoo. Shares of wireless chipmaker Qualcomm (NASDAQ:QCOM) jumped 4.3% in the morning session after the company announced an aggressive expansion into the AI data center market with ambitious long-term revenue targets during its 2026 Investor Day.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=f8c3296e404e7401bdfa60441abd18e0d88665aa6c948a651af38f75c875c46d",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_QCOM_20260625_news1": {
+      "id": "ev_QCOM_20260625_news1",
+      "kind": "news",
+      "title": "Why Qualcomm Stock Popped Today",
+      "detail": "Reported by Yahoo. Investors applauded the semiconductor leader's new AI-focused growth strategy.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4ac2b252881397b37f03ba650e604e7f16ca3ab444434d4ad912f96f42ae10e6",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_QCOM_20260625_news2": {
+      "id": "ev_QCOM_20260625_news2",
+      "kind": "news",
+      "title": "Qualcomm Says AI Data Centers Will Become Its Next Big Growth Engine",
+      "detail": "Reported by Yahoo. Qualcomm's Investor Day gave investors more than an AI data-center pitch. With Meta, Microsoft, two hyperscaler customers, and a $15 billion revenue target in view, the smartphone chipmaker now has a clearer roadmap to prove it can grow beyond smartphones.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=8b83bcc63a7e7dbda8de86e850bb7e7bae899152bf04d817bc0d1f43ce01b0f9",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_QCOM_20260625_news3": {
+      "id": "ev_QCOM_20260625_news3",
+      "kind": "news",
+      "title": "S&P 500 Ends Flat As Apple Weakness Offsets Micron Gains, Nasdaq 100 And Dow Post Modest Gains \u2014 MSFT, QCOM, SPCX, BMBL, SONO In Focus",
+      "detail": "Reported by Yahoo. icron stock soared 16% on strong Q3 earnings, while Apple slipped after increasing prices of Macs and iPads.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3a7b1279ff5920a78bf77a2a4506e50d4a179bd02b04a7c955961da69d80a73f",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_QCOM_20260625_news4": {
+      "id": "ev_QCOM_20260625_news4",
+      "kind": "news",
+      "title": "Top Stock Reports for JPMorgan, Novartis & Qualcomm",
+      "detail": "Reported by Yahoo. JPMorgan, Novartis and Qualcomm headline today's top stock reports, highlighting growth drivers, competitive pressures and key catalysts ahead.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=3b3f74e547452b088b8ef144fdcce8eb826257882813180e7477ff9233c9ce94",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_QCOM_20260625_news5": {
+      "id": "ev_QCOM_20260625_news5",
+      "kind": "news",
+      "title": "How Qualcomm is evolving to grab a piece of the AI data center explosion.",
+      "detail": "Reported by Yahoo. Qualcomm is looking to move past the smartphone era.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=24cb00cf9d702e695c74864b7b0eccfd593d19d370df39fe2375832511857055",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_QCOM_20260625_news6": {
+      "id": "ev_QCOM_20260625_news6",
+      "kind": "news",
+      "title": "Qualcomm raises long-term targets as analysts highlight data center, edge AI opportunities",
+      "detail": "Reported by Yahoo. Qualcomm Inc (NASDAQ:QCOM, XETRA:QCI) outlined higher long-term revenue and earnings targets at its investor day, prompting analysts at Bank of America and UBS to lift their estimates and price targets while maintaining differing views on execution risks. The chipmaker increased its fiscal...",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=648d0c59dbf0381ff22827d1635c430ac295031701240ca746f8ca9e5efb8dd1",
+      "occurred_on": "2026-06-25",
+      "numbers": {}
+    },
+    "ev_QCOM_20260625_news7": {
+      "id": "ev_QCOM_20260625_news7",
+      "kind": "news",
+      "title": "Microsoft stock tumbles, Micron sparks memory chip rally, Qualcomm's data center venture",
+      "detail": "Reported by Yahoo. Market Domination Host Josh Lipton tracks several of the day's biggest stories and top trending stock tickers, including Microsoft shares (MSFT) falling to their lowest level in nearly three years, memory chip stocks rallying around Micron Technology's (MU) post-earnings gains, and Qualcomm's (QCOM) latest move into AI data center products.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=420efa81785b31cbfeb2b4e334b6996f403223c2c3b669a35a7d01d66d024f78",
+      "occurred_on": "2026-06-25",
       "numbers": {}
     },
     "ev_QCOM_20260626_price": {
@@ -2805,6 +3619,86 @@
       "occurred_on": "2026-06-24",
       "numbers": {}
     },
+    "ev_QCOM_20260626_news0": {
+      "id": "ev_QCOM_20260626_news0",
+      "kind": "news",
+      "title": "Stocks making big moves this week: Qualcomm, Accenture, 10x Genomics, Seagate, and Lattice Semiconductor",
+      "detail": "Reported by Yahoo. Check out the companies making headlines this week:",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=46577963e17a056d74307f9c134efb01cf4702ae49d212f94cdb025980320111",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_QCOM_20260626_news1": {
+      "id": "ev_QCOM_20260626_news1",
+      "kind": "news",
+      "title": "Qualcomm Reportedly Eyes Data-Center Chip Tech For Smartphones And Cars \u2014 But QCOM Stock Slips",
+      "detail": "Reported by Yahoo. Qualcomm is looking to extend its next-generation architecture beyond servers as it expands its AI hardware ambitions across multiple devices.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=da159f4083cf755766804fdedfd08f58498a0985bfe7d539405b49220aa56c90",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_QCOM_20260626_news2": {
+      "id": "ev_QCOM_20260626_news2",
+      "kind": "news",
+      "title": "Qualcomm Just Promised $15 Billion in AI Chip Sales, but There\u2019s a Catch: The Chips Don\u2019t Exist Yet",
+      "detail": "Reported by Yahoo. Cristiano Amon walked into Qualcomm\u2019s (NASDAQ:QCOM) Investor Day on June 24, 2026 with a number designed to be repeated. Over $15 billion in annual data center AI chip sales by fiscal 2029, up from $5 billion in 2027, alongside a $40 billion non-handset revenue target and adjusted EPS above $18 by that year. Qualcomm shares rose 13.3% ... Qualcomm Just Promised $15 Billion in AI Chip Sales, but There\u2019s a Catch: The Chips Don\u2019t Exist Yet",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=b9c210bac5e75c746dd0eebc88e95ee225edfb8089fa5647b7c9dfdb8259c210",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_QCOM_20260626_news3": {
+      "id": "ev_QCOM_20260626_news3",
+      "kind": "news",
+      "title": "Micron Just Delivered Great News for Intel, AMD, Arm, and Qualcomm Stock Investors",
+      "detail": "Reported by Yahoo. Micron sees growth ahead for smartphones and PCs.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=95fa7b459dc7ecf8e32975cb13c211436f2af041aaef85f905ff28d9d9668cbb",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_QCOM_20260626_news4": {
+      "id": "ev_QCOM_20260626_news4",
+      "kind": "news",
+      "title": "'Qualcomm plans new chip architecture for phones' - Semafor Exclusive",
+      "detail": "Reported by Benzinga. https://www.semafor.com/article/06/26/2026/qualcomm-plans-new-chip-architecture-for-phones",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=4ce386f4b1cd35b49f3143609a7f15e087c03e3dfb7284032484d5a1d83ced6a",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_QCOM_20260626_news5": {
+      "id": "ev_QCOM_20260626_news5",
+      "kind": "news",
+      "title": "The Market Still Misunderstands Qualcomm",
+      "detail": "Reported by SeekingAlpha. Qualcomm targets $40B+ in non-handset revenue by 2029, driven by AI infrastructure and record auto sales. Read more on QCOM.",
+      "source": "SeekingAlpha (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=1af8bc3803b80a572774ec265063f15bba753ed29e6688dd2f65cff32f737cea",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_QCOM_20260626_news6": {
+      "id": "ev_QCOM_20260626_news6",
+      "kind": "news",
+      "title": "The Zacks Analyst Blog Highlights JPMorgan, Novartis, Qualcomm, Genie and ImmuCell",
+      "detail": "Reported by Yahoo. Micron surged after strong Q3 results, robust AI-driven memory demand and a bullish Q4 outlook. See which ETFs have notable exposure.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=418411cfd54d9174e69fadd6a5350428bd4686eed8d63ac9dfc140ea26cfaae0",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
+    "ev_QCOM_20260626_news7": {
+      "id": "ev_QCOM_20260626_news7",
+      "kind": "news",
+      "title": "Nasdaq, S&P 500 Futures Slip As Memory Chip Selloff Hits Tech Stocks: Why SPCX, MU, QCOM, BB, ILLR, TII Are In Focus",
+      "detail": "Reported by Yahoo. Stocktwits data showed retail sentiment around SPY sunk to \u2018extremely bearish\u2019 territory, while QQQ sentiment remained \u2018bullish.\u2019",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5e494c5930f11add75403399b46d459342b74e4c06078b0cac6a2c245c79dc00",
+      "occurred_on": "2026-06-26",
+      "numbers": {}
+    },
     "ev_QCOM_20260918_price": {
       "id": "ev_QCOM_20260918_price",
       "kind": "price",
@@ -2923,16 +3817,6 @@
     "ev_QCOM_20260918_news0": {
       "id": "ev_QCOM_20260918_news0",
       "kind": "news",
-      "title": "Dividend Champion, Contender, And Challenger Highlights: Week September 20",
-      "detail": "Reported by SeekingAlpha. Track weekly dividend updates for Dividend Champions, Contenders & Challengers\u00e2\u0080\u0094see dividend changes, upcoming ex-dividend dates and pay dates here.",
-      "source": "SeekingAlpha (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=46fedd06c559ba8b3d63e97060c25dad3687b4ac45e0e46d0a2425c82202bb5e",
-      "occurred_on": "2026-09-18",
-      "numbers": {}
-    },
-    "ev_QCOM_20260918_news1": {
-      "id": "ev_QCOM_20260918_news1",
-      "kind": "news",
       "title": "Qualcomm Drops 6% as Past Month\u2019s Rally Unwinds; Skyworks and Qorvo Slip",
       "detail": "Reported by Yahoo. Qualcomm is selling off sharply on a day when the broader chip fund is climbing, and the disconnect between those two moves points to something specific happening inside one of the market's most closely watched semiconductor names.",
       "source": "Yahoo (via Finnhub company news)",
@@ -2940,18 +3824,8 @@
       "occurred_on": "2026-09-18",
       "numbers": {}
     },
-    "ev_QCOM_20260918_news2": {
-      "id": "ev_QCOM_20260918_news2",
-      "kind": "news",
-      "title": "Why Does NVDA Stock Carry The Lowest Clean Multiple In Its Peer Group?",
-      "detail": "Reported by Yahoo. NVIDIA (NVDA) is the strongest business in its peer group, and it is priced below every rival you can compare it with fairly, at 27.5 times earnings. Yet over the past twelve months NVDA returned 25.7% while AMD returned 239.7%. The best business in the group is one of its weakest stocks, and not because anyone doubts the demand.",
-      "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=910aaab2e37c5c865e418bf6ab96878db241210b320b80b96ec35c8568a164c5",
-      "occurred_on": "2026-09-18",
-      "numbers": {}
-    },
-    "ev_QCOM_20260918_news3": {
-      "id": "ev_QCOM_20260918_news3",
+    "ev_QCOM_20260918_news1": {
+      "id": "ev_QCOM_20260918_news1",
       "kind": "news",
       "title": "What Needs To Be True To Buy Qualcomm Stock Now?",
       "detail": "Reported by Yahoo. Qualcomm (QCOM) told investors in its fiscal Q3 2026 call that its share of Apple's recent iPhone launch would be materially lower than its prior estimate of 20%. In the same call, management raised its non-handset revenue target for fiscal 2029 to $40 billion\u2014nearly doubling its prior $22 billion goal as automotive, IoT, and data center expand. Anyone buying the stock today is deciding whether that replacement revenue arrives on schedule.",
@@ -2960,44 +3834,64 @@
       "occurred_on": "2026-09-18",
       "numbers": {}
     },
+    "ev_QCOM_20260918_news2": {
+      "id": "ev_QCOM_20260918_news2",
+      "kind": "news",
+      "title": "Trump-Xi Dinner Next Week Brings AI Titans To The Table \u2014 OpenAI, NVDA, and QCOM CEOs To Attend, Says Report",
+      "detail": "Reported by Yahoo. Sam Altman, Jensen Huang and Cristiano Amon are reportedly expected at the September 24 summit as AI safety, development standards and chip access emerge as potential discussion points.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=afcd51ea25d09a603dcbf1ec93bf230b937e45c617287f4b80dc96c23270c4fb",
+      "occurred_on": "2026-09-17",
+      "numbers": {}
+    },
+    "ev_QCOM_20260918_news3": {
+      "id": "ev_QCOM_20260918_news3",
+      "kind": "news",
+      "title": "Qualcomm (QCOM) Outpaces Stock Market Gains: What You Should Know",
+      "detail": "Reported by Yahoo. Qualcomm (QCOM) reached $188.94 at the closing of the latest trading day, reflecting a +2.22% change compared to its last close.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=7836ca836c7c58072418bf26bd4da314d024cc370a01c398981b8371b03400c3",
+      "occurred_on": "2026-09-17",
+      "numbers": {}
+    },
     "ev_QCOM_20260918_news4": {
       "id": "ev_QCOM_20260918_news4",
       "kind": "news",
-      "title": "Bitcoin Tops $80,000, S&P 500 Slips as Yields Reclaim 5%: Stock Market Today",
-      "detail": "Reported by Benzinga. Crypto-linked equities ripped higher as Bitcoin cleared $80,000, but the S&amp;P 500 slipped with the 10-year Treasury yield back above 5%.",
-      "source": "Benzinga (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=e855758714d176eb98515430aaeb8f671bdde6b16ce150a2074eb171fca5a2e1",
-      "occurred_on": "2026-09-18",
+      "title": "Micron, Qualcomm, Nova, Lattice Semiconductor, and Workday Shares Are Soaring, What You Need To Know",
+      "detail": "Reported by Yahoo. A number of stocks jumped in the afternoon session after Treasury yields retreated below 5% and oil prices declined, sparking a recovery across growth-oriented equities following the Federal Reserve's interest rate increase.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=5390cabd045876ecea253aad1d965ccc382941bba14be2653e8ac4c58f7f78e6",
+      "occurred_on": "2026-09-17",
       "numbers": {}
     },
     "ev_QCOM_20260918_news5": {
       "id": "ev_QCOM_20260918_news5",
       "kind": "news",
-      "title": "Citigroup CEO Jane Fraser Expected To Attend U.S. President Donald Trump's State Dinner For President Xi Jinping",
-      "detail": "Reported by Benzinga. - Reuters Citing Sources",
-      "source": "Benzinga (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=cfde33e0f139ddf79dc892c6ed29b903ad61502a6348de8b88a1757617983da5",
-      "occurred_on": "2026-09-18",
+      "title": "Qualcomm Just Rallied 18% in a Month: Take Profits, or Buy More?",
+      "detail": "Reported by Yahoo. Qualcomm just posted its best month in a while, but its two closest peers beat it handily during the same rally. Whether that gap signals a buying opportunity or a warning depends entirely on what actually drove the move.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=25bc5197802260b6ef90b4673e90a93ba8baf5796bf5b43a644419ad86f008dd",
+      "occurred_on": "2026-09-17",
       "numbers": {}
     },
     "ev_QCOM_20260918_news6": {
       "id": "ev_QCOM_20260918_news6",
       "kind": "news",
-      "title": "JPMorgan Chase CEO Jamie Dimon Will Attend U.S. President Donald Trump's State Dinner For Chinese President Xi Jinping",
-      "detail": "Reported by Benzinga. - Reuters Citing Sources",
-      "source": "Benzinga (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=cf209927a95250b961afa201af20089d8bf0bdc1f925ae05ad7aebbb5a8f4eb4",
-      "occurred_on": "2026-09-18",
+      "title": "Qualcomm Gains 2% as Amazon's Warrant Prices AI Commitment",
+      "detail": "Reported by Yahoo. A purchase-linked equity incentive validates Qualcomm's diversification without guaranteeing orders, timing or margins.",
+      "source": "Yahoo (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=47a933a7badad18cbd4f260f0afdb9accf8ee2733e3bba0dcf77f4b750aa8e68",
+      "occurred_on": "2026-09-17",
       "numbers": {}
     },
     "ev_QCOM_20260918_news7": {
       "id": "ev_QCOM_20260918_news7",
       "kind": "news",
-      "title": "Apple\u2019s Chip Strategy Keeps Paying Dividends",
-      "detail": "Reported by Yahoo. When Apple\u2019s iPhone turned into an immediate hit upon its 2007 release, CEO Steve Jobs was quick to realize the value of designing and owning as many of the components in its devices as possible.  Since then, designing the main chips for all its devices has been a priority for  Apple  and a potent differentiator, enabling deeper integration between software, services, and hardware than any other consumer technology company.  This week\u2019s release of iPhone 18 Pro and the A20 Pro chip inside of it, makes the advantages of Apple\u2019s chip strategy as clear as day.",
-      "source": "Yahoo (via Finnhub company news)",
-      "url": "https://finnhub.io/api/news?id=57f57b5b1ed8d7ce566d947de7a261d040489303949c6482808f7bad030d7c8a",
-      "occurred_on": "2026-09-18",
+      "title": "'Qualcomm CEO Cristiano Amon Plans To Attend Next Week\u2019s State Dinner With President Donald Trump And Chinese Leader Xi Jinping' - Politico",
+      "detail": "Reported by Benzinga. https://www.politico.com/news/2026/09/17/ai-titans-trump-xi-dinner-01083068",
+      "source": "Benzinga (via Finnhub company news)",
+      "url": "https://finnhub.io/api/news?id=03a62a14eebe0d425333ecab2ae495597eaa60c726171041c37bf6644aab4a71",
+      "occurred_on": "2026-09-17",
       "numbers": {}
     },
     "ev_QCOM_fund_revenue": {
@@ -3091,16 +3985,16 @@
       }
     }
   },
-  "arc": "Between late April and September 2026, Qualcomm experienced extreme volatility characterized by an aggressive spring rally followed by a full unwinding of those gains. The initial surge was sparked by its Q2 financial filings on April 29, which lifted shares 15.12% and drove a momentum run that peaked near $238 in late May, frequently decoupling from peer movements. However, gains proved difficult to sustain through June amid broad semiconductor pullbacks, culminating in a sharp September selloff to $177.72 driven by confirmation that Qualcomm's component share in key customer Apple's newest iPhone fell materially below prior 20% expectations.",
+  "arc": "Between April and September 2026, Qualcomm experienced substantial volatility driven by market attempts to reprice the company from a mature smartphone modem vendor into a diversified AI hardware provider. The stock rallied sharply from $156.00 to peak above $250.00 in May following a fiscal Q2 earnings beat, a $20 billion share repurchase program, and announcements of custom hyperscaler AI silicon contracts. However, the gains proved vulnerable to rising competitive threats\u2014such as Nvidia's new PC processor unveiling at Computex\u2014and growing investor scrutiny over multi-year targets presented at the June Investor Day, which aimed for $15 billion in annual data center AI revenue by 2029. By September, the stock settled back toward $177.72 as concerns resurfaced over near-term smartphone headwinds, specifically a lower-than-anticipated allocation in customer Apple's iPhone lineup, illustrating the tension between Qualcomm's legacy mobile exposures and its long-dated AI diversification roadmap.",
   "arc_citation_ids": [
     "ev_QCOM_20260430_price",
-    "ev_QCOM_20260430_filing_000080432826000060",
-    "ev_QCOM_20260430_filing_000080432826000061",
-    "ev_QCOM_20260522_price",
-    "ev_QCOM_20260626_price",
+    "ev_QCOM_20260430_news0",
+    "ev_QCOM_20260505_news0",
+    "ev_QCOM_20260601_news2",
+    "ev_QCOM_20260625_news2",
+    "ev_QCOM_20260626_news2",
     "ev_QCOM_20260918_price",
-    "ev_QCOM_20260918_news1",
-    "ev_QCOM_20260918_news3"
+    "ev_QCOM_20260918_news1"
   ],
   "warnings": []
 }
