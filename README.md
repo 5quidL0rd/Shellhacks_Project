@@ -16,7 +16,7 @@ Current scope: **13 companies** (listed in [data/companies.json](data/companies.
 | **Story Mode** (why each price move happened) | Done for all 13 companies | 153 explained moves, 113 at high confidence; every citation verified; served by the API |
 | **Snowflake** (sponsor track) | Connected and loaded | Graph, stories, prices, and news are in Snowflake |
 | **Backend API** (FastAPI) | Partly done | Story, graph, X-Ray, portfolio map, and impact endpoints work; feed, research, and saving a portfolio are not started |
-| **Frontend** | Not started | |
+| **Frontend** (React) | Scaffolded and working | X-Ray home, Connection Map, and Story Mode screens on the real API; Research is a placeholder. See [frontend/README.md](frontend/README.md) |
 | **What Changed feed** | Not started | The data it needs (news and graph) is in place |
 | **Research a New Investment** | Not started | Needs financial ratios (`FUNDAMENTALS` is empty) |
 | **Company list of 30–50** (Step 1) | Not started | `companylist.md` is a list of data providers, not companies |
@@ -61,6 +61,7 @@ Two principles run through everything:
 | `data/manual_edges.json` | Three hand-added connections the filings leave out, each with a reason | Knowledge graph |
 | `data/exports/` | The graph as CSVs for Snowflake, plus the SQL to reload them | Knowledge graph |
 | `backend/` | FastAPI app: Story Mode, graph endpoints, Snowflake connection and loaders. See [backend/README.md](backend/README.md) | Story Mode / Backend |
+| `frontend/` | React app: X-Ray home, Connection Map, Story Mode. See [frontend/README.md](frontend/README.md) | Frontend |
 | `backend/data/cache/story_*.json` | The five precomputed stories the demo serves | Story Mode |
 | `snowflake/` | Table definitions (`schema_contract.sql`), app login setup, and migrations | Snowflake |
 | `data_sources.md` | Story Mode's data sources, their free-tier limits, and the citation rules | Story Mode |
@@ -98,9 +99,12 @@ Never commit `.env`, the private key, or any token.
 
 # Backend (from backend/)
 ../.venv/bin/uvicorn app.main:app --reload             # run the API; docs at http://127.0.0.1:8000/docs
-../.venv/bin/python -m scripts.build_story_cache       # rebuild the five stories (uses Gemini)
-../.venv/bin/python -m scripts.load_snowflake          # load stories, prices, and news into Snowflake
+../.venv/bin/python -m scripts.build_story_cache       # rebuild the stories (uses Gemini and Finnhub)
+../.venv/bin/python -m scripts.load_snowflake          # load graph, stories, prices, and news into Snowflake
 ../.venv/bin/python -m pytest tests                    # run the tests
+
+# Frontend (from frontend/, with the API running)
+npm install && npm run dev                             # the app at http://localhost:5173
 ```
 
 ### API endpoints
@@ -146,7 +150,7 @@ Never commit `.env`, the private key, or any token.
 ### High priority (affects the demo)
 1. **Lock the company list (Step 1).** Pick the 30–50 companies and build the sample demo portfolio. Everything else scales from this list.
 2. **Tighten two Story Mode prompt rules** before the next rebuild. Explanations now have news behind them (low confidence fell from 108 to 7 of 153 moves), but Gemini sometimes rates "high" on thin evidence (TSMC's July 1 drop cites one general article), and sometimes calls a move "shared" when connected companies moved far less (AMD +9.95% vs peers around +2%).
-3. **Start the frontend.** App shell, portfolio entry, Connection Map (react-force-graph or Cytoscape.js), and Story Mode chart (TradingView Lightweight Charts), built against fake data first and then the real endpoints.
+3. **Build out the frontend.** The scaffold (`frontend/`) has working X-Ray, Connection Map, and Story Mode screens on the real API. Next: polish for the demo, the What Changed feed screen, and the Research screen.
 4. **Build the What Changed feed.** Rank news by relevance: owned company, then connected company, then same sector. The `NEWS` and `GRAPH_EDGES` tables already hold what the ranking needs.
 
 ### Medium priority
