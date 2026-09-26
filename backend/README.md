@@ -48,6 +48,7 @@ Then open `http://127.0.0.1:8000/docs` for the interactive API page.
 | `GET /health` | nothing | Liveness; never touches Snowflake |
 | `GET /health/snowflake` | Snowflake | Confirms the Snowflake connection |
 | `GET /universe` | graph export | The supported companies with their graph connections |
+| `GET /feed?holdings=AAPL,NVDA` | feed cache | What Changed: last week's news events (precomputed by `scripts.build_feed`, Gemini-summarised with verified citations) that touch the portfolio, ranked your holding → connected company → same sector; each lists the holdings it reaches (from the graph) and its sources. `tier=1..3` filters |
 | `GET /quotes?symbols=AAPL,NVDA` | story cache | Last close, daily change, 1W/1M/3M/6M returns, 6-month range, volume vs 30-day average, 30-day sparkline; empty `symbols` = all companies |
 | `GET /story/{symbol}` | story cache | Price series and cited explanations of big moves |
 | `GET /story/{symbol}/citation/{id}` | story cache | One evidence row for the drill-down panel |

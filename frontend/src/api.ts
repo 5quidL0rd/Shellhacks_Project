@@ -140,6 +140,43 @@ export interface Story {
   warnings: string[]
 }
 
+/** A holding a feed event reaches, and how (from the knowledge graph). */
+export interface FeedTouch {
+  ticker: string
+  role: 'holding' | 'customer' | 'supplier' | 'indirect_customer' | 'competitor' | 'same_sector'
+  explanation: string
+  evidence?: Provenance[]
+}
+
+/** One development at one company, summarised from its cited articles. */
+export interface FeedItem {
+  id: string
+  symbol: string
+  company_name: string
+  headline: string
+  summary: string
+  event_type: string
+  tone: 'positive' | 'negative' | 'mixed' | 'neutral'
+  importance: 'high' | 'medium' | 'low'
+  first_seen: string
+  last_seen: string
+  sources: { headline: string; publisher: string; url: string; date: string }[]
+  tier: 1 | 2 | 3
+  tier_label: string
+  touches: FeedTouch[]
+  change_pct: number | null
+}
+
+export interface Feed {
+  holdings: string[]
+  unsupported: string[]
+  as_of: string | null
+  generated_at: string | null
+  window_days: number
+  counts: Record<string, number>
+  items: FeedItem[]
+}
+
 /** One radar axis: the raw measure, and its rank among the covered companies. */
 export interface RadarAxis {
   axis: 'growth' | 'profitability' | 'stability' | 'debt' | 'risk'
@@ -337,6 +374,8 @@ export const api = {
   impact: (company: string, holdings: string[]) =>
     get<Impact>('/portfolio/impact', { company, holdings: holdingsParam(holdings) }),
   story: (symbol: string) => get<Story>(`/story/${encodeURIComponent(symbol)}`),
+  /** What Changed: last week's events that touch these holdings, ranked. */
+  feed: (holdings: string[]) => get<Feed>('/feed', { holdings: holdingsParam(holdings), limit: '60' }),
   /** Companies matching a typed query; any SEC filer, not just our 13. */
   researchSearch: (q: string, limit = 8) =>
     get<SearchResults>('/research/search', { q, limit: String(limit) }),
