@@ -133,7 +133,7 @@ Never commit `.env`, the private key, or any token.
 
 ### Snowflake
 - A dedicated app login (`SHELLHACKS_APP`) with key-pair authentication and limited permissions.
-- Tables: `GRAPH_EDGES` (194), `GRAPH_COMPANIES` (74), `STORIES` (13), `STORY_EVENTS` (153), `STORY_EVIDENCE` (1,120), `PRICES` (1,703), `NEWS` (3,091 and growing). `PRICE_HISTORY` is a view over `PRICES` that adds the daily change and direction.
+- Tables: `GRAPH_EDGES` (194), `GRAPH_COMPANIES` (74), `STORIES` (13), `STORY_EVENTS` (153), `STORY_EVIDENCE` (2,215), `PRICES` (1,703), `NEWS` (3,091 and growing). `PRICE_HISTORY` is a view over `PRICES` that adds the daily change and direction.
 - Loaders are safe to re-run: stories are replaced per company, and prices and news are updated in place. News builds up history each time it runs.
 
 ---
