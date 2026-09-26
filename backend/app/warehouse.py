@@ -1,18 +1,22 @@
 """Load Story Mode data into Snowflake.
 
-Tables are defined in snowflake/schema_contract.sql. Two write patterns:
+Tables are defined in snowflake/schema_contract.sql. Three write patterns:
 
 - Stories are replaced per company: STORIES, STORY_EVENTS and STORY_EVIDENCE
   rows for a symbol are deleted and re-inserted in one transaction, so a
   rebuilt story never leaves stale beats or evidence behind.
 - Prices and news are upserted (MERGE on their keys), so reloading is safe
   and news accumulates history beyond Finnhub's few-day free window.
+- The knowledge graph (GRAPH_EDGES, GRAPH_COMPANIES) is replaced whole from
+  the CSV export (python -m kg.export_edges) in one transaction.
 
 Row builders are pure functions so they can be tested without Snowflake.
 """
 from __future__ import annotations
 
+import csv
 import json
+from pathlib import Path
 from typing import Iterable, Sequence
 
 from .sources import news as news_source
@@ -185,3 +189,48 @@ def upsert_news(conn, symbol: str) -> int:
         with conn.cursor() as cur:
             _merge(cur, "NEWS", NEWS_COLUMNS, NEWS_EXPRS, ("NEWS_ID",), rows)
     return len(rows)
+
+
+GRAPH_EDGE_COLUMNS = ("FROM_ID", "FROM_NAME", "FROM_TYPE", "RELATIONSHIP", "TO_ID", "TO_NAME",
+                      "TO_TYPE", "KIND", "DETAIL", "SOURCE", "REPORTED_BY", "CONFIDENCE",
+                      "EVIDENCE", "FILING_URL", "NOTE")
+GRAPH_COMPANY_COLUMNS = ("TICKER", "NAME", "IN_UNIVERSE", "CIK", "SECTOR", "HQ_COUNTRY")
+GRAPH_COMPANY_EXPRS = ("$1", "$2", "TRY_TO_BOOLEAN($3)", "TRY_TO_NUMBER($4)", "$5", "$6")
+
+
+def csv_rows(path: Path, columns: Sequence[str]) -> list[tuple]:
+    """Rows from a kg.export_edges CSV, in `columns` order. Empty cells become
+    NULL, matching how the CSVs were first loaded (NULL_IF = (''))."""
+    with path.open(encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        header = [h.upper() for h in reader.fieldnames or []]
+        missing = [c for c in columns if c not in header]
+        if missing:
+            raise ValueError(f"{path.name} is missing columns {missing}")
+        return [
+            tuple((row[c.lower()] if row[c.lower()] != "" else None) for c in columns)
+            for row in reader
+        ]
+
+
+def replace_graph(conn, edges_csv: Path, companies_csv: Path) -> dict:
+    """Replace GRAPH_EDGES and GRAPH_COMPANIES with the CSV export, atomically."""
+    edges = csv_rows(edges_csv, GRAPH_EDGE_COLUMNS)
+    companies = csv_rows(companies_csv, GRAPH_COMPANY_COLUMNS)
+    if not edges or not companies:
+        raise ValueError("Graph export is empty; run kg.load and kg.export_edges first")
+    cur = conn.cursor()
+    try:
+        cur.execute("BEGIN")
+        cur.execute("DELETE FROM GRAPH_EDGES")
+        cur.execute("DELETE FROM GRAPH_COMPANIES")
+        _insert(cur, "GRAPH_EDGES", GRAPH_EDGE_COLUMNS,
+                [f"${i}" for i in range(1, len(GRAPH_EDGE_COLUMNS) + 1)], edges)
+        _insert(cur, "GRAPH_COMPANIES", GRAPH_COMPANY_COLUMNS, GRAPH_COMPANY_EXPRS, companies)
+        cur.execute("COMMIT")
+    except Exception:
+        cur.execute("ROLLBACK")
+        raise
+    finally:
+        cur.close()
+    return {"edges": len(edges), "companies": len(companies)}

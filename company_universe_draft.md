@@ -17,7 +17,9 @@ The first 8 new companies (INTC, MU, AVGO, QCOM, ASML, CRUS, AMZN, GOOGL) have b
 - **Two filings had no standard section headings** (Intel's topic-organized 10-K and ASML's 20-F, which is its full annual report). The fetcher now falls back to keeping only sentences that mention a known company or a supply-chain term. On NVDA's filing this keeps 26 of the 27 quotes the normal extraction used.
 - **Hand-check fixes**: one row removed (Cirrus Logic's "limited sales to Russia" would have become a major-market link), and company-name matching now handles names like "Taiwan Semiconductor Manufacturing Company (TSMC)" and variants such as "Global Foundries" / "GLOBALFOUNDRIES".
 
-Not yet done for the pilot companies: Story Mode stories, and refreshing the Snowflake graph tables (still the 5-company version).
+Snowflake's graph tables have been refreshed to match (194 edges, 74 companies, 13 supported). A second hand-check fix came from that step: Intel's filing says its Mobileye subsidiary is headquartered in Israel, which had been recorded as Intel's headquarters; that row is removed, and the export now always gives one row per company.
+
+Not yet done for the pilot companies: Story Mode stories.
 
 ## How the list was chosen
 

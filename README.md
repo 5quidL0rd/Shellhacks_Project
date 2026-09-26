@@ -2,7 +2,7 @@
 
 An app that helps experienced investors see what matters to *their* portfolio: which news affects their holdings, how their holdings are connected through suppliers, customers, and competitors, and why each stock's price moved. The product vision (pitch, features, and the principles every feature follows) is in [Product.md](Product.md); the build steps are in [plans.md](plans.md).
 
-Current scope: five companies, **Apple (AAPL), Nvidia (NVDA), AMD (AMD), TSMC (TSM), and Microsoft (MSFT)**.
+Current scope: **13 companies** (listed in [data/companies.json](data/companies.json)): the original five, Apple, Nvidia, AMD, TSMC, and Microsoft, plus a pilot of eight: Intel, Micron, Broadcom, Qualcomm, ASML, Cirrus Logic, Amazon, and Alphabet. A 40-company list is drafted in [company_universe_draft.md](company_universe_draft.md).
 
 *Last updated: September 26, 2026*
 
@@ -12,8 +12,8 @@ Current scope: five companies, **Apple (AAPL), Nvidia (NVDA), AMD (AMD), TSMC (T
 
 | Area (plans.md) | Status | Notes |
 |---|---|---|
-| **Knowledge graph** for the Connection Map | Done for 5 companies | Built from SEC filings, loaded in Neo4j AuraDB and mirrored in Snowflake |
-| **Story Mode** (why each price move happened) | Done for 5 companies | 57 explained moves with verified citations; served by the API |
+| **Knowledge graph** for the Connection Map | Done for 13 companies | Built from SEC filings, loaded in Neo4j AuraDB and mirrored in Snowflake |
+| **Story Mode** (why each price move happened) | Done for the original 5 | 57 explained moves with verified citations; the 8 pilot companies have no stories yet |
 | **Snowflake** (sponsor track) | Connected and loaded | Graph, stories, prices, and news are in Snowflake |
 | **Backend API** (FastAPI) | Partly done | Story, universe, and graph endpoints work; feed and research are not started |
 | **Frontend** | Not started | |
@@ -108,7 +108,7 @@ Never commit `.env`, the private key, or any token.
 |---|---|
 | `GET /health` | Liveness, without touching Snowflake |
 | `GET /health/snowflake` | Confirms the Snowflake connection |
-| `GET /universe` | The 5 companies and their graph connections |
+| `GET /universe` | The supported companies and their graph connections |
 | `GET /story/{symbol}` | Price series and cited explanations of each big move |
 | `GET /story/{symbol}/citation/{id}` | One evidence row for the drill-down panel |
 | `GET /graph/summary` | Graph table row counts in Snowflake |
@@ -121,7 +121,8 @@ Never commit `.env`, the private key, or any token.
 ### Knowledge graph
 - Pulls each company's latest annual report from SEC EDGAR (TSMC files a 20-F, not a 10-K) and keeps the Business and Risk Factors sections.
 - Gemini extracts suppliers, customers, competitors, and countries, each with an exact quote. Every quote was confirmed to appear word for word in the filing.
-- Graph: 5 of our companies plus 38 outside companies named in the filings, 3 sectors, 9 countries, 80 relationships. "Customer of" is stored as `SUPPLIES` in the other direction.
+- Graph: 13 supported companies plus 61 outside companies named in the filings, 5 sectors, 14 countries, 194 relationships, 35 of them directly between supported companies. "Customer of" is stored as `SUPPLIES` in the other direction.
+- TSMC supplies 7 of the 13 supported companies, and ASML supplies TSMC and Intel.
 - Filings often leave key names out (Apple's 10-K names no suppliers; TSMC's 20-F names no customers), so three edges are hand-added in `data/manual_edges.json`, each marked `source: manual` with a reason.
 
 ### Story Mode
@@ -132,7 +133,7 @@ Never commit `.env`, the private key, or any token.
 
 ### Snowflake
 - A dedicated app login (`SHELLHACKS_APP`) with key-pair authentication and limited permissions.
-- Tables: `GRAPH_EDGES` (80), `GRAPH_COMPANIES` (43), `STORIES` (5), `STORY_EVENTS` (57), `STORY_EVIDENCE` (282), `PRICES` (655), `NEWS` (1,236). `PRICE_HISTORY` is a view over `PRICES` that adds the daily change and direction.
+- Tables: `GRAPH_EDGES` (194), `GRAPH_COMPANIES` (74), `STORIES` (5), `STORY_EVENTS` (57), `STORY_EVIDENCE` (282), `PRICES` (655), `NEWS` (1,236). `PRICE_HISTORY` is a view over `PRICES` that adds the daily change and direction.
 - Loaders are safe to re-run: stories are replaced per company, and prices and news are updated in place. News builds up history each time it runs.
 
 ---

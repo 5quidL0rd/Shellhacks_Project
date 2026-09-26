@@ -239,13 +239,14 @@
     {
       "type": "OPERATES_IN",
       "counterparty_name": null,
-      "country": "Israel",
+      "country": null,
       "operates_kind": "headquarters",
       "detail": "Mobileye business headquarters and operations",
       "evidence": "Further, our Mobileye business is headquartered and has most of its operations in Israel and could be similarly impacted",
       "confidence": "high",
       "is_named": false,
-      "evidence_verified": true
+      "evidence_verified": true,
+      "review_note": "Hand-check: the quote is about Mobileye, an Intel subsidiary, being headquartered in Israel; not Intel's headquarters."
     },
     {
       "type": "SUPPLIER",

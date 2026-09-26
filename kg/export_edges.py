@@ -31,12 +31,16 @@ RETURN coalesce(a.ticker, a.name) AS from_id, a.name AS from_name, labels(a)[0] 
 ORDER BY relationship, from_id, to_id, kind
 """
 
+# One row per company. A filing can add a second "headquarters" link, so the
+# headquarters from data/companies.json (source 'config') is preferred.
 COMPANIES_QUERY = """
 MATCH (c:Company)
 OPTIONAL MATCH (c)-[:IN_SECTOR]->(s:Sector)
-OPTIONAL MATCH (c)-[:OPERATES_IN {kind: 'headquarters'}]->(k:Country)
+OPTIONAL MATCH (c)-[h:OPERATES_IN {kind: 'headquarters'}]->(k:Country)
+WITH c, s, k ORDER BY CASE h.source WHEN 'config' THEN 0 ELSE 1 END
+WITH c, collect(DISTINCT s.name)[0] AS sector, collect(k.name)[0] AS hq_country
 RETURN c.ticker AS ticker, c.name AS name, c.in_universe AS in_universe, c.cik AS cik,
-       s.name AS sector, k.name AS hq_country
+       sector, hq_country
 ORDER BY in_universe DESC, ticker
 """
 

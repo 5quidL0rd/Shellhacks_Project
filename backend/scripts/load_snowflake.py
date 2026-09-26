@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """Load Story Mode data into Snowflake.
 
-    python -m scripts.load_snowflake                     # stories, prices, news for all five
+    python -m scripts.load_snowflake                     # graph, stories, prices, news for every company
+    python -m scripts.load_snowflake graph               # just the knowledge graph tables
     python -m scripts.load_snowflake stories             # just the stories
     python -m scripts.load_snowflake prices news NVDA    # some datasets, some companies
 
 Stories come from the committed cache (data/cache/story_*.json), so build them
-first with scripts.build_story_cache. Prices and news use the same fetchers as
-Story Mode (cached for a few hours). Safe to re-run: stories are replaced per
-company, prices and news are upserted.
+first with scripts.build_story_cache. The graph comes from data/exports/ (run
+kg.load and kg.export_edges first). Prices and news use the same fetchers as
+Story Mode (cached for a few hours). Safe to re-run: the graph is replaced
+whole, stories are replaced per company, prices and news are upserted.
 """
 import sys
 from pathlib import Path
@@ -17,10 +19,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from app import warehouse  # noqa: E402
 from app.cache import load  # noqa: E402
+from app.config import GRAPH_EDGES_CSV  # noqa: E402
 from app.snowflake_db import get_connection  # noqa: E402
 from app.universe import SYMBOLS  # noqa: E402
 
-DATASETS = ("stories", "prices", "news")
+DATASETS = ("graph", "stories", "prices", "news")
 
 
 def main(args: list[str]) -> int:
@@ -33,6 +36,12 @@ def main(args: list[str]) -> int:
 
     failures = 0
     with get_connection() as conn:
+        if "graph" in datasets:
+            counts = warehouse.replace_graph(
+                conn, GRAPH_EDGES_CSV, GRAPH_EDGES_CSV.with_name("graph_companies.csv"))
+            print(f"graph: {counts['edges']} edges, {counts['companies']} companies (tables replaced)")
+            if datasets == ["graph"]:
+                symbols = []
         for symbol in symbols:
             print(f"\n=== {symbol} ===", flush=True)
             if "stories" in datasets:

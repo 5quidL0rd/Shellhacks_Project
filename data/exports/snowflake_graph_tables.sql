@@ -1,4 +1,5 @@
--- Reload the knowledge graph tables in Snowflake from the CSV exports.
+-- Reload the knowledge graph tables in Snowflake from the CSV exports, by hand.
+-- The usual way is one command from backend/: python -m scripts.load_snowflake graph
 -- Source files: graph_edges.csv and graph_companies.csv (made by `python -m kg.export_edges`).
 --
 -- The tables themselves are defined in snowflake/schema_contract.sql; this file
@@ -43,7 +44,8 @@ DELETE FROM GRAPH_COMPANIES;
 COPY INTO GRAPH_COMPANIES FROM @GRAPH_STAGE FILES = ('graph_companies.csv') FORCE = TRUE;
 COMMIT;
 
--- Checks: expect 80 edges and 43 companies (5 with in_universe = TRUE).
+-- Checks: row counts should match the CSVs (one row per line, minus the header);
+-- in_universe = TRUE should match the number of companies in data/companies.json.
 SELECT relationship, COUNT(*) FROM GRAPH_EDGES GROUP BY relationship ORDER BY relationship;
 SELECT in_universe, COUNT(*) FROM GRAPH_COMPANIES GROUP BY in_universe;
 

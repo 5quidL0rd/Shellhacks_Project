@@ -87,3 +87,23 @@ def test_values_clause_binds_every_value():
     sql, params = _values_clause([(1, "a"), (2, "b")])
     assert sql == "VALUES (%s, %s), (%s, %s)"
     assert params == [1, "a", 2, "b"]
+
+
+def test_graph_csv_rows_turn_empty_cells_into_nulls(tmp_path):
+    from app.warehouse import GRAPH_COMPANY_COLUMNS, csv_rows
+    path = tmp_path / "graph_companies.csv"
+    path.write_text("ticker,name,in_universe,cik,sector,hq_country\n"
+                    "AAPL,Apple Inc.,True,320193,Technology Hardware,United States\n"
+                    "samsung-electronics,Samsung Electronics,False,,,\n", encoding="utf-8")
+    rows = csv_rows(path, GRAPH_COMPANY_COLUMNS)
+    assert rows[0] == ("AAPL", "Apple Inc.", "True", "320193", "Technology Hardware", "United States")
+    assert rows[1] == ("samsung-electronics", "Samsung Electronics", "False", None, None, None)
+
+
+def test_graph_csv_rows_reject_a_missing_column(tmp_path):
+    import pytest
+    from app.warehouse import GRAPH_COMPANY_COLUMNS, csv_rows
+    path = tmp_path / "graph_companies.csv"
+    path.write_text("ticker,name\nAAPL,Apple\n", encoding="utf-8")
+    with pytest.raises(ValueError, match="missing columns"):
+        csv_rows(path, GRAPH_COMPANY_COLUMNS)
