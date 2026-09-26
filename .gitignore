@@ -1,6 +1,8 @@
-# Secrets: never commit either env file.
+# Secrets: never commit either env file, or private keys.
 .env
 backend/.env
+backend/keys/
+*.p8
 
 .venv/
 __pycache__/
