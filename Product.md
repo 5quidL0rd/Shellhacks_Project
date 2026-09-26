@@ -89,7 +89,7 @@ GraphRAG over the knowledge graph, e.g., "What do I own that depends on TSMC?" o
 ## How Risk Propagation Works
 
 1. **Build the map (AI, offline):** an LLM reads each company's annual report from SEC EDGAR (10-K, or 20-F for foreign filers like TSMC) and extracts relationships as structured JSON (e.g., "TSMC `SUPPLIES` NVDA"), stored with the supporting quote and filing source. Extractions are hand-checked before loading.
-2. **Understand the news (AI):** for each article, an LLM identifies the company it concerns and classifies it as positive or negative, with an event type (e.g., supply disruption, lawsuit, earnings miss). This can run inside Snowflake with Cortex AI functions over the `NEWS` table.
+2. **Understand the news (AI):** for each article, an LLM identifies the company it concerns and classifies it as positive or negative, with an event type (e.g., supply disruption, lawsuit, earnings miss).
 3. **Find affected holdings (graph query, no AI):** traverse from the news company to the user's holdings.
 4. **Explain it (AI):** an LLM writes a plain-English alert from the query result.
 
@@ -184,7 +184,7 @@ Ratios for the shape comparison (debt-to-equity, volatility, market cap) are not
 ## Tech Stack
 
 - **Graph:** Neo4j (AuraDB free tier)
-- **Data warehouse:** Snowflake (hackathon sponsor): stores the graph mirror, stories with their citations, prices, and news; a candidate for news classification with Cortex AI functions
+- **Data warehouse:** Snowflake (hackathon sponsor): stores the graph mirror, stories with their citations, prices, and news. Snowflake Cortex (its built-in AI functions) is not available to the project, so all AI work runs on Gemini.
 - **LLM:** Google Gemini for extraction and explanations
 - **Backend:** Python, FastAPI; GraphRAG (LangGraph optional)
 - **Frontend:** React; react-force-graph or Cytoscape.js for the map; TradingView Lightweight Charts for Story Mode

@@ -52,6 +52,14 @@ Then open `http://127.0.0.1:8000/docs` for the interactive API page.
 | `GET /story/{symbol}/citation/{id}` | story cache | One evidence row for the drill-down panel |
 | `GET /graph/summary` | Snowflake | Row counts of the graph tables |
 | `GET /graph/{ticker}/connections` | Snowflake | Companies linked to a ticker, with `role`: supplier, customer, or competitor |
+| `GET /portfolio/xray?holdings=AAPL,NVDA` | graph export | Dependencies (suppliers, countries) ranked by how many holdings share them. Headquarters left out unless `include_headquarters=true` |
+| `GET /portfolio/map?holdings=...` | graph export | `nodes` and `links` for the holdings and everything one step away; `include_countries`, `include_competitors` toggles |
+| `GET /portfolio/impact?company=TSM&holdings=...` | graph export | Holdings touched by news about a company: `customer`, `supplier`, `indirect_customer` (one more supply-chain step), or `competitor`, each with the path and evidence |
+
+Portfolio endpoints take `holdings` comma-separated or repeated. Tickers outside
+the universe come back in `unsupported` instead of failing the request. They
+read the graph export in `data/exports/`, not Neo4j, so they need no live
+connection; restart the API after re-exporting the graph.
 
 The feed and research endpoints will be added once their Snowflake tables are
 populated. See `data_sources.md` for Story Mode's sources and citation rules,

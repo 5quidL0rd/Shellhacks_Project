@@ -9,6 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from snowflake.connector import DictCursor
 from snowflake.connector.errors import Error as SnowflakeError
 
+from . import portfolio
 from .connections import connections
 from .snowflake_db import get_connection
 from .story.build import get_story
@@ -96,6 +97,58 @@ def graph_connections(ticker: str) -> list[dict]:
         """,
         (ticker, ticker, ticker, ticker, ticker),
     )
+
+
+def _holdings(raw: list[str]) -> tuple[list[str], list[str]]:
+    supported, unsupported = portfolio.parse_holdings(raw)
+    if not supported:
+        raise HTTPException(
+            status_code=400,
+            detail=f"None of the holdings are supported. Unsupported: {unsupported}. "
+                   f"Supported: {list(SYMBOLS)}",
+        )
+    return supported, unsupported
+
+
+HOLDINGS = Query(..., description="Tickers, comma-separated or repeated: ?holdings=AAPL,NVDA")
+
+
+@app.get("/portfolio/xray")
+def portfolio_xray(holdings: list[str] = HOLDINGS, include_headquarters: bool = False) -> dict:
+    """What the portfolio depends on (suppliers and countries), ranked by how
+    many holdings share each dependency. The home screen."""
+    supported, unsupported = _holdings(holdings)
+    deps = portfolio.xray(supported, include_headquarters)
+    return {
+        "holdings": supported,
+        "unsupported": unsupported,
+        "shared_count": sum(d["holding_count"] > 1 for d in deps),
+        "dependencies": deps,
+    }
+
+
+@app.get("/portfolio/map")
+def portfolio_map(holdings: list[str] = HOLDINGS,
+                  include_countries: bool = True,
+                  include_competitors: bool = True) -> dict:
+    """Nodes and links for the Connection Map: the holdings and everything one
+    step away. Shaped for react-force-graph / Cytoscape.js."""
+    supported, unsupported = _holdings(holdings)
+    return {"holdings": supported, "unsupported": unsupported,
+            **portfolio.portfolio_map(supported, include_countries, include_competitors)}
+
+
+@app.get("/portfolio/impact")
+def portfolio_impact(company: str = Query(..., description="Ticker or graph id, e.g. TSM or samsung-electronics"),
+                     holdings: list[str] = HOLDINGS) -> dict:
+    """Which holdings news about `company` touches, and how: supply chain in
+    both directions, one extra step downstream, and competitors."""
+    supported, unsupported = _holdings(holdings)
+    try:
+        result = portfolio.impact(company, supported)
+    except KeyError as exc:
+        raise HTTPException(status_code=404, detail=str(exc.args[0])) from None
+    return {"holdings": supported, "unsupported": unsupported, **result}
 
 
 @app.get("/universe")

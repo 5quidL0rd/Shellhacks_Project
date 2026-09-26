@@ -15,7 +15,7 @@ Current scope: **13 companies** (listed in [data/companies.json](data/companies.
 | **Knowledge graph** for the Connection Map | Done for 13 companies | Built from SEC filings, loaded in Neo4j AuraDB and mirrored in Snowflake |
 | **Story Mode** (why each price move happened) | Done for all 13 companies | 153 explained moves, 113 at high confidence; every citation verified; served by the API |
 | **Snowflake** (sponsor track) | Connected and loaded | Graph, stories, prices, and news are in Snowflake |
-| **Backend API** (FastAPI) | Partly done | Story, universe, and graph endpoints work; feed and research are not started |
+| **Backend API** (FastAPI) | Partly done | Story, graph, X-Ray, portfolio map, and impact endpoints work; feed, research, and saving a portfolio are not started |
 | **Frontend** | Not started | |
 | **What Changed feed** | Not started | The data it needs (news and graph) is in place |
 | **Research a New Investment** | Not started | Needs financial ratios (`FUNDAMENTALS` is empty) |
@@ -113,6 +113,9 @@ Never commit `.env`, the private key, or any token.
 | `GET /story/{symbol}/citation/{id}` | One evidence row for the drill-down panel |
 | `GET /graph/summary` | Graph table row counts in Snowflake |
 | `GET /graph/{ticker}/connections` | A company's connections, each with its role (supplier, customer, competitor) |
+| `GET /portfolio/xray?holdings=AAPL,NVDA` | What the portfolio depends on (suppliers, countries), ranked by how many holdings share each; the home screen |
+| `GET /portfolio/map?holdings=...` | Nodes and links for the Connection Map, shaped for react-force-graph / Cytoscape.js |
+| `GET /portfolio/impact?company=TSM&holdings=...` | Which holdings news about a company touches, and how (supply chain, one step further downstream, competitors) |
 
 ---
 
@@ -149,7 +152,9 @@ Never commit `.env`, the private key, or any token.
 ### Medium priority
 5. **Scale the knowledge graph to the full list.** For each company: add it to `data/companies.json`, run the three `kg` commands, hand-check the JSON, re-export, and reload Snowflake.
 6. **Fill `FUNDAMENTALS`** with revenue growth, profit margin, debt-to-equity, volatility, and market cap for the radar shape in Research a New Investment.
-7. **Decide on the Snowflake Cortex test.** Cortex could write Story Mode labels inside Snowflake, the strongest angle for the sponsor prize. The Snowflake owner is waiting for an explicit go-ahead since it uses credits.
+
+### Decisions made
+- **Snowflake Cortex will not be used** (not available to the project). Snowflake stores and serves the data; all AI work runs on Gemini.
 
 ### Decisions the team still owes
 - **The two general-knowledge graph edges** (TSMC supplies Apple; Nvidia supplies Microsoft): keep them, clearly marked as manual, or show only what filings state.
