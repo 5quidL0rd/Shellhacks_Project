@@ -145,12 +145,14 @@ function EvidenceIcon({ kind }: { kind: string }) {
 }
 
 /** A numbered citation: an icon for the kind of evidence, the number, and a
- * hover title saying what it is. Clicking opens the evidence panel. */
+ * hover title saying what it is. A click opens the evidence panel; a
+ * double-click brings back the "How to read the citations" guide (the second
+ * click of a double-click arrives with e.detail === 2, and passes null). */
 export function Cite({ n, id, active, onClick, evidence }: {
   n: number
   id: string
   active: boolean
-  onClick: (id: string) => void
+  onClick: (id: string | null) => void
   evidence?: { kind: string; title: string; occurred_on?: string }
 }) {
   const label = evidence ? EVIDENCE_LABEL[evidence.kind] ?? evidence.kind : 'Source'
@@ -161,7 +163,7 @@ export function Cite({ n, id, active, onClick, evidence }: {
     <button className={`cite ${active ? 'active' : ''}`}
             aria-label={`Citation ${n}: ${label}${evidence ? `, ${evidence.title}` : ''}`}
             title={`${label}${when}${evidence ? ` · ${evidence.title}` : ''}`}
-            onClick={(e) => { e.stopPropagation(); onClick(id) }}>
+            onClick={(e) => { e.stopPropagation(); onClick(e.detail >= 2 ? null : id) }}>
       {evidence && <EvidenceIcon kind={evidence.kind} />}{n}
     </button>
   )
@@ -178,7 +180,8 @@ export function CiteGuide({ kinds }: { kinds: string[] }) {
       <p className="small secondary">
         Each explanation was written only from the sources we gathered first. The small numbered
         buttons after a paragraph are those sources: the icon says what kind it is, and clicking one
-        opens it with its figures and a link to the original.
+        opens it with its figures and a link to the original. Double-click any of them to come back
+        to this guide.
       </p>
       <dl className="cite-guide-list">
         {shown.map((k) => (

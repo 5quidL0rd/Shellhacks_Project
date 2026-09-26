@@ -447,7 +447,7 @@ function BriefList({ title, tone, items, citation, evidence, onCite }: {
   items: { point: string; citation_ids: string[] }[]
   citation: string | null
   evidence: Analysis['evidence']
-  onCite: (id: string) => void
+  onCite: (id: string | null) => void
 }) {
   return (
     <div className="brief-block">
@@ -490,7 +490,10 @@ function EvidencePanel({ e, onClose }: { e: ResearchEvidence; onClose: () => voi
       <p className="small">
         {e.url ? <a href={e.url} target="_blank" rel="noreferrer">Open source · {e.source}</a> : e.source}
       </p>
-      <button className="ghost-btn small" onClick={onClose}>Close</button>
+      <div className="row-between">
+        <button className="ghost-btn small" onClick={onClose}>Close</button>
+        <span className="small muted">Double-click a citation for the guide</span>
+      </div>
     </div>
   )
 }

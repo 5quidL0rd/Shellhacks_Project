@@ -135,7 +135,7 @@ function BeatItem({ beat, selected, citation, evidence, onSelect, onCite }: {
   citation: string | null
   evidence: Story['evidence']
   onSelect: () => void
-  onCite: (id: string) => void
+  onCite: (id: string | null) => void
 }) {
   const sign = beat.pct_change > 0 ? '+' : ''
   return (
@@ -176,7 +176,10 @@ function EvidencePanel({ e, onClose }: { e: Evidence; onClose: () => void }) {
       <p className="small">
         {e.url ? <a href={e.url} target="_blank" rel="noreferrer">Open source · {e.source}</a> : e.source}
       </p>
-      <button className="ghost-btn small" onClick={onClose}>Close</button>
+      <div className="row-between">
+        <button className="ghost-btn small" onClick={onClose}>Close</button>
+        <span className="small muted">Double-click a citation for the guide</span>
+      </div>
     </div>
   )
 }
