@@ -57,6 +57,26 @@ The feed and research endpoints will be added once their Snowflake tables are
 populated. See `data_sources.md` for Story Mode's sources and citation rules,
 and `snowflake/schema_contract.sql` for the table definitions.
 
+## Load data into Snowflake
+
+From the `backend` folder, after building the stories (`python -m scripts.build_story_cache`):
+```bash
+../.venv/bin/python -m scripts.load_snowflake                    # stories, prices, news for all five
+../.venv/bin/python -m scripts.load_snowflake stories NVDA       # one dataset, one company
+```
+Safe to re-run. Stories are replaced per company in one transaction (`STORIES`,
+`STORY_EVENTS`, `STORY_EVIDENCE`); prices and news are upserted into `PRICES`
+and `NEWS`, so news builds up history beyond Finnhub's few-day free window.
+`PRICE_HISTORY` is a view over `PRICES` and needs no loading.
+
+To see every source behind one story event:
+```sql
+SELECT ev.KIND, ev.TITLE, ev.URL
+FROM STORY_EVENTS e, LATERAL FLATTEN(input => e.CITATION_IDS) c
+JOIN STORY_EVIDENCE ev ON ev.EVIDENCE_ID = c.value::VARCHAR
+WHERE e.EVENT_ID = 'NVDA_2026-08-27';
+```
+
 ## Tests
 
 From the `backend` folder:

@@ -55,6 +55,8 @@ def company_news(symbol: str, days: int = 180) -> list[dict]:
             continue
         published = datetime.fromtimestamp(int(stamp), tz=timezone.utc)
         items.append({
+            "id": entry.get("id"),
+            "category": entry.get("category") or "",
             "headline": (entry.get("headline") or "").strip(),
             "summary": (entry.get("summary") or "").strip(),
             "publisher": entry.get("source") or "unknown",
