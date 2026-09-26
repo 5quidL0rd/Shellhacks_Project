@@ -1,0 +1,94 @@
+{
+  "available": true,
+  "form": "10-K",
+  "filing_date": "2026-01-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+  "facts": [
+    {
+      "kind": "single_source",
+      "subject": "sole-source providers, such as with the EUV lithography tools manufactured by ASML",
+      "counterparty_name": "ASML",
+      "percent": null,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": null,
+      "period": null,
+      "threshold": null,
+      "earlier": [],
+      "evidence": "In some cases, however, we are reliant upon sole-source providers, such as with the EUV lithography tools manufactured by ASML that are required for leading-edge process technologies",
+      "confidence": "high"
+    },
+    {
+      "kind": "geographic_concentration",
+      "subject": "Sales outside the U.S.",
+      "counterparty_name": null,
+      "percent": 70.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "revenue",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [],
+      "evidence": "Sales outside the U.S. accounted for 70% of our revenue for 2025.",
+      "confidence": "high"
+    },
+    {
+      "kind": "geographic_concentration",
+      "subject": "revenue from billings to China",
+      "counterparty_name": null,
+      "percent": 24.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "total revenue",
+      "period": "fiscal year ended December 27, 2025",
+      "threshold": null,
+      "earlier": [],
+      "evidence": "revenue from billings to China contributing 24% of our total revenue.",
+      "confidence": "high"
+    },
+    {
+      "kind": "single_source",
+      "subject": "a single or a limited number of suppliers, or upon suppliers in a single location",
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "group",
+      "basis": "unspecified",
+      "metric": null,
+      "period": null,
+      "threshold": null,
+      "earlier": [],
+      "evidence": "For certain products, components, services, materials and equipment, we rely on a single or a limited number of suppliers, or upon suppliers in a single location",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "our three largest customers",
+      "counterparty_name": null,
+      "percent": 43.0,
+      "at_least": false,
+      "scope": "group",
+      "basis": "unspecified",
+      "metric": "net revenue",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2024",
+          "percent": 45.0
+        },
+        {
+          "period": "2023",
+          "percent": 40.0
+        }
+      ],
+      "evidence": "Collectively, our three largest customers accounted for 43% of our net revenue in 2025, 45% of our net revenue in 2024 and 40% of our net revenue in 2023.",
+      "confidence": "high"
+    }
+  ],
+  "dropped_unverified": 0,
+  "passage_chars": 5211
+}

@@ -13,6 +13,7 @@ from __future__ import annotations
 from ..cache import load, save
 from ..sources import news
 from ..universe import COMPANIES
+from . import concentration as conc
 from . import fit as fit_module
 from . import generate
 from . import lookup
@@ -140,8 +141,9 @@ def _radar(metrics: dict[str, Metric]) -> list[dict]:
 
 # Bump when the analysis changes, so results cached by an older version are
 # recomputed instead of served. v2: no-data verdict, held stocks not compared
-# with themselves.
-ANALYSIS_VERSION = 2
+# with themselves. v3: concentration carries the revenue mix. v4: named
+# customers and year-over-year shares.
+ANALYSIS_VERSION = 4
 
 
 def _cache_key(ticker: str, holdings: list[str]) -> str:
@@ -205,6 +207,24 @@ def analyse(query: str, holdings: list[str], refresh: bool = False) -> dict:
         except Exception as exc:
             warnings.append(f"Could not read {subject.ticker}'s annual report ({exc}).")
 
+    # How much its dependencies matter, not just that they exist. Read from the
+    # same filing, so this costs one extra Gemini call over ~1.5% of the text.
+    concentration = None
+    try:
+        found = conc.for_company(subject.cik, subject.name)
+        concentration = {"summary": conc.summarise(found),
+                         "headline": conc.headline(found),
+                         "largest_customer_share": conc.customer_share(found),
+                         "revenue_mix": {
+                             **conc.revenue_mix(found),
+                             "depended_on_by": conc.depended_on_by(
+                                 subject.name, exclude_cik=subject.cik or ""),
+                             "named_in_filings": conc.named_in_filings(subject.graph_id),
+                         },
+                         **found}
+    except Exception as exc:
+        warnings.append(f"Concentration disclosures unavailable ({exc}).")
+
     components = {
         "correlation": fit_module.correlation_fit(subject_bars, holding_bars),
         "sector_crowding": fit_module.sector_crowding(
@@ -255,6 +275,7 @@ def analyse(query: str, holdings: list[str], refresh: bool = False) -> dict:
         "map_placement": _map_placement(subject, others),
         "filing_read": ({"summary": rels.summarise(extracted), **extracted}
                         if extracted else None),
+        "concentration": concentration,
         "alternatives": [m.as_dict() for m in alternatives[1:4]],
         "warnings": warnings + brief["warnings"],
         "disclaimer": (

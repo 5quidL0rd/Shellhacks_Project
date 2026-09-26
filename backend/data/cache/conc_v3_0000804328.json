@@ -1,0 +1,153 @@
+{
+  "available": true,
+  "form": "10-K",
+  "filing_date": "2025-11-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm",
+  "facts": [
+    {
+      "kind": "customer_concentration",
+      "subject": "Apple",
+      "counterparty_name": "Apple",
+      "percent": 10.0,
+      "at_least": true,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "consolidated revenues",
+      "period": "fiscal 2025",
+      "threshold": null,
+      "earlier": [],
+      "evidence": "In fiscal 2025, revenues from Apple, Samsung and Xiaomi each comprised 10% or more of our consolidated revenues.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "Samsung",
+      "counterparty_name": "Samsung",
+      "percent": 10.0,
+      "at_least": true,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "consolidated revenues",
+      "period": "fiscal 2025",
+      "threshold": null,
+      "earlier": [],
+      "evidence": "In fiscal 2025, revenues from Apple, Samsung and Xiaomi each comprised 10% or more of our consolidated revenues.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "Xiaomi",
+      "counterparty_name": "Xiaomi",
+      "percent": 10.0,
+      "at_least": true,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "consolidated revenues",
+      "period": "fiscal 2025",
+      "threshold": null,
+      "earlier": [],
+      "evidence": "In fiscal 2025, revenues from Apple, Samsung and Xiaomi each comprised 10% or more of our consolidated revenues.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "Customer/licensee (x)",
+      "counterparty_name": null,
+      "percent": 21.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "total revenues",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2024",
+          "percent": 22.0
+        },
+        {
+          "period": "2023",
+          "percent": 27.0
+        }
+      ],
+      "evidence": "Customer/licensee (x) 21 % 22 % 27 %",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "Customer/licensee (y)",
+      "counterparty_name": null,
+      "percent": 20.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "total revenues",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2024",
+          "percent": 19.0
+        },
+        {
+          "period": "2023",
+          "percent": 21.0
+        }
+      ],
+      "evidence": "Customer/licensee (y) 20 19 21",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "Customer/licensee (z)",
+      "counterparty_name": null,
+      "percent": 13.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "total revenues",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2024",
+          "percent": 12.0
+        }
+      ],
+      "evidence": "Customer/licensee (z) 13 12 *",
+      "confidence": "high"
+    },
+    {
+      "kind": "single_source",
+      "subject": "a limited number of suppliers, including in some cases sole suppliers",
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "group",
+      "basis": "unspecified",
+      "metric": null,
+      "period": null,
+      "threshold": null,
+      "earlier": [],
+      "evidence": "in some cases, we rely on a limited number of suppliers, including in some cases sole suppliers, particularly in Asia.",
+      "confidence": "high"
+    },
+    {
+      "kind": "single_source",
+      "subject": "sole- or limited-source suppliers",
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "group",
+      "basis": "unspecified",
+      "metric": null,
+      "period": null,
+      "threshold": null,
+      "earlier": [],
+      "evidence": "We rely on sole- or limited-source suppliers for some products, particularly products in our QCT segment, subjecting us to possible shortages of raw materials or manufacturing capacity.",
+      "confidence": "high"
+    }
+  ],
+  "dropped_unverified": 0,
+  "passage_chars": 7879
+}

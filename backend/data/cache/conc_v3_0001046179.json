@@ -1,0 +1,206 @@
+{
+  "available": true,
+  "form": "20-F",
+  "filing_date": "2026-04-16",
+  "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+  "facts": [
+    {
+      "kind": "customer_concentration",
+      "subject": "our ten largest customers",
+      "counterparty_name": null,
+      "percent": 78.0,
+      "at_least": false,
+      "scope": "group",
+      "basis": "unspecified",
+      "metric": "net revenue",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2023",
+          "percent": 70.0
+        },
+        {
+          "period": "2024",
+          "percent": 76.0
+        }
+      ],
+      "evidence": "our ten largest customers in 2023 , 2024 and 2025 accounted for approximately, 70% , 76% and 78% of our net revenue in the respective year.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "Our largest customer",
+      "counterparty_name": null,
+      "percent": 19.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "net revenue",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2023",
+          "percent": 25.0
+        },
+        {
+          "period": "2024",
+          "percent": 22.0
+        }
+      ],
+      "evidence": "Our largest customer in 2023 , 2024 and 2025 accounted for 25% , 22% and 19% of our net revenue in the respective year.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "Our second largest customer",
+      "counterparty_name": null,
+      "percent": 17.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "net revenue",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2023",
+          "percent": 11.0
+        },
+        {
+          "period": "2024",
+          "percent": 12.0
+        }
+      ],
+      "evidence": "Our second largest customer in 2023 , 2024 and 2025 accounted for 11% , 12% , and 17% of our net revenue in the respective year.",
+      "confidence": "high"
+    },
+    {
+      "kind": "single_source",
+      "subject": "necessary equipment and related services",
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "group",
+      "basis": "unspecified",
+      "metric": null,
+      "period": null,
+      "threshold": null,
+      "earlier": [],
+      "evidence": "Our operations and ongoing expansion plans depend on our ability to obtain necessary equipment and related services available from a limited number of suppliers.",
+      "confidence": "high"
+    },
+    {
+      "kind": "single_source",
+      "subject": "some of our raw materials",
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "group",
+      "basis": "unspecified",
+      "metric": null,
+      "period": null,
+      "threshold": null,
+      "earlier": [],
+      "evidence": "Also, since we procure some of our raw materials from sole-sourced suppliers, there is a risk that our need for such raw materials may not be met or that back-up supplies may not be readily available.",
+      "confidence": "high"
+    },
+    {
+      "kind": "single_source",
+      "subject": "raw wafers",
+      "counterparty_name": null,
+      "percent": null,
+      "at_least": false,
+      "scope": "group",
+      "basis": "unspecified",
+      "metric": null,
+      "period": null,
+      "threshold": null,
+      "earlier": [],
+      "evidence": "In pursuit of high quality raw wafers, the majority of our raw wafers are supplied by a limited number of suppliers located in Taiwan, Japan, Germany, and Singapore.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "the Company\u2019s ten largest customers",
+      "counterparty_name": null,
+      "percent": 84.0,
+      "at_least": false,
+      "scope": "group",
+      "basis": "unspecified",
+      "metric": "accounts receivable",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2024",
+          "percent": 93.0
+        }
+      ],
+      "evidence": "As of December 31, 2024 and 2025 , the Company\u2019s ten largest customers accounted for 93 % and 84 % of accounts receivable, respectively.",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "Customer A",
+      "counterparty_name": null,
+      "percent": 19.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "net revenue",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2024",
+          "percent": 12.0
+        }
+      ],
+      "evidence": "Customer A NA (Note) NA $ 352,271.2 12 $ 726,974.3 19",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "Customer B",
+      "counterparty_name": null,
+      "percent": 17.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "net revenue",
+      "period": "2025",
+      "threshold": null,
+      "earlier": [
+        {
+          "period": "2023",
+          "percent": 25.0
+        },
+        {
+          "period": "2024",
+          "percent": 22.0
+        }
+      ],
+      "evidence": "Customer B 546,550.9 25 624,345.5 22 645,178.7 17",
+      "confidence": "high"
+    },
+    {
+      "kind": "customer_concentration",
+      "subject": "Customer C",
+      "counterparty_name": null,
+      "percent": 11.0,
+      "at_least": false,
+      "scope": "single",
+      "basis": "unspecified",
+      "metric": "net revenue",
+      "period": "2023",
+      "threshold": null,
+      "earlier": [],
+      "evidence": "Customer C 241,152.4 11 NA (Note) NA NA (Note) NA",
+      "confidence": "high"
+    }
+  ],
+  "dropped_unverified": 0,
+  "passage_chars": 14118
+}

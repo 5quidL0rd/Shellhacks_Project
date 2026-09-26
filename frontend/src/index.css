@@ -700,3 +700,74 @@ input[type="search"].search { margin-bottom: 10px; }
   padding-left: 10px;
   border-left: 2px solid var(--hairline);
 }
+
+/* ---- revenue mix: who pays a company (donut + table) ---- */
+:root {
+  --mix-slice: var(--series-1); /* disclosed customers: one hue, the finding */
+  --mix-rest: #d3dde2; /* everyone else: neutral, not part of the finding */
+}
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.mix { container-type: inline-size; }
+.mix-body { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 20px; align-items: center; margin: 12px 0; }
+/* In a narrow panel (the X-Ray's side panel, a phone) the donut sits above its table. */
+@container (max-width: 520px) { .mix-body { grid-template-columns: 1fr; justify-items: center; } .mix-table { width: 100%; } }
+.mix-trend { color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+.named-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.named-chip { border: 0; padding: 3px 10px; border-radius: 999px; background: var(--surface); font-size: 12px; }
+.named-chip:hover { background: var(--tint); }
+.named-chip.selected { background: var(--accent-wash); box-shadow: inset 0 0 0 1.5px var(--highlight); }
+.donut { overflow: visible; }
+.donut-seg { stroke: var(--mix-slice); transition: stroke-width 0.15s ease, opacity 0.15s ease; cursor: default; }
+.donut-seg.rest { stroke: var(--mix-rest); }
+.donut-seg.dim { opacity: 0.35; }
+.donut-value { font-family: var(--font); font-size: 26px; font-weight: 700; fill: var(--text-primary); }
+.donut-caption { font-family: var(--font); font-size: 11px; fill: var(--text-muted); }
+.mix-table { width: 100%; border-collapse: collapse; }
+.mix-table td { padding: 7px 6px; vertical-align: top; border-bottom: 1px solid var(--grid); }
+.mix-table td:first-child { width: 18px; padding-top: 11px; }
+.mix-row.clickable { cursor: pointer; }
+.mix-row.active td, .mix-row.clickable:hover td { background: var(--wash); }
+.mix-swatch { display: inline-block; width: 10px; height: 10px; border-radius: 3px; background: var(--mix-slice); }
+.mix-swatch.rest { background: var(--mix-rest); }
+.mix-pct { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.mix-section { margin-top: 14px; }
+.mix-section > summary { cursor: pointer; list-style: none; }
+.mix-section > summary::-webkit-details-marker { display: none; }
+.mix-section > summary::before { content: "▸ "; color: var(--text-muted); }
+.mix-section[open] > summary::before { content: "▾ "; }
+.mix-section > summary .card-label { display: inline; }
+.mix-dep { padding: 8px 0; border-bottom: 1px solid var(--grid); }
+.mix-dep:last-child { border-bottom: 0; }
+.mix-method { margin-top: 14px; }
+.mix-named { margin: 4px 0 10px; padding: 10px 12px; border-radius: var(--radius-sm); background: var(--inset); }
+
+/* ---- X-Ray: findings first, then one list at a time ---- */
+.glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 16px 0 22px; }
+.glance-tile {
+  display: grid; gap: 4px; align-content: start; text-align: left;
+  padding: 14px 16px; border: 0; border-radius: var(--radius);
+  background: var(--surface); box-shadow: var(--shadow);
+}
+button.glance-tile:hover { background: var(--wash); }
+.glance-label { font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted); }
+.glance-value { font-size: 18px; font-weight: 700; line-height: 1.25; }
+.glance-detail { font-size: 12px; color: var(--text-secondary); }
+
+.view-tabs { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+.view-tabs button {
+  border: 0; padding: 9px 16px; border-radius: 999px; background: var(--tint);
+  font-weight: 600; color: var(--text-secondary);
+}
+.view-tabs button:hover { background: var(--accent-wash); color: var(--text-primary); }
+.view-tabs button.active { background: var(--accent); color: var(--accent-ink); }
+.tab-count { font-weight: 400; opacity: 0.8; margin-left: 6px; font-size: 12px; }
+
+.mix-bar { display: flex; gap: 2px; height: 10px; border-radius: 999px; overflow: hidden; background: var(--tint); }
+.mix-bar-seg { height: 100%; background: var(--mix-slice); }
+.mix-bar-seg.rest { background: var(--mix-rest); }
+.detail-panel { position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow: auto; }
+@media (max-width: 1100px) { .detail-panel { position: static; max-height: none; } }
+/* Fixed columns so every holding's bar starts and ends at the same place. */
+.dep-row.customer-row { grid-template-columns: minmax(140px, 1fr) minmax(140px, 2fr) 220px; }
+.dep-row.customer-row .dep-count { white-space: normal; }
+@media (max-width: 700px) { .dep-row.customer-row { grid-template-columns: 1fr; } }

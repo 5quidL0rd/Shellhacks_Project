@@ -8,6 +8,8 @@ backend/keys/
 __pycache__/
 *.pyc
 .DS_Store
+.Claude.md
+.massiveapi.md
 
 # Knowledge graph: raw filings are re-downloadable.
 data/raw/
@@ -17,3 +19,4 @@ data/raw/
 # stories are committed and everything else is ignored.
 backend/data/cache/*
 !backend/data/cache/story_*.json
+!backend/data/cache/conc_v*_*.json

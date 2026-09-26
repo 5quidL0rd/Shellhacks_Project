@@ -10,6 +10,7 @@ import {
   type ResearchEvidence,
   type Verdict,
 } from '../api'
+import { RevenueMixPanel } from '../RevenueMix'
 import { EmptyPortfolio, HoldingsSummary } from '../components'
 import { useAsync } from '../hooks'
 
@@ -270,6 +271,12 @@ function Result({ ticker, holdings, onPick }: {
             <Link className="link-btn small" to={`/stock/${r.ticker}`}>See its price story →</Link>
           )}
         </div>
+
+        {r.concentration?.revenue_mix && (
+          <div className="card">
+            <RevenueMixPanel mix={r.concentration.revenue_mix} name={r.name} />
+          </div>
+        )}
 
         <div className="card">
           <div className="card-label">Overlap with your portfolio</div>

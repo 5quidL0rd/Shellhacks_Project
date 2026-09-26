@@ -136,6 +136,7 @@ Never commit `.env`, the private key, or any token.
 ../.venv/bin/uvicorn app.main:app --reload             # run the API; docs at http://127.0.0.1:8000/docs
 ../.venv/bin/python -m scripts.build_story_cache       # rebuild the stories (uses Gemini and Finnhub)
 ../.venv/bin/python -m scripts.load_snowflake          # load graph, stories, prices, and news into Snowflake
+../.venv/bin/python -m scripts.build_revenue_mix       # read who pays each company from its filing (uses Gemini)
 ../.venv/bin/python -m pytest tests                    # run the tests
 
 # Frontend (from frontend/, with the API running)
@@ -155,6 +156,7 @@ npm install && npm run dev                             # the app at http://local
 | `GET /portfolio/xray?holdings=AAPL,NVDA` | What the portfolio depends on (suppliers, countries), ranked by how many holdings share each; the home screen |
 | `GET /portfolio/map?holdings=...` | Nodes and links for the Connection Map, shaped for react-force-graph / Cytoscape.js |
 | `GET /portfolio/impact?company=TSM&holdings=...` | Which holdings news about a company touches, and how (supply chain, one step further downstream, competitors) |
+| `GET /company/{ticker}/revenue-mix` | Who pays a company: each disclosed customer's share of revenue (unnamed ones stay unnamed) and the rest, from its annual report; plus the supported companies whose filings say they depend on it. Any SEC filer; the 13 are precomputed |
 
 ---
 

@@ -33,6 +33,7 @@ class Edge:
     evidence: str
     filing_url: str
     note: str
+    reported_by: str = ""  # whose filing stated it, when not the from-company's
 
     def provenance(self) -> dict:
         """Why this edge exists, for the frontend's 'show me the source' view."""
@@ -54,7 +55,7 @@ def _graph() -> tuple[tuple[Edge, ...], dict[str, dict]]:
         edges = tuple(
             Edge(r["from_id"], r["from_name"], r["relationship"], r["to_id"], r["to_name"],
                  r["to_type"], r["kind"], r["detail"], r["source"], r["confidence"],
-                 r["evidence"], r["filing_url"], r["note"])
+                 r["evidence"], r["filing_url"], r["note"], r.get("reported_by") or "")
             for r in csv.DictReader(f)
         )
     with GRAPH_COMPANIES_CSV.open(encoding="utf-8") as f:

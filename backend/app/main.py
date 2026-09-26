@@ -11,6 +11,7 @@ from snowflake.connector.errors import Error as SnowflakeError
 
 from . import portfolio, quotes
 from .research import build as research
+from .research import concentration as concentration_mod
 from .connections import connections
 from .snowflake_db import get_connection
 from .story.build import get_story
@@ -174,6 +175,43 @@ def universe() -> list[dict]:
         }
         for c in COMPANIES.values()
     ]
+
+
+@app.get("/portfolio/concentration")
+def portfolio_concentration(holdings: list[str] = HOLDINGS) -> dict:
+    """How concentrated each holding's revenue and supply base is, and where the
+    portfolio's own companies depend on each other.
+
+    Read from each holding's latest annual report, with every quote checked
+    against the filing. The graph says a dependency exists; this says how much
+    it matters.
+    """
+    supported, unsupported = _holdings(holdings)
+    result = concentration_mod.portfolio(supported)
+    result["unsupported"] = unsupported
+    return result
+
+
+@app.get("/company/{ticker}/revenue-mix")
+def company_revenue_mix(ticker: str) -> dict:
+    """Who pays the company: each disclosed customer's share of revenue, plus
+    the rest, from its latest annual report. Works for any SEC filer.
+
+    Unnamed customers stay unnamed ("Customer A", "one direct customer"). Also
+    lists supported companies whose filings say they depend on this one, which
+    is the direction filings quantify: Apple names no supplier shares, but
+    Cirrus Logic says Apple is about 91% of its sales.
+    """
+    try:
+        return concentration_mod.for_ticker(ticker)
+    except concentration_mod.UnknownCompany:
+        raise HTTPException(status_code=404,
+                            detail=f"No SEC filer has the ticker '{ticker.upper()}'.") from None
+    except research.SearchUnavailable as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from None
+    except Exception as exc:  # SEC or Gemini unreachable on a first read
+        raise HTTPException(status_code=502,
+                            detail=f"Could not read {ticker.upper()}'s filing ({exc}).") from None
 
 
 @app.get("/research/search")
