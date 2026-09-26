@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { api, type Dependency } from '../api'
-import { EvidenceQuote, ImpactPanel, PortfolioBar } from '../components'
+import { EmptyPortfolio, EvidenceQuote, HoldingsSummary, ImpactPanel } from '../components'
 import { useAsync } from '../hooks'
 
 const HOW_LABEL: Record<string, string> = {
@@ -11,8 +11,8 @@ const HOW_LABEL: Record<string, string> = {
 }
 
 /** Home screen: what the portfolio actually depends on. */
-export function XRayPage({ holdings, setHoldings }: { holdings: string[]; setHoldings: (h: string[]) => void }) {
-  const xray = useAsync(() => api.xray(holdings), holdings.join(','))
+export function XRayPage({ holdings }: { holdings: string[] }) {
+  const xray = useAsync(() => (holdings.length ? api.xray(holdings) : Promise.resolve(null)), holdings.join(','))
   const [open, setOpen] = useState<string | null>(null)
   const [showAll, setShowAll] = useState(false)
 
@@ -39,7 +39,8 @@ export function XRayPage({ holdings, setHoldings }: { holdings: string[]; setHol
           </div>
         ) : <h1>What you actually depend on</h1>}
       </div>
-      <PortfolioBar holdings={holdings} setHoldings={setHoldings} unsupported={xray.data?.unsupported} />
+      {holdings.length === 0 && <EmptyPortfolio />}
+      {xray.data && <HoldingsSummary holdings={holdings} unsupported={xray.data.unsupported} />}
       {xray.error && <p className="error">{xray.error}</p>}
       {xray.data && (
         <>

@@ -136,9 +136,14 @@ async function get<T>(path: string, params?: Record<string, string>): Promise<T>
 }
 
 const holdingsParam = (holdings: string[]) => holdings.join(',')
+let universeRequest: Promise<UniverseCompany[]> | null = null
 
 export const api = {
-  universe: () => get<UniverseCompany[]>('/universe'),
+  /** The supported companies; fetched once per page load and shared. */
+  universe: () => (universeRequest ??= get<UniverseCompany[]>('/universe').catch((e) => {
+    universeRequest = null // let the next caller retry
+    throw e
+  })),
   xray: (holdings: string[]) => get<XRay>('/portfolio/xray', { holdings: holdingsParam(holdings) }),
   map: (holdings: string[], opts: { countries: boolean; competitors: boolean }) =>
     get<PortfolioMap>('/portfolio/map', {

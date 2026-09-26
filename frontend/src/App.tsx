@@ -1,5 +1,6 @@
-import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Link, NavLink, Route, Routes } from 'react-router-dom'
 import { usePortfolio } from './hooks'
+import { HoldingsPage } from './pages/HoldingsPage'
 import { MapPage } from './pages/MapPage'
 import { StoryPage } from './pages/StoryPage'
 import { XRayPage } from './pages/XRayPage'
@@ -16,6 +17,7 @@ const ICONS = {
   xray: 'M3 12h4l3-8 4 16 3-8h4',
   map: 'M6 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0M18 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0M12 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0M7.5 7.5l3.5 9M16.5 7.5l-3.5 9M8 6h8',
   research: 'M11 11m-7 0a7 7 0 1 0 14 0a7 7 0 1 0-14 0M21 21l-5-5',
+  holdings: 'M4 6h16M4 12h16M4 18h10',
 }
 
 export default function App() {
@@ -29,22 +31,46 @@ export default function App() {
             <div className="brand-sub">What you actually depend on</div>
           </div>
           <nav className="nav" aria-label="Main">
-            <NavLink to="/" end><Icon d={ICONS.xray} /> My Portfolio</NavLink>
+            <NavLink to="/holdings"><Icon d={ICONS.holdings} /> Holdings</NavLink>
+            <NavLink to="/" end><Icon d={ICONS.xray} /> X-Ray</NavLink>
             <NavLink to="/map"><Icon d={ICONS.map} /> Connection Map</NavLink>
             <NavLink to="/research"><Icon d={ICONS.research} /> Research</NavLink>
           </nav>
+          <SidebarHoldings holdings={holdings} />
           <div className="sidebar-foot">v0.1 · Data from SEC filings</div>
         </aside>
         <main className="main">
           <Routes>
-            <Route path="/" element={<XRayPage holdings={holdings} setHoldings={setHoldings} />} />
-            <Route path="/map" element={<MapPage holdings={holdings} setHoldings={setHoldings} />} />
+            <Route path="/" element={<XRayPage holdings={holdings} />} />
+            <Route path="/map" element={<MapPage holdings={holdings} />} />
+            <Route path="/holdings" element={<HoldingsPage holdings={holdings} setHoldings={setHoldings} />} />
             <Route path="/stock/:symbol" element={<StoryPage />} />
             <Route path="/research" element={<ResearchPlaceholder />} />
           </Routes>
         </main>
       </div>
     </BrowserRouter>
+  )
+}
+
+/** Every holding at a glance, one click from its story. Scrolls when long. */
+function SidebarHoldings({ holdings }: { holdings: string[] }) {
+  return (
+    <div className="sidebar-holdings">
+      <div className="row-between">
+        <span className="eyebrow">Holdings · {holdings.length}</span>
+        <Link to="/holdings" className="small">Edit</Link>
+      </div>
+      {holdings.length === 0
+        ? <Link to="/holdings" className="small">+ Add holdings</Link>
+        : (
+          <div className="sidebar-tickers">
+            {[...holdings].sort().map((t) => (
+              <NavLink key={t} to={`/stock/${t}`} className="ticker-link">{t}</NavLink>
+            ))}
+          </div>
+        )}
+    </div>
   )
 }
 

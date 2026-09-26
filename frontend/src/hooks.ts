@@ -86,3 +86,24 @@ export function useSize<T extends HTMLElement>() {
   }, [node])
   return { measure: setNode, ...size }
 }
+
+/** Tickers found in pasted text or a CSV: split on commas, spaces, tabs,
+ * semicolons, and new lines; numbers (share counts) and known header words are
+ * ignored. `known` tickers are returned in `found`; ticker-shaped leftovers in
+ * `unknown`, so the user sees what was skipped. */
+export function parseTickers(text: string, known: Set<string>): { found: string[]; unknown: string[] } {
+  const found: string[] = []
+  const unknown: string[] = []
+  for (const raw of text.split(/[\s,;|]+/)) {
+    const token = raw.replace(/^["']|["']$/g, '').trim().toUpperCase()
+    if (!token || /^[\d.$%-]+$/.test(token)) continue
+    if (known.has(token)) {
+      if (!found.includes(token)) found.push(token)
+    } else if (/^[A-Z][A-Z.]{0,5}$/.test(token) && !HEADER_WORDS.has(token) && !unknown.includes(token)) {
+      unknown.push(token)
+    }
+  }
+  return { found, unknown }
+}
+
+const HEADER_WORDS = new Set(['SYMBOL', 'TICKER', 'SHARES', 'QTY', 'QUANTITY', 'NAME', 'PRICE', 'VALUE', 'COST', 'USD'])

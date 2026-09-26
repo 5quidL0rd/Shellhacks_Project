@@ -1,39 +1,29 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { api, type Provenance, type UniverseCompany } from './api'
-import { SAMPLE_PORTFOLIO, useAsync } from './hooks'
+import { api, type Provenance } from './api'
+import { useAsync } from './hooks'
 
-/** Holdings as chips (click to open Story Mode), plus add / remove / reset. */
-export function PortfolioBar({ holdings, setHoldings, unsupported = [] }: {
-  holdings: string[]
-  setHoldings: (h: string[]) => void
-  unsupported?: string[]
-}) {
-  const universe = useAsync(api.universe, 'universe')
-  const [adding, setAdding] = useState('')
-  const available = (universe.data ?? []).filter((c) => !holdings.includes(c.symbol))
-
+/** "7 holdings · Edit" line for page headers; holdings live on /holdings. */
+export function HoldingsSummary({ holdings, unsupported = [] }: { holdings: string[]; unsupported?: string[] }) {
   return (
-    <div className="portfolio-bar" aria-label="Your holdings">
-      <span className="small muted">Holdings</span>
-      {holdings.map((t) => (
-        <span key={t} className={`chip ${unsupported.includes(t) ? 'unsupported' : ''}`}
-              title={unsupported.includes(t) ? 'Not in the supported company list' : undefined}>
-          {unsupported.includes(t) ? t : <Link to={`/stock/${t}`}>{t}</Link>}
-          <button aria-label={`Remove ${t}`} onClick={() => setHoldings(holdings.filter((h) => h !== t))}>×</button>
+    <div className="holdings-summary">
+      <span>{holdings.length} {holdings.length === 1 ? 'holding' : 'holdings'}</span>
+      {unsupported.length > 0 && (
+        <span className="muted" title="Not in the supported company list, so not analyzed">
+          · {unsupported.length} not supported ({unsupported.join(', ')})
         </span>
-      ))}
-      <select aria-label="Add a holding" value={adding}
-              onChange={(e) => {
-                if (e.target.value) setHoldings([...holdings, e.target.value])
-                setAdding('')
-              }}>
-        <option value="">+ Add</option>
-        {available.map((c: UniverseCompany) => (
-          <option key={c.symbol} value={c.symbol}>{c.symbol} · {c.name}</option>
-        ))}
-      </select>
-      <button className="ghost-btn small" onClick={() => setHoldings(SAMPLE_PORTFOLIO)}>Use sample portfolio</button>
+      )}
+      <Link to="/holdings">Edit holdings →</Link>
+    </div>
+  )
+}
+
+/** Shown instead of an analysis when there is nothing to analyze. */
+export function EmptyPortfolio() {
+  return (
+    <div className="placeholder">
+      <strong>No holdings yet</strong>
+      <p className="small muted">Add the stocks you own to see what they depend on.</p>
+      <Link className="primary-btn" to="/holdings">Add holdings</Link>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d'
-import { api, type MapLink, type MapNode } from '../api'
-import { ImpactPanel, PortfolioBar } from '../components'
+import { api, type MapLink, type MapNode, type UniverseCompany } from '../api'
+import { EmptyPortfolio, HoldingsSummary, ImpactPanel } from '../components'
 import { useAsync, useSize, useThemeColors } from '../hooks'
 
 type GNode = MapNode & { x?: number; y?: number }
@@ -13,12 +13,18 @@ const TOKENS = ['series-1', 'series-2', 'series-3', 'neutral-node', 'text-primar
 const endId = (end: string | GNode) => (typeof end === 'string' ? end : end.id)
 
 /** Interactive map of the holdings and everything one step away. */
-export function MapPage({ holdings, setHoldings }: { holdings: string[]; setHoldings: (h: string[]) => void }) {
+export function MapPage({ holdings }: { holdings: string[] }) {
   const [countries, setCountries] = useState(true)
   const [competitors, setCompetitors] = useState(true)
+  const [sharedOnly, setSharedOnly] = useState(holdings.length > 12)
+  // Holdings hidden from the map. Stored as exclusions so newly added
+  // holdings show up without extra clicks.
+  const [hidden, setHidden] = useState<Set<string>>(new Set())
   const [selected, setSelected] = useState<GNode | null>(null)
-  const map = useAsync(() => api.map(holdings, { countries, competitors }),
-    `${holdings.join(',')}|${countries}|${competitors}`)
+  const focused = holdings.filter((h) => !hidden.has(h))
+  const map = useAsync(
+    () => (focused.length ? api.map(focused, { countries, competitors }) : Promise.resolve(null)),
+    `${focused.join(',')}|${countries}|${competitors}`)
   const colors = useThemeColors(TOKENS)
   const graph = useRef<ForceGraphMethods<GNode, GLink> | undefined>(undefined)
   const settled = useRef(false)
@@ -26,10 +32,17 @@ export function MapPage({ holdings, setHoldings }: { holdings: string[]; setHold
   const mounted = width > 0 // the graph only renders once its box has a size
 
   // A fresh copy per load: the force layout mutates nodes and links in place.
-  const graphData = useMemo(() => ({
-    nodes: (map.data?.nodes ?? []).map((n) => ({ ...n })) as GNode[],
-    links: (map.data?.links ?? []).map((l) => ({ ...l })) as GLink[],
-  }), [map.data])
+  // "Shared only" keeps holdings plus what at least two focused holdings share,
+  // which is what keeps a 40-holding map readable.
+  const graphData = useMemo(() => {
+    const keep = (n: MapNode) => !sharedOnly || n.is_holding || n.connected_holdings.length >= 2
+    const nodes = (map.data?.nodes ?? []).filter(keep).map((n) => ({ ...n })) as GNode[]
+    const ids = new Set(nodes.map((n) => n.id))
+    const links = (map.data?.links ?? [])
+      .filter((l) => ids.has(l.source) && ids.has(l.target))
+      .map((l) => ({ ...l })) as GLink[]
+    return { nodes, links }
+  }, [map.data, sharedOnly])
 
   // Spread the layout out: the defaults pack ~70 nodes into a tight ball.
   useEffect(() => {
@@ -73,8 +86,9 @@ export function MapPage({ holdings, setHoldings }: { holdings: string[]; setHold
         <h1>How your holdings are linked</h1>
         <p>Suppliers, customers, competitors, and countries one step from what you own. Click a company to see which holdings its news would reach.</p>
       </div>
-      <PortfolioBar holdings={holdings} setHoldings={setHoldings} unsupported={map.data?.unsupported} />
+      {holdings.length === 0 ? <EmptyPortfolio /> : <HoldingsSummary holdings={holdings} unsupported={map.data?.unsupported} />}
       <div className="filters">
+        <label><input type="checkbox" checked={sharedOnly} onChange={(e) => setSharedOnly(e.target.checked)} /> Shared only</label>
         <label><input type="checkbox" checked={countries} onChange={(e) => setCountries(e.target.checked)} /> Countries</label>
         <label><input type="checkbox" checked={competitors} onChange={(e) => setCompetitors(e.target.checked)} /> Competitors</label>
         <div className="legend" aria-label="Legend">
@@ -87,7 +101,10 @@ export function MapPage({ holdings, setHoldings }: { holdings: string[]; setHold
         </div>
       </div>
       {map.error && <p className="error">{map.error}</p>}
-      <div className="two-col">
+      <div className="map-layout">
+        <FocusRail holdings={holdings} hidden={hidden} setHidden={setHidden}
+                   selectedId={selected?.id}
+                   onPick={(t) => setSelected(graphData.nodes.find((n) => n.id === t) ?? null)} />
         <div className="card map-wrap" ref={measure}>
           {map.data && width > 0 && (
             <ForceGraph2D<GNode, GLink>
@@ -162,6 +179,9 @@ export function MapPage({ holdings, setHoldings }: { holdings: string[]; setHold
             />
           )}
           {map.loading && <p className="muted" style={{ padding: 16 }}>Loading…</p>}
+          {!map.loading && holdings.length > 0 && focused.length === 0 && (
+            <p className="muted" style={{ padding: 16 }}>Check holdings on the left to put them on the map.</p>
+          )}
         </div>
         <aside className="card">
           {!selected && (
@@ -183,5 +203,77 @@ export function MapPage({ holdings, setHoldings }: { holdings: string[]; setHold
         </aside>
       </div>
     </>
+  )
+}
+
+/** Pick which holdings the map shows. Grouped by sector, searchable, with
+ * all/none, so it stays usable with dozens of holdings. Clicking a name
+ * selects that holding on the map. */
+function FocusRail({ holdings, hidden, setHidden, selectedId, onPick }: {
+  holdings: string[]
+  hidden: Set<string>
+  setHidden: (s: Set<string>) => void
+  selectedId?: string
+  onPick: (ticker: string) => void
+}) {
+  const universe = useAsync(api.universe, 'universe')
+  const [query, setQuery] = useState('')
+  const q = query.trim().toLowerCase()
+  const bySymbol = new Map((universe.data ?? []).map((c: UniverseCompany) => [c.symbol, c]))
+  const groups = new Map<string, string[]>()
+  for (const t of [...holdings].sort()) {
+    const c = bySymbol.get(t)
+    if (q && !t.toLowerCase().includes(q) && !(c?.name.toLowerCase().includes(q))) continue
+    const sector = c?.sector ?? 'Other'
+    groups.set(sector, [...(groups.get(sector) ?? []), t])
+  }
+  const shown = holdings.length - hidden.size
+  const flip = (tickers: string[], show: boolean) => {
+    const next = new Set(hidden)
+    for (const t of tickers) {
+      if (show) next.delete(t)
+      else next.add(t)
+    }
+    setHidden(next)
+  }
+
+  return (
+    <aside className="card focus-rail" aria-label="Holdings on the map">
+      <div className="row-between">
+        <div className="card-label" style={{ margin: 0 }}>On the map · {shown}/{holdings.length}</div>
+      </div>
+      <div className="row" style={{ margin: '8px 0' }}>
+        <button className="ghost-btn" onClick={() => setHidden(new Set())}>All</button>
+        <button className="ghost-btn" onClick={() => setHidden(new Set(holdings))}>None</button>
+      </div>
+      {holdings.length > 8 && (
+        <input type="search" className="search" placeholder="Filter holdings" value={query}
+               onChange={(e) => setQuery(e.target.value)} aria-label="Filter holdings" />
+      )}
+      <div className="focus-list">
+        {[...groups.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([sector, tickers]) => {
+          const on = tickers.filter((t) => !hidden.has(t)).length
+          return (
+            <div key={sector} className="sector-group">
+              <label className="sector-head">
+                <input type="checkbox" checked={on === tickers.length}
+                       ref={(el) => { if (el) el.indeterminate = on > 0 && on < tickers.length }}
+                       onChange={(e) => flip(tickers, e.target.checked)} />
+                <span>{sector}</span>
+                <span className="muted small">{on}/{tickers.length}</span>
+              </label>
+              {tickers.map((t) => (
+                <div key={t} className={`focus-item ${selectedId === t ? 'active' : ''}`}>
+                  <input type="checkbox" checked={!hidden.has(t)} aria-label={`Show ${t} on the map`}
+                         onChange={(e) => flip([t], e.target.checked)} />
+                  <button className="link-btn" disabled={hidden.has(t)} onClick={() => onPick(t)}
+                          title={bySymbol.get(t)?.name}>{t}</button>
+                </div>
+              ))}
+            </div>
+          )
+        })}
+      </div>
+    </aside>
   )
 }
