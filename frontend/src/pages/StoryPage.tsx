@@ -2,7 +2,7 @@ import { createChart, createSeriesMarkers, LineSeries, type ISeriesMarkersPlugin
 import { useEffect, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { api, type Beat, type Evidence, type Story } from '../api'
-import { AsOf, Change, Cite, CiteKey } from '../components'
+import { AsOf, Change, Cite, CiteGuide } from '../components'
 import { EVIDENCE_LABEL } from '../evidence'
 import { money } from '../format'
 import { useAsync, useThemeColors } from '../hooks'
@@ -52,8 +52,6 @@ export function StoryPage() {
           <p className="small muted">
             ▲▼ mark the {s.beats.length} biggest moves. Click a marker or a move below to read why it happened.
           </p>
-          <CiteKey kinds={[...s.arc_citation_ids, ...s.beats.flatMap((b) => b.citation_ids)]
-            .map((id) => s.evidence[id]?.kind).filter(Boolean) as string[]} />
           <section className="card" aria-label="Major moves">
             <div className="card-label">Major moves</div>
             {s.beats.map((b) => (
@@ -65,10 +63,8 @@ export function StoryPage() {
         <aside className="card" style={{ position: 'sticky', top: 16 }}>
           {citation && s.evidence[citation]
             ? <EvidencePanel e={s.evidence[citation]} onClose={() => setCitation(null)} />
-            : <p className="secondary small">
-                Every explanation cites the evidence it was written from. Click a numbered citation to see the
-                source.
-              </p>}
+            : <CiteGuide kinds={[...s.arc_citation_ids, ...s.beats.flatMap((b) => b.citation_ids)]
+                .map((id) => s.evidence[id]?.kind).filter(Boolean) as string[]} />}
         </aside>
       </div>
     </>

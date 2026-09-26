@@ -10,7 +10,7 @@ import {
   type ResearchEvidence,
   type Verdict,
 } from '../api'
-import { Cite, EmptyPortfolio, HoldingsSummary } from '../components'
+import { Cite, CiteGuide, EmptyPortfolio, HoldingsSummary } from '../components'
 import { useAsync } from '../hooks'
 
 const VERDICT_CLASS: Record<Verdict, string> = {
@@ -320,9 +320,15 @@ function Result({ ticker, holdings, onPick }: {
           </dl>
         </div>
 
-        {citation && r.evidence[citation] && (
+        {citation && r.evidence[citation] ? (
           <div className="card">
             <EvidencePanel e={r.evidence[citation]} onClose={() => setCitation(null)} />
+          </div>
+        ) : r.brief.summary && (
+          <div className="card">
+            <CiteGuide kinds={[...r.brief.summary_citation_ids,
+              ...[...r.brief.pros, ...r.brief.cons].flatMap((p) => p.citation_ids)]
+              .map((id) => r.evidence[id]?.kind).filter(Boolean) as string[]} />
           </div>
         )}
 

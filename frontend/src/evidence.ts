@@ -21,3 +21,15 @@ export const EVIDENCE_LABEL: Record<string, string> = {
   sector: 'Industry data',
   diversification: 'Portfolio overlap',
 }
+
+/** One line per kind, for the "How to read the citations" section. */
+export const EVIDENCE_DESCRIPTION: Record<string, string> = {
+  price: "The stock's own move that day: the % change, closing price, and trading volume compared with normal.",
+  news: 'A news article published on the day of the move or the day before, with a link to the original.',
+  filing: 'An SEC filing dated near the move, such as a quarterly report (10-Q) or a company announcement (8-K).',
+  peer_move: 'How a supplier, customer, or competitor moved the same day, which shows whether the move was shared or company-specific.',
+  fundamental: "Quarterly revenue or profit from the company's SEC filings. Used for the overall summary, not single days.",
+  sector: 'Federal industry statistics, such as US chip production. Used for the overall summary, not single days.',
+  metric: 'A figure measured for this company (growth, margin, debt, volatility, or drawdown) and where it came from.',
+  diversification: 'One of the overlap checks comparing this company with what you already hold.',
+}

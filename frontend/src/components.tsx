@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { api, type Provenance } from './api'
-import { EVIDENCE_ICON, EVIDENCE_LABEL } from './evidence'
+import { EVIDENCE_DESCRIPTION, EVIDENCE_ICON, EVIDENCE_LABEL } from './evidence'
 import { useAsync } from './hooks'
 
 /** "7 holdings · Edit" line for page headers; holdings live on /holdings. */
@@ -167,16 +167,27 @@ export function Cite({ n, id, active, onClick, evidence }: {
   )
 }
 
-/** One line explaining the citation icons that appear on this page. */
-export function CiteKey({ kinds }: { kinds: string[] }) {
+/** How to read the citations on this page: what the numbers are, then each
+ * icon that appears here with its name and a one-line description. */
+export function CiteGuide({ kinds }: { kinds: string[] }) {
   const shown = [...new Set(kinds)].filter((k) => EVIDENCE_ICON[k])
   if (!shown.length) return null
   return (
-    <div className="cite-key" aria-label="Citation types">
-      <span>Citations:</span>
-      {shown.map((k) => (
-        <span key={k} className="cite-key-item"><EvidenceIcon kind={k} /> {EVIDENCE_LABEL[k]}</span>
-      ))}
-    </div>
+    <section className="cite-guide" aria-label="How to read the citations">
+      <div className="card-label">How to read the citations</div>
+      <p className="small secondary">
+        Each explanation was written only from the sources we gathered first. The small numbered
+        buttons after a paragraph are those sources: the icon says what kind it is, and clicking one
+        opens it with its figures and a link to the original.
+      </p>
+      <dl className="cite-guide-list">
+        {shown.map((k) => (
+          <div key={k} className="cite-guide-item">
+            <dt><span className="cite cite-sample"><EvidenceIcon kind={k} />1</span> {EVIDENCE_LABEL[k]}</dt>
+            <dd>{EVIDENCE_DESCRIPTION[k]}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
   )
 }
