@@ -26,7 +26,7 @@ Each step takes tickers (`python -m kg.extract NVDA`). `data/extracted/` is comm
 **Adding a company:** add it to `COMPANIES` in `kg/companies.py`, then run the three steps for its ticker and hand-check the JSON.
 
 ## Snowflake export
-`kg.export_edges` writes the graph as two CSV tables in `data/exports/`: `GRAPH_EDGES` (one row per relationship) and `GRAPH_COMPANIES` (one row per company). `data/exports/snowflake_graph_tables.sql` creates the tables, loads the files, and includes example queries. Re-run the export after every `kg.load`.
+`kg.export_edges` writes the graph as two CSV tables in `data/exports/`: `GRAPH_EDGES` (one row per relationship) and `GRAPH_COMPANIES` (one row per company). The tables are defined in `snowflake/schema_contract.sql`; `data/exports/snowflake_graph_tables.sql` replaces their rows from the CSVs and includes example queries. Re-run the export, then that SQL, after every `kg.load`.
 
 ## Schema (contract with the backend)
 

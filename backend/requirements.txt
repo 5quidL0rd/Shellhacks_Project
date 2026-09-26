@@ -6,3 +6,4 @@ requests>=2.32
 pandas>=2.0
 yfinance>=0.2.51
 google-genai>=1.0
+snowflake-connector-python>=3.12
