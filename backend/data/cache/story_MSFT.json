@@ -1,7 +1,7 @@
 {
   "symbol": "MSFT",
   "company_name": "Microsoft Corporation",
-  "generated_at": "2026-09-26T09:31:51.308143+00:00",
+  "generated_at": "2026-09-26T09:41:49.808324+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,8 +1320,8 @@
       "pct_change": -3.966,
       "close": 415.75,
       "direction": "down",
-      "headline": "MSFT Drops 3.97% on Elevated Volume",
-      "explanation": "Microsoft shares fell 3.97% to $415.75 on volume 1.75 times the 30-day average. No company-specific news accompanied this drop, though supplier and competitor NVDA also fell 1.41% while competitor AAPL rose 0.10% and supplier AMD gained 0.62%.",
+      "headline": "Shares drop 3.97% with peers mixed",
+      "explanation": "Microsoft fell 3.97% to close at $415.75 on volume 1.75 times its 30-day average. No company-specific news was provided to explain the decline. Connected peers showed mixed trading, as competitor AAPL gained 0.10% and supplier AMD rose 0.62%, while supplier and competitor NVDA fell 1.41%.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260423_price",
@@ -1335,9 +1335,9 @@
       "pct_change": -3.93,
       "close": 407.78,
       "direction": "down",
-      "headline": "MSFT Drops 3.93% Following 10-Q and 8-K Filings",
-      "explanation": "Microsoft slipped 3.93% to $407.78 on heavy trading volume 3.25 times its 30-day average following the filing of a 10-Q and an 8-K the prior day. The decline was shared with supplier and competitor NVDA, which fell 4.63%, while competitor AAPL ticked up 0.44% and supplier AMD rose 5.16%.",
-      "confidence": "high",
+      "headline": "Stock declines 3.93% after 10-Q and 8-K filings",
+      "explanation": "Microsoft declined 3.93% to $407.78 on volume 3.25 times average following 10-Q and 8-K filings submitted on April 29. The retreat was shared with supplier and competitor NVDA, which fell 4.63%. In contrast, competitor AAPL rose 0.44% and supplier AMD advanced 5.16%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_MSFT_20260430_price",
         "ev_MSFT_20260430_filing_000119312526191507",
@@ -1352,9 +1352,9 @@
       "pct_change": 3.051,
       "close": 421.92,
       "direction": "up",
-      "headline": "MSFT Gains 3.05% Following 8-K Filing",
-      "explanation": "Microsoft rose 3.05% to $421.92 on volume 2.33 times its 30-day average following an 8-K filing submitted on May 14. The gain was largely company-specific, as supplier AMD dropped 5.69% and supplier and competitor NVDA fell 4.42%, while competitor AAPL added 0.68%.",
-      "confidence": "high",
+      "headline": "Shares rise 3.05% following 8-K filing",
+      "explanation": "Microsoft gained 3.05% to $421.92 on volume 2.33 times its 30-day average following an 8-K filing on May 14. The move was company-specific, as supplier AMD dropped 5.69% and supplier and competitor NVDA declined 4.42%. Competitor AAPL rose a modest 0.68%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_MSFT_20260515_price",
         "ev_MSFT_20260515_filing_000119312526224155",
@@ -1368,8 +1368,8 @@
       "pct_change": 5.445,
       "close": 450.24,
       "direction": "up",
-      "headline": "MSFT Advances 5.45% on High Trading Volume",
-      "explanation": "Microsoft climbed 5.45% to $450.24 on 3.65 times its 30-day average volume. No company-specific news accompanied the rally, which diverged from connected peers as competitor AAPL declined 0.14%, supplier AMD lost 0.38%, and supplier and competitor NVDA fell 1.45%.",
+      "headline": "Shares jump 5.45% on elevated volume",
+      "explanation": "Microsoft climbed 5.45% to close at $450.24 on 3.65 times normal trading volume. No company disclosures accompanied the move. The advance was company-specific, as competitor AAPL slipped 0.14%, supplier AMD fell 0.38%, and supplier and competitor NVDA dropped 1.45%.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260529_price",
@@ -1383,8 +1383,8 @@
       "pct_change": -4.171,
       "close": 441.31,
       "direction": "down",
-      "headline": "MSFT Declines 4.17% in Company-Specific Drop",
-      "explanation": "Microsoft fell 4.17% to $441.31 on volume 1.70 times its 30-day average. The drop was company-specific with no news provided; competitor AAPL gained 2.90% and supplier AMD gained 2.24%, while supplier and competitor NVDA dipped 0.69%.",
+      "headline": "Microsoft drops 4.17% as peers diverge",
+      "explanation": "Shares fell 4.17% to $441.31 on volume 1.70 times the 30-day average without company-specific news. The move was largely company-specific, diverging from competitor AAPL and supplier AMD, which gained 2.90% and 2.24% respectively. Supplier and competitor NVDA dropped 0.69%.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260602_price",
@@ -1398,8 +1398,8 @@
       "pct_change": -3.788,
       "close": 378.91,
       "direction": "down",
-      "headline": "MSFT Drops 3.79% to $378.91",
-      "explanation": "Microsoft decreased 3.79% to close at $378.91 on 1.92 times average trading volume. No company-specific news was reported; the decline was shared with competitor AAPL, which fell 1.10%, and supplier and competitor NVDA, down 1.33%, whereas supplier AMD rose 1.02%.",
+      "headline": "Stock drops 3.79% amid peer declines",
+      "explanation": "Microsoft retreated 3.79% to $378.91 on volume 1.92 times its average, with no company news provided. Downward movement was shared with competitor AAPL, which fell 1.10%, and supplier and competitor NVDA, which fell 1.33%. Supplier AMD bucked the trend, rising 1.02%.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260617_price",
@@ -1413,8 +1413,8 @@
       "pct_change": -3.179,
       "close": 367.34,
       "direction": "down",
-      "headline": "MSFT Falls 3.18% on Double Average Volume",
-      "explanation": "Microsoft shares declined 3.18% to $367.34 on volume 2.07 times the 30-day average. No company-specific news was reported, though competitor AAPL fell 0.34% and supplier and competitor NVDA dropped 0.97%, while supplier AMD gained 2.65%.",
+      "headline": "Stock slides 3.18% to $367.34",
+      "explanation": "Microsoft fell 3.18% to $367.34 on 2.07 times its average volume without company-specific developments. Weakness was shared with competitor AAPL, which slid 0.34%, and supplier and competitor NVDA, down 0.97%. Supplier AMD moved in the opposite direction, adding 2.65%.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260622_price",
@@ -1428,8 +1428,8 @@
       "pct_change": 5.708,
       "close": 372.97,
       "direction": "up",
-      "headline": "MSFT Rebounds 5.71% on Massive Volume",
-      "explanation": "Microsoft jumped 5.71% to $372.97 with trading volume surging to 8.53 times its 30-day average. The rally was shared with competitor AAPL, which rose 3.14%, even as supplier AMD fell 2.06% and supplier and competitor NVDA declined 1.64% with no company filings released.",
+      "headline": "Shares rebound 5.71% on surge in volume",
+      "explanation": "Microsoft gained 5.71% to $372.97 on exceptionally heavy trading of 8.53 times its 30-day average volume. No company news accompanied the jump. Competitor AAPL also gained 3.14%, whereas supplier AMD fell 2.06% and supplier and competitor NVDA dropped 1.64%.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260626_price",
@@ -1443,8 +1443,8 @@
       "pct_change": 3.019,
       "close": 384.28,
       "direction": "up",
-      "headline": "MSFT Climbs 3.02% Outperforming Chip Peers",
-      "explanation": "Microsoft advanced 3.02% to $384.28 on 2.20 times average volume. The upward movement was accompanied by a 1.74% gain in competitor AAPL, while supplier AMD and supplier and competitor NVDA fell 6.89% and 1.25%, respectively, in the absence of company-specific filings.",
+      "headline": "Shares rise 3.02% alongside competitor AAPL",
+      "explanation": "Microsoft rose 3.02% to close at $384.28 on volume 2.20 times the average, with no company announcements in the record. The advance was shared with competitor AAPL, which gained 1.74%. Conversely, supplier AMD dropped 6.89% and supplier and competitor NVDA declined 1.25%.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260701_price",
@@ -1458,9 +1458,9 @@
       "pct_change": 15.507,
       "close": 451.1,
       "direction": "up",
-      "headline": "MSFT Surges 15.51% Following Annual Filings",
-      "explanation": "Microsoft rallied 15.51% to $451.10 on 5.05 times average volume following its 10-K and 8-K filings on July 29. The move was mirrored across hardware partners, with supplier AMD surging 13.00% and supplier and competitor NVDA rising 2.65%, while competitor AAPL dropped 1.41%.",
-      "confidence": "high",
+      "headline": "Stock surges 15.51% after 10-K and 8-K filings",
+      "explanation": "Microsoft rallied 15.51% to $451.10 on 5.05 times its 30-day average volume after filing its 10-K and 8-K on July 29. Strong gains were shared across suppliers, with AMD surging 13.00% and supplier and competitor NVDA rising 2.65%. Competitor AAPL moved the other way, falling 1.41%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_MSFT_20260730_price",
         "ev_MSFT_20260730_filing_000119312526323660",
@@ -1475,9 +1475,9 @@
       "pct_change": 3.019,
       "close": 464.72,
       "direction": "up",
-      "headline": "MSFT Extends Gains by 3.02% After Annual Report",
-      "explanation": "Microsoft rose another 3.02% to close at $464.72 on 2.79 times its average volume in continued trading following the July 29 10-K and 8-K filings. Supplier and competitor NVDA also rose 2.93%, while competitor AAPL tumbled 7.35% and supplier AMD declined 1.90%.",
-      "confidence": "high",
+      "headline": "Stock extends gains with 3.02% rise",
+      "explanation": "Microsoft added 3.02% to close at $464.72 on 2.79 times average volume, continuing the rally after its July 29 10-K and 8-K filings. The advance coincided with a 2.93% rise in supplier and competitor NVDA. Supplier AMD fell 1.90%, while competitor AAPL dropped 7.35%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_MSFT_20260731_price",
         "ev_MSFT_20260731_filing_000119312526323660",
@@ -1492,8 +1492,8 @@
       "pct_change": 4.934,
       "close": 487.65,
       "direction": "up",
-      "headline": "MSFT Climbs 4.93% to $487.65",
-      "explanation": "Microsoft gained 4.93% to reach $487.65 on 3.06 times typical volume. No fresh news accompanied the session, but gains were shared with supplier AMD, up 1.78%, and supplier and competitor NVDA, up 2.93%, while competitor AAPL slipped 1.78%.",
+      "headline": "Shares gain 4.93% as chip suppliers advance",
+      "explanation": "Microsoft rose 4.93% to $487.65 on volume 3.06 times its 30-day average without new corporate disclosures. Gains were shared with key hardware partners: supplier AMD rose 1.78% and supplier and competitor NVDA gained 2.93%. Competitor AAPL declined 1.78%.",
       "confidence": "low",
       "citation_ids": [
         "ev_MSFT_20260803_price",
@@ -2358,19 +2358,17 @@
       }
     }
   },
-  "arc": "Between late April and early August 2026, Microsoft exhibited substantial volatility, marked by an initial retrenchment into June before staging an aggressive late-summer recovery. Following April 10-Q and 8-K filings, the stock moved lower and experienced additional pullbacks down to a close of $367.34 in late June. However, trading reversed sharply into July and August, anchored by the July 29 10-K and 8-K filings, which sparked a single-day 15.51% surge on July 30 and lifted the stock to $487.65 by August 3. Throughout this timeframe, Microsoft frequently decoupled from competitor Apple while sharing key inflection moves with hardware partners like AMD and NVIDIA.",
+  "arc": "Across the spring and summer of 2026, Microsoft moved through a pronounced cycle of consolidation followed by an aggressive expansion. The stock initially drifted downward from $415.75 in late April to a period low of $367.34 in late June, pressured by post-filing weakness in April and several down days where it diverged from peers. A turning point arrived in late July, when the company's 10-K and 8-K filings sparked a massive 15.51% one-day rally on heavy volume that was shared with hardware suppliers AMD and NVDA. Follow-through buying across subsequent sessions lifted the stock to $487.65 by early August, fully reversing the earlier correction and establishing an upward trend distinct from competitor AAPL.",
   "arc_citation_ids": [
-    "ev_MSFT_20260430_filing_000119312526191507",
-    "ev_MSFT_20260430_filing_000119312526191457",
+    "ev_MSFT_20260423_price",
+    "ev_MSFT_20260430_price",
     "ev_MSFT_20260622_price",
     "ev_MSFT_20260730_price",
     "ev_MSFT_20260730_filing_000119312526323660",
-    "ev_MSFT_20260730_filing_000119312526323632",
     "ev_MSFT_20260730_peer_AMD",
     "ev_MSFT_20260730_peer_NVDA",
+    "ev_MSFT_20260731_price",
     "ev_MSFT_20260803_price"
   ],
-  "warnings": [
-    "News unavailable (FINNHUB_API_KEY is not set; add it to backend/.env); explanations will be thinner."
-  ]
+  "warnings": []
 }

@@ -1,7 +1,7 @@
 {
   "symbol": "NVDA",
   "company_name": "NVIDIA Corporation",
-  "generated_at": "2026-09-26T09:31:07.643217+00:00",
+  "generated_at": "2026-09-26T09:40:44.247262+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,8 +1320,8 @@
       "pct_change": 4.323,
       "close": 208.27,
       "direction": "up",
-      "headline": "NVDA gains 4.32% alongside semiconductor peers",
-      "explanation": "NVIDIA rose 4.32% to $208.27 on 1.8x average volume. The move was shared across the sector, with competitor AMD jumping 13.91%, supplier TSM gaining 5.17%, and customer and competitor MSFT adding 2.13%.",
+      "headline": "NVDA gains 4.3% alongside broad chip rally",
+      "explanation": "No company-specific news accompanied the move as NVIDIA shares rose 4.32% to $208.27 on 1.8 times average volume. The gain was shared with peers across the sector, including competitor AMD, which surged 13.91%, and supplier TSM, which gained 5.17%. Customer and competitor MSFT also rose 2.13% the same day.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260424_price",
@@ -1335,8 +1335,8 @@
       "pct_change": 4.004,
       "close": 216.61,
       "direction": "up",
-      "headline": "NVDA adds 4.00% following 8-K filing",
-      "explanation": "NVIDIA climbed 4.00% to $216.61 on 1.6x average volume after filing a Form 8-K. The advance was company-specific, as competitor AMD dropped 3.79% while supplier TSM rose 0.63% and customer and competitor MSFT was virtually unchanged at +0.05%.",
+      "headline": "Stock climbs 4.0% following Form 8-K filing",
+      "explanation": "NVIDIA advanced 4.00% to close at $216.61 on 1.6 times average volume following the submission of a Form 8-K filing. The gain was company-specific, as competitor AMD dropped 3.79% while supplier TSM rose 0.63% and customer and competitor MSFT remained flat at +0.05%.",
       "confidence": "medium",
       "citation_ids": [
         "ev_NVDA_20260427_price",
@@ -1351,8 +1351,8 @@
       "pct_change": -4.626,
       "close": 199.57,
       "direction": "down",
-      "headline": "NVDA drops 4.63% amid mixed peer performance",
-      "explanation": "NVIDIA fell 4.63% to close at $199.57 on 1.9x typical volume without company-specific news. Customer and competitor MSFT also slipped 3.93%, but competitor AMD gained 5.16% and supplier TSM ticked up 0.57%.",
+      "headline": "Shares drop 4.6% to $199.57 amid mixed peers",
+      "explanation": "No company-specific news was reported as NVIDIA fell 4.63% to close at $199.57 on 1.9 times average volume. The pullback was shared with customer and competitor MSFT, which dropped 3.93%, even as competitor AMD gained 5.16% and supplier TSM added 0.57%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260430_price",
@@ -1366,8 +1366,8 @@
       "pct_change": 5.766,
       "close": 207.83,
       "direction": "up",
-      "headline": "NVDA rises 5.77% in broad chip sector rally",
-      "explanation": "NVIDIA advanced 5.77% to $207.83 on 1.6x 30-day average volume. The upward move was shared with peers, as competitor AMD surged 18.61% and supplier TSM gained 6.36%, while customer and competitor MSFT added 0.63%.",
+      "headline": "NVDA advances 5.8% in shared semiconductor move",
+      "explanation": "NVIDIA rose 5.77% to close at $207.83 on 1.6 times average volume without company-specific news. The advance was shared broadly with supplier TSM, which gained 6.36%, and competitor AMD, which surged 18.61%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260506_price",
@@ -1381,8 +1381,8 @@
       "pct_change": 6.261,
       "close": 224.36,
       "direction": "up",
-      "headline": "NVDA gains 6.26% outperforming key peers",
-      "explanation": "NVIDIA gained 6.26% to finish at $224.36 on 1.8x typical volume. Supplier TSM advanced 4.11% and customer and competitor MSFT rose 2.28%, while competitor AMD moved the opposite way, falling 1.16%.",
+      "headline": "Shares climb 6.3% on heavy trading volume",
+      "explanation": "NVIDIA shares increased 6.26% to $224.36 on 1.8 times average volume with no company-specific news reported. Supplier TSM and customer and competitor MSFT also advanced 4.11% and 2.28% respectively, while competitor AMD declined 1.16%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260601_price",
@@ -1396,14 +1396,14 @@
       "pct_change": 3.651,
       "close": 204.12,
       "direction": "up",
-      "headline": "NVDA rises 3.65% in company-specific move",
-      "explanation": "NVIDIA gained 3.65% to $204.12 on 1.2x average volume without reported company news. The move was company-specific, as competitor AMD was nearly flat with a 0.25% gain, supplier TSM rose 1.02%, and customer and competitor MSFT declined 1.41%.",
+      "headline": "Stock rises 3.7% in company-specific move",
+      "explanation": "NVIDIA climbed 3.65% to close at $204.12 on 1.2 times average volume without company announcements. The rise was company-specific, as customer and competitor MSFT fell 1.41% while competitor AMD and supplier TSM were muted, moving +0.25% and +1.02% respectively.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260708_price",
+        "ev_NVDA_20260708_peer_MSFT",
         "ev_NVDA_20260708_peer_AMD",
-        "ev_NVDA_20260708_peer_TSM",
-        "ev_NVDA_20260708_peer_MSFT"
+        "ev_NVDA_20260708_peer_TSM"
       ]
     },
     {
@@ -1411,14 +1411,14 @@
       "pct_change": 4.034,
       "close": 210.96,
       "direction": "up",
-      "headline": "NVDA climbs 4.03% to $210.96",
-      "explanation": "NVIDIA moved up 4.03% on 1.2x average volume, closing at $210.96. Competitor AMD also moved higher by 2.04%, while customer and competitor MSFT gained 0.19% and supplier TSM dropped 0.65%.",
+      "headline": "NVDA gains 4.0% to reach $210.96",
+      "explanation": "NVIDIA rose 4.03% to $210.96 from $202.78 on 1.2 times average volume with no company-specific catalysts. Competitor AMD also moved higher by 2.04%, while supplier TSM fell 0.65% and customer and competitor MSFT rose a modest 0.19%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260710_price",
         "ev_NVDA_20260710_peer_AMD",
-        "ev_NVDA_20260710_peer_MSFT",
-        "ev_NVDA_20260710_peer_TSM"
+        "ev_NVDA_20260710_peer_TSM",
+        "ev_NVDA_20260710_peer_MSFT"
       ]
     },
     {
@@ -1426,8 +1426,8 @@
       "pct_change": -4.994,
       "close": 196.51,
       "direction": "down",
-      "headline": "NVDA falls 4.99% alongside competitor AMD",
-      "explanation": "NVIDIA fell 4.99% to $196.51 on 1.3x 30-day average volume with no company-specific news. Competitor AMD dropped a similar 5.17% and supplier TSM lost 1.07%, while customer and competitor MSFT gained 1.94%.",
+      "headline": "Shares slide 5.0% alongside competitor AMD",
+      "explanation": "NVIDIA dropped 4.99% to $196.51 on 1.3 times average volume with no company-specific announcements. The decline was shared with competitor AMD, which fell 5.17%, and supplier TSM, which lost 1.07%, while customer and competitor MSFT gained 1.94%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260727_price",
@@ -1441,8 +1441,8 @@
       "pct_change": 3.435,
       "close": 219.22,
       "direction": "up",
-      "headline": "NVDA gains 3.44% despite decline in peers",
-      "explanation": "NVIDIA increased 3.44% to $219.22 on 1.3x typical volume without company-specific announcements. The rally was company-specific, as competitor AMD dropped 7.04%, customer and competitor MSFT fell 1.09%, and supplier TSM decreased 0.76%.",
+      "headline": "Stock adds 3.4% as competitors retreat",
+      "explanation": "NVIDIA rose 3.44% to $219.22 on 1.3 times normal volume in the absence of company-specific news. The advance was company-specific, diverging sharply from competitor AMD, which fell 7.04%, customer and competitor MSFT, which lost 1.09%, and supplier TSM, which slipped 0.76%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260805_price",
@@ -1456,8 +1456,8 @@
       "pct_change": 8.738,
       "close": 227.98,
       "direction": "up",
-      "headline": "NVDA surges 8.74% after quarterly filings",
-      "explanation": "NVIDIA rose 8.74% to $227.98 on 2.5x average volume following the previous day's 10-Q and 8-K filings. The move was company-specific, far outpacing supplier TSM's 2.30% gain, customer and competitor MSFT's 1.75% rise, and competitor AMD's 0.89% decline.",
+      "headline": "NVDA surges 8.7% after 10-Q and 8-K filings",
+      "explanation": "NVIDIA rallied 8.74% to $227.98 on 2.5 times average volume following quarterly 10-Q and 8-K filings on August 26. Supplier TSM also gained 2.30% and customer and competitor MSFT added 1.75%, whereas competitor AMD moved in the opposite direction, slipping 0.89%.",
       "confidence": "high",
       "citation_ids": [
         "ev_NVDA_20260827_price",
@@ -1473,8 +1473,8 @@
       "pct_change": -4.575,
       "close": 217.55,
       "direction": "down",
-      "headline": "NVDA retreats 4.58% following post-earnings surge",
-      "explanation": "NVIDIA gave back 4.58% to close at $217.55 on 1.6x 30-day average volume after its post-earnings rally. The pullback occurred alongside declines in supplier TSM (-2.29%) and competitor AMD (-2.33%), while customer and competitor MSFT rose 1.68%.",
+      "headline": "Stock sheds 4.6% in post-earnings pullback",
+      "explanation": "Following the prior day's post-filing rally, NVIDIA fell 4.58% to $217.55 on 1.6 times average volume. The pullback was shared with supplier TSM, which fell 2.29%, and competitor AMD, which dropped 2.33%, while customer and competitor MSFT rose 1.68%.",
       "confidence": "medium",
       "citation_ids": [
         "ev_NVDA_20260828_price",
@@ -1490,8 +1490,8 @@
       "pct_change": 3.205,
       "close": 224.41,
       "direction": "up",
-      "headline": "NVDA climbs 3.21% while competitors fall",
-      "explanation": "NVIDIA rose 3.21% to $224.41 on 1.3x average volume. The move was company-specific, as competitor AMD dropped 0.56% and customer and competitor MSFT slipped 0.84%, while supplier TSM was nearly unchanged at +0.36%.",
+      "headline": "NVDA rebounds 3.2% while peers weaken",
+      "explanation": "NVIDIA gained 3.21% to close at $224.41 on 1.3 times average volume with no company-specific announcements. The rebound was largely company-specific, as competitor AMD dropped 0.56%, customer and competitor MSFT slipped 0.84%, and supplier TSM edged up only 0.36%.",
       "confidence": "low",
       "citation_ids": [
         "ev_NVDA_20260902_price",
@@ -2366,18 +2366,19 @@
       }
     }
   },
-  "arc": "Between late April and early September 2026, NVIDIA experienced substantial volatility while net advancing from just under $200 to over $224 per share. Early in the period, price moves were frequently shared with the broader semiconductor space, tracking sharp swings alongside competitor AMD and supplier TSM. By late August, the company's trajectory was defined by company-specific catalysts, highlighted by an 8.74% rally on August 27 following its 10-Q and 8-K regulatory filings, followed by a partial pullback the next day. Investors should understand that while early moves reflected industry-wide momentum, subsequent price action increasingly diverged from peers, culminating in strong idiosyncratic trading volume around earnings reports.",
+  "arc": "Between late April and early September 2026, NVIDIA rose from $199.64 to $224.41, alternating between synchronized industry-wide moves and company-specific divergence. In April and May, price action frequently moved in tandem with competitor AMD and supplier TSM during broad semiconductor rallies. The dominant fundamental event arrived on August 26 with NVIDIA's 10-Q and 8-K filings, which sparked an 8.74% surge to $227.98 on 2.5 times average volume before a partial 4.58% pullback the following day. By September, the stock demonstrated distinct company-specific strength, climbing 3.21% even as key peer AMD and customer MSFT drifted lower.",
   "arc_citation_ids": [
     "ev_NVDA_20260424_price",
     "ev_NVDA_20260424_peer_AMD",
     "ev_NVDA_20260424_peer_TSM",
+    "ev_NVDA_20260506_price",
     "ev_NVDA_20260827_price",
     "ev_NVDA_20260827_filing_000104581026000075",
     "ev_NVDA_20260827_filing_000104581026000073",
     "ev_NVDA_20260828_price",
-    "ev_NVDA_20260902_price"
+    "ev_NVDA_20260902_price",
+    "ev_NVDA_20260902_peer_AMD",
+    "ev_NVDA_20260902_peer_MSFT"
   ],
-  "warnings": [
-    "News unavailable (FINNHUB_API_KEY is not set; add it to backend/.env); explanations will be thinner."
-  ]
+  "warnings": []
 }

@@ -1,7 +1,7 @@
 {
   "symbol": "AAPL",
   "company_name": "Apple Inc.",
-  "generated_at": "2026-09-26T09:30:55.524101+00:00",
+  "generated_at": "2026-09-26T09:40:26.730041+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,8 +1320,8 @@
       "pct_change": 3.239,
       "close": 280.14,
       "direction": "up",
-      "headline": "AAPL gains 3.24% following quarterly filings",
-      "explanation": "Apple shares rose 3.24% to $280.14 on 1.9 times average volume following the submission of an 8-K filing on April 30 and a 10-Q quarterly report on May 1. The upward movement was largely company-specific, though its competitor Microsoft also advanced 1.63% and its supplier TSMC edged up 0.41%.",
+      "headline": "AAPL rises 3.24% following 8-K and 10-Q filings",
+      "explanation": "Shares of Apple climbed 3.24% to close at $280.14 on 1.9 times average volume following an 8-K filing on April 30 and a 10-Q filing on May 1. The gain outpaced connected companies, as competitor MSFT rose 1.63% and supplier TSM gained 0.41%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260501_price",
@@ -1336,8 +1336,8 @@
       "pct_change": -3.645,
       "close": 290.55,
       "direction": "down",
-      "headline": "Shares slip 3.65% alongside peer weakness",
-      "explanation": "Apple fell 3.65% to $290.55 on 1.7 times average trading volume with no company-specific news reported. Competitor Microsoft also dropped 2.02% the same day, while its supplier TSMC gained 0.26%.",
+      "headline": "AAPL falls 3.65% alongside competitor MSFT",
+      "explanation": "Apple dropped 3.65% to $290.55 on 1.7 times average trading volume with no company-specific news in the record. The downward move was partially shared with competitor MSFT, which fell 2.02%, while supplier TSM was flat to slightly positive at +0.26%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260609_price",
@@ -1350,8 +1350,8 @@
       "pct_change": -6.118,
       "close": 275.15,
       "direction": "down",
-      "headline": "AAPL drops 6.12% during broader tech decline",
-      "explanation": "Apple declined 6.12% to close at $275.15 on 2.6 times average volume without company-specific news. The drop was shared across connected companies, with competitor Microsoft dropping 3.46% and supplier TSMC shedding 1.32%.",
+      "headline": "AAPL drops 6.12% in shared selloff with peers",
+      "explanation": "Apple dropped 6.12% to close at $275.15 on elevated trading volume of 2.6 times its 30-day average without company-specific news. Connected companies also declined the same day, with competitor MSFT falling 3.46% and supplier TSM down 1.32%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260625_price",
@@ -1364,8 +1364,8 @@
       "pct_change": 3.136,
       "close": 283.78,
       "direction": "up",
-      "headline": "Stock rebounds 3.14% on surge in volume",
-      "explanation": "Apple gained 3.14% to $283.78 on volume reaching 6.3 times the 30-day average, though no specific corporate announcement was provided. Competitor Microsoft surged 5.71% the same day, while supplier TSMC fell 0.61%.",
+      "headline": "AAPL rebounds 3.14% alongside competitor MSFT",
+      "explanation": "Apple gained 3.14% to finish at $283.78 on heavy trading volume reaching 6.3 times normal levels. The move was shared with competitor MSFT, which climbed 5.71%, while supplier TSM diverged slightly with a 0.61% decline.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260626_price",
@@ -1378,8 +1378,8 @@
       "pct_change": 4.841,
       "close": 308.63,
       "direction": "up",
-      "headline": "AAPL climbs 4.84% to break above $308",
-      "explanation": "Apple shares rose 4.84% to close at $308.63 on 1.8 times normal volume without company-specific disclosures. Competitor Microsoft gained 1.62% during the session, whereas its supplier TSMC moved the other way, falling 2.27%.",
+      "headline": "AAPL advances 4.84% as supplier TSM declines",
+      "explanation": "Apple shares rose 4.84% to $308.63 on 1.8 times average volume with no company-specific news provided. The move was largely company-specific, significantly outpacing competitor MSFT's 1.62% rise while supplier TSM fell 2.27%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260702_price",
@@ -1392,8 +1392,8 @@
       "pct_change": 4.014,
       "close": 327.5,
       "direction": "up",
-      "headline": "Shares advance 4.01% as rally extends",
-      "explanation": "Apple climbed 4.01% to finish at $327.50 on 1.5 times average volume in the absence of news releases. Competitor Microsoft also rose 2.78%, while supplier TSMC remained relatively flat with a 0.22% decline.",
+      "headline": "AAPL climbs 4.01% to $327.50 without news",
+      "explanation": "Apple rose 4.01% to close at $327.50 with trading volume at 1.5 times the 30-day average. The gain occurred alongside competitor MSFT, which advanced 2.78%, while supplier TSM slipped 0.22%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260715_price",
@@ -1406,8 +1406,8 @@
       "pct_change": 3.532,
       "close": 333.02,
       "direction": "up",
-      "headline": "AAPL rises 3.53% to fresh high of $333.02",
-      "explanation": "Apple shares advanced 3.53% to $333.02 on near-normal volume of 1.1 times the 30-day average. The gain was company-specific, as competitor Microsoft traded nearly flat at +0.03% and supplier TSMC declined 2.93%.",
+      "headline": "AAPL rises 3.53% in company-specific move",
+      "explanation": "Apple stock gained 3.53% to end at $333.02 on 1.1 times its 30-day average volume with no new company reports. The gain was company-specific, as competitor MSFT remained essentially flat at +0.03% and supplier TSM dropped 2.93%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260724_price",
@@ -1420,8 +1420,8 @@
       "pct_change": -7.354,
       "close": 308.91,
       "direction": "down",
-      "headline": "Apple plunges 7.35% following quarterly filings",
-      "explanation": "Apple dropped 7.35% to $308.91 on 3.2 times average volume following an 8-K filed on July 30 and a 10-Q filed on July 31. The sell-off was isolated to Apple, as competitor Microsoft rose 3.02% and supplier TSMC ticked up 0.23% on the day.",
+      "headline": "AAPL falls 7.35% following 8-K and 10-Q filings",
+      "explanation": "Shares fell 7.35% to $308.91 on 3.2 times average volume following an 8-K filing on July 30 and a 10-Q filing on July 31. This was an isolated drop, as connected companies moved in the opposite direction, with competitor MSFT rising 3.02% and supplier TSM edging up 0.23%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AAPL_20260731_price",
@@ -1436,8 +1436,8 @@
       "pct_change": 3.561,
       "close": 326.57,
       "direction": "up",
-      "headline": "AAPL gains 3.56% on elevated trading volume",
-      "explanation": "Apple rose 3.56% to close at $326.57 on 1.7 times its 30-day average volume without direct corporate news. Competitor Microsoft was flat at +0.16%, while supplier TSMC moved lower by 1.68%.",
+      "headline": "AAPL gains 3.56% while peers remain muted",
+      "explanation": "Apple climbed 3.56% to $326.57 on 1.7 times normal volume in the absence of company-specific headlines. The advance was company-specific rather than shared, as competitor MSFT inched up just 0.16% and supplier TSM declined 1.68%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AAPL_20260910_price",
@@ -1998,20 +1998,16 @@
       }
     }
   },
-  "arc": "Between May and September 2026, Apple experienced volatile swings framed largely by its quarterly reporting cycles alongside periods of peer-correlated tech movement. The period began on a positive note with a 3.24% rise following its early May quarterly filings, before giving way to late June turbulence where the stock fell 6.12% and quickly rebounded 3.14% in tandem with competitor Microsoft. A strong July run took the stock to a high of $333.02, but the momentum was abruptly erased when late-July quarterly filings triggered a 7.35% single-day sell-off that diverged from peers. By September, Apple recovered toward $326.57, illustrating how regulatory filing dates served as primary catalysts while interim moves frequently decoupled from supplier TSMC.",
+  "arc": "Between May and September 2026, Apple experienced volatile swings around its quarterly disclosures alongside several large price moves disconnected from its supplier and competitor. The stock rallied after its early-May filings to reach a peak close of $333.02 in late July, punctuated by periods of shared market volatility in late June. However, Apple suffered a steep 7.35% single-day decline following its late-July filings even as competitor MSFT rose 3.02%, before recovering back above $326 in September. Across the period, Apple's largest single-day moves frequently diverged from supplier TSM and competitor MSFT, demonstrating that idiosyncratic company filings and firm-specific factors were the primary drivers of volatility.",
   "arc_citation_ids": [
     "ev_AAPL_20260501_price",
     "ev_AAPL_20260501_filing_000032019326000013",
     "ev_AAPL_20260625_price",
-    "ev_AAPL_20260626_price",
-    "ev_AAPL_20260626_peer_MSFT",
     "ev_AAPL_20260724_price",
     "ev_AAPL_20260731_price",
+    "ev_AAPL_20260731_peer_MSFT",
     "ev_AAPL_20260731_filing_000032019326000020",
-    "ev_AAPL_20260910_price",
-    "ev_AAPL_20260910_peer_TSM"
+    "ev_AAPL_20260910_price"
   ],
-  "warnings": [
-    "News unavailable (FINNHUB_API_KEY is not set; add it to backend/.env); explanations will be thinner."
-  ]
+  "warnings": []
 }

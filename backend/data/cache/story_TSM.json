@@ -1,7 +1,7 @@
 {
   "symbol": "TSM",
   "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
-  "generated_at": "2026-09-26T09:31:38.316705+00:00",
+  "generated_at": "2026-09-26T09:41:28.359545+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,8 +1320,8 @@
       "pct_change": 6.777,
       "close": 337.95,
       "direction": "up",
-      "headline": "TSM rises 6.78% alongside semiconductor customers",
-      "explanation": "No company-specific news accompanied TSM's 6.78% gain to $337.95 on 1.9x average volume. The upward move was shared across its customer base, with customer NVDA gaining 5.59%, customer AMD rising 3.77%, and customer AAPL adding 2.90%.",
+      "headline": "Stock rises 6.78% alongside major customers",
+      "explanation": "No company-specific news accompanied the gain to $337.95 on 1.9 times average volume. The 6.78% advance was shared across its major customers, with Apple rising 2.90%, AMD up 3.77%, and Nvidia up 5.59%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260331_price",
@@ -1335,8 +1335,8 @@
       "pct_change": 5.96,
       "close": 365.9,
       "direction": "up",
-      "headline": "TSM gains 5.96% in shared advance with customers",
-      "explanation": "TSM advanced 5.96% to close at $365.90 on 1.7x average volume without company-specific announcements. This advance was shared with its key customers, as AMD rose 4.64%, NVDA gained 2.23%, and AAPL increased 2.13%.",
+      "headline": "Shares gain 5.96% in customer-wide rally",
+      "explanation": "No company-specific announcements were reported as the stock rose 5.96% to close at $365.90 on 1.7 times normal volume. The upward move was shared with customers Apple (+2.13%), AMD (+4.64%), and Nvidia (+2.23%).",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260408_price",
@@ -1350,17 +1350,17 @@
       "pct_change": -3.132,
       "close": 363.35,
       "direction": "down",
-      "headline": "TSM dips 3.13% following 20-F and 6-K filings",
-      "explanation": "TSM fell 3.13% to $363.35 on elevated volume of 2.7x average on the day it submitted annual Form 20-F and Form 6-K regulatory filings, though no filing details were provided. The move was largely company-specific, as customer AMD rose 7.80%, while customer AAPL fell 1.14% and customer NVDA slipped 0.26%.",
-      "confidence": "low",
+      "headline": "Stock slips 3.13% following 20-F and 6-K filings",
+      "explanation": "The stock retreated 3.13% to $363.35 on elevated volume of 2.7 times average following the submission of a 20-F annual report and two Form 6-K filings. The drop was partially shared with customers Apple (-1.14%) and Nvidia (-0.26%), while customer AMD moved oppositely, gaining 7.80%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_TSM_20260416_price",
-        "ev_TSM_20260416_peer_AAPL",
-        "ev_TSM_20260416_peer_AMD",
-        "ev_TSM_20260416_peer_NVDA",
         "ev_TSM_20260416_filing_000104617926000201",
         "ev_TSM_20260416_filing_000104617926000199",
-        "ev_TSM_20260416_filing_000162828026025362"
+        "ev_TSM_20260416_filing_000162828026025362",
+        "ev_TSM_20260416_peer_AAPL",
+        "ev_TSM_20260416_peer_AMD",
+        "ev_TSM_20260416_peer_NVDA"
       ]
     },
     {
@@ -1368,8 +1368,8 @@
       "pct_change": 6.361,
       "close": 419.5,
       "direction": "up",
-      "headline": "TSM climbs 6.36% as customer AMD rallies 18.6%",
-      "explanation": "TSM climbed 6.36% to $419.50 on 1.8x average volume with no company-specific news reported. The rally was shared with its key customers, including AMD which surged 18.61%, NVDA which gained 5.77%, and AAPL which rose 1.17%.",
+      "headline": "Shares climb 6.36% amid customer gains",
+      "explanation": "No company-specific developments were disclosed for the 6.36% rise to $419.50 on 1.8 times typical volume. The gain was shared with customers Apple (+1.17%), Nvidia (+5.77%), and AMD (+18.61%).",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260506_price",
@@ -1383,16 +1383,16 @@
       "pct_change": 4.482,
       "close": 417.72,
       "direction": "up",
-      "headline": "TSM gains 4.48% following earlier Form 6-K filings",
-      "explanation": "TSM gained 4.48% to reach $417.72 on 1.9x average volume two days after filing two Form 6-K reports on May 12. The advance was shared with customer NVDA, which rose 4.39%, and customer AMD, which rose 0.94%, while customer AAPL moved the other way with a 0.22% decline.",
-      "confidence": "low",
+      "headline": "Stock advances 4.48% after 6-K filings",
+      "explanation": "The stock climbed 4.48% to $417.72 on 1.9 times normal volume after two Form 6-K reports were filed on May 12. Gains were shared with customer Nvidia (+4.39%) and customer AMD (+0.94%), while customer Apple dipped 0.22%.",
+      "confidence": "medium",
       "citation_ids": [
         "ev_TSM_20260514_price",
+        "ev_TSM_20260514_filing_000104617926000275",
+        "ev_TSM_20260514_filing_000104617926000274",
         "ev_TSM_20260514_peer_AAPL",
         "ev_TSM_20260514_peer_AMD",
-        "ev_TSM_20260514_peer_NVDA",
-        "ev_TSM_20260514_filing_000104617926000275",
-        "ev_TSM_20260514_filing_000104617926000274"
+        "ev_TSM_20260514_peer_NVDA"
       ]
     },
     {
@@ -1400,8 +1400,8 @@
       "pct_change": 4.106,
       "close": 435.63,
       "direction": "up",
-      "headline": "TSM advances 4.11% alongside customer NVDA",
-      "explanation": "TSM gained 4.11% to close at $435.63 on 1.9x average volume with no company-specific headlines. The upward move was shared with customer NVDA (+6.26%), while other customers moved in the opposite direction, with AAPL falling 1.84% and AMD down 1.16%.",
+      "headline": "Shares rise 4.11% alongside customer Nvidia",
+      "explanation": "No company-specific news was reported as the stock rose 4.11% to $435.63 on 1.9 times average volume. The upward move was shared with customer Nvidia (+6.26%), while customers Apple (-1.84%) and AMD (-1.16%) declined.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260601_price",
@@ -1415,8 +1415,8 @@
       "pct_change": 6.935,
       "close": 462.12,
       "direction": "up",
-      "headline": "TSM rises 6.93% on heavy volume with customers",
-      "explanation": "No company-specific news accompanied TSM's 6.93% gain to $462.12 on 2.7x average volume. The upward movement was shared across customers, as AMD rose 4.86%, NVDA advanced 2.95%, and AAPL increased 0.70%.",
+      "headline": "Stock surges 6.93% on heavy volume",
+      "explanation": "No company-specific news accompanied the 6.93% rally to $462.12 on 2.7 times normal volume. The advance was shared across customers AMD (+4.86%), Nvidia (+2.95%), and Apple (+0.70%).",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260618_price",
@@ -1430,8 +1430,8 @@
       "pct_change": -6.688,
       "close": 436.39,
       "direction": "down",
-      "headline": "TSM drops 6.69% in shared semiconductor pullback",
-      "explanation": "TSM fell 6.69% to $436.39 on 2.1x average volume with no company-specific developments. The drop was shared with its primary customers, as AMD fell 5.76%, NVDA dropped 4.13%, and AAPL shed 0.91%.",
+      "headline": "Shares slide 6.69% in shared customer pullback",
+      "explanation": "Without company-specific announcements, the stock fell 6.69% to $436.39 on 2.1 times average volume. The decline was shared with key customers, including AMD (-5.76%), Nvidia (-4.13%), and Apple (-0.91%).",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260623_price",
@@ -1445,8 +1445,8 @@
       "pct_change": 5.262,
       "close": 455.1,
       "direction": "up",
-      "headline": "TSM rebounds 5.26% with customers AMD and NVDA",
-      "explanation": "TSM rose 5.26% to $455.10 on 1.5x average volume without direct company news. The rebound was shared with customer AMD (+3.43%) and customer NVDA (+1.27%), whereas customer AAPL moved the other way, slipping 0.72%.",
+      "headline": "Stock rebounds 5.26% with AMD and Nvidia",
+      "explanation": "No company-specific catalysts were disclosed as the stock gained 5.26% to $455.10 on 1.5 times typical volume. The rebound was shared with customers AMD (+3.43%) and Nvidia (+1.27%), whereas customer Apple declined 0.72%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260629_price",
@@ -1460,8 +1460,8 @@
       "pct_change": -6.981,
       "close": 444.23,
       "direction": "down",
-      "headline": "TSM drops 6.98% alongside customer AMD",
-      "explanation": "TSM dropped 6.98% to $444.23 on 1.9x average volume in the absence of company-specific headlines. The decline was shared with customer AMD (-6.89%) and customer NVDA (-1.25%), while customer AAPL moved the other way with a 1.74% gain.",
+      "headline": "Shares drop 6.98% alongside AMD and Nvidia",
+      "explanation": "No company-specific news accompanied the 6.98% drop to $444.23 on 1.9 times normal volume. The retreat was shared with customers AMD (-6.89%) and Nvidia (-1.25%), while customer Apple moved opposite, gaining 1.74%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260701_price",
@@ -1475,8 +1475,8 @@
       "pct_change": 5.546,
       "close": 424.61,
       "direction": "up",
-      "headline": "TSM climbs 5.55% as chip customers gain",
-      "explanation": "No company-specific news accompanied TSM's 5.55% advance to $424.61 on 1.9x average volume. The move was shared across its customer base, with customer AMD climbing 8.11%, customer NVDA rising 1.97%, and customer AAPL up 0.35%.",
+      "headline": "Stock gains 5.55% as customers advance",
+      "explanation": "Without company-specific headlines, the stock rose 5.55% to $424.61 on 1.9 times average volume. The move was shared across customers AMD (+8.11%), Nvidia (+1.97%), and Apple (+0.35%).",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260721_price",
@@ -1490,8 +1490,8 @@
       "pct_change": 7.644,
       "close": 403.31,
       "direction": "up",
-      "headline": "TSM rises 7.64% alongside customer AMD surge",
-      "explanation": "TSM climbed 7.64% to close at $403.31 on 1.8x average volume with no company-specific catalysts reported. The move was shared with customer AMD (+13.00%) and customer NVDA (+2.65%), while customer AAPL declined 1.41%.",
+      "headline": "Shares jump 7.64% alongside AMD and Nvidia",
+      "explanation": "No company-specific news was reported for the 7.64% surge to $403.31 on 1.8 times normal volume. The upward movement was shared with customers AMD (+13.00%) and Nvidia (+2.65%), while customer Apple fell 1.41%.",
       "confidence": "low",
       "citation_ids": [
         "ev_TSM_20260730_price",
@@ -2291,15 +2291,15 @@
       }
     }
   },
-  "arc": "From late March through July 2026, TSM experienced pronounced price volatility, advancing from $316.50 to high-water marks above $462.12 in mid-June before sharp pullbacks brought the stock to $403.31 by late July. Across the entire four-month sequence of heavy-volume moves, TSM consistently tracked the day-to-day momentum of its core semiconductor customers\u2014primarily AMD and NVDA\u2014rather than responding to idiosyncratic disclosures. Without company-specific operating commentary attached to its regulatory filings, investors should view TSM's swings as tightly coupled to broader trading patterns across its customer base.",
+  "arc": "Between March and July 2026, Taiwan Semiconductor Manufacturing Company traded through sharp volatility, moving from $316.50 on March 31 to an intermediate peak of $462.12 on June 18 before settling around $403.31 on July 30. Throughout this stretch, the company's major single-day swings regularly mirrored the trading patterns of its top semiconductor customers, showing especially tight co-movement with AMD and Nvidia on large rallies and pullbacks. With company filings providing minimal standalone price catalysts, investors should recognize that TSM's daily valuation swings during this window were tightly linked to broader demand and trading dynamics across its primary fabless computing customer base.",
   "arc_citation_ids": [
     "ev_TSM_20260331_price",
     "ev_TSM_20260618_price",
     "ev_TSM_20260623_price",
     "ev_TSM_20260701_price",
-    "ev_TSM_20260730_price"
+    "ev_TSM_20260730_price",
+    "ev_TSM_20260730_peer_AMD",
+    "ev_TSM_20260730_peer_NVDA"
   ],
-  "warnings": [
-    "News unavailable (FINNHUB_API_KEY is not set; add it to backend/.env); explanations will be thinner."
-  ]
+  "warnings": []
 }

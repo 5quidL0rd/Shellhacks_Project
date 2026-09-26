@@ -1,7 +1,7 @@
 {
   "symbol": "AMD",
   "company_name": "Advanced Micro Devices, Inc.",
-  "generated_at": "2026-09-26T09:16:18.615351+00:00",
+  "generated_at": "2026-09-26T09:41:10.789318+00:00",
   "bars": [
     {
       "date": "2026-03-20",
@@ -1320,11 +1320,12 @@
       "pct_change": 7.255,
       "close": 220.27,
       "direction": "up",
-      "headline": "Shares rise 7.3% outpacing semiconductor peers",
-      "explanation": "No company-specific news accompanied the move as AMD rose 7.25% to close at $220.27 on 2.4 times average volume. Peers NVDA and TSM gained 1.99% and 1.31%, indicating AMD significantly outpaced the broader sector without an identified catalyst in the records.",
+      "headline": "AMD rises 7.25% on above-average volume",
+      "explanation": "AMD shares climbed 7.25% to $220.27 on volume 2.4 times its 30-day average. No company-specific news was provided to explain the gain. Competitor NVDA gained 1.99% and supplier TSM added 1.31%, while customer MSFT slipped 0.46%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AMD_20260325_price",
+        "ev_AMD_20260325_peer_MSFT",
         "ev_AMD_20260325_peer_NVDA",
         "ev_AMD_20260325_peer_TSM"
       ]
@@ -1334,11 +1335,12 @@
       "pct_change": 7.803,
       "close": 278.26,
       "direction": "up",
-      "headline": "Shares climb 7.8% despite declines across peers",
-      "explanation": "AMD climbed 7.80% to close at $278.26 on 3.1 times typical volume while peers NVDA and TSM fell 0.26% and 3.13%, respectively. No company filings or news items were provided to explain the gain, pointing to an unexplained company-specific move.",
+      "headline": "AMD gains 7.80% in company-specific advance",
+      "explanation": "AMD rose 7.80% to close at $278.26 on 3.1 times its average daily volume. No news accompanied the move, which was company-specific. Competitor NVDA edged down 0.26% and supplier TSM dropped 3.13%, though customer MSFT rose 2.20%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AMD_20260416_price",
+        "ev_AMD_20260416_peer_MSFT",
         "ev_AMD_20260416_peer_NVDA",
         "ev_AMD_20260416_peer_TSM"
       ]
@@ -1348,11 +1350,12 @@
       "pct_change": 13.913,
       "close": 347.81,
       "direction": "up",
-      "headline": "Stock surges 13.9% amid broader semiconductor rally",
-      "explanation": "AMD jumped 13.91% from $305.33 to $347.81 on 4.0 times normal volume. The advance was partly sector-wide as NVDA climbed 4.32% and TSM rose 5.17%, though no company-specific news was provided to explain AMD's larger surge.",
+      "headline": "AMD jumps 13.91% alongside peer strength",
+      "explanation": "AMD jumped 13.91% to $347.81 on 4.0 times its 30-day average volume. No company-specific reports were released, but the rally was shared with connected peers. Competitor NVDA rose 4.32%, supplier TSM advanced 5.17%, and customer MSFT gained 2.13%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AMD_20260424_price",
+        "ev_AMD_20260424_peer_MSFT",
         "ev_AMD_20260424_peer_NVDA",
         "ev_AMD_20260424_peer_TSM"
       ]
@@ -1362,11 +1365,12 @@
       "pct_change": -3.789,
       "close": 334.63,
       "direction": "down",
-      "headline": "Shares slip 3.8% while peer Nvidia advances",
-      "explanation": "AMD retreated 3.79% to $334.63 on 2.5 times average volume, diverging from peer NVDA which gained 4.00% and TSM which rose 0.63%. With no company-specific reports provided, the drop appears to be an isolated company pullback.",
+      "headline": "AMD declines 3.79% as peers gain",
+      "explanation": "AMD dropped 3.79% to $334.63 on 2.5 times average volume following its previous session's surge. The decline was company-specific with no news provided to explain it. Competitor NVDA gained 4.00%, supplier TSM rose 0.63%, and customer MSFT ticked up 0.05%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AMD_20260427_price",
+        "ev_AMD_20260427_peer_MSFT",
         "ev_AMD_20260427_peer_NVDA",
         "ev_AMD_20260427_peer_TSM"
       ]
@@ -1376,11 +1380,12 @@
       "pct_change": 5.156,
       "close": 354.49,
       "direction": "up",
-      "headline": "Stock rebounds 5.2% against Nvidia decline",
-      "explanation": "AMD gained 5.16% to close at $354.49 on twice its 30-day average volume. The move was company-specific, as NVDA dropped 4.63% and TSM rose just 0.57%, though no direct news or corporate filings were provided.",
+      "headline": "AMD adds 5.16% as customer and competitor fall",
+      "explanation": "AMD gained 5.16% to finish at $354.49 on 2.0 times typical volume. The gain was company-specific, with no company news provided. Competitor NVDA dropped 4.63% and customer MSFT fell 3.93%, while supplier TSM rose 0.57%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AMD_20260430_price",
+        "ev_AMD_20260430_peer_MSFT",
         "ev_AMD_20260430_peer_NVDA",
         "ev_AMD_20260430_peer_TSM"
       ]
@@ -1390,11 +1395,12 @@
       "pct_change": 4.017,
       "close": 355.26,
       "direction": "up",
-      "headline": "Shares gain 4.0% alongside 8-K filing",
-      "explanation": "AMD rose 4.02% to close at $355.26 on 3.1 times normal volume while NVDA dropped 1.00% and TSM declined 1.79%. The company-specific gain coincided with an 8-K filing submitted to the SEC the same day.",
-      "confidence": "medium",
+      "headline": "AMD rises 4.02% following 8-K filing",
+      "explanation": "AMD climbed 4.02% to $355.26 on 3.1 times its normal volume on the day it submitted a Form 8-K filing. The advance was company-specific as connected peers moved lower. Customer MSFT slipped 0.54%, competitor NVDA declined 1.00%, and supplier TSM dropped 1.79%.",
+      "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260505_price",
+        "ev_AMD_20260505_peer_MSFT",
         "ev_AMD_20260505_peer_NVDA",
         "ev_AMD_20260505_peer_TSM",
         "ev_AMD_20260505_filing_000000248826000072"
@@ -1405,11 +1411,12 @@
       "pct_change": 18.615,
       "close": 421.39,
       "direction": "up",
-      "headline": "Shares surge 18.6% following 10-Q filing",
-      "explanation": "AMD surged 18.61% to $421.39 on 4.3 times average volume after filing its quarterly 10-Q report following the previous day's 8-K. The move was supported by sector tailwinds, with NVDA and TSM gaining 5.77% and 6.36%, respectively.",
+      "headline": "AMD surges 18.61% after 10-Q filing",
+      "explanation": "AMD surged 18.61% to $421.39 on 4.3 times average volume following its quarterly 10-Q filing and prior-day 8-K. The broad semiconductor move was shared with industry partners, as competitor NVDA rose 5.77% and supplier TSM climbed 6.36%. Customer MSFT also added 0.63%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260506_price",
+        "ev_AMD_20260506_peer_MSFT",
         "ev_AMD_20260506_peer_NVDA",
         "ev_AMD_20260506_peer_TSM",
         "ev_AMD_20260506_filing_000000248826000076",
@@ -1421,14 +1428,30 @@
       "pct_change": 11.441,
       "close": 455.19,
       "direction": "up",
-      "headline": "Stock adds 11.4% continuing post-filing momentum",
-      "explanation": "AMD advanced 11.44% to reach $455.19 on 2.8 times average volume, continuing its climb following the May 6 quarterly 10-Q filing. The move was largely company-specific, as NVDA rose 1.75% and TSM fell 0.60%.",
+      "headline": "AMD climbs 11.44% in post-earnings momentum",
+      "explanation": "AMD increased 11.44% to $455.19 on 2.8 times average volume in continued trading following its May 6 Form 10-Q filing. The move was company-specific, as competitor NVDA rose a modest 1.75%, supplier TSM dipped 0.60%, and customer MSFT fell 1.34%.",
       "confidence": "medium",
       "citation_ids": [
         "ev_AMD_20260508_price",
+        "ev_AMD_20260508_peer_MSFT",
         "ev_AMD_20260508_peer_NVDA",
         "ev_AMD_20260508_peer_TSM",
         "ev_AMD_20260508_filing_000000248826000076"
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "pct_change": 7.782,
+      "close": 503.89,
+      "direction": "up",
+      "headline": "AMD tops $500 with a 7.78% advance",
+      "explanation": "AMD rose 7.78% to close at $503.89 on 1.9 times normal volume. No company news accompanied the move, which was mostly company-specific. Supplier TSM gained 1.93%, but customer MSFT fell 0.61% and competitor NVDA dropped 0.22%.",
+      "confidence": "low",
+      "citation_ids": [
+        "ev_AMD_20260526_price",
+        "ev_AMD_20260526_peer_MSFT",
+        "ev_AMD_20260526_peer_NVDA",
+        "ev_AMD_20260526_peer_TSM"
       ]
     },
     {
@@ -1436,27 +1459,14 @@
       "pct_change": -8.148,
       "close": 454.62,
       "direction": "down",
-      "headline": "Shares fall 8.1% in company-specific retreat",
-      "explanation": "AMD dropped 8.15% from $494.95 to $454.62 on 1.8 times average volume. The decline was largely company-specific, as peer NVDA moved up 0.25% and TSM declined a modest 1.70%, with no company disclosures provided.",
+      "headline": "AMD drops 8.15% in company-specific pullback",
+      "explanation": "AMD declined 8.15% to $454.62 on 1.8 times its 30-day average volume. No company news was reported to explain the drop. While supplier TSM declined 1.70%, the retreat was largely company-specific as competitor NVDA edged up 0.25% and customer MSFT rose 1.09%.",
       "confidence": "low",
       "citation_ids": [
         "ev_AMD_20260728_price",
+        "ev_AMD_20260728_peer_MSFT",
         "ev_AMD_20260728_peer_NVDA",
         "ev_AMD_20260728_peer_TSM"
-      ]
-    },
-    {
-      "date": "2026-07-30",
-      "pct_change": 12.997,
-      "close": 485.39,
-      "direction": "up",
-      "headline": "Stock rallies 13.0% alongside semiconductor peers",
-      "explanation": "AMD climbed 13.00% to close at $485.39 on 1.8 times typical volume. The rebound coincided with strong sector momentum, as peer TSM surged 7.64% and NVDA gained 2.65%, though no company filings accompanied the move.",
-      "confidence": "low",
-      "citation_ids": [
-        "ev_AMD_20260730_price",
-        "ev_AMD_20260730_peer_NVDA",
-        "ev_AMD_20260730_peer_TSM"
       ]
     },
     {
@@ -1464,11 +1474,12 @@
       "pct_change": -7.044,
       "close": 482.05,
       "direction": "down",
-      "headline": "Shares drop 7.0% following quarterly 10-Q filing",
-      "explanation": "AMD shares declined 7.04% to close at $482.05 on 2.4 times typical volume after the company filed an 8-K on August 4 and a 10-Q on August 5. The drop was company-specific, occurring while NVDA gained 3.44% and TSM slipped 0.76%.",
+      "headline": "AMD declines 7.04% after filing 10-Q and 8-K",
+      "explanation": "AMD shares dropped 7.04% to $482.05 on 2.4 times typical volume on the day it filed a quarterly Form 10-Q, following an 8-K filing on August 4. The decline was company-specific, as competitor NVDA climbed 3.44%, supplier TSM dipped 0.76%, and customer MSFT declined 1.09%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260805_price",
+        "ev_AMD_20260805_peer_MSFT",
         "ev_AMD_20260805_peer_NVDA",
         "ev_AMD_20260805_peer_TSM",
         "ev_AMD_20260805_filing_000000248826000123",
@@ -1480,16 +1491,16 @@
       "pct_change": 9.95,
       "close": 615.52,
       "direction": "up",
-      "headline": "Shares jump 10.0% to reach $1 trillion market cap",
-      "explanation": "AMD climbed 9.95% to close at $615.52 on 2.2 times normal volume, crossing $1 trillion in market capitalization. The move was fueled by reports of expanding AI infrastructure workloads using Instinct MI325X GPUs and a broad tech rally where NVDA and TSM rose 2.30% and 2.41%.",
+      "headline": "AMD jumps 9.95% to top $1 trillion valuation",
+      "explanation": "AMD advanced 9.95% to $615.52 on 2.2 times normal volume as reports showed it crossed $1 trillion in market cap and expanded deployments of its Instinct MI325X GPUs for AI workloads. The gain was shared across the sector, with competitor NVDA rising 2.30%, supplier TSM advancing 2.41%, and customer MSFT up 1.59%.",
       "confidence": "high",
       "citation_ids": [
         "ev_AMD_20260921_price",
+        "ev_AMD_20260921_peer_MSFT",
         "ev_AMD_20260921_peer_NVDA",
         "ev_AMD_20260921_peer_TSM",
         "ev_AMD_20260921_news1",
         "ev_AMD_20260921_news2",
-        "ev_AMD_20260921_news4",
         "ev_AMD_20260921_news7"
       ]
     }
@@ -1509,33 +1520,49 @@
         "prev_close": 205.37,
         "volume": 48518300,
         "volume_vs_30d_avg": 2.36,
-        "move_excluding_sector_pct": 5.61
+        "move_excluding_sector_pct": 6.31
+      }
+    },
+    "ev_AMD_20260325_peer_MSFT": {
+      "id": "ev_AMD_20260325_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved -0.46% the same day",
+      "detail": "AMD moved +7.25% while MSFT moved -0.46%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-03-25",
+      "numbers": {
+        "peer_pct_change": -0.46,
+        "subject_pct_change": 7.255,
+        "relationship": "customer"
       }
     },
     "ev_AMD_20260325_peer_NVDA": {
       "id": "ev_AMD_20260325_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved +1.99% the same day",
-      "detail": "AMD moved +7.25% while NVDA moved +1.99%.",
+      "title": "NVDA (competitor) moved +1.99% the same day",
+      "detail": "AMD moved +7.25% while NVDA moved +1.99%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-03-25",
       "numbers": {
         "peer_pct_change": 1.99,
-        "subject_pct_change": 7.255
+        "subject_pct_change": 7.255,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260325_peer_TSM": {
       "id": "ev_AMD_20260325_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved +1.31% the same day",
-      "detail": "AMD moved +7.25% while TSM moved +1.31%.",
+      "title": "TSM (supplier) moved +1.31% the same day",
+      "detail": "AMD moved +7.25% while TSM moved +1.31%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-03-25",
       "numbers": {
         "peer_pct_change": 1.31,
-        "subject_pct_change": 7.255
+        "subject_pct_change": 7.255,
+        "relationship": "supplier"
       }
     },
     "ev_AMD_20260416_price": {
@@ -1552,33 +1579,49 @@
         "prev_close": 258.12,
         "volume": 64850800,
         "volume_vs_30d_avg": 3.15,
-        "move_excluding_sector_pct": 9.5
+        "move_excluding_sector_pct": 8.2
+      }
+    },
+    "ev_AMD_20260416_peer_MSFT": {
+      "id": "ev_AMD_20260416_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved +2.20% the same day",
+      "detail": "AMD moved +7.80% while MSFT moved +2.20%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-16",
+      "numbers": {
+        "peer_pct_change": 2.2,
+        "subject_pct_change": 7.803,
+        "relationship": "customer"
       }
     },
     "ev_AMD_20260416_peer_NVDA": {
       "id": "ev_AMD_20260416_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved -0.26% the same day",
-      "detail": "AMD moved +7.80% while NVDA moved -0.26%.",
+      "title": "NVDA (competitor) moved -0.26% the same day",
+      "detail": "AMD moved +7.80% while NVDA moved -0.26%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-04-16",
       "numbers": {
         "peer_pct_change": -0.26,
-        "subject_pct_change": 7.803
+        "subject_pct_change": 7.803,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260416_peer_TSM": {
       "id": "ev_AMD_20260416_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved -3.13% the same day",
-      "detail": "AMD moved +7.80% while TSM moved -3.13%.",
+      "title": "TSM (supplier) moved -3.13% the same day",
+      "detail": "AMD moved +7.80% while TSM moved -3.13%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-04-16",
       "numbers": {
         "peer_pct_change": -3.13,
-        "subject_pct_change": 7.803
+        "subject_pct_change": 7.803,
+        "relationship": "supplier"
       }
     },
     "ev_AMD_20260424_price": {
@@ -1595,33 +1638,49 @@
         "prev_close": 305.33,
         "volume": 81616700,
         "volume_vs_30d_avg": 3.97,
-        "move_excluding_sector_pct": 9.16
+        "move_excluding_sector_pct": 10.04
+      }
+    },
+    "ev_AMD_20260424_peer_MSFT": {
+      "id": "ev_AMD_20260424_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved +2.13% the same day",
+      "detail": "AMD moved +13.91% while MSFT moved +2.13%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-24",
+      "numbers": {
+        "peer_pct_change": 2.13,
+        "subject_pct_change": 13.913,
+        "relationship": "customer"
       }
     },
     "ev_AMD_20260424_peer_NVDA": {
       "id": "ev_AMD_20260424_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved +4.32% the same day",
-      "detail": "AMD moved +13.91% while NVDA moved +4.32%.",
+      "title": "NVDA (competitor) moved +4.32% the same day",
+      "detail": "AMD moved +13.91% while NVDA moved +4.32%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-04-24",
       "numbers": {
         "peer_pct_change": 4.32,
-        "subject_pct_change": 13.913
+        "subject_pct_change": 13.913,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260424_peer_TSM": {
       "id": "ev_AMD_20260424_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved +5.17% the same day",
-      "detail": "AMD moved +13.91% while TSM moved +5.17%.",
+      "title": "TSM (supplier) moved +5.17% the same day",
+      "detail": "AMD moved +13.91% while TSM moved +5.17%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-04-24",
       "numbers": {
         "peer_pct_change": 5.17,
-        "subject_pct_change": 13.913
+        "subject_pct_change": 13.913,
+        "relationship": "supplier"
       }
     },
     "ev_AMD_20260427_price": {
@@ -1638,33 +1697,49 @@
         "prev_close": 347.81,
         "volume": 50585300,
         "volume_vs_30d_avg": 2.46,
-        "move_excluding_sector_pct": 6.1
+        "move_excluding_sector_pct": 5.35
+      }
+    },
+    "ev_AMD_20260427_peer_MSFT": {
+      "id": "ev_AMD_20260427_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved +0.05% the same day",
+      "detail": "AMD moved -3.79% while MSFT moved +0.05%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-27",
+      "numbers": {
+        "peer_pct_change": 0.05,
+        "subject_pct_change": -3.789,
+        "relationship": "customer"
       }
     },
     "ev_AMD_20260427_peer_NVDA": {
       "id": "ev_AMD_20260427_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved +4.00% the same day",
-      "detail": "AMD moved -3.79% while NVDA moved +4.00%.",
+      "title": "NVDA (competitor) moved +4.00% the same day",
+      "detail": "AMD moved -3.79% while NVDA moved +4.00%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-04-27",
       "numbers": {
         "peer_pct_change": 4.0,
-        "subject_pct_change": -3.789
+        "subject_pct_change": -3.789,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260427_peer_TSM": {
       "id": "ev_AMD_20260427_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved +0.63% the same day",
-      "detail": "AMD moved -3.79% while TSM moved +0.63%.",
+      "title": "TSM (supplier) moved +0.63% the same day",
+      "detail": "AMD moved -3.79% while TSM moved +0.63%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-04-27",
       "numbers": {
         "peer_pct_change": 0.63,
-        "subject_pct_change": -3.789
+        "subject_pct_change": -3.789,
+        "relationship": "supplier"
       }
     },
     "ev_AMD_20260430_price": {
@@ -1681,33 +1756,49 @@
         "prev_close": 337.11,
         "volume": 42115300,
         "volume_vs_30d_avg": 2.05,
-        "move_excluding_sector_pct": 7.19
+        "move_excluding_sector_pct": 7.82
+      }
+    },
+    "ev_AMD_20260430_peer_MSFT": {
+      "id": "ev_AMD_20260430_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved -3.93% the same day",
+      "detail": "AMD moved +5.16% while MSFT moved -3.93%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-04-30",
+      "numbers": {
+        "peer_pct_change": -3.93,
+        "subject_pct_change": 5.156,
+        "relationship": "customer"
       }
     },
     "ev_AMD_20260430_peer_NVDA": {
       "id": "ev_AMD_20260430_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved -4.63% the same day",
-      "detail": "AMD moved +5.16% while NVDA moved -4.63%.",
+      "title": "NVDA (competitor) moved -4.63% the same day",
+      "detail": "AMD moved +5.16% while NVDA moved -4.63%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-04-30",
       "numbers": {
         "peer_pct_change": -4.63,
-        "subject_pct_change": 5.156
+        "subject_pct_change": 5.156,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260430_peer_TSM": {
       "id": "ev_AMD_20260430_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved +0.57% the same day",
-      "detail": "AMD moved +5.16% while TSM moved +0.57%.",
+      "title": "TSM (supplier) moved +0.57% the same day",
+      "detail": "AMD moved +5.16% while TSM moved +0.57%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-04-30",
       "numbers": {
         "peer_pct_change": 0.57,
-        "subject_pct_change": 5.156
+        "subject_pct_change": 5.156,
+        "relationship": "supplier"
       }
     },
     "ev_AMD_20260505_price": {
@@ -1724,33 +1815,49 @@
         "prev_close": 341.54,
         "volume": 64235100,
         "volume_vs_30d_avg": 3.12,
-        "move_excluding_sector_pct": 5.41
+        "move_excluding_sector_pct": 5.13
+      }
+    },
+    "ev_AMD_20260505_peer_MSFT": {
+      "id": "ev_AMD_20260505_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved -0.54% the same day",
+      "detail": "AMD moved +4.02% while MSFT moved -0.54%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-05-05",
+      "numbers": {
+        "peer_pct_change": -0.54,
+        "subject_pct_change": 4.017,
+        "relationship": "customer"
       }
     },
     "ev_AMD_20260505_peer_NVDA": {
       "id": "ev_AMD_20260505_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved -1.00% the same day",
-      "detail": "AMD moved +4.02% while NVDA moved -1.00%.",
+      "title": "NVDA (competitor) moved -1.00% the same day",
+      "detail": "AMD moved +4.02% while NVDA moved -1.00%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-05-05",
       "numbers": {
         "peer_pct_change": -1.0,
-        "subject_pct_change": 4.017
+        "subject_pct_change": 4.017,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260505_peer_TSM": {
       "id": "ev_AMD_20260505_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved -1.79% the same day",
-      "detail": "AMD moved +4.02% while TSM moved -1.79%.",
+      "title": "TSM (supplier) moved -1.79% the same day",
+      "detail": "AMD moved +4.02% while TSM moved -1.79%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-05-05",
       "numbers": {
         "peer_pct_change": -1.79,
-        "subject_pct_change": 4.017
+        "subject_pct_change": 4.017,
+        "relationship": "supplier"
       }
     },
     "ev_AMD_20260505_filing_000000248826000072": {
@@ -1777,33 +1884,49 @@
         "prev_close": 355.26,
         "volume": 87732200,
         "volume_vs_30d_avg": 4.27,
-        "move_excluding_sector_pct": 12.55
+        "move_excluding_sector_pct": 14.36
+      }
+    },
+    "ev_AMD_20260506_peer_MSFT": {
+      "id": "ev_AMD_20260506_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved +0.63% the same day",
+      "detail": "AMD moved +18.61% while MSFT moved +0.63%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-05-06",
+      "numbers": {
+        "peer_pct_change": 0.63,
+        "subject_pct_change": 18.615,
+        "relationship": "customer"
       }
     },
     "ev_AMD_20260506_peer_NVDA": {
       "id": "ev_AMD_20260506_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved +5.77% the same day",
-      "detail": "AMD moved +18.61% while NVDA moved +5.77%.",
+      "title": "NVDA (competitor) moved +5.77% the same day",
+      "detail": "AMD moved +18.61% while NVDA moved +5.77%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-05-06",
       "numbers": {
         "peer_pct_change": 5.77,
-        "subject_pct_change": 18.615
+        "subject_pct_change": 18.615,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260506_peer_TSM": {
       "id": "ev_AMD_20260506_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved +6.36% the same day",
-      "detail": "AMD moved +18.61% while TSM moved +6.36%.",
+      "title": "TSM (supplier) moved +6.36% the same day",
+      "detail": "AMD moved +18.61% while TSM moved +6.36%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-05-06",
       "numbers": {
         "peer_pct_change": 6.36,
-        "subject_pct_change": 18.615
+        "subject_pct_change": 18.615,
+        "relationship": "supplier"
       }
     },
     "ev_AMD_20260506_filing_000000248826000076": {
@@ -1840,33 +1963,49 @@
         "prev_close": 408.46,
         "volume": 58134900,
         "volume_vs_30d_avg": 2.83,
-        "move_excluding_sector_pct": 10.86
+        "move_excluding_sector_pct": 11.5
+      }
+    },
+    "ev_AMD_20260508_peer_MSFT": {
+      "id": "ev_AMD_20260508_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved -1.34% the same day",
+      "detail": "AMD moved +11.44% while MSFT moved -1.34%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-05-08",
+      "numbers": {
+        "peer_pct_change": -1.34,
+        "subject_pct_change": 11.441,
+        "relationship": "customer"
       }
     },
     "ev_AMD_20260508_peer_NVDA": {
       "id": "ev_AMD_20260508_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved +1.75% the same day",
-      "detail": "AMD moved +11.44% while NVDA moved +1.75%.",
+      "title": "NVDA (competitor) moved +1.75% the same day",
+      "detail": "AMD moved +11.44% while NVDA moved +1.75%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-05-08",
       "numbers": {
         "peer_pct_change": 1.75,
-        "subject_pct_change": 11.441
+        "subject_pct_change": 11.441,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260508_peer_TSM": {
       "id": "ev_AMD_20260508_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved -0.60% the same day",
-      "detail": "AMD moved +11.44% while TSM moved -0.60%.",
+      "title": "TSM (supplier) moved -0.60% the same day",
+      "detail": "AMD moved +11.44% while TSM moved -0.60%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-05-08",
       "numbers": {
         "peer_pct_change": -0.6,
-        "subject_pct_change": 11.441
+        "subject_pct_change": 11.441,
+        "relationship": "supplier"
       }
     },
     "ev_AMD_20260508_filing_000000248826000076": {
@@ -1878,6 +2017,65 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm",
       "occurred_on": "2026-05-06",
       "numbers": {}
+    },
+    "ev_AMD_20260526_price": {
+      "id": "ev_AMD_20260526_price",
+      "kind": "price",
+      "title": "AMD rose 7.78% on 2026-05-26",
+      "detail": "Closed at $503.89 from $467.51. Volume was 1.9x the 30-day average.",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "occurred_on": "2026-05-26",
+      "numbers": {
+        "pct_change": 7.782,
+        "close": 503.89,
+        "prev_close": 467.51,
+        "volume": 38473800,
+        "volume_vs_30d_avg": 1.87,
+        "move_excluding_sector_pct": 7.41
+      }
+    },
+    "ev_AMD_20260526_peer_MSFT": {
+      "id": "ev_AMD_20260526_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved -0.61% the same day",
+      "detail": "AMD moved +7.78% while MSFT moved -0.61%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-05-26",
+      "numbers": {
+        "peer_pct_change": -0.61,
+        "subject_pct_change": 7.782,
+        "relationship": "customer"
+      }
+    },
+    "ev_AMD_20260526_peer_NVDA": {
+      "id": "ev_AMD_20260526_peer_NVDA",
+      "kind": "peer_move",
+      "title": "NVDA (competitor) moved -0.22% the same day",
+      "detail": "AMD moved +7.78% while NVDA moved -0.22%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NVDA/history",
+      "occurred_on": "2026-05-26",
+      "numbers": {
+        "peer_pct_change": -0.22,
+        "subject_pct_change": 7.782,
+        "relationship": "competitor"
+      }
+    },
+    "ev_AMD_20260526_peer_TSM": {
+      "id": "ev_AMD_20260526_peer_TSM",
+      "kind": "peer_move",
+      "title": "TSM (supplier) moved +1.93% the same day",
+      "detail": "AMD moved +7.78% while TSM moved +1.93%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TSM/history",
+      "occurred_on": "2026-05-26",
+      "numbers": {
+        "peer_pct_change": 1.93,
+        "subject_pct_change": 7.782,
+        "relationship": "supplier"
+      }
     },
     "ev_AMD_20260728_price": {
       "id": "ev_AMD_20260728_price",
@@ -1893,76 +2091,49 @@
         "prev_close": 494.95,
         "volume": 36315500,
         "volume_vs_30d_avg": 1.77,
-        "move_excluding_sector_pct": 7.43
+        "move_excluding_sector_pct": 8.03
+      }
+    },
+    "ev_AMD_20260728_peer_MSFT": {
+      "id": "ev_AMD_20260728_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved +1.09% the same day",
+      "detail": "AMD moved -8.15% while MSFT moved +1.09%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-07-28",
+      "numbers": {
+        "peer_pct_change": 1.09,
+        "subject_pct_change": -8.148,
+        "relationship": "customer"
       }
     },
     "ev_AMD_20260728_peer_NVDA": {
       "id": "ev_AMD_20260728_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved +0.25% the same day",
-      "detail": "AMD moved -8.15% while NVDA moved +0.25%.",
+      "title": "NVDA (competitor) moved +0.25% the same day",
+      "detail": "AMD moved -8.15% while NVDA moved +0.25%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-07-28",
       "numbers": {
         "peer_pct_change": 0.25,
-        "subject_pct_change": -8.148
+        "subject_pct_change": -8.148,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260728_peer_TSM": {
       "id": "ev_AMD_20260728_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved -1.70% the same day",
-      "detail": "AMD moved -8.15% while TSM moved -1.70%.",
+      "title": "TSM (supplier) moved -1.70% the same day",
+      "detail": "AMD moved -8.15% while TSM moved -1.70%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-07-28",
       "numbers": {
         "peer_pct_change": -1.7,
-        "subject_pct_change": -8.148
-      }
-    },
-    "ev_AMD_20260730_price": {
-      "id": "ev_AMD_20260730_price",
-      "kind": "price",
-      "title": "AMD rose 13.00% on 2026-07-30",
-      "detail": "Closed at $485.39 from $429.56. Volume was 1.8x the 30-day average.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/AMD/history",
-      "occurred_on": "2026-07-30",
-      "numbers": {
-        "pct_change": 12.997,
-        "close": 485.39,
-        "prev_close": 429.56,
-        "volume": 36936600,
-        "volume_vs_30d_avg": 1.8,
-        "move_excluding_sector_pct": 7.85
-      }
-    },
-    "ev_AMD_20260730_peer_NVDA": {
-      "id": "ev_AMD_20260730_peer_NVDA",
-      "kind": "peer_move",
-      "title": "NVDA moved +2.65% the same day",
-      "detail": "AMD moved +13.00% while NVDA moved +2.65%.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/NVDA/history",
-      "occurred_on": "2026-07-30",
-      "numbers": {
-        "peer_pct_change": 2.65,
-        "subject_pct_change": 12.997
-      }
-    },
-    "ev_AMD_20260730_peer_TSM": {
-      "id": "ev_AMD_20260730_peer_TSM",
-      "kind": "peer_move",
-      "title": "TSM moved +7.64% the same day",
-      "detail": "AMD moved +13.00% while TSM moved +7.64%.",
-      "source": "Yahoo Finance (via yfinance)",
-      "url": "https://finance.yahoo.com/quote/TSM/history",
-      "occurred_on": "2026-07-30",
-      "numbers": {
-        "peer_pct_change": 7.64,
-        "subject_pct_change": 12.997
+        "subject_pct_change": -8.148,
+        "relationship": "supplier"
       }
     },
     "ev_AMD_20260805_price": {
@@ -1979,33 +2150,49 @@
         "prev_close": 518.58,
         "volume": 49615800,
         "volume_vs_30d_avg": 2.41,
-        "move_excluding_sector_pct": 8.38
+        "move_excluding_sector_pct": 7.57
+      }
+    },
+    "ev_AMD_20260805_peer_MSFT": {
+      "id": "ev_AMD_20260805_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved -1.09% the same day",
+      "detail": "AMD moved -7.04% while MSFT moved -1.09%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-08-05",
+      "numbers": {
+        "peer_pct_change": -1.09,
+        "subject_pct_change": -7.044,
+        "relationship": "customer"
       }
     },
     "ev_AMD_20260805_peer_NVDA": {
       "id": "ev_AMD_20260805_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved +3.44% the same day",
-      "detail": "AMD moved -7.04% while NVDA moved +3.44%.",
+      "title": "NVDA (competitor) moved +3.44% the same day",
+      "detail": "AMD moved -7.04% while NVDA moved +3.44%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-08-05",
       "numbers": {
         "peer_pct_change": 3.44,
-        "subject_pct_change": -7.044
+        "subject_pct_change": -7.044,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260805_peer_TSM": {
       "id": "ev_AMD_20260805_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved -0.76% the same day",
-      "detail": "AMD moved -7.04% while TSM moved -0.76%.",
+      "title": "TSM (supplier) moved -0.76% the same day",
+      "detail": "AMD moved -7.04% while TSM moved -0.76%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-08-05",
       "numbers": {
         "peer_pct_change": -0.76,
-        "subject_pct_change": -7.044
+        "subject_pct_change": -7.044,
+        "relationship": "supplier"
       }
     },
     "ev_AMD_20260805_filing_000000248826000123": {
@@ -2042,33 +2229,49 @@
         "prev_close": 559.82,
         "volume": 44494300,
         "volume_vs_30d_avg": 2.16,
-        "move_excluding_sector_pct": 7.6
+        "move_excluding_sector_pct": 7.85
+      }
+    },
+    "ev_AMD_20260921_peer_MSFT": {
+      "id": "ev_AMD_20260921_peer_MSFT",
+      "kind": "peer_move",
+      "title": "MSFT (customer) moved +1.59% the same day",
+      "detail": "AMD moved +9.95% while MSFT moved +1.59%. MSFT is AMD's customer (semi-custom SoC products for game consoles), per the knowledge graph (source: 10-K).",
+      "source": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "occurred_on": "2026-09-21",
+      "numbers": {
+        "peer_pct_change": 1.59,
+        "subject_pct_change": 9.95,
+        "relationship": "customer"
       }
     },
     "ev_AMD_20260921_peer_NVDA": {
       "id": "ev_AMD_20260921_peer_NVDA",
       "kind": "peer_move",
-      "title": "NVDA moved +2.30% the same day",
-      "detail": "AMD moved +9.95% while NVDA moved +2.30%.",
+      "title": "NVDA (competitor) moved +2.30% the same day",
+      "detail": "AMD moved +9.95% while NVDA moved +2.30%. NVDA is AMD's competitor (GPUs, custom chips and accelerated computing solutions), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/NVDA/history",
       "occurred_on": "2026-09-21",
       "numbers": {
         "peer_pct_change": 2.3,
-        "subject_pct_change": 9.95
+        "subject_pct_change": 9.95,
+        "relationship": "competitor"
       }
     },
     "ev_AMD_20260921_peer_TSM": {
       "id": "ev_AMD_20260921_peer_TSM",
       "kind": "peer_move",
-      "title": "TSM moved +2.41% the same day",
-      "detail": "AMD moved +9.95% while TSM moved +2.41%.",
+      "title": "TSM (supplier) moved +2.41% the same day",
+      "detail": "AMD moved +9.95% while TSM moved +2.41%. TSM is AMD's supplier (wafer production), per the knowledge graph (source: 10-K).",
       "source": "Yahoo Finance (via yfinance)",
       "url": "https://finance.yahoo.com/quote/TSM/history",
       "occurred_on": "2026-09-21",
       "numbers": {
         "peer_pct_change": 2.41,
-        "subject_pct_change": 9.95
+        "subject_pct_change": 9.95,
+        "relationship": "supplier"
       }
     },
     "ev_AMD_20260921_news0": {
@@ -2257,15 +2460,18 @@
       }
     }
   },
-  "arc": "Between March and September 2026, AMD staged an aggressive upward trajectory, climbing from $205.37 to $615.52. While early spring and mid-summer moves were characterized by volatility and large single-day swings that outpaced peers without direct disclosures, quarterly filings in early May and August provided concrete corporate milestones. The multi-month expansion culminated in September 2026 when growing commercial traction in regulated AI compute workloads with Instinct MI325X GPUs and a strong semiconductor rally drove the company's valuation past the $1 trillion market capitalization threshold.",
+  "arc": "AMD experienced substantial appreciation between March and September 2026, climbing from $205.37 to $615.52. The stock's dramatic trajectory was shaped by major company milestones, starting with an 18.61% single-day surge in May following its quarterly 10-Q filing. Although the stock encountered sharp company-specific pullbacks in late July and after its August 10-Q filing, momentum returned strongly by late September when AMD crossed the $1 trillion market capitalization milestone on expanded Instinct MI325X GPU adoption. Investors should note that while several significant moves were company-specific, AMD's largest upward days frequently aligned with shared rallies alongside supplier TSM and competitor NVDA.",
   "arc_citation_ids": [
     "ev_AMD_20260325_price",
+    "ev_AMD_20260506_price",
     "ev_AMD_20260506_filing_000000248826000076",
+    "ev_AMD_20260805_price",
     "ev_AMD_20260805_filing_000000248826000123",
     "ev_AMD_20260921_price",
     "ev_AMD_20260921_news1",
     "ev_AMD_20260921_news2",
-    "ev_AMD_20260921_news7"
+    "ev_AMD_20260921_peer_NVDA",
+    "ev_AMD_20260921_peer_TSM"
   ],
   "warnings": []
 }
