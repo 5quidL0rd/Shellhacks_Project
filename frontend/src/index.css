@@ -128,7 +128,7 @@ button {
 .sidebar .eyebrow { color: var(--sidebar-muted); opacity: 0.85; }
 .sidebar-foot { margin-top: auto; padding: 0 10px; color: var(--sidebar-muted); opacity: 0.7; font-size: 11px; }
 
-.main { padding: 32px 40px 64px; max-width: 1260px; width: 100%; }
+.main { padding: 32px 40px 64px; max-width: 1680px; width: 100%; }
 
 @media (max-width: 860px) {
   .app { grid-template-columns: 1fr; }
@@ -352,11 +352,12 @@ input[type="search"].search { margin-bottom: 10px; }
 @media (max-width: 1100px) { .two-col { grid-template-columns: 1fr; } }
 
 /* ---- map ---- */
-.map-layout { display: grid; grid-template-columns: 200px minmax(0, 1fr) 320px; gap: 20px; align-items: start; }
+.map-layout { display: grid; grid-template-columns: 180px minmax(0, 1fr) 300px; gap: 20px; align-items: start; }
 @media (max-width: 1200px) { .map-layout { grid-template-columns: 180px minmax(0, 1fr); } .map-layout > aside:last-child { grid-column: 1 / -1; } }
 @media (max-width: 760px) { .map-layout { grid-template-columns: 1fr; } }
 .focus-rail { padding: 16px 12px; }
-.map-wrap { position: relative; height: 640px; padding: 0; overflow: hidden; background: var(--map-bg); color: var(--map-ink-2); }
+/* The graph fills most of the screen height: at least 640px, at most 1100px. */
+.map-wrap { position: relative; height: clamp(640px, calc(100vh - 230px), 1100px); padding: 0; overflow: hidden; background: var(--map-bg); color: var(--map-ink-2); }
 .filters { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; font-size: 12px; }
 .filters label { display: inline-flex; gap: 6px; align-items: center; color: var(--text-secondary); }
 .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--text-secondary); }
@@ -397,6 +398,9 @@ input[type="search"].search { margin-bottom: 10px; }
   letter-spacing: 0.1em;
 }
 .cite {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
   font-size: 10px;
   border: 0;
   background: var(--tint);
@@ -405,7 +409,14 @@ input[type="search"].search { margin-bottom: 10px; }
   margin-left: 3px;
   color: var(--text-secondary);
   vertical-align: 1px;
+  line-height: 1.5;
 }
+.cite-icon { flex: none; opacity: 0.85; }
+.cite-guide p { margin: 0 0 12px; }
+.cite-guide-list { margin: 0; display: grid; gap: 10px; }
+.cite-guide-item dt { font-size: 12px; font-weight: 600; display: flex; align-items: center; gap: 6px; }
+.cite-guide-item dd { margin: 2px 0 0; font-size: 12px; color: var(--text-secondary); line-height: 1.45; }
+.cite-sample { margin-left: 0; cursor: default; }
 .cite:hover { background: var(--baseline); color: var(--text-primary); }
 .cite.active { background: var(--accent); color: var(--accent-ink); }
 .numbers { display: grid; grid-template-columns: auto 1fr; gap: 3px 14px; font-size: 12px; font-variant-numeric: tabular-nums; }
@@ -700,3 +711,57 @@ input[type="search"].search { margin-bottom: 10px; }
   padding-left: 10px;
   border-left: 2px solid var(--hairline);
 }
+
+/* ---- what changed ---- */
+.tabs { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 16px; }
+.tab {
+  border: 0;
+  background: none;
+  padding: 7px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+.tab:hover { background: var(--wash); }
+.tab.active { background: var(--surface); color: var(--text-primary); box-shadow: var(--shadow); }
+.tab-count { color: var(--text-muted); margin-left: 4px; font-variant-numeric: tabular-nums; }
+/* Two columns, filled row by row (1 | 2, 3 | 4, ...) so the ranking still reads
+   left to right. A column-first masonry layout would pack tighter but scramble
+   the order. */
+.feed-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: stretch; }
+@media (max-width: 1100px) { .feed-list { grid-template-columns: 1fr; } }
+.feed-card { padding: 18px 20px; display: flex; flex-direction: column; }
+.feed-card .feed-sources-toggle { margin-top: auto; padding-top: 10px; align-self: flex-start; }
+.feed-meta { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; font-size: 12px; }
+.feed-spacer { flex: 1; }
+.feed-company { color: var(--text-primary); }
+.tier-badge {
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--tint);
+  color: var(--text-secondary);
+}
+.tier-badge.tier-1 { background: var(--accent); color: var(--accent-ink); }
+.tier-badge.tier-2 { background: var(--accent-wash); color: #1f5c51; }
+.feed-headline { font-size: 15px; margin: 10px 0 4px; }
+.feed-summary { margin: 0 0 10px; color: var(--text-secondary); }
+.feed-touches { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 12px; }
+.touch { padding: 2px 8px; border-radius: 8px; background: var(--inset); }
+.touch a { color: var(--text-primary); }
+.feed-why { margin: 6px 0 0; }
+.feed-sources-toggle { padding-left: 0; }
+.feed-sources { margin: 4px 0 0; padding-left: 18px; font-size: 12px; display: grid; gap: 4px; }
+
+/* ---- X-Ray: a larger dependency list ---- */
+.xray-layout { grid-template-columns: minmax(0, 1fr) 380px; }
+@media (max-width: 1100px) { .xray-layout { grid-template-columns: 1fr; } }
+.xray-deps { padding: 24px 26px; }
+.xray-deps .dep-row { grid-template-columns: minmax(220px, 1.1fr) minmax(200px, 2.4fr) 88px; gap: 20px; padding: 14px 14px; }
+.xray-deps .dep-name { font-size: 14.5px; }
+.xray-deps .dep-type { font-size: 12px; margin-top: 2px; }
+.xray-deps .bar-track { height: 12px; }
+.xray-deps .dep-count { font-size: 13px; text-align: right; }
+.xray-deps .dep-detail { padding: 8px 14px 18px; }

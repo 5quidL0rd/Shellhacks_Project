@@ -48,6 +48,7 @@ Then open `http://127.0.0.1:8000/docs` for the interactive API page.
 | `GET /health` | nothing | Liveness; never touches Snowflake |
 | `GET /health/snowflake` | Snowflake | Confirms the Snowflake connection |
 | `GET /universe` | graph export | The supported companies with their graph connections |
+| `GET /feed?holdings=AAPL,NVDA` | feed cache | What Changed: last week's news events (precomputed by `scripts.build_feed`, Gemini-summarised with verified citations) that touch the portfolio, ranked your holding → connected company → same sector; each lists the holdings it reaches (from the graph) and its sources. `tier=1..3` filters |
 | `GET /quotes?symbols=AAPL,NVDA` | story cache | Last close, daily change, 1W/1M/3M/6M returns, 6-month range, volume vs 30-day average, 30-day sparkline; empty `symbols` = all companies |
 | `GET /story/{symbol}` | story cache | Price series and cited explanations of big moves |
 | `GET /story/{symbol}/citation/{id}` | story cache | One evidence row for the drill-down panel |
@@ -65,6 +66,16 @@ connection; restart the API after re-exporting the graph.
 The feed and research endpoints will be added once their Snowflake tables are
 populated. See `data_sources.md` for Story Mode's sources and citation rules,
 and `snowflake/schema_contract.sql` for the table definitions.
+
+## Refresh the data
+
+Everything the app serves is precomputed. To bring it up to date (before a demo, or from a scheduled job):
+```bash
+../.venv/bin/python -m scripts.refresh                 # stories (prices, news) + What Changed events
+../.venv/bin/python -m scripts.refresh --snowflake     # ...and load everything into Snowflake
+../.venv/bin/python -m scripts.refresh --skip-stories  # just What Changed (about 3 minutes)
+```
+It prints how fresh the data was before and after. Commit `data/cache/story_*.json` and `data/cache/feed_events.json` afterwards.
 
 ## Load data into Snowflake
 

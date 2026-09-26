@@ -49,8 +49,8 @@ On Windows, use `.venv\Scripts\pip` and `..\.venv\Scripts\uvicorn` instead of th
 | **Story Mode** (why each price move happened) | Done for all 13 companies | 153 explained moves, 113 at high confidence; every citation verified; served by the API |
 | **Snowflake** (sponsor track) | Connected and loaded | Graph, stories, prices, and news are in Snowflake |
 | **Backend API** (FastAPI) | Partly done | Story, graph, X-Ray, portfolio map, and impact endpoints work; feed, research, and saving a portfolio are not started |
-| **Frontend** (React) | Scaffolded and working | Holdings, X-Ray, Connection Map, Story Mode, and Research screens on the real API. See [frontend/README.md](frontend/README.md) |
-| **What Changed feed** | Not started | The data it needs (news and graph) is in place |
+| **Frontend** (React) | Scaffolded and working | Holdings, X-Ray, What Changed, Connection Map, Story Mode, and Research screens on the real API. See [frontend/README.md](frontend/README.md) |
+| **What Changed feed** | Working | Last week's news per company, grouped into cited events by Gemini (precomputed), ranked for your portfolio by the knowledge graph |
 | **Research a New Investment** | Working | Search any SEC filer; fit score, radar vs your holdings, cited brief. See [research_mode.md](research_mode.md) |
 | **Company list of 30–50** (Step 1) | Not started | `companylist.md` is a list of data providers, not companies |
 
@@ -134,13 +134,18 @@ Never commit `.env`, the private key, or any token.
 
 # Backend (from backend/)
 ../.venv/bin/uvicorn app.main:app --reload             # run the API; docs at http://127.0.0.1:8000/docs
+../.venv/bin/python -m scripts.refresh                 # refresh stories + What Changed in one step (add --snowflake to also load Snowflake)
 ../.venv/bin/python -m scripts.build_story_cache       # rebuild the stories (uses Gemini and Finnhub)
+../.venv/bin/python -m scripts.build_feed              # rebuild What Changed events (uses Gemini and Finnhub)
 ../.venv/bin/python -m scripts.load_snowflake          # load graph, stories, prices, and news into Snowflake
 ../.venv/bin/python -m pytest tests                    # run the tests
 
 # Frontend (from frontend/, with the API running)
 npm install && npm run dev                             # the app at http://localhost:5173
 ```
+
+### Keeping the data fresh
+Nothing runs on a schedule. The app serves saved files, and they only change when someone runs a build script, which is what keeps the demo free of live calls. Before a demo, run `../.venv/bin/python -m scripts.refresh` from `backend/` (about 8 minutes; needs `GEMINI_API_KEY`, `FINNHUB_API_KEY`, `SEC_USER_AGENT`), then commit the updated `backend/data/cache/story_*.json` and `feed_events.json`. A daily cron job or CI workflow could run the same command.
 
 ### API endpoints
 | Endpoint | Returns |
@@ -155,6 +160,8 @@ npm install && npm run dev                             # the app at http://local
 | `GET /portfolio/xray?holdings=AAPL,NVDA` | What the portfolio depends on (suppliers, countries), ranked by how many holdings share each; the home screen |
 | `GET /portfolio/map?holdings=...` | Nodes and links for the Connection Map, shaped for react-force-graph / Cytoscape.js |
 | `GET /portfolio/impact?company=TSM&holdings=...` | Which holdings news about a company touches, and how (supply chain, one step further downstream, competitors) |
+| `GET /feed?holdings=...` | What Changed: last week's events that touch the portfolio, ranked your holding → connected → same sector, with the holdings each reaches and its sources |
+| `GET /quotes` | Last-close price, daily change, period returns, and a 30-day sparkline per company |
 
 ---
 

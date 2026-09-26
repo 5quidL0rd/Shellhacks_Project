@@ -10,6 +10,7 @@ from snowflake.connector import DictCursor
 from snowflake.connector.errors import Error as SnowflakeError
 
 from . import portfolio, quotes
+from .feed import rank as feed_rank
 from .research import build as research
 from .connections import connections
 from .snowflake_db import get_connection
@@ -150,6 +151,19 @@ def portfolio_impact(company: str = Query(..., description="Ticker or graph id, 
     except KeyError as exc:
         raise HTTPException(status_code=404, detail=str(exc.args[0])) from None
     return {"holdings": supported, "unsupported": unsupported, **result}
+
+
+@app.get("/feed")
+def get_feed(holdings: list[str] = HOLDINGS,
+             tier: int | None = Query(default=None, ge=1, le=3,
+                                      description="1 your holdings, 2 connected, 3 same sector"),
+             limit: int = Query(default=40, ge=1, le=100)) -> dict:
+    """What Changed: last week's news events that matter to this portfolio,
+    ranked by how directly they touch it. Events are precomputed
+    (scripts.build_feed); relevance comes from the knowledge graph."""
+    supported, unsupported = _holdings(holdings)
+    return {"holdings": supported, "unsupported": unsupported,
+            **feed_rank.feed(supported, tier, limit)}
 
 
 @app.get("/quotes")

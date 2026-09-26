@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { api, type Provenance } from './api'
+import { EVIDENCE_DESCRIPTION, EVIDENCE_ICON, EVIDENCE_LABEL } from './evidence'
 import { useAsync } from './hooks'
 
 /** "7 holdings · Edit" line for page headers; holdings live on /holdings. */
@@ -131,3 +132,65 @@ export function AsOf({ date }: { date: string | null | undefined }) {
   return <span className="as-of" title="Prices come from saved data, not a live feed">Prices as of {label} close</span>
 }
 
+
+function EvidenceIcon({ kind }: { kind: string }) {
+  const d = EVIDENCE_ICON[kind]
+  if (!d) return null
+  return (
+    <svg className="cite-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+         strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d={d} />
+    </svg>
+  )
+}
+
+/** A numbered citation: an icon for the kind of evidence, the number, and a
+ * hover title saying what it is. A click opens the evidence panel; clicking
+ * the highlighted one again closes it and brings back the "How to read the
+ * citations" guide (passes null). */
+export function Cite({ n, id, active, onClick, evidence }: {
+  n: number
+  id: string
+  active: boolean
+  onClick: (id: string | null) => void
+  evidence?: { kind: string; title: string; occurred_on?: string }
+}) {
+  const label = evidence ? EVIDENCE_LABEL[evidence.kind] ?? evidence.kind : 'Source'
+  const when = evidence?.occurred_on
+    ? ` · ${new Date(`${evidence.occurred_on}T12:00:00`).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`
+    : ''
+  return (
+    <button className={`cite ${active ? 'active' : ''}`}
+            aria-label={`Citation ${n}: ${label}${evidence ? `, ${evidence.title}` : ''}`}
+            title={`${label}${when}${evidence ? ` · ${evidence.title}` : ''}`}
+            onClick={(e) => { e.stopPropagation(); onClick(active ? null : id) }}>
+      {evidence && <EvidenceIcon kind={evidence.kind} />}{n}
+    </button>
+  )
+}
+
+/** How to read the citations on this page: what the numbers are, then each
+ * icon that appears here with its name and a one-line description. */
+export function CiteGuide({ kinds }: { kinds: string[] }) {
+  const shown = [...new Set(kinds)].filter((k) => EVIDENCE_ICON[k])
+  if (!shown.length) return null
+  return (
+    <section className="cite-guide" aria-label="How to read the citations">
+      <div className="card-label">How to read the citations</div>
+      <p className="small secondary">
+        Each explanation was written only from the sources we gathered first. The small numbered
+        buttons after a paragraph are those sources: the icon says what kind it is, and clicking one
+        opens it with its figures and a link to the original. Click the highlighted one again to come
+        back to this guide.
+      </p>
+      <dl className="cite-guide-list">
+        {shown.map((k) => (
+          <div key={k} className="cite-guide-item">
+            <dt><span className="cite cite-sample"><EvidenceIcon kind={k} />1</span> {EVIDENCE_LABEL[k]}</dt>
+            <dd>{EVIDENCE_DESCRIPTION[k]}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  )
+}

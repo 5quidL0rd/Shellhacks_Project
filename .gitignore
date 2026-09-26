@@ -17,3 +17,4 @@ data/raw/
 # stories are committed and everything else is ignored.
 backend/data/cache/*
 !backend/data/cache/story_*.json
+!backend/data/cache/feed_events.json

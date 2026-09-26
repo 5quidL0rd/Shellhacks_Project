@@ -1,0 +1,1974 @@
+{
+  "companies": {
+    "AAPL": {
+      "as_of": "2026-09-26",
+      "articles_read": 40,
+      "events": [
+        {
+          "id": "AAPL_2026-09-26_0",
+          "symbol": "AAPL",
+          "headline": "Federal jury orders Apple to pay $5.7 billion in haptics patent dispute",
+          "summary": "A federal jury awarded Taction Technology more than $5.7 billion after determining Apple infringed two haptics patents used in iPhones and Apple Watches. Apple stated that it plans to appeal the decision.",
+          "event_type": "legal",
+          "tone": "negative",
+          "importance": "high",
+          "first_seen": "2026-09-26",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
+              "publisher": "CNBC",
+              "url": "https://finnhub.io/api/news?id=bf69f9d5721c77cca098ef4868037cff4ea09bb9eda000ce763d3e20b564a82c",
+              "date": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "id": "AAPL_2026-09-26_1",
+          "symbol": "AAPL",
+          "headline": "Apple renews global patent license agreement with Qualcomm",
+          "summary": "Qualcomm announced the renewal of its global patent license agreement with Apple, which becomes effective on April 1, 2027. The companies did not disclose financial terms or the duration of the renewed contract.",
+          "event_type": "deal",
+          "tone": "neutral",
+          "importance": "high",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Qualcomm (QCOM) Renews its Global Patent License With Apple (AAPL)",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=1d4d55595e50ce05cf8c801945ad99643e435e67124a11f0526c0655a5b6e147",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Qualcomm Stocks Jump as Apple Extends the Royalty Bridge",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=a6b8585e5cd297d80586458c3b2bcd24f414cc272ae45e109f2dd895db546bbc",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Qualcomm Rallies 6% as Buyers Reverse Apple Renewal Selloff; Apple Stock Ticks Up",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=9b96776491f8af6e93d997e438b7b829505e0c242e02ab050687d602e41932a0",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Qualcomm CFO says look beyond the Apple deal",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=bb85498ad331da9ca4273f8d6e74153cf588794ac47d255640fca246db547932",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm Renews Deal With Apple. Why the Stock Is Dropping Anyway.",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=21d68b36c4271a82faa1dcc772b680e6cc8a0c13d4ad4ffe9ae8d40d74c4b8f4",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Chip Stocks Retreat. Qualcomm Secures Apple Licensing Deal.",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=95606b2f24edb079100c62699b0cd9585584bb99e5d350a0245b3066522adaf1",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm Renews Global Apple Patent License \u2014 Extends Key Licensing Relationship Into 2027",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=4ce9da0c6cf71e87feb5d5843a4f97e58e1a09270f2a7cabfca00dd95adae199",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm secures long-term Apple patent deal, easing revenue fears",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=637e750994c2274e3f0e40dd842589c62a2ba411daf03380f28d2228eb3b38b9",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm Announces Renewal of Global Patent License Agreement with Apple",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=a67d20aed3be301b3b8d0b019ffe105fb269d47e0272604655255d5d27763b9d",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm Renews Patent License With Apple, Ushers in 'Agentic Age' With New Snapdragon",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=5d8f78738a5862ba9ed0780eb1f7a148fcab64347354b5de95cc29c67fcfa0c4",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm Renew Global Patent License Deal With Apple, Effective April 1, 2027",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=a5d3a1bbd4ba0ed22399f64b83fb1634fe9c779851080eed2dca70776e99f6cf",
+              "date": "2026-09-24"
+            }
+          ]
+        },
+        {
+          "id": "AAPL_2026-09-26_2",
+          "symbol": "AAPL",
+          "headline": "Apple launches foldable iPhone Duo and iPhone 18 Pro lineup",
+          "summary": "Apple introduced its first foldable device, the iPhone Duo, alongside the iPhone 18 Pro series, marking its first major hardware launch under CEO John Ternus. In China, the iPhone Duo debuted at 15,999 yuan (approximately $2,230) amid strong domestic competition.",
+          "event_type": "product",
+          "tone": "mixed",
+          "importance": "high",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "How Investors May Respond To Apple (AAPL) Launching Its First Foldable iPhone With On\u2011Device AI",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=2dc8f5809d15a59953da596f285f5373b5fd989cbcd3796011f9898449dbb509",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Apple (AAPL) Took a Different Pricing Approach with its New iPhones in China",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=64bed09e389f374ab4741c5535d0c06e00a63fc7ea67f8b670eaf56d9e911b6d",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Jim Cramer Shared What Apple Inc. (NASDAQ:AAPL)\u2019s New CEO Told Him About The iPhone Duo",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=313cd5b1a6f01f41266b20f656d51f051b929424ce85844d1ab42ef8f0c869a9",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Could John Ternus\u2019 Product Strategy Reshape Apple\u2019s (AAPL) Next Growth Phase?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=72d34ba905adbcf6740562a2ad4917293136e78112f143fc7db5c8f1665340e5",
+              "date": "2026-09-24"
+            }
+          ]
+        },
+        {
+          "id": "AAPL_2026-09-25_3",
+          "symbol": "AAPL",
+          "headline": "Apple agrees to $250 million settlement over Siri feature claims",
+          "summary": "Apple agreed to pay $250 million to settle a U.S. class action lawsuit alleging buyers were misled regarding Siri and Apple Intelligence capabilities on recent iPhones. The settlement creates a dedicated payout fund subject to court approval.",
+          "event_type": "legal",
+          "tone": "negative",
+          "importance": "medium",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Apple (AAPL) Reaches $250 Million Siri Settlement Over Recent iPhone Claims",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=a13dd373fa4673a4e560041969465d19d6374a4056217423151d21bd4a1b0658",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "AAPL_2026-09-26_4",
+          "symbol": "AAPL",
+          "headline": "Apple prepares Apple Pay rollout in India starting with Axis Bank",
+          "summary": "Apple is preparing to launch Apple Pay in India next month through a phased bank rollout beginning with Axis Bank credit cards. The entry follows a Reserve Bank of India policy update enabling biometric authentication for card payments.",
+          "event_type": "product",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-26",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Apple (AAPL) Eyes an Apple Pay Launch in India. How Much can it Grow Without UPI?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=41138db32ab2095e56c0b806819262ca9e34d07b841881747a8f74ff7729160a",
+              "date": "2026-09-26"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "NVDA": {
+      "as_of": "2026-09-26",
+      "articles_read": 40,
+      "events": [
+        {
+          "id": "NVDA_2026-09-25_0",
+          "symbol": "NVDA",
+          "headline": "Elon Musk outlines plans to deploy over 1.2M Nvidia chips at Colossus 2",
+          "summary": "Elon Musk announced that SpaceXAI's Colossus 2 could reach up to 1.21 million Nvidia GB200 and GB300 chips by year-end. Planned rollouts include 220,000 GB300 chips next week, followed by another 220,000 in November and a potential third wave in late December.",
+          "event_type": "deal",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "How Nvidia Can Benefit from Musk\u2019s SpaceX Chip Surprise",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=0ba942c7130e40ea7f10c1df7e6d15977e42630086e3d9655b1e48108f1f42a8",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Elon Musk Makes Massive Nvidia Move at SpaceX",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=c2991f4ad51888cc90aeb3bc8066e44c04d83d45f8829c33bd05c1b30e75f6ad",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Nvidia Stock Rises After Elon Musk\u2019s SpaceX Chip Surprise",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=d92f0ab68fc859b60b3c1a6d58bb527631fc597e205eb7ce6d47fc4f0e4e9f11",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "SPCX Stock Climbs Premarket As Musk Teases 3 Nvidia Chip Waves \u2014 Google Books SpaceX Ride For Orbital AI Test",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=8f5e31947991dba1515d1617f995f2d59a666968938d8f5f6cebf66f4f0a80ca",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Elon Musk Says SpaceXAI\u2019s Colossus 2 Could Run More Than 1.2 Million Nvidia GB200 And GB300 Chips By Year-End \u2018If We Get Lucky\u2019",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=8c98668706e6082991735f4a4aa8c3a3b6b5f3b3b8d32dfd262fba3a7a29815f",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "NVDA_2026-09-26_1",
+          "symbol": "NVDA",
+          "headline": "High-compute AI infrastructure targeted in global governance talks",
+          "summary": "Nvidia was drawn into geopolitical discussions at the Trump-Xi summit and the UN General Assembly regarding US-China AI rivalry. Speakers called for global standards on AI deployment and formal governance over high-compute infrastructure.",
+          "event_type": "regulation",
+          "tone": "neutral",
+          "importance": "high",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Nvidia (NVDA) Is Central To New Global AI Rules Debate",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=ad4b2ed379ce3de6131643c55a749ea7d631d75a1af9652e0e503b8017d153e0",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Nvidia Tests Key Level Amid Trump-Xi Talks, China Challenge",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=40e0a5419f73de85c40c02b9d2392c923fe49fb6285d52fb7f8093c86499dcdd",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "NVDA_2026-09-25_2",
+          "symbol": "NVDA",
+          "headline": "IonQ deploys Superion 256 system at Nvidia Quantum Research Center",
+          "summary": "IonQ announced it will deploy its Superion 256 quantum computer at NVIDIA's Accelerated Quantum Research Center. The installation links quantum hardware to NVIDIA GB200 NVL72 infrastructure via NVQLink and CUDA-Q for hybrid AI workloads.",
+          "event_type": "deal",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Does IonQ's NVIDIA Quantum Tie-Up Reframe the Long-Term Hardware Opportunity for Rigetti Computing (RGTI)?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=2ba248df89a1705af5bd3220dd3941537d3b3000b40d5f7373c087f7f9f02079",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Better Quantum Computing Stock: Nvidia vs. IonQ",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=b72d9dc37d8c82c9bd9b86e5faebb6a92c5a0684292efd1edc3858f5052e673f",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "How IonQ\u2019s On\u2011Prem Quantum System At NVIDIA (NVDA) Has Changed Its Investment Story",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=4784373fb8232e480a49640a551fa8f29166563af084adccb7b708ebaa5e58fd",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "NVDA_2026-09-25_3",
+          "symbol": "NVDA",
+          "headline": "MeetKai launches Nvidia-powered sovereign AI stack across six nations",
+          "summary": "MeetKai unveiled a sovereign AI rollout powered by Nvidia infrastructure across Brazil, Ukraine, Pakistan, Kazakhstan, Uzbekistan, and Bangladesh. The initiative partners with local telecom and government operators to serve populations totaling over 700 million people.",
+          "event_type": "deal",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "MeetKai Takes Sovereign AI built on NVIDIA to Six Countries",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=db38191c6551021ad72443c96e0a50b713cb1f97be9f5c70f57ec5f97a6ef5af",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "NVDA_2026-09-25_4",
+          "symbol": "NVDA",
+          "headline": "Nvidia evaluates glass substrates with suppliers and partners",
+          "summary": "Germany's SCHMID reported holding talks with suppliers to Nvidia regarding glass substrates designed to increase speeds and lower power consumption. The development follows discussions between Nvidia CEO Jensen Huang and SK Group Chairman Chey Tae-won.",
+          "event_type": "supply_chain",
+          "tone": "neutral",
+          "importance": "low",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Reported Earlier: 'Germany's SCHMID Says It Is in Talks With Suppliers to Nvidia, Intel and AMD; Glass Boosts Speed and Cuts Power Use Compared With Plastic Substrates; Jensen Huang Discussed Glass Substrates With Chey Tae-won' - Seoul Economic Daily",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=56af0978a160aa6dacfffd5a5ff9d022cd312cd6a741cb94f601ed9045adfe75",
+              "date": "2026-09-25"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "AMD": {
+      "as_of": "2026-09-26",
+      "articles_read": 40,
+      "events": [
+        {
+          "id": "AMD_2026-09-26_0",
+          "symbol": "AMD",
+          "headline": "AMD crosses $1 trillion market capitalization",
+          "summary": "Advanced Micro Devices reached a $1 trillion market cap milestone following a year-to-date stock rally of roughly 187% to 189%. The gain positions AMD as the latest semiconductor company to achieve the trillion-dollar threshold.",
+          "event_type": "market_move",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "If You Invest $500 a Month in AMD Starting Now, This is What You\u2019d Have in 2030",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=da72c6633dd6a1ea348a0838b96e8382b6cd18c17ceb044c4cdc9ee46cbc2f64",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "AMD Hits $1 Trillion, Muse Spooks Subscription Stocks: This Week on Wall Street",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=dfa8159d12fc0412e2cb85b1e5eb94182b5cb2d20337c25ada68b6e91db2712b",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "BofA raises AMD target to $720, sees server CPU TAM tripling to $211B by 2030",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=92a0dbacfba7c8167fe49707614b80155c4ba0af74668b993b1f06b05bcc2ae8",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "189%: The Year to Date Number That Pushed AMD Into the Trillion Dollar Club",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=04746a0cc8014e08efc135c0f69bee56134df8843a519917710bba9611e359e2",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "AMD Just Joined Nvidia in the $1 Trillion Club. At $614, Wall Street Is Paying Too Much for a Distant No. 2.",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=dad3a4651f31a14be8d86d8c788706994c2f4ebfffea1061c7ff69705465b98c",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "AMD vs. Nvidia: Which AI Stock Is the Better Buy?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=8fed0b7c8ee2defc13adaa142517a4d4d3e3a0d13e781bd896da7a1c82aa9e63",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "AMD Move Lower as $1 Trillion Raises the Execution Bar",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=0ab987fa8af2ce1a66ccb86feb744f092404fdca0ca3c53590feffd0cf8c2ab8",
+              "date": "2026-09-24"
+            }
+          ]
+        },
+        {
+          "id": "AMD_2026-09-25_1",
+          "symbol": "AMD",
+          "headline": "BofA lifts AMD price target to $720 on agentic AI CPU potential",
+          "summary": "Bank of America raised its price target on AMD from $620 to $720 while maintaining a Buy rating. The firm projected the server CPU total addressable market could expand to $211 billion by 2030 due to architecture requirements for agentic AI workloads.",
+          "event_type": "analyst",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Bank of America Just Upped Its Price Target on AMD Stock",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=d0938349b857daaf09f04f15cb467f4275edb29516dc83ef2f1527175253e724",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "5-Star Analyst Drops Stunning New Price Target on AMD Stock",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=da79bf184a1bd466ab139713cf2701fa789ffd7760d180540a3561809679767b",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "BofA raises AMD target to $720, sees server CPU TAM tripling to $211B by 2030",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=92a0dbacfba7c8167fe49707614b80155c4ba0af74668b993b1f06b05bcc2ae8",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "AMD Stock Gets A Price Target Hike With Anthropic-Akamai Deal Strengthening CPU Case In Agentic AI, BofA Says",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=8314c9804c87cb0470fcec22f2e709930d6d7ebbc6e9de67a8289bebc0a31e18",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Everyone Bought Nvidia for AI: Now AMD Could Win the $211 Billion CPU Race, Bank Of America Says",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=9d3ee1a14e90a7e64c992f5c0d602784fde67d2e3471898164ecd68c24ec3d14",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "B of A Securities Maintains Buy on Advanced Micro Devices, Raises Price Target to $720",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=4a06dc82cc7425a23ed7aee6bc7a0efe3eaa5942500f81b7e0da9d0f192f2230",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "AMD_2026-09-25_2",
+          "symbol": "AMD",
+          "headline": "SCHMID engages with suppliers to AMD on glass substrates",
+          "summary": "Germany's SCHMID is in talks with suppliers to AMD, Nvidia, and Intel regarding glass substrate adoption. The technology aims to increase processing speeds and reduce power consumption compared to conventional plastic substrates.",
+          "event_type": "supply_chain",
+          "tone": "neutral",
+          "importance": "low",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Reported Earlier: 'Germany's SCHMID Says It Is in Talks With Suppliers to Nvidia, Intel and AMD; Glass Boosts Speed and Cuts Power Use Compared With Plastic Substrates; Jensen Huang Discussed Glass Substrates With Chey Tae-won' - Seoul Economic Daily",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=56af0978a160aa6dacfffd5a5ff9d022cd312cd6a741cb94f601ed9045adfe75",
+              "date": "2026-09-25"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "TSM": {
+      "as_of": "2026-09-26",
+      "articles_read": 40,
+      "events": [
+        {
+          "id": "TSM_2026-09-25_0",
+          "symbol": "TSM",
+          "headline": "TSMC Plans 3% to 6% Wafer Price Hike Starting in 2027",
+          "summary": "TSMC is planning to raise wafer foundry prices by 3% to 6% starting in January 2027, with the steepest increases applied to advanced process nodes for AI and high-performance computing. The planned adjustments come as AI demand and advanced packaging capacity remain tight through 2030.",
+          "event_type": "product",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Why Is Taiwan Semiconductor Manufacturing (TSM) Raising Wafer Prices By 3% To 6%?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=4a3d6894884d3cb56ff01a9667e356a3e39dab6c0fffed97a8463dcdaf9bd200",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "TSMC Set to Raise Chip Prices Up to 6% as AI Boom Keeps Foundry Capacity Tight Through 2030: Report",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=8b200b7c088dde4676f665b4a24d32dfc5b451aa4ec162943fc724cea769e84d",
+              "date": "2026-09-24"
+            }
+          ]
+        },
+        {
+          "id": "TSM_2026-09-23_1",
+          "symbol": "TSM",
+          "headline": "A14 Node Tape-Outs Run Ahead of Schedule Toward 2028 Production",
+          "summary": "TSMC's next-generation A14 process is gaining strong customer traction with tape-outs proceeding ahead of schedule toward 2028 volume production. Concurrently, partner Cadence Design Systems achieved tool certification for A14 and delivered IP across TSMC's N3P, N2P, and A16 nodes.",
+          "event_type": "product",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-23",
+          "last_seen": "2026-09-23",
+          "sources": [
+            {
+              "headline": "Cadence Collaborates With TSMC to Deliver Certified Tool Solutions and Industry-Leading, Silicon-Proven UALink IP on TSMC Advanced Processes",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=38f01f03228ed4d2bb1dd0ca5980754004f3984c0a78d611834cdab88e23017c",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "Cadence And TSMC Expand Partnership For Advanced AI Chip Design And 3D-IC Technologies",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=200189dccdaea44628230c90e43e67d3b02aa8378d5c11f135029df383ac0bda",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "TSMC's A14 Gains Customer Traction Ahead of 2028 Volume Production",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=bfdbfc52cc415f299ea5618b6a71b0e91d0b7cbe6bbcdd99d803f8496eadbfb3",
+              "date": "2026-09-23"
+            }
+          ]
+        },
+        {
+          "id": "TSM_2026-09-25_2",
+          "symbol": "TSM",
+          "headline": "TSMC Develops 88.7-Hectare Packaging Validation Hub in Kaohsiung",
+          "summary": "An 88.7-hectare supplier-validation hub in Kaohsiung is being developed to shorten qualification cycles by co-locating packaging suppliers. Operations remain approximately three years away, and production capacity for the site has not been disclosed.",
+          "event_type": "supply_chain",
+          "tone": "neutral",
+          "importance": "medium",
+          "first_seen": "2026-09-21",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "TSMC Stocks Rise as Packaging Moves Closer to Suppliers",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=b5e3226af55b195652ba1ece3d21edc6b2ce570989dd938c1d47264b7e8d199f",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "TSMC Slips 1% as Packaging Moves Toward Supplier Validation",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=1263f3220022dd3f02ed1ca38ef1839b8be0df7d8149698170ad14c47faa08d6",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "TSMC Gains as Packaging Moves Closer to Its Suppliers",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=350c7f1cde874e44e337a019b8d685a9bc54decb9d9d0a66ad1a380916dc455f",
+              "date": "2026-09-22"
+            },
+            {
+              "headline": "3 Chip Stocks Set to Win TSMC\u2019s Packaging Boom",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=f275bd317b0b764600a2421b64c4269a9f7cb9b893845f90be3aa9d5a252b3bc",
+              "date": "2026-09-21"
+            },
+            {
+              "headline": "TSMC Gains as 88.7 Hectares Target Packaging Friction",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=a821fb43fa062e49beffe3ae5461fdc87791e27a92721ea585aed9e45660ecc9",
+              "date": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "TSM_2026-09-25_3",
+          "symbol": "TSM",
+          "headline": "Synopsys Expands TSMC Partnership for Agentic AI and Advanced Packaging",
+          "summary": "Synopsys expanded its collaboration with TSMC to deploy agentic AI features, multiphysics signoff methodologies, and multi-die design flows across advanced process and packaging nodes. The initiative aims to accelerate the design of complex AI and high-performance computing hardware.",
+          "event_type": "deal",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-23",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Synopsys and TSMC Partner to Accelerate AI Systems Innovation with Agentic AI and Advanced Design",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=b05add188bbb24947755dcc040c2c0770f87297ac5d7f61db04832c41a0e5121",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "Synopsys Collaborates With TSMC Over Development Of AI, High-Performance Computing, Advanced Semiconductor Systems",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=e78847f03cd0a4eb59fa242ce461ac9276148f05610093f8e53c2427755b9751",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "What Is Synopsys (SNPS) Telling Investors With Its Latest AI Chip Design Progress?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=1cddce7fa120598f04da406a54a13ccc54593819ab730709e5ce01947c293c62",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "TSM_2026-09-24_4",
+          "symbol": "TSM",
+          "headline": "TSMC and ASML Collaborate on 12-Inch EUV Photomask Standard",
+          "summary": "TSMC and ASML launched an industry initiative to transition advanced chipmaking from 6-inch to 12-inch Extreme Ultraviolet photomasks. The move is designed to enhance High NA EUV scanner productivity and eliminate stitching constraints when manufacturing large data-center AI chips.",
+          "event_type": "deal",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-20",
+          "last_seen": "2026-09-24",
+          "sources": [
+            {
+              "headline": "Is Taiwan Semiconductor (TSM) Stock a Better Bet than ASML Holding (ASML) as Advanced Chipmaking Accelerates?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=f637e6328417bd6aa823213b2da8475a3b7dd69a1577161369e1a98d58f1dfcc",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "ASML (ASML) and Chip Giants like TSMC Plot a Bigger Canvas for Building AI Chips",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=8c69db0d3d99efd1444fd0b5c88390a4d70bf5b030efe1d6bd477ef579b7f8ce",
+              "date": "2026-09-20"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "MSFT": {
+      "as_of": "2026-09-26",
+      "articles_read": 40,
+      "events": [
+        {
+          "id": "MSFT_2026-09-26_0",
+          "symbol": "MSFT",
+          "headline": "Microsoft revamps Copilot AI for enterprise workplace use",
+          "summary": "Microsoft launched an overhaul of Copilot, retreating from personal chatbots to focus on enterprise workflows with new Home, Code, and Autopilot tools. The update integrates persistent AI agents and shifts pricing partly toward usage-based billing.",
+          "event_type": "product",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Microsoft Copilot Is Turning Into An \u2018AI Operating System\u2019 \u2014 Here\u2019s What It Means For MSFT Stock, According To Oppenheimer\u2019s Brian Schwartz",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=6505d74393df0c0c2a81ed76d5ec8a02616396237c7770daa1212da64acf10cb",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Why Microsoft Stock Is Up Today",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=5137e235ab3c61272d185c84d85444be2a5a36a8c3ece3bbc3959c2e7e320f1d",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Stock Market Today, Sept. 25: Microsoft Stock Jumps 4% After Revamping Copilot With Code Generation and Agentic AI Tools",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=5af716348162f6e0cba94cdad83449b12132b595d08b8595f5010b4b889a261e",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft Rises as It Unifies Copilot AI | Closing Bell",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=2919eb1b52906eb20c36fa9c6b28b09392fdd5ec0641aa8cf1ea194f0deeae51",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "What's different about Microsoft's Copilot AI reboot",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=b42b1c794a056425ea221ab1584b5ff16fb0b268fa8f528f0d37b0c349d10810",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft Revamps Copilot as AI Spending Scrutiny Grows",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=041667d14b5a372d99afe9c685d6f78d8a7cc0ab89a20a0ddac9c4ded42abac0",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "The Dow Leads Market Indexes Higher as Microsoft Adds 120 Points",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=847e883a62a998fdaf7803df77f52c1a7a268f6376a3e52a672192f52f58685c",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft's Co-Pilot now an operating system, not just a chat bot, says Oppenheimer's Brian Schwartz",
+              "publisher": "CNBC",
+              "url": "https://finnhub.io/api/news?id=911050469a6be5fa559219588fc05b6e085392a5ceb370e8da5ae25ba874792c",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft Jumps Nearly 3.6% as Copilot Becomes a Digital Coworker",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=b97ea2b7c69173e0b89e1479cebfccc12f19596e8eda376b42709b30d3ff1481",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft, IBD Stock Of The Day, Makes Bullish Move As Software Giant Launches AI Super-App",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=749cc10f9e71bb1671b04eef6eedecc0cbe7114c381421b0964dc97976935ee9",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft Stock Is on Pace for Its Highest Close in More Than 10 Months. Here\u2019s Why.",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=571348ef1123beabb4290439ac39086fe92f39b7306d90b924f62ff1b9012a0c",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft shares rise over 3% after expanded Copilot release",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=d344c9d00620db4cf397c2acbbcdf0689680be3111565ce090e4f76c240968d8",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft unveils Copilot redesign",
+              "publisher": "CNBC",
+              "url": "https://finnhub.io/api/news?id=3b0fd6bcd0f01198c8df1eb3904b247481d765a66addaefd1fc39d4e2ed69e75",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft CEO: Autopilot is the 'next generation' of enterprise AI",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=aab041450f1ba96202fea4da38678ee2943de3838b12b863587d83f62c6dd0bd",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft unveils unified Copilot, cedes consumer AI market to focus on enterprise",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=b028b19b9e3a9fc80c6d5adf497e39ff63bac5bb23fa05805857ed36a4c5dfd4",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft relaunches Copilot app with coding and AI agents",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=9a74317995e9160183c14de644f3cc9a696048949672a33f33687dd460b6398b",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft Gives Copilot A Major AI Makeover",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=97f9a4bd0bf0d0b887bb111609183c6b7f63ab06b1d0cb119f7d5572dcbac259",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft\u2019s Jacob Andreou on Copilot upgrade and its use cases",
+              "publisher": "CNBC",
+              "url": "https://finnhub.io/api/news?id=251a0d06aa67d795f36c54d283a1f0e10c841d0e14d9b3e241ac3818575f13fc",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "MSFT_2026-09-25_1",
+          "symbol": "MSFT",
+          "headline": "Microsoft commits $10 billion to Gulf cloud and AI infrastructure",
+          "summary": "Microsoft plans to invest more than $10 billion by 2030 in data centers and subsea and terrestrial connectivity across Gulf countries. The initiative includes partnering with regional Middle Eastern AI organizations to expand local cloud capabilities.",
+          "event_type": "deal",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "What Is Microsoft (MSFT) Planning With Its $10 Billion Gulf Cloud And AI Push?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=294102c74c3afe0d34d3e966ebe77e66ba18bda2482fbc2dd6b4694a2de7cfc8",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "MSFT_2026-09-25_2",
+          "symbol": "MSFT",
+          "headline": "Microsoft raises dividend by 8%",
+          "summary": "Microsoft increased its dividend payout by 8% as part of its ongoing capital return to shareholders.",
+          "event_type": "other",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Microsoft Just Raised Its Dividend by 8%: Is It the Best Magnificent Seven Dividend to Own?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=fc8a7fe2181e5a5962472dbbaf82e3452808c7ac88cec1fa8a817e447eb5b4c0",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "MSFT_2026-09-26_3",
+          "symbol": "MSFT",
+          "headline": "Wall Street analysts lift targets on Copilot enterprise pivot",
+          "summary": "Oppenheimer raised its price target on Microsoft to $570 following the Copilot revamp, characterizing the platform as an emerging AI operating system. Stifel also upgraded the stock, pointing to growth getting back on track.",
+          "event_type": "analyst",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Microsoft Copilot Is Turning Into An \u2018AI Operating System\u2019 \u2014 Here\u2019s What It Means For MSFT Stock, According To Oppenheimer\u2019s Brian Schwartz",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=6505d74393df0c0c2a81ed76d5ec8a02616396237c7770daa1212da64acf10cb",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Top Bank Tweaks Microsoft Stock Price Target for 2027",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=c74167311002198b554d0ecb064704c1c4a5a4a9cc34f92c4450bae5f08642e9",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Microsoft Climbs 4% as Oppenheimer Lifts Target to $570 on Copilot Enterprise Pivot; Alphabet Ticks Up",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=d77fe060581bb214f49385c003e60f33684748ccf451d71036e69e1227042963",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Oppenheimer resets Microsoft stock price target after HQ visit",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=4d5c8112564b6b5602d1ace7fb1e44a4252db7c403d2a018516a37a1cb415ce8",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "MSFT_2026-09-25_4",
+          "symbol": "MSFT",
+          "headline": "Scrutiny mounts over surging AI capital expenditure risks",
+          "summary": "Investors flagged concerns over Microsoft's rising capital expenditures as Azure balances AI growth against spending levels. Separately, investor Michael Burry warned that big tech firms could face potential asset write-offs from aggressive AI investments.",
+          "event_type": "analyst",
+          "tone": "negative",
+          "importance": "medium",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Azure\u2019s Inflection Point: Can Microsoft (MSFT) Balance AI Growth With Capex Risk?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=e72a73080fe4550c43a495517f402a4adcde9b3b65634a131b74c078b4bf9ef1",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Michael Burry Warns Microsoft, Amazon and Oracle Could Face AI Write-Off Shock",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=3639cd7ac1e6574fecfe49dcf6c3bffeac0a1a5ab43453a9d46505309bc78810",
+              "date": "2026-09-25"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "INTC": {
+      "as_of": "2026-09-26",
+      "articles_read": 40,
+      "events": [
+        {
+          "id": "INTC_2026-09-23_0",
+          "symbol": "INTC",
+          "headline": "CEO says Intel can fill only about half of customer CPU demand",
+          "summary": "Chief Executive Lip-Bu Tan announced at Splunk's .conf26 conference that Intel can satisfy only about half of the processor orders customers are requesting. Tan noted he has had to apologize to fellow chief executives calling to secure additional chip supply.",
+          "event_type": "supply_chain",
+          "tone": "mixed",
+          "importance": "high",
+          "first_seen": "2026-09-23",
+          "last_seen": "2026-09-23",
+          "sources": [
+            {
+              "headline": "Here is Why Intel (INTC) is a Bad Investment at Today\u2019s Price",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=c693e3ce9bd4e6e29819a0ddef701662b426ce9443e77143fdf1ab1b3bb27b8e",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "Intel (INTC) Can Fill Only Half its CPU Orders. Is That a Problem or a Signal?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=2b0be225bf6a62c68740ece8525ee0addf621729658a24ef95b588ac61702e28",
+              "date": "2026-09-23"
+            }
+          ]
+        },
+        {
+          "id": "INTC_2026-09-23_1",
+          "symbol": "INTC",
+          "headline": "SK Hynix in discussions to lease or partner at Intel's Ohio complex",
+          "summary": "SK Hynix is exploring manufacturing memory chips in the United States and is discussing options with Intel, including leasing part of Intel's Ohio site. Talks also include the possibility of forming a venture involving Intel and major cloud customers.",
+          "event_type": "deal",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-23",
+          "last_seen": "2026-09-23",
+          "sources": [
+            {
+              "headline": "Intel: The Party Is Only Getting Started",
+              "publisher": "SeekingAlpha",
+              "url": "https://finnhub.io/api/news?id=0549f40525d719d2fba7f2bc1dde1d17ccf2d1000299fdc8c2271a346852a33c",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "SK Hynix Is Eyeing Intel\u2019s (INTC) Ohio Site. Why Micron (MU) Should Pay Attention",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=c4576e4ffa724e4ef9f7c7a3ebf8aa5424be6168c77ffbf90b899f7d6b9753ca",
+              "date": "2026-09-23"
+            }
+          ]
+        },
+        {
+          "id": "INTC_2026-09-25_2",
+          "symbol": "INTC",
+          "headline": "Meta's Muse app sparks market debate over AI-agent CPU demand",
+          "summary": "Intel shares experienced volatility and sharp rallies as Meta's Muse spurred bets on agentic AI requiring CPU orchestration alongside inference workloads. However, Meta has not confirmed Intel hardware selection or disclosed any purchase commitments.",
+          "event_type": "market_move",
+          "tone": "neutral",
+          "importance": "medium",
+          "first_seen": "2026-09-23",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "AMD, INTC Stocks Extend Rally As Meta's Muse Fuels Bets On An AI-Agent CPU Boom",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=c3298b332bf6a6a18a9675f56e98f1333aadc8c43944bd1ce7c05d5222092b6a",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Intel Shares Rise as Agentic AI Keeps CPUs in the Loop",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=c7490e1cb2aca8f4de2138e1bb82a4f093f3b7da1ae3efd7d89337ea38ef1873",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Meta's AI Agents Are Putting CPUs In Data Centers, But That's Not Bullish For Intel",
+              "publisher": "SeekingAlpha",
+              "url": "https://finnhub.io/api/news?id=6369ad7450b6da70a0861f619d7db06180c4082a34e8f4dfbc7535398ff82df7",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Intel Falls 2.24% as Muse Keeps the CPU Thesis Alive",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=754d6e25c06c824c73cdf8c62001fc31d0465aa1a56df0e754839d41800377f2",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "Intel: Beware The Muse AI-Driven FOMO Rally",
+              "publisher": "SeekingAlpha",
+              "url": "https://finnhub.io/api/news?id=b071f29fab848a20b180b47c4ca8f4e9ac46b77db2329f4247438f1972b19877",
+              "date": "2026-09-23"
+            }
+          ]
+        },
+        {
+          "id": "INTC_2026-09-25_3",
+          "symbol": "INTC",
+          "headline": "Intel partners with Advantech on Edge AI and neuromorphic chips",
+          "summary": "Intel expanded its Edge AI footprint through a new collaboration with Advantech Co., Ltd. to deploy Intel hardware and software across Advantech platforms for industrial AI workloads. Intel also highlighted progress in brain-inspired computing, including neuromorphic-style processors aimed at energy-efficient inference.",
+          "event_type": "product",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "What Is Intel (INTC) Doing In Edge AI And Brain Inspired Computing?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=897b68f6020619a0eb0609739ade343e34dd4b11646f86203c40029c0da878a5",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "INTC_2026-09-23_4",
+          "symbol": "INTC",
+          "headline": "Altera files confidentially for US IPO after Intel stake sale",
+          "summary": "Programmable chipmaker Altera confidentially filed for a U.S. initial public offering that could raise over $2 billion. Intel sold control of Altera last year ahead of the unit's planned return to public markets.",
+          "event_type": "deal",
+          "tone": "neutral",
+          "importance": "medium",
+          "first_seen": "2026-09-23",
+          "last_seen": "2026-09-23",
+          "sources": [
+            {
+              "headline": "Intel: The Party Is Only Getting Started",
+              "publisher": "SeekingAlpha",
+              "url": "https://finnhub.io/api/news?id=0549f40525d719d2fba7f2bc1dde1d17ccf2d1000299fdc8c2271a346852a33c",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "Intel (INTC) Could Get a Fresh Valuation for Altera. AMD (AMD) Is the Rival to Watch",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=250b1c3e78518eca33e3e0459463a9fe45c5ed50766de5acc02ebde4744118b4",
+              "date": "2026-09-23"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "MU": {
+      "as_of": "2026-09-26",
+      "articles_read": 40,
+      "events": [
+        {
+          "id": "MU_2026-09-25_0",
+          "symbol": "MU",
+          "headline": "Micron Unveils 512GB DDR5 Memory and Appoints Research Labs Head",
+          "summary": "Micron introduced a 512GB DDR5 server memory module designed for AI and data-intensive workloads. The company also named Deirdre Hanford as corporate vice president and president of Micron Research Labs.",
+          "event_type": "product",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Is Micron (MU) Quietly Recasting Its AI Memory Strategy With New Leadership and 512GB DDR5?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=8578d9948cf4f33514d53c63712018f311ce5a84e4d53aa8d1235b46193faf12",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "MU_2026-09-26_1",
+          "symbol": "MU",
+          "headline": "Fiscal Q4 Consensus Estimates Target $50.91B Revenue Ahead of Results",
+          "summary": "Wall Street analysts set consensus fiscal fourth-quarter expectations at $50.91 billion in revenue and $31.49 in EPS ahead of the report. Trailing twelve-month revenue stood at $90.3 billion, compared to $33.8 billion a year earlier.",
+          "event_type": "earnings",
+          "tone": "neutral",
+          "importance": "medium",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Micron, Nike To Headline Earnings Next Week; GDP Numbers Awaited",
+              "publisher": "SeekingAlpha",
+              "url": "https://finnhub.io/api/news?id=73b6acdf2bbb7d9709982357cc0520acb53ffb719221ec04f386a13837d8216a",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Micron Headlines Earnings Calendar; Jabil, Nike Also On Deck",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=b2a065e2a608124c2ee40cd43fef3d1f244f82498fc022e890d99fcf860f1593",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Micron's 279% Rally Is Heading Into a Big Earnings Test",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=4199b3d30de93679719c4b7a839d0a6b5dd5961213ea71c833409e0e61ddc765",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Micron Technology Stock Wavers Ahead Of Fiscal Q4 Earnings Report",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=f24af0d6f9a633f738c051a17b303a8a4aa6abe12ea47d9c93f0d59fc03aeb46",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "What Could Go Wrong At Micron From Here?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=60c17c8dc69a6c824f3e0819624606873ff7527ed31dfcca0ee6679f1d73041f",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "80% Odds Micron Beats Every Analyst On Wall Street, This Model Says",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=e0a15553b5f4fedc21eb9f7b0b7ac73f214dc5d3378a00d5e818f45c339b2c65",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "MU_2026-09-26_2",
+          "symbol": "MU",
+          "headline": "Analysts Assess Customer Agreements and Timing of Nvidia Product Ramp",
+          "summary": "RBC Capital reiterated an Outperform rating with a $1,500 target based on Strategic Customer Agreements and AI demand. Meanwhile, Susquehanna cautioned that full revenue benefits from Nvidia's product ramp may experience delays.",
+          "event_type": "analyst",
+          "tone": "mixed",
+          "importance": "medium",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Micron (MU) Trades at Just 6.5x Forward Earnings. RBC Says SCAs Could Change That",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=02562f2565c583fe1add339093d0c81def0d9c74f91521c2065096658a5ae5c0",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Micron Q1 2026 earnings: Nvidia chip launch benefit may be delayed",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=460160402f7a10882d1e925f4b0f4e761d763dcc615c39b170ba6ec1254c6c33",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Two Numbers to Watch in Micron\u2019s Earnings Report Next Week",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=36affdee65a4c66ffa33ff7b1415a81b9135b57c918d77b46dfbad0a34be5a0c",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "id": "MU_2026-09-25_3",
+          "symbol": "MU",
+          "headline": "CXMT Advances Denser DRAM Platform, Threatening Commodity Memory Pricing",
+          "summary": "Rival CXMT introduced a denser DRAM platform that could put pricing pressure on mainstream memory economics. The threat comes as competitors seek to contest Micron's position in expanding memory markets.",
+          "event_type": "other",
+          "tone": "negative",
+          "importance": "medium",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Micron Stocks Gain While CXMT Raises the Commodity Threat",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=7062d06ff0b3f75776acf7ca4b242c0ead1d75ba1bac18a0e85c5fc34cf73d05",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "What Could Go Wrong At Micron From Here?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=60c17c8dc69a6c824f3e0819624606873ff7527ed31dfcca0ee6679f1d73041f",
+              "date": "2026-09-25"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "AVGO": {
+      "as_of": "2026-09-26",
+      "articles_read": 40,
+      "events": [
+        {
+          "id": "AVGO_2026-09-24_0",
+          "symbol": "AVGO",
+          "headline": "China probes Broadcom switches in state-backed data centers",
+          "summary": "Chinese authorities are auditing Broadcom's data center switches amid reports that Beijing found the chips in up to 90% of state-owned firms. The scrutiny stems from China's push to replace foreign technology with domestic alternatives in state-backed infrastructure.",
+          "event_type": "regulation",
+          "tone": "negative",
+          "importance": "high",
+          "first_seen": "2026-09-23",
+          "last_seen": "2026-09-24",
+          "sources": [
+            {
+              "headline": "What's Going On With Broadcom Stock Thursday?",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=f927064a8e01897600db162695100328bd7417b73fc53589d364f8f7d71511cc",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Broadcom: China Just Added A New Risk To The AI Story, Beyond Margins",
+              "publisher": "SeekingAlpha",
+              "url": "https://finnhub.io/api/news?id=a9c97f6e693bc9b46f49d288b17d25596c0725125661a3f4022ab22c48d1b40d",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "AVGO Stock Falls Premarket: China Reportedly Audits Broadcom\u2019s Grip On State-Backed Data Centers",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=5ee3c316a10cc372ebc3bfb0ffda52dabbc51ac459593d1762858611d8ec7063",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "'China Reviews Dependence on Broadcom Switches In Data Centres' - FT",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=89815e7ac54812428302c593624ae0e13e9c632789d1c12439e54261bb18e3ff",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "Broadcom Faces China Data Center Threat as Beijing Finds Its Switches in Up to 90% of State-Owned Firms: Report",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=bc46ce9bd688ba1dade516d39c53934dfc3cfdafe0c80a07e760e9eab0f62fe7",
+              "date": "2026-09-23"
+            }
+          ]
+        },
+        {
+          "id": "AVGO_2026-09-24_1",
+          "symbol": "AVGO",
+          "headline": "Broadcom reaffirms long-term AI outlook as Anthropic expands custom chip ties",
+          "summary": "CEO Hock Tan defended the company's $350 billion AI chip outlook, reiterating that delivery targets remain unchanged even amid industry calls to slow frontier AI development. The reaffirmation follows indications that Anthropic is set to overtake Google as Broadcom's largest custom AI chip customer.",
+          "event_type": "guidance",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-21",
+          "last_seen": "2026-09-24",
+          "sources": [
+            {
+              "headline": "Broadcom's Latest Prediction Makes the Stock a No-Brainer Buy Right Now",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=6afeeb919aaa50f703383f7a42c0fba594aa8b52f15277aeb92ae420d329f8b1",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Broadcom Falls 2% as $230 Billion AI Target Doubles the Delivery Test",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=8e0cfe0ff85cee3be766c38a3654f8748f5b04025b067857716b511d1ab9a7ed",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Broadcom Just Named Its Next AI Customer. It Isn\u2019t Google.",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=1dd4edd91ec946c9511c08ef8b437bcd093e187040096570895c87ac60730b58",
+              "date": "2026-09-22"
+            },
+            {
+              "headline": "Broadcom CEO Holds $350B Outlook Strong Amid Calls to Slow Froniter AI Development",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=11a34cfaf2ae07a5e8d45aa0a4e391862cda7cf81009ed8b170ce29138ec56d3",
+              "date": "2026-09-22"
+            },
+            {
+              "headline": "Broadcom Stock Jumps. Anthropic Could Become Its Biggest Custom Chip Customer",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=d9cc1e20ab765474da7ccc4bf8010ef6315b91eeae6e657d6da38de2817ae20c",
+              "date": "2026-09-21"
+            },
+            {
+              "headline": "\u201cOur Targets Haven\u2019t Changed\u201d: Broadcom\u2019s CEO Pushes Back on the AI Slowdown Scare",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=91d0dff52b8ac206bff53409dc88dfb65c9ab59adb6c8015090eb61ed8e49b26",
+              "date": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "AVGO_2026-09-26_2",
+          "symbol": "AVGO",
+          "headline": "Broadcom reports Q3 FY26 results with $29.6B revenue and strong AI growth",
+          "summary": "Third-quarter revenue rose 85.5% year-over-year to $29.6 billion, driven by a 221% surge in AI semiconductor revenue. AI chips now account for more than half of overall sales, targeting $21.7 billion amid commitments from major hyperscalers.",
+          "event_type": "earnings",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-21",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Broadcom Has More Than One Way to Win. Here\u2019s Where I See the Stock Going",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=7db80f6cdf7166a419b8121e59e9e6312912d70e86da37fa0e27c4d425d5c545",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Broadcom: Hard To Ignore The Numbers, Buy Before The Market Catches Up",
+              "publisher": "SeekingAlpha",
+              "url": "https://finnhub.io/api/news?id=ae7e84c822d4e2c31209d6d89f00a17d5ec611e980aac5ad719c6be8d4392e29",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "Broadcom (AVGO) Is Up 7.4% After Massive Buybacks And AI Chip Deals With Hyperscalers - Has The Bull Case Changed?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=21cf86d3b4c676d8bc67a33fb58a45d76475d07acdb8d178f7584826dfb6d592",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "Broadcom Edges Higher as AI Chips Target $21.7 Billion",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=d1b19bc3cb398fcade0fd2c0c62a6b392213b93a2957608f25d031e2777ca182",
+              "date": "2026-09-21"
+            },
+            {
+              "headline": "Broadcom\u2019s AI Opportunity Is Bigger Than Its Stock Price Suggests",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=76ea112b0d419b8d6d2a967ffa78a4d37102101479f968d10b093072057f9353",
+              "date": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "AVGO_2026-09-23_3",
+          "symbol": "AVGO",
+          "headline": "Broadcom completes $10.93B share repurchase and launches note exchange offer",
+          "summary": "The company completed a multi-year share repurchase program covering 41 million shares for approximately $10.93 billion. Broadcom also initiated a fixed-income exchange offer for $654.00 million of its 4.926% notes due in 2037.",
+          "event_type": "other",
+          "tone": "neutral",
+          "importance": "medium",
+          "first_seen": "2026-09-23",
+          "last_seen": "2026-09-23",
+          "sources": [
+            {
+              "headline": "Broadcom (AVGO) Is Up 7.4% After Massive Buybacks And AI Chip Deals With Hyperscalers - Has The Bull Case Changed?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=21cf86d3b4c676d8bc67a33fb58a45d76475d07acdb8d178f7584826dfb6d592",
+              "date": "2026-09-23"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "QCOM": {
+      "as_of": "2026-09-26",
+      "articles_read": 40,
+      "events": [
+        {
+          "id": "QCOM_2026-09-26_0",
+          "symbol": "QCOM",
+          "headline": "Qualcomm Renews Global Patent License Agreement with Apple",
+          "summary": "Qualcomm announced the renewal of its global patent license agreement with Apple, which will take effect on April 1, 2027. Specific financial terms and the duration of the new agreement were not disclosed.",
+          "event_type": "deal",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Qualcomm (QCOM) Shares Skyrocket, What You Need To Know",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=33b73d00f8337dcd834318c8406b56e768202b10d46ff3be8918876e2b01688d",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Qualcomm (QCOM) Renews its Global Patent License With Apple (AAPL)",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=1d4d55595e50ce05cf8c801945ad99643e435e67124a11f0526c0655a5b6e147",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Qualcomm Stocks Jump as Apple Extends the Royalty Bridge",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=a6b8585e5cd297d80586458c3b2bcd24f414cc272ae45e109f2dd895db546bbc",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Qualcomm Rallies 6% as Buyers Reverse Apple Renewal Selloff; Apple Stock Ticks Up",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=9b96776491f8af6e93d997e438b7b829505e0c242e02ab050687d602e41932a0",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Qualcomm Renews Apple Patent Deal: Can QTL Regain Momentum?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=627ac63a7a9ce567072baca34137f9a5daf96dfbd7866eeea9c7b9c4e1cbb03b",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "What Is Going on With Qualcomm Stock on Friday?",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=4785de28d1bcee189dbc24512cd1b4965d8dca88eaf831a66b31f20a27b0887c",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "What's Going On With Qualcomm Stock Thursday",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=82df72387cf19bc5ff82d0a0c6b8c3e84a757875f98e7472220b8f24ac6218ae",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm CFO says look beyond the Apple deal",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=bb85498ad331da9ca4273f8d6e74153cf588794ac47d255640fca246db547932",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm Renews Deal With Apple. Why the Stock Is Dropping Anyway.",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=21d68b36c4271a82faa1dcc772b680e6cc8a0c13d4ad4ffe9ae8d40d74c4b8f4",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Chip Stocks Retreat. Qualcomm Secures Apple Licensing Deal.",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=95606b2f24edb079100c62699b0cd9585584bb99e5d350a0245b3066522adaf1",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm Renews Global Apple Patent License \u2014 Extends Key Licensing Relationship Into 2027",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=4ce9da0c6cf71e87feb5d5843a4f97e58e1a09270f2a7cabfca00dd95adae199",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm secures long-term Apple patent deal, easing revenue fears",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=637e750994c2274e3f0e40dd842589c62a2ba411daf03380f28d2228eb3b38b9",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm Announces Renewal of Global Patent License Agreement with Apple",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=a67d20aed3be301b3b8d0b019ffe105fb269d47e0272604655255d5d27763b9d",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm Renews Patent License With Apple, Ushers in 'Agentic Age' With New Snapdragon",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=5d8f78738a5862ba9ed0780eb1f7a148fcab64347354b5de95cc29c67fcfa0c4",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm Renew Global Patent License Deal With Apple, Effective April 1, 2027",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=a5d3a1bbd4ba0ed22399f64b83fb1634fe9c779851080eed2dca70776e99f6cf",
+              "date": "2026-09-24"
+            }
+          ]
+        },
+        {
+          "id": "QCOM_2026-09-25_1",
+          "symbol": "QCOM",
+          "headline": "Qualcomm Launches Snapdragon 8 Elite Gen 6 Processors for Agentic AI",
+          "summary": "Qualcomm introduced its new 2nm Snapdragon 8 Elite Gen 6 and Elite Extreme Gen 6 chips featuring advanced on-device agentic AI capabilities for smartphones, automotive systems, and edge devices. The company also announced its Snapdragon Sound Elite Gen 2 audio platform for wearables.",
+          "event_type": "product",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-22",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "What Is Going on With Qualcomm Stock on Friday?",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=4785de28d1bcee189dbc24512cd1b4965d8dca88eaf831a66b31f20a27b0887c",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Why Is Qualcomm (QCOM) Pushing AI From Phones To Cars And Edge Devices?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=7e4634bd3bf4657a0b41eb6295c035e17333db469f897e04b9c36b4f293b9695",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Can QCOM's Snapdragon Sound Elite Gen 2 for AI Wearables Drive Growth?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=48cd909dd8dc82cba5dfa219ae0f4fc8bce831beedd39e33fbec0333956a1fe5",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm Renews Global Apple Patent License \u2014 Extends Key Licensing Relationship Into 2027",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=4ce9da0c6cf71e87feb5d5843a4f97e58e1a09270f2a7cabfca00dd95adae199",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Qualcomm Renews Patent License With Apple, Ushers in 'Agentic Age' With New Snapdragon",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=5d8f78738a5862ba9ed0780eb1f7a148fcab64347354b5de95cc29c67fcfa0c4",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=9b514b2b2e92ccff60d564b1e6c774f3f7ef3a67f6a4635adcda16bffb2ca133",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "Qualcomm Takes AI To The Edge With New Mobile Chips",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=30e5545042889c3604cdb84d2e70a7b1baa8d8dd3438a96dfa64b7b954a46728",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "Qualcomm Falls 1% as Dual 2nm Chips Widen the AI Phone Bet",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=47aa00dc4ac725179f46f71b065d3609b5f43d0587e8a390e2f7cec155641575",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "We finally have clarity what an AI smartphone looks like, says Qualcomm CEO Cristiano Amon",
+              "publisher": "CNBC",
+              "url": "https://finnhub.io/api/news?id=a222383776384588f9ff1cd0cc96649a8eeb93c983ce3ec7bce9435fd3916f4e",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "QCOM Launches Next-Gen Snapdragon SoCs: Will Agentic AI Drive Growth?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=1ad5fb1a316358e39bc2f25d2120c8399e583e3d42cfaa2953625e91cfe5a2c0",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "QCOM Stock On Track For Best Month Since May: Analysts See AI Gains From Dual Flagship Snapdragon Launch",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=7829e4b756105976db0b3599f2cebe2e17f88dc2646829c555ea4e088bc31977",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "Qualcomm Comes For Apple\u2019s A20 Pro With New AI-First Snapdragon Chips",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=ea22888d3113d47bbc94883e8f6611403b64f3cd6d01a70dbff3531bce502a86",
+              "date": "2026-09-23"
+            },
+            {
+              "headline": "Qualcomm Launches Two New Smartphone Chips As AI Push Intensifies \u2014 QCOM Stock Edges Lower After-Hours",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=539fd32f7ee4ef7b4dc85ead37d0cdd5e560682dacfd5b22f5b38db3b65e98b8",
+              "date": "2026-09-22"
+            },
+            {
+              "headline": "Qualcomm CFO on agentic AI and the race to the edge",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=1dbdf5c6b65018be1e86928e5452d75a2f693bcd1a201d442f10b395d9258927",
+              "date": "2026-09-22"
+            }
+          ]
+        },
+        {
+          "id": "QCOM_2026-09-24_2",
+          "symbol": "QCOM",
+          "headline": "Qualcomm to Acquire Robotics Software Firm PickNik",
+          "summary": "Qualcomm announced an agreement to acquire robotics software company PickNik. The acquisition aims to integrate PickNik's MoveIt Pro platform with Qualcomm's Dragonwing hardware.",
+          "event_type": "deal",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "sources": [
+            {
+              "headline": "Qualcomm to acquire robotics software firm PickNik",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=6df852ed0252047d9e455319ba8d298bdc472643decc12109144fa63e10101b9",
+              "date": "2026-09-24"
+            }
+          ]
+        },
+        {
+          "id": "QCOM_2026-09-23_3",
+          "symbol": "QCOM",
+          "headline": "Qualcomm Partners with Lumentum and Corning on AI Optical Tech",
+          "summary": "Qualcomm collaborated with Lumentum and Corning at ECOC 2026 to demonstrate AI optical connectivity pairing VCSEL lasers with high-density chip-to-chip links.",
+          "event_type": "deal",
+          "tone": "positive",
+          "importance": "low",
+          "first_seen": "2026-09-23",
+          "last_seen": "2026-09-23",
+          "sources": [
+            {
+              "headline": "Lumentum Shares Are Up After an AI Optical Tech Partnership With Corning and Qualcomm. What This Means for LITE Stock.",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=5982de957991babfb88338199c57bf82ece2d0304b103cdcc4ea0fbe530dda8b",
+              "date": "2026-09-23"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "ASML": {
+      "as_of": "2026-09-26",
+      "articles_read": 15,
+      "events": [
+        {
+          "id": "ASML_2026-09-24_0",
+          "symbol": "ASML",
+          "headline": "ASML partners with chipmakers on 12-inch EUV photomasks and High-NA tools",
+          "summary": "ASML formed industry initiatives with chipmakers including TSMC, Intel, Samsung, SK Hynix, Nvidia, and Xanadu to transition to 12-inch EUV photomasks and adapt High NA tools for larger data-center chips.",
+          "event_type": "deal",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-20",
+          "last_seen": "2026-09-24",
+          "sources": [
+            {
+              "headline": "Is Taiwan Semiconductor (TSM) Stock a Better Bet than ASML Holding (ASML) as Advanced Chipmaking Accelerates?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=f637e6328417bd6aa823213b2da8475a3b7dd69a1577161369e1a98d58f1dfcc",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "ASML Holding (ENXTAM:ASML) Alliances Put Valuation Back In Focus",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=c591f2fc24301dcb16a48019e3ebcf1630be22db66222f2ce7a1399dbecba391",
+              "date": "2026-09-21"
+            },
+            {
+              "headline": "ASML (ASML) and Chip Giants like TSMC Plot a Bigger Canvas for Building AI Chips",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=8c69db0d3d99efd1444fd0b5c88390a4d70bf5b030efe1d6bd477ef579b7f8ce",
+              "date": "2026-09-20"
+            }
+          ]
+        },
+        {
+          "id": "ASML_2026-09-24_1",
+          "symbol": "ASML",
+          "headline": "High-NA EUV tools reach fabs as 110 units test factory throughput",
+          "summary": "ASML's $400 million High-NA tools reached additional fabrication plants as 110 EUV systems tested factory throughput, focusing operational attention on installation schedules and assembly execution.",
+          "event_type": "product",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-21",
+          "last_seen": "2026-09-24",
+          "sources": [
+            {
+              "headline": "ASML Drops 1.8% as $400 Million High-NA Tools Reach More Fabs",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=d9165d492964d4c0bd0e85929c12a3770cfd4fb5a94386e5fb6c8d98dd456390",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "ASML Adds 1% as 110 EUV Tools Test Factory Throughput",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=6c79de48416633f87174a66f6620767087f6c59b3f2a952db455c9d8dffd59da",
+              "date": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "ASML_2026-09-22_2",
+          "symbol": "ASML",
+          "headline": "Executive warns Europe chip development lagging amid lack of equipment sales",
+          "summary": "An ASML executive warned that Europe risks falling behind in chip development due to a lack of investment, noting that the company is currently making no chipmaking machine sales in the region.",
+          "event_type": "management",
+          "tone": "negative",
+          "importance": "medium",
+          "first_seen": "2026-09-22",
+          "last_seen": "2026-09-22",
+          "sources": [
+            {
+              "headline": "Market Chatter: ASML Executive Warns Europe Will Fall Behind in Chip Development Due to Lack of Investment",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=55d2f77dacd633b0f492b1399b2a7454b7f74fb761877b70d46eb5835f2f64eb",
+              "date": "2026-09-22"
+            }
+          ]
+        },
+        {
+          "id": "ASML_2026-09-21_3",
+          "symbol": "ASML",
+          "headline": "ASML reports share repurchases under ongoing buyback program",
+          "summary": "ASML disclosed share repurchases completed between September 14 and September 18, 2026, with weighted average prices ranging from \u20ac1,389.45 to \u20ac1,432.07 per share.",
+          "event_type": "other",
+          "tone": "neutral",
+          "importance": "low",
+          "first_seen": "2026-09-21",
+          "last_seen": "2026-09-21",
+          "sources": [
+            {
+              "headline": "ASML reports transactions under its current share buyback program",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=49ec043195712ef090a2d9e5659cb425b4ef49572e40b7b36127059d274d4444",
+              "date": "2026-09-21"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "CRUS": {
+      "as_of": "2026-09-26",
+      "articles_read": 0,
+      "events": [],
+      "warnings": []
+    },
+    "AMZN": {
+      "as_of": "2026-09-26",
+      "articles_read": 40,
+      "events": [
+        {
+          "id": "AMZN_2026-09-26_0",
+          "symbol": "AMZN",
+          "headline": "AWS Data Centers Hit by Drone Strikes in Middle East Conflict",
+          "summary": "Amazon confirmed that several AWS data centers were struck by Iranian drones during conflict in the Middle East.",
+          "event_type": "supply_chain",
+          "tone": "negative",
+          "importance": "high",
+          "first_seen": "2026-09-26",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Amazon.com (AMZN) Confirmed Iranian Drone Strikes Hit AWS Data Centers",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=4a1e72e5916d0ec5a28c7e50f0879a0bbd33f157706a1858fbc0b0caefbb120d",
+              "date": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "id": "AMZN_2026-09-26_1",
+          "symbol": "AMZN",
+          "headline": "Amazon Commits $3B to Expand Quick Commerce Footprint in India",
+          "summary": "Amazon announced a $3 billion investment plan to scale its quick commerce operations in India, aiming to expand from 750 to nearly 1,300 outlets by April 2027.",
+          "event_type": "other",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Amazon.com (AMZN) Confirmed Iranian Drone Strikes Hit AWS Data Centers",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=4a1e72e5916d0ec5a28c7e50f0879a0bbd33f157706a1858fbc0b0caefbb120d",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Amazon commits $3bn to scale India quick commerce arm \u2013 report",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=629cd4242130a8caea938c4c26b1f05ad6d162c8b16306147c7de5847110fb34",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Amazon Bets $3 Billion to Catch Up in India's Quick Commerce",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=d8b6226f68ed10c4b14e20e1e603d70be923cdccc8e5697a44874a92a7968df5",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Amazon Just Made a $3 Billion Bet on India's Next Growth Market",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=34bf66c54de3e5888092755d4b9a0a66cfbd595a4c523a792c3a28b8c55ffeea",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Amazon Reportedly Plans $3 Billion Investment in India Quick-Commerce Expansion",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=65ca35ea55a63753f388745db4adac4d4a7f41a82db8667448ae09b1a690e1be",
+              "date": "2026-09-24"
+            }
+          ]
+        },
+        {
+          "id": "AMZN_2026-09-25_2",
+          "symbol": "AMZN",
+          "headline": "Amazon Blocks Meta's Muse AI Agent and Opens Seller Data to Claude",
+          "summary": "Amazon blocked Meta Platforms' shopping agent Muse from accessing its retail inventory, while opening its seller platform data to Anthropic's Claude.",
+          "event_type": "product",
+          "tone": "mixed",
+          "importance": "medium",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Amazon Vs. Meta: What\u2019s Actually Behind The Decision to Block Muse",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=c59ccca6e320ce7c1b2de4984da804df03dac89a7b0508d0d7d2c6dad47f9471",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Shopify Opens Its Doors to Muse, Here\u2019s Why Amazon Won\u2019t",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=eb5b47bca844473dc11b95334d38d958a581d02f76656bf9afddcc1219117af6",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Amazon Opens Seller Data to Claude Days After Blocking Meta\u2019s Muse",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=53ea65417720a161a139ad15411eaf521e1787a0891d3fcfe3b1668495ec56a6",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Amazon Blocks Meta's Muse. It Could Be a Gift for Walmart and Shopify",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=d5b75373b66054785a1984a9e812dc22175aebf99874965a79ace4a3539b441f",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Amazon Blocked Meta\u2019s Shopping Bot, So Zuckerberg Cut A Deal With Amazon\u2019s Biggest Rival",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=78fa51135be0843dda0ef0a47c41e1fa0e0f5d5579aa8224644a0bb8f8e0ea45",
+              "date": "2026-09-24"
+            }
+          ]
+        },
+        {
+          "id": "AMZN_2026-09-24_3",
+          "symbol": "AMZN",
+          "headline": "Amazon Commits $1.9B for Delivery Driver Pay and Safety Technology",
+          "summary": "Amazon is investing $1.9 billion to attract and retain delivery drivers, rolling out pay increases alongside next-generation cameras and smart glasses.",
+          "event_type": "other",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "sources": [
+            {
+              "headline": "Amazon rolls out safety tech, pay bump for delivery providers",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=34614fbb7f0929df6a3d8face4ee8d325e032ab660a8ed1eef2b55cc52c1b52d",
+              "date": "2026-09-24"
+            }
+          ]
+        },
+        {
+          "id": "AMZN_2026-09-25_4",
+          "symbol": "AMZN",
+          "headline": "Amazon Invests $100M to Build Robotics Plant in Indiana",
+          "summary": "Amazon announced plans to invest over $100 million in a 585,000-square-foot robotics manufacturing facility in Indiana, creating 300 jobs by 2028.",
+          "event_type": "other",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Let\u2019s Take a Closer Look at Amazon\u2019s (AMZN) Debt-Fueled AI Buildout",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=b9dcea6c86759db10cdc5031906ce1b96eb29ec6dbbde4f5219dbd99e0f9890d",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Amazon Stock Dips After $100 Million Indiana Manufacturing Push",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=816bf3ffc0a434e53d142035ce3cb1d1c2c54d8e23129b408297ebed0fa705e4",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Amazon building $100 million robotics plant in Indiana",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=91345bff9f45798c66c547a4589cb392b74c350905568d47328e4899df53ed08",
+              "date": "2026-09-24"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "GOOGL": {
+      "as_of": "2026-09-26",
+      "articles_read": 40,
+      "events": [
+        {
+          "id": "GOOGL_2026-09-25_0",
+          "symbol": "GOOGL",
+          "headline": "Alphabet Reports $514B Cloud Backlog and 82% Quarterly Revenue Growth",
+          "summary": "CEO Sundar Pichai disclosed that Google Cloud backlog reached $514 billion after 82% revenue growth last quarter, with nearly 90% of the Fortune 100 using Gemini Enterprise. Google Cloud also entered a five-year agentic AI and cloud partnership with BNP Paribas.",
+          "event_type": "earnings",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "Sundar Pichai Reported Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter, With Nearly 90% of the Fortune 100 Using Gemini Enterprise. Is Google Cloud Becoming a Bigger Growth Driver Than Search?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=b1256672be167a906f8ada2512a2e4c34d4411864860cf79e832c584ea3ef4bc",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "BNP Paribas And Google Cloud Announce Five-Year Agentic AI And Cloud Partnership; Terms Not Disclosed",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=e6e35ef3a7f85689e883ae25481ff5a1ea652e46194541bb70c0f7411ba3bcf2",
+              "date": "2026-09-24"
+            }
+          ]
+        },
+        {
+          "id": "GOOGL_2026-09-26_1",
+          "symbol": "GOOGL",
+          "headline": "Google Advances Project Suncatcher Space Data Center Launch to Oct. 1",
+          "summary": "Google plans to launch an experimental satellite into orbit on October 1 via SpaceX to test Tensor Processing Unit (TPU) performance in space. The mission represents Google's first hardware test for Project Suncatcher, aiming to test orbital data centers.",
+          "event_type": "product",
+          "tone": "positive",
+          "importance": "high",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Google Moves Up its Space Data Center Timeline \u2014 Project Suncatcher Launches Oct. 1",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=fed793e9005a8f9d66881cd6ee77376ab773066366cbd1e03008e1562188f609",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Alphabet Moved Higher as TPUs Chase Power Beyond Earth",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=b55d9c0bc75b136fcf23e2df01156687330191313ad074573e6dbcd765fc98a8",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Google Plans To Launch Mini Data Center Into Space Next Week As Part Of Project Suncatcher\u2019s Bid For A Market Projected To Hit $28.16 Billion",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=5fdd251266a2446bdd65522663a0f3bb3a3d0cdbcf57dcd46c2c2f136f14cc54",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Elon Musk Responds With Two Emojis as Google CEO Sundar Pichai Says Project Suncatcher Heads to Space: 'Can Our TPUs Survive...'",
+              "publisher": "Benzinga",
+              "url": "https://finnhub.io/api/news?id=4cf5a70233055a4032e3123a74620cfe00762869a1e2f4c39f7f8c91dec1b1b7",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Alphabet's $30 Billion SpaceX Bill Isn't What It Looks Like",
+              "publisher": "SeekingAlpha",
+              "url": "https://finnhub.io/api/news?id=9faed350ddbc8d5116bb57dcc10f8aced33b0671c70d8bc34e1d0b006298fed4",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "SPCX Stock Climbs Premarket As Musk Teases 3 Nvidia Chip Waves \u2014 Google Books SpaceX Ride For Orbital AI Test",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=8f5e31947991dba1515d1617f995f2d59a666968938d8f5f6cebf66f4f0a80ca",
+              "date": "2026-09-25"
+            },
+            {
+              "headline": "Google Prepares to Put AI Chips Into Space",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=ba5b50877334ca97e1699680e11546381487166f0967620976c32ca02c28c794",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Google Is Taking a Major Step Forward Toward Space-Based AI Data Centers",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=0b31a53a61996ade3c003a540b3afe5c2765a6cc3ef027947a9afaeeb0d5dd4b",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Why Google and SpaceX Are Testing AI in Orbit: The Earthly Grid Can\u2019t Keep Up.",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=820686b03c82daf58dd3e618057407d2f5794bc2ca2c183ca85a8fa8c65667c0",
+              "date": "2026-09-24"
+            }
+          ]
+        },
+        {
+          "id": "GOOGL_2026-09-26_2",
+          "symbol": "GOOGL",
+          "headline": "Waymo Expands Robotaxi Services to Las Vegas, Tokyo, and Singapore",
+          "summary": "Waymo launched fully autonomous rides to the public in Las Vegas and announced plans to deploy commercial robotaxi fleets in Tokyo by 2027 and Singapore by 2028. The Singapore rollout represents Waymo's first market entry into Southeast Asia.",
+          "event_type": "product",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Alphabet (GOOGL) Plans Waymo\u2019s Singapore Launch for 2028. Can Robotaxis Scale Abroad?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=a8a4beb36ad038d23cfe43c0ab71f7401896dc78b78b652d63e714088c10fe39",
+              "date": "2026-09-26"
+            },
+            {
+              "headline": "Waymo Takes On Zoox in Las Vegas. Is Alphabet Winning the Robotaxi Race?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=0d2f875883cb21500af2f5eb5ac190c872a9848b563cc6d44b0120bae782aff8",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Waymo is Taking Robotaxis to Tokyo. Can Alphabet Get Ahead of Uber in Japan?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=e062e276c43be505082fae73ab19e022dae9eb63b7592461814b91ec37bdb8af",
+              "date": "2026-09-24"
+            }
+          ]
+        },
+        {
+          "id": "GOOGL_2026-09-24_3",
+          "symbol": "GOOGL",
+          "headline": "Google DeepMind Moves Gemini 4 Into Early Post-Training Phase",
+          "summary": "Google DeepMind confirmed that its next-generation frontier model, Gemini 4, has entered early post-training. The milestone was announced by DeepMind Senior Vice President Koray Kavukcuoglu at the AI Agenda Live Summit.",
+          "event_type": "product",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "sources": [
+            {
+              "headline": "Google's Gemini 4 Just Sent a New Signal to AI Investors",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=9970b37de2e81d0759058052ed5033bf1d42b4d990ba86340f21b023d0c0c16f",
+              "date": "2026-09-24"
+            },
+            {
+              "headline": "Google\u2019s Gemini 4 Enters Post-Training \u2014 and the Three-Way Frontier Race Just Compressed",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=1f2a533e58015e5718263fb4be5fa0aaa42c6cf60da592230180d24bb2aa1ce5",
+              "date": "2026-09-24"
+            }
+          ]
+        },
+        {
+          "id": "GOOGL_2026-09-26_4",
+          "symbol": "GOOGL",
+          "headline": "Gemini Model Autonomously Breached Three Targets in Security Test",
+          "summary": "A cybersecurity test conducted by independent evaluator Irregular showed Google's Gemini model autonomously hacked into three companies using public data and discovered credentials. It is the first recorded instance of Google's AI systems independently carrying out such breaches.",
+          "event_type": "product",
+          "tone": "negative",
+          "importance": "medium",
+          "first_seen": "2026-09-26",
+          "last_seen": "2026-09-26",
+          "sources": [
+            {
+              "headline": "Alphabet (GOOGL) Faces Gemini Security Questions. Could AI Agents Raise its Risks?",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=cb96e42dd86d3d32be42e17c99507491b4c67de1c95396c84009feceabe6df4c",
+              "date": "2026-09-26"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "as_of": "2026-09-26",
+  "generated_at": "2026-09-26T19:35:17.437358+00:00"
+}

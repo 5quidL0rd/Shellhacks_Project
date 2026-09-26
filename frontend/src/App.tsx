@@ -2,6 +2,7 @@ import { BrowserRouter, Link, NavLink, Route, Routes } from 'react-router-dom'
 import { api } from './api'
 import { Change } from './components'
 import { useAsync, usePortfolio } from './hooks'
+import { FeedPage } from './pages/FeedPage'
 import { HoldingsPage } from './pages/HoldingsPage'
 import { MapPage } from './pages/MapPage'
 import { ResearchPage } from './pages/ResearchPage'
@@ -21,6 +22,7 @@ const ICONS = {
   map: 'M6 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0M18 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0M12 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0M7.5 7.5l3.5 9M16.5 7.5l-3.5 9M8 6h8',
   research: 'M11 11m-7 0a7 7 0 1 0 14 0a7 7 0 1 0-14 0M21 21l-5-5',
   holdings: 'M4 6h16M4 12h16M4 18h10',
+  changes: 'M5 4h14v16H5zM9 8h6M9 12h6M9 16h3',
 }
 
 export default function App() {
@@ -36,6 +38,7 @@ export default function App() {
           <nav className="nav" aria-label="Main">
             <NavLink to="/holdings"><Icon d={ICONS.holdings} /> Holdings</NavLink>
             <NavLink to="/" end><Icon d={ICONS.xray} /> X-Ray</NavLink>
+            <NavLink to="/changes"><Icon d={ICONS.changes} /> What Changed</NavLink>
             <NavLink to="/map"><Icon d={ICONS.map} /> Connection Map</NavLink>
             <NavLink to="/research"><Icon d={ICONS.research} /> Research</NavLink>
           </nav>
@@ -45,6 +48,7 @@ export default function App() {
         <main className="main">
           <Routes>
             <Route path="/" element={<XRayPage holdings={holdings} />} />
+            <Route path="/changes" element={<FeedPage holdings={holdings} />} />
             <Route path="/map" element={<MapPage holdings={holdings} />} />
             <Route path="/holdings" element={<HoldingsPage holdings={holdings} setHoldings={setHoldings} />} />
             <Route path="/stock/:symbol" element={<StoryPage />} />

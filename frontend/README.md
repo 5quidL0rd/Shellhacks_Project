@@ -30,7 +30,7 @@ npm run lint       # oxlint
 | **Connection Map** | `/map` | `/portfolio/map`, `/portfolio/impact` | Working: force-directed map, click a company to highlight it and see affected holdings |
 | **Story Mode** | `/stock/:symbol` | `/story/{symbol}` | Working: price chart with numbered move markers, explanations, clickable citations |
 | **Research** | `/research` | `/research/search`, `/research/analyze` | Working: search any SEC filer; fit score, radar vs your holdings, overlap checks, cited brief (first search of a company is live and slow; see `research_mode.md`) |
-| **What Changed feed** | none | none yet | Not started |
+| **What Changed** | `/changes` | `/feed` | Working: ranked events with tier tabs, the holdings each reaches and how, last-close move, and cited sources |
 
 ## Files
 

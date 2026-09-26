@@ -10,7 +10,7 @@ import {
   type ResearchEvidence,
   type Verdict,
 } from '../api'
-import { EmptyPortfolio, HoldingsSummary } from '../components'
+import { Cite, CiteGuide, EmptyPortfolio, HoldingsSummary } from '../components'
 import { useAsync } from '../hooks'
 
 const VERDICT_CLASS: Record<Verdict, string> = {
@@ -290,11 +290,11 @@ function Result({ ticker, holdings, onPick }: {
             <p className="small secondary" style={{ marginTop: 0 }}>
               {r.brief.summary}
               {r.brief.summary_citation_ids.map((id, i) => (
-                <CiteButton key={id} n={i + 1} id={id} active={citation === id} onClick={setCitation} />
+                <Cite key={id} n={i + 1} id={id} active={citation === id} onClick={setCitation} evidence={r.evidence[id]} />
               ))}
             </p>
-            <BriefList title="For" tone="up" items={r.brief.pros} citation={citation} onCite={setCitation} />
-            <BriefList title="Against" tone="down" items={r.brief.cons} citation={citation} onCite={setCitation} />
+            <BriefList title="For" tone="up" items={r.brief.pros} citation={citation} evidence={r.evidence} onCite={setCitation} />
+            <BriefList title="Against" tone="down" items={r.brief.cons} citation={citation} evidence={r.evidence} onCite={setCitation} />
           </div>
         )}
 
@@ -320,9 +320,15 @@ function Result({ ticker, holdings, onPick }: {
           </dl>
         </div>
 
-        {citation && r.evidence[citation] && (
+        {citation && r.evidence[citation] ? (
           <div className="card">
             <EvidencePanel e={r.evidence[citation]} onClose={() => setCitation(null)} />
+          </div>
+        ) : r.brief.summary && (
+          <div className="card">
+            <CiteGuide kinds={[...r.brief.summary_citation_ids,
+              ...[...r.brief.pros, ...r.brief.cons].flatMap((p) => p.citation_ids)]
+              .map((id) => r.evidence[id]?.kind).filter(Boolean) as string[]} />
           </div>
         )}
 
@@ -435,12 +441,13 @@ function Radar({ candidate, portfolio, size = 250 }: {
   )
 }
 
-function BriefList({ title, tone, items, citation, onCite }: {
+function BriefList({ title, tone, items, citation, evidence, onCite }: {
   title: string
   tone: 'up' | 'down'
   items: { point: string; citation_ids: string[] }[]
   citation: string | null
-  onCite: (id: string) => void
+  evidence: Analysis['evidence']
+  onCite: (id: string | null) => void
 }) {
   return (
     <div className="brief-block">
@@ -453,25 +460,13 @@ function BriefList({ title, tone, items, citation, onCite }: {
               <li key={i} className="small">
                 {item.point}
                 {item.citation_ids.map((id, n) => (
-                  <CiteButton key={id} n={n + 1} id={id} active={citation === id} onClick={onCite} />
+                  <Cite key={id} n={n + 1} id={id} active={citation === id} onClick={onCite} evidence={evidence[id]} />
                 ))}
               </li>
             ))}
           </ul>
         )}
     </div>
-  )
-}
-
-function CiteButton({ n, id, active, onClick }: {
-  n: number
-  id: string
-  active: boolean
-  onClick: (id: string) => void
-}) {
-  return (
-    <button className={`cite ${active ? 'active' : ''}`} aria-label={`Citation ${n}`}
-            onClick={(e) => { e.stopPropagation(); onClick(id) }}>{n}</button>
   )
 }
 
@@ -495,7 +490,10 @@ function EvidencePanel({ e, onClose }: { e: ResearchEvidence; onClose: () => voi
       <p className="small">
         {e.url ? <a href={e.url} target="_blank" rel="noreferrer">Open source · {e.source}</a> : e.source}
       </p>
-      <button className="ghost-btn small" onClick={onClose}>Close</button>
+      <div className="row-between">
+        <button className="ghost-btn small" onClick={onClose}>Close</button>
+        <span className="small muted">Click the highlighted citation again for the guide</span>
+      </div>
     </div>
   )
 }

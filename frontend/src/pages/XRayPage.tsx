@@ -46,8 +46,8 @@ export function XRayPage({ holdings }: { holdings: string[] }) {
       {xray.error && <p className="error">{xray.error}</p>}
       {xray.data && (
         <>
-          <div className="two-col">
-            <section className="card" aria-label="Dependencies">
+          <div className="two-col xray-layout">
+            <section className="card xray-deps" aria-label="Dependencies">
               <div className="card-label">What your portfolio depends on</div>
               <p className="small muted" style={{ marginTop: 0 }}>Suppliers and countries, from SEC filings. Click one to see the evidence.</p>
               <div className="dep-list">
