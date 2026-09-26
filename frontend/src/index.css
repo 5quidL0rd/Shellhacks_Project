@@ -37,6 +37,14 @@
   --series-2: #d9531e; /* supported companies you don't own */
   --series-3: #9c6ad6; /* outside companies */
   --neutral-node: #9aabb2; /* countries */
+  /* Connection Map canvas: dark teal so nodes and lines stand out. Node colors
+     above were re-validated on it (same result as on white). */
+  --map-bg: #122b33;
+  --map-ink: #ffffff; /* holding labels */
+  --map-ink-2: #c8d8e4; /* other labels */
+  --map-link: #9db8c4; /* supply lines */
+  --map-link-2: #5f7f8a; /* competitor / country lines */
+  --map-dim: rgba(200, 216, 228, 0.1); /* lines outside a selection */
   --price-line: #2b6777; /* Story Mode price line */
   --up: #52ab98;
   --down: #d9531e;
@@ -343,7 +351,7 @@ input[type="search"].search { margin-bottom: 10px; }
 @media (max-width: 1200px) { .map-layout { grid-template-columns: 180px minmax(0, 1fr); } .map-layout > aside:last-child { grid-column: 1 / -1; } }
 @media (max-width: 760px) { .map-layout { grid-template-columns: 1fr; } }
 .focus-rail { padding: 16px 12px; }
-.map-wrap { position: relative; height: 640px; padding: 0; overflow: hidden; }
+.map-wrap { position: relative; height: 640px; padding: 0; overflow: hidden; background: var(--map-bg); color: var(--map-ink-2); }
 .filters { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; font-size: 12px; }
 .filters label { display: inline-flex; gap: 6px; align-items: center; color: var(--text-secondary); }
 .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--text-secondary); }

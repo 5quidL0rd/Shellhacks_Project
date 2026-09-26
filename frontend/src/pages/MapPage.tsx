@@ -7,8 +7,8 @@ import { useAsync, useSize, useThemeColors } from '../hooks'
 type GNode = MapNode & { x?: number; y?: number }
 type GLink = Omit<MapLink, 'source' | 'target'> & { source: string | GNode; target: string | GNode }
 
-const TOKENS = ['series-1', 'series-2', 'series-3', 'neutral-node', 'text-primary',
-  'text-secondary', 'text-muted', 'grid', 'surface', 'focus', 'font']
+const TOKENS = ['series-1', 'series-2', 'series-3', 'neutral-node', 'map-bg', 'map-ink',
+  'map-ink-2', 'map-link', 'map-link-2', 'map-dim', 'focus', 'font']
 
 const endId = (end: string | GNode) => (typeof end === 'string' ? end : end.id)
 
@@ -119,15 +119,15 @@ export function MapPage({ holdings }: { holdings: string[] }) {
               }}
               width={width}
               height={height}
-              backgroundColor={colors.surface}
+              backgroundColor={colors['map-bg']}
               cooldownTicks={120}
               nodeRelSize={1}
               nodeVal={(n) => radius(n) ** 2}
               nodeLabel={(n) => `${n.name}${n.connected_holdings.length ? ` · connected to ${n.connected_holdings.join(', ')}` : ''}`}
               linkColor={(l) => {
                 const lit = !highlight || (highlight.has(endId(l.source)) && highlight.has(endId(l.target)))
-                if (!lit) return colors.grid
-                return l.type === 'supplies' ? colors['text-secondary'] : colors['text-muted']
+                if (!lit) return colors['map-dim']
+                return l.type === 'supplies' ? colors['map-link'] : colors['map-link-2']
               }}
               linkLineDash={(l) => (l.type === 'supplies' ? null : [3, 3])}
               linkWidth={(l) => (l.type === 'supplies' ? 1.5 : 1)}
@@ -146,7 +146,7 @@ export function MapPage({ holdings }: { holdings: string[] }) {
                 ctx.fill()
                 // 2px surface ring so overlapping nodes stay distinct.
                 ctx.lineWidth = 2 / scale
-                ctx.strokeStyle = colors.surface
+                ctx.strokeStyle = colors['map-bg']
                 ctx.stroke()
                 // Holdings get an outer ring: the second cue that keeps them
                 // distinct from outside companies for color-blind readers.
@@ -174,7 +174,7 @@ export function MapPage({ holdings }: { holdings: string[] }) {
                   ctx.font = `${n.is_holding ? 700 : 400} ${11 / scale}px ${colors.font}`
                   ctx.textAlign = 'center'
                   ctx.textBaseline = 'top'
-                  ctx.fillStyle = n.is_holding ? colors['text-primary'] : colors['text-secondary']
+                  ctx.fillStyle = n.is_holding ? colors['map-ink'] : colors['map-ink-2']
                   ctx.fillText(text.length > 24 ? `${text.slice(0, 22)}…` : text, n.x!, n.y! + r + 2 / scale)
                 }
                 ctx.globalAlpha = 1

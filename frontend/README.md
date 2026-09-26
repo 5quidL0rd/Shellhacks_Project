@@ -50,6 +50,7 @@ npm run lint       # oxlint
 - **Soft components:** no hard outlines. Cards separate from the page by fill and a faint shadow; buttons, inputs, chips, and badges use tinted fills; focus shows a soft green-teal ring.
 - **Colors are tokens** in `src/index.css`. Canvas charts (map, price chart) read the same tokens and the font through `useThemeColors`, so a token change restyles everything.
 - **Map node colors are validated** for color-vision deficiency on white: holdings teal `#0086a4`, supported-not-owned orange, outside companies violet. The palette's own teals are too muted for data (they read as gray), so the map uses a more saturated teal of the same hue. Teal vs violet needs a second cue, which the map gives: holdings are larger, ringed, and always labeled; countries are gray squares.
+- **The Connection Map has its own dark teal canvas** (`--map-bg: #122b33`) with light lines and labels, so the graph stands out from the light page. The node colors pass the same checks on it as on white.
 - **Text contrast:** the green-teal `#52ab98` is too light for text on white/gray, so text uses a darker `#2f8a76`; muted text is 4.6:1 on white.
 - **Up and down moves use arrows (▲▼) and a sign**, not color alone.
 - **Every claim links to its source.** Graph edges show the filing quote; story explanations show numbered citations that open the evidence.
