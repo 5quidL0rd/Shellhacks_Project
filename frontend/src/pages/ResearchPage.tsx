@@ -492,7 +492,7 @@ function EvidencePanel({ e, onClose }: { e: ResearchEvidence; onClose: () => voi
       </p>
       <div className="row-between">
         <button className="ghost-btn small" onClick={onClose}>Close</button>
-        <span className="small muted">Double-click a citation for the guide</span>
+        <span className="small muted">Click the highlighted citation again for the guide</span>
       </div>
     </div>
   )
