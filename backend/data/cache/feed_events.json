@@ -187,8 +187,8 @@
         {
           "id": "NVDA_2026-09-25_0",
           "symbol": "NVDA",
-          "headline": "Musk outlines plans for over 1.2 million Nvidia chips at SpaceX",
-          "summary": "Elon Musk stated that SpaceXAI's Colossus 2 data center could deploy more than 1.2 million Nvidia GB200 and GB300 chips by year-end. Installations include 220,000 GB300 chips scheduled for next week and another 220,000 in November.",
+          "headline": "Elon Musk outlines plans to deploy over 1.2M Nvidia chips at Colossus 2",
+          "summary": "Elon Musk announced that SpaceXAI's Colossus 2 could reach up to 1.21 million Nvidia GB200 and GB300 chips by year-end. Planned rollouts include 220,000 GB300 chips next week, followed by another 220,000 in November and a potential third wave in late December.",
           "event_type": "deal",
           "tone": "positive",
           "importance": "high",
@@ -230,8 +230,8 @@
         {
           "id": "NVDA_2026-09-26_1",
           "symbol": "NVDA",
-          "headline": "US-China summit and UN assembly debate high-compute AI rules",
-          "summary": "Nvidia was drawn into focus at the Trump-Xi summit and UN General Assembly as leaders debated governance for high-compute infrastructure. The discussions highlighted US-China rivalry, with China promoting lower-cost open-weight models as alternatives to US systems.",
+          "headline": "High-compute AI infrastructure targeted in global governance talks",
+          "summary": "Nvidia was drawn into geopolitical discussions at the Trump-Xi summit and the UN General Assembly regarding US-China AI rivalry. Speakers called for global standards on AI deployment and formal governance over high-compute infrastructure.",
           "event_type": "regulation",
           "tone": "neutral",
           "importance": "high",
@@ -255,28 +255,9 @@
         {
           "id": "NVDA_2026-09-25_2",
           "symbol": "NVDA",
-          "headline": "MeetKai launches six-nation sovereign AI stack on Nvidia infrastructure",
-          "summary": "MeetKai announced a sovereign AI platform rollout across Brazil, Ukraine, Pakistan, Kazakhstan, Uzbekistan, and Bangladesh powered by Nvidia accelerated computing. The deployment partners with regional entities like SERPRO and VEON to reach populations exceeding 700 million people.",
+          "headline": "IonQ deploys Superion 256 system at Nvidia Quantum Research Center",
+          "summary": "IonQ announced it will deploy its Superion 256 quantum computer at NVIDIA's Accelerated Quantum Research Center. The installation links quantum hardware to NVIDIA GB200 NVL72 infrastructure via NVQLink and CUDA-Q for hybrid AI workloads.",
           "event_type": "deal",
-          "tone": "positive",
-          "importance": "medium",
-          "first_seen": "2026-09-25",
-          "last_seen": "2026-09-25",
-          "sources": [
-            {
-              "headline": "MeetKai Takes Sovereign AI built on NVIDIA to Six Countries",
-              "publisher": "Yahoo",
-              "url": "https://finnhub.io/api/news?id=db38191c6551021ad72443c96e0a50b713cb1f97be9f5c70f57ec5f97a6ef5af",
-              "date": "2026-09-25"
-            }
-          ]
-        },
-        {
-          "id": "NVDA_2026-09-25_3",
-          "symbol": "NVDA",
-          "headline": "IonQ installs Superion 256 system at Nvidia Quantum Research Center",
-          "summary": "IonQ is deploying its Superion 256 quantum computer on-premise at Nvidia's Accelerated Quantum Research Center. The installation links quantum hardware to Nvidia GB200 NVL72 infrastructure using NVQLink and CUDA-Q for hybrid AI workloads.",
-          "event_type": "product",
           "tone": "positive",
           "importance": "medium",
           "first_seen": "2026-09-25",
@@ -303,12 +284,31 @@
           ]
         },
         {
+          "id": "NVDA_2026-09-25_3",
+          "symbol": "NVDA",
+          "headline": "MeetKai launches Nvidia-powered sovereign AI stack across six nations",
+          "summary": "MeetKai unveiled a sovereign AI rollout powered by Nvidia infrastructure across Brazil, Ukraine, Pakistan, Kazakhstan, Uzbekistan, and Bangladesh. The initiative partners with local telecom and government operators to serve populations totaling over 700 million people.",
+          "event_type": "deal",
+          "tone": "positive",
+          "importance": "medium",
+          "first_seen": "2026-09-25",
+          "last_seen": "2026-09-25",
+          "sources": [
+            {
+              "headline": "MeetKai Takes Sovereign AI built on NVIDIA to Six Countries",
+              "publisher": "Yahoo",
+              "url": "https://finnhub.io/api/news?id=db38191c6551021ad72443c96e0a50b713cb1f97be9f5c70f57ec5f97a6ef5af",
+              "date": "2026-09-25"
+            }
+          ]
+        },
+        {
           "id": "NVDA_2026-09-25_4",
           "symbol": "NVDA",
-          "headline": "Nvidia evaluates glass substrates for AI chip packaging",
-          "summary": "German equipment maker SCHMID reported talks with Nvidia suppliers regarding glass substrates to cut power use and improve chip speed over plastic. Nvidia CEO Jensen Huang previously met with SK Group Chairman Chey Tae-won to discuss the technology.",
+          "headline": "Nvidia evaluates glass substrates with suppliers and partners",
+          "summary": "Germany's SCHMID reported holding talks with suppliers to Nvidia regarding glass substrates designed to increase speeds and lower power consumption. The development follows discussions between Nvidia CEO Jensen Huang and SK Group Chairman Chey Tae-won.",
           "event_type": "supply_chain",
-          "tone": "positive",
+          "tone": "neutral",
           "importance": "low",
           "first_seen": "2026-09-25",
           "last_seen": "2026-09-25",
@@ -1970,5 +1970,5 @@
     }
   },
   "as_of": "2026-09-26",
-  "generated_at": "2026-09-26T19:20:22.591462+00:00"
+  "generated_at": "2026-09-26T19:35:17.437358+00:00"
 }

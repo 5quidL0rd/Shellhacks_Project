@@ -67,6 +67,16 @@ The feed and research endpoints will be added once their Snowflake tables are
 populated. See `data_sources.md` for Story Mode's sources and citation rules,
 and `snowflake/schema_contract.sql` for the table definitions.
 
+## Refresh the data
+
+Everything the app serves is precomputed. To bring it up to date (before a demo, or from a scheduled job):
+```bash
+../.venv/bin/python -m scripts.refresh                 # stories (prices, news) + What Changed events
+../.venv/bin/python -m scripts.refresh --snowflake     # ...and load everything into Snowflake
+../.venv/bin/python -m scripts.refresh --skip-stories  # just What Changed (about 3 minutes)
+```
+It prints how fresh the data was before and after. Commit `data/cache/story_*.json` and `data/cache/feed_events.json` afterwards.
+
 ## Load data into Snowflake
 
 From the `backend` folder, after building the stories (`python -m scripts.build_story_cache`):

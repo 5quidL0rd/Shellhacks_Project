@@ -134,6 +134,7 @@ Never commit `.env`, the private key, or any token.
 
 # Backend (from backend/)
 ../.venv/bin/uvicorn app.main:app --reload             # run the API; docs at http://127.0.0.1:8000/docs
+../.venv/bin/python -m scripts.refresh                 # refresh stories + What Changed in one step (add --snowflake to also load Snowflake)
 ../.venv/bin/python -m scripts.build_story_cache       # rebuild the stories (uses Gemini and Finnhub)
 ../.venv/bin/python -m scripts.build_feed              # rebuild What Changed events (uses Gemini and Finnhub)
 ../.venv/bin/python -m scripts.load_snowflake          # load graph, stories, prices, and news into Snowflake
@@ -142,6 +143,9 @@ Never commit `.env`, the private key, or any token.
 # Frontend (from frontend/, with the API running)
 npm install && npm run dev                             # the app at http://localhost:5173
 ```
+
+### Keeping the data fresh
+Nothing runs on a schedule. The app serves saved files, and they only change when someone runs a build script, which is what keeps the demo free of live calls. Before a demo, run `../.venv/bin/python -m scripts.refresh` from `backend/` (about 8 minutes; needs `GEMINI_API_KEY`, `FINNHUB_API_KEY`, `SEC_USER_AGENT`), then commit the updated `backend/data/cache/story_*.json` and `feed_events.json`. A daily cron job or CI workflow could run the same command.
 
 ### API endpoints
 | Endpoint | Returns |

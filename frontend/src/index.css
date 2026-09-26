@@ -714,8 +714,13 @@ input[type="search"].search { margin-bottom: 10px; }
 .tab:hover { background: var(--wash); }
 .tab.active { background: var(--surface); color: var(--text-primary); box-shadow: var(--shadow); }
 .tab-count { color: var(--text-muted); margin-left: 4px; font-variant-numeric: tabular-nums; }
-.feed-list { display: grid; gap: 14px; max-width: 900px; }
-.feed-card { padding: 18px 20px; }
+/* Two columns, filled row by row (1 | 2, 3 | 4, ...) so the ranking still reads
+   left to right. A column-first masonry layout would pack tighter but scramble
+   the order. */
+.feed-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: stretch; }
+@media (max-width: 1100px) { .feed-list { grid-template-columns: 1fr; } }
+.feed-card { padding: 18px 20px; display: flex; flex-direction: column; }
+.feed-card .feed-sources-toggle { margin-top: auto; padding-top: 10px; align-self: flex-start; }
 .feed-meta { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; font-size: 12px; }
 .feed-spacer { flex: 1; }
 .feed-company { color: var(--text-primary); }
@@ -731,10 +736,10 @@ input[type="search"].search { margin-bottom: 10px; }
 .tier-badge.tier-1 { background: var(--accent); color: var(--accent-ink); }
 .tier-badge.tier-2 { background: var(--accent-wash); color: #1f5c51; }
 .feed-headline { font-size: 15px; margin: 10px 0 4px; }
-.feed-summary { margin: 0 0 10px; color: var(--text-secondary); max-width: 760px; }
+.feed-summary { margin: 0 0 10px; color: var(--text-secondary); }
 .feed-touches { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 12px; }
 .touch { padding: 2px 8px; border-radius: 8px; background: var(--inset); }
 .touch a { color: var(--text-primary); }
 .feed-why { margin: 6px 0 0; }
-.feed-sources-toggle { margin-top: 8px; padding-left: 0; }
+.feed-sources-toggle { padding-left: 0; }
 .feed-sources { margin: 4px 0 0; padding-left: 18px; font-size: 12px; display: grid; gap: 4px; }
