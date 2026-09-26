@@ -1,0 +1,174 @@
+{
+  "company": "TSM",
+  "source": "20-F",
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+  "filing_date": "2026-04-16",
+  "model": "gemini-3.8-flash",
+  "relationships": [
+    {
+      "type": "COMPETITOR",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "foundry services",
+      "evidence": "We compete internationally and domestically with other foundry service providers, as well as with a number of integrated device manufacturers.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "semiconductors",
+      "evidence": "Our largest customer in 2023, 2024 and 2025 accounted for 25%, 22% and 19% of our net revenue in the respective year.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "semiconductors",
+      "evidence": "Our second largest customer in 2023, 2024 and 2025 accounted for 11%, 12%, and 17% of our net revenue in the respective year.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "semiconductors",
+      "evidence": "We count among our customers many of the world’s leading semiconductor companies, ranging from fabless semiconductor companies, system companies to integrated device manufacturers.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "Taiwan",
+      "operates_kind": "headquarters",
+      "detail": null,
+      "evidence": "The majority of our principal executive officers and our principal production facilities are located in the R.O.C., and the majority of our net revenue is derived from our operations in the R.O.C.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "United States",
+      "operates_kind": "manufacturing",
+      "detail": null,
+      "evidence": "Any tariffs imposed on imports of semiconductor manufacturing materials and equipment into the U.S. may result in increased costs for our manufacturing operations in the U.S. and reduce our profitability.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "China",
+      "operates_kind": "manufacturing",
+      "detail": null,
+      "evidence": "we obtained from the U.S. Department of Commerce a Validated End-User (the “VEU”) authorization for our fab located in Nanjing, China",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "Japan",
+      "operates_kind": "manufacturing",
+      "detail": null,
+      "evidence": "Based on market demand, we have continued to add capacity to meet market needs for our products and services, including in Taiwan, in Arizona, U.S., in Kumamoto, Japan and in Dresden, Germany.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "Germany",
+      "operates_kind": "manufacturing",
+      "detail": null,
+      "evidence": "Based on market demand, we have continued to add capacity to meet market needs for our products and services, including in Taiwan, in Arizona, U.S., in Kumamoto, Japan and in Dresden, Germany.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "Taiwan",
+      "operates_kind": "manufacturing",
+      "detail": null,
+      "evidence": "nine of our fabs are located in the Hsinchu Science Park, two fabs are located in the Central Taiwan Science Park, seven fabs are located in the Southern Taiwan Science Park",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "manufacturing equipment and related services",
+      "evidence": "Our operations and ongoing expansion plans depend on our ability to obtain necessary equipment and related services available from a limited number of suppliers.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "raw materials",
+      "evidence": "Also, since we procure some of our raw materials from sole-sourced suppliers, there is a risk that our need for such raw materials may not be met or that back-up supplies may not be readily available.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "electricity",
+      "evidence": "We have occasionally experienced power outages, dips or surges caused by difficulties encountered by our electricity supplier or other power consumers on the same power grid.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "raw wafers",
+      "evidence": "In pursuit of high quality raw wafers, the majority of our raw wafers are supplied by a limited number of suppliers located in Taiwan, Japan, Germany, and Singapore.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "semiconductor manufacturing equipment",
+      "evidence": "Some of the equipment is available from a limited number of suppliers and/or is manufactured in relatively limited quantities, and certain equipment has only recently been developed.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    }
+  ]
+}

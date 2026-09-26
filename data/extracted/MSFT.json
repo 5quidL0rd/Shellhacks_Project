@@ -1,0 +1,108 @@
+{
+  "company": "MSFT",
+  "source": "10-K",
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+  "filing_date": "2026-07-29",
+  "model": "gemini-3.8-flash",
+  "relationships": [
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "operating system and software licenses",
+      "evidence": "OEMs license and preinstall certain Microsoft software on devices that are sold to end customers.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "Azure and other cloud services",
+      "evidence": "In some cases, these parties are significant customers of Azure and other cloud services.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "government contracts",
+      "evidence": "We derive substantial revenue from government contracts.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "CUSTOMER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "OEMs building devices running software",
+      "evidence": "OEMs building devices that run our software have also been a significant means of distribution.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "OPERATES_IN",
+      "counterparty_name": null,
+      "country": "United States",
+      "operates_kind": "headquarters",
+      "detail": "corporate headquarters and research and development",
+      "evidence": "our corporate headquarters, a significant portion of our research and development activities, and certain other essential business operations are in the Seattle, Washington area",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "device manufacturing",
+      "evidence": "We engage third-party manufacturers to produce our devices and have implemented measures to enhance supply chain efficiency and resilience",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "components for servers and devices",
+      "evidence": "There are few qualified suppliers for certain components of our servers and devices.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "critical device and datacenter components",
+      "evidence": "There are limited suppliers for certain critical device and datacenter components, and those items are in short supply.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    },
+    {
+      "type": "SUPPLIER",
+      "counterparty_name": null,
+      "country": null,
+      "operates_kind": null,
+      "detail": "colocation facilities, leased datacenters, and cloud infrastructure",
+      "evidence": "we rely on third-party providers, including colocation facilities, leased datacenters, and cloud infrastructure providers, to support portions of our operations.",
+      "confidence": "high",
+      "is_named": false,
+      "evidence_verified": true
+    }
+  ]
+}

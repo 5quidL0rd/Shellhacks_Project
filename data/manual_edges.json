@@ -1,0 +1,36 @@
+{
+  "_about": "Hand-added edges for connections the filings leave out or the extractor missed. Every edge says why it is here. Review before relying on it.",
+  "relationships": [
+    {
+      "from": "TSM",
+      "to": "AAPL",
+      "type": "SUPPLIES",
+      "detail": "fabrication of Apple-designed chips (A-series, M-series)",
+      "source": "manual",
+      "confidence": "high",
+      "evidence": null,
+      "note": "Widely reported public fact. Neither filing names the other: Apple's 10-K cites 'outsourcing partners' in Asia, and TSMC's 20-F cites an unnamed 'largest customer'."
+    },
+    {
+      "from": "NVDA",
+      "to": "MSFT",
+      "type": "SUPPLIES",
+      "detail": "data center GPUs for Azure AI infrastructure",
+      "source": "manual",
+      "confidence": "high",
+      "evidence": null,
+      "note": "Widely reported public fact. Nvidia's 10-K cites unnamed 'direct customers' (22% and 14% of revenue); Microsoft's 10-K cites 'limited suppliers' for datacenter components."
+    },
+    {
+      "from": "AAPL",
+      "to": "MSFT",
+      "type": "COMPETES_WITH",
+      "detail": "PC operating systems (Windows) and gaming platforms (Xbox)",
+      "source": "10-K",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "confidence": "high",
+      "evidence": "compared to competitors’ platforms, such as Android for smartphones and tablets, Windows for personal computers and tablets, and PlayStation, Nintendo and Xbox for gaming platforms.",
+      "note": "Stated in Apple's 10-K but by product name, so the extractor did not attribute it to Microsoft."
+    }
+  ]
+}
