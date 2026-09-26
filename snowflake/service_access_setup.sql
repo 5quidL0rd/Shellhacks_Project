@@ -1,0 +1,30 @@
+-- Run once in Snowsight as ACCOUNTADMIN after the team creates a public key.
+-- This grants the app only the permissions it needs; do not use ACCOUNTADMIN
+-- in the backend. Replace the public-key placeholder before executing.
+--
+-- The matching private key stays in the deployment secret store or in
+-- backend/keys/ locally. Never commit it, email it, or paste it into chat.
+
+USE ROLE ACCOUNTADMIN;
+
+CREATE ROLE IF NOT EXISTS SHELLHACKS_APP_ROLE;
+
+CREATE USER IF NOT EXISTS SHELLHACKS_APP
+  TYPE = SERVICE
+  DEFAULT_ROLE = SHELLHACKS_APP_ROLE
+  DEFAULT_WAREHOUSE = SHELLHACKS_WH
+  RSA_PUBLIC_KEY = '<PASTE_THE_APP_PUBLIC_KEY_HERE>';
+
+GRANT ROLE SHELLHACKS_APP_ROLE TO USER SHELLHACKS_APP;
+
+GRANT USAGE ON WAREHOUSE SHELLHACKS_WH TO ROLE SHELLHACKS_APP_ROLE;
+GRANT USAGE ON DATABASE SHELLHACKS_DB TO ROLE SHELLHACKS_APP_ROLE;
+GRANT USAGE ON SCHEMA SHELLHACKS_DB.STORY_MODE TO ROLE SHELLHACKS_APP_ROLE;
+
+-- The app can read the data and insert incoming data. It can create an
+-- internal stage only if the uploader uses staged file uploads.
+GRANT SELECT, INSERT ON ALL TABLES IN SCHEMA SHELLHACKS_DB.STORY_MODE
+  TO ROLE SHELLHACKS_APP_ROLE;
+GRANT SELECT, INSERT ON FUTURE TABLES IN SCHEMA SHELLHACKS_DB.STORY_MODE
+  TO ROLE SHELLHACKS_APP_ROLE;
+GRANT CREATE STAGE ON SCHEMA SHELLHACKS_DB.STORY_MODE TO ROLE SHELLHACKS_APP_ROLE;

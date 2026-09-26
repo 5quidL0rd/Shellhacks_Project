@@ -12,8 +12,13 @@ pip install -r requirements.txt
 Copy-Item backend/.env.example backend/.env
 ```
 
-Edit `backend/.env` with the Snowflake account identifier, username, and
-password. Do not commit that file.
+Edit `backend/.env` with the Snowflake account identifier and either:
+
+- `keypair`: the path to the private key belonging to `SHELLHACKS_APP`; or
+- `pat`: a Snowflake programmatic-access token.
+
+The private key or token never belongs in GitHub. The required role and grants
+are documented in `snowflake/service_access_setup.sql`.
 
 Run the API from the repository root:
 
