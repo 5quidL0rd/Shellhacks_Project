@@ -1,288 +1,165 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
-import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d'
-import { api, type MapLink, type MapNode, type UniverseCompany } from '../api'
+import { useEffect, useMemo, useState } from 'react'
+import { api, type MapLink, type MapNode, type PortfolioMap } from '../api'
 import { EmptyPortfolio, HoldingsSummary, ImpactPanel } from '../components'
-import { useAsync, useSize, useThemeColors } from '../hooks'
+import { useAsync } from '../hooks'
 
-type GNode = MapNode & { x?: number; y?: number }
-type GLink = Omit<MapLink, 'source' | 'target'> & { source: string | GNode; target: string | GNode }
+type ConnectionKind = 'Suppliers' | 'Customers' | 'Competitors' | 'Markets'
 
-const TOKENS = ['series-1', 'series-2', 'series-3', 'neutral-node', 'map-bg', 'map-ink',
-  'map-ink-2', 'map-link', 'map-link-2', 'map-dim', 'focus', 'font']
+type Connection = { other: MapNode; kind: ConnectionKind; link: MapLink }
 
-const endId = (end: string | GNode) => (typeof end === 'string' ? end : end.id)
+const COLORS: Record<ConnectionKind, string> = {
+  Suppliers: '#0086a4', Customers: '#52ab98', Competitors: '#d9531e', Markets: '#9c6ad6',
+}
 
-/** Interactive map of the holdings and everything one step away. */
+const kindFor = (ticker: string, link: MapLink): ConnectionKind => {
+  if (link.type === 'competes_with') return 'Competitors'
+  if (link.type === 'operates_in') return 'Markets'
+  return link.target === ticker ? 'Suppliers' : 'Customers'
+}
+
+/** A visual, one-holding-at-a-time view of the existing cited map data. */
 export function MapPage({ holdings }: { holdings: string[] }) {
-  const [countries, setCountries] = useState(true)
-  const [competitors, setCompetitors] = useState(true)
-  const [sharedOnly, setSharedOnly] = useState(holdings.length > 12)
-  // Holdings hidden from the map. Stored as exclusions so newly added
-  // holdings show up without extra clicks.
-  const [hidden, setHidden] = useState<Set<string>>(new Set())
-  const [selected, setSelected] = useState<GNode | null>(null)
-  const focused = holdings.filter((h) => !hidden.has(h))
+  const [ticker, setTicker] = useState(holdings[0] ?? '')
+  const [activeKind, setActiveKind] = useState<ConnectionKind | null>(null)
+  const [selected, setSelected] = useState<MapNode | null>(null)
   const map = useAsync(
-    () => (focused.length ? api.map(focused, { countries, competitors }) : Promise.resolve(null)),
-    `${focused.join(',')}|${countries}|${competitors}`)
-  const colors = useThemeColors(TOKENS)
-  const graph = useRef<ForceGraphMethods<GNode, GLink> | undefined>(undefined)
-  const settled = useRef(false)
-  const { measure, width, height } = useSize<HTMLDivElement>()
-  const mounted = width > 0 // the graph only renders once its box has a size
+    () => (holdings.length ? api.map(holdings, { countries: true, competitors: true }) : Promise.resolve(null)),
+    holdings.join(','),
+  )
 
-  // A fresh copy per load: the force layout mutates nodes and links in place.
-  // "Shared only" keeps holdings plus what at least two focused holdings share,
-  // which is what keeps a 40-holding map readable.
-  const graphData = useMemo(() => {
-    const keep = (n: MapNode) => !sharedOnly || n.is_holding || n.connected_holdings.length >= 2
-    const nodes = (map.data?.nodes ?? []).filter(keep).map((n) => ({ ...n })) as GNode[]
-    const ids = new Set(nodes.map((n) => n.id))
-    const links = (map.data?.links ?? [])
-      .filter((l) => ids.has(l.source) && ids.has(l.target))
-      .map((l) => ({ ...l })) as GLink[]
-    return { nodes, links }
-  }, [map.data, sharedOnly])
+  useEffect(() => { if (!holdings.includes(ticker)) setTicker(holdings[0] ?? '') }, [holdings, ticker])
 
-  // Spread the layout out: the defaults pack ~70 nodes into a tight ball.
-  useEffect(() => {
-    const fg = graph.current
-    if (!fg) return
-    settled.current = false
-    fg.d3Force('charge')?.strength(-260)
-    fg.d3Force('link')?.distance(70)
-    fg.d3ReheatSimulation()
-    // Fit once the layout has mostly settled (onEngineStop fits again at the end).
-    const timer = setTimeout(() => graph.current?.zoomToFit(500, 30), 1500)
-    return () => clearTimeout(timer)
-  }, [graphData, mounted])
+  const connections = useMemo(() => makeConnections(map.data, ticker), [map.data, ticker])
+  const groups = useMemo(() => groupConnections(connections), [connections])
+  const visibleKinds = activeKind ? [activeKind] : Object.keys(groups) as ConnectionKind[]
+  const visibleConnections = visibleKinds.flatMap((kind) => groups[kind] ?? [])
+  const selectedName = map.data?.nodes.find((node) => node.id === ticker)?.name ?? ticker
 
-  // A resize only needs a re-fit, not a new layout (and only once there is one).
-  useEffect(() => {
-    if (settled.current) graph.current?.zoomToFit(300, 30)
-  }, [width, height])
-
-  const highlight = useMemo(() => {
-    if (!selected) return null
-    const ids = new Set([selected.id])
-    for (const l of graphData.links) {
-      const [s, t] = [endId(l.source), endId(l.target)]
-      if (s === selected.id) ids.add(t)
-      if (t === selected.id) ids.add(s)
-    }
-    return ids
-  }, [selected, graphData])
-
-  const nodeColor = (n: GNode) =>
-    n.type === 'country' ? colors['neutral-node']
-      : n.is_holding ? colors['series-1']
-        : n.in_universe ? colors['series-2'] : colors['series-3']
-  const radius = (n: GNode) => (n.is_holding ? 7 : 4 + 1.5 * Math.min(n.connected_holdings.length, 5))
+  useEffect(() => { setActiveKind(null); setSelected(null) }, [ticker])
 
   return (
     <>
       <div className="page-head">
         <div className="eyebrow">Connection Map</div>
-        <h1>How your holdings are linked</h1>
-        <p>Suppliers, customers, competitors, and countries one step from what you own. Click a company to see which holdings its news would reach.</p>
+        <h1>Explore a holding’s connections</h1>
+        <p>Choose one investment to see the suppliers, customers, competitors, and markets connected to it. Select a section or connection for the supporting detail.</p>
       </div>
       {holdings.length === 0 ? <EmptyPortfolio /> : <HoldingsSummary holdings={holdings} unsupported={map.data?.unsupported} />}
-      <div className="filters">
-        <label><input type="checkbox" checked={sharedOnly} onChange={(e) => setSharedOnly(e.target.checked)} /> Shared only</label>
-        <label><input type="checkbox" checked={countries} onChange={(e) => setCountries(e.target.checked)} /> Countries</label>
-        <label><input type="checkbox" checked={competitors} onChange={(e) => setCompetitors(e.target.checked)} /> Competitors</label>
-        <div className="legend" aria-label="Legend">
-          <span><span className="swatch" style={{ background: colors['series-1'] }} />Your holdings</span>
-          <span><span className="swatch" style={{ background: colors['series-2'] }} />Supported, not owned</span>
-          <span><span className="swatch" style={{ background: colors['series-3'] }} />Outside company</span>
-          <span><span className="swatch square" style={{ background: colors['neutral-node'] }} />Country</span>
-          <span><span className="line-swatch" />Supplies (arrow → customer)</span>
-          <span><span className="line-swatch dashed" />Competes / operates in</span>
-        </div>
-      </div>
       {map.error && <p className="error">{map.error}</p>}
-      <div className="map-layout">
-        <FocusRail holdings={holdings} hidden={hidden} setHidden={setHidden}
-                   selectedId={selected?.id}
-                   onPick={(t) => setSelected(graphData.nodes.find((n) => n.id === t) ?? null)} />
-        <div className="card map-wrap" ref={measure}>
-          {map.data && width > 0 && (
-            <ForceGraph2D<GNode, GLink>
-              ref={graph}
-              graphData={graphData}
-              onEngineStop={() => {
-                // Fit once per layout. The event can fire again on interaction,
-                // and re-fitting then moves nodes out from under the cursor.
-                if (settled.current) return
-                settled.current = true
-                graph.current?.zoomToFit(400, 30)
-              }}
-              width={width}
-              height={height}
-              backgroundColor={colors['map-bg']}
-              cooldownTicks={120}
-              nodeRelSize={1}
-              nodeVal={(n) => radius(n) ** 2}
-              nodeLabel={(n) => `${n.name}${n.connected_holdings.length ? ` · connected to ${n.connected_holdings.join(', ')}` : ''}`}
-              linkColor={(l) => {
-                const lit = !highlight || (highlight.has(endId(l.source)) && highlight.has(endId(l.target)))
-                if (!lit) return colors['map-dim']
-                return l.type === 'supplies' ? colors['map-link'] : colors['map-link-2']
-              }}
-              linkLineDash={(l) => (l.type === 'supplies' ? null : [3, 3])}
-              linkWidth={(l) => (l.type === 'supplies' ? 1.5 : 1)}
-              linkDirectionalArrowLength={(l) => (l.type === 'supplies' ? 4 : 0)}
-              linkDirectionalArrowRelPos={0.9}
-              onNodeClick={(n) => setSelected(selected?.id === n.id ? null : n)}
-              onBackgroundClick={() => setSelected(null)}
-              nodeCanvasObject={(n, ctx, scale) => {
-                const r = radius(n)
-                const dim = highlight && !highlight.has(n.id)
-                ctx.globalAlpha = dim ? 0.2 : 1
-                ctx.fillStyle = nodeColor(n)
-                ctx.beginPath()
-                if (n.type === 'country') ctx.rect(n.x! - r, n.y! - r, 2 * r, 2 * r)
-                else ctx.arc(n.x!, n.y!, r, 0, 2 * Math.PI)
-                ctx.fill()
-                // 2px surface ring so overlapping nodes stay distinct.
-                ctx.lineWidth = 2 / scale
-                ctx.strokeStyle = colors['map-bg']
-                ctx.stroke()
-                // Holdings get an outer ring: the second cue that keeps them
-                // distinct from outside companies for color-blind readers.
-                if (n.is_holding) {
-                  ctx.lineWidth = 1.5 / scale
-                  ctx.strokeStyle = colors['series-1']
-                  ctx.beginPath()
-                  ctx.arc(n.x!, n.y!, r + 2.5, 0, 2 * Math.PI)
-                  ctx.stroke()
-                }
-                if (selected?.id === n.id) {
-                  ctx.lineWidth = 2 / scale
-                  ctx.strokeStyle = colors.focus
-                  ctx.beginPath()
-                  ctx.arc(n.x!, n.y!, r + 3, 0, 2 * Math.PI)
-                  ctx.stroke()
-                }
-                // Label holdings, supported companies, countries, and outside
-                // companies shared by 3+ holdings; the rest when highlighted or
-                // on hover (nodeLabel), so the center doesn't turn into a smear.
-                const label = n.is_holding || n.in_universe || n.type === 'country'
-                  || n.connected_holdings.length >= 3 || (highlight && !dim)
-                if (label) {
-                  const text = n.type === 'company' && n.in_universe ? n.id : n.name
-                  ctx.font = `${n.is_holding ? 700 : 400} ${11 / scale}px ${colors.font}`
-                  ctx.textAlign = 'center'
-                  ctx.textBaseline = 'top'
-                  ctx.fillStyle = n.is_holding ? colors['map-ink'] : colors['map-ink-2']
-                  ctx.fillText(text.length > 24 ? `${text.slice(0, 22)}…` : text, n.x!, n.y! + r + 2 / scale)
-                }
-                ctx.globalAlpha = 1
-              }}
-              nodePointerAreaPaint={(n, color, ctx) => {
-                ctx.fillStyle = color
-                ctx.beginPath()
-                ctx.arc(n.x!, n.y!, radius(n) + 4, 0, 2 * Math.PI) // hit target bigger than the mark
-                ctx.fill()
-              }}
-            />
-          )}
-          {map.loading && <p className="muted" style={{ padding: 16 }}>Loading…</p>}
-          {!map.loading && holdings.length > 0 && focused.length === 0 && (
-            <p className="muted" style={{ padding: 16 }}>Check holdings on the left to put them on the map.</p>
-          )}
+      {map.loading && <p className="muted">Loading connections…</p>}
+      {map.data && ticker && (
+        <div className="connection-explorer">
+          <section className="card explorer-selector">
+            <label htmlFor="map-holding" className="card-label">Choose a holding</label>
+            <select id="map-holding" value={ticker} onChange={(event) => setTicker(event.target.value)}>
+              {holdings.map((symbol) => {
+                const node = map.data!.nodes.find((item) => item.id === symbol)
+                return <option key={symbol} value={symbol}>{symbol} — {node?.name ?? symbol}</option>
+              })}
+            </select>
+            <p className="secondary small">Showing direct relationships recorded for <strong>{selectedName}</strong>.</p>
+          </section>
+
+          <div className="explorer-layout">
+            <section className="card donut-card">
+              <div className="card-label">Connection mix</div>
+              <h2>What {ticker} is connected to</h2>
+              <DonutChart groups={groups} activeKind={activeKind} onSelect={setActiveKind} />
+              <p className="secondary small chart-note">Each section is the share of saved direct connections, not an estimate of financial impact.</p>
+            </section>
+
+            <section className="card connection-list">
+              <div className="row-between">
+                <div><div className="card-label">{activeKind ?? 'All connections'}</div><h2>{activeKind ? `${activeKind} linked to ${ticker}` : `Direct connections to ${ticker}`}</h2></div>
+                {activeKind && <button className="ghost-btn" onClick={() => setActiveKind(null)}>Show all</button>}
+              </div>
+              {visibleConnections.length === 0 ? <p className="secondary">No saved connections in this category.</p> : (
+                <div className="connection-entities">
+                  {visibleConnections.map(({ other, kind, link }) => (
+                    <button className={`connection-entity ${selected?.id === other.id ? 'active' : ''}`} key={`${kind}-${link.source}-${link.target}-${other.id}`}
+                            onClick={() => setSelected(other)}>
+                      <span className="entity-dot" style={{ background: COLORS[kind] }} />
+                      <span><strong>{other.name}</strong><small>{entityExplanation(ticker, kind)}</small></span>
+                      <span className="entity-arrow">›</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </section>
+
+            <aside className="card explorer-detail">
+              {!selected && <><div className="card-label">Select a connection</div><h2>Why it matters</h2><p className="secondary small">Click a chart section to focus the list, then select a company or market to see which portfolio holdings it reaches and the evidence behind it.</p></>}
+              {selected?.type === 'company' && <ImpactPanel company={selected.id} holdings={holdings} />}
+              {selected?.type === 'country' && <><div className="card-label">Market exposure</div><h2>{selected.name}</h2><p className="secondary small">Saved connections show exposure to {selected.name} for: {selected.connected_holdings.join(', ')}.</p></>}
+            </aside>
+          </div>
         </div>
-        <aside className="card">
-          {!selected && (
-            <p className="secondary small">
-              Click any company to see which of your holdings its news would reach. Bigger dots are
-              connected to more of your holdings.
-            </p>
-          )}
-          {selected?.type === 'company' && <ImpactPanel company={selected.id} holdings={holdings} />}
-          {selected?.type === 'country' && (
-            <>
-              <h2>{selected.name}</h2>
-              <p className="secondary small">
-                {selected.connected_holdings.length} of your holdings manufacture in, sell into, or are
-                headquartered in {selected.name}: {selected.connected_holdings.join(', ')}.
-              </p>
-            </>
-          )}
-        </aside>
-      </div>
+      )}
     </>
   )
 }
 
-/** Pick which holdings the map shows. Grouped by sector, searchable, with
- * all/none, so it stays usable with dozens of holdings. Clicking a name
- * selects that holding on the map. */
-function FocusRail({ holdings, hidden, setHidden, selectedId, onPick }: {
-  holdings: string[]
-  hidden: Set<string>
-  setHidden: (s: Set<string>) => void
-  selectedId?: string
-  onPick: (ticker: string) => void
-}) {
-  const universe = useAsync(api.universe, 'universe')
-  const [query, setQuery] = useState('')
-  const q = query.trim().toLowerCase()
-  const bySymbol = new Map((universe.data ?? []).map((c: UniverseCompany) => [c.symbol, c]))
-  const groups = new Map<string, string[]>()
-  for (const t of [...holdings].sort()) {
-    const c = bySymbol.get(t)
-    if (q && !t.toLowerCase().includes(q) && !(c?.name.toLowerCase().includes(q))) continue
-    const sector = c?.sector ?? 'Other'
-    groups.set(sector, [...(groups.get(sector) ?? []), t])
-  }
-  const shown = holdings.length - hidden.size
-  const flip = (tickers: string[], show: boolean) => {
-    const next = new Set(hidden)
-    for (const t of tickers) {
-      if (show) next.delete(t)
-      else next.add(t)
-    }
-    setHidden(next)
-  }
+function makeConnections(map: PortfolioMap | null, ticker: string): Connection[] {
+  if (!map) return []
+  const byId = new Map(map.nodes.map((node) => [node.id, node]))
+  const seen = new Set<string>()
+  return map.links.flatMap((link) => {
+    if (link.source !== ticker && link.target !== ticker) return []
+    const other = byId.get(link.source === ticker ? link.target : link.source)
+    if (!other) return []
+    const kind = kindFor(ticker, link)
+    const key = `${kind}-${other.id}`
+    if (seen.has(key)) return []
+    seen.add(key)
+    return [{ other, kind, link }]
+  })
+}
 
+function groupConnections(connections: Connection[]): Partial<Record<ConnectionKind, Connection[]>> {
+  return connections.reduce<Partial<Record<ConnectionKind, Connection[]>>>((groups, connection) => {
+    ;(groups[connection.kind] ??= []).push(connection)
+    return groups
+  }, {})
+}
+
+function entityExplanation(ticker: string, kind: ConnectionKind) {
+  if (kind === 'Suppliers') return `Input to ${ticker}`
+  if (kind === 'Customers') return `Customer linked to ${ticker}`
+  if (kind === 'Competitors') return `Competes with ${ticker}`
+  return `${ticker} has exposure to this market`
+}
+
+function DonutChart({ groups, activeKind, onSelect }: {
+  groups: Partial<Record<ConnectionKind, Connection[]>>
+  activeKind: ConnectionKind | null
+  onSelect: (kind: ConnectionKind | null) => void
+}) {
+  const entries = (Object.keys(COLORS) as ConnectionKind[])
+    .map((kind) => ({ kind, count: groups[kind]?.length ?? 0 })).filter((entry) => entry.count > 0)
+  const total = entries.reduce((sum, entry) => sum + entry.count, 0)
+  let progress = 0
   return (
-    <aside className="card focus-rail" aria-label="Holdings on the map">
-      <div className="row-between">
-        <div className="card-label" style={{ margin: 0 }}>On the map · {shown}/{holdings.length}</div>
+    <div className="donut-wrap">
+      <div className="donut" role="img" aria-label={`${total} saved direct connections`}>
+        <svg viewBox="0 0 42 42" aria-hidden="true">
+          {entries.map(({ kind, count }) => {
+            const share = (count / total) * 100
+            const offset = 25 - progress
+            progress += share
+            return <circle key={kind} className={activeKind && activeKind !== kind ? 'dim' : ''}
+              cx="21" cy="21" r="15.9155" fill="transparent" stroke={COLORS[kind]} strokeWidth="6"
+              strokeDasharray={`${share} ${100 - share}`} strokeDashoffset={offset}
+              onClick={() => onSelect(activeKind === kind ? null : kind)} />
+          })}
+        </svg>
+        <div className="donut-center"><strong>{total}</strong><span>direct links</span></div>
       </div>
-      <div className="row" style={{ margin: '8px 0' }}>
-        <button className="ghost-btn" onClick={() => setHidden(new Set())}>All</button>
-        <button className="ghost-btn" onClick={() => setHidden(new Set(holdings))}>None</button>
+      <div className="donut-legend">
+        {entries.map(({ kind, count }) => <button key={kind} className={activeKind === kind ? 'active' : ''}
+          onClick={() => onSelect(activeKind === kind ? null : kind)}>
+          <span className="legend-dot" style={{ background: COLORS[kind] }} /><span>{kind}</span><strong>{count}</strong>
+        </button>)}
       </div>
-      {holdings.length > 8 && (
-        <input type="search" className="search" placeholder="Filter holdings" value={query}
-               onChange={(e) => setQuery(e.target.value)} aria-label="Filter holdings" />
-      )}
-      <div className="focus-list">
-        {[...groups.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([sector, tickers]) => {
-          const on = tickers.filter((t) => !hidden.has(t)).length
-          return (
-            <div key={sector} className="sector-group">
-              <label className="sector-head">
-                <input type="checkbox" checked={on === tickers.length}
-                       ref={(el) => { if (el) el.indeterminate = on > 0 && on < tickers.length }}
-                       onChange={(e) => flip(tickers, e.target.checked)} />
-                <span>{sector}</span>
-                <span className="muted small">{on}/{tickers.length}</span>
-              </label>
-              {tickers.map((t) => (
-                <div key={t} className={`focus-item ${selectedId === t ? 'active' : ''}`}>
-                  <input type="checkbox" checked={!hidden.has(t)} aria-label={`Show ${t} on the map`}
-                         onChange={(e) => flip([t], e.target.checked)} />
-                  <button className="link-btn" disabled={hidden.has(t)} onClick={() => onPick(t)}
-                          title={bySymbol.get(t)?.name}>{t}</button>
-                </div>
-              ))}
-            </div>
-          )
-        })}
-      </div>
-    </aside>
+    </div>
   )
 }

@@ -3,7 +3,10 @@
 import os
 from pathlib import Path
 
-import snowflake.connector
+try:
+    import snowflake.connector
+except ImportError:
+    snowflake = None
 
 from .config import BACKEND_DIR  # loads backend/.env, then the project-root .env
 
@@ -23,6 +26,9 @@ def get_connection():
     Keeping connection values in environment variables means credentials never
     enter source control or get sent to the browser.
     """
+    if snowflake is None:
+        raise RuntimeError("snowflake-connector-python is not installed.")
+
     missing = [name for name in REQUIRED_SETTINGS if not os.getenv(name)]
     if missing:
         raise RuntimeError(

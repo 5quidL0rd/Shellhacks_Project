@@ -6,8 +6,15 @@ Snowflake live. The feed and research endpoints in plans.md land here too.
 """
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from snowflake.connector import DictCursor
-from snowflake.connector.errors import Error as SnowflakeError
+try:
+    from snowflake.connector import DictCursor
+    from snowflake.connector.errors import Error as SnowflakeError
+except ImportError:
+    DictCursor = None
+
+
+    class SnowflakeError(Exception):
+        pass
 
 from . import portfolio, quotes
 from .feed import rank as feed_rank
@@ -23,7 +30,7 @@ app = FastAPI(title="Portfolio Story API", version="0.1.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:5173"],
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )

@@ -8,6 +8,7 @@ backend/keys/
 __pycache__/
 *.pyc
 .DS_Store
+.vercel/
 .Claude.md
 .massiveapi.md
 

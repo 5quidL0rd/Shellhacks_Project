@@ -16,7 +16,10 @@ GRAPH_EDGES_CSV = Path(os.getenv(
     "GRAPH_EDGES_CSV", BACKEND_DIR.parent / "data" / "exports" / "graph_edges.csv"))
 GRAPH_COMPANIES_CSV = Path(os.getenv(
     "GRAPH_COMPANIES_CSV", BACKEND_DIR.parent / "data" / "exports" / "graph_companies.csv"))
-CACHE_DIR.mkdir(parents=True, exist_ok=True)
+try:
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+except OSError:
+    pass
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
