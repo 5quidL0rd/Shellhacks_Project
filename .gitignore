@@ -22,3 +22,5 @@ backend/data/cache/*
 !backend/data/cache/story_*.json
 !backend/data/cache/feed_events.json
 !backend/data/cache/conc_v*_*.json
+.vercel
+.env*
