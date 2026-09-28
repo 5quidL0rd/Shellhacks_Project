@@ -8,6 +8,14 @@
       "maxDuration": 60
     }
   },
+  "headers": [
+    {"source": "/", "headers": [{"key": "Cache-Control", "value": "no-store"}]},
+    {"source": "/holdings", "headers": [{"key": "Cache-Control", "value": "no-store"}]},
+    {"source": "/changes", "headers": [{"key": "Cache-Control", "value": "no-store"}]},
+    {"source": "/map", "headers": [{"key": "Cache-Control", "value": "no-store"}]},
+    {"source": "/research", "headers": [{"key": "Cache-Control", "value": "no-store"}]},
+    {"source": "/stock/:symbol", "headers": [{"key": "Cache-Control", "value": "no-store"}]}
+  ],
   "rewrites": [
     {
       "source": "/api/:path*",
