@@ -994,6 +994,8 @@ button.glance-tile:hover { background: var(--wash); }
 .position-summary strong { font-size: 20px; overflow-wrap: anywhere; }
 .position-summary small { color: var(--text-muted); }
 .position-table { min-width: 830px; }
+.holdings-grid > *, .holdings-grid .stack, .holdings-grid .card { min-width: 0; }
+.holdings-grid .table-scroll { width: 100%; max-width: 100%; overflow-x: auto; }
 .position-input { width: 82px; }
 .position-table td { vertical-align: middle; }
 @media (max-width: 700px) { .position-summary { grid-template-columns: 1fr; gap: 14px; } }
