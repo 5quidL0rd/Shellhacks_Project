@@ -1,8 +1,9 @@
+import { useEffect, useState } from 'react'
 import { BrowserRouter, Link, NavLink, Route, Routes } from 'react-router-dom'
-import { api } from './api'
+import { api, type LiveQuotes } from './api'
 import { ChatWidget } from './ChatWidget'
 import { Change } from './components'
-import { useAsync, usePortfolio } from './hooks'
+import { usePortfolio } from './hooks'
 import { FeedPage } from './pages/FeedPage'
 import { HoldingsPage } from './pages/HoldingsPage'
 import { MapPage } from './pages/MapPage'
@@ -65,7 +66,17 @@ export default function App() {
 
 /** Every holding at a glance, one click from its story. Scrolls when long. */
 function SidebarHoldings({ holdings }: { holdings: string[] }) {
-  const quotes = useAsync(api.quotes, 'quotes')
+  const [quotes, setQuotes] = useState<LiveQuotes | null>(null)
+  useEffect(() => {
+    if (!holdings.length) { setQuotes(null); return }
+    let active = true
+    const refresh = () => api.liveQuotes(holdings)
+      .then((result) => { if (active) setQuotes(result) })
+      .catch(() => { if (active) setQuotes(null) })
+    void refresh()
+    const timer = window.setInterval(() => { void refresh() }, 60_000)
+    return () => { active = false; window.clearInterval(timer) }
+  }, [holdings.join(',')]) // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <div className="sidebar-holdings">
       <div className="row-between">
@@ -79,7 +90,11 @@ function SidebarHoldings({ holdings }: { holdings: string[] }) {
             {[...holdings].sort().map((t) => (
               <NavLink key={t} to={`/stock/${t}`} className="ticker-link">
                 <span>{t}</span>
-                <Change pct={quotes.data?.quotes[t]?.change_pct} />
+                <span title={quotes?.quotes[t]?.market_timestamp
+                  ? `Finnhub · ${new Date(quotes.quotes[t].market_timestamp).toLocaleString()}`
+                  : 'Live quote unavailable'}>
+                  <Change pct={quotes?.quotes[t]?.change_pct} />
+                </span>
               </NavLink>
             ))}
           </div>
