@@ -13,6 +13,8 @@ if str(BACKEND_DIR) not in sys.path:
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from app.main import app as main_app
 
 # Wrapper application that mounts main_app at both "/" and "/api"
@@ -27,4 +29,15 @@ app.add_middleware(
 )
 
 app.mount("/api", main_app)
-app.mount("/", main_app)
+
+# The FastAPI deployment is the Vercel entry point. Serve the Vite bundle from
+# the same function so the browser never receives FastAPI's default 404 at /.
+FRONTEND_DIR = ROOT_DIR / "frontend" / "dist"
+if FRONTEND_DIR.is_dir():
+    app.mount("/assets", StaticFiles(directory=FRONTEND_DIR / "assets"), name="assets")
+
+    @app.get("/{path:path}", include_in_schema=False)
+    def frontend(path: str):
+        return FileResponse(FRONTEND_DIR / "index.html")
+else:
+    app.mount("/", main_app)

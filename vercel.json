@@ -4,7 +4,7 @@
   "buildCommand": "cd frontend && npm ci && npm run build && cd .. && mkdir -p public && cp -R frontend/dist/. public/",
   "functions": {
     "api/**/*.py": {
-      "includeFiles": "backend/**,data/**",
+      "includeFiles": "backend/**,data/**,frontend/dist/**",
       "maxDuration": 60
     }
   },
