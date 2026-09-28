@@ -52,7 +52,7 @@ npm run lint       # oxlint
 - **Map node colors are validated** for color-vision deficiency on white: holdings teal `#0086a4`, supported-not-owned orange, outside companies violet. The palette's own teals are too muted for data (they read as gray), so the map uses a more saturated teal of the same hue. Teal vs violet needs a second cue, which the map gives: holdings are larger, ringed, and always labeled; countries are gray squares.
 - **The Connection Map has its own dark teal canvas** (`--map-bg: #122b33`) with light lines and labels, so the graph stands out from the light page. The node colors pass the same checks on it as on white.
 - **Text contrast:** the green-teal `#52ab98` is too light for text on white/gray, so text uses a darker `#2f8a76`; muted text is 4.6:1 on white.
-- **Prices are last-close facts, not live.** Quotes (`/quotes`) come from the saved Story Mode data and every screen labels them "Prices as of … close". Holdings are treated equally (no share counts), so nothing shows dollar portfolio value.
+- **Selected-stock prices refresh from Finnhub** on the Story page, with the provider's market timestamp shown. Other quote summaries (`/quotes`) and the historical chart are saved snapshots and keep their as-of labels. Holdings are treated equally (no share counts), so the app does not estimate dollar portfolio value.
 - **Up and down moves use arrows (▲▼) and a sign**, not color alone (`<Change>` in `src/components.tsx`).
 - **Every claim links to its source.** Graph edges show the filing quote; story explanations show numbered citations that open the evidence.
 - **No buy/sell language.** Competitors appear as "also affected", never as winners or losers.

@@ -5,6 +5,7 @@ Snowflake is unreachable. The /graph and /health/snowflake routes read
 Snowflake live. The feed and research endpoints in plans.md land here too.
 """
 from fastapi import FastAPI, HTTPException, Query
+from pydantic import BaseModel, Field
 from fastapi.middleware.cors import CORSMiddleware
 try:
     from snowflake.connector import DictCursor
@@ -17,6 +18,8 @@ except ImportError:
         pass
 
 from . import portfolio, quotes
+from . import cortex_chat
+from .live_market import live_quote
 from .feed import rank as feed_rank
 from .research import build as research
 from .research import concentration as concentration_mod
@@ -180,6 +183,38 @@ def get_quotes(symbols: str = Query(default="", description="Comma-separated; em
     sparkline per company. From saved prices, so never a live call."""
     wanted = [s.strip().upper() for s in symbols.split(",") if s.strip()] or None
     return quotes.quotes(wanted)
+
+
+@app.get("/market/{symbol}")
+def market_quote(symbol: str) -> dict:
+    """Fresh provider quote for the selected stock, cached briefly to respect limits."""
+    try:
+        return live_quote(symbol)
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from None
+    except RuntimeError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from None
+    except Exception:
+        raise HTTPException(status_code=502, detail="Live quote provider is unavailable.") from None
+
+
+class ChatRequest(BaseModel):
+    question: str = Field(min_length=1, max_length=700)
+    symbol: str | None = None
+    holdings: list[str] = Field(default_factory=list, max_length=15)
+
+
+@app.post("/chat")
+def chat(request: ChatRequest) -> dict:
+    """Ask Cortex about the selected stock and portfolio data."""
+    try:
+        return cortex_chat.answer(request.question, request.symbol, request.holdings)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from None
+    except RuntimeError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from None
+    except Exception:
+        raise HTTPException(status_code=502, detail="Cortex is unavailable. Check Snowflake access.") from None
 
 
 @app.get("/universe")

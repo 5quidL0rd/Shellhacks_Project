@@ -866,3 +866,124 @@ button.glance-tile:hover { background: var(--wash); }
 .dep-row.customer-row { grid-template-columns: minmax(140px, 1fr) minmax(140px, 2fr) 220px; }
 .dep-row.customer-row .dep-count { white-space: normal; }
 @media (max-width: 700px) { .dep-row.customer-row { grid-template-columns: 1fr; } }
+
+/* ---- phone-first finishing pass ----
+   A phone should feel like a deliberate compact workspace, rather than a
+   desktop sidebar squeezed above the content. Keep navigation visible, let
+   it scroll horizontally, and stack dense comparison controls vertically. */
+@media (max-width: 640px) {
+  body { font-size: 14px; }
+
+  /* Grid children otherwise preserve the minimum width of long ticker names,
+     which creates a horizontal page scroll on narrow phones. */
+  .sidebar, .main { min-width: 0; }
+
+  .sidebar {
+    display: block;
+    padding: 13px 16px 0;
+    background: linear-gradient(135deg, #245968, var(--sidebar));
+  }
+  .sidebar-holdings, .sidebar-foot { display: none; }
+  .brand { padding: 0 0 12px; }
+  .brand-sub { display: none; }
+  .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 4px;
+    overflow-x: auto;
+    margin: 0 -16px;
+    padding: 0 16px 12px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a {
+    flex: 0 0 auto;
+    gap: 7px;
+    min-height: 38px;
+    padding: 8px 10px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .main { padding: 20px 14px 40px; }
+  h1 { font-size: 22px; line-height: 1.2; }
+  .page-head { margin-bottom: 18px; }
+  .card, .xray-deps, .donut-card, .connection-list, .explorer-detail { padding: 16px; }
+  .stack { gap: 14px; }
+
+  .row, .row-between, .filters { gap: 8px; }
+  .row-between > .primary-btn, .row-between > .ghost-btn { min-height: 38px; }
+  .primary-btn { min-height: 38px; padding: 9px 14px; }
+  select, input[type="text"] { min-height: 38px; max-width: 100%; }
+
+  .holdings-grid, .two-col, .xray-layout, .map-layout, .explorer-layout { gap: 14px; }
+  .browser { position: static; }
+  .browser-list, .focus-list { max-height: none; }
+  .table-scroll { overflow-x: auto; margin: 0 -4px; padding: 0 4px; }
+  .table { min-width: 540px; }
+  .table th, .table td { padding: 8px 6px; }
+
+  .hero { margin-bottom: 16px; }
+  .hero .big { font-size: 23px; }
+  .glance { grid-template-columns: 1fr; margin: 14px 0 18px; }
+  .dep-row, .xray-deps .dep-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding: 12px 4px;
+  }
+  .xray-deps .dep-name { font-size: 13.5px; }
+  .xray-deps .dep-count { text-align: left; }
+  .bar-track, .xray-deps .bar-track { height: 8px; }
+
+  .explorer-selector { padding: 14px 16px; gap: 10px; }
+  .map-wrap { height: min(68vh, 520px); min-height: 380px; }
+  .focus-rail { padding: 14px 12px; }
+  .chart-box { height: 280px; padding: 4px; }
+  .placeholder { padding: 28px 16px; }
+
+  .feed-list { gap: 12px; }
+  .feed-card { padding: 16px; }
+  .feed-headline { font-size: 14px; }
+  .candidate-row { padding: 10px 4px; }
+  .search-hit { grid-template-columns: 4rem minmax(0, 1fr); }
+  .search-hit .tag { display: none; }
+  .numbers { grid-template-columns: minmax(100px, auto) 1fr; gap: 4px 10px; }
+}
+
+@media (max-width: 380px) {
+  .nav a { padding: 8px 9px; }
+  .nav a svg { display: none; }
+  .main { padding-inline: 12px; }
+  .card, .xray-deps, .donut-card, .connection-list, .explorer-detail { padding: 14px; }
+  .view-tabs button { padding: 8px 11px; font-size: 11px; }
+}
+
+/* Floating, page-wide data assistant. */
+.live-badge { padding: 3px 8px; border-radius: 999px; background: var(--accent-wash); color: #1f5c51; font-size: 11px; }
+.chat-dock { position: fixed; z-index: 60; right: 20px; bottom: 20px; display: grid; justify-items: end; gap: 10px; }
+.chat-launch { border: 0; border-radius: 999px; padding: 12px 18px; background: var(--sidebar); color: white; box-shadow: 0 10px 28px rgba(22,50,58,.22); font-weight: 700; }
+.chat-launch:hover { background: #245867; }
+.chat-launch span { color: #b4efdf; margin-right: 5px; }
+.chat-panel { display: flex; flex-direction: column; width: min(400px, calc(100vw - 28px)); height: min(560px, calc(100dvh - 100px)); background: var(--surface); border-radius: 18px; box-shadow: 0 16px 48px rgba(22,50,58,.25); overflow: hidden; }
+.chat-head { display: flex; align-items: start; justify-content: space-between; gap: 12px; padding: 16px 18px; background: var(--sidebar); color: white; }
+.chat-head strong, .chat-head span { display: block; }
+.chat-head span { margin-top: 2px; font-size: 11px; color: var(--sidebar-muted); }
+.chat-head button { border: 0; background: none; color: white; font-size: 24px; line-height: 1; }
+.chat-messages { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+.chat-intro { color: var(--text-secondary); padding: 14px; background: var(--inset); border-radius: 12px; }
+.chat-intro small { display: block; margin-top: 10px; }
+.chat-message { max-width: 94%; padding: 10px 12px; border-radius: 12px; background: var(--inset); white-space: pre-wrap; overflow-wrap: anywhere; }
+.chat-message.user { align-self: end; background: var(--accent-wash); }
+.chat-message p { margin: 0; }
+.chat-message small { display: block; margin-top: 8px; color: var(--text-muted); }
+.chat-wait { margin: 0; color: var(--text-muted); }
+.chat-form { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--grid); }
+.chat-form input { flex: 1; min-width: 0; border: 0; border-radius: 9px; background: var(--inset); padding: 10px 12px; font: inherit; }
+.chat-form button { border: 0; border-radius: 9px; padding: 9px 14px; background: var(--accent); color: white; font: inherit; font-weight: 700; }
+.chat-form button:disabled { opacity: .5; }
+@media (max-width: 640px) {
+  .chat-dock { right: 12px; bottom: 12px; }
+  .chat-panel { height: min(540px, calc(100dvh - 82px)); }
+  .chat-launch { padding: 11px 16px; }
+}

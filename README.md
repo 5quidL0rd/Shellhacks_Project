@@ -39,7 +39,7 @@ npm run dev
 
 On Windows, use `.venv\Scripts\pip` and `..\.venv\Scripts\uvicorn` instead of the `.venv/bin/...` paths.
 
-**What needs keys:** the **Research** page (it reads a searched company's filing and asks Gemini live, so it needs `GEMINI_API_KEY`, `SEC_USER_AGENT`, and `FINNHUB_API_KEY` in `.env`; the first search of a company takes up to a minute, then it is cached), rebuilding data (new companies, fresh stories, Snowflake loads), and the Snowflake-backed `/graph/*` endpoints. Everything else runs without keys. See [Full setup](#full-setup-for-rebuilding-data) below.
+**What needs keys:** selected-stock live quotes require `FINNHUB_API_KEY`; the floating Cortex assistant requires the Snowflake settings and key-pair/PAT authentication in `backend/.env.example`. Research uses `GEMINI_API_KEY`, `SEC_USER_AGENT`, and `FINNHUB_API_KEY`. Set these as server-side environment variables in Vercel. Never put credentials in `VITE_*` variables or commit a `.env` file.
 
 ## Where we are
 
@@ -146,7 +146,7 @@ npm install && npm run dev                             # the app at http://local
 ```
 
 ### Keeping the data fresh
-Nothing runs on a schedule. The app serves saved files, and they only change when someone runs a build script, which is what keeps the demo free of live calls. Before a demo, run `../.venv/bin/python -m scripts.refresh` from `backend/` (about 8 minutes; needs `GEMINI_API_KEY`, `FINNHUB_API_KEY`, `SEC_USER_AGENT`), then commit the updated `backend/data/cache/story_*.json` and `feed_events.json`. A daily cron job or CI workflow could run the same command.
+Selected-stock quotes request Finnhub when the stock page opens and refresh every minute; the server keeps each quote for 30 seconds. Historical charts, feed events, filings, and dependency data are saved snapshots. Before a demo that needs fresh historical analysis, run `../.venv/bin/python -m scripts.refresh` from `backend/` (about 8 minutes; needs `GEMINI_API_KEY`, `FINNHUB_API_KEY`, `SEC_USER_AGENT`), then commit the updated `backend/data/cache/story_*.json` and `feed_events.json`.
 
 ### API endpoints
 | Endpoint | Returns |
@@ -163,6 +163,8 @@ Nothing runs on a schedule. The app serves saved files, and they only change whe
 | `GET /portfolio/impact?company=TSM&holdings=...` | Which holdings news about a company touches, and how (supply chain, one step further downstream, competitors) |
 | `GET /feed?holdings=...` | What Changed: last week's events that touch the portfolio, ranked your holding → connected → same sector, with the holdings each reaches and its sources |
 | `GET /quotes` | Last-close price, daily change, period returns, and a 30-day sparkline per company |
+| `GET /market/{symbol}` | Selected-stock quote from Finnhub with provider and market timestamp |
+| `POST /chat` | Snowflake Cortex answer grounded in the selected stock and holdings data |
 | `GET /company/{ticker}/revenue-mix` | Who pays a company: each disclosed customer's share of revenue (unnamed ones stay unnamed) and the rest, from its annual report; plus the supported companies whose filings say they depend on it. Any SEC filer; the 13 are precomputed |
 
 ---

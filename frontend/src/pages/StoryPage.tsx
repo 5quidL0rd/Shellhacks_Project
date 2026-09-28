@@ -1,7 +1,7 @@
 import { createChart, createSeriesMarkers, LineSeries, type ISeriesMarkersPluginApi, type Time } from 'lightweight-charts'
 import { useEffect, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { api, type Beat, type Evidence, type Story } from '../api'
+import { api, type Beat, type Evidence, type Story, type LiveQuote } from '../api'
 import { AsOf, Change, Cite, CiteGuide } from '../components'
 import { EVIDENCE_LABEL } from '../evidence'
 import { money } from '../format'
@@ -31,13 +31,8 @@ export function StoryPage() {
       <div className="page-head">
         <div className="eyebrow"><Link to="/">Portfolio</Link> / Story Mode</div>
         <h1>{s.company_name} <span className="muted">{s.symbol}</span></h1>
-        {quotes.data?.quotes[s.symbol] && (
-          <div className="quote-line">
-            <span className="price">{money(quotes.data.quotes[s.symbol].price)}</span>
-            <Change pct={quotes.data.quotes[s.symbol].change_pct} suffix=" today" />
-            <AsOf date={quotes.data.as_of} />
-          </div>
-        )}
+        <LivePrice symbol={s.symbol} fallback={quotes.data?.quotes[s.symbol] ?? null}
+                   fallbackDate={quotes.data?.as_of ?? null} />
       </div>
       <p className="secondary" style={{ maxWidth: 820, marginTop: 0 }}>
         {s.arc}
@@ -73,6 +68,40 @@ export function StoryPage() {
       </div>
     </>
   )
+}
+
+function LivePrice({ symbol, fallback, fallbackDate }: {
+  symbol: string
+  fallback: { price: number; change_pct: number | null } | null
+  fallbackDate: string | null
+}) {
+  const [quote, setQuote] = useState<LiveQuote | null>(null)
+  const [error, setError] = useState<string | null>(null)
+  useEffect(() => {
+    let active = true
+    const refresh = () => api.liveQuote(symbol)
+      .then((value) => { if (active) { setQuote(value); setError(null) } })
+      .catch((failure: Error) => { if (active) setError(failure.message) })
+    void refresh()
+    const timer = window.setInterval(() => { void refresh() }, 60_000)
+    return () => { active = false; window.clearInterval(timer) }
+  }, [symbol])
+  return <div>
+    <div className="quote-line">
+      {quote ? <>
+        <span className="price">{money(quote.price)}</span>
+        <Change pct={quote.change_pct} suffix=" vs previous close" />
+        <span className="live-badge">Live provider quote</span>
+      </> : fallback ? <>
+        <span className="price">{money(fallback.price)}</span>
+        <Change pct={fallback.change_pct} suffix=" on saved close" />
+        <AsOf date={fallbackDate} />
+      </> : <span className="muted">Loading price…</span>}
+    </div>
+    {quote && <div className="as-of">Finnhub · market timestamp {quote.market_timestamp
+      ? new Date(quote.market_timestamp).toLocaleString() : 'unavailable'} · refreshed every minute</div>}
+    {error && <div className="as-of">Live quote unavailable: {error}</div>}
+  </div>
 }
 
 function PriceChart({ story, selected, onSelect }: {

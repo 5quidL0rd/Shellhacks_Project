@@ -9,3 +9,4 @@ google-genai>=1.0
 beautifulsoup4>=4.12
 lxml>=5.0
 neo4j>=5.0
+snowflake-connector-python>=3.12

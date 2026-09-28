@@ -1,6 +1,7 @@
 """One safe, reusable connection factory for Snowflake."""
 
 import os
+import base64
 from pathlib import Path
 
 try:
@@ -47,6 +48,19 @@ def get_connection():
 
     auth_mode = os.getenv("SNOWFLAKE_AUTH_MODE", "").lower()
     if auth_mode == "keypair":
+        encoded_key = os.getenv("SNOWFLAKE_PRIVATE_KEY_B64")
+        if encoded_key:
+            from cryptography.hazmat.primitives import serialization
+            pem = base64.b64decode(encoded_key)
+            passphrase = os.getenv("SNOWFLAKE_PRIVATE_KEY_PASSPHRASE")
+            key = serialization.load_pem_private_key(
+                pem, password=passphrase.encode() if passphrase else None)
+            params["private_key"] = key.private_bytes(
+                encoding=serialization.Encoding.DER,
+                format=serialization.PrivateFormat.PKCS8,
+                encryption_algorithm=serialization.NoEncryption(),
+            )
+            return snowflake.connector.connect(**params)
         key_path = os.getenv("SNOWFLAKE_PRIVATE_KEY_FILE")
         if not key_path:
             raise RuntimeError("Set SNOWFLAKE_PRIVATE_KEY_FILE for key-pair authentication.")

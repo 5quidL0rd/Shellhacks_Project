@@ -1,5 +1,6 @@
 import { BrowserRouter, Link, NavLink, Route, Routes } from 'react-router-dom'
 import { api } from './api'
+import { ChatWidget } from './ChatWidget'
 import { Change } from './components'
 import { useAsync, usePortfolio } from './hooks'
 import { FeedPage } from './pages/FeedPage'
@@ -55,6 +56,7 @@ export default function App() {
             <Route path="/research" element={<ResearchPage holdings={holdings} />} />
           </Routes>
         </main>
+        <ChatWidget holdings={holdings} />
       </div>
     </BrowserRouter>
   )

@@ -96,6 +96,27 @@ export interface Quotes {
   missing: string[]
 }
 
+export interface LiveQuote {
+  symbol: string
+  price: number
+  change: number | null
+  change_pct: number | null
+  previous_close: number | null
+  open: number | null
+  high: number | null
+  low: number | null
+  market_timestamp: string | null
+  fetched_at: string
+  provider: string
+}
+
+export interface ChatAnswer {
+  answer: string
+  model: string
+  provider: string
+  selected_stock: string | null
+}
+
 export interface Bar {
   date: string
   open: number
@@ -515,11 +536,27 @@ async function get<T>(path: string, params?: Record<string, string>): Promise<T>
   return response.json() as Promise<T>
 }
 
+async function post<T>(path: string, body: unknown): Promise<T> {
+  const response = await fetch(`${BASE}${path}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  })
+  if (!response.ok) {
+    const payload = await response.json().catch(() => ({}))
+    throw new Error(typeof payload.detail === 'string' ? payload.detail : `Request failed (${response.status})`)
+  }
+  return response.json() as Promise<T>
+}
+
 const holdingsParam = (holdings: string[]) => holdings.join(',')
 let universeRequest: Promise<UniverseCompany[]> | null = null
 let quotesRequest: Promise<Quotes> | null = null
 
 export const api = {
+  liveQuote: (symbol: string) => get<LiveQuote>(`/market/${encodeURIComponent(symbol)}`),
+  chat: (question: string, symbol: string | null, holdings: string[]) =>
+    post<ChatAnswer>('/chat', { question, symbol, holdings }),
   /** The supported companies; fetched once per page load and shared. */
   universe: () => (universeRequest ??= get<UniverseCompany[]>('/universe').catch((e) => {
     universeRequest = null // let the next caller retry
