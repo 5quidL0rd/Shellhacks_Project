@@ -28,6 +28,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+@app.middleware("http")
+async def restore_api_path(request, call_next):
+    """Restore the endpoint path captured by Vercel's catch-all API rewrite."""
+    api_path = request.query_params.get("__path")
+    if api_path:
+        request.scope["path"] = f"/api/{api_path.lstrip('/')}"
+    return await call_next(request)
+
+
 app.mount("/api", main_app)
 
 # The FastAPI deployment is the Vercel entry point. Serve the Vite bundle from
