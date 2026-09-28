@@ -75,3 +75,20 @@ def test_assistant_prompt_keeps_structured_context_for_comparison(monkeypatch):
 
     payload = captured["prompt"].split("DATA:\n", 1)[1].split("\n\nUSER QUESTION:", 1)[0]
     assert json.loads(payload)["focus_stocks"] == ["AAPL", "NVDA", "MSFT"]
+
+
+def test_tesla_demo_position_is_labeled_illustrative(monkeypatch):
+    captured = {}
+    monkeypatch.setattr(cortex_chat, "get_connection", lambda: _Connection(captured))
+    monkeypatch.setattr(cortex_chat, "live_quote", lambda symbol: {
+        "symbol": symbol, "price": 400, "provider": "Finnhub",
+        "market_timestamp": "2026-09-28T13:00:00+00:00",
+    })
+
+    result = cortex_chat.answer("What is Tesla worth in this sample?", "TSLA", ["TSLA"],
+                                {"TSLA": {"shares": 10, "averageCost": None}}, demo=True)
+
+    assert result["data"]["tracked_holdings"] == ["TSLA"]
+    assert result["data"]["positions_are_illustrative"] is True
+    assert result["data"]["live_positions"]["TSLA"]["market_value"] == 4000
+    assert "never the user's actual wealth" in captured["prompt"]

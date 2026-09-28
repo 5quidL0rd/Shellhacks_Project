@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import {
   api,
   type Analysis,
@@ -41,8 +41,9 @@ const EXAMPLES = ['Ford', 'Waste Management', 'Coca Cola', 'BMW', 'Union Pacific
 
 /** Research: type any public company, see how it would fit what you own. */
 export function ResearchPage({ holdings }: { holdings: string[] }) {
+  const [params] = useSearchParams()
   const [query, setQuery] = useState('')
-  const [chosen, setChosen] = useState<string | null>(null)
+  const [chosen, setChosen] = useState<string | null>(() => params.get('company'))
 
   if (holdings.length === 0) {
     return (

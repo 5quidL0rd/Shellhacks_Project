@@ -53,7 +53,7 @@ export function XRayPage({ holdings }: { holdings: string[] }) {
     <>
       <div className="page-head">
         <div className="eyebrow">Portfolio X-Ray</div>
-        {xray.data ? (
+        {xray.data && supported.length ? (
           <div className="hero">
             <div className="big">
               Your {supported.length} holdings share <em>{shared.length} hidden {shared.length === 1 ? 'dependency' : 'dependencies'}</em>
@@ -71,9 +71,13 @@ export function XRayPage({ holdings }: { holdings: string[] }) {
       </div>
       {holdings.length === 0 && <EmptyPortfolio />}
       {xray.data && <HoldingsSummary holdings={holdings} unsupported={xray.data.unsupported} />}
+      {xray.data && supported.length === 0 && <section className="card">
+        <h2>Live tracking is ready</h2>
+        <p className="secondary">These stocks have current quotes, but the cited supply-chain X-Ray has not been built for them yet. Add one of the 13 graph-covered companies to explore shared dependencies.</p>
+      </section>}
       {xray.error && <p className="error">{xray.error}</p>}
 
-      {xray.data && (
+      {xray.data && supported.length > 0 && (
         <>
           <section className="glance" aria-label="At a glance">
             {topSupplier && (

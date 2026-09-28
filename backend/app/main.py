@@ -20,7 +20,7 @@ except ImportError:
 
 from . import portfolio, quotes
 from . import cortex_chat
-from .live_market import live_quote
+from .live_market import live_quote, valid_symbol
 from .feed import rank as feed_rank
 from .research import build as research
 from .research import concentration as concentration_mod
@@ -115,11 +115,10 @@ def graph_connections(ticker: str) -> list[dict]:
 
 def _holdings(raw: list[str]) -> tuple[list[str], list[str]]:
     supported, unsupported = portfolio.parse_holdings(raw)
-    if not supported:
+    if not supported and not unsupported:
         raise HTTPException(
             status_code=400,
-            detail=f"None of the holdings are supported. Unsupported: {unsupported}. "
-                   f"Supported: {list(SYMBOLS)}",
+            detail="Add at least one stock ticker.",
         )
     return supported, unsupported
 
@@ -200,10 +199,10 @@ def market_quote(symbol: str) -> dict:
 
 
 @app.get("/market")
-def market_quotes(symbols: str = Query(..., description="Comma-separated supported tickers, up to 15")) -> dict:
+def market_quotes(symbols: str = Query(..., description="Comma-separated stock tickers, up to 15")) -> dict:
     wanted = list(dict.fromkeys(s.strip().upper() for s in symbols.split(",") if s.strip()))
-    if not wanted or len(wanted) > 15 or any(s not in SYMBOLS for s in wanted):
-        raise HTTPException(status_code=400, detail="Choose 1–15 supported tickers.")
+    if not wanted or len(wanted) > 15 or any(not valid_symbol(s) for s in wanted):
+        raise HTTPException(status_code=400, detail="Choose 1–15 valid tickers.")
     live: dict = {}
     errors: dict = {}
     with ThreadPoolExecutor(max_workers=5) as pool:
@@ -222,13 +221,15 @@ class ChatRequest(BaseModel):
     symbol: str | None = None
     holdings: list[str] = Field(default_factory=list, max_length=15)
     positions: dict[str, dict[str, float | None]] = Field(default_factory=dict)
+    demo: bool = False
 
 
 @app.post("/chat")
 def chat(request: ChatRequest) -> dict:
     """Ask Cortex about the selected stock and portfolio data."""
     try:
-        return cortex_chat.answer(request.question, request.symbol, request.holdings, request.positions)
+        return cortex_chat.answer(request.question, request.symbol, request.holdings,
+                                  request.positions, request.demo)
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from None
     except RuntimeError as exc:

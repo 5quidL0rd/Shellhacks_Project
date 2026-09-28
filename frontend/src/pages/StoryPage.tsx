@@ -18,7 +18,8 @@ export function StoryPage() {
   const [selected, setSelected] = useState<string | null>(null)
   const [citation, setCitation] = useState<string | null>(null)
 
-  if (story.error) return <p className="error">{story.error}</p>
+  if (story.error && quotes.data?.quotes[symbol]) return <p className="error">Story unavailable: {story.error}</p>
+  if (story.error) return <LiveOnlyStock symbol={symbol} />
   if (!story.data) return <p className="muted">Loading {symbol}…</p>
   const s = story.data
   const selectBeat = (date: string) => {
@@ -68,6 +69,26 @@ export function StoryPage() {
       </div>
     </>
   )
+}
+
+function LiveOnlyStock({ symbol }: { symbol: string }) {
+  const match = useAsync(() => api.researchSearch(symbol, 3), `lookup:${symbol}`)
+  const name = match.data?.matches.find((row) => row.ticker === symbol.toUpperCase())?.name
+  return <>
+    <div className="page-head">
+      <div className="eyebrow"><Link to="/holdings">Portfolio</Link> / Live tracking</div>
+      <h1>{name ?? symbol.toUpperCase()} <span className="muted">{symbol.toUpperCase()}</span></h1>
+      <LivePrice symbol={symbol} fallback={null} fallbackDate={null} />
+    </div>
+    <section className="card">
+      <div className="card-label">Coverage note</div>
+      <h2>Live quote available; detailed story not yet built</h2>
+      <p className="secondary">This stock can be tracked with a current Finnhub quote. The cited price-move timeline and supply-chain graph cover a smaller set of companies, so they are not shown here.</p>
+      <Link className="primary-btn" to={`/research?company=${encodeURIComponent(symbol.toUpperCase())}`}>
+        Research {symbol.toUpperCase()} against this portfolio
+      </Link>
+    </section>
+  </>
 }
 
 function LivePrice({ symbol, fallback, fallbackDate }: {

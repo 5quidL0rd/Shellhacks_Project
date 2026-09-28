@@ -6,12 +6,24 @@ export const SAMPLE_PORTFOLIO = ['AAPL', 'NVDA', 'AMD', 'MSFT', 'QCOM', 'CRUS', 
 
 const STORAGE_KEY = 'portfolio-holdings'
 const POSITIONS_KEY = 'portfolio-positions'
+const DEMO_POSITIONS_KEY = 'portfolio-demo-positions'
+const MODE_KEY = 'portfolio-mode'
 
 export interface Position { shares: number | null; averageCost: number | null }
 
-function readPositions(): Record<string, Position> {
+export const SAMPLE_POSITIONS: Record<string, Position> = {
+  AAPL: { shares: 80, averageCost: null },
+  NVDA: { shares: 120, averageCost: null },
+  AMD: { shares: 25, averageCost: null },
+  MSFT: { shares: 40, averageCost: null },
+  QCOM: { shares: 50, averageCost: null },
+  CRUS: { shares: 40, averageCost: null },
+  AMZN: { shares: 70, averageCost: null },
+}
+
+function readPositions(key = POSITIONS_KEY): Record<string, Position> {
   try {
-    const raw = JSON.parse(localStorage.getItem(POSITIONS_KEY) ?? '{}')
+    const raw = JSON.parse(localStorage.getItem(key) ?? '{}')
     if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return {}
     return Object.fromEntries(Object.entries(raw).filter(([, value]) =>
       value && typeof value === 'object' && !Array.isArray(value))) as Record<string, Position>
@@ -28,11 +40,24 @@ function readSaved(): string[] | null {
   }
 }
 
+function readDemoMode(): boolean {
+  try {
+    const saved = localStorage.getItem(MODE_KEY)
+    if (saved === 'demo') return true
+    if (saved === 'custom') return false
+    return !Object.values(readPositions()).some((p) => (p.shares ?? 0) > 0 || (p.averageCost ?? 0) > 0)
+  } catch { return true }
+}
+
 /** The user's holdings, remembered in this browser. There is no account or
  * saved-portfolio endpoint yet, so localStorage is a convenience only. */
 export function usePortfolio() {
   const [holdings, setHoldingsState] = useState<string[]>(() => readSaved() ?? SAMPLE_PORTFOLIO)
-  const [positions, setPositionsState] = useState<Record<string, Position>>(readPositions)
+  const [demo, setDemo] = useState(readDemoMode)
+  const [customPositions, setCustomPositions] = useState<Record<string, Position>>(readPositions)
+  const [demoPositions, setDemoPositions] = useState<Record<string, Position>>(
+    () => ({ ...SAMPLE_POSITIONS, ...readPositions(DEMO_POSITIONS_KEY) }))
+  const positions = demo ? demoPositions : customPositions
   const setHoldings = useCallback((next: string[]) => {
     setHoldingsState(next)
     try {
@@ -41,14 +66,31 @@ export function usePortfolio() {
       /* storage unavailable: keep it in memory */
     }
   }, [])
-  const setPosition = useCallback((symbol: string, position: Position) => {
-    setPositionsState((current) => {
-      const next = { ...current, [symbol]: position }
-      try { localStorage.setItem(POSITIONS_KEY, JSON.stringify(next)) } catch { /* keep in memory */ }
+  const setPosition = useCallback((symbol: string, field: keyof Position, value: number | null) => {
+    const update = demo ? setDemoPositions : setCustomPositions
+    const key = demo ? DEMO_POSITIONS_KEY : POSITIONS_KEY
+    update((current) => {
+      const next = { ...current,
+        [symbol]: { ...(current[symbol] ?? { shares: null, averageCost: null }), [field]: value } }
+      try { localStorage.setItem(key, JSON.stringify(next)) } catch { /* keep in memory */ }
       return next
     })
+  }, [demo])
+  const useSamplePortfolio = useCallback(() => {
+    setHoldings(SAMPLE_PORTFOLIO)
+    setDemoPositions(SAMPLE_POSITIONS)
+    setDemo(true)
+    try {
+      localStorage.setItem(MODE_KEY, 'demo')
+      localStorage.removeItem(DEMO_POSITIONS_KEY)
+    } catch { /* keep in memory */ }
+  }, [setHoldings])
+  const startCustomPortfolio = useCallback(() => {
+    setDemo(false)
+    try { localStorage.setItem(MODE_KEY, 'custom') } catch { /* keep in memory */ }
   }, [])
-  return { holdings, setHoldings, positions, setPosition }
+  return { holdings, setHoldings, positions, setPosition, demo,
+    useSamplePortfolio, startCustomPortfolio }
 }
 
 export interface AsyncState<T> {

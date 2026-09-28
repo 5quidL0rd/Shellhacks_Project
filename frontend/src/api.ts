@@ -563,8 +563,8 @@ export const api = {
   liveQuote: (symbol: string) => get<LiveQuote>(`/market/${encodeURIComponent(symbol)}`),
   liveQuotes: (symbols: string[]) => get<LiveQuotes>('/market', { symbols: symbols.join(',') }),
   chat: (question: string, symbol: string | null, holdings: string[],
-    positions: Record<string, { shares: number | null; averageCost: number | null }>) =>
-    post<ChatAnswer>('/chat', { question, symbol, holdings, positions }),
+    positions: Record<string, { shares: number | null; averageCost: number | null }>, demo: boolean) =>
+    post<ChatAnswer>('/chat', { question, symbol, holdings, positions, demo }),
   /** The supported companies; fetched once per page load and shared. */
   universe: () => (universeRequest ??= get<UniverseCompany[]>('/universe').catch((e) => {
     universeRequest = null // let the next caller retry

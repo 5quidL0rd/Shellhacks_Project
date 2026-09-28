@@ -58,6 +58,9 @@ export function FeedPage({ holdings }: { holdings: string[] }) {
       </div>
       {holdings.length === 0 && <EmptyPortfolio />}
       {feed.data && <HoldingsSummary holdings={holdings} unsupported={feed.data.unsupported} />}
+      {feed.data && feed.data.unsupported.length > 0 && <p className="small muted">
+        Live-quote-only stocks are not included in this saved news feed; absence here does not mean there is no news about them.
+      </p>}
       {feed.error && <p className="error">{feed.error}</p>}
       {feed.loading && !feed.data && holdings.length > 0 && <p className="muted">Loading…</p>}
 

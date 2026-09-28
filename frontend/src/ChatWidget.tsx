@@ -5,7 +5,9 @@ import type { Position } from './hooks'
 
 interface Message { role: 'user' | 'assistant'; text: string; source?: string }
 
-export function ChatWidget({ holdings, positions }: { holdings: string[]; positions: Record<string, Position> }) {
+export function ChatWidget({ holdings, positions, demo }: {
+  holdings: string[]; positions: Record<string, Position>; demo: boolean
+}) {
   const location = useLocation()
   const selected = location.pathname.match(/^\/stock\/([A-Z.]+)$/i)?.[1]?.toUpperCase() ?? null
   const [open, setOpen] = useState(false)
@@ -21,7 +23,7 @@ export function ChatWidget({ holdings, positions }: { holdings: string[]; positi
     setMessages((rows) => [...rows, { role: 'user', text }])
     setBusy(true)
     try {
-      const result = await api.chat(text, selected, holdings, positions)
+      const result = await api.chat(text, selected, holdings, positions, demo)
       setMessages((rows) => [...rows, { role: 'assistant', text: result.answer,
         source: `${result.provider} · ${result.model}` }])
     } catch (error) {
@@ -42,7 +44,7 @@ export function ChatWidget({ holdings, positions }: { holdings: string[]; positi
         <div className="chat-messages" aria-live="polite">
           {messages.length === 0 && <div className="chat-intro">
             Ask about {selected ? `${selected}'s price, major moves, or` : 'stock prices, saved news, or'} your portfolio's shared dependencies.
-            <small>Quotes are from Finnhub; stories and news are dated snapshots. This is research, not investment advice.</small>
+            <small>{demo ? 'Displayed share counts are illustrative. ' : ''}Quotes are from Finnhub; stories and news are dated snapshots. This is research, not investment advice.</small>
           </div>}
           {messages.map((message, index) => <div key={index} className={`chat-message ${message.role}`}>
             <p>{message.text}</p>{message.source && <small>{message.source}</small>}

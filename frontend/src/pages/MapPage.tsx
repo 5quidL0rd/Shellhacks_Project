@@ -45,6 +45,9 @@ export function MapPage({ holdings }: { holdings: string[] }) {
         <p>Choose one investment to see the suppliers, customers, competitors, and markets connected to it. Select a section or connection for the supporting detail.</p>
       </div>
       {holdings.length === 0 ? <EmptyPortfolio /> : <HoldingsSummary holdings={holdings} unsupported={map.data?.unsupported} />}
+      {map.data?.unsupported.includes(ticker) && <p className="small muted">
+        {ticker} has a live quote but no cited connection map yet. Choose a graph-covered holding for relationships.
+      </p>}
       {map.error && <p className="error">{map.error}</p>}
       {map.loading && <p className="muted">Loading connections…</p>}
       {map.data && ticker && (

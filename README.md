@@ -2,7 +2,7 @@
 
 An app that helps experienced investors see what matters to *their* portfolio: which news affects their holdings, how their holdings are connected through suppliers, customers, and competitors, and why each stock's price moved. The product vision (pitch, features, and the principles every feature follows) is in [Product.md](Product.md); the build steps are in [plans.md](plans.md).
 
-Current scope: **13 companies** (listed in [data/companies.json](data/companies.json)): the original five, Apple, Nvidia, AMD, TSMC, and Microsoft, plus a pilot of eight: Intel, Micron, Broadcom, Qualcomm, ASML, Cirrus Logic, Amazon, and Alphabet. A 40-company list is drafted in [company_universe_draft.md](company_universe_draft.md).
+Detailed story and relationship coverage currently spans **13 companies** (listed in [data/companies.json](data/companies.json)). Search also finds SEC-listed companies outside that set, including Tesla (TSLA); those can be tracked with Finnhub quotes, but do not yet have the cited story or graph coverage. A 40-company list is drafted in [company_universe_draft.md](company_universe_draft.md).
 
 *Last updated: September 28, 2026*
 
@@ -35,7 +35,7 @@ cd frontend
 npm run dev
 ```
 
-**4. Open http://localhost:5173.** It starts with a sample portfolio; change it on the **Holdings** page.
+**4. Open http://localhost:5173.** It starts with a clearly labeled demo portfolio and illustrative share counts. Its displayed value is calculated from Finnhub quotes, not a claim about the visitor's real assets. On **Holdings**, select **Switch to my own portfolio** before entering real positions. Demo and personal share counts are stored separately in this browser.
 
 On Windows, use `.venv\Scripts\pip` and `..\.venv\Scripts\uvicorn` instead of the `.venv/bin/...` paths.
 

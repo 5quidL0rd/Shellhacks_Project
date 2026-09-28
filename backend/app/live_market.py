@@ -1,23 +1,28 @@
-"""On-demand Finnhub quotes for a selected supported stock."""
+"""On-demand Finnhub quotes for validated stock tickers."""
 from __future__ import annotations
 
 import os
+import re
 import time
 from datetime import datetime, timezone
 from threading import Lock
 
 import requests
 
-from .universe import SYMBOLS
-
 _cache: dict[str, tuple[float, dict]] = {}
 _lock = Lock()
+_SYMBOL = re.compile(r"^[A-Z][A-Z0-9.\-]{0,9}$")
+
+
+def valid_symbol(symbol: str) -> bool:
+    """Accept ticker-shaped input, but never pass arbitrary text to Finnhub."""
+    return bool(_SYMBOL.fullmatch(symbol.strip().upper()))
 
 
 def live_quote(symbol: str) -> dict:
     symbol = symbol.strip().upper()
-    if symbol not in SYMBOLS:
-        raise ValueError(f"{symbol} is not in the supported stock universe")
+    if not valid_symbol(symbol):
+        raise ValueError("Enter a valid stock ticker.")
     token = os.getenv("FINNHUB_API_KEY", "").strip()
     if not token:
         raise RuntimeError("Live quotes are not configured. Set FINNHUB_API_KEY on the server.")

@@ -3,7 +3,8 @@ import { BrowserRouter, Link, NavLink, Route, Routes } from 'react-router-dom'
 import { api, type LiveQuotes } from './api'
 import { ChatWidget } from './ChatWidget'
 import { Change } from './components'
-import { usePortfolio } from './hooks'
+import { usePortfolio, type Position } from './hooks'
+import { money } from './format'
 import { FeedPage } from './pages/FeedPage'
 import { HoldingsPage } from './pages/HoldingsPage'
 import { MapPage } from './pages/MapPage'
@@ -28,7 +29,20 @@ const ICONS = {
 }
 
 export default function App() {
-  const { holdings, setHoldings, positions, setPosition } = usePortfolio()
+  const { holdings, setHoldings, positions, setPosition, demo,
+    useSamplePortfolio, startCustomPortfolio } = usePortfolio()
+  const [live, setLive] = useState<LiveQuotes | null>(null)
+  const [liveError, setLiveError] = useState<string | null>(null)
+  useEffect(() => {
+    if (!holdings.length) { setLive(null); setLiveError(null); return }
+    let active = true
+    const refresh = () => api.liveQuotes(holdings)
+      .then((result) => { if (active) { setLive(result); setLiveError(null) } })
+      .catch((error: Error) => { if (active) { setLive(null); setLiveError(error.message) } })
+    void refresh()
+    const timer = window.setInterval(() => { void refresh() }, 60_000)
+    return () => { active = false; window.clearInterval(timer) }
+  }, [holdings.join(',')]) // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <BrowserRouter>
       <div className="app">
@@ -44,43 +58,53 @@ export default function App() {
             <NavLink to="/map"><Icon d={ICONS.map} /> Connection Map</NavLink>
             <NavLink to="/research"><Icon d={ICONS.research} /> Research</NavLink>
           </nav>
-          <SidebarHoldings holdings={holdings} />
+          <SidebarHoldings holdings={holdings} live={live} demo={demo} />
           <div className="sidebar-foot">v0.1 · Data from SEC filings</div>
         </aside>
         <main className="main">
+          <PortfolioBanner holdings={holdings} positions={positions} live={live}
+            liveError={liveError} demo={demo} />
           <Routes>
             <Route path="/" element={<XRayPage holdings={holdings} />} />
             <Route path="/changes" element={<FeedPage holdings={holdings} />} />
             <Route path="/map" element={<MapPage holdings={holdings} />} />
             <Route path="/holdings" element={<HoldingsPage holdings={holdings} setHoldings={setHoldings}
-              positions={positions} setPosition={setPosition} />} />
+              positions={positions} setPosition={setPosition} demo={demo}
+              useSamplePortfolio={useSamplePortfolio} startCustomPortfolio={startCustomPortfolio}
+              live={live} liveError={liveError} />} />
             <Route path="/stock/:symbol" element={<StoryPage />} />
             <Route path="/research" element={<ResearchPage holdings={holdings} />} />
           </Routes>
         </main>
-        <ChatWidget holdings={holdings} positions={positions} />
+        <ChatWidget holdings={holdings} positions={positions} demo={demo} />
       </div>
     </BrowserRouter>
   )
 }
 
 /** Every holding at a glance, one click from its story. Scrolls when long. */
-function SidebarHoldings({ holdings }: { holdings: string[] }) {
-  const [quotes, setQuotes] = useState<LiveQuotes | null>(null)
-  useEffect(() => {
-    if (!holdings.length) { setQuotes(null); return }
-    let active = true
-    const refresh = () => api.liveQuotes(holdings)
-      .then((result) => { if (active) setQuotes(result) })
-      .catch(() => { if (active) setQuotes(null) })
-    void refresh()
-    const timer = window.setInterval(() => { void refresh() }, 60_000)
-    return () => { active = false; window.clearInterval(timer) }
-  }, [holdings.join(',')]) // eslint-disable-line react-hooks/exhaustive-deps
+function PortfolioBanner({ holdings, positions, live, liveError, demo }: {
+  holdings: string[]; positions: Record<string, Position>; live: LiveQuotes | null
+  liveError: string | null; demo: boolean
+}) {
+  const valued = holdings.filter((symbol) => (positions[symbol]?.shares ?? 0) > 0 && live?.quotes[symbol])
+  const value = valued.reduce((sum, symbol) => sum + positions[symbol].shares! * live!.quotes[symbol].price, 0)
+  return <div className="portfolio-banner" aria-label={demo ? 'Illustrative sample portfolio value' : 'Portfolio market value'}>
+    <div><span className="card-label">{demo ? 'DEMO PORTFOLIO · ILLUSTRATIVE SHARES' : 'PORTFOLIO MARKET VALUE'}</span>
+      <strong>{valued.length ? money(value) : !holdings.length ? 'Add holdings'
+        : liveError ? 'Quotes unavailable' : live ? 'Add share counts' : 'Loading live value…'}</strong></div>
+    <small>{demo ? 'Example positions, not your actual holdings. ' : ''}
+      Finnhub quotes · {valued.length}/{holdings.length} positions valued</small>
+  </div>
+}
+
+function SidebarHoldings({ holdings, live, demo }: {
+  holdings: string[]; live: LiveQuotes | null; demo: boolean
+}) {
   return (
     <div className="sidebar-holdings">
       <div className="row-between">
-        <span className="eyebrow">Holdings · {holdings.length}</span>
+        <span className="eyebrow">{demo ? 'Sample holdings' : 'Holdings'} · {holdings.length}</span>
         <Link to="/holdings" className="small">Edit</Link>
       </div>
       {holdings.length === 0
@@ -90,10 +114,10 @@ function SidebarHoldings({ holdings }: { holdings: string[] }) {
             {[...holdings].sort().map((t) => (
               <NavLink key={t} to={`/stock/${t}`} className="ticker-link">
                 <span>{t}</span>
-                <span title={quotes?.quotes[t]?.market_timestamp
-                  ? `Finnhub · ${new Date(quotes.quotes[t].market_timestamp).toLocaleString()}`
+                <span title={live?.quotes[t]?.market_timestamp
+                  ? `Finnhub · ${new Date(live.quotes[t].market_timestamp).toLocaleString()}`
                   : 'Live quote unavailable'}>
-                  <Change pct={quotes?.quotes[t]?.change_pct} />
+                  <Change pct={live?.quotes[t]?.change_pct} />
                 </span>
               </NavLink>
             ))}

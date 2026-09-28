@@ -3,31 +3,25 @@ import { Link } from 'react-router-dom'
 import { api, type LiveQuotes, type Quote, type UniverseCompany } from '../api'
 import { Change } from '../components'
 import { money } from '../format'
-import { parseTickers, SAMPLE_PORTFOLIO, useAsync, type Position } from '../hooks'
+import { parseTickers, useAsync, type Position } from '../hooks'
 
 /** Where the portfolio is built: paste, upload, or browse, then review. */
-export function HoldingsPage({ holdings, setHoldings, positions, setPosition }: {
+export function HoldingsPage({ holdings, setHoldings, positions, setPosition, demo,
+  useSamplePortfolio, startCustomPortfolio, live, liveError }: {
   holdings: string[]
   setHoldings: (h: string[]) => void
   positions: Record<string, Position>
-  setPosition: (symbol: string, position: Position) => void
+  setPosition: (symbol: string, field: keyof Position, value: number | null) => void
+  demo: boolean
+  useSamplePortfolio: () => void
+  startCustomPortfolio: () => void
+  live: LiveQuotes | null
+  liveError: string | null
 }) {
   const universe = useAsync(api.universe, 'universe')
   const quotes = useAsync(api.quotes, 'quotes')
   const companies = useMemo(() => universe.data ?? [], [universe.data])
   const bySymbol = useMemo(() => new Map(companies.map((c) => [c.symbol, c])), [companies])
-  const [live, setLive] = useState<LiveQuotes | null>(null)
-  const [liveError, setLiveError] = useState<string | null>(null)
-  useEffect(() => {
-    if (!holdings.length) { setLive(null); return }
-    let active = true
-    const refresh = () => api.liveQuotes(holdings).then((result) => {
-      if (active) { setLive(result); setLiveError(null) }
-    }).catch((error: Error) => { if (active) setLiveError(error.message) })
-    void refresh()
-    const timer = window.setInterval(() => { void refresh() }, 60_000)
-    return () => { active = false; window.clearInterval(timer) }
-  }, [holdings.join(',')]) // eslint-disable-line react-hooks/exhaustive-deps
   const valued = holdings.filter((symbol) => (positions[symbol]?.shares ?? 0) > 0 && live?.quotes[symbol])
   const marketValue = valued.reduce((sum, symbol) => sum + positions[symbol].shares! * live!.quotes[symbol].price, 0)
   const dailyValued = valued.filter((symbol) => (live!.quotes[symbol].previous_close ?? 0) > 0)
@@ -49,16 +43,19 @@ export function HoldingsPage({ holdings, setHoldings, positions, setPosition }: 
     <>
       <div className="page-head">
         <div className="eyebrow">Holdings</div>
-        <h1>Your portfolio</h1>
-        <div className="small muted">Live prices from Finnhub refresh every minute. Historical charts and filing analysis have separate as-of dates.</div>
+        <h1>{demo ? 'Sample portfolio' : 'Your portfolio'}</h1>
+        <div className="small muted">{demo ? 'Illustrative share counts, not your actual holdings. ' : ''}Live prices from Finnhub refresh every minute. Historical charts and filing analysis have separate as-of dates.</div>
         <p>
           Paste your tickers, upload a CSV from your brokerage, or pick companies from the list.
           Every screen reads from here.
         </p>
+        {demo && <button type="button" className="ghost-btn" onClick={startCustomPortfolio}>
+          Switch to my own portfolio
+        </button>}
       </div>
       {universe.error && <p className="error">{universe.error}</p>}
       {holdings.length > 0 && <section className="card position-summary" aria-label="Portfolio value">
-        <div><span className="card-label">Live market value</span><strong>{valued.length ? money(marketValue) : 'Add share counts'}</strong>
+        <div><span className="card-label">{demo ? 'Illustrative market value' : 'Live market value'}</span><strong>{valued.length ? money(marketValue) : 'Add share counts'}</strong>
           <small>{valued.length} of {holdings.length} tickers valued with live quotes</small></div>
         <div><span className="card-label">Unrealized gain / loss</span><strong>{costed.length ? money(gain) : 'Add average cost'}</strong>
           <small>{costed.length} positions with cost basis{costBasis > 0 ? ` · ${((gain / costBasis) * 100).toFixed(2)}%` : ''}</small></div>
@@ -71,7 +68,8 @@ export function HoldingsPage({ holdings, setHoldings, positions, setPosition }: 
         <div className="stack">
           <PasteBox known={bySymbol} onAdd={addMany} />
           <HoldingsTable holdings={holdings} bySymbol={bySymbol} setHoldings={setHoldings}
-                         quotes={quotes.data?.quotes ?? {}} live={live} positions={positions} setPosition={setPosition} />
+                         quotes={quotes.data?.quotes ?? {}} live={live} positions={positions}
+                         setPosition={setPosition} useSamplePortfolio={useSamplePortfolio} />
         </div>
         <CompanyBrowser companies={companies} holdings={holdings} toggle={toggle}
                         setHoldings={setHoldings} />
@@ -132,14 +130,16 @@ function PasteBox({ known, onAdd }: { known: Map<string, UniverseCompany>; onAdd
   )
 }
 
-function HoldingsTable({ holdings, bySymbol, setHoldings, quotes, live, positions, setPosition }: {
+function HoldingsTable({ holdings, bySymbol, setHoldings, quotes, live, positions,
+  setPosition, useSamplePortfolio }: {
   holdings: string[]
   bySymbol: Map<string, UniverseCompany>
   setHoldings: (h: string[]) => void
   quotes: Record<string, Quote>
   live: LiveQuotes | null
   positions: Record<string, Position>
-  setPosition: (symbol: string, position: Position) => void
+  setPosition: (symbol: string, field: keyof Position, value: number | null) => void
+  useSamplePortfolio: () => void
 }) {
   const rows = [...holdings].sort()
   return (
@@ -147,7 +147,7 @@ function HoldingsTable({ holdings, bySymbol, setHoldings, quotes, live, position
       <div className="row-between" style={{ marginBottom: 10 }}>
         <div className="card-label" style={{ margin: 0 }}>Current holdings · {holdings.length}</div>
         <div className="row">
-          <button className="ghost-btn" onClick={() => setHoldings(SAMPLE_PORTFOLIO)}>Use sample portfolio</button>
+          <button className="ghost-btn" onClick={useSamplePortfolio}>Use sample portfolio</button>
           <button className="ghost-btn" disabled={!holdings.length} onClick={() => setHoldings([])}>Clear all</button>
         </div>
       </div>
@@ -174,15 +174,15 @@ function HoldingsTable({ holdings, bySymbol, setHoldings, quotes, live, position
                 <tr key={t}>
                   <td><Link to={`/stock/${t}`}><strong>{t}</strong></Link></td>
                   <td className="secondary">
-                    {c?.name ?? <span className="muted">Not supported</span>}
-                    {c && <div className="small muted">{c.sector}</div>}
+                    {c?.name ?? <span className="muted">Live quote tracking</span>}
+                    <div className="small muted">{c?.sector ?? 'Detailed story not yet available'}</div>
                   </td>
                   <td><input className="position-input" type="number" min="0" step="any" inputMode="decimal"
                              aria-label={`${t} shares`} placeholder="—" value={position.shares ?? ''}
-                             onChange={(e) => setPosition(t, { ...position, shares: validNumber(e.target.value) })} /></td>
+                             onChange={(e) => setPosition(t, 'shares', validNumber(e.target.value))} /></td>
                   <td><input className="position-input" type="number" min="0" step="any" inputMode="decimal"
                              aria-label={`${t} average cost`} placeholder="—" value={position.averageCost ?? ''}
-                             onChange={(e) => setPosition(t, { ...position, averageCost: validNumber(e.target.value) })} /></td>
+                             onChange={(e) => setPosition(t, 'averageCost', validNumber(e.target.value))} /></td>
                   <td className="num price">{current ? money(current.price) : q ? money(q.price) : '—'}
                     <div className="as-of">{current ? `Live · ${new Date(current.market_timestamp ?? current.fetched_at).toLocaleTimeString()}` : 'Saved close'}</div>
                     <Change pct={current?.change_pct ?? q?.change_pct} /></td>
@@ -216,6 +216,15 @@ function CompanyBrowser({ companies, holdings, toggle, setHoldings }: {
 }) {
   const [query, setQuery] = useState('')
   const q = query.trim().toLowerCase()
+  const [lookup, setLookup] = useState('')
+  useEffect(() => {
+    const timer = window.setTimeout(() => setLookup(query.trim()), 250)
+    return () => window.clearTimeout(timer)
+  }, [query])
+  const external = useAsync(
+    () => lookup.length >= 2 ? api.researchSearch(lookup, 6) : Promise.resolve(null), lookup,
+  )
+  const extraMatches = external.data?.matches.filter((match) => !match.in_universe) ?? []
   const groups = useMemo(() => {
     const matches = companies.filter((c) =>
       !q || c.symbol.toLowerCase().includes(q) || c.name.toLowerCase().includes(q) || c.sector.toLowerCase().includes(q))
@@ -232,11 +241,22 @@ function CompanyBrowser({ companies, holdings, toggle, setHoldings }: {
 
   return (
     <section className="card browser">
-      <div className="card-label">Browse supported companies · {companies.length}</div>
-      <input type="search" className="search" placeholder="Search ticker, company, or sector"
+      <div className="card-label">Search and track stocks</div>
+      <p className="small muted">{companies.length} stocks have detailed stories and graph coverage. Search SEC-listed stocks such as Tesla for live price tracking.</p>
+      <input type="search" className="search" placeholder="Search Tesla, TSLA, or another company"
              value={query} onChange={(e) => setQuery(e.target.value)} aria-label="Search companies" />
+      {lookup.length >= 2 && <div className="external-matches" aria-label="Additional stock matches">
+        {external.loading && <p className="small muted">Searching the SEC company list…</p>}
+        {external.error && <p className="small error">Broader company search is temporarily unavailable: {external.error}</p>}
+        {extraMatches.map((match) => <button key={match.ticker} type="button" className="external-match"
+          onClick={() => toggle(match.ticker)} aria-pressed={holdings.includes(match.ticker)}>
+          <span><strong>{match.ticker}</strong> {match.name}<small>Live quote tracking · detailed story not yet available</small></span>
+          <span>{holdings.includes(match.ticker) ? 'Remove' : 'Track'}</span>
+        </button>)}
+      </div>}
       <div className="browser-list">
-        {groups.length === 0 && <p className="small muted">No companies match “{query}”.</p>}
+        {groups.length === 0 && extraMatches.length === 0 && !external.loading &&
+          <p className="small muted">No companies match “{query}”.</p>}
         {groups.map(([sector, members]) => {
           const held = members.filter((c) => holdings.includes(c.symbol)).length
           return (

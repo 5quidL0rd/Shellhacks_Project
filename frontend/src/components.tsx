@@ -9,8 +9,8 @@ export function HoldingsSummary({ holdings, unsupported = [] }: { holdings: stri
     <div className="holdings-summary">
       <span>{holdings.length} {holdings.length === 1 ? 'holding' : 'holdings'}</span>
       {unsupported.length > 0 && (
-        <span className="muted" title="Not in the supported company list, so not analyzed">
-          · {unsupported.length} not supported ({unsupported.join(', ')})
+        <span className="muted" title="Tracked with live quotes; detailed graph and story coverage is not available">
+          · {unsupported.length} live-quote only ({unsupported.join(', ')})
         </span>
       )}
       <Link to="/holdings">Edit holdings →</Link>
