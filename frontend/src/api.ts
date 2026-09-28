@@ -110,6 +110,12 @@ export interface LiveQuote {
   provider: string
 }
 
+export interface LiveQuotes {
+  quotes: Record<string, LiveQuote>
+  errors: Record<string, string>
+  provider: string
+}
+
 export interface ChatAnswer {
   answer: string
   model: string
@@ -555,8 +561,10 @@ let quotesRequest: Promise<Quotes> | null = null
 
 export const api = {
   liveQuote: (symbol: string) => get<LiveQuote>(`/market/${encodeURIComponent(symbol)}`),
-  chat: (question: string, symbol: string | null, holdings: string[]) =>
-    post<ChatAnswer>('/chat', { question, symbol, holdings }),
+  liveQuotes: (symbols: string[]) => get<LiveQuotes>('/market', { symbols: symbols.join(',') }),
+  chat: (question: string, symbol: string | null, holdings: string[],
+    positions: Record<string, { shares: number | null; averageCost: number | null }>) =>
+    post<ChatAnswer>('/chat', { question, symbol, holdings, positions }),
   /** The supported companies; fetched once per page load and shared. */
   universe: () => (universeRequest ??= get<UniverseCompany[]>('/universe').catch((e) => {
     universeRequest = null // let the next caller retry

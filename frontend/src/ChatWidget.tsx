@@ -1,10 +1,11 @@
 import { useState, type FormEvent } from 'react'
 import { useLocation } from 'react-router-dom'
 import { api } from './api'
+import type { Position } from './hooks'
 
 interface Message { role: 'user' | 'assistant'; text: string; source?: string }
 
-export function ChatWidget({ holdings }: { holdings: string[] }) {
+export function ChatWidget({ holdings, positions }: { holdings: string[]; positions: Record<string, Position> }) {
   const location = useLocation()
   const selected = location.pathname.match(/^\/stock\/([A-Z.]+)$/i)?.[1]?.toUpperCase() ?? null
   const [open, setOpen] = useState(false)
@@ -20,7 +21,7 @@ export function ChatWidget({ holdings }: { holdings: string[] }) {
     setMessages((rows) => [...rows, { role: 'user', text }])
     setBusy(true)
     try {
-      const result = await api.chat(text, selected, holdings)
+      const result = await api.chat(text, selected, holdings, positions)
       setMessages((rows) => [...rows, { role: 'assistant', text: result.answer,
         source: `${result.provider} · ${result.model}` }])
     } catch (error) {

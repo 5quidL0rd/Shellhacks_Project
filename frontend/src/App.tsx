@@ -27,7 +27,7 @@ const ICONS = {
 }
 
 export default function App() {
-  const { holdings, setHoldings } = usePortfolio()
+  const { holdings, setHoldings, positions, setPosition } = usePortfolio()
   return (
     <BrowserRouter>
       <div className="app">
@@ -51,12 +51,13 @@ export default function App() {
             <Route path="/" element={<XRayPage holdings={holdings} />} />
             <Route path="/changes" element={<FeedPage holdings={holdings} />} />
             <Route path="/map" element={<MapPage holdings={holdings} />} />
-            <Route path="/holdings" element={<HoldingsPage holdings={holdings} setHoldings={setHoldings} />} />
+            <Route path="/holdings" element={<HoldingsPage holdings={holdings} setHoldings={setHoldings}
+              positions={positions} setPosition={setPosition} />} />
             <Route path="/stock/:symbol" element={<StoryPage />} />
             <Route path="/research" element={<ResearchPage holdings={holdings} />} />
           </Routes>
         </main>
-        <ChatWidget holdings={holdings} />
+        <ChatWidget holdings={holdings} positions={positions} />
       </div>
     </BrowserRouter>
   )

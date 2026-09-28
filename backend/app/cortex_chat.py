@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from . import portfolio, quotes
 from .live_market import live_quote
@@ -10,7 +11,7 @@ from .snowflake_db import get_connection
 from .universe import SYMBOLS
 
 
-def answer(question: str, symbol: str | None, holdings: list[str]) -> dict:
+def answer(question: str, symbol: str | None, holdings: list[str], positions: dict | None = None) -> dict:
     question = question.strip()
     if not question or len(question) > 700:
         raise ValueError("Ask a question up to 700 characters long.")
@@ -34,6 +35,27 @@ def answer(question: str, symbol: str | None, holdings: list[str]) -> dict:
              "holdings": [h["ticker"] for h in row["holdings"]]}
             for row in portfolio.xray(supported)[:10]
         ]
+    requested_positions = {
+        ticker: value for ticker, value in (positions or {}).items()
+        if ticker in supported and isinstance(value, dict)
+        and isinstance(value.get("shares"), (int, float))
+        and 0 < value["shares"] <= 1_000_000
+    }
+    if requested_positions:
+        context["positions"] = requested_positions
+        live_positions = {}
+        with ThreadPoolExecutor(max_workers=5) as pool:
+            pending = {pool.submit(live_quote, ticker): ticker for ticker in requested_positions}
+            for future in as_completed(pending):
+                ticker = pending[future]
+                try:
+                    quote = future.result()
+                    shares = requested_positions[ticker]["shares"]
+                    live_positions[ticker] = {"shares": shares, "market_value": round(shares * quote["price"], 2),
+                                              "quote": quote}
+                except Exception:
+                    pass
+        context["live_positions"] = live_positions
     prompt = (
         "You are Portfolio X-Ray's financial data assistant. Answer the user's question using "
         "ONLY the JSON data below. Explain calculations plainly. Cite the provider and exact "

@@ -146,7 +146,7 @@ npm install && npm run dev                             # the app at http://local
 ```
 
 ### Keeping the data fresh
-Selected-stock quotes request Finnhub when the stock page opens and refresh every minute; the server keeps each quote for 30 seconds. Historical charts, feed events, filings, and dependency data are saved snapshots. Before a demo that needs fresh historical analysis, run `../.venv/bin/python -m scripts.refresh` from `backend/` (about 8 minutes; needs `GEMINI_API_KEY`, `FINNHUB_API_KEY`, `SEC_USER_AGENT`), then commit the updated `backend/data/cache/story_*.json` and `feed_events.json`.
+Selected-stock and portfolio quotes request Finnhub and refresh every minute; the server keeps each quote for 30 seconds. Enter shares and average cost on Holdings to see live market value and unrealized gain/loss; this information stays in the current browser. Historical charts, feed events, filings, and dependency data are saved snapshots. Before a demo that needs fresh historical analysis, run `../.venv/bin/python -m scripts.refresh` from `backend/` (about 8 minutes; needs `GEMINI_API_KEY`, `FINNHUB_API_KEY`, `SEC_USER_AGENT`), then commit the updated `backend/data/cache/story_*.json` and `feed_events.json`.
 
 ### API endpoints
 | Endpoint | Returns |
@@ -164,6 +164,7 @@ Selected-stock quotes request Finnhub when the stock page opens and refresh ever
 | `GET /feed?holdings=...` | What Changed: last week's events that touch the portfolio, ranked your holding → connected → same sector, with the holdings each reaches and its sources |
 | `GET /quotes` | Last-close price, daily change, period returns, and a 30-day sparkline per company |
 | `GET /market/{symbol}` | Selected-stock quote from Finnhub with provider and market timestamp |
+| `GET /market?symbols=AAPL,NVDA` | Live quotes for up to 15 supported holdings |
 | `POST /chat` | Snowflake Cortex answer grounded in the selected stock and holdings data |
 | `GET /company/{ticker}/revenue-mix` | Who pays a company: each disclosed customer's share of revenue (unnamed ones stay unnamed) and the rest, from its annual report; plus the supported companies whose filings say they depend on it. Any SEC filer; the 13 are precomputed |
 

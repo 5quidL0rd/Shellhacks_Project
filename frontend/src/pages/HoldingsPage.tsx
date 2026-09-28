@@ -1,16 +1,39 @@
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { api, type Quote, type UniverseCompany } from '../api'
-import { AsOf, Change, Sparkline } from '../components'
+import { api, type LiveQuotes, type Quote, type UniverseCompany } from '../api'
+import { Change } from '../components'
 import { money } from '../format'
-import { parseTickers, SAMPLE_PORTFOLIO, useAsync } from '../hooks'
+import { parseTickers, SAMPLE_PORTFOLIO, useAsync, type Position } from '../hooks'
 
 /** Where the portfolio is built: paste, upload, or browse, then review. */
-export function HoldingsPage({ holdings, setHoldings }: { holdings: string[]; setHoldings: (h: string[]) => void }) {
+export function HoldingsPage({ holdings, setHoldings, positions, setPosition }: {
+  holdings: string[]
+  setHoldings: (h: string[]) => void
+  positions: Record<string, Position>
+  setPosition: (symbol: string, position: Position) => void
+}) {
   const universe = useAsync(api.universe, 'universe')
   const quotes = useAsync(api.quotes, 'quotes')
   const companies = useMemo(() => universe.data ?? [], [universe.data])
   const bySymbol = useMemo(() => new Map(companies.map((c) => [c.symbol, c])), [companies])
+  const [live, setLive] = useState<LiveQuotes | null>(null)
+  const [liveError, setLiveError] = useState<string | null>(null)
+  useEffect(() => {
+    if (!holdings.length) { setLive(null); return }
+    let active = true
+    const refresh = () => api.liveQuotes(holdings).then((result) => {
+      if (active) { setLive(result); setLiveError(null) }
+    }).catch((error: Error) => { if (active) setLiveError(error.message) })
+    void refresh()
+    const timer = window.setInterval(() => { void refresh() }, 60_000)
+    return () => { active = false; window.clearInterval(timer) }
+  }, [holdings.join(',')]) // eslint-disable-line react-hooks/exhaustive-deps
+  const valued = holdings.filter((symbol) => (positions[symbol]?.shares ?? 0) > 0 && live?.quotes[symbol])
+  const marketValue = valued.reduce((sum, symbol) => sum + positions[symbol].shares! * live!.quotes[symbol].price, 0)
+  const costed = valued.filter((symbol) => (positions[symbol].averageCost ?? 0) > 0)
+  const costBasis = costed.reduce((sum, symbol) => sum + positions[symbol].shares! * positions[symbol].averageCost!, 0)
+  const gain = costed.reduce((sum, symbol) => sum + positions[symbol].shares! *
+    (live!.quotes[symbol].price - positions[symbol].averageCost!), 0)
 
   const addMany = (tickers: string[]) => setHoldings([...holdings, ...tickers.filter((t) => !holdings.includes(t))])
   const toggle = (ticker: string) =>
@@ -21,18 +44,26 @@ export function HoldingsPage({ holdings, setHoldings }: { holdings: string[]; se
       <div className="page-head">
         <div className="eyebrow">Holdings</div>
         <h1>Your portfolio</h1>
-        <AsOf date={quotes.data?.as_of} />
+        <div className="small muted">Live prices from Finnhub refresh every minute. Historical charts and filing analysis have separate as-of dates.</div>
         <p>
           Paste your tickers, upload a CSV from your brokerage, or pick companies from the list.
           Every screen reads from here.
         </p>
       </div>
       {universe.error && <p className="error">{universe.error}</p>}
+      {holdings.length > 0 && <section className="card position-summary" aria-label="Portfolio value">
+        <div><span className="card-label">Live market value</span><strong>{valued.length ? money(marketValue) : 'Add share counts'}</strong>
+          <small>{valued.length} of {holdings.length} tickers valued with live quotes</small></div>
+        <div><span className="card-label">Unrealized gain / loss</span><strong>{costed.length ? money(gain) : 'Add average cost'}</strong>
+          <small>{costed.length} positions with cost basis{costBasis > 0 ? ` · ${((gain / costBasis) * 100).toFixed(2)}%` : ''}</small></div>
+        <div><span className="card-label">Quote status</span><strong>{liveError ? 'Unavailable' : live ? 'Connected' : 'Loading…'}</strong>
+          <small>{liveError ?? 'Provider timestamps appear beside each price'}</small></div>
+      </section>}
       <div className="holdings-grid">
         <div className="stack">
           <PasteBox known={bySymbol} onAdd={addMany} />
           <HoldingsTable holdings={holdings} bySymbol={bySymbol} setHoldings={setHoldings}
-                         quotes={quotes.data?.quotes ?? {}} />
+                         quotes={quotes.data?.quotes ?? {}} live={live} positions={positions} setPosition={setPosition} />
         </div>
         <CompanyBrowser companies={companies} holdings={holdings} toggle={toggle}
                         setHoldings={setHoldings} />
@@ -93,11 +124,14 @@ function PasteBox({ known, onAdd }: { known: Map<string, UniverseCompany>; onAdd
   )
 }
 
-function HoldingsTable({ holdings, bySymbol, setHoldings, quotes }: {
+function HoldingsTable({ holdings, bySymbol, setHoldings, quotes, live, positions, setPosition }: {
   holdings: string[]
   bySymbol: Map<string, UniverseCompany>
   setHoldings: (h: string[]) => void
   quotes: Record<string, Quote>
+  live: LiveQuotes | null
+  positions: Record<string, Position>
+  setPosition: (symbol: string, position: Position) => void
 }) {
   const rows = [...holdings].sort()
   return (
@@ -112,17 +146,22 @@ function HoldingsTable({ holdings, bySymbol, setHoldings, quotes }: {
       {rows.length === 0 ? (
         <p className="small muted">Nothing yet. Paste tickers above or check companies on the right.</p>
       ) : (
-        <table className="table">
+        <div className="table-scroll"><table className="table position-table">
           <thead>
             <tr>
-              <th>Ticker</th><th>Company</th><th className="num">Price</th><th className="num">Today</th>
-              <th>30 days</th><th aria-label="Actions" />
+              <th>Ticker</th><th>Company</th><th>Shares</th><th>Avg cost</th><th className="num">Price</th>
+              <th className="num">Value</th><th className="num">Gain / loss</th><th aria-label="Actions" />
             </tr>
           </thead>
           <tbody>
             {rows.map((t) => {
               const c = bySymbol.get(t)
               const q = quotes[t]
+              const current = live?.quotes[t]
+              const position = positions[t] ?? { shares: null, averageCost: null }
+              const value = current && position.shares ? current.price * position.shares : null
+              const gain = value !== null && position.averageCost
+                ? value - position.shares! * position.averageCost : null
               return (
                 <tr key={t}>
                   <td><Link to={`/stock/${t}`}><strong>{t}</strong></Link></td>
@@ -130,9 +169,17 @@ function HoldingsTable({ holdings, bySymbol, setHoldings, quotes }: {
                     {c?.name ?? <span className="muted">Not supported</span>}
                     {c && <div className="small muted">{c.sector}</div>}
                   </td>
-                  <td className="num price">{q ? money(q.price) : '—'}</td>
-                  <td className="num"><Change pct={q?.change_pct} /></td>
-                  <td>{q && <Sparkline points={q.sparkline} />}</td>
+                  <td><input className="position-input" type="number" min="0" step="any" inputMode="decimal"
+                             aria-label={`${t} shares`} placeholder="—" value={position.shares ?? ''}
+                             onChange={(e) => setPosition(t, { ...position, shares: validNumber(e.target.value) })} /></td>
+                  <td><input className="position-input" type="number" min="0" step="any" inputMode="decimal"
+                             aria-label={`${t} average cost`} placeholder="—" value={position.averageCost ?? ''}
+                             onChange={(e) => setPosition(t, { ...position, averageCost: validNumber(e.target.value) })} /></td>
+                  <td className="num price">{current ? money(current.price) : q ? money(q.price) : '—'}
+                    <div className="as-of">{current ? `Live · ${new Date(current.market_timestamp ?? current.fetched_at).toLocaleTimeString()}` : 'Saved close'}</div>
+                    <Change pct={current?.change_pct ?? q?.change_pct} /></td>
+                  <td className="num">{value === null ? '—' : money(value)}</td>
+                  <td className="num">{gain === null ? '—' : money(gain)}</td>
                   <td style={{ textAlign: 'right' }}>
                     <button className="ghost-btn" aria-label={`Remove ${t}`}
                             onClick={() => setHoldings(holdings.filter((h) => h !== t))}>Remove</button>
@@ -141,10 +188,16 @@ function HoldingsTable({ holdings, bySymbol, setHoldings, quotes }: {
               )
             })}
           </tbody>
-        </table>
+        </table></div>
       )}
     </section>
   )
+}
+
+function validNumber(raw: string): number | null {
+  if (!raw) return null
+  const value = Number(raw)
+  return Number.isFinite(value) && value >= 0 ? value : null
 }
 
 function CompanyBrowser({ companies, holdings, toggle, setHoldings }: {

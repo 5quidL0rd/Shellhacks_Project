@@ -6,6 +6,7 @@ Snowflake live. The feed and research endpoints in plans.md land here too.
 """
 from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel, Field
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from fastapi.middleware.cors import CORSMiddleware
 try:
     from snowflake.connector import DictCursor
@@ -198,17 +199,36 @@ def market_quote(symbol: str) -> dict:
         raise HTTPException(status_code=502, detail="Live quote provider is unavailable.") from None
 
 
+@app.get("/market")
+def market_quotes(symbols: str = Query(..., description="Comma-separated supported tickers, up to 15")) -> dict:
+    wanted = list(dict.fromkeys(s.strip().upper() for s in symbols.split(",") if s.strip()))
+    if not wanted or len(wanted) > 15 or any(s not in SYMBOLS for s in wanted):
+        raise HTTPException(status_code=400, detail="Choose 1–15 supported tickers.")
+    live: dict = {}
+    errors: dict = {}
+    with ThreadPoolExecutor(max_workers=5) as pool:
+        pending = {pool.submit(live_quote, symbol): symbol for symbol in wanted}
+        for future in as_completed(pending):
+            symbol = pending[future]
+            try:
+                live[symbol] = future.result()
+            except Exception:
+                errors[symbol] = "Live quote unavailable"
+    return {"quotes": live, "errors": errors, "provider": "Finnhub"}
+
+
 class ChatRequest(BaseModel):
     question: str = Field(min_length=1, max_length=700)
     symbol: str | None = None
     holdings: list[str] = Field(default_factory=list, max_length=15)
+    positions: dict[str, dict[str, float | None]] = Field(default_factory=dict)
 
 
 @app.post("/chat")
 def chat(request: ChatRequest) -> dict:
     """Ask Cortex about the selected stock and portfolio data."""
     try:
-        return cortex_chat.answer(request.question, request.symbol, request.holdings)
+        return cortex_chat.answer(request.question, request.symbol, request.holdings, request.positions)
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from None
     except RuntimeError as exc:

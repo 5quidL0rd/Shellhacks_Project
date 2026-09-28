@@ -5,6 +5,18 @@ import { useCallback, useEffect, useState } from 'react'
 export const SAMPLE_PORTFOLIO = ['AAPL', 'NVDA', 'AMD', 'MSFT', 'QCOM', 'CRUS', 'AMZN']
 
 const STORAGE_KEY = 'portfolio-holdings'
+const POSITIONS_KEY = 'portfolio-positions'
+
+export interface Position { shares: number | null; averageCost: number | null }
+
+function readPositions(): Record<string, Position> {
+  try {
+    const raw = JSON.parse(localStorage.getItem(POSITIONS_KEY) ?? '{}')
+    if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return {}
+    return Object.fromEntries(Object.entries(raw).filter(([, value]) =>
+      value && typeof value === 'object' && !Array.isArray(value))) as Record<string, Position>
+  } catch { return {} }
+}
 
 function readSaved(): string[] | null {
   try {
@@ -20,6 +32,7 @@ function readSaved(): string[] | null {
  * saved-portfolio endpoint yet, so localStorage is a convenience only. */
 export function usePortfolio() {
   const [holdings, setHoldingsState] = useState<string[]>(() => readSaved() ?? SAMPLE_PORTFOLIO)
+  const [positions, setPositionsState] = useState<Record<string, Position>>(readPositions)
   const setHoldings = useCallback((next: string[]) => {
     setHoldingsState(next)
     try {
@@ -28,7 +41,14 @@ export function usePortfolio() {
       /* storage unavailable: keep it in memory */
     }
   }, [])
-  return { holdings, setHoldings }
+  const setPosition = useCallback((symbol: string, position: Position) => {
+    setPositionsState((current) => {
+      const next = { ...current, [symbol]: position }
+      try { localStorage.setItem(POSITIONS_KEY, JSON.stringify(next)) } catch { /* keep in memory */ }
+      return next
+    })
+  }, [])
+  return { holdings, setHoldings, positions, setPosition }
 }
 
 export interface AsyncState<T> {
