@@ -1,0 +1,2 @@
+# Local private-key material is supplied through deployment configuration, never uploaded.
+backend/keys/
