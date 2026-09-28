@@ -41,8 +41,8 @@ export function ChatWidget({ holdings, positions }: { holdings: string[]; positi
         </div>
         <div className="chat-messages" aria-live="polite">
           {messages.length === 0 && <div className="chat-intro">
-            Ask about {selected ? `${selected}'s price or` : 'your holdings or'} shared suppliers, risks, and the data behind them.
-            <small>Answers identify their source and date. This is research, not investment advice.</small>
+            Ask about {selected ? `${selected}'s price, major moves, or` : 'stock prices, saved news, or'} your portfolio's shared dependencies.
+            <small>Quotes are from Finnhub; stories and news are dated snapshots. This is research, not investment advice.</small>
           </div>}
           {messages.map((message, index) => <div key={index} className={`chat-message ${message.role}`}>
             <p>{message.text}</p>{message.source && <small>{message.source}</small>}

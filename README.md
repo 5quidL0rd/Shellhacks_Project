@@ -4,13 +4,13 @@ An app that helps experienced investors see what matters to *their* portfolio: w
 
 Current scope: **13 companies** (listed in [data/companies.json](data/companies.json)): the original five, Apple, Nvidia, AMD, TSMC, and Microsoft, plus a pilot of eight: Intel, Micron, Broadcom, Qualcomm, ASML, Cirrus Logic, Amazon, and Alphabet. A 40-company list is drafted in [company_universe_draft.md](company_universe_draft.md).
 
-*Last updated: September 26, 2026*
+*Last updated: September 28, 2026*
 
 ---
 
 ## Quick start (run it locally)
 
-**No API keys needed.** The app reads data that is already committed (the knowledge graph export, the precomputed stories, and saved prices), so a fresh clone runs as-is.
+**No API keys needed for saved views.** The graph export, precomputed stories, and saved prices run from a fresh clone. Current Finnhub quotes and the Cortex assistant need server-side credentials; without them the UI labels saved-price fallbacks or shows a service error.
 
 **You need:** Python 3.10+ and Node 20.19+ (or 22.12+).
 
@@ -48,7 +48,7 @@ On Windows, use `.venv\Scripts\pip` and `..\.venv\Scripts\uvicorn` instead of th
 | **Knowledge graph** for the Connection Map | Done for 13 companies | Built from SEC filings, loaded in Neo4j AuraDB and mirrored in Snowflake |
 | **Story Mode** (why each price move happened) | Done for all 13 companies | 153 explained moves, 113 at high confidence; every citation verified; served by the API |
 | **Snowflake** (sponsor track) | Connected and loaded | Graph, stories, prices, and news are in Snowflake |
-| **Backend API** (FastAPI) | Partly done | Story, graph, X-Ray, portfolio map, and impact endpoints work; feed, research, and saving a portfolio are not started |
+| **Backend API** (FastAPI) | Working for the current demo | Story, graph, X-Ray, map, feed, research, live quotes, and Cortex chat endpoints work; positions are saved in the browser, not to a user account |
 | **Frontend** (React) | Scaffolded and working | Holdings, X-Ray, What Changed, Connection Map, Story Mode, and Research screens on the real API. See [frontend/README.md](frontend/README.md) |
 | **What Changed feed** | Working | Last week's news per company, grouped into cited events by Gemini (precomputed), ranked for your portfolio by the knowledge graph |
 | **Research a New Investment** | Working | Search any SEC filer; fit score, radar vs your holdings, cited brief. See [research_mode.md](research_mode.md) |
@@ -81,7 +81,7 @@ FRED sector  ─┘                    │
 
 Two principles run through everything:
 - **Every claim cites its source.** Graph edges carry a quote from the filing; story explanations may only cite evidence that was fetched first, and uncited claims are replaced with "cause unverified."
-- **The demo never depends on a live call.** Everything is precomputed and saved to files, so a slow or rate-limited service cannot break the presentation.
+- **Saved analysis remains available when live services fail.** Stories, feed, and graph data are committed snapshots; current quotes and Cortex answers depend on Finnhub and Snowflake respectively. The UI distinguishes those states.
 
 ---
 
@@ -95,7 +95,7 @@ Two principles run through everything:
 | `data/exports/` | The graph as CSVs for Snowflake, plus the SQL to reload them | Knowledge graph |
 | `backend/` | FastAPI app: Story Mode, graph endpoints, Snowflake connection and loaders. See [backend/README.md](backend/README.md) | Story Mode / Backend |
 | `frontend/` | React app: X-Ray home, Connection Map, Story Mode. See [frontend/README.md](frontend/README.md) | Frontend |
-| `backend/data/cache/story_*.json` | The five precomputed stories the demo serves | Story Mode |
+| `backend/data/cache/story_*.json` | The 13 precomputed stories the demo serves | Story Mode |
 | `snowflake/` | Table definitions (`schema_contract.sql`), app login setup, and migrations | Snowflake |
 | `data_sources.md` | Story Mode's data sources, their free-tier limits, and the citation rules | Story Mode |
 | `plans.md` | The product plan and build steps | Team |
@@ -165,7 +165,7 @@ Selected-stock and portfolio quotes request Finnhub and refresh every minute; th
 | `GET /quotes` | Last-close price, daily change, period returns, and a 30-day sparkline per company |
 | `GET /market/{symbol}` | Selected-stock quote from Finnhub with provider and market timestamp |
 | `GET /market?symbols=AAPL,NVDA` | Live quotes for up to 15 supported holdings |
-| `POST /chat` | Snowflake Cortex answer grounded in the selected stock and holdings data |
+| `POST /chat` | Snowflake Cortex answer grounded in current quotes, dated stories and news, portfolio dependencies, and any entered positions |
 | `GET /company/{ticker}/revenue-mix` | Who pays a company: each disclosed customer's share of revenue (unnamed ones stay unnamed) and the rest, from its annual report; plus the supported companies whose filings say they depend on it. Any SEC filer; the 13 are precomputed |
 
 ---
@@ -183,7 +183,7 @@ Selected-stock and portfolio quotes request Finnhub and refresh every minute; th
 - Finds each stock's biggest daily moves over 180 days, ranked by how differently it moved from its connected companies.
 - Gathers evidence (price, connected-company moves, SEC filings, news, quarterly results, industry data) and has Gemini explain each move citing only that evidence.
 - Peers come from the knowledge graph, so explanations name the relationship ("its supplier TSM").
-- All 294 citations across the five stories point to real evidence.
+- The saved stories link their explanations to dated evidence; open a citation in the app to inspect its source.
 
 ### Snowflake
 - A dedicated app login (`SHELLHACKS_APP`) with key-pair authentication and limited permissions.
@@ -192,26 +192,10 @@ Selected-stock and portfolio quotes request Finnhub and refresh every minute; th
 
 ---
 
-## Next steps
+## Current limits and next work
 
-### High priority (affects the demo)
-1. **Lock the company list (Step 1).** Pick the 30–50 companies and build the sample demo portfolio. Everything else scales from this list.
-2. **Tighten two Story Mode prompt rules** before the next rebuild. Explanations now have news behind them (low confidence fell from 108 to 7 of 153 moves), but Gemini sometimes rates "high" on thin evidence (TSMC's July 1 drop cites one general article), and sometimes calls a move "shared" when connected companies moved far less (AMD +9.95% vs peers around +2%).
-3. **Build out the frontend.** The scaffold (`frontend/`) has working X-Ray, Connection Map, and Story Mode screens on the real API. Next: polish for the demo, the What Changed feed screen, and the Research screen.
-4. **Build the What Changed feed.** Rank news by relevance: owned company, then connected company, then same sector. The `NEWS` and `GRAPH_EDGES` tables already hold what the ranking needs.
-
-### Medium priority
-5. **Scale the knowledge graph to the full list.** For each company: add it to `data/companies.json`, run the three `kg` commands, hand-check the JSON, re-export, and reload Snowflake.
-6. **Fill `FUNDAMENTALS`** with revenue growth, profit margin, debt-to-equity, volatility, and market cap for the radar shape in Research a New Investment.
-
-### Decisions made
-- **Snowflake Cortex will not be used** (not available to the project). Snowflake stores and serves the data; all AI work runs on Gemini.
-
-### Decisions the team still owes
-- **The two general-knowledge graph edges** (TSMC supplies Apple; Nvidia supplies Microsoft): keep them, clearly marked as manual, or show only what filings state.
-- **Whether the Connection Map shows outside companies** (Samsung, Foxconn, ...) or only our holdings. Recommendation: keep them in the graph and filter on `in_universe` in the query, since outside suppliers are what reveal hidden shared risk.
-- **The empty `GRAPH_EDGES_LEGACY_20260926` table** in Snowflake: delete it if the backup is no longer needed.
-
-### Later (plans.md Steps 5–6)
-- Natural-language questions over the graph (GraphRAG), e.g. "What do I own that depends on TSMC?"
-- Feature freeze, polish, rehearse the demo end to end, and record a backup video.
+- The supported portfolio and Story Mode universe is 13 companies. Research search reaches more SEC filers, but graph and precomputed stories do not yet cover all of them.
+- Finnhub quotes refresh in the browser every minute; this is not an exchange-streaming feed. Historical charts, news events, filing disclosures, and graph relationships have their own saved as-of dates and need an explicit rebuild to refresh.
+- Share counts and average costs are optional and stay in this browser's local storage. There is no brokerage connection, account sync, order execution, or personalized investment advice.
+- The public Cortex endpoint uses Snowflake credits. Before sustained public traffic, add abuse protection and cost monitoring; after a demo, disable or restrict the endpoint if it is not needed.
+- Rehearse the deployed app's quote, story, holdings, and assistant flows, and verify both frontend and API health after each deployment.
