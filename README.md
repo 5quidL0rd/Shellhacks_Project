@@ -146,7 +146,7 @@ npm install && npm run dev                             # the app at http://local
 ```
 
 ### Keeping the data fresh
-Selected-stock and portfolio quotes request Finnhub and refresh every minute; the server keeps each quote for 30 seconds. Enter shares and average cost on Holdings to see live market value and unrealized gain/loss; this information stays in the current browser. Historical charts, feed events, filings, and dependency data are saved snapshots. Before a demo that needs fresh historical analysis, run `../.venv/bin/python -m scripts.refresh` from `backend/` (about 8 minutes; needs `GEMINI_API_KEY`, `FINNHUB_API_KEY`, `SEC_USER_AGENT`), then commit the updated `backend/data/cache/story_*.json` and `feed_events.json`.
+Selected-stock and portfolio quotes request Finnhub and refresh every minute; the server keeps each quote for 30 seconds. Enter shares and average cost on Holdings to see live market value, change since the previous close, and unrealized gain/loss; this information stays in the current browser. Historical charts, feed events, filings, and dependency data are saved snapshots. Before a demo that needs fresh historical analysis, run `../.venv/bin/python -m scripts.refresh` from `backend/` (about 8 minutes; needs `GEMINI_API_KEY`, `FINNHUB_API_KEY`, `SEC_USER_AGENT`), then commit the updated `backend/data/cache/story_*.json` and `feed_events.json`.
 
 ### API endpoints
 | Endpoint | Returns |

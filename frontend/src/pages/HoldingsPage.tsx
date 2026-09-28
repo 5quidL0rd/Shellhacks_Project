@@ -30,6 +30,12 @@ export function HoldingsPage({ holdings, setHoldings, positions, setPosition }: 
   }, [holdings.join(',')]) // eslint-disable-line react-hooks/exhaustive-deps
   const valued = holdings.filter((symbol) => (positions[symbol]?.shares ?? 0) > 0 && live?.quotes[symbol])
   const marketValue = valued.reduce((sum, symbol) => sum + positions[symbol].shares! * live!.quotes[symbol].price, 0)
+  const dailyValued = valued.filter((symbol) => (live!.quotes[symbol].previous_close ?? 0) > 0)
+  const previousValue = dailyValued.reduce((sum, symbol) =>
+    sum + positions[symbol].shares! * live!.quotes[symbol].previous_close!, 0)
+  const dailyChange = dailyValued.reduce((sum, symbol) =>
+    sum + positions[symbol].shares! *
+      (live!.quotes[symbol].price - live!.quotes[symbol].previous_close!), 0)
   const costed = valued.filter((symbol) => (positions[symbol].averageCost ?? 0) > 0)
   const costBasis = costed.reduce((sum, symbol) => sum + positions[symbol].shares! * positions[symbol].averageCost!, 0)
   const gain = costed.reduce((sum, symbol) => sum + positions[symbol].shares! *
@@ -56,6 +62,8 @@ export function HoldingsPage({ holdings, setHoldings, positions, setPosition }: 
           <small>{valued.length} of {holdings.length} tickers valued with live quotes</small></div>
         <div><span className="card-label">Unrealized gain / loss</span><strong>{costed.length ? money(gain) : 'Add average cost'}</strong>
           <small>{costed.length} positions with cost basis{costBasis > 0 ? ` · ${((gain / costBasis) * 100).toFixed(2)}%` : ''}</small></div>
+        <div><span className="card-label">Since previous close</span><strong>{dailyValued.length ? money(dailyChange) : 'Add share counts'}</strong>
+          <small>{dailyValued.length} positions with live prior-close data{previousValue > 0 ? ` · ${((dailyChange / previousValue) * 100).toFixed(2)}%` : ''}</small></div>
         <div><span className="card-label">Quote status</span><strong>{liveError ? 'Unavailable' : live ? 'Connected' : 'Loading…'}</strong>
           <small>{liveError ?? 'Provider timestamps appear beside each price'}</small></div>
       </section>}
